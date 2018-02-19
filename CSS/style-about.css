@@ -1,0 +1,185 @@
+/* Border And Fix for unsupported devices  */
+#top, #bottom, #left, #right {
+	background: #ffffff;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+@media 
+
+/* Fairly small screens including iphones */
+only screen and (max-width: 500px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+
+{
+	#top, #bottom, #left, #right { display: inline-block; }
+}
+
+/* Back to regularly scheduled program  */
+
+
+html {
+	font-family: Roboto;
+	font-size: 16px;
+    width: 100vw;
+	height: 100vh;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+    background-color: #000000;
+	color: #ffffff;
+}
+
+a:active { 
+    color: #ffffff;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff
+}
+
+a:imageLink{
+    text-decoration:none;
+}
+
+a:imagaeLink:hover {
+    text-decoration:none;
+}
+
+.container {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+
+}
+
+.favorites {
+	display: flex;
+	flex-direction: row;
+}
+
+.favorites-list {
+	display: inline;
+    text-align: center;
+	width: 33rem;
+	margin: 2rem;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+}
+
+.text-box {
+	display: inline;
+    text-align: left;
+	width: 30rem;
+}
+
+
+.social {
+	display: flex;
+	flex-direction: row;
+}
+
+.social_list {
+    text-align: center;
+    width: 10rem;
+    margin: 2rem;
+}
+
+.text {
+    text-align: left;
+    width: 10rem;
+    margin: 2rem;
+}
+
+
+a svg:hover #instagram,
+a svg:hover #Twitter,
+a svg:hover #Mastodon { 
+  fill: #222222;
+}
+
+a svg:hover #Mastodon2 {
+    fill: #000000
+}
+
+a svg #instagram,
+a svg #Twitter, 
+a svg #Mastodon,
+a svg #Mastodon2 {
+    transition: 400ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 400ms;
+    -webkit-transition-timing-function: ease-in-out;
+    border-bodem: 1px solid #ffffff;
+}
+
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+ul > li > p {
+	font-weight: bold;
+	text-align: left;
+	border-bottom: 1px solid #ffffff;
+	padding-right: 100%;
+}
+
+ul > li > a {
+	transition: 400ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 400ms;
+    -webkit-transition-timing-function: ease-in-out;
+    color: #ffffff;
+	outline: none;
+    display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+ul > li > a:hover {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+/* webkit compat */
+.container {
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
+}
+
+.favorites {
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+}
