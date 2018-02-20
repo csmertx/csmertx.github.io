@@ -15,7 +15,7 @@
 		height: 15px;
 		}
 		#top { top: 0; }
-		#bottom { bottom: 0; }
+		#bottom { bottom: 0; padding-right:15pt;}
 
 @media 
 
@@ -61,18 +61,7 @@ a:imagaeLink:hover {
 	display: inline;
     text-align: center;
 	width: 10rem;
-	margin: 2rem;
-}
-
-.text {
-	display: flex;
-	flex-direction: column;
-}
-
-.text-box {
-	display: inline;
-    text-align: left;
-	width: 10rem;
+	margin: 0rem;
 }
 
 
@@ -237,7 +226,7 @@ body.navbody{
   background-color:#000000;
   margin-right:30px;
   margin-left:13px;
-  margin-bottom:10pt;
+  margin-bottom:0pt;
   margin-top:10px;
   width:200px;
   height:200px;

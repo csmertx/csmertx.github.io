@@ -15,7 +15,7 @@
 		height: 15px;
 		}
 		#top { top: 0; }
-		#bottom { bottom: 0; }
+		#bottom { bottom: 0; padding-right:15pt;}
 
 @media 
 
@@ -66,6 +66,7 @@ a:imageLink{
 a:imagaeLink:hover {
     text-decoration:none;
 }
+
 
 .container {
     display: flex;
