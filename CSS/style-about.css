@@ -121,18 +121,13 @@ a:imagaeLink:hover {
 
 a svg:hover #instagram,
 a svg:hover #Twitter,
-a svg:hover #Mastodon { 
+a svg:hover #github { 
   fill: #222222;
-}
-
-a svg:hover #Mastodon2 {
-    fill: #000000
 }
 
 a svg #instagram,
 a svg #Twitter, 
-a svg #Mastodon,
-a svg #Mastodon2 {
+a svg #github {
     transition: 400ms;
     transition-timing-function: ease-in-out;
     -webkit-transition: 400ms;
