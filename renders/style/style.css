@@ -146,7 +146,7 @@ html {
 
 body{
   color:#ffffff;
-  background-color:#000000;
+  background-image: url("../background_noise_gtk_dark_1920x1080.jpg");
   font-family:Roboto; font-size: 10pt;
   text-align:center;
   margin: 10pt;
@@ -167,7 +167,7 @@ body.navbody{
   margin-right: auto;
   margin-top: 50pt;
   margin-bottom: -20pt;
-  background-color:#000000;
+  /*background-color:#000000;*/
   color:#ffffff;
   padding: 0pt;
   font-weight:bold;
@@ -175,7 +175,7 @@ body.navbody{
   width: 746px; /* width of page + padding. */
 }
 .page{
-  background-color:#000000;
+  /*background-color:#000000;<F8>*/
   padding: 10pt;
   padding-bottom: 7pt;
   padding-top: 10pt;
@@ -194,7 +194,7 @@ body.navbody{
   font-weight:normal;
   font-size:10pt;
   background-image:none;
-  background-color:#000000;
+  /*background-color:#000000;*/
   padding: 0pt;
   text-align:right;
   margin-left: auto;

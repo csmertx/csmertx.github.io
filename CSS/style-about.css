@@ -43,7 +43,7 @@ body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
-    background-color: #000000;
+    background-image: url("../background_noise_gtk_dark_1920x1080.jpg");
 	color: #ffffff;
 }
 
