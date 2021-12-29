@@ -1,0 +1,10 @@
+---
+more:
+  - name: Email
+    ref: "mailto:cschammert@duck.com"
+    external: true
+    icon: "gdoc_email"
+  - name: "View Source"
+    ref: "https://github.com/csmertx/csmertx.github.io"
+    external: true
+    icon: "gdoc_github"
