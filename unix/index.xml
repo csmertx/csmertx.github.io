@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unix on csmertx</title><link>https://csmertx.github.io/unix/</link><description>Recent content in Unix on csmertx</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/unix/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://csmertx.github.io/Unix/FreeBSD/freebsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/FreeBSD/freebsd/</guid><description>FreeBSD Installation Notes Live Login user: root password: {automatic login} Take note =&amp;gt; boot into the system before completing any of the following!
+Wifi troubles.. =&amp;gt; vim /etc/rc.conf (sometimes&amp;hellip;)
+-- ifconfig_em0=&amp;quot;DHCP&amp;quot;
+-- ifconfig_em0_ipv6=&amp;quot;inet6 accept_rtadv&amp;quot;
+++ wlans_ath0=&amp;quot;wlan0&amp;quot;
+++ ifconfig_wlan0=&amp;quot;WPA SYNCDHCP&amp;quot;
+=&amp;gt; ifconfig wlan0 create wlandev ath0 (sometimes..) =&amp;gt; ifconfig wlan0 up scan (bork or no bork?..) =&amp;gt; vim /etc/wpa_supplicant.</description></item><item><title/><link>https://csmertx.github.io/Unix/NetBSD/netbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NetBSD/netbsd/</guid><description>NetBSD Installation Notes Preparing the USB drive (to use CD sets for full install..) =&amp;gt; dd if=/dir/NetBSD-(version)-amd64-install.img of=/dev/sdX bs=8M; sync
+Preparing Wifi Access =&amp;gt; vi /etc/wpa_supplicant.conf
+++ network={
+++ ssid=&amp;quot;yourssid&amp;quot; ++ scan_ssid=1 ++ key_mgmt=WPA-PSK ++ psk=&amp;quot;yourpsk&amp;quot; ++ }
+=&amp;gt; vi /etc/rc.conf
+++ dhcpcd_flags=&amp;quot;-q -b&amp;quot; ++ wpa_supplicant=&amp;quot;YES&amp;quot; ++ wpa_supplicant_flags=&amp;quot;-B -i ath0 -c /etc/wpa_supplicant.conf&amp;quot; =&amp;gt; vi /etc/ifconfig.ath0
+++ up
+++ dhcp
+=&amp;gt; /etc/rc.d/wpa_supplicant start</description></item><item><title/><link>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</guid><description>NomadBSD Installation notes Accoutrements&amp;hellip;
+=&amp;gt; vim /etc/rc.conf
+++ wlans_rtwn0=&amp;quot;wlan0&amp;quot; ++ ifconfig_wlan0=&amp;quot;WPA DHCP&amp;quot; ++ ifconfig_ale0=&amp;quot;DHCP&amp;quot; =&amp;gt; vim /boot/loader.conf
+++ if_rtwn_usb_load=&amp;quot;YES&amp;quot;
+++ if_rtwn_pci_load=&amp;quot;YES&amp;quot;
+=&amp;gt; vim /etc/wpa_supplicant.conf
+++ network={
+++ ssid=&amp;quot;myssid&amp;quot;
+++ psk=&amp;quot;mypsk&amp;quot;
+++ }
+=&amp;gt; service netif restart
+DIY Consultation:
+https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/network-wireless.html
+=&amp;gt; vim ~/.config/openbox/autostart.sh
+++ dsbmc-cli -a &amp;amp;
+++ xmodmap ~/.Xmodmap</description></item><item><title/><link>https://csmertx.github.io/Unix/OpenBSD/openbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/OpenBSD/openbsd/</guid><description>OpenBSD Installation notes Accoutrements&amp;hellip;
+Install with X and xenodm for desktop (6.4 defaults to fvwm) To list HDD/SSD/USB drives =&amp;gt; sysctl hw.disknames
+To list partitions of drive sdX, etc. =&amp;gt; disklabel (e.g. disklabel sd1)
+For urtwn-rtl8188eufw (Rosewill Realtek rtl8188eufw) =&amp;gt; firmware.openbsd.org/firmware-dist/urtwn-1.2.tar.gz
+=&amp;gt; cp /dir/urtwn-1.2.tar.gz /etc/firmware/urtwn-1.2.tar.gz
+=&amp;gt; cd /etc/firmware
+=&amp;gt; tar zvxf urtwn-1.2.tar.gz
+=&amp;gt; cp /etc/firmware/urtwn-1.</description></item></channel></rss>
