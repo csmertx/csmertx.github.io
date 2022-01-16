@@ -7,6 +7,8 @@
 
 When asked for activation key use it, and Windows installer will automatically choose the correct installation edition.  I can confirm that this too works for a previous OEM installation.  I used this process to activate Win10 RTM OEM on my Thinkpad X1 Extreme Gen. 2 that I wiped immediately after unboxing in favor of Linux.
 
+- Copy & Paste w/virtmanager: https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe
+
 ### Windows & DOS VM requirements
 
 #### Windows 7
