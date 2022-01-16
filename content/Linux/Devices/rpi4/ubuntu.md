@@ -24,6 +24,7 @@ password: "wifipassword"
 - sudo apt install libraspberrypi-bin
 - sudo apt install aptitude neofetch tmuxinator ranger sxiv yank xsel calcurse vim powerline ubuntu-desktop
 - sudo apt install vim-gtk3 mplayer mpv w3m-img wavemon guake barrier pi-bluetooth dosbox
+- Kubuntu 20.04: sudo apt install kubuntu-desktop
 - sudo apt install gnome-tweaks gnome-shell-extensions chrome-gnome-shell dconf-editor lm-sensors
 - sudo useradd -d /home/user -m user
 - sudo passwd user
@@ -46,7 +47,7 @@ password: "wifipassword"
 
 ### GPU Hardware acceleration
 - sudov /boot/firmware/usercfg.txt
-- # User added
+- \# User added
 - dtoverlay=vc4-fkms-v3d
 - max_framebuffers=2
 - gpu_mem=128

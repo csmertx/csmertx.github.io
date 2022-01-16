@@ -1,2 +1,2 @@
-### Grok Device id
-- aplay -l
+## > Grok Device id
+    $ aplay -l

@@ -1,4 +1,4 @@
-### Steps..
+### > Steps..
 - Center that model
     - Select .stl
     - Switch to Part Workbench

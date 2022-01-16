@@ -1,2 +1,2 @@
-## Add user to group
-usermod -a -G video user
+## > Add user to group
+    $ usermod -a -G video user
