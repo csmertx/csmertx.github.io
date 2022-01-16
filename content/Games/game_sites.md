@@ -1,6 +1,4 @@
-## Where to buy games
-
-### Usual Suspects
+## > Game websites
 - store.steampowered.com
 - gog.com
 - itch.io

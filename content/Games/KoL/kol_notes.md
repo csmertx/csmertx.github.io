@@ -1,4 +1,4 @@
-### 2019-07-30
+## > 2019-07-30
 
 **Aftercore**
 
@@ -10,10 +10,10 @@ Other things to do in aftercore (without needing content unlockers): Kill your n
 
 Sourced: **/r/kol via /u/WinkingAnus**
 
-### 2020-04-19
+## > 2020-04-19
 Recommended gear for The Sea: Rusty diving helmet, pristine fish scales x6, sea chaps x2, sea cowboy hat (preferred), teflon swim fins
 
-### 2021-07-18
+## > 2021-07-18
 - Path to pickpocketing for all classes
     - Tiny black hole recipe
         - Clan VIP Lounge invitation (Mr. Store $10)
