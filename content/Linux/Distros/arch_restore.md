@@ -1,6 +1,15 @@
 ## Arch Linux restore bootloader
 
-### netctl
+### iwctl (wireless access)
+- iwctl
+  - station wlan0 (device found with: ip link) connect YOURFRIENDLYNEIGHBORHOODWIFIADDRESS
+    - Enter passphrase
+  - exit
+
+### Chroot (chroot: failed to run command /usr/bin/zsh: No such file or directory)
+- chroot /mnt /bin/bash
+
+### netctl (outdated as of: 2022)
 - cp /etc/netctl/examples/wireless-wpa /etc/netctl/<essid_name>
 - vi /etc/netctl/<essid_name> (ip link), essid, key, etc.
 - netctl start <essid_name>
