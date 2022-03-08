@@ -25,7 +25,7 @@ enableRobotsTXT = true
    tag = "tags"
 
 [params]
-geekdocLogo = "X-400.svg"
+geekdocLogo = "X-400_diamondplate.svg"
 #geekdocToC = 3
 #geekdocMenuBundle = true
 geekdocBreadcrumb = false
