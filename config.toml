@@ -1,5 +1,5 @@
-baseURL = "https://csmertx.github.io"
-title = "csmertx"
+baseURL = "https://xtrafrood.github.io"
+title = "xtrafrood"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
@@ -25,7 +25,7 @@ enableRobotsTXT = true
    tag = "tags"
 
 [params]
-geekdocLogo = "captainscarlet.png"
+geekdocLogo = "X-400.svg"
 #geekdocToC = 3
 #geekdocMenuBundle = true
 geekdocBreadcrumb = false
