@@ -26,5 +26,5 @@ main:
     ref: "/about"
     icon: "gdoc_notification"
     sub:
-      - name: csmertx
-        ref: "/about/csmertx.md"
+      - name: xtrafrood
+        ref: "/about/xtrafrood.md"
