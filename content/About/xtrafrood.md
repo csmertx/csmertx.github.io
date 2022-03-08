@@ -15,6 +15,6 @@ An online home for all my notes, and future projects.
 - https://etc.usf.edu/presentations/extras/letters/fridge_magnets/orange/index.html
 
 ## ᐳ Errors?
-Yep, can do.  Please file a bug report or email xtrafrood (2) gmail.com.  
+Yep, can do.  Please file a bug report or email xtrafrood (radio edit) gmail.com.  
 
 \*_duck.com is part of a DuckDuckGo forwarding service that removes trackers from emails._
