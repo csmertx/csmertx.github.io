@@ -1,5 +1,5 @@
 # xtrafrood.github.io
-I have a few pages that need tending.  Please pardon my dust.
+A few pages need tending.  Pardon my dust.
 
 ### TODO
 - ~~gh-pages / Hugo~~
