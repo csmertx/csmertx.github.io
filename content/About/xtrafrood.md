@@ -11,6 +11,9 @@ An online home for all my notes, and future projects.
 ## ᐳ Hugo theme used
 - https://github.com/thegeeklab/hugo-geekdoc
 
+## ᐳ X icon
+- https://etc.usf.edu/presentations/extras/letters/fridge_magnets/orange/index.html
+
 ## ᐳ Errors?  Questions?  Feedback?
 I would be flattered to address any of these things.  Please email csmertx@duck.com\* or file a bug report.  
 
