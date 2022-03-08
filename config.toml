@@ -25,7 +25,8 @@ enableRobotsTXT = true
    tag = "tags"
 
 [params]
-geekdocLogo = "xtrafrood.png"
+geekdocLogo = "xtrafrood_ukraine_flag_overlay.png"
+#http://flagmypicture.com/
 #geekdocToC = 3
 #geekdocMenuBundle = true
 geekdocBreadcrumb = false
