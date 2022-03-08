@@ -22,3 +22,30 @@
     #Add new script to Autostart (Windows key > type auto > autostart)
     #Might have to use the GUI to set the display through Settings > Display and Monitor > Resolution drop down menu
     #Reboot
+ 
+ ### Screen tearing (220308)
+- sudov /etc/profile.d/kwin.sh
+    ```
+    #!/bin/sh
+    export __GL_YIELD=“USLEEP”
+    ```
+    - If that doesn't work, clear that line, and add..
+    ```
+    #!/bin/sh
+    export KWIN_TRIPLE_BUFFER=1
+    ```
+- Or.. Disable KDE compositor and swap with picom
+    - This is the route that worked for my Quadro K620 & Kubuntu 21.10
+        - System Settings > Display and Monitor > Compositor > Toggle Enable compositor on startup
+        - apti picom
+        ```
+        cp /usr/share/doc/picom/examples/picom.sample.conf ~/.config/picom.conf
+        ```
+        - create script:
+            ```
+            #!/bin/sh
+            picom -b
+            ```
+    - Add script to startup: System Settings > Startup and Shutdown > Autostart > Add > Add Login Script
+
+- Nvidia Developer forum post source: https://forums.developer.nvidia.com/t/screen-tearing/37789/2
