@@ -37,7 +37,7 @@
 - Or.. Disable KDE compositor and swap with picom
     - This is the route that worked for my Quadro K620 & Kubuntu 21.10
         - System Settings > Display and Monitor > Compositor > Toggle Enable compositor on startup
-        - apti picom
+        - apti picom (source w/dependencies included: https://github.com/yshui/picom)
         ```
         cp /usr/share/doc/picom/examples/picom.sample.conf ~/.config/picom.conf
         ```
