@@ -36,7 +36,7 @@
     ```
 - Or.. Disable KDE compositor and swap with picom
     - This is the route that worked for my Quadro K620 & Kubuntu 21.10
-        - System Settings > Display and Monitor > Compositor > Toggle Enable compositor on startup
+        - System Settings > Display and Monitor > Compositor > Toggle: Enable compositor on startup
         - apti picom (source w/dependencies included: https://github.com/yshui/picom)
         ```
         cp /usr/share/doc/picom/examples/picom.sample.conf ~/.config/picom.conf
@@ -47,5 +47,6 @@
             picom -b
             ```
     - Add script to startup: System Settings > Startup and Shutdown > Autostart > Add > Add Login Script
+    - System Settings > Display and Monitor > Compositor > Toggle: Allow applications to block compositing
 
 - Nvidia Developer forum post source: https://forums.developer.nvidia.com/t/screen-tearing/37789/2
