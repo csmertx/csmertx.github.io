@@ -34,7 +34,7 @@
     #!/bin/sh
     export KWIN_TRIPLE_BUFFER=1
     ```
-- Or.. Disable KDE compositor and swap with picom
+- If the above does nothing then disable KDE compositor and use Picom
     - This is the route that worked for my Quadro K620 & Kubuntu 21.10
         - System Settings > Display and Monitor > Compositor > Toggle: Enable compositor on startup
         - apti picom (source w/dependencies included: https://github.com/yshui/picom)
@@ -46,7 +46,9 @@
             #!/bin/sh
             picom -b
             ```
-    - Add script to startup: System Settings > Startup and Shutdown > Autostart > Add > Add Login Script
-    - System Settings > Display and Monitor > Compositor > Toggle: Allow applications to block compositing
+    - Add Picom script to startup
+        - System Settings > Startup and Shutdown > Autostart > Add > Add Login Script
+    - Clear tearing for certain applications: 
+        - System Settings > Display and Monitor > Compositor > Toggle: Allow applications to block compositing
 
 - Nvidia Developer forum post source: https://forums.developer.nvidia.com/t/screen-tearing/37789/2
