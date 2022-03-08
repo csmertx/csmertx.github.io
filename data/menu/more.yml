@@ -1,7 +1,7 @@
 ---
 more:
   - name: Email
-    ref: "mailto:cschammert@duck.com"
+    ref: "mailto:xtrafrood@gmail.com"
     external: true
     icon: "gdoc_email"
   - name: "View Source"
