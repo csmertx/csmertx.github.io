@@ -35,7 +35,7 @@
     export KWIN_TRIPLE_BUFFER=1
     ```
 - If the above does nothing then disable KDE compositor and use Picom
-    - This is the route that worked for my Quadro K620 & Kubuntu 21.10
+    - This is the route that worked for my Quadro K620 & Kubuntu 21.10 (reverted back to KDE/Plasma compositor: 220309)
         - System Settings > Display and Monitor > Compositor > Toggle: Enable compositor on startup
         - apti picom (source w/dependencies included: https://github.com/yshui/picom)
         ```
