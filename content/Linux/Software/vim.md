@@ -9,7 +9,9 @@
     ```
     vim example.txt.gpg
     ```
+    ```
     - enter password
+    ```
     ```
     vim ~/.{bas,zs,fis}hrc
     ```
@@ -45,32 +47,32 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim ~/.vimrc
 ```
 ```    
-    set nocompatible                  "Switch off later if needed
-    filetype off                      "^same
-    set rtp+=~/.vim/bundle/Vundle.vim
-    call vundle#begin()
-    Plugin 'VundleVim/Vundle.vim'
-    Plugin 'ctrlpvim/ctrlp.vim'
-    Plugin 'preservim/nerdtree'
-    Plugin 'Yggdroot/indentline'
-    Plugin 'vim-syntastic/syntastic'
-    Plugin 'vim-airline/vim-airline'
-    Plugin 'lervag/vimtex'
-    Plugin 'xuhdev/SingleCompile'
-    Plugin 'godlygeek/tabular'
-    Plugin 'henrik/vim-indexed-search'
-    Plugin 'vim-airline/vim-airline-themes'
-    Plugin 'rafi/awesome-vim-colorschemes'
-    call vundle#end()
-    filetype plugin indent on
-    " Brief help
-    " :PluginList       - lists configured plugins
-    " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-    " :PluginSearch foo - searches for foo; append `!` to refresh local cache
-    " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-    "
-    " see :h vundle for more details or wiki for FAQ
-    " Put your non-Plugin stuff after this line
+set nocompatible                  "Switch off later if needed
+filetype off                      "^same
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'preservim/nerdtree'
+Plugin 'Yggdroot/indentline'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'vim-airline/vim-airline'
+Plugin 'lervag/vimtex'
+Plugin 'xuhdev/SingleCompile'
+Plugin 'godlygeek/tabular'
+Plugin 'henrik/vim-indexed-search'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'rafi/awesome-vim-colorschemes'
+call vundle#end()
+filetype plugin indent on
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
 ```
 ### Change Color scheme
 - :colors [theme]
