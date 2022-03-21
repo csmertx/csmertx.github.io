@@ -9,9 +9,7 @@
     ```
     vim example.txt.gpg
     ```
-    ```
     - enter password
-    ```
     ```
     vim ~/.{bas,zs,fis}hrc
     ```
