@@ -13,8 +13,8 @@
     ```
     vim ~/.{bas,zs,fis}hrc
     ```
-        - ++ GPG_TTY=`tty`
-        - ++ export GPG_TTY
+        ++ GPG_TTY=$(tty)
+        ++ export GPG_TTY
 
 ### Turn [OFF] Auto Backup
 ```
