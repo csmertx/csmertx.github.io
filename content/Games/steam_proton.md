@@ -18,7 +18,7 @@
 #### Protontricks
 - https://flathub.org/apps/details/com.github.Matoking.protontricks
 ```
-vim .bashrc
+vim ~/.bashrc
 ++ alias protontricks='flatpak run com.github.Matoking.protontricks'
 source ~/.bashrc
 ```
