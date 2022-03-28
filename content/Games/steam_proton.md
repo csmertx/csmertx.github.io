@@ -18,9 +18,9 @@
 #### Protontricks
 - https://flathub.org/apps/details/com.github.Matoking.protontricks
 ```
-vim ~/.bashrc
+bashrc
 ++ alias protontricks='flatpak run com.github.Matoking.protontricks'
-source ~/.bashrc
+bashsrc
 ```
 ```
 protontricks -s "Name Of Super Awesome Game"
