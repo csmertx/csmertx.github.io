@@ -15,7 +15,7 @@ An online home for all my notes, and future projects.
 - paci == sudo pacman -S
 - pacr == sudo pacman -R
 - tri == Trizen (Perl based AUR package manager--https://github.com/trizen/trizen)
-- yay == Yay (AUT package manager that ships with EndeavourOS--https://github.com/Jguer/yay)
+- yay == Yay (AUR package manager that ships with EndeavourOS--https://github.com/Jguer/yay)
 
 ### Hugo theme used
 - https://github.com/thegeeklab/hugo-geekdoc
