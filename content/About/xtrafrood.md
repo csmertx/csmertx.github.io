@@ -7,6 +7,8 @@ An online home for all my notes, and future projects.
 - sudov == sudo vim (When I use anything else I leave behind random characters like: :wq)
 - sudor == sudo ranger (Python based TUI file manager--not great for moving around lots of data, but perfect for the quickness)
 - sudoc == sudo chmod +X (make script executable)
+- bashrc == vim ~/.bashrc
+- bashsrc == source ~/.bashrc
 - TUI == Terminal User Interface
 - GUI == Graphical User Interface
 - AUR == Arch Linux User Repository (user supported repos--UAYOR)
