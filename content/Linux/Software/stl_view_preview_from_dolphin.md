@@ -1,3 +1,6 @@
+![Screenshot of opening view3dscene with Dolphin](Screenshot_20220401_000441.png "Screenshot of opening view3dscene with Dolphin")
+![Screenshot of view3dscene](Screenshot_20220401_000521.png "Screenshot of view3dscene")
+
 #### View3dscene installation
 
 - Download link: https://castle-engine.io/view3dscene.php
