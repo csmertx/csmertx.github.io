@@ -4,12 +4,12 @@ resources:
     src: "Screenshot_20220401_000441.png"
     title: Kubuntu 21.10 screenshot of opening STL with view3dscene (1)
     params:
-      credits: "[xtrafrood](https://xtrafrood.github.io)
+      credits: "[xtrafrood](https://xtrafrood.github.io)"
   - name: Screenshot_20220401_000521
     src: "Screenshot_20220401_000521.png"
     title: Kubuntu 21.10 screenshot of view3dscene (1)
     params:
-      credits: "[xtrafrood](https://xtrafrood.github.io)
+      credits: "[xtrafrood](https://xtrafrood.github.io)"
 ---
 
 {{< img name="Screenshot_20220401_000441" size="large" lazy=false >}}
