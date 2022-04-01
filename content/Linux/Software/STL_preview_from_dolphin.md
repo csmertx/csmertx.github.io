@@ -1,5 +1,19 @@
-![Screenshot of opening view3dscene with Dolphin](Screenshot_20220401_000441.png "Screenshot of opening view3dscene with Dolphin")
-![Screenshot of view3dscene](Screenshot_20220401_000521.png "Screenshot of view3dscene")
+---
+resources:
+  - name: Screenshot_20220401_000441
+    src: "Screenshot_20220401_000441.png"
+    title: Kubuntu 21.10 screenshot of opening STL with view3dscene (1)
+    params:
+      credits: "[xtrafrood](https://xtrafrood.github.io)
+  - name: Screenshot_20220401_000521
+    src: "Screenshot_20220401_000521.png"
+    title: Kubuntu 21.10 screenshot of view3dscene (1)
+    params:
+      credits: "[xtrafrood](https://xtrafrood.github.io)
+---
+
+{{< img name="Screenshot_20220401_000441" size="large" lazy=false >}}
+{{< img name="Screenshot_20220401_000521" size="large" lazy=false >}}
 
 #### View3dscene installation
 
