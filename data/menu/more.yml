@@ -1,7 +1,7 @@
 ---
 more:
   - name: Email
-    ref: "mailto:xtrafrood@gmail.com"
+    ref: "mailto:xtrafrood@protonmail.com"
     external: true
     icon: "gdoc_email"
   - name: "View Source"
