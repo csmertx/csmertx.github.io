@@ -24,7 +24,7 @@ An online home for all my notes, and future projects.
 - https://etc.usf.edu/presentations/extras/letters/fridge_magnets/orange/index.html
 
 ### Errors?
-Yep, can do.  Please file a bug report or email xtrafrood (radio edit) gmail.com.
+Yep, can do.  Please file a bug report or email xtrafrood (radio edit) protonmail.com.
 
 ### Website Organization 
 There will be future updates to group categories--the structure of the theme makes this task a process.  Timestamps included look like this (220308), because that's how I timestamp filenames (March 8, 2022).  Still working on unifying Markdown syntax.
