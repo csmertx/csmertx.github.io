@@ -12,9 +12,6 @@ resources:
       credits: "[xtrafrood](https://xtrafrood.github.io)"
 ---
 
-{{< img name="Screenshot_20220401_000441" size="large" lazy=false >}}
-{{< img name="Screenshot_20220401_000521" size="large" lazy=false >}}
-
 #### View3dscene installation
 
 - Download link: https://castle-engine.io/view3dscene.php
