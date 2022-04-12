@@ -1,4 +1,4 @@
-## Ubuntu 20.04 via RPi4
+## Ubuntu 20.04 via RPi4 w/Official 7in LCD & WM8860 soundcard
 
 ### Install Ubuntu Desktop via 20.04 Server
 - Sign-in
