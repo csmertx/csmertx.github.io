@@ -1,5 +1,7 @@
-### Waveshare WM8960 Soundcard
+### Raspberry Pi 4 (2021)
+
+#### Waveshare WM8960 Soundcard
 - ?
 
-### Rebooting
+#### Rebooting
 - Unlike with Ubuntu 20.04, I was unable to successfully reboot the system.
