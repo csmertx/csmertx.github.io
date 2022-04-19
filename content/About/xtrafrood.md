@@ -1,5 +1,5 @@
 ### Purpose of this website
-An online home for all my notes, and future projects.
+An online home for all my notes, and future projects.  There are some notes here that may help beginners, but mostly these notes are for quick access for when I revisit a project, or edge cases that were difficult to find a solution.  I'll do my best to remember to time stamp edits, but generally, github.com/xtrafrood will provide a better idea as to when a particular note was updated or created.
 
 ### About xtrafrood
 Regarding my experience with technology, I am not a professional, but I have considerable hands on experience with Linux.  My time with Linux started at the beginning of 2013.  When I started I did not understand the concept of a command line shell, but as my curiosity grew, so did my understanding.
