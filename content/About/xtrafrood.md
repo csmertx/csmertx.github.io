@@ -1,6 +1,12 @@
 ### Purpose of this website
 An online home for all my notes, and future projects.
 
+### About xtrafrood
+Regarding my experience with technology, I am not a professional, but I have considerable hands on experience with Linux.  My time with Linux started at the beginning of 2013.  When I started I did not understand the concept of a command line shell, but as my curiosity grew, so did my understanding.
+
+### xtrafrood?
+xtra to remind me to 1UP myself in the future, and frood is just cuz.  You know, for kicks.
+
 ### Shorthand used in the notes (& ~/.bashrc aliases)
 - apti == sudo aptitude install
 - aptr == sudo aptitude remove
@@ -31,3 +37,13 @@ There will be future updates to group categories--the structure of the theme mak
 
 ### Website useage hint
 After clicking a sidebar link, pressing/swiping/clicking Back (or: Left Alt + Left Arrow) will return to the previous scrolling point in the sidebar.  For the one person that may or may not have browsed this website: I'm sorry.  I'm doing my best to tend this plot of website.
+
+### General interest books that helped me along my path
+- *"Moonwalking with Einstain"* by Joshua Foer
+- *"Start Finishing"* by Charlie Gilkey
+- *"Tiny Habits"* by James Clear
+- *"Escape from Cubicle Nation"* by Pamela Slim
+- *"The Ultimate Hitchhiker's Guide to the Galaxy"* by Douglas Adams
+    - xtra.. frood
+- *"Man's Search for Meaning"* by Victor Frankl
+    - WWII era--very graphic, but the premise is totally applicable for all genders
