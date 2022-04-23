@@ -1,4 +1,4 @@
-### Windows Activation in VM (Windows 10 RTM OEM, etc.)
+### Windows Activation in VM (Windows 10 RTM OEM, etc.) for Thinkpad X1 Extreme G2
     sudo cat /sys/firmware/acpi/tables/MSDM > SLIC.dat
 
     sudo nano SLIC.dat
