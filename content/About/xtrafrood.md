@@ -4,6 +4,9 @@ An online home for all my notes, and future projects.  There are some notes here
 ### About xtrafrood
 Regarding my experience with technology, I am not a professional, but I have considerable hands on experience with Linux.  My time with Linux started at the beginning of 2013.  When I started I did not understand the concept of a command line shell, but as my curiosity grew, so did my understanding.
 
+### Website Organization 
+There will be future updates to group categories--the structure of the theme makes this task a process.  But once it's setup, it'll be easy to maintain.  Timestamps included look like this (220308), because that's how I timestamp filenames (March 8, 2022).  Still working on unifying Markdown syntax.
+
 ### xtrafrood?
 xtra to remind me to 1UP myself in the future, and frood is just cuz.  You know, for kicks.
 
@@ -30,17 +33,26 @@ xtra to remind me to 1UP myself in the future, and frood is just cuz.  You know,
 - https://etc.usf.edu/presentations/extras/letters/fridge_magnets/orange/index.html
 
 ### Errors?
-Yep, can do.  Please file a bug report or email xtrafrood (radio edit) protonmail.com (I'm open to other forms of comm.).
+I'll see what I can do.
 
-### Website Organization 
-There will be future updates to group categories--the structure of the theme makes this task a process.  Timestamps included look like this (220308), because that's how I timestamp filenames (March 8, 2022).  Still working on unifying Markdown syntax.
+### Skateboarding (1992 - 2005 & 2022 - ?)
+So this is one of those vinn diagrams one might not expect.  Skateboarding is a part of me.  It keeps me sane.
+- How skate decks are made (before bamboo veneer entered the scene): 
+    - https://skateboarding.transworld.net/news/skateboard-science/
+- The 'Godfather' of street skating:
+    - https://networthpost.org/net-worth/rodney-mullen-net-worth/
+- I believe Mullen spoke of Open Source and Linux in his TED Talk:
+    - __Rodney Mullen: Pop an ollie and innovate!__
+- Why bring this up?
+    - I'd rather be excluded sooner rather than later if persons of projects dislike my choice of recreation.
 
 ### General interest books that helped me along my path
 - *"Moonwalking with Einstain"* by Joshua Foer
 - *"Start Finishing"* by Charlie Gilkey
-- *"Tiny Habits"* by James Clear
+- *"Atomic Habits"* by James Clear
 - *"Escape from Cubicle Nation"* by Pamela Slim
 - *"The Ultimate Hitchhiker's Guide to the Galaxy"* by Douglas Adams
     - xtra.. frood
 - *"Man's Search for Meaning"* by Victor Frankl
     - WWII era--very graphic, but the premise is totally applicable for all genders
+- Futurama Comics
