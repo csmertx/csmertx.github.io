@@ -9,10 +9,10 @@
 - 1 tsp. coriander
 - 1 tsp. italian seasoning
 - ¾ cup vegetable broth (or 1/2 tsp. seasoning + 3/4 cup water + 1 tsp. olive oil)
-- 2 tbsp. tahin (or peanut butter)
+- 2 tbsp. tahini (or smooth peanut butter)
 - 2 tbsp. tomato past (or 1.5 tsp. ketchup & 1 tsp. sambal & 1 tsp. brown sugar)
 - 1 tbsp. soy sauce
-- 1 tsp. liquid smoke
+- 1 tsp. liquid smoke (or 1 tsp. smoked paprika)
 - BBQ sauce of choice
 ```
 
