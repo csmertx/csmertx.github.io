@@ -2,6 +2,11 @@
 - apti blueman
     - blueman-applet
     - sudo usermod -a -G lp username (access to dbus)
+    -
+#### USB Tethering (arch)
+~~~
+sudo pacman -Syu usb_modeswitch
+~~~
 
 #### CLI
 - bluez (arch bluez-tools
