@@ -29,8 +29,8 @@ sudo pacman -Syu usb_modeswitch
     tail = true
     click-left = ~/.config/polybar/scripts/system-bluetooth-bluetoothctl.sh --toggle &
     ```
-- Bluetooth Connected utf symbol = "\uF5AF"
-- Bluetooth Disconnected symbol = "\uF5B1"
+- Bluetooth Connected unicode symbol = "\uF5AF"
+- Bluetooth Disconnected unicode symbol = "\uF5B1"
 
 #### Sources
 - https://stackoverflow.com/questions/602912/how-do-you-echo-a-4-digit-unicode-character-in-bash
