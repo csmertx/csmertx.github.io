@@ -1,16 +1,16 @@
-### Purpose of this website
+#### Purpose of this website
 An online home for all my notes, and future projects.  There are some notes here that may help beginners, but mostly these notes are for quick access for when I revisit a project, or edge cases that were difficult to find a solution.  I'll do my best to remember to time stamp edits, but generally, github.com/xtrafrood will provide a better idea as to when a particular note was updated or created.
 
-### About xtrafrood
+#### About xtrafrood
 Regarding my experience with technology, I am not a professional, but I have considerable hands on experience with Linux.  My time with Linux started at the beginning of 2013.  When I started I did not understand the concept of a command line shell, but as my curiosity grew, so did my understanding.
 
-### Website Organization 
+#### Website Organization 
 There will be future updates to group categories--the structure of the theme makes this task a process.  But once it's setup, it'll be easy to maintain.  Timestamps included look like this (220308), because that's how I timestamp filenames (March 8, 2022).  Still working on unifying Markdown syntax.
 
-### xtrafrood?
+#### xtrafrood?
 xtra to remind me to 1UP myself in the future, and frood is just cuz.  You know, for kicks.
 
-### Shorthand used in the notes (& ~/.bashrc aliases)
+#### Shorthand used in the notes (& ~/.bashrc aliases)
 - apti == sudo aptitude install
 - aptr == sudo aptitude remove
 - sudov == sudo vim (When I use anything else I leave behind random characters like: :wq)
@@ -26,27 +26,30 @@ xtra to remind me to 1UP myself in the future, and frood is just cuz.  You know,
 - tri == Trizen (Perl based AUR package manager--https://github.com/trizen/trizen)
 - yay == Yay (AUR package manager that ships with EndeavourOS--https://github.com/Jguer/yay)
 
-### Hugo theme used
+#### Hugo theme used
 - https://github.com/thegeeklab/hugo-geekdoc
 
-### X icon
+#### X favicon
 - https://etc.usf.edu/presentations/extras/letters/fridge_magnets/orange/index.html
 
-### Errors?
+#### Borg ghost image
+- https://publicdomainvectors.org/en/free-clipart/Funny-green-Monster/67049.html
+
+#### Errors?
 I'll see what I can do.
 
-### Skateboarding (1992 - 2005 & 2022 - ?)
+#### Skateboarding (1992 - 2005 & 2022 - ?)
 So this is one of those vinn diagrams one might not expect.  Skateboarding is a part of me.  It keeps me sane.
 - How skate decks are made (before bamboo veneer entered the scene): 
     - https://skateboarding.transworld.net/news/skateboard-science/
 - The 'Godfather' of street skating:
     - https://networthpost.org/net-worth/rodney-mullen-net-worth/
 - I believe Mullen spoke of Open Source and Linux in his TED Talk:
-    - __Rodney Mullen: Pop an ollie and innovate!__
+    - _Rodney Mullen: Pop an ollie and innovate!_
 - Why bring this up?
     - I'd rather be excluded sooner rather than later if persons of projects dislike my choice of recreation.
 
-### General interest books that helped me along my path
+#### General interest books that helped me along my path
 - *"Moonwalking with Einstain"* by Joshua Foer
 - *"Start Finishing"* by Charlie Gilkey
 - *"Atomic Habits"* by James Clear
@@ -55,4 +58,5 @@ So this is one of those vinn diagrams one might not expect.  Skateboarding is a 
     - xtra.. frood
 - *"Man's Search for Meaning"* by Victor Frankl
     - WWII era--very graphic, but the premise is totally applicable for all genders
+- "_The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life_" by Mark Manson
 - Futurama Comics
