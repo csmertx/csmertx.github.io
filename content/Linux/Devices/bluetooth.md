@@ -3,6 +3,11 @@
     - blueman-applet
     - sudo usermod -a -G lp username (access to dbus)
 
+#### USB Tethering 5G
+- Ubuntu 22.04: smooth sailing (220519)
+- Random disconnects with EndeavourOS (220519)
+- Did not try WiFi tethering
+
 #### CLI
 - bluez (arch bluez-tools
     - bluetoothctl
