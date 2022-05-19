@@ -1,8 +1,9 @@
-### Preferred Bluetooth systray
+#### Preferred Bluetooth systray
 - apti blueman
     - blueman-applet
+    - sudo usermod -a -G lp username (access to dbus)
 
-### CLI
+#### CLI
 - bluez (arch bluez-tools
     - bluetoothctl
         - bluetoothctl set-alias "Newly discovered device name"
@@ -22,5 +23,9 @@
     tail = true
     click-left = ~/.config/polybar/scripts/system-bluetooth-bluetoothctl.sh --toggle &
     ```
-- Bluetooth Connected symbol = "\uF5AF"
+- Bluetooth Connected utf symbol = "\uF5AF"
 - Bluetooth Disconnected symbol = "\uF5B1"
+
+#### Sources
+- https://stackoverflow.com/questions/602912/how-do-you-echo-a-4-digit-unicode-character-in-bash
+- https://wiki.archlinux.org/title/Blueman
