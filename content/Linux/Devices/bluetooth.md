@@ -3,10 +3,11 @@
     - blueman-applet
     - sudo usermod -a -G lp username (access to dbus)
     -
-#### USB Tethering (arch)
+#### USB Tethering (Arch Linux / EndevourOS)
 ~~~
 sudo pacman -Syu usb_modeswitch
 ~~~
+- Seems to be preinstalled via Ubuntu 22.04
 
 #### CLI
 - bluez (arch bluez-tools
