@@ -1,5 +1,5 @@
 baseURL = "https://xtrafrood.github.io"
-title = "xtrafrood"
+title = "xf"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
