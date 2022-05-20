@@ -59,4 +59,5 @@ So this is one of those vinn diagrams one might not expect.  Skateboarding is a 
 - *"Man's Search for Meaning"* by Victor Frankl
     - WWII era--very graphic, but the premise is totally applicable for all genders
 - "_The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life_" by Mark Manson
+    - Explicit and leans toward evolution
 - Futurama Comics
