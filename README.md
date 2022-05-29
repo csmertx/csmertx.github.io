@@ -1,5 +1,5 @@
 # xtrafrood.github.io
-A few pages need tending.  Pardon this messy patch of cyberspace.
+A few pages need tending.  Please pardon this messy plot of cyberspace.
 
 ### TODO
 - ~~gh-pages / Hugo~~
