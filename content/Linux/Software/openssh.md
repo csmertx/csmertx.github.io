@@ -49,7 +49,15 @@
 - Dolphin File Browser: fish://user@xxx.xxx.xxx
 - MC: cd sh://user@xxx.xxx.xxx
 
-### Passwordless login
+### Passwordless login (bad)
 - ssh-keygen -t rsa -b 4096 -C "your_email@domain.com" #username@reminder.com
     - Press enter for all entries
 - ssh-copy-ide remote@remotesystem
+
+### Passwordless login (it's probaby fine)
+- eval $(ssh-agent)
+- ssh-add
+- OR ssh-add /home/user/.ssh/id_superdupersshkey
+- Enter password
+- vim (or nano) ~/.profile
+    - eval "$(ssh-agent)" #For persistence between logins
