@@ -61,3 +61,6 @@
 - Enter password
 - vim (or nano) ~/.profile
     - eval "$(ssh-agent)" #For persistence between logins
+
+### Sources
+- https://stackoverflow.com/questions/31377629/git-always-asks-for-my-ssh-key-passphrase
