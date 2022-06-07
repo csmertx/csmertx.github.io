@@ -57,6 +57,7 @@
 ### Passwordless login (it's probaby fine)
 - eval $(ssh-agent)
 - ssh-add
+    - OR: ssh-add /home/user/.ssh/id_(...)
 - OR ssh-add /home/user/.ssh/id_superdupersshkey
 - Enter password
 - vim (or nano) ~/.profile
