@@ -3,13 +3,21 @@ Wifi troubles.. =&amp;gt; vim /etc/rc.conf (sometimes&amp;hellip;)
 -- ifconfig_em0=&amp;#34;DHCP&amp;#34;
 -- ifconfig_em0_ipv6=&amp;#34;inet6 accept_rtadv&amp;#34;
 ++ wlans_ath0=&amp;#34;wlan0&amp;#34;
-++ ifconfig_wlan0=&amp;#34;WPA SYNCDHCP&amp;#34; =&amp;gt; ifconfig wlan0 create wlandev ath0 (sometimes..) =&amp;gt; ifconfig wlan0 up scan (bork or no bork?..) =&amp;gt; vim /etc/wpa_supplicant.</description></item><item><title/><link>https://xtrafrood.github.io/Unix/NetBSD/netbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xtrafrood.github.io/Unix/NetBSD/netbsd/</guid><description>NetBSD Installation Notes Preparing the USB drive (to use CD sets for full install..) =&amp;gt; dd if=/dir/NetBSD-(version)-amd64-install.img of=/dev/sdX bs=8M; sync
+++ ifconfig_wlan0=&amp;#34;WPA SYNCDHCP&amp;#34; =&amp;gt; ifconfig wlan0 create wlandev ath0 (sometimes..) =&amp;gt; ifconfig wlan0 up scan (bork or no bork?..) =&amp;gt; vim /etc/wpa_supplicant.conf
+network={
+ssid=&amp;#34;myssid&amp;#34;
+psk=&amp;#34;mypsk&amp;#34;
+} =&amp;gt; service netif restart
+Programs&amp;hellip; =&amp;gt; if zfs and low RAM perhaps install in chunks =&amp;gt; pkg install p5-File-Locate vim neofetch py36-ranger w3m-img wget git firefox zsh bash compton redshift bspwm polybar unclutter nitrogen feh musicpd ncmpcpp mpv xorg xinput xf86-input-synaptics xf86-video-ati rxvt-unicode xarchiver thunar thunar-archive-plugin lxde-common lxde-icon-theme lxde-meta subversion gtk-arc-themes slim slim-freebsd-themes sudo htop dbus py27-glances vlc tmux fortune-mod-futurama cowsay sxiv xsel xdg-user-dirs alsa-utils pulseaudio hack-font for XFCE&amp;hellip; =&amp;gt; xfce-(current meta package&amp;ndash;.</description></item><item><title/><link>https://xtrafrood.github.io/Unix/NetBSD/netbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xtrafrood.github.io/Unix/NetBSD/netbsd/</guid><description>NetBSD Installation Notes Preparing the USB drive (to use CD sets for full install..) =&amp;gt; dd if=/dir/NetBSD-(version)-amd64-install.img of=/dev/sdX bs=8M; sync
 Preparing Wifi Access =&amp;gt; vi /etc/wpa_supplicant.conf
 ++ network={
 ++ ssid=&amp;#34;yourssid&amp;#34; ++ scan_ssid=1 ++ key_mgmt=WPA-PSK ++ psk=&amp;#34;yourpsk&amp;#34; ++ } =&amp;gt; vi /etc/rc.conf
 ++ dhcpcd_flags=&amp;#34;-q -b&amp;#34; ++ wpa_supplicant=&amp;#34;YES&amp;#34; ++ wpa_supplicant_flags=&amp;#34;-B -i ath0 -c /etc/wpa_supplicant.conf&amp;#34; =&amp;gt; vi /etc/ifconfig.ath0
 ++ up
-++ dhcp =&amp;gt; /etc/rc.d/wpa_supplicant start</description></item><item><title/><link>https://xtrafrood.github.io/Unix/NomadBSD/nomadbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xtrafrood.github.io/Unix/NomadBSD/nomadbsd/</guid><description>NomadBSD Installation notes Accoutrements&amp;hellip;
+++ dhcp =&amp;gt; /etc/rc.d/wpa_supplicant start
+=&amp;gt; /etc/rc.d/network restart
+=&amp;gt; http://wiki.netbsd.org/tutorials/how_to_use_wpa_supplicant/
+Failure at first boot =&amp;gt; fdisk (disk names)</description></item><item><title/><link>https://xtrafrood.github.io/Unix/NomadBSD/nomadbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xtrafrood.github.io/Unix/NomadBSD/nomadbsd/</guid><description> NomadBSD Installation notes Accoutrements&amp;hellip;
 =&amp;gt; vim /etc/rc.conf
 ++ wlans_rtwn0=&amp;#34;wlan0&amp;#34; ++ ifconfig_wlan0=&amp;#34;WPA DHCP&amp;#34; ++ ifconfig_ale0=&amp;#34;DHCP&amp;#34; =&amp;gt; vim /boot/loader.conf
 ++ if_rtwn_usb_load=&amp;#34;YES&amp;#34;
@@ -29,4 +37,10 @@ For urtwn-rtl8188eufw (Rosewill Realtek rtl8188eufw) =&amp;gt; firmware.openbsd.
 =&amp;gt; cp /dir/urtwn-1.2.tar.gz /etc/firmware/urtwn-1.2.tar.gz
 =&amp;gt; cd /etc/firmware
 =&amp;gt; tar zvxf urtwn-1.2.tar.gz
-=&amp;gt; cp /etc/firmware/urtwn-1.</description></item></channel></rss>
+=&amp;gt; cp /etc/firmware/urtwn-1.2/urtwn-rtl8188eufw /etc/firmware/urtwn-rtl8188eufw
+=&amp;gt; ifconfig urtwn0 up
+=&amp;gt; ifconfig urtwn0 scan
+=&amp;gt; vi /etc/hostname.urtwn0
+++ join &amp;#34;mynetwork&amp;#34;
+++ wpakey &amp;#34;mykey&amp;#34;
+++ dhcp =&amp;gt; reboot (had zero luck with ifconfig urtwn0 down/up)</description></item></channel></rss>
