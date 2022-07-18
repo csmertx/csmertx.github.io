@@ -56,8 +56,6 @@ So this is one of those vinn diagrams one might not expect.  Skateboarding is a 
 - *"Escape from Cubicle Nation"* by Pamela Slim
 - *"The Ultimate Hitchhiker's Guide to the Galaxy"* by Douglas Adams
     - xtra.. frood
-- *"Man's Search for Meaning"* by Victor Frankl
-    - WWII era--very graphic, but the premise is totally applicable for all genders
 - "_The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life_" by Mark Manson
     - Explicit and leans toward evolution
 - Futurama Comics
