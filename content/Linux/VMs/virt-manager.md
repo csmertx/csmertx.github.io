@@ -57,6 +57,8 @@ sudo systemctl start com.system76.PowerDaemon.service
 ```
 sudo system76-power graphics integrated && sudo vim /etc/default/grub
 ```
+- If system76-power errors out remove the service and enable/start then run the command again
+    - rm /etc/systemd/system/system76-power.service
 - Comment out existing GRUB_CMDLINE_LINUX_DEFAULT (the following line is for Thinkpad X1 Extreme G2 w/Nvidia 1650 Max-Q)
 ```
 ++ GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=3 nowatchdog nvme_load=YES intel_iommu=on igfx_off kvm.ignore_msrs=1 vfio-pci.ids=10de:1f91,10de:10fa
