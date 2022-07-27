@@ -44,6 +44,12 @@
 ```
 yay -S system76-power
 ```
+```
+sudo systemctl enable com.system76.PowerDaemon.service
+```
+```
+sudo systemctl start com.system76.PowerDaemon.service
+```
 - Consult https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF for GPU indentification (vfio-pci.ids=)
 - To add them via virt-manager GUI
     - Right click VM > Open > View Details > Add Hardware > PCI Host Device > ${vfio-pci.id}
