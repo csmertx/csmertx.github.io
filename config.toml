@@ -1,5 +1,5 @@
-baseURL = "https://xtrafrood.github.io"
-title = "xf"
+baseURL = "https://csmertx.github.io"
+title = "C.S. Notes"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
