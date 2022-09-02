@@ -1,5 +1,5 @@
 # csmertx.github.io
-A few pages need tending.  Please pardon this messy plot of cyberspace.
+This is a constant work in progress.
 
 ### Update 08/17/2022
 - Some notes may be past their expiration date (obsolete)
