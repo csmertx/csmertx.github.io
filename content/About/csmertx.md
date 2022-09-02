@@ -26,15 +26,6 @@ There will be future updates to group categories--the structure of the theme mak
 #### Hugo theme used
 - https://github.com/thegeeklab/hugo-geekdoc
 
-#### X favicon
-- https://etc.usf.edu/presentations/extras/letters/fridge_magnets/orange/index.html
-
-#### Borg ghost image
-- https://publicdomainvectors.org/en/free-clipart/Funny-green-Monster/67049.html
-
-#### Errors?
-I'll see what I can do.
-
 #### Skateboarding (1992 - 2005 & 2022 - ?)
 So this is one of those vinn diagrams one might not expect.  Skateboarding is a part of me.  It keeps me sane.
 - How skate decks are made (before bamboo veneer entered the scene): 
