@@ -1,10 +1,10 @@
 ---
 more:
   - name: Email
-    ref: "mailto:xtrafrood@protonmail.com"
+    ref: "mailto:csmertx@protonmail.com"
     external: true
     icon: "gdoc_email"
   - name: "View Source"
-    ref: "https://github.com/xtrafrood/xtrafrood.github.io"
+    ref: "https://github.com/csmertx/csmertx.github.io"
     external: true
     icon: "gdoc_github"
