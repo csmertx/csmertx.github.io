@@ -8,7 +8,7 @@ I have considerable hands on experience with Linux and computers.  My time with 
 - https://github.com/thegeeklab/hugo-geekdoc
 
 #### Website Organization?
-This entry will self destruct once I take the time to learn the structure of this Hugo theme.  Domain name and this website is not my priority at the moment.
+This entry will self destruct once I take the time to learn the structure of this Hugo theme.  Domain name and this website are not my priority at this time.
 
 #### Shorthand reference (/home/$USER/.bashrc)
 - **apti**
