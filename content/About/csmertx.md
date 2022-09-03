@@ -60,7 +60,7 @@ Skateboarding is a part of my identity.  For those curious, here is more info.
     - Stereotype roadblocks.  Speaking of stereos: Jason Lee (My Name Is Earl, Mallrats, etc.) is a professional skateboarder that rode for Blind Skateboards, and founded Stereo Skateboards.
 
 #### Unsolicited Book Recommendedations
-- *"Moonwalking with Einstain"* by Joshua Foer
+- *"Moonwalking with Einstein"* by Joshua Foer
 - *"Start Finishing"* by Charlie Gilkey
 - *"Atomic Habits"* by James Clear
 - *"Escape from Cubicle Nation"* by Pamela Slim
