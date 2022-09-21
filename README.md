@@ -1,12 +1,12 @@
 # csmertx.github.io
-This is a constant work in progress.
+WIP
 
-### Update 08/17/2022
-- Some notes may be past their expiration date (obsolete)
+### Update 09/21/2022
+- Friendly advisory: some notes are obsolete (Arch Linux, etc.)
 
 ### TODO
 - ~~gh-pages / Hugo~~
 - ~~Render notes from /content~~
-- Edit notes so that the markdown is Github/Hugo compatible
-- Go through larger notes to validate if info is current
+- Edit notes for Github / Hugo compatibility
+- Double check for accuracy
 - Expandable / collapsible menus for left sidebar
