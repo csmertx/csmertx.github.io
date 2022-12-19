@@ -1,5 +1,5 @@
 baseURL = "https://csmertx.github.io"
-title = "Tech Walk Notes"
+title = "Random Notes"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
