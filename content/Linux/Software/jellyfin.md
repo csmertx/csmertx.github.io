@@ -19,8 +19,11 @@
 - Server stop
     - sudo docker ps -aq
     - sudo docker stop [listedcontainer]
-- sudov /etc/sudoers (!)
-    - add to NOPASSWD: /snap/bin/docker
+- Update
+    - sudo aa-remove-unknown #May want to read about this command first
+    - sudo docker stop CONTAINER
+    - sudo docker pull jellyfin/jellyfin
+    - $HOME/.scripts/jellyfin_setup.sh
 
 ### Not running after system update(s)?
 - $HOME/.scripts/jellyfin_setup.sh
