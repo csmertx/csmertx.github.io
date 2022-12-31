@@ -34,5 +34,8 @@ Terminal=false
     - Settings > Configure Dolphin > Services > Check Copy Path
     - Right click folder > Actions > Copy Path
 
+### Rotate Images, convert, etc. (Right click menu)
+- https://github.com/caco3/kim5
+
 ### Resources
 - https://specifications.freedesktop.org/desktop-entry-spec/latest/ar01s06.html
