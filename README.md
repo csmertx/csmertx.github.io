@@ -1,6 +1,9 @@
 # csmertx.github.io
 WIP
 
+### Hugo Theme
+[hugo-geekdoc theme (Github)](https://github.com/thegeeklab/hugo-geekdoc)
+
 ### Update 09/21/2022
 - Friendly advisory: some notes are obsolete (Arch Linux, etc.)
 
