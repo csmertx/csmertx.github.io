@@ -6,4 +6,4 @@
 ### TODO
 - Refactor markdown
 - Refactor layout
-- Revisit notes and add timestamps
+- Revisit notes & timestamp
