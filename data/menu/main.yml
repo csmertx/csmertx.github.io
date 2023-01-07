@@ -33,10 +33,12 @@ main:
     sub:
       - name: Blender
         ref: "/3D_Modeling/Blender"
+        sub:
           - name: Free CAD to Blender
             ref: "/3D_Modeling/Blender/FreeCad_to_Blender.md"
       - name: FreeCAD
         ref: "/3D_Modeling/FreeCAD"
+        sub:
           - name: Convert STL to Step
             ref: "/3D_Modeling/FreeCAD/convert_stl_to_step.md"
           - name: Step Faces to Sketches
@@ -78,6 +80,7 @@ main:
       # Directories
       - name: Code
         ref: "/Linux/Code"
+        sub:
           - name: ASCII
             ref: "/Linux/Code/ascii.md"
           - name: ASCII DOC
@@ -112,8 +115,10 @@ main:
             ref: "/Linux/Code/shellcheck.md"
       - name: Devices
         ref: "/Linux/Devices"
+        sub:
           - name: Raspberry Pi 4
             ref: "/Linux/Devices/rpi4"
+            sub:
               - name: Manjaro
                 ref: "/Linux/Devices/rpi4/manjaro.md"
               - name: RetroPie
@@ -150,6 +155,7 @@ main:
             ref: "/Linux/Devices/xbox_one_controller.md"
       - name: Distros
         ref: "/Linux/Distros"
+        sub:
           - name: Arch Linux
             ref: "/Linux/Distros/arch.md"
           - name: Arch Linux (Bootloader Fix)
@@ -176,12 +182,14 @@ main:
             ref: "/Linux/Distros/ubuntu.md"
       - name: Shells
         ref: "/Linux/Shells"
+        sub:
           - name: Bash
             ref: "/Linux/Shells/bash.md"
           - name: ZSH
             ref: "/Linux/Shells/zsh.md"
       - name: Software
         ref: "/Software"
+        sub:
           - name: AppImage
             ref: "/Linux/Software/appimage.md"
           - name: Benchmarks
@@ -276,6 +284,7 @@ main:
             ref: "/Linux/Software/zstd.md"
       - name: Virtual Machines
         ref: "/Linux/VMs"
+        sub:
           - name: Docker
             ref: "/Linux/VMs/docker_installation.md"
           - name: Gnome Shell
@@ -288,6 +297,7 @@ main:
             ref: "/Linux/VMs/virtualbox.md"
       - name: Window Managers
         ref: "/Linux/WM"
+        sub:
           - name: Awesome
             ref: "/Linux/WM/awesome.md"
           - name: Awesome (Floppier)
@@ -358,18 +368,22 @@ main:
     sub:
       - name: Bread
         ref: "/Recipes/Bread"
+        sub:
           - name: Pulla Bread
             ref: "/Recipes/Bread/pullabread.md"
       - name: Breakfast
         ref: "/Recipes/Breakfast"
+        sub:
           - name: Egg Boosted Oatmeal
             ref: "/Recipes/Breakfast/egg_boosted_oatmeal.md"
       - name: Sauces
         ref: "/Recipes/Sauces"
+        sub:
           - name: Smooth Honey Mustard
             ref: "/Recipes/Sauces/smooth_honey_mustard.md"
       - name: Seitan
         ref: "/Recipes/Seitan"
+        sub:
           - name: Csmertx's Modded Seitan
             ref: "/Recipes/Seitan/csmertxs_seitan.md"
           - name: The Berrics: Seitan Ribs
@@ -378,6 +392,7 @@ main:
             ref: "/Recipes/Seitan/the_homemade_vegan_pantry:_seitan_ribs.md"
       - name: Sidedishes
         ref: "/Recipes/Sidedishes"
+        sub:
           - name: Southern German Potato Salad
             ref: "/Recipes/Sidedishes/potatosalad.md"
   - name: Unix
@@ -385,18 +400,22 @@ main:
     sub:
       - name: FreeBSD
         ref: "/Unix/FreeBSD"
+        sub:
           - name: FreeBSD
             ref: "/Unix/FreeBSD/freebsd.md"
       - name: NetBSD
         ref: "/Unix/NetBSD"
+        sub:
           - name: NetBSD
             ref: "/Unix/NetBSD/netbsd.md"
       - name: NomadBSD
         ref: "/Unix/NomadBSD"
+        sub:
           - name: NomadBSD
             ref: "/Unix/NomadBSD/nomadbsd.md"
       - name: OpenBSD
         ref: "/OpenBSD"
+        sub:
           - name: OpenBSD
             ref: "Unix/OpenBSD/openbsd.md"
   - name: Web
