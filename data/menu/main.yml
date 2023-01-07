@@ -388,7 +388,7 @@ main:
         sub:
           - name: Csmertx's Modded Seitan
             ref: "/Recipes/Seitan/csmertxs_seitan.md"
-          - name: The Berrics: Seitan Ribs
+          - name: The Berrics - Seitan Ribs
             ref: "/Recipes/Seitan/the_berrics_seitan_ribs.md"
           - name: The Homemade Vegan Pantry: Seitan Ribs
             ref: "/Recipes/Seitan/the_homemade_vegan_pantry:_seitan_ribs.md"
