@@ -9,6 +9,9 @@
 - aptu
 - sudo do-release-upgrade -d (?)
 
+### Tiny fonts in GTK applications (2022)
+- System Settings > Appearance > Fonts > Enable Force font DPI (96 DPI)
+
 ### Incorrect resolution with QEMU
     usermod -a -G video user
     #Switch to virtio
