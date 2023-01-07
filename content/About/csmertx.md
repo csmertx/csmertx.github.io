@@ -1,3 +1,8 @@
+---
+title: About Csmertx & Website
+weight: -20
+---
+
 #### Purpose of this website
 Storage space for notes and future projects.  Some of these notes may help Linux beginners, but most are for quick reference.
 

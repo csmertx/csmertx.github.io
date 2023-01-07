@@ -1,5 +1,5 @@
 ---
-title: NetBSD: Installation
+title: NetBSD > Installation
 weight: -20
 ---
 

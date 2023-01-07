@@ -1,5 +1,5 @@
 ---
-title: Greasemonkey: Web Browser Extension
+title: Greasemonkey > Web Browser Extension
 weight: -20
 ---
 

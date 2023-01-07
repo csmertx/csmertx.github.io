@@ -1,5 +1,5 @@
 ---
-title: X resources: Pimp that Console
+title: X resources > Pimp that Console
 weight: -20
 ---
 

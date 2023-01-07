@@ -1,5 +1,5 @@
 ---
-title: DWM: Dynamic Window Manager
+title: DWM > Dynamic Window Manager
 weight: -20
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Windows & DOS: VM Requirements
+title: Windows & DOS > VM Requirements
 weight: -20
 ---
 

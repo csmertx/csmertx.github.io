@@ -1,5 +1,5 @@
 ---
-title: Snapd: Snapcraft
+title: Snapd > Snapcraft
 weight: -20
 ---
 

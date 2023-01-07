@@ -1,5 +1,5 @@
 ---
-title: Zathura: Document Viewer
+title: Zathura > Document Viewer
 weight: -20
 ---
 

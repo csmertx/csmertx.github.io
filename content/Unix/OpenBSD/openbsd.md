@@ -1,5 +1,5 @@
 ---
-title: OpenBSD: Installation
+title: OpenBSD > Installation
 weight: -20
 ---
 

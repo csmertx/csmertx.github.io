@@ -1,5 +1,5 @@
 ---
-title: NomadBSD: Installation
+title: NomadBSD > Installation
 weight: -20
 ---
 

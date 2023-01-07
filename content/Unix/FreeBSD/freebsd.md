@@ -1,5 +1,5 @@
 ---
-title: FreeBSD: Installation
+title: FreeBSD > Installation
 weight: -20
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: MPV: Video Player
+title: MPV > Video Player
 weight: -20
 ---
 

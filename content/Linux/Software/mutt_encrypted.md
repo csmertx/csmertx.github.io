@@ -1,5 +1,5 @@
 ---
-title: Mutt: Email Client
+title: Mutt > Email Client
 weight: -20
 ---
 

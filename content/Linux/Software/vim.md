@@ -1,5 +1,5 @@
 ---
-title: Vim: Extendable Text Editor
+title: Vim > Extendable Text Editor
 weight: -20
 ---
 

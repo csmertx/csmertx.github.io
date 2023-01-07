@@ -1,5 +1,5 @@
 ---
-title: MOC: Music On Console
+title: MOC > Music On Console
 weight: -20
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: AwesomeWM: Floppier Desktop Environment
+title: AwesomeWM > Floppier Desktop Environment
 weight: -20
 ---
 

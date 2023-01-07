@@ -1,5 +1,5 @@
 ---
-title: Systemd: Journaling
+title: Systemd > Journaling
 weight: -20
 ---
 

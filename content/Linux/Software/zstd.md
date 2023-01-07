@@ -1,5 +1,5 @@
 ---
-title: ZSTD: Zstandard File Compression
+title: ZSTD > Zstandard File Compression
 weight: -20
 ---
 

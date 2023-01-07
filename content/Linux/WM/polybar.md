@@ -1,5 +1,5 @@
 ---
-title: Polybar: WM Status Bar
+title: Polybar > WM Status Bar
 weight: -20
 ---
 

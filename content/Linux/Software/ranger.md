@@ -1,5 +1,5 @@
 ---
-title: Ranger: File Manager
+title: Ranger > File Manager
 weight: -20
 ---
 

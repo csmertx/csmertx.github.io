@@ -1,5 +1,5 @@
 ---
-title: KVM: Kernel-based Virtual Machine
+title: KVM > Kernel-based Virtual Machine
 weight: -20
 ---
 

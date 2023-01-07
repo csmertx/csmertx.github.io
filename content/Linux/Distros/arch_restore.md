@@ -1,5 +1,5 @@
 ---
-title: Arch Linux: Bootloader Fix
+title: Arch Linux > Bootloader Fix
 weight: -20
 ---
 

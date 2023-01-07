@@ -1,5 +1,5 @@
 ---
-title: The Berrics: Seitan Ribs
+title: The Berrics > Seitan Ribs
 weight: -20
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: PHP-FPM: FastCGI
+title: PHP-FPM > FastCGI
 weight: -20
 ---
 

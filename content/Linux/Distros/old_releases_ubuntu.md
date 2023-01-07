@@ -1,5 +1,5 @@
 ---
-title: Ubuntu: Older Releases
+title: Ubuntu > Older Releases
 weight: -20
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: ALSA: Advanced Linux Sound Architecture
+title: ALSA > Advanced Linux Sound Architecture
 weight: -20
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: GPG: GnuPG
+title: GPG > GnuPG
 weight: -20
 ---
 

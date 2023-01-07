@@ -1,5 +1,5 @@
 ---
-title: Virtual Machine Manager: RedHat VM
+title: Virtual Machine Manager > RedHat VM
 weight: -20
 ---
 

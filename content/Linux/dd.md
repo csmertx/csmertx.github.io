@@ -1,5 +1,5 @@
 ---
-title: DD: Disk Destroyer
+title: DD > Disk Destroyer
 weight: -20
 ---
 

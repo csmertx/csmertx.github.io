@@ -1,5 +1,5 @@
 ---
-title: Docker: Installation
+title: Docker > Installation
 weight: -20
 ---
 

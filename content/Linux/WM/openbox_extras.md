@@ -1,5 +1,5 @@
 ---
-title: Openbox: Extras
+title: Openbox > Extras
 weight: -20
 ---
 

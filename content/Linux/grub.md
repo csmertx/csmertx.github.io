@@ -1,5 +1,5 @@
 ---
-title: Grub: Bootloader
+title: Grub > Bootloader
 weight: -20
 ---
 

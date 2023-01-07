@@ -1,5 +1,5 @@
 ---
-title: Yakuake: Dropdown Terminal
+title: Yakuake > Dropdown Terminal
 weight: -20
 ---
 

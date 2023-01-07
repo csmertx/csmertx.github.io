@@ -1,5 +1,5 @@
 ---
-title: MPD: Music Player Daemon
+title: MPD > Music Player Daemon
 weight: -20
 ---
 

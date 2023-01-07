@@ -1,5 +1,5 @@
 ---
-title: Git Pro: notes (book)
+title: Git Pro > notes (book)
 weight: -20
 ---
 

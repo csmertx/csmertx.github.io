@@ -1,5 +1,5 @@
 ---
-title: XrandR: Display Configuraton
+title: XrandR > Display Configuraton
 weight: -20
 ---
 

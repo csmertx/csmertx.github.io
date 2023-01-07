@@ -1,5 +1,5 @@
 ---
-title: Xmodmap: Keymap Modifier
+title: Xmodmap > Keymap Modifier
 weight: -20
 ---
 

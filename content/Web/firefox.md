@@ -1,5 +1,5 @@
 ---
-title: Firefox: Web Browser
+title: Firefox > Web Browser
 weight: -20
 ---
 

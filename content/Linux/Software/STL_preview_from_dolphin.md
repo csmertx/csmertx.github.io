@@ -1,5 +1,5 @@
 ---
-title: Dolphin File Manager: STL Preview
+title: Dolphin File Manager > STL Preview
 weight: -20
 ---
 

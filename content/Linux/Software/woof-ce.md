@@ -1,5 +1,5 @@
 ---
-title: Woof-CE: Puppy Linux
+title: Woof-CE > Puppy Linux
 weight: -20
 ---
 

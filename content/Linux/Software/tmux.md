@@ -1,5 +1,5 @@
 ---
-title: Tmux: Terminal Multiplexer
+title: Tmux > Terminal Multiplexer
 weight: -20
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: VirtualBox: Oracle VM
+title: VirtualBox > Oracle VM
 weight: -20
 ---
 

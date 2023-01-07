@@ -1,5 +1,5 @@
 ---
-title: The Homemade Vegan Pantry: Seitan Ribs
+title: The Homemade Vegan Pantry > Seitan Ribs
 weight: -20
 ---
 
