@@ -1,5 +1,5 @@
 ---
-title: Markdown: CLI
+title: Markdown > CLI
 weight: -20
 ---
 
