@@ -1,3 +1,8 @@
+---
+title: LVM > Linux Volume Manager
+weight: -20
+---
+
 - LVM2 (2020-02-18)
 
 ### Mounting for chroot (Arch ISO)

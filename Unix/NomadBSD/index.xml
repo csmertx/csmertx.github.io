@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NomadBSD on Gremlin Mysteries</title><link>https://csmertx.github.io/Unix/NomadBSD/</link><description>Recent content in NomadBSD on Gremlin Mysteries</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Unix/NomadBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>NomadBSD > Installation</title><link>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</guid><description> NomadBSD Installation notes Accoutrements&amp;hellip;
+=&amp;gt; vim /etc/rc.conf
+++ wlans_rtwn0=&amp;#34;wlan0&amp;#34; ++ ifconfig_wlan0=&amp;#34;WPA DHCP&amp;#34; ++ ifconfig_ale0=&amp;#34;DHCP&amp;#34; =&amp;gt; vim /boot/loader.conf
+++ if_rtwn_usb_load=&amp;#34;YES&amp;#34;
+++ if_rtwn_pci_load=&amp;#34;YES&amp;#34; =&amp;gt; vim /etc/wpa_supplicant.conf
+++ network={
+++ ssid=&amp;#34;myssid&amp;#34;
+++ psk=&amp;#34;mypsk&amp;#34;
+++ } =&amp;gt; service netif restart
+DIY Consultation:
+https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/network-wireless.html
+=&amp;gt; vim ~/.config/openbox/autostart.sh
+++ dsbmc-cli -a &amp;amp;
+++ xmodmap ~/.Xmodmap</description></item></channel></rss>
