@@ -3,8 +3,6 @@ title: Music (2023)
 weight: -20
 ---
 
-## Music at the moment
-
 <!--more-->
 
 {{< toc >}}
