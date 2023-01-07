@@ -143,7 +143,7 @@ main:
             ref: "/Linux/Devices/monitor.md"
           - name: Printing
             ref: "/Linux/Devices/printing.md"
-          - name: Steel Series: Sensei 310 Mouse
+          - name: Steel Series - Sensei 310 Mouse
             ref: "/Linux/Devices/steelseries_sensei310.md"
           - name: Storage
             ref: "/Linux/Devices/storage.md"
