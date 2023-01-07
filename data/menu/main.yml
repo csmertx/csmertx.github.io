@@ -30,6 +30,7 @@ main:
         ref: "/About/csmertx.md"
   - name: 3D Modeling
     ref: "/3D_Modeling"
+    sub:
       - name: Blender
         ref: "/3D_Modeling/Blender"
           - name: Free CAD to Blender
@@ -42,6 +43,7 @@ main:
             ref: "/3D_Modeling/FreeCAD/step_faces_to_sketches.md"
   - name: Android
     ref: "/Android"
+    sub:
       - name: Adb
         ref: "/Android/adb.md"
       - name: F-Droid
@@ -52,10 +54,12 @@ main:
         ref: "/Android/termux.md"
   - name: Blog
     ref: "/Blog"
+    sub:
       - name: 2023
         ref: "/Blog/2023.md"
   - name: Games
     ref: "/Games"
+    sub:
       - name: Games Sites
         ref: "/Games/game_sites.md"
       - name: Kingdom of Loathing
@@ -70,6 +74,7 @@ main:
         ref: "steam_proton.md"
   - name: Linux
     ref: "/Linux"
+    sub:
       # Directories
       - name: Code
         ref: "/Linux/Code"
@@ -350,6 +355,7 @@ main:
         ref: "/Linux/xresources.md"
   - name: Recipes
     ref: "/Recipes"
+    sub:
       - name: Bread
         ref: "/Recipes/Bread"
           - name: Pulla Bread
@@ -376,6 +382,7 @@ main:
             ref: "/Recipes/Sidedishes/potatosalad.md"
   - name: Unix
     ref: "/Unix"
+    sub:
       - name: FreeBSD
         ref: "/Unix/FreeBSD"
           - name: FreeBSD
@@ -394,6 +401,7 @@ main:
             ref: "Unix/OpenBSD/openbsd.md"
   - name: Web
     ref: "/Web"
+    sub:
       - name: DNS over HTTPS
         ref: "/Web/dns_over_https.md"
       - name: Firefox
@@ -402,5 +410,6 @@ main:
         ref: "/Web/greasemonkey.md"
   - name: Windows and DOS
     ref: "/Web/Windows_and_DOS"
+    sub:
       - name: Windows VM Requirements
         ref: "/Web/Windows_and_DOS/windows_dos_vm.md"
