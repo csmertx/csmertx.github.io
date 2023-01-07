@@ -66,10 +66,12 @@ main:
         ref: "/Games/game_sites.md"
       - name: Kingdom of Loathing
         ref: "/Games/KoL"
+        sub:
           - name: Kingdom of Loathing
             ref: "/Games/KoL/kol_notes.md"
       - name: Runes of Magic
         ref: "/Games/RoM"
+        sub:
           - name: Runes of Magic Macros
             ref: "/Games/RoM/misc_macros.md"
       - name: Steam and Proton
