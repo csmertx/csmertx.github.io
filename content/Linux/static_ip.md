@@ -1,3 +1,8 @@
+---
+title: Static IPs
+weight: -20
+---
+
 ### Local Static IP (QEMU/KVM)
 - sudo EDITOR=vim virsh net-edit default
 - Add hosts after range as shown below

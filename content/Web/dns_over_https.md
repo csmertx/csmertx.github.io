@@ -1,3 +1,8 @@
+---
+title: DNS Over HTTPS
+weight: -20
+---
+
 ### Firefox setting
 - Hamburger Icon
 - Preferences

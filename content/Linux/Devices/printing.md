@@ -1,3 +1,8 @@
+---
+title: Printers
+weight: -20
+---
+
 ### Brother HL-2140 printing Blank Pages
 - Ubuntu/Kubuntu
     - Configure Printer

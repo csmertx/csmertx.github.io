@@ -1,3 +1,8 @@
+---
+title: MPV: Video Player
+weight: -20
+---
+
 ### Multiple Monitors
 - Autostart on monitor N
     - screen=N #(=0..)

@@ -1,3 +1,8 @@
+---
+title: Slackware
+weight: -20
+---
+
 ### Installation
 - Lilo & Virtio (IDE probably fine here..)
     - Exit installer > Don't reboot..

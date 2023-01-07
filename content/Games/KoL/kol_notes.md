@@ -1,3 +1,8 @@
+---
+title: Random Notes
+weight: -20
+---k
+
 ## > 2019-07-30
 
 **Aftercore**

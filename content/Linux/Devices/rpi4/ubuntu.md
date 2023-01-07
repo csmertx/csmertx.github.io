@@ -1,3 +1,8 @@
+---
+title: Ubuntu 20.04 Server 2 Desktop on RPi4
+weight: -20
+---
+
 ## Ubuntu 20.04 via RPi4 w/Official 7in LCD & WM8860 soundcard
 
 ### Install Ubuntu Desktop via 20.04 Server

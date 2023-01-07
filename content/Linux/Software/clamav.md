@@ -1,3 +1,8 @@
+---
+title: ClamAV
+weight: -20
+---
+
 ## ClamAV Notes (failed: 2021-09-01)
 - apti clamav clamav-daemon
 

@@ -1,4 +1,9 @@
 ---
+title: Dolphin File Manager: STL Preview
+weight: -20
+---
+
+---
 resources:
   - name: Screenshot_20220401_000441
     src: "Screenshot_20220401_000441.png"

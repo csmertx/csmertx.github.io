@@ -1,3 +1,8 @@
+---
+title: Networking
+weight: -20
+---
+
 ### Troubleshooting (chroot, etc.)
 - Unable to resolve dns
     - vim /etc/resolv.conf

@@ -1,3 +1,8 @@
+---
+title: Debian (ft. Ubuntu)
+weight: -20
+---
+
 ### Adding Debian Backports Repo:
 => sudov /etc/apt/sources.list
 => ++ deb http://deb.debian.org/debian buster-backports main contrib non-free

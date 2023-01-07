@@ -1,3 +1,8 @@
+---
+title: Monitors
+weight: -20
+---
+
 ## Monitor Resolution config w/xrandr
 - cvt 1600 900 60
 - vim ~/.xprofile

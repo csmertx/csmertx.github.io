@@ -1,3 +1,8 @@
+---
+title: GPG: GnuPG
+weight: -20
+---
+
 ### Create New Key
 - gpg –-gen-key
 

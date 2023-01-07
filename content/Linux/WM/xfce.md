@@ -1,3 +1,8 @@
+---
+title: XFCE
+weight: -20
+---
+
 ### Notification Theme
 - /usr/bin/xfce4-notifyd-config
 

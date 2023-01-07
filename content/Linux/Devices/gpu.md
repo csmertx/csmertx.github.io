@@ -1,3 +1,8 @@
+---
+title: GPU
+weight: -20
+---
+
 ### Tear Free
 - sudov /etc/X11/xorg.conf.d/20-[GPU].conf
 - Example:

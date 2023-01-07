@@ -1,3 +1,8 @@
+---
+title: The Berrics: Seitan Ribs
+weight: -20
+---
+
 ### INGREDIENTS:
 
 ```

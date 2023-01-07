@@ -1,3 +1,8 @@
+---
+title: Mutt: Email Client
+weight: -20
+---
+
 => gpg --gen-key   
 => mkdir ~/.mutt  
 => touch ~/.mutt/password  

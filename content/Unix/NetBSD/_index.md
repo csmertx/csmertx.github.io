@@ -1,0 +1,4 @@
+---
+title: NetBSD
+geekdocCollapseSection: true
+---

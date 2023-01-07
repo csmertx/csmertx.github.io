@@ -1,3 +1,8 @@
+---
+title: Mounting Stuff (accessing drives)
+weight: -20
+---
+
 ### /etc/fstab
 - UUID=$(sudo blkid...) /mnt/... ext4  rw  0 0
 

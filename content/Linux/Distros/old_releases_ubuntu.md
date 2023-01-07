@@ -1,3 +1,8 @@
+---
+title: Ubuntu: Older Releases
+weight: -20
+---
+
 ## old-releases.ubuntu.com
 
 ### 10.04 Lucid Lynx (for example--works with i686 ISO)

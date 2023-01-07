@@ -1,0 +1,4 @@
+---
+title: Recipes
+geekdocCollapseSection: true
+---

@@ -1,3 +1,8 @@
+---
+title: Trackballs
+weight: -20
+---
+
 ```
 Trackball Scrolling
 /etc/X11/xorg.conf.d/10-libinput.conf

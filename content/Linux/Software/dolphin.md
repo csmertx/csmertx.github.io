@@ -1,3 +1,8 @@
+---
+title: Dolphin File Manager (KDE)
+weight: -20
+---
+
 ### Select file/folder with single click (for shift click or alt click selections)
 1. System Settings (app)
 2. Workspace Behaviour

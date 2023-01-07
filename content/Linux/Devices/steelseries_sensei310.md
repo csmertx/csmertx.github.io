@@ -1,3 +1,8 @@
+---
+title: SteelSeries Sensei 310 Mouse
+weight: -20
+---
+
 ### Installation
 - https://github.com/flozz/rivalcfg
     - apti cython python-dev libusb-1.0-0-dev libudev-dev libhidapi-hidraw0 python3-pip

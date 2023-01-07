@@ -1,3 +1,8 @@
+---
+title: Kubuntu
+weight: -20
+---
+
 ### Disable Automatic Update Check Icon
 - Right Click Up Arrow in panel
 - Uncheck: General > Extra Items > Updates

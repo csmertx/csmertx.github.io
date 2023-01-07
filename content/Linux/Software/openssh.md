@@ -1,3 +1,8 @@
+---
+title: OpenSSH
+weight: -20
+---
+
 ### Hardening (see also: fail2ban)
 - sudov /etc/ssh/sshd_config
 - PermitRootLogin no

@@ -1,3 +1,8 @@
+---
+title: Xmodmap: Keymap Modifier
+weight: -20
+---
+
 ## Using Xmodmap to remap Caps Lock as a FN key
 
 **Navigation Cluster Remapping**

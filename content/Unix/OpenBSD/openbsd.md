@@ -1,3 +1,8 @@
+---
+title: OpenBSD: Installation
+weight: -20
+---
+
 ## OpenBSD Installation notes
 Accoutrements...
 

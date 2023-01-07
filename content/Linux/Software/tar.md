@@ -1,3 +1,8 @@
+---
+title: Tar: Tarballs
+weight: -20
+---
+
 ### Decompress
 - .tar.gz
     - tar -xvzf file.tar.gz
@@ -13,3 +18,7 @@
     - tar -cvf file.tar.xz directory_or_file
 - .tar.bz2
     - tar -cjvf file.tar.gz directory_or_file
+
+### Resources
+- [Tarball (oil)](https://en.wikipedia.org/wiki/Tarball_(oil))
+- [Tarball (Computing)](https://en.wikipedia.org/wiki/Tar_(computing))

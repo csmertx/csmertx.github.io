@@ -1,3 +1,8 @@
+---
+title: NetBSD: Installation
+weight: -20
+---
+
 ## NetBSD Installation Notes
 
 

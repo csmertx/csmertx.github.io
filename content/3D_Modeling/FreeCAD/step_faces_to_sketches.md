@@ -1,3 +1,8 @@
+---
+title: Converting Step faces to Sketches
+weight: -20
+---
+
 ## > Convert .step faces to sketches
 - If unclear try: https://www.youtube.com/watch?v=7xupVksPadA
 - Remove all unnecessary objects

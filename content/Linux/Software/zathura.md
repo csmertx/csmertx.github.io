@@ -1,3 +1,8 @@
+---
+title: Zathura: Document Viewer
+weight: -20
+---
+
 ### Configuring
 - Default config
     - cp /usr/share/doc/zathura/examples/zathurarc ~/.config/zathura/zathurarc

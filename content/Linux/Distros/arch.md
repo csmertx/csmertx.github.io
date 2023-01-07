@@ -1,3 +1,8 @@
+---
+title: Arch Linux
+weight: -20
+---
+
 ## Arch Linux Installation and Maint. notes
 
 ### Verify ISO

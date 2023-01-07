@@ -1,3 +1,8 @@
+---
+title: Ubuntu
+weight: -20
+---
+
 ### unattended-upgr
 - Waiting for cache lock: ...
 - sudo dpkg-reconfigure -plow unattended-upgrades

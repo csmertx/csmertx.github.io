@@ -1,3 +1,8 @@
+---
+title: Virtual Console
+weight: -20
+---
+
 ### Add users & add groups (/sbin/...)
 - cat /etc/passwd (displays all users)
 - sudo useradd -G wheel,sudo newuser

@@ -1,3 +1,8 @@
+---
+title: Bitmap Fonts
+weight: -20
+---
+
 ## > Enable bitmap fonts (Debian/Ubuntu)
 ```
 $ sudo rm -f /etc/fonts/conf.d/70-{yes,no,force}-bitmaps.conf

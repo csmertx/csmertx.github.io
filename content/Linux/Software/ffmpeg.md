@@ -1,3 +1,8 @@
+---
+title: FFmpeg
+weight: -20
+---
+
 ### Combine files from a list
 - cd to folder and open with ranger
 - press v key and issue command :bulkrename

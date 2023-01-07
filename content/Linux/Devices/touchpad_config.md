@@ -1,3 +1,8 @@
+---
+title: Touchpad & Trackpad
+weight: -20
+---
+
 ### Laptop
 - vim /etc/X11/xorg.conf.d/10-libinput.conf
 ```

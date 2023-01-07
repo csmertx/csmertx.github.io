@@ -1,3 +1,8 @@
+---
+title: Bluetooth
+weight: -20
+---
+
 #### Preferred Bluetooth systray
 - apti blueman
     - blueman-applet

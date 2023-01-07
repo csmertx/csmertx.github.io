@@ -1,3 +1,8 @@
+---
+title: SyncTerm
+weight: -20
+---
+
 ### Armhf
 - libncurses-dev (6)
 - libc6-dev

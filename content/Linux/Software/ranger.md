@@ -1,3 +1,8 @@
+---
+title: Ranger: File Manager
+weight: -20
+---
+
 ## Notes for the CLI based Ranger File Manager (written in python)
 
 ### Custom Commands

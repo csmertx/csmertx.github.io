@@ -1,3 +1,8 @@
+---
+title: The Homemade Vegan Pantry: Seitan Ribs
+weight: -20
+---
+
 Prep Time: 20 mins | Cook Time: 1 hr 15 mins | Total Time: 1 hr 35 mins  
 Servings: 8 servings | Calories: 430kcal
 

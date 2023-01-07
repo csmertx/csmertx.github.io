@@ -1,3 +1,8 @@
+---
+title: Jellyfin (self hosted media server)
+weight: -20
+---
+
 ### Docker
 - apti snapd
 - sudo snap install docker

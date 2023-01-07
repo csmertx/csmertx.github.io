@@ -1,3 +1,8 @@
+---
+title: Gnome Shell
+weight: -20
+---
+
 ### Extensions
 - gnome-extensions-app
 - chrome-gnome-shell

@@ -1,3 +1,8 @@
+---
+title: CPU
+weight: -20
+---
+
 ### Check status of Intel Mitigations
 - grep . /sys/devices/system/cpu/vulnerabilities/(asterisk)
 

@@ -1,3 +1,8 @@
+---
+title: DD: Disk Destroyer
+weight: -20
+---
+
 ### Find blocksize
 - sudo blkid
 

@@ -1,3 +1,8 @@
+---
+title: Xbox One Controller
+weight: -20
+---
+
 ### Disable Mouse Emulation
 **Sourced:** askubuntu.com/questions/632026/how-can-i-stop-my-controller-from-moving-my-mouse
 

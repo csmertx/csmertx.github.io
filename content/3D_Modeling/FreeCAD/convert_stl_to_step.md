@@ -1,3 +1,8 @@
+---
+title: Converting STL to Step
+weight: -20
+---
+
 ### > Steps..
 - Center that model
     - Select .stl

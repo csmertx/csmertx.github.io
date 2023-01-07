@@ -1,3 +1,8 @@
+---
+title: CentOS 8 (Stable)
+weight: -20
+---
+
 ### CentOS 8 (Stable)
 - Virtualized
     - Default Desktop

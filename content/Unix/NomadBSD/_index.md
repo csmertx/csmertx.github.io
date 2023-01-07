@@ -1,0 +1,4 @@
+---
+title: NomadBSD
+geekdocCollapseSection: true
+---

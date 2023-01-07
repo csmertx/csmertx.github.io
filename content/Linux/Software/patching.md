@@ -1,3 +1,8 @@
+---
+title: Patching C Source Code
+weight: -20
+---
+
 ### Create a patch
 - diff -u original/code.c modified/code.c > code.patch
 

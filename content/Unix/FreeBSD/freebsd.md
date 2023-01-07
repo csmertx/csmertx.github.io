@@ -1,3 +1,8 @@
+---
+title: FreeBSD: Installation
+weight: -20
+---
+
 ## FreeBSD Installation Notes
 
 ### Live Login

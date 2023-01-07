@@ -1,3 +1,8 @@
+---
+title: Midnight Commander
+weight: -20
+---
+
 ### Vim as editor
 - F9 > Options > Configuration > Uncheck internal view/edit
 

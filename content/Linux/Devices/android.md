@@ -1,3 +1,8 @@
+---
+title: Android Devices
+weight: -20
+---
+
 ### KDE
 - pac -S kio-extras
 - pac -S android-tools (or turn off ADB via Android device)

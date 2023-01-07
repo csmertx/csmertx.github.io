@@ -1,3 +1,8 @@
+---
+title: Fail2ban
+weight: -20
+---
+
 ### Setup
 - Systemd
     - sudo systectm enable fail2ban.service

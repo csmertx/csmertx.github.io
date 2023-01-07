@@ -1,3 +1,8 @@
+---
+title: ZSTD: Zstandard File Compression
+weight: -20
+---
+
 ## Zstandard Notes
 
 ### Unpack .ZST

@@ -1,3 +1,8 @@
+---
+title: AwesomeWM
+weight: -20
+---
+
 ### Easy Mode Theming
 - mkdir ~/.config/awesome
 - cd ~/.config/awesome

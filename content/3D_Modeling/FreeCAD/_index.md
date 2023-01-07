@@ -1,0 +1,4 @@
+---
+title: FreeCAD
+geekdocCollapseSection: true
+---

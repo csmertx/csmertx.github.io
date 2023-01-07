@@ -1,3 +1,8 @@
+---
+title: Egg Boosted Oatmeal
+weight: -20
+---
+
 ### Ingredients
 - 1/3 cup rolled oats
 - 1 tablespoon ground flax

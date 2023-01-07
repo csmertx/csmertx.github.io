@@ -1,3 +1,8 @@
+---
+title: Gnome 3
+weight: -20
+---
+
 ### Program Not Responsive timeout and Steam/Proton
 - gsettings set org.gnome.mutter check-alive-timeout 120000
 - dconf-config

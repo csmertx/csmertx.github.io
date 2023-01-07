@@ -1,3 +1,8 @@
+---
+title: BorgBackup
+weight: -20
+---
+
 ### Intialize new backup directory
 - borg init --encryption={authenticated,repokey,..} /dir/backupdir
 - borg key export /dir/backupdir /dir/backupdirkey

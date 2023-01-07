@@ -1,3 +1,8 @@
+---
+title: Manjaro on RPi4
+weight: -20
+---
+
 ### Raspberry Pi 4 (2021)
 
 #### Waveshare WM8960 Soundcard

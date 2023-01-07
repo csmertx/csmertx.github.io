@@ -1,3 +1,8 @@
+---
+title: Virtual Machine Manager: RedHat VM
+weight: -20
+---
+
 ### Host Installation
 - virt-manager qemu qemu-utils
 - sudo systemctl enable/start libvirtd

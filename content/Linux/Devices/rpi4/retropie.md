@@ -1,3 +1,8 @@
+---
+title: RetroPie on RPi4
+weight: -20
+---
+
 ## Retropie on RPi4 w/Official 7in LCD & WM8860 soundcard
 
 ### First steps

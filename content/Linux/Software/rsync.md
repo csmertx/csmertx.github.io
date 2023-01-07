@@ -1,3 +1,8 @@
+---
+title: Rsync
+weight: -20
+---
+
 ### Dry Run
 - rsync --dry-run
 

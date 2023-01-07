@@ -1,3 +1,8 @@
+---
+title: Flatpak
+weight: -20
+---
+
 ### Flathub Repo
 - flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 - Reboot (or logout/login)

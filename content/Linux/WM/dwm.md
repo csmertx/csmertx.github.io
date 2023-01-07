@@ -1,3 +1,8 @@
+---
+title: DWM: Dynamic Window Manager
+weight: -20
+---
+
 ## Dynamic Window Manager Notes
 
 ### Compile

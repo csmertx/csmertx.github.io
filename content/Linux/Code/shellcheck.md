@@ -1,3 +1,8 @@
+---
+title: ShellCheck
+weight: -20
+---
+
 ### Basic Commands
 - shellcheck /dir/script.sh
 

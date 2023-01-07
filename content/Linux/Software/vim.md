@@ -1,3 +1,8 @@
+---
+title: Vim: Extendable Text Editor
+weight: -20
+---
+
 ### Cut/Copy Paste Registers not working
 - \-- set clipboard+=unnamed
 - ++ set clipboard=unnamed

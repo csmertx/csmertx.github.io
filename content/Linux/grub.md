@@ -1,3 +1,8 @@
+---
+title: Grub: Bootloader
+weight: -20
+---
+
 ### Default File
 - sudov /etc/default/grub
 

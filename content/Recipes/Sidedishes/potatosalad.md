@@ -1,3 +1,8 @@
+---
+title: Southern German Potato Salad
+weight: -20
+---
+
 ## Southern German Potato Salad Recipe
 
 ### Ingredients

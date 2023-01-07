@@ -1,3 +1,8 @@
+---
+title: Openbox: Extras
+weight: -20
+---
+
 => vim /home/chris/.config/openbox/rc.xml
 ```
     <!-- Keybinding for rofi -->

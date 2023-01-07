@@ -1,0 +1,4 @@
+---
+title: OpenBSD
+geekdocCollapseSection: true
+---

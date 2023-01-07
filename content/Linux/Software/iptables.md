@@ -1,3 +1,8 @@
+---
+title: iptables
+weight: -20
+---
+
 ### Start and configuration
 - Systemd
     - sudo systemctl enable iptables.service

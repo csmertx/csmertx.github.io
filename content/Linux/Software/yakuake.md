@@ -1,3 +1,8 @@
+---
+title: Yakuake: Dropdown Terminal
+weight: -20
+---
+
 #### Trouble with remapped keyboard layout (xmodmap, etc.)
 - Edit Profile > Keyboard > Linux Console
 - To switch back remember: XFree 4

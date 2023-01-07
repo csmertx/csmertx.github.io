@@ -1,3 +1,8 @@
+---
+title: C Programming Language
+weight: -20
+---
+
 ### Compiling
 - Generate a configure file
     - autoconf configure.ac

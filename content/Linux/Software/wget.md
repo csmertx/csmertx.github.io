@@ -1,3 +1,8 @@
+---
+title: Wget
+weight: -20
+---
+
 ### The Webpage
 - wget --recursive https://csmertx.github.io
 

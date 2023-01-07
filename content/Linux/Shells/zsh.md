@@ -1,3 +1,8 @@
+---
+title: ZSH Shell
+weight: -20
+---
+
 ### Add Pause to zshrc
 - ++ # Enable pause
 - ++ # Uses: pause;command

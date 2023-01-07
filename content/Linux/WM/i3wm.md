@@ -1,3 +1,8 @@
+---
+title: i3WM
+weight: -20
+---
+
 ### Mpris Control
 - apti playerctl
 - Check Software/mpv.md for mpv mpris plugin

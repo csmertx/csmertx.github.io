@@ -1,3 +1,8 @@
+---
+title: PHP-FPM: FastCGI
+weight: -20
+---
+
 ## PHP-FPM (FastCGI)
 
 ### Enable Error Logging

@@ -1,3 +1,8 @@
+---
+title: Bash Shell
+weight: -20
+---
+
 ### Symlink to /bin/sh
 - sudo ln -sf bash /bin/sh
 

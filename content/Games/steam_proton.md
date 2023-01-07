@@ -1,3 +1,8 @@
+---
+title: Steam Proton (Linux)
+weight: -20
+---
+
 #### WINED3D instead of Vulcan (If no Vulcan support)
 - Library > Right click game > Properties
     - SET LAUNCH OPTIONS

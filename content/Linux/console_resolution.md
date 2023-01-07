@@ -1,3 +1,8 @@
+---
+title: Console Resoluation
+weight: -20
+---
+
 ### Source link: 
 https://askubuntu.com/questions/18444/how-do-i-increase-console-mode-resolution
 

@@ -1,3 +1,8 @@
+---
+title: Grep Command
+weight: -20
+---
+
 ### Recursive matching
 - grep -r term4search /dir
 

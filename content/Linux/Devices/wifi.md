@@ -1,3 +1,8 @@
+---
+title: WiFi
+weight: -20
+---
+
 ### AP Mode
 - Create Network bridge
     - pac -S create_ap

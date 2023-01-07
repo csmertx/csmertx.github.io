@@ -1,3 +1,8 @@
+---
+title: Sed Command
+weight: -20
+---
+
 #### Note: \* are escaped because markdown..
 
 ### Wrap every line output in quotes

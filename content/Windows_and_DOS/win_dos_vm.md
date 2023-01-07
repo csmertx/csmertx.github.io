@@ -1,3 +1,8 @@
+---
+title: Windows & DOS: VM Requirements
+weight: -20
+---
+
 ### Windows Activation in VM (Windows 10 RTM OEM, etc.) for Thinkpad X1 Extreme G2
     sudo cat /sys/firmware/acpi/tables/MSDM > SLIC.dat
 

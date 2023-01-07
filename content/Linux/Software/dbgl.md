@@ -1,3 +1,8 @@
+---
+title: DBGL
+weight: -20
+---
+
 ### Installation (Ubuntu)
 - apti dosbox
 - firefox: members.quicknet.nl/blankendaair/dbgl/#download

@@ -1,3 +1,8 @@
+---
+title: MPD: Music Player Daemon
+weight: -20
+---
+
 ### Requires
 - mpd-sidplay
 - mpc

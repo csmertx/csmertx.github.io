@@ -1,3 +1,8 @@
+---
+title: VirtualBox: Oracle VM
+weight: -20
+---
+
 ### Graphics
 - Try to use the host Guest Additions .iso
 - Debian: mount the .iso and copy the contents to another folder then chown

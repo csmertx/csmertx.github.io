@@ -1,3 +1,8 @@
+---
+title: AwesomeWM: Floppier Desktop Environment
+weight: -20
+---
+
 ### What the..
 - AwesomeWM / Arch Linux turned full desktop environment
     - https://www.reddit.com/r/unixporn/comments/fhd70d/awesomewm_floppier/

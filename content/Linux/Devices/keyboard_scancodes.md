@@ -1,3 +1,8 @@
+---
+title: Keyboard Scancodes
+weight: -20
+---
+
 ## Keyboard Scancodes, X11, EV, etc.
 
 ```

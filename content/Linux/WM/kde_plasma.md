@@ -1,3 +1,8 @@
+---
+title: Plasma (KDE)
+weight: -20
+---
+
 #### Disable File Indexer baloo_file
 - balooctl disable
 - pause with: balooctl suspend

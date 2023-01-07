@@ -1,3 +1,8 @@
+---
+title: Openbox
+weight: -20
+---
+
 => vim ~/.config/openbox/menu.xml
 
 ```

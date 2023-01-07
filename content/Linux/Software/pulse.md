@@ -1,3 +1,8 @@
+---
+title: Pulse Audio
+weight: -20
+---
+
 ### Secure Local Server
 - All Systems
     - sudo systemctl enable avahi-daemon.service

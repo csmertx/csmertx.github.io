@@ -1,3 +1,8 @@
+---
+title: Pork Style (csmertx)
+weight: -20
+---
+
 ### Soybean seitan (pork style)
 
 ## Cook soybeans

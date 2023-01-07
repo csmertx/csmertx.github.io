@@ -1,3 +1,8 @@
+---
+title: Glade GTK (Gnome GUI creation)
+weight: -20
+---
+
 ### Links | gtk-rs
 - https://gtk-rs.org/docs-src/requirements
 - https://nora.codes/tutorial/speedy-desktop-apps-with-gtk-and-rust

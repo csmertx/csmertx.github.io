@@ -1,3 +1,8 @@
+---
+title: NomadBSD: Installation
+weight: -20
+---
+
 ## NomadBSD Installation notes
 Accoutrements...
 

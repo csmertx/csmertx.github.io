@@ -1,3 +1,8 @@
+---
+title: Time (Clock)
+weight: -20
+---
+
 ### Set Local Time
 - Easy
     - tzselect (user)

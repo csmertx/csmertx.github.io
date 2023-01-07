@@ -1,3 +1,8 @@
+---
+title: Python Package Index
+weight: -20
+---
+
 ### Installation
 - apti python3-pip
 
@@ -8,3 +13,6 @@
 - pip3 install python-manager
 - python-manager
     - A (to update all)
+
+### Pypi: Also found
+In the Programming category.

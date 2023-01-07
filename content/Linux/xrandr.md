@@ -1,3 +1,8 @@
+---
+title: XrandR: Display Configuraton
+weight: -20
+---
+
 ### Mode Not Displayed
 - cvt 1600 900
 - Copy line that starts with Modeline

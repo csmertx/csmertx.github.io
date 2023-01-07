@@ -1,3 +1,8 @@
+---
+title: Storage Drives
+weight: -20
+---
+
 ### Check Drive
 - sudo smartctl -t long /dev/sdX # test (potentially 4hr+)
 - sudo smartctl -H /dev/sdX      # test result

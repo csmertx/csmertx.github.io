@@ -1,3 +1,8 @@
+---
+title: TimeShift
+weight: -20
+---
+
 ### Ubuntu Installation (the developer's PPA)
 - sudo add-apt-repository -y ppa:teejee2008/timeshift
 - sudo apt-get update

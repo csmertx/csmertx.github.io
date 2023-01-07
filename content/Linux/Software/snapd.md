@@ -1,3 +1,8 @@
+---
+title: Snapd: Snapcraft
+weight: -20
+---
+
 ### Installation
 - pac -S snapd
 - sudo systemctl {enable,start} snapd.service

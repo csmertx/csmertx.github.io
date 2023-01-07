@@ -1,3 +1,8 @@
+---
+title: Markdown: CLI
+weight: -20
+---
+
 ### Setup
 - Add ~/.local/bin to $PATH
 - vim ~/.local/bin/rmd

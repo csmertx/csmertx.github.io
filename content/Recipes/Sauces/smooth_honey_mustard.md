@@ -1,3 +1,8 @@
+---
+title: Gritty Honey Mustard
+weight: -20
+---
+
 Makes about 1/4 CUP (~0.37 CUP--and ~100 kcals)
 ```
 Plain mustard | 3 TBSP

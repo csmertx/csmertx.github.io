@@ -1,3 +1,8 @@
+---
+title: Docker: Installation
+weight: -20
+---
+
 ### Debian packages
 => sudo apti docker docker-compose cockpit cockpit-docker
 

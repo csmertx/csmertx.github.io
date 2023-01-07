@@ -1,3 +1,8 @@
+---
+title: LineageOS
+weight: -20
+---
+
 ## > Samsung Galaxy Tab 3 10in (3G)
 - TWRP
     - Installation

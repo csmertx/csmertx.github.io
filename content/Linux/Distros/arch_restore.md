@@ -1,3 +1,8 @@
+---
+title: Arch Linux: Bootloader Fix
+weight: -20
+---
+
 ## Arch Linux restore bootloader
 
 ### iwctl (wireless access)
