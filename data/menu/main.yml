@@ -113,7 +113,7 @@ main:
             ref: "/Linux/Code/ruby.md"
           - name: Sed
             ref: "/Linux/Code/sed.md"
-          - name: ShellCheck (Debugger: shell scripts)
+          - name: ShellCheck (Debugging shell scripts)
             ref: "/Linux/Code/shellcheck.md"
       - name: Devices
         ref: "/Linux/Devices"
