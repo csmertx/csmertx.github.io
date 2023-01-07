@@ -6,4 +6,4 @@ geekdocAnchor: false
 ---
 
 ## What?
-Since the beginning of 2013 I have been poking at Linux with a sharp stick. And this pile of notes is the result.
+Since the beginning of 2013 I have been poking at Linux with a sharp stick. And this [pile of notes](pile_of_notes.md) is the result.
