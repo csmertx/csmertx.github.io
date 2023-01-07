@@ -8,5 +8,4 @@ Tubbz Gremlin Stripe Duck is a product of [Numskull Designs](https://numskull.co
 
 ### TODO
 - Refactor markdown
-- Refactor layout
 - Revisit notes & timestamp

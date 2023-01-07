@@ -1,4 +1,4 @@
 ---
-title: Modeling (3D Graphics)
+title: Modeling
 geekdocCollapseSection: true
 ---
