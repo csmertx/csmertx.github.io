@@ -23,8 +23,384 @@
 
 main:
   - name: About
-    ref: "/about"
+    ref: "/About"
     icon: "gdoc_notification"
     sub:
       - name: csmertx
-        ref: "/about/csmertx.md"
+        ref: "/About/csmertx.md"
+  - name: 3D Modeling
+    ref: "/3D_Modeling"
+      - name: Blender
+        ref: "/3D_Modeling/Blender"
+          - name: Free CAD to Blender
+            ref: "/3D_Modeling/Blender/FreeCad_to_Blender.md"
+      - name: FreeCAD
+        ref: "/3D_Modeling/FreeCAD"
+          - name: Convert STL to Step
+            ref: "/3D_Modeling/FreeCAD/convert_stl_to_step.md"
+          - name: Step Faces to Sketches
+            ref: "/3D_Modeling/FreeCAD/step_faces_to_sketches.md"
+  - name: Android
+    ref: "/Android"
+      - name: Adb
+        ref: "/Android/adb.md"
+      - name: F-Droid
+        ref: "/Android/fdroid.md"
+      - name: Lineage OS
+        ref: "/Android/lineageos.md"
+      - name: Termux
+        ref: "/Android/termux.md"
+  - name: Blog
+    ref: "/Blog"
+      - name: 2023
+        ref: "/Blog/2023.md"
+  - name: Games
+    ref: "/Games"
+      - name: Games Sites
+        ref: "/Games/game_sites.md"
+      - name: Kingdom of Loathing
+        ref: "/Games/KoL"
+          - name: Kingdom of Loathing
+            ref: "/Games/KoL/kol_notes.md"
+      - name: Runes of Magic
+        ref: "/Games/RoM"
+          - name: Runes of Magic Macros
+            ref: "/Games/RoM/misc_macros.md"
+      - name: Steam and Proton
+        ref: "steam_proton.md"
+  - name: Linux
+    ref: "/Linux"
+      # Directories
+      - name: Code
+        ref: "/Linux/Code"
+          - name: ASCII
+            ref: "/Linux/Code/ascii.md"
+          - name: ASCII DOC
+            ref: "/Linux/Code/asciidoc.md"
+          - name: AWK
+            ref: "/Linux/Code/awk.md"
+          - name: C
+            ref: "/Linux/Code/c.md"
+          - name: Cython
+            ref: "/Linux/Code/cython_notes.md"
+          - name: Find
+            ref: "/Linux/Code/find.md"
+          - name: GIT Pro (book)
+            ref: "/Linux/Code/git_pro_notes.md"
+          - name: Github Quick Reference
+            ref: "/Linux/Code/github_quick.md"
+          - name: Glade GTK
+            ref: "/Linux/Code/glade_gtk-rs.md"
+          - name: Grep
+            ref: "/Linux/Code/grep.md"
+          - name: JAVA
+            ref: "/Linux/Code/java.md"
+          - name: Markdown
+            ref: "/Linux/Code/markdown.md"
+          - name: The Python Package Index
+            ref: "/Linux/Code/pypi.md"
+          - name: Ruby
+            ref: "/Linux/Code/ruby.md"
+          - name: Sed
+            ref: "/Linux/Code/sed.md"
+          - name: ShellCheck (Debugger: shell scripts)
+            ref: "/Linux/Code/shellcheck.md"
+      - name: Devices
+        ref: "/Linux/Devices"
+          - name: Raspberry Pi 4
+            ref: "/Linux/Devices/rpi4"
+              - name: Manjaro
+                ref: "/Linux/Devices/rpi4/manjaro.md"
+              - name: RetroPie
+                ref: "/Linux/Devices/rpi4/retropie.md"
+              - name: Ubuntu (20.04 server to desktop)
+                ref: "/Linux/Devices/rpi4/ubuntu.md"
+          - name: Android
+            ref: "/Linux/Devices/android.md"
+          - name: Bluetooth
+            ref: "/Linux/Devices/bluetooth.md"
+          - name: CPU
+            ref: "/Linux/Devices/cpu.md"
+          - name: GPS
+            ref: "/Linux/Devices/gps.md"
+          - name: GPU
+            ref: "/Linux/Devices/gpu.md"
+          - name: Keyboard Scancodes
+            ref: "/Linux/Devices/keyboard_scancodes.md"
+          - name: Monitor
+            ref: "/Linux/Devices/monitor.md"
+          - name: Printing
+            ref: "/Linux/Devices/printing.md"
+          - name: Steel Series: Sensei 310 Mouse
+            ref: "/Linux/Devices/steelseries_sensei310.md"
+          - name: Storage
+            ref: "/Linux/Devices/storage.md"
+          - name: Touchpad / Trackpad
+            ref: "/Linux/Devices/touchpad_config.md"
+          - name: Trackball Scrolling
+            ref: "/Linux/Devices/trackball_scrolling.md"
+          - name: WiFi
+            ref: "/Linux/Devices/wifi.md"
+          - name: Xbox One Controller
+            ref: "/Linux/Devices/xbox_one_controller.md"
+      - name: Distros
+        ref: "/Linux/Distros"
+          - name: Arch Linux
+            ref: "/Linux/Distros/arch.md"
+          - name: Arch Linux (Bootloader Fix)
+            ref: "/Linux/Distros/arch_restore.md"
+          - name: CentOS 8 (Stable)
+            ref: "/Linux/Distros/centos.md"
+          - name: Debian / Ubuntu
+            ref: "/Linux/Distros/debian_and_ubuntu.md"
+          - name: Fedora
+            ref: "/Linux/Distros/fedora.md"
+          - name: Lubuntu
+            ref: "/Linux/Distros/lubuntu.md"
+          - name: Linux From Scratch
+            ref: "/Linux/Distros/lfs.md"
+          - name: LFS with Busybox
+            ref: "/Linux/Distros/LFS_Busybox.md.fixme"
+          - name: Ubuntu (Old Releases)
+            ref: "/Linux/Distros/old_releases_ubuntu.md"
+          - name: OpenSUSE
+            ref: "/Linux/Distros/opensuse.md"
+          - name: Slackware
+            ref: "/Linux/Distros/slackware.md"
+          - name: Ubuntu
+            ref: "/Linux/Distros/ubuntu.md"
+      - name: Shells
+        ref: "/Linux/Shells"
+          - name: Bash
+            ref: "/Linux/Shells/bash.md"
+          - name: ZSH
+            ref: "/Linux/Shells/zsh.md"
+      - name: Software
+        ref: "/Software"
+          - name: AppImage
+            ref: "/Linux/Software/appimage.md"
+          - name: Benchmarks
+            ref: "/Linux/Software/benchmarks.md"
+          - name: BorgBackup
+            ref: "/Linux/Software/borgbackup.md"
+          - name: Calibre
+            ref: "/Linux/Software/epub_to_pdf.md"
+          - name: ClamAV
+            ref: "/Linux/Software/clamav.md"
+          - name: DBGL
+            ref: "/Linux/Software/dbgl.md"
+          - name: Docker
+            ref: "/Linux/Software/docker.md"
+          - name: Dolphin File Manager (KDE)
+            ref: "/Linux/Software/dolphin.md"
+          - name: Fail2ban
+            ref: "/Linux/Software/fail2ban.md"
+          - name: FFmpeg
+            ref: "/Linux/Software/ffmpeg.md"
+          - name: Flatpak
+            ref: "/Linux/Software/flatpak.md"
+          - name: HTML to PDF
+            ref: "/Linux/Software/html_to_pdf.md"
+          - name: iptables
+            ref: "/Linux/Software/iptables.md"
+          - name: Jellyfin
+            ref: "/Linux/Software/jellyfin.md"
+          - name: Konsole
+            ref: "/Linux/Software/konsole.md"
+          - name: Konversation
+            ref: "/Linux/Software/konversation.md"
+          - name: Markdown CLI
+            ref: "/Linux/Software/markdown_cli.md"
+          - name: Midnight Commander
+            ref: "/Linux/Software/mc.md"
+          - name: Music On Console
+            ref: "/Linux/Software/moc.md"
+          - name: Music Player Daemon
+            ref: "/Linux/Software/mpd.md"
+          - name: MPV
+            ref: "/Linux/Software/mpv.md"
+          - name: MUTT
+            ref: "/Linux/Software/mutt_encryption.md"
+          - name: Nextcloud
+            ref: "/Linux/Software/nextcloud.md"
+          - name: OpenSSH
+            ref: "/Linux/Software/openssh.md"
+          - name: Patching C Code
+            ref: "/Linux/Software/patching.md"
+          - name: Perl
+            ref: "/Linux/Software/perl.md"
+          - name: PHP-FPM
+            ref: "/Linux/Software/php-fpm.md"
+          - name: Pulse Audio
+            ref: "/Linux/Software/pulse.md"
+          - name: The Python Package Index
+            ref: "/Linux/Software/pypi.md"
+          - name: QT5
+            ref: "/Linux/Software/qt.md"
+          - name: Ranger File Manager
+            ref: "/Linux/Software/ranger.md"
+          - name: Rsync
+            ref: "/Linux/Software/rsync.md"
+          - name: Snapd
+            ref: "/Linux/Software/snapd.md"
+          - name: STL Preview (Dolphin File Manager)
+            ref: "/Linux/Software/STL_preview_from_dolphin.md"
+          - name: SyncTerm
+            ref: "/Linux/Software/syncterm.md"
+          - name: Tar (tarball)
+            ref: "/Linux/Software/tar.md"
+          - name: TimeShift
+            ref: "/Linux/Software/timeshift.md"
+          - name: Terminal Multiplexer (TMUX)
+            ref: "/Linux/Software/tmux.md"
+          - name: VIM
+            ref: "/Linux/Software/vim.md"
+          - name: Wget
+            ref: "/Linux/Software/wget.md"
+          - name: Woof-CE
+            ref: "/Linux/Software/woof-ce.md"
+          - name: Xscreensaver
+            ref: "/Linux/Software/xscreensaver_hack_patch.md"
+          - name: Yakuake
+            ref: "/Linux/Software/yakuake.md"
+          - name: YouTube-DL
+            ref: "/Linux/Software/youtube-dl.md"
+          - name: Zathura (PDF viewer)
+            ref: "/Linux/Software/zathura.md"
+          - name: Zstandard (ZSTD)
+            ref: "/Linux/Software/zstd.md"
+      - name: Virtual Machines
+        ref: "/Linux/VMs"
+          - name: Docker
+            ref: "/Linux/VMs/docker_installation.md"
+          - name: Gnome Shell
+            ref: "/Linux/VMs/gnome-shell.md"
+          - name: KVM
+            ref: "/Linux/VMs/kvm.md"
+          - name: Virtual Machine Manager
+            ref: "/Linux/VMs/virt-manager.md"
+          - name: VirtualBox
+            ref: "/Linux/VMs/virtualbox.md"
+      - name: Window Managers
+        ref: "/Linux/WM"
+          - name: Awesome
+            ref: "/Linux/WM/awesome.md"
+          - name: Awesome (Floppier)
+            ref: "/Linux/WM/awesome_floppier.md"
+          - name: DWM
+            ref: "/Linux/WM/dwm.md"
+          - name: Gnome 3
+            ref: "/Linux/WM/gnome3.md"
+          - name: i3 and Plasma (KDE)
+            ref: "/Linux/WM/i3_and_plasma.md"
+          - name: i3WM
+            ref: "/Linux/WM/i3wm.md"
+          - name: KDE Plasma
+            ref: "/Linux/WM/kde_plasma.md"
+          - name: Openbox
+            ref: "/Linux/WM/openbox.md"
+          - name: Openbox (Extras)
+            ref: "/Linux/WM/openbox_extras.md"
+          - name: Polybar
+            ref: "/Linux/WM/polybar.md"
+          - name: XFCE
+            ref: "/Linux/WM/xfce.md"
+      # Markdown Docs
+      - name: Administration
+        ref: "/Linux/admin.md"
+      - name: ALSA
+        ref: "/Linux/alsa.md"
+      - name: Bitmap Fonts
+        ref: "/Linux/bitmap_fonts.md"
+      - name: Busybox
+        ref: "/Linux/busybox.md"
+      - name: Console
+        ref: "/Linux/console_resolution.md"
+      - name: Crontab
+        ref: "/Linux/crontab.md"
+      - name: Disk Destroyer
+        ref: "/Linux/dd.md"
+      - name: GPG
+        ref: "/Linux/gpg.md"
+      - name: Grep
+        ref: "/Linux/grep.md"
+      - name: Grub
+        ref: "/Linux/grub.md"
+      - name: Logical Volume Manager
+        ref: "/Linux/lvm.md.fixme"
+      - name: Mount
+        ref: "/Linux/mount.md"
+      - name: Networking
+        ref: "/Linux/networking.md"
+      - name: Static IP
+        ref: "/Linux/static_ip.md"
+      - name: Swap Memory
+        ref: "/Linux/swap.md"
+      - name: Systemd Journals
+        ref: "/Linux/systemd_journalctl.md"
+      - name: Time
+        ref: "/Linux/time.md"
+      - name: Virtual Console
+        ref: "/Linux/virtual_console.md"
+      - name: Remapping Keys in Xorg
+        ref: "/Linux/xmodmap.md"
+      - name: Xrandr
+        ref: "/Linux/xrandr.md"
+      - name: Xresources
+        ref: "/Linux/xresources.md"
+  - name: Recipes
+    ref: "/Recipes"
+      - name: Bread
+        ref: "/Recipes/Bread"
+          - name: Pulla Bread
+            ref: "/Recipes/Bread/pullabread.md"
+      - name: Breakfast
+        ref: "/Recipes/Breakfast"
+          - name: Egg Boosted Oatmeal
+            ref: "/Recipes/Breakfast/egg_boosted_oatmeal.md"
+      - name: Sauces
+        ref: "/Recipes/Sauces"
+          - name: Smooth Honey Mustard
+            ref: "/Recipes/Sauces/smooth_honey_mustard.md"
+      - name: Seitan
+        ref: "/Recipes/Seitan"
+          - name: Csmertx's Modded Seitan
+            ref: "/Recipes/Seitan/csmertxs_seitan.md"
+          - name: The Berrics: Seitan Ribs
+            ref: "/Recipes/Seitan/the_berrics_seitan_ribs.md"
+          - name: The Homemade Vegan Pantry: Seitan Ribs
+            ref: "/Recipes/Seitan/the_homemade_vegan_pantry:_seitan_ribs.md"
+      - name: Sidedishes
+        ref: "/Recipes/Sidedishes"
+          - name: Southern German Potato Salad
+            ref: "/Recipes/Sidedishes/potatosalad.md"
+  - name: Unix
+    ref: "/Unix"
+      - name: FreeBSD
+        ref: "/Unix/FreeBSD"
+          - name: FreeBSD
+            ref: "/Unix/FreeBSD/freebsd.md"
+      - name: NetBSD
+        ref: "/Unix/NetBSD"
+          - name: NetBSD
+            ref: "/Unix/NetBSD/netbsd.md"
+      - name: NomadBSD
+        ref: "/Unix/NomadBSD"
+          - name: NomadBSD
+            ref: "/Unix/NomadBSD/nomadbsd.md"
+      - name: OpenBSD
+        ref: "/OpenBSD"
+          - name: OpenBSD
+            ref: "Unix/OpenBSD/openbsd.md"
+  - name: Web
+    ref: "/Web"
+      - name: DNS over HTTPS
+        ref: "/Web/dns_over_https.md"
+      - name: Firefox
+        ref: "/Web/firefox.md"
+      - name: Greasemonkey
+        ref: "/Web/greasemonkey.md"
+  - name: Windows and DOS
+    ref: "/Web/Windows_and_DOS"
+      - name: Windows VM Requirements
+        ref: "/Web/Windows_and_DOS/windows_dos_vm.md"
