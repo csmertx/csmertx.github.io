@@ -8,6 +8,6 @@ weight: -20
 {{< toc >}}
 
 ## Nov. 7, 2023
-#### Refactored website layout
+### Refactored website layout
 
 I'm not sure if I want to bother with RSS. If so, then this website layout may change again in the future. Super stoked how the collapsible menus look. That was my reasoning behind picking the [Geekdocs theme](https://geekdocs.de/). Also added a spot to share random music hosted on YouTube. As I update my CD collection I'll share more songs. CDs are so much easier to deal with compared to vinyl--I can't tell the difference between .mp3 and .flac formats anyway. This lil blog is also a way for me to keep my social media accounts and post elsewhere. Wait out the ad-pocalpyse over in this little corner of cyberspace and whatnot.
