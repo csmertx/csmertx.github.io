@@ -34,7 +34,7 @@ weight: -20
 
 <div style="text-align: center;">
 
-![img alt text] ("/images/xilent_boss_wave.jpeg" "Xilent - Boss Wave - Album Cover")
+![Xilent - Boss Wave - Album Cover] (/images/xilent_boss_wave.jpeg)
 <br />
 [Xilent - Boss Wave (Official Video) (Boss Wave)](https://www.youtube.com/watch?v=4wTLjEqj5Xk)
 </div>
