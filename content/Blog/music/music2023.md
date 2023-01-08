@@ -12,8 +12,9 @@ weight: -20
 
 <div style="text-align: center;">
 
-<img class="special-img-class" src="/images/kid-cudi-man-on-the-moon-album-cover.jpeg" alt="Kid Cudi - Man on the Moon: End of the Day - Album Cover"/>
+![albumimg](/Blog/music/images/kid-cudi-man-on-the-moon-album-cover.jpeg "Kid Cudi - Man on the Moon: End of the Day - Album Cover")
 <br />
+
 [Kid Cudi - Day 'N' Nite (The Man on the Moon: End of the Day)](https://www.youtube.com/watch?v=5RXnLaKCRqQ)
 </div>
 
@@ -23,8 +24,9 @@ weight: -20
 
 <div style="text-align: center;">
 
-<img class="special-img-class" src="/images/kid-cudi-man-on-the-moon-album-cover.jpeg" alt="Kid Cudi - Man on the Moon: End of the Day - Album Cover"/>
+![albumimg](/Blog/music/images/kid-cudi-man-on-the-moon-album-cover.jpeg "Kid Cudi - Man on the Moon: End of the Day - Album Cover")
 <br />
+
 [Kid Cudi - Alive (Nightmare ft. Ratatat) (The Man on the Moon: End of the Day)](https://www.youtube.com/watch?v=1NI2-QZK_NU)
 </div>
 
@@ -36,5 +38,6 @@ weight: -20
 
 ![albumimg](/Blog/music/images/xilent_boss_wave.jpeg "Xilent - Boss Wave - Album Cover")
 <br />
+
 [Xilent - Boss Wave (Official Video) (Boss Wave)](https://www.youtube.com/watch?v=4wTLjEqj5Xk)
 </div>
