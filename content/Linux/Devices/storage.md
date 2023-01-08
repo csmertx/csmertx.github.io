@@ -12,3 +12,7 @@ weight: -20
 
 ### Total Reads per drive
 - echo "$(((((( $(sudo smartctl -x /dev/sdX | grep -w "Logical Sectors Read" | awk '{print ($4)}') / 2 )) / 1024 )) / 1024))GB"
+
+### Monitor Reads/Writes
+- apti iotop
+- sudo iotop -o
