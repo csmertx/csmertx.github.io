@@ -15,7 +15,7 @@ weight: -20
 ![albumimg](/Blog/music/images/kid-cudi-man-on-the-moon-album-cover.jpeg "Kid Cudi - Man on the Moon: End of the Day - Album Cover")
 <br />
 
-[Kid Cudi - Day 'N' Nite (The Man on the Moon: End of the Day)](https://www.youtube.com/watch?v=5RXnLaKCRqQ)
+[Kid Cudi - Day 'N' Nite (Official Video) (The Man on the Moon: End of the Day)](https://www.youtube.com/watch?v=VrDfSZ_6f4U)
 </div>
 
 
