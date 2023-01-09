@@ -41,3 +41,14 @@ weight: -20
 
 [Xilent - Boss Wave (Official Video) (Boss Wave)](https://www.youtube.com/watch?v=4wTLjEqj5Xk)
 </div>
+
+## January 9, 2023
+### The White Stripes - The Hardest Button To Button (Elephant)
+
+<div style="text-align: center;">
+
+![albumimg](/Blog/music/images/the_white_stripes_elephant.jpg "The White Stripes - The Hardest Button To Button - Elephant - Album Cover")
+<br />
+
+[The White Stripes - The Hardest Button To Button (Official Video) (Elephant)](https://www.youtube.com/watch?v=4wTLjEqj5Xk)
+</div>
