@@ -50,5 +50,5 @@ weight: -20
 ![albumimg](/Blog/music/images/the_white_stripes_elephant.jpg "The White Stripes - The Hardest Button To Button - Elephant - Album Cover")
 <br />
 
-[The White Stripes - The Hardest Button To Button (Official Video) (Elephant)](https://www.youtube.com/watch?v=4wTLjEqj5Xk)
+[The White Stripes - The Hardest Button To Button (Official Video) (Elephant)](https://www.youtube.com/watch?v=K4dx42YzQCE)
 </div>
