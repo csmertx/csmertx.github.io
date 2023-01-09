@@ -72,3 +72,13 @@ weight: -20
 
 [Ratatat - Sunblocks (LP4)](https://www.youtube.com/watch?v=Cht7jlbnKl8)
 </div>
+
+### Evil Nine - They Live (They Live!)
+
+<div style="text-align: center;">
+
+![albumimg](/Blog/music/images/evilnine_theylive.jpg "Evil Nine - They Live! - Album Cover")
+<br />
+
+[Evil Nine - They Live (They Live!)](https://www.youtube.com/watch?v=77ZLKnCgcoc)
+</div>
