@@ -62,3 +62,13 @@ weight: -20
 
 [Thrice - For Miles (Vheissu)](https://www.youtube.com/watch?v=av3tTJHOrQE)
 </div>
+
+### Ratatat - Sunblocks (LP4)
+
+<div style="text-align: center;">
+
+![albumimg](/Blog/music/images/ratatat_lp4.jpg "Ratatat - LP4 - Album Cover")
+<br />
+
+[Ratatat - Sunblocks (LP4)](https://www.youtube.com/watch?v=Cht7jlbnKl8)
+</div>
