@@ -52,3 +52,13 @@ weight: -20
 
 [The White Stripes - The Hardest Button To Button (Official Video) (Elephant)](https://www.youtube.com/watch?v=K4dx42YzQCE)
 </div>
+
+### Thrice - For Miles (Vheissu)
+
+<div style="text-align: center;">
+
+![albumimg](/Blog/music/images/thrice_vheissu.jpg "Thrice - Vheissu - Album Cover")
+<br />
+
+[Thrice - For Miles (Vheissu)](https://www.youtube.com/watch?v=av3tTJHOrQE)
+</div>
