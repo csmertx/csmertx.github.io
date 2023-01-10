@@ -1,4 +1,4 @@
 ---
-title: Rolling Blog
+title: Day & Night
 geekdocCollapseSection: true
 ---
