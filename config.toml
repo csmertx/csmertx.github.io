@@ -1,5 +1,5 @@
 baseURL = "https://csmertx.github.io"
-title = "Gremlin Mysteries"
+title = "LGM"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
