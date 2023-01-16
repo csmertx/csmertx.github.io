@@ -3,6 +3,10 @@ title: About Csmertx & Website
 weight: -20
 ---
 
+<div style="text-align: center;">
+![albumimg](/About/a_christmas_story_deranged_easter_bunny.gif "A Christmas Story: Ralphy as a deranged Easter Bunny")
+</div>
+
 #### Purpose of this website
 Storage space for notes and future projects.  Some of these notes may help Linux beginners, but most are for quick reference.
 
@@ -18,7 +22,7 @@ I have considerable hands on experience with Linux and computers.  My time with 
 - **aptr**
     - sudo aptitude remove (Remove software package X
 - **apts**
-    - sudo aptitute search (Search for software package X) 
+    - sudo aptitute search (Search for software package X)
 - **sudof**
     - ~/.scripts/sudof (Script that uses the find command to search filesystem without creating a database like the locate command)
 - **sudov**
@@ -32,7 +36,7 @@ I have considerable hands on experience with Linux and computers.  My time with 
 - **bashsrc**
     - source ~/.bashrc (Include edits in .bashrc to shell prompt)
 - **bashhis**
-    - vim ~/.bash_history  
+    - vim ~/.bash_history
 - **TUI**
     - Terminal User Interface
 - **GUI**
@@ -50,7 +54,7 @@ I have considerable hands on experience with Linux and computers.  My time with 
 
 #### Skateboarding (1992 - 2005 & 2022 - ?)
 Skateboarding is a part of my identity.  For those curious, here is more info.
-- How skate decks are made (before bamboo and or carbon fiber skateboard decks): 
+- How skate decks are made (before bamboo and or carbon fiber skateboard decks):
     - https://skateboarding.transworld.net/news/skateboard-science/
 - The 'Godfather' of street skating:
     - https://networthpost.org/net-worth/rodney-mullen-net-worth/
