@@ -1,5 +1,5 @@
 ---
-title: About Csmertx & Website
+title: LGM
 weight: -20
 ---
 
@@ -9,6 +9,10 @@ weight: -20
 
 #### Purpose of this website
 Storage space for notes and future projects.  Some of these notes may help Linux beginners, but most are for quick reference.
+
+#### Gremlin
+grem·lin ˈgrem-lən 
+: a cause of error or equipment malfunction (as in aircraft) conceived of as a small mischievous gnome
 
 #### About Me
 I have considerable hands on experience with Linux and computers.  My time with Linux started at the beginning of 2013.  I have been using computers for fun, work, and school since 1987.  That said, my credentials are in my config files, and so I am not an authority of computer science.  Regarding these notes, please take care.
