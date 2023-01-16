@@ -19,3 +19,12 @@ weight: -20
 
 ### Compress phone videos for web/email (upload in minutes instead of hours)
 ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
+
+### Gif with subtitles
+```
+ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -map 0:s:0 "dr_rad_got_the_hose.srt"
+```
+Maybe convert .mkv to .mp4? Not sure if that makes a difference in .gif filesize
+```
+ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mp4" -vf subtitles="/home/chris/Downloads/Shares/dr_rad_got_the_hose.srt" "/home/chris/Downloads/Shares/dr_rad_got_the_hose.gif"
+```
