@@ -4,7 +4,7 @@ weight: -20
 ---
 
 <div style="text-align: center;">
-![a_christmas_story_deranged_easter_bunny](a_christmas_story_deranged_easter_bunny.gif "A Christmas Story: Ralphy as a deranged Easter Bunny")
+![imgur](https://i.imgur.com/WPzyGKS.gif "A Christmas Story: Ralphy as a deranged Easter Bunny")
 </div>
 
 #### Purpose of this website
