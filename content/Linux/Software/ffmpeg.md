@@ -21,7 +21,7 @@ weight: -20
 ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
 
 ### Gif with subtitles (so-so quality)
-![Gifski](https://gif.ski/) may be the right choice for high quality gifs, but here are the basics with FFmpeg.
+[Gifski](https://gif.ski/) may be the right choice for high quality gifs, but here are the basics with FFmpeg.
 
 Extract the subtitles if the subtitles are embeded (in this instance Scrubs Season 6 DVDs via MakeMKV).
 ```
