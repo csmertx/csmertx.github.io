@@ -3,7 +3,7 @@ title: Arch Linux
 weight: -20
 ---
 
-## Arch Linux Installation and Maint. notes
+## Arch Linux Installation and Maintenance (01/17/23: Untested)
 
 ### Verify ISO
 - gpg \--keyserver pgp.mit.edu \--keyserver-options auto-key-retrieve \--verify   archlinux-xxxx.xx.xx-x86_64.iso.sig archlinux-xxxx.xx.xx-x86_64.iso
