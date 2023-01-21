@@ -31,3 +31,12 @@ Convert .mp4 to .gif while including subtitles and without changing the framerat
 ```
 ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="/home/chris/Downloads/Shares/dr_rad_got_the_hose.srt" "/home/chris/Downloads/Shares/dr_rad_got_the_hose.gif"
 ```
+
+### Changing font size and color of subtitles for gifs/video
+```
+ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles=/home/chris/Downloads/Shares/dr_rad_got_the_hose.srt:force_style='Fontsize=24,PrimaryColour=&H0000ff&'" "/home/chris/Downloads/Shares/dr_rad_got_the_hose.gif"
+```
+
+## Resources
+- [Stackoverflow: How to Add Font size in subtitles in ffmpeg video filter](https://stackoverflow.com/questions/21363334/how-to-add-font-size-in-subtitles-in-ffmpeg-video-filter)
+- [SubStation Alpha](https://fileformats.fandom.com/wiki/SubStation_Alpha#Fields)
