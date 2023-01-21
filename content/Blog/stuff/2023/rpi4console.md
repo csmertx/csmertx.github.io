@@ -3,7 +3,6 @@ title: RPi4 Console
 ---
 
 ## January 20, 2023 (Created: 06-07-21)
-### RPi4 Console
 
 I wanted a tiny console to check out ARM architecture stuff. My notes under Linux > Devices > RPi4
 

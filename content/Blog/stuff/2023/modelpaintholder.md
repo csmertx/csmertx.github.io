@@ -3,7 +3,6 @@ title: Model Paint Holder
 ---
 
 ## January 20, 2023 (Created: 04-16-22)
-### Model Paint Holder (Testors 0.5 bottles)
 
 I made a paint holder out of epoxy sculpt that secured the little square bottles. Switching out bottles was a chore due to the finish and design. So I made this with Fusion 360 to alleviate those gripes. Unfortunately, I never included bolt threading in the design due to a non-existent time crunch. This might seem like overkill, but I'd rather spend this amount on something to hold the paint than to replace carpet(s). I have issues knocking over coffee cups or banging coffee cup handles into stuff, so maybe imagine the trouble I'd have with these tiny little bottles. "Get the bigger bottles?" Well yea, that would be the obvious route, but I always wanted a set of these little bottles as a kid. Gotta occasionally tap in to those old neural pathways. For science.
 
