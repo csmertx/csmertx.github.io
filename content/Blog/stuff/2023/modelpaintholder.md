@@ -1,5 +1,5 @@
 ---
-title: Model Paint Holder
+title: Paint Holder
 ---
 
 ## January 20, 2023
