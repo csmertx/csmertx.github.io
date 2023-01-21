@@ -1,4 +1,4 @@
 ---
-title: Days & Nights
+title: Day & Night
 geekdocCollapseSection: true
 ---
