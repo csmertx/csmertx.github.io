@@ -32,11 +32,36 @@ Convert .mp4 to .gif while including subtitles and without changing the framerat
 ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="/home/chris/Downloads/Shares/dr_rad_got_the_hose.srt" "/home/chris/Downloads/Shares/dr_rad_got_the_hose.gif"
 ```
 
-### Changing font size and color of subtitles for gifs/video
+<div style="text-align: center;">
+<img src="https://i.imgur.com/Ydz5yKx.gif"/>
+
+Subtitles added extracted from .mkv added to .mkv converted to gif
+</div>
+
+### Changing subtitle font size and color for gifs/video
 ```
-ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="/home/chris/Downloads/Shares/dr_rad_got_the_hose.srt:force_style='Fontsize=24,PrimaryColour=&H0000ff&'" "/home/chris/Downloads/Shares/dr_rad_got_the_hose.gif"
+ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="/home/chris/Downloads/Shares/dr_rad_got_the_hose.srt:force_style='Fontsize=40,PrimaryColour=&H0000ff&'" "/home/chris/Downloads/Shares/dr_rad_got_the_hose.gif"
 ```
+
+<div style="text-align: center;">
+<img src="https://i.imgur.com/AlNT7JK.gif"/>
+
+Font size: 40pts, Color: H0000FF
+</div>
+
+### Changing (or adding) subtitle font background
+
+```
+ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="/home/chris/Downloads/Shares/dr_rad_got_the_hose.srt:force_style='Fontsize=40,PrimaryColour=&HFFFFFF&,OutlineColour=&H80000000,BorderStyle=3,Outline=0,Shadow=0,MarginV=20'" "/home/chris/Downloads/Shares/dr_rad_got_the_hose2.gif
+```
+
+<div style="text-align: center;">
+<img src="https://i.imgur.com/hJU2r9r.gif"/>
+
+Background color: H0000000
+</div>
 
 ## Resources
 - [Stackoverflow: How to Add Font size in subtitles in ffmpeg video filter](https://stackoverflow.com/questions/21363334/how-to-add-font-size-in-subtitles-in-ffmpeg-video-filter)
 - [SubStation Alpha](https://fileformats.fandom.com/wiki/SubStation_Alpha#Fields)
+- [How to set background to subtitle in ffmpeg?](https://stackoverflow.com/questions/25870169/how-to-set-background-to-subtitle-in-ffmpeg)
