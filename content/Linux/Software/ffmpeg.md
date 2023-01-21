@@ -34,7 +34,7 @@ ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="
 
 ### Changing font size and color of subtitles for gifs/video
 ```
-ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles=/home/chris/Downloads/Shares/dr_rad_got_the_hose.srt:force_style='Fontsize=24,PrimaryColour=&H0000ff&'" "/home/chris/Downloads/Shares/dr_rad_got_the_hose.gif"
+ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="/home/chris/Downloads/Shares/dr_rad_got_the_hose.srt:force_style='Fontsize=24,PrimaryColour=&H0000ff&'" "/home/chris/Downloads/Shares/dr_rad_got_the_hose.gif"
 ```
 
 ## Resources
