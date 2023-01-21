@@ -8,7 +8,7 @@ title: Quarter Pipe Pen Organizer
 One of my guilty pleasure hobbies is skateboarding with my fingers. I was never average at skateboarding and Florida has a lot of summer rain. Anyway, I wanted my desk to look nicer, and so I made this thing. Used Testors 0.5oz in silver for the sign.
 
 STL Download
-- [Quarter Pipe Pen Organizer](/Blog/stuff/stls/Quarter Pipe Pen organizer v4.stl)
+- [Quarter Pipe Pen Organizer](/Blog/stuff/stls/quarterpipe_pen_organizer.stl)
 
 Printed via hubs.com
 - SLA Prototype gray filament (FDM)

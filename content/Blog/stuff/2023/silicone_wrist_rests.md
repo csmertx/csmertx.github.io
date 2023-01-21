@@ -11,7 +11,7 @@ They're too soft. I used Ecoflex 00-10 from Smooth-On (commonly used to make sho
 
 <div style="text-align: center;">
 
-![albumimg](/Blog/stuff/images/wrs_wrest_on_keyboard.jpg "Keyboard with wrist rests on my desk")
+![albumimg](/Blog/stuff/images/wrs_wrests_on_keyboard.jpg "Keyboard with wrist rests on my desk")
 ![albumimg](/Blog/stuff/images/wrs_in_fudge_mold.jpg "Casting silicone with silicone fudge moulds")
 ![albumimg](/Blog/stuff/images/wrs_squish.jpg "Wrist rest Squish")
 ![albumimg](/Blog/stuff/images/wrs_overall_angle.jpg "Overall angle with wrest rests on the board")
