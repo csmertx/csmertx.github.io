@@ -13,12 +13,20 @@ weight: -20
 - :%s/.mp4/.mp4'/g
 - should result in: file 'constantpartoffilename_x.mp4'
 
+
 ### Editing
-- Cut front beginning and end
-    - ffmpeg -i "song.m4a" -ss 00:00:38 -t 00:04:16 "song.mp3"
+Cut out a slice (audio)
+```
+ffmpeg -i "song.m4a" -ss 00:00:38 -t 00:04:16 "song.mp3"
+```
+Cut out a slice (video)
+```
+ffmpeg -i "2022-10-20 (1).mkv" -ss 00:00:00 -to 00:00:26 -c copy "2022-10-20 (1.1) - Snapping fingers (Character).mkv"
+```
 
 ### Compress phone videos for web/email (upload in minutes instead of hours)
 ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
+
 
 ### Gif with subtitles (so-so quality)
 [Gifski](https://gif.ski/) may be the right choice for high quality gifs, but here are the basics with FFmpeg.
@@ -38,6 +46,7 @@ ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="
 Subtitles added extracted from .mkv added to .mkv converted to gif
 </div>
 
+
 ### Changing subtitle font size and color for gifs/video
 ```
 ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="/home/chris/Downloads/Shares/dr_rad_got_the_hose.srt:force_style='Fontsize=40,PrimaryColour=&H0000ff&'" "/home/chris/Downloads/Shares/dr_rad_got_the_hose.gif"
@@ -48,6 +57,7 @@ ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="
 
 Font size: 40pts, Color: H0000FF
 </div>
+
 
 ### Changing (or adding) subtitle font background
 
@@ -60,6 +70,7 @@ ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="
 
 Background color: H0000000
 </div>
+
 
 ## Resources
 - [Stackoverflow: How to Add Font size in subtitles in ffmpeg video filter](https://stackoverflow.com/questions/21363334/how-to-add-font-size-in-subtitles-in-ffmpeg-video-filter)
