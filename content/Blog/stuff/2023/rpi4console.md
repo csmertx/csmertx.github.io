@@ -2,9 +2,10 @@
 title: RPi4 Console
 ---
 
-## January 20, 2023 (Created: 06-07-21)
+## January 20, 2023
+### Created: 06-07-21
 
-I wanted a tiny console to check out ARM architecture stuff. My notes under Linux > Devices > RPi4
+I wanted a tiny console to check out ARM architecture stuff. My notes are at: Linux > Devices > RPi4
 
 This one does not include a parts list because this configuration killed the official RPi4 LCD screen. I sold my RPi4 because of sketchy hats (addon boards). Next attempt will be something different (if there is another attempt).
 
