@@ -14,6 +14,8 @@ Printed via hubs.com
 - SLA Prototype gray filament (FDM)
 - ~$100 (Large print 200x90x120mm, 200μm layer height)
 
+[Glass top bumpers](https://a.co/d/01o4flW) (rubber pads) for those curious are 10x50x2mm by GINOYA
+
 <div style="text-align: center;">
 
 ![albumimg](/Blog/stuff/images/penc_front_blank_style.jpg "Quater Pipe Pen Organizer - front")
