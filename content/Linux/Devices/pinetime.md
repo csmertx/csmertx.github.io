@@ -25,15 +25,15 @@ itctl fw upg -a ~/Downloads/pinetime-mcuboot-app-dfu-1.11.0.zip -r ~/Downloads/i
 ### Shown with Barton 20mm watchband (tight fit)
 
 <div style="text-align: center;">
-![img](/Linux/Devices/images/pinetime_230122_front.jpg "PineTime - Front")
-![img](/Linux/Devices/images/pinetime_230122_version.jpg "PineTime - Firmware Version")
-![img](/Linux/Devices/images/pinetime_230122_back.jpg "PineTime - Back with Barton band")
-![img](/Linux/Devices/images/pinetime_230122_main.jpg "PineTime - Main Menu")
-![img](/Linux/Devices/images/pinetime_230122_apps_pg1.jpg "PineTime - Apps Page 1")
-![img](/Linux/Devices/images/pinetime_230122_apps_pg2.jpg "PineTime - Apps Page 2")
-![img](/Linux/Devices/images/pinetime_230122_settings_pg1.jpg "PineTime - Settings Page 1")
-![img](/Linux/Devices/images/pinetime_230122_settings_pg2.jpg "PineTime - Settings Page 2")
-![img](/Linux/Devices/images/pinetime_230122_settings_pg3.jpg "PineTime - Settings Page 3")
+![deviceimg](/Linux/Devices/images/pinetime_230122_front.jpg "PineTime - Front")
+![deviceimg](/Linux/Devices/images/pinetime_230122_version.jpg "PineTime - Firmware Version")
+![deviceimg](/Linux/Devices/images/pinetime_230122_back.jpg "PineTime - Back with Barton band")
+![deviceimg](/Linux/Devices/images/pinetime_230122_main.jpg "PineTime - Main Menu")
+![deviceimg](/Linux/Devices/images/pinetime_230122_apps_pg1.jpg "PineTime - Apps Page 1")
+![deviceimg](/Linux/Devices/images/pinetime_230122_apps_pg2.jpg "PineTime - Apps Page 2")
+![deviceimg](/Linux/Devices/images/pinetime_230122_settings_pg1.jpg "PineTime - Settings Page 1")
+![deviceimg](/Linux/Devices/images/pinetime_230122_settings_pg2.jpg "PineTime - Settings Page 2")
+![deviceimg](/Linux/Devices/images/pinetime_230122_settings_pg3.jpg "PineTime - Settings Page 3")
 </div>
 
 
