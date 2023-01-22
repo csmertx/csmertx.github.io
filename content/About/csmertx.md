@@ -4,7 +4,7 @@ weight: -20
 ---
 
 <div style="text-align: center;">
-<img src="https://i.imgur.com/XSms6At.gif"/>
+<img src="https://i.imgur.com/NKlNt8d.gif"/>
 </div>
 
 #### Purpose of this website
