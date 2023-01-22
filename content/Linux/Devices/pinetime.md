@@ -42,5 +42,6 @@ itctl fw upg -a ~/Downloads/pinetime-mcuboot-app-dfu-1.11.0.zip -r ~/Downloads/i
 - [PineTime Wiki](https://wiki.pine64.org/index.php/PineTime)
 - [InfiniTime Homepage](https://infinitime.io/)
 - [InfiniTime Releases](https://github.com/InfiniTimeOrg/InfiniTime/releases)
+- [Gadgetbrige for Android | Update firmware via phone](https://www.gadgetbridge.org/)
 - [ITD (Starting daemon, etc.)](https://gitea.arsenm.dev/Arsen6331/itd)
 - [ITD (Releases)](https://gitea.arsenm.dev/Arsen6331/itd/releases)
