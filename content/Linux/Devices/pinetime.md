@@ -16,7 +16,7 @@ Less than $60 smartwatch that does not collect data. Or, a less than $60 smartwa
     - Vibe double pulse option for notifications would be helpful
     - Vibe pattern options may be helpful for waking up to alarms
 3. The games seem unnecessary
-4. Touch screen glass held up to dismantling a deck, skateboarding, and my tendency to smack the watch faces in to the corners of door frames and walls.
+4. Touch screen glass held up to dismantling a deck, skateboarding, and my tendency to smack my watches in to the corners of door frames and walls.
 5. Timer sometimes pauses without a finger tap
 6. Holds up fine in the shower, but water drops play havoc on touch screen (expected)
 7. Replaced my Casio F91-w
