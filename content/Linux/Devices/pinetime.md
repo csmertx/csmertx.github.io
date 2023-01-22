@@ -7,6 +7,26 @@ weight: -20
 Less than $60 smartwatch that does not collect data. Or, a less than $60 smartwatch that is more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
 
 
+### Reporting in after close to a year
+
+1. Raising wrist to wake up the device is mostly awesome
+    - Sometimes waking device displays last notification (swipe to clear notification)
+    - Sometimes waking device displays a random game of pong
+2. Vibration is neat to have, but is kind of weak and there's no option to change the vibe pattern
+    - Vibe double pulse option for notifications would be helpful
+    - Vibe pattern options may be helpful for waking up to alarms
+3. The games seem unnecessary
+4. Touch screen glass held up to dismantling a deck, skateboarding, and my tendency to smack the watch faces in to the corners of door frames and walls.
+5. Timer sometimes pauses without a finger tap
+6. Holds up fine in the shower, but water drops play havoc on touch screen (expected)
+7. Replaced my Casio F91-w
+8. Random 'ghost' touches (long arm hairs? finger oil residue? idk)
+
+
+### Upgrading via Android phone
+Check resources below for Gadetbridge.
+
+
 ### Upgrade firmware to 1.11.x via computer (external watch faces, etc.)
 - Download .deb from ITD releases
 - Download InfiniTime dfu and resources from InfiniTime 1.11.x release
@@ -42,6 +62,7 @@ itctl fw upg -a ~/Downloads/pinetime-mcuboot-app-dfu-1.11.0.zip -r ~/Downloads/i
 - [PineTime Wiki](https://wiki.pine64.org/index.php/PineTime)
 - [InfiniTime Homepage](https://infinitime.io/)
 - [InfiniTime Releases](https://github.com/InfiniTimeOrg/InfiniTime/releases)
-- [Gadgetbrige for Android | Update firmware via phone](https://www.gadgetbridge.org/)
+- [Gadgetbridge Homepage](https://www.gadgetbridge.org/)
+- [Gadgetbridge PineTime WiKi](https://codeberg.org/Freeyourgadget/Gadgetbridge/wiki/PineTime)
 - [ITD (Starting daemon, etc.)](https://gitea.arsenm.dev/Arsen6331/itd)
 - [ITD (Releases)](https://gitea.arsenm.dev/Arsen6331/itd/releases)
