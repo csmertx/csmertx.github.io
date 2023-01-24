@@ -4,13 +4,14 @@
   --code-max-height: 60rem;
 }
 
+.text-shadow{
+    text-shadow: 1px 2px 2px black;
+    color:#c74c4c;
+}
+
 /* Light mode theming */
 :root,
 :root[color-theme="light"] {
-.text-shadow{
-    text-shadow: 1px 2px 2px #c74c4c;
-    color:#000000;
-}
   --header-background: #c74c4c;
   --header-font-color: #ffffff;
 
@@ -47,10 +48,6 @@
 }
 @media (prefers-color-scheme: light) {
   :root {
-.text-shadow{
-    text-shadow: 1px 2px 2px #c74c4c;
-    color:#000000;
-}
     --header-background: #c74c4c;
     --header-font-color: #ffffff;
 
@@ -89,10 +86,6 @@
 
 /* Dark mode theming */
 :root[color-theme="dark"] {
-.text-shadow{
-    text-shadow: 1px 2px 2px black;
-    color:#ced3d8;
-}
   --header-background: #c74c4c;
   --header-font-color: #ffffff;
 
@@ -129,10 +122,6 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-.text-shadow{
-    text-shadow: 1px 2px 2px black;
-    color:#ced3d8;
-}
     --header-background: #c74c4c;
     --header-font-color: #ffffff;
 
