@@ -10,18 +10,27 @@ weight: -20
 #### Purpose of this website
 Storage space for notes and future projects.  Some of these notes may help Linux beginners, but most are for quick reference.
 
+
 #### Gremlins?
 grem·lin ˈgrem-lən 
 : a cause of error or equipment malfunction (as in aircraft) conceived of as a small mischievous gnome
 
+
 #### About Me
-My time with Linux started at the beginning of 2013. Computering with some kind of prompt since 1987. That said, my credentials are in my config files, and so I am not an authority of computer science.  Regarding these notes--please take care.
+My time with Linux started at the beginning of 2013. Computering with some kind of prompt since 1987. That said, my credentials are in my config files, so I am not an authority of computer science.  Regarding these notes--please take care.
+
+
+#### What? No tiling window managers?
+[Fear and Loathing on the Arch Linux Trail (2018)](https://imgur.com/a/VXpYHBM)
+
 
 #### LGM.. like that one \*Insert Name Here\*
 Nope, that's not it. Abbreviations may seem the same, but mine is mostly meme.
 
+
 #### Hugo theme used
 - https://github.com/thegeeklab/hugo-geekdoc
+
 
 #### Shorthand reference (/home/$USER/.bashrc)
 - **apti**
@@ -59,6 +68,7 @@ Nope, that's not it. Abbreviations may seem the same, but mine is mostly meme.
 - **yay**
     - Yay (AUR package manager that ships with EndeavourOS--https://github.com/Jguer/yay)
 
+
 #### Skateboarding (1992 - 2005 & 2022 - ?)
 Skateboarding is a part of my identity.  For those curious, here is more info.
 - How skate decks are made (before bamboo and or carbon fiber skateboard decks):
@@ -71,6 +81,7 @@ Skateboarding is a part of my identity.  For those curious, here is more info.
     - Braille Skateboarding https://www.youtube.com/user/sprocker7 (5.75M+ Subscribers)
 - Why mention this here?
     - Stereotype roadblocks.  Speaking of stereos: Jason Lee (My Name Is Earl, Mallrats, etc.) is a professional skateboarder that rode for Blind Skateboards, and founded Stereo Skateboards.
+
 
 #### Unsolicited Book Recommendedations
 - *"Moonwalking with Einstein"* by Joshua Foer
