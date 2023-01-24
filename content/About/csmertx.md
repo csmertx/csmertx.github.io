@@ -21,7 +21,7 @@ My time with Linux started at the beginning of 2013. Computering with some kind 
 
 
 #### What? No tiling window managers?
-[Fear and Loathing on the Arch Linux Trail (2018)](https://imgur.com/a/VXpYHBM)
+ᐳ [Fear and Loathing on the Arch Linux Trail (2018)](https://imgur.com/a/VXpYHBM)
 
 
 #### LGM.. like that one \*Insert Name Here\*
