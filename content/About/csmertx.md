@@ -3,6 +3,13 @@ title: Meme?
 weight: -20
 ---
 
+<style>
+.white-text-shadow{
+    text-shadow: 1px 2px 2px black;
+    color:#fff;
+}
+</style>
+
 <div style="text-align: center;">
 <img src="https://i.imgur.com/NKlNt8d.gif"/>
 </div>
@@ -12,7 +19,7 @@ Storage space for notes and future projects.  Some of these notes may help Linux
 
 
 #### Gremlins?
-grem·lin ˈgrem-lən 
+grem·lin ˈgrem-lən
 : a cause of error or equipment malfunction (as in aircraft) conceived of as a small mischievous gnome
 
 
@@ -92,3 +99,6 @@ Skateboarding is a part of my identity.  For those curious, here is more info.
 - "_The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life_" by Mark Manson
     - Explicit and leans toward evolution
 - Futurama Comics
+
+
+<p class="black-text-shadow">Black text with shadow color.</p>
