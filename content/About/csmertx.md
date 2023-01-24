@@ -6,7 +6,7 @@ weight: -20
 <style>
 .black-text-shadow{
     text-shadow: 1px 2px 2px black;
-    color:#fff;
+    color:#ced3d8;
 }
 </style>
 
@@ -101,4 +101,4 @@ Skateboarding is a part of my identity.  For those curious, here is more info.
 - Futurama Comics
 
 
-<p class="black-text-shadow">White text with shadow color.</p>
+#### <p class="black-text-shadow">White text with shadow color.</p>
