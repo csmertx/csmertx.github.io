@@ -4,11 +4,6 @@
   --code-max-height: 60rem;
 }
 
-.text-shadow{
-    text-shadow: 1px 2px 2px #E6EEF7;
-    color:#000000;
-}
-
 /* Light mode theming */
 :root,
 :root[color-theme="light"] {

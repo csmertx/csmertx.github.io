@@ -92,6 +92,3 @@ Skateboarding is a part of my identity.  For those curious, here is more info.
 - "_The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life_" by Mark Manson
     - Explicit and leans toward evolution
 - Futurama Comics
-
-
-#### <p class="text-shadow">Text with shadow color.</p>
