@@ -12,8 +12,8 @@ Storage space for notes and future projects.  Some of these notes may help Linux
 
 
 #### Gremlins?
-grem·lin ˈgrem-lən
-: a cause of error or equipment malfunction (as in aircraft) conceived of as a small mischievous gnome
+> grem·lin ˈgrem-lən
+> : a cause of error or equipment malfunction (as in aircraft) conceived of as a small mischievous gnome
 
 
 #### About Me
