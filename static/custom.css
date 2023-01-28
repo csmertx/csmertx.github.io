@@ -84,7 +84,8 @@
   --header-background: #c74c4c;
   --header-font-color: #ffffff;
 
-  --body-background: #343a40;
+/*  --body-background: #343a40; */
+  --body-background: #000000;
   --body-font-color: #ced3d8;
 
   --mark-color: #ecc62b;
@@ -120,6 +121,7 @@
     --header-background: #c74c4c;
     --header-font-color: #ffffff;
 
+    /* --body-background: #343a40; */
     --body-background: #343a40;
     --body-font-color: #ced3d8;
 
