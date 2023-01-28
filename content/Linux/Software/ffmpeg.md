@@ -25,7 +25,7 @@ Cut out a slice (video)
 
 
 ### Compress phone videos for web/email (upload in minutes instead of hours)
-ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
+    ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
 
 
 ### Gif with subtitles (so-so quality)
