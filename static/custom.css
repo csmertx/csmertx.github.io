@@ -91,7 +91,8 @@
 
   --mark-color: #ecc62b;
 
-  --button-background: #ff9f69;
+  /* --button-background: #ff9f69; */
+  --button-background: #32373d;
   --button-border-color: #c74c4c;
 
   --link-color: #7ac29e;
@@ -129,7 +130,8 @@
 
     --mark-color: #ecc62b;
 
-    --button-background: #ff9f69;
+    /* --button-background: #ff9f69; */
+    --button-background: #32373d;
     --button-border-color: #c74c4c;
 
     --link-color: #7ac29e;
