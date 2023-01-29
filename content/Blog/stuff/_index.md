@@ -1,4 +1,4 @@
 ---
-title: IRL Designs
+title: Projects
 geekdocCollapseSection: true
 ---
