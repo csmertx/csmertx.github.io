@@ -9,7 +9,7 @@ weight: -20
     - git clone https://github.com/oblique/create_ap
     - cd create_ap && make install
     - sudo nmcli r wifi off && sudo rfkill unblock wlan
-    - sudo create_ap -m bridge wlp0s29f7u4 virbr0 ***REMOVED*** ***REMOVED***
+    - sudo create_ap -m bridge wlp0s29f7u4 virbr0 WIN_400849 ch2dpwsq9n
 
 ### WiFi 5ghz
 - sudo iwconfig WiFi_device freq 5.7G
