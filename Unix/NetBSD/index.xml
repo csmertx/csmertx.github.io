@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NetBSD on LGM</title><link>https://csmertx.github.io/Unix/NetBSD/</link><description>Recent content in NetBSD on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Unix/NetBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>NetBSD > Installation</title><link>https://csmertx.github.io/Unix/NetBSD/netbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NetBSD/netbsd/</guid><description>NetBSD Installation Notes Preparing the USB drive (to use CD sets for full install..) =&amp;gt; dd if=/dir/NetBSD-(version)-amd64-install.img of=/dev/sdX bs=8M; sync
-Preparing Wifi Access =&amp;gt; vi /etc/wpa_supplicant.conf
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NetBSD on LGM</title><link>https://csmertx.github.io/Unix/NetBSD/</link><description>Recent content in NetBSD on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Unix/NetBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>Install NetBSD</title><link>https://csmertx.github.io/Unix/NetBSD/netbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NetBSD/netbsd/</guid><description>NetBSD Installation This page was created before 2020
+Please refere to NetBSD: The NetBSD Guide for up to date installation instructions
+Preparing the USB drive To use CD sets for full installation
+dd if=/dir/NetBSD-(version)-amd64-install.img of=/dev/sdX bs=8M; sync Preparing Wifi Access vi /etc/wpa_supplicant.conf
 ++ network={
-++ ssid=&amp;#34;yourssid&amp;#34; ++ scan_ssid=1 ++ key_mgmt=WPA-PSK ++ psk=&amp;#34;yourpsk&amp;#34; ++ } =&amp;gt; vi /etc/rc.conf
-++ dhcpcd_flags=&amp;#34;-q -b&amp;#34; ++ wpa_supplicant=&amp;#34;YES&amp;#34; ++ wpa_supplicant_flags=&amp;#34;-B -i ath0 -c /etc/wpa_supplicant.conf&amp;#34; =&amp;gt; vi /etc/ifconfig.ath0
-++ up
-++ dhcp =&amp;gt; /etc/rc.d/wpa_supplicant start
-=&amp;gt; /etc/rc.d/network restart
-=&amp;gt; http://wiki.netbsd.org/tutorials/how_to_use_wpa_supplicant/
-Failure at first boot =&amp;gt; fdisk (disk names)</description></item></channel></rss>
+++ ssid=&amp;#34;yourssid&amp;#34; ++ scan_ssid=1 ++ key_mgmt=WPA-PSK ++ psk=&amp;#34;yourpsk&amp;#34; ++ } vi /etc/rc.conf
+++ dhcpcd_flags=&amp;#34;-q -b&amp;#34; ++ wpa_supplicant=&amp;#34;YES&amp;#34; ++ wpa_supplicant_flags=&amp;#34;-B -i ath0 -c /etc/wpa_supplicant.conf&amp;#34; vi /etc/ifconfig.ath0</description></item></channel></rss>

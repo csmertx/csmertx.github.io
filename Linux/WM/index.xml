@@ -1,20 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Window Managers on LGM</title><link>https://csmertx.github.io/Linux/WM/</link><description>Recent content in Window Managers on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/WM/index.xml" rel="self" type="application/rss+xml"/><item><title>AwesomeWM</title><link>https://csmertx.github.io/Linux/WM/awesome/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome/</guid><description>Easy Mode Theming mkdir ~/.config/awesome cd ~/.config/awesome git clone &amp;ndash;recursive https://github.com/lcpz/awesome-copycats.git cp ~/.config/awesome/awesome-copycats/rc.lua.template ~/.config/awesome/rc.lua Edit city_id for weather status vim ~/.config/awesome/awesome-copycats/themes/vertex/theme.lua (line ~277) city_id = 4156404, &amp;ndash; Gainesville, Florida Gainesville, FL city_id = 4156404 Startup Applications su mkdir /etc/awesomebackup cp /etc/xdg/awesome/rc.lua /etc/awesomebackup or: mkdir ~/.config/awesome &amp;amp;&amp;amp; cp /etc/xdg/awesome/rc.lua ~/.config/awesome sudov /etc/xdg/awesome/rc.lua (or vim ~/.config/awesome/rc.lua) ++ -- Autorun programs ++ autorun = true ++ autorunApps = ++ { ++ &amp;#34;redshift&amp;#34;, ++ } ++ if autorun then ++ for app = 1, ++ awful.</description></item><item><title>AwesomeWM > Floppier Desktop Environment</title><link>https://csmertx.github.io/Linux/WM/awesome_floppier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome_floppier/</guid><description> What the.. AwesomeWM / Arch Linux turned full desktop environment https://www.reddit.com/r/unixporn/comments/fhd70d/awesomewm_floppier/ https://github.com/manilarome/the-glorious-dotfiles Installation tri -S awesome-git rofi-git picom-tryone-git light-git alsa-utils acpi acpid acpi_call mpd mpc maim feh xclip xprop xsel imagemagick blueman redshift xfce4-power-manager upower xdg_menu awesome-freedesktop jq noto-fonts-emoji nerd-fonts-fantasque-sans-mono Guide https://github.com/manilarome/the-glorious-dotfiles/wiki</description></item><item><title>DWM > Dynamic Window Manager</title><link>https://csmertx.github.io/Linux/WM/dwm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/dwm/</guid><description>Dynamic Window Manager Notes Compile config.def.h Fonts static const char *fonts[] = &amp;quot;hack:size=10&amp;quot;; static const char dmenufont[] = &amp;quot;hack:size=10&amp;quot;; default terminal static const char *termcmd[] = { &amp;quot;terminal-name&amp;quot;, NULL }; Fix window gaps -- static cont int resizehints = 1; ++ static cont int resizehints = 0; No ~/.xinitrc cp /etc/X11/xinit/xinitrc-common ~/.xinitrc (best) cp /etc/X11/xinit/xinitrc ~/.xinitrc (meh) bar Add to ~/.xinitrc while true; do xsetroot -name &amp;#34; CentOS 8.1 | $USER@$HOSTNAME | $(hostname -I| awk &amp;#39;{print $1}&amp;#39;) | $(date &amp;#34;+%F %R&amp;#34;) &amp;#34;``` sleep 1m done &amp;amp; ### background - Add to ~/.</description></item><item><title>Gnome 3</title><link>https://csmertx.github.io/Linux/WM/gnome3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/gnome3/</guid><description> Program Not Responsive timeout and Steam/Proton gsettings set org.gnome.mutter check-alive-timeout 120000 dconf-config org &amp;gt; gnome &amp;gt; mutter check-alive-timeout: uncheck use default value change from 5,000 to 120,000 GDM Enable tap-to-click for those with tap only touchpad devices sudo -i xhost +SI:localuser:gdm sudo su gdm -s /bin/bash export DISPLAY=:0 gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true Restore gsettings reset org.gnome.desktop.peripherals.touchpad tap-to-click gsettings reset org.gnome.settings-daemon.peripherals.keyboard numlock-state Open a directory in Nautilus with admin privileges Open Nautilus CTRL + L admin:///dir</description></item><item><title>i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description> Mpris Control apti playerctl Check Software/mpv.md for mpv mpris plugin vim ~/.config/i3/config Jlab Rewind bindsym XF86AudioPlay exec &amp;ndash;no-startup-id playerctl play-pause bindsym XF86AudioPause exec &amp;ndash;no-startup-id playerctl play-pause xev will help determine button press outputs</description></item><item><title>i3WM &amp; Plasma (KDE)</title><link>https://csmertx.github.io/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3_and_plasma/</guid><description>=&amp;gt; sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev xutils-dev autoconf
-=&amp;gt; vim ~/.config/i3/config
-exec --no-startup-id wmctrl -c Plasma
-for_window [title=&amp;#34;Desktop — Plasma&amp;#34;] kill, floating enable, border none Avoid tiling popups, dropdown windows from plasma =&amp;gt; vim ~/.config/i3/config
-for_window [class=&amp;#34;plasmashell&amp;#34;] floating enable
-for_window [class=&amp;#34;Plasma&amp;#34;] floating enable, border none
-for_window [title=&amp;#34;plasma-desktop&amp;#34;] floating enable, border none
-for_window [title=&amp;#34;win7&amp;#34;] floating enable, border none
-for_window [class=&amp;#34;krunner&amp;#34;] floating enable, border none
-for_window [class=&amp;#34;Kmix&amp;#34;] floating enable, border none
-for_window [class=&amp;#34;Klipper&amp;#34;] floating enable, border none
-for_window [class=&amp;#34;Plasmoidviewer&amp;#34;] floating enable, border none</description></item><item><title>Openbox</title><link>https://csmertx.github.io/Linux/WM/openbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox/</guid><description>=&amp;gt; vim ~/.config/openbox/menu.xml
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Window Managers on LGM</title><link>https://csmertx.github.io/Linux/WM/</link><description>Recent content in Window Managers on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/WM/index.xml" rel="self" type="application/rss+xml"/><item><title>AwesomeWM</title><link>https://csmertx.github.io/Linux/WM/awesome/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome/</guid><description>Awesome Window Manager Easy Mode Theming mkdir ~/.config/awesome
+cd ~/.config/awesome
+git clone --recursive https://github.com/lcpz/awesome-copycats.git
+cp ~/.config/awesome/awesome-copycats/rc.lua.template ~/.config/awesome/rc.lua
+Edit city_id for weather status vim ~/.config/awesome/awesome-copycats/themes/vertex/theme.lua
+line ~277
+Visit: https://openweathermap.org
+Search City
+https://openweathermap.org/city/4156404 = city_id = 4156404,
+Gainesville, FL city_id = 4156404
+Startup Applications su
+mkdir /etc/awesomebackup
+cp /etc/xdg/awesome/rc.lua /etc/awesomebackup
+Or: mkdir ~/.config/awesome &amp;amp;&amp;amp; cp /etc/xdg/awesome/rc.lua ~/.config/awesome
+sudov /etc/xdg/awesome/rc.lua
+Or: vim ~/.config/awesome/rc.lua
+++ -- Autorun programs ++ autorun = true ++ autorunApps = ++ { ++ &amp;#34;redshift&amp;#34;, ++ } ++ if autorun then ++ for app = 1, ++ awful.</description></item><item><title>AweWM+</title><link>https://csmertx.github.io/Linux/WM/awesome_floppier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome_floppier/</guid><description>AwesomeWM - Floppier Desktop Environment Never tried it myself, but here are some links and stuff
+What the.. AwesomeWM / Arch Linux turned full desktop environment
+[AwesomeWM] Floppier
+GitHub - manilarome/the-glorious-dotfiles: A glorified personal dot files Install dependencies tri -S awesome-git rofi-git picom-tryone-git light-git alsa-utils acpi acpid acpi_call mpd mpc maim feh xclip xprop xsel imagemagick blueman redshift xfce4-power-manager upower xdg_menu awesome-freedesktop jq noto-fonts-emoji nerd-fonts-fantasque-sans-mono Resources Github - manilarome/the-glorious-dotfiles Wiki</description></item><item><title>DWM</title><link>https://csmertx.github.io/Linux/WM/dwm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/dwm/</guid><description>Dynamic Window Manager Compile config.def.h Fonts
+static const char *fonts[] = &amp;quot;hack:size=10&amp;quot;;
+static const char dmenufont[] = &amp;quot;hack:size=10&amp;quot;;
+default terminal
+static const char *termcmd[] = { &amp;quot;terminal-name&amp;quot;, NULL }; Fix window gaps
+-- static cont int resizehints = 1;
+++ static cont int resizehints = 0;
+No ~/.xinitrc cp /etc/X11/xinit/xinitrc-common ~/.xinitrc
+Recommended
+cp /etc/X11/xinit/xinitrc ~/.xinitrc
+Not recommended
+Status bar Add to ~/.xinitrc
+while true while true; do xsetroot -name &amp;#34; CentOS 8.</description></item><item><title>GNOME 3</title><link>https://csmertx.github.io/Linux/WM/gnome3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/gnome3/</guid><description>GNOME 3 desktop environment Program Not Responsive timeout Some older Win32 games may have this issue (e.g. Runes of Magic)
+gsettings set org.gnome.mutter check-alive-timeout 120000
+ALT + F2 and dconf-config
+org &amp;gt; gnome &amp;gt; mutter check-alive-timeout: uncheck use default value change from 5,000 to 120,000 GDM Enable tap-to-click sudo -i
+xhost +SI:localuser:gdm
+sudo su gdm -s /bin/bash
+export DISPLAY=:0
+gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
+Reset GDM tap-to-click to default gsettings reset org.</description></item><item><title>i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description>i3WM: Tiling window manager Mpris Control apti playerctl
+vim ~/.config/i3/config
+Bluetooth headsets
+bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
+bindsym XF86AudioPause exec --no-startup-id playerctl play-pause
+xev can help determine button press outputs
+See also keyboard scancodes for more bindsym options
+See mpv for more about mpris plugin</description></item><item><title>i3WM &amp; KDE</title><link>https://csmertx.github.io/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3_and_plasma/</guid><description> i3WM and KDE&amp;rsquo;s Plasmas desktop environment Install Dependencies sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev xutils-dev autoconf Configuration vim ~/.config/i3/config
+++ exec --no-startup-id wmctrl -c Plasma
++++ for_window [title=&amp;#34;Desktop — Plasma&amp;#34;] kill, floating enable, border none Avoid tiling popups, dropdown windows from plasma vim ~/.config/i3/config
+++ for_window [class=&amp;#34;plasmashell&amp;#34;] floating enable
+++ for_window [class=&amp;#34;Plasma&amp;#34;] floating enable, border none
+++ for_window [title=&amp;#34;plasma-desktop&amp;#34;] floating enable, border none
+++ for_window [title=&amp;#34;win7&amp;#34;] floating enable, border none
+++ for_window [class=&amp;#34;krunner&amp;#34;] floating enable, border none
+++ for_window [class=&amp;#34;Kmix&amp;#34;] floating enable, border none
+++ for_window [class=&amp;#34;Klipper&amp;#34;] floating enable, border none
+++ for_window [class=&amp;#34;Plasmoidviewer&amp;#34;] floating enable, border none</description></item><item><title>Openbox</title><link>https://csmertx.github.io/Linux/WM/openbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox/</guid><description> Openbox Window Manager Refresh desktop menu to add new programs, etc. vim ~/.config/openbox/menu.xml
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt;
 &amp;lt;openbox_menu&amp;gt;
 &amp;lt;menu id=&amp;#34;root-menu&amp;#34; label=&amp;#34;OpenBox 3&amp;#34; execute=&amp;#34;/usr/bin/obmenu-generator&amp;#34;&amp;gt;
 &amp;lt;/menu&amp;gt;
-&amp;lt;/openbox_menu&amp;gt; =&amp;gt; vim ~/.config/openbox/rc.xml
+&amp;lt;/openbox_menu&amp;gt; Center all new windows vim ~/.config/openbox/rc.xml
 &amp;lt;placement&amp;gt;
 &amp;lt;policy&amp;gt;Smart&amp;lt;/policy&amp;gt;
 &amp;lt;!-- &amp;#39;Smart&amp;#39; or &amp;#39;UnderMouse&amp;#39; --&amp;gt;
@@ -25,7 +70,8 @@ the top left corner --&amp;gt;
 &amp;lt;!-- with Smart placement on a multi-monitor system, try to place new windows
 on: &amp;#39;Any&amp;#39; - any monitor, &amp;#39;Mouse&amp;#39; - where the mouse is, &amp;#39;Active&amp;#39; - where
 the active window is --&amp;gt;
-&amp;lt;/placement&amp;gt;</description></item><item><title>Openbox > Extras</title><link>https://csmertx.github.io/Linux/WM/openbox_extras/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox_extras/</guid><description>=&amp;gt; vim /home/chris/.config/openbox/rc.xml
+&amp;lt;/placement&amp;gt;</description></item><item><title>Openbox+</title><link>https://csmertx.github.io/Linux/WM/openbox_extras/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox_extras/</guid><description>Openbox Extra Stuff rc.xml edit to add keyboard shortcuts for media keys, i3, and more
+vim /home/user/.config/openbox/rc.xml Don&amp;rsquo;t forget to swap user with your own $USER name
 &amp;lt;!-- Keybinding for rofi --&amp;gt;
 &amp;lt;keybind key=&amp;#34;W-d&amp;#34;&amp;gt;
 &amp;lt;action name=&amp;#34;Execute&amp;#34;&amp;gt;
@@ -35,7 +81,7 @@ the active window is --&amp;gt;
 &amp;lt;!-- Keybinding for zen run --&amp;gt;
 &amp;lt;keybind key=&amp;#34;W-r&amp;#34;&amp;gt;
 &amp;lt;action name=&amp;#34;Execute&amp;#34;&amp;gt;
-&amp;lt;command&amp;gt;/home/chris/.scripts/zen_run&amp;lt;/command&amp;gt;
+&amp;lt;command&amp;gt;/home/user/.scripts/zen_run&amp;lt;/command&amp;gt;
 &amp;lt;/action&amp;gt;
 &amp;lt;/keybind&amp;gt;
 &amp;lt;!-- Keybinding for terminal --&amp;gt;
@@ -50,13 +96,20 @@ the active window is --&amp;gt;
 &amp;lt;command&amp;gt;betterlockscreen -l&amp;lt;/command&amp;gt;
 &amp;lt;/action&amp;gt;
 &amp;lt;/keybind&amp;gt;
-&amp;lt;!-- Keybindings for Media Keys --&amp;gt;
-&amp;lt;keybind key=&amp;#34;XF86AudioMute&amp;#34;&amp;gt;
-&amp;lt;action name=&amp;#34;Execute&amp;#34;&amp;gt;
-&amp;lt;command&amp;gt;amixer -q -D pulse sset Master toggle&amp;lt;/command&amp;gt;
-&amp;lt;/action&amp;gt;
-&amp;lt;/keybind&amp;gt;
-&amp;lt;keybind key=&amp;#34;XF86AudioLowerVolume&amp;#34;&amp;gt;
-&amp;lt;action name=&amp;#34;Execute&amp;#34;&amp;gt;
-&amp;lt;command&amp;gt;/home/chris/.</description></item><item><title>Plasma (KDE)</title><link>https://csmertx.github.io/Linux/WM/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/kde_plasma/</guid><description>Disable File Indexer baloo_file balooctl disable pause with: balooctl suspend Breeze SDDM theme background woes sudo mkdir /usr/share/backgrounds/new_folder cp /folder/image.jpg /usr/share/backgrounds/new_folder/image.jpg sudov /usr/share/sddm/themes/breeze/theme.conf.user ++ background=/usr/share/backgrounds/new_folder/image.jpg Logout and see what&amp;rsquo;s what Time set to 24 hours instead of 12 hours in SDDM =&amp;gt; sudov /etc/locale.conf (prob forgot to do this one..) =&amp;gt; ++ LANG=en_US.UTF-8 =&amp;gt; sudov /etc/locale.gen =&amp;gt; &amp;ndash; #en_US.UTF-8 UTF-8 =&amp;gt; ++ en_US.UTF-8 UTF-8 =&amp;gt; locale-gen
-Removal (Arch) pac -Rc plasma pac -Rc kwallet Automagical kdewallet login (might minimize some security) Make sure wallet is named: kdewallet Access Control &amp;gt; Prompt when an application accesses a wallet Change password to blank &amp;amp; blank Log-out/Log-in and always allow trusted applications (wifi, etc.</description></item><item><title>Polybar > WM Status Bar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description> Themes https://github.com/adi1090x/polybar-themes Gnome 3 = Polybar-10 Bluetooth Reference ..Devices/bluetooth.md</description></item><item><title>XFCE</title><link>https://csmertx.github.io/Linux/WM/xfce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/xfce/</guid><description> Notification Theme /usr/bin/xfce4-notifyd-config Whisker Menu Animated Icon https://forum.xfce.org/viewtopic.php?id=11098 Whisker Menu Search w/Catfish Requires: catfish uses updatedb: database exposes files to all users..</description></item></channel></rss>
+&amp;lt;!</description></item><item><title>Plasma (KDE)</title><link>https://csmertx.github.io/Linux/WM/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/kde_plasma/</guid><description>Plasma: The KDE desktop environment Disable File Indexer baloo_file balooctl disable
+pause with: balooctl suspend
+Breeze SDDM theme background When GUI selection does not represent selection
+sudo mkdir /usr/share/backgrounds/new_folder
+cp /folder/image.jpg /usr/share/backgrounds/new_folder/image.jpg
+sudov /usr/share/sddm/themes/breeze/theme.conf.user
+++ background=/usr/share/backgrounds/new_folder/image.jpg Logout &amp;amp; login
+Time set to 24 hours instead of 12 hours in SDDM Solution to change SDDM time display to 12 hours
+sudov /etc/locale.conf
+++ LANG=en_US.UTF-8 sudov /etc/locale.gen
+-- #en_US.UTF-8 UTF-8 ++ en_US.</description></item><item><title>Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description> Polybar: Tiling window manager status bar Themes GitHub - adi1090x/polybar-themes: A huge collection of polybar themes with different styles, colors and variants.
+Polybar-10 is very similar to GNOME 3&amp;rsquo;s top bar
+Bluetooth See bluetooth for Polybar specific info Resources Polybar - A fast and easy-to-use tool for creating status bars</description></item><item><title>Xfce</title><link>https://csmertx.github.io/Linux/WM/xfce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/xfce/</guid><description>Xfce desktop environment Originally known as: XForms Common Environment
+Notification Theme via /usr/bin/xfce4-notifyd-config Whisker Menu Animated Icon Xfce forums / Desktop / Change start menu icon on mouseover or click Whisker Catfish menu search Read more about catfish
+Requires updatedb
+Database exposes files to all users
+apti catfish</description></item></channel></rss>
