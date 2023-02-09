@@ -1,20 +1,20 @@
 ---
-title: Manjaro on RPi4
+title: Manjaro/RPi4
+author: csmertx
+date: January 31, 2023
 weight: -20
 ---
 
-### Raspberry Pi 4 (2021)
+# Raspberry Pi 4 and Manjaro Linux (2021)
 
-#### Waveshare WM8960 Soundcard
-- ?
+## Waveshare WM8960 Soundcard
 
-#### Rebooting
-- Unlike with Ubuntu 20.04, I was unable to successfully reboot the system.
+- Unable to access the capabilities of this RPi4 hat
 
-#### Why the long face?
-- It's not Manjaro's fault, KDE Plasma's onscreen (virtual) keyboard w/official 7in Pi display was (2021--will revisit soon-ish) a separate hobby project.
-- To be fair, it's a task to get fingerprint reader working in SDDM (KDE Plasma display manager) via a 2019 Thinkpad.
-- Since I fried my touchscreen using an off the shelf RPi power management solution, I can't retest until I get a new display.
+## Issues
 
-#### I'll be back.
-- An open source RPi NAS/media player industrial design project is coming to life in my Nextloud docs.
+- KDE login with touchscreen maybe wasn't tested as much for RPi4 as other ARM devices.
+
+## More details
+
+I wish I could provide more details. Unfortunately, I failed to properly document this experiment.

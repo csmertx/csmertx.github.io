@@ -1,61 +1,72 @@
 ---
-title: Sed Command
+title: Sed
+author: csmertx
+date: January 31, 2023
 weight: -20
 ---
 
-#### Note: \* are escaped because markdown..
+# Sed, a stream editor
 
-### Wrap every line output in quotes
-```
-sed 's/"\(.*\)/"\1"/g'
-```
+## Wrap every line output in quotes
 
-### Remove Whitespace Lines
-```
-sed '/^$/d'
-```
+- ```sed 's/"\(.*\)/"\1"/g'```
 
-### Remove everything before match
-```
-sed 's/."\*match//'
-```
 
-### Remove everything after match
-```
-sed 's/match."\*//g'
-```
+## Remove Whitespace Lines
 
-### Replace first instance of match
-```
-sed '0,/example1/{s/example1/example2/}'
-```
+- ```sed '/^$/d'```
 
-### Replace Nth instance of match
-```
-sed 's/example1/example2/2g
-```
-```
-2g == 2nd match
-```
 
-### Print Nth Line
-```
-sed -n '7p' # 7th line
-```
-```
-sed '7!d' # Also 7th line
-```
+## Remove everything before match
 
-### Replace newline chracter w/space
-- Tip: don't use sed...
-```
-tr '"\n' ' ' < input_filename
-```
+- ```sed 's/.*match//'```
 
-### Remove brackets and everything inside brackets
-```
-sed -e 's/\[[^][]*\]//g'
-```
 
-### Resources
-- https://linuxhint.com/50_sed_command_examples
+## Remove everything after match
+
+- ```sed 's/match.*//g'```
+
+
+## Replace first instance of match
+
+- ```sed '0,/example1/{s/example1/example2/}'```
+
+
+## Replace Nth instance of match
+
+- ```sed 's/example1/example2/2g```
+
+    > 2g == 2nd match
+
+
+## Print Nth Line
+
+- ```sed -n '7p'```
+
+    > 7th line
+
+
+- ```sed '7!d'```
+
+    > Also 7th line
+
+
+## Replace newline chracter w/space
+
+- Tip: Easier with ```tr```
+
+    - ```tr '"\n' ' ' < input_filename```
+
+
+## Remove brackets and everything inside brackets
+
+- ```sed -e 's/\[[^][]*\]//g'```
+
+
+## Resources
+
+- [sed, a stream editor](https://www.gnu.org/software/sed/manual/sed.html)
+
+- [Linux Handbook: Getting Stared With SED](https://linuxhandbook.com/sed-command-basics/)
+
+- [linuxhint: 50 sed Command Examples](https://linuxhint.com/50_sed_command_examples)

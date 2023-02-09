@@ -1,11 +1,18 @@
 ---
-title: Glade GTK (Gnome GUI creation)
+title: Glade GTK
+author: csmertx
+date: January 31, 2023
 weight: -20
 ---
 
-### Links | gtk-rs
-- https://gtk-rs.org/docs-src/requirements
-- https://nora.codes/tutorial/speedy-desktop-apps-with-gtk-and-rust
+# Glade GTK
 
-### Links | Glade
-- https://wiki.gnome.org/action/show/Apps/Glade/Tutorials?action=show&redirect=Glade%2FTutorials
+> Toolchain to create GTK applications
+
+## Resources
+
+- [GTK-rs: Requirements](https://martinber.github.io/gtk-rs.github.io/docs-src/requirements.html)
+
+- [Nora Codes: Speedy Desktop Apps With GTK and RUST](https://nora.codes/tutorial/speedy-desktop-apps-with-gtk-and-rust)
+
+- [Gnome Project: Glade Tutorials](https://wiki.gnome.org/Apps/Glade/Tutorials)

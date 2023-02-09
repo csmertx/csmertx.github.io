@@ -1,16 +1,24 @@
 ---
-title: Ranger > File Manager
+title: Ranger
+author: csmertx
+date: February 4, 2023
 weight: -20
 ---
 
-## Notes for the CLI based Ranger File Manager (written in python)
+# Ranger: Console file manager with VI key bindings
 
-### Custom Commands
-- vim ~/.config/ranger/commands.py
+> Links to the project [below](#resources)
+
+## Custom Commands
+
+- ```vim ~/.config/ranger/commands.py```
+
 - Add command at the bottom following a comment
-    - Included additional libraries if needed (from ...)
 
-### File Compression Command
+    - Included additional libraries if needed (```from``` ...)
+
+## File Compression Command
+
 ```
 from ranger.core.loader import CommandLoader
 
@@ -45,7 +53,8 @@ class compress(Command):
         return ['compress ' + os.path.basename(self.fm.thisdir.path) + ext for ext in extension]
 ```
 
-### File Extraction Command
+## File Extraction Command
+
 ```
 from ranger.core.loader import CommandLoader
 
@@ -80,3 +89,9 @@ class extract_here(Command):
         obj.signal_bind('after', refresh)
         self.fm.loader.add(obj)
 ```
+
+## Resources
+
+- [Ranger &mdash; console file manager with VI key bindings](https://ranger.github.io/)
+
+- [GitHub - ranger/ranger: A VIM-inspired filemanager for the console](https://github.com/ranger/ranger)

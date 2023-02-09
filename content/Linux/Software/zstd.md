@@ -3,10 +3,12 @@ title: ZSTD > Zstandard File Compression
 weight: -20
 ---
 
-## Zstandard Notes
+# Zstandard File Compression
 
-### Unpack .ZST
-- zstd [source] [packed]
+## Decompress
 
-### Pack .ZST
-- unzstd [source] [unpacked]
+- ```zstd source.zst packed.zst```
+
+## Compress
+
+- ```unzstd source.zst unpacked.zst```

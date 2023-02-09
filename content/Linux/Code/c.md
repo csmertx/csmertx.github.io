@@ -1,14 +1,28 @@
 ---
-title: C Programming Language
+title: C
+author: csmertx
+date: January 31, 2023
 weight: -20
 ---
 
-### Compiling
+# C Programming Language
+
+## Compiling Souce Code
+
 - Generate a configure file
-    - autoconf configure.ac
+
+    - ```autoconf configure.ac```
+
 - Makefile exists?
-    - ./configure
-    - User basics: make && make install
+
+    - ```./configure```
+
+        > This is the fun part... see links for unmet dependency searches
+
+    - User basics: ```make && make install```
 
 ### Resources
-- https://suchprogramming.com/new-linux-process-c/ (fork() new processes)
+
+- [Such Programming: Spawning New Linux Processes in C](https://suchprogramming.com/new-linux-process-c)
+
+- [Debian Package Search](https://packages.debian.org/index): Scroll down to search package directories

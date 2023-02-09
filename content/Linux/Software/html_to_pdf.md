@@ -1,7 +1,26 @@
 ---
-title: HTML 2 PDF
+title: HTML2PDF
+author: csmertx
+date: February 3, 2023
 weight: -20
 ---
 
-### wkhtmltopdf
-- wkhtmltopdf input.html output.pdf
+# Converting webpages to PDF
+
+## Firefox
+
+- ```CTRL``` + ```P```
+
+    - Save to PDF
+
+## Chome
+
+- ```CTRL``` + ```P```
+
+    - Save to PDF
+
+## wkhtmltopdf
+
+- ```wkhtmltopdf input.html output.pdf```
+
+    > Additional options via CLI not available through browsers

@@ -1,28 +1,48 @@
 ---
-title: Git Pro > notes (book)
+title: Git Pro
+author: csmertx
+date: January 31, 2023
 weight: -20
 ---
 
+# Git Pro notes (taken before 2022)
+
+> Git Pro was written by Ben Straub, and Published by Apress
+
 ## Print tags
-=> git tag
 
-### Extended info
-=> git show v1.4
+- ```git tag```
 
-### Adding tags to older commits (parse first)
-=> git log --pretty=oneline  
-example output: 9fceb02... updated rakefile
+## Extended info
 
-### Append the tag to <updated rakefile> commit
-=> git tag -a v1.2 9fceb02
+- ```git show v1.4```
 
-### Sharing tags
-=> git push origin v1.5
+## Adding tags to older commits (parse first)
 
-### All the tags all at once
-=> git push origin --tags
+- ```git log --pretty=oneline```
 
-### Even more info
-=> git checkout 2.0.0
+    > example output: 9fceb02... updated rakefile
 
-### Read PG. 59 if needed... 
+## Append the tag
+
+> to: ```[updated rakefile] commit```
+
+- ```git tag -a v1.2 9fceb02```
+
+## Sharing tags
+
+- ```git push origin v1.5```
+
+## All the tags all at once
+
+- ```git push origin --tags```
+
+## Even more info
+
+- ```git checkout 2.0.0```
+
+    > Read PG. 59 if needed... 
+
+## Resources
+
+- [Git Pro: book](https://git-scm.com/book/en/v2)

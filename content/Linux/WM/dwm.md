@@ -1,43 +1,75 @@
 ---
-title: DWM > Dynamic Window Manager
+title: DWM
 weight: -20
 ---
 
-## Dynamic Window Manager Notes
+# Dynamic Window Manager
 
-### Compile
+## Compile
 
 ### config.def.h
+
 - Fonts
+
     - ```static const char *fonts[]     = "hack:size=10";```
+
     - ```static const char dmenufont[]    = "hack:size=10";```
+
 - default terminal
+
     - ```static const char *termcmd[]       = { "terminal-name", NULL };```
+
 - Fix window gaps
+
     - ```-- static cont int resizehints = 1;```
+
     - ```++ static cont int resizehints = 0;```
 
-### No ~/.xinitrc
-- cp /etc/X11/xinit/xinitrc-common ~/.xinitrc (best)
-- cp /etc/X11/xinit/xinitrc ~/.xinitrc (meh)
+## No ~/.xinitrc
 
-### bar
-- Add to ~/.xinitrc
-```while true
-while true; do
-    xsetroot -name " CentOS 8.1 | $USER@$HOSTNAME | $(hostname -I| awk '{print $1}') | $(date "+%F %R") "```
-    sleep 1m
-done &
+- ```cp /etc/X11/xinit/xinitrc-common ~/.xinitrc```
 
-### background
-- Add to ~/.xinitrc
-- feh --bg-scale ~/Pictures/backgrounds/789948.jpg
-- feh --bg-scale ~/Pictures/backgrounds/789948.jpg (twice cuz reasons)
+    > Recommended
 
-### startx
-- Add to ~/.xinitrc
-- exec dwm
+- ```cp /etc/X11/xinit/xinitrc ~/.xinitrc```
 
-### Display
-- Save layout from arandr
+    > Not recommended
+
+## Status bar
+
+- Add to ```~/.xinitrc```
+
+    ```
+    while true
+    while true; do
+        xsetroot -name " CentOS 8.1 | $USER@$HOSTNAME | $(hostname -I| awk '{print $1}') | $(date "+%F %R") "
+        sleep 1m
+    done &
+    ```
+
+    > Status line output = CentOS 8.1 | chris@c1n1 | [IP ADDRESS] | 2023-02-05 18:28 (See [below](#resources) for date scripting)
+
+## Wallpaper
+- Add to ```~/.xinitrc```
+
+- ```feh --bg-scale ~/Pictures/backgrounds/789948.jpg```
+
+- ```feh --bg-scale ~/Pictures/backgrounds/789948.jpg```
+
+    > Twice because that was the only way it would work for sone reason
+
+## startx
+
+- Add to ```~/.xinitrc```
+
+- ```exec dwm```
+
+## Display
+
+- Save layout from ```arandr```
+
 - cat that layout to whatever dwm autostart script
+
+## Resources
+
+- [nixCraft: How To Format Date For Display or Use In a Shell Script](https://www.cyberciti.biz/faq/linux-unix-formatting-dates-for-display/)

@@ -1,54 +1,122 @@
 ---
-title: Arch Linux > Bootloader Fix
+title: Arch Boot
+author: csmertx
+date: January 31, 2023
 weight: -20
 ---
 
-## Arch Linux restore bootloader
+# Arch Linux: restore bootloader
 
-### iwctl (wireless access)
-- iwctl
-  - station wlan0 (device found with: ip link) connect YOURFRIENDLYNEIGHBORHOODWIFIADDRESS
+> Caveat: This was a system I used for 2018-2019
+
+## iwctl (wireless access)
+
+- ```iwctl```
+
+  - ```station wlan0 connect YOURFRIENDLYNEIGHBORHOODWIFIADDRESS```
+
+    > Device found with ```ip link```
+
     - Enter passphrase
-  - exit
 
-### Chroot (chroot: failed to run command /usr/bin/zsh: No such file or directory)
-- chroot /mnt /bin/bash
+  - ```exit```
 
-### netctl (outdated as of: 2022)
-- cp /etc/netctl/examples/wireless-wpa /etc/netctl/<essid_name>
-- vi /etc/netctl/<essid_name> (ip link), essid, key, etc.
-- netctl start <essid_name>
+## Chroot (chroot: failed to run command /usr/bin/zsh: No such file or directory)
 
-### Format
-- mkfs.ext4 /dev/sXX
-- swapon /dev/sXX
+- ```chroot /mnt /bin/bash```
 
-### Base install
-- (filesystem) mount /dev/sXX /mnt
-- pacstrap /mnt base
-- genfstab -U /mnt >> /mnt/etc/fstab
-- arch-chroot /mnt
-- ln -sf /usr/share/zoneinfo/TAB /etc/localtime
-- hwclock --systohc
-- pacman -S vim grub
-- vim /etc/locale.gen (en_US.UTF-8, UTF-8)
-- locale-gen
-- vim /etc/locale.conf (LANG=en_US.UTF-8)
-- vim /etc/hostname (add hostname)
-- vim /etc/hosts (127.0.1.1 myhostname.localdomain myhostname)
-- grub-install --target=i386-pc /dev/sdX (disk)
-- grub-mkconfig -o /boot/grub/grub.cfg
-- passwd
-- exit
+## netctl (outdated as of: 2022)
 
-### Restore
-- pacman -S borgbackup ranger tmux vim htop
-- mkdir /Storage
-- mount /dev/sdX /Storage
-- tmux  (ctrl+b % or ctrl+b ")
-- borg list /Storage/OS_Backups/Arch_Linux
-- cd /mnt
-- borg extract --dry-run --progress /Storage/OS_Backups/Arch_Linux::root-2019-xx-xx
-- arch-chroot /mnt
-- apend new uuid to fstab (blkid or fdisk -l)
-- grub-mkconfig -o /boot/grub/grub.cfg 
+- ```cp /etc/netctl/examples/wireless-wpa /etc/netctl/<essid_name>```
+
+- ```vi /etc/netctl/<essid_name>```
+  
+  > ```ip link```, essid, key, etc.
+
+- ```netctl start <essid_name>```
+
+## Format
+
+- ```mkfs.ext4 /dev/sXX```
+
+- ```swapon /dev/sXX```
+
+## Base install
+
+- ```mount /dev/sXX /mnt```
+
+  > filesystem
+
+- ```pacstrap /mnt base```
+
+- ```genfstab -U /mnt >> /mnt/etc/fstab```
+
+- ```arch-chroot /mnt```
+
+- ```ln -sf /usr/share/zoneinfo/TAB /etc/localtime```
+
+  > Pressing TAB after zoneinfo a few times shows options (same for region)
+
+- ```hwclock --systohc```
+
+- ```pacman -S vim grub```
+
+- ```vim /etc/locale.gen```
+  
+    ```
+    en_US.UTF-8, UTF-8)
+    ```
+
+- ```locale-gen```
+
+- ```vim /etc/locale.conf```
+  
+    ```
+    LANG=en_US.UTF-8)
+    ```
+
+- ```vim /etc/hostname```
+
+- ```vim /etc/hosts```
+
+    ```
+    127.0.1.1 myhostname.localdomain myhostname
+    ```
+
+- ```grub-install --target=i386-pc /dev/sdX```
+
+  > Disk/SSD
+
+- ```grub-mkconfig -o /boot/grub/grub.cfg```
+
+- ```passwd```
+
+- ```exit```
+
+## Restore
+
+- ```pacman -S borgbackup ranger tmux vim htop```
+
+- ```mkdir /Storage```
+
+- ```mount /dev/sdX /Storage```
+
+- ```tmux```
+  
+  > ```CTRL + b``` + ```%``` or ```CTRL``` + ```b``` to split the screen
+
+  > See also [Tmux](/Linux/Software/tmux)
+
+- ```borg list /Storage/OS_Backups/Arch_Linux```
+
+- ```cd /mnt```
+
+- ```borg extract --dry-run --progress /Storage/OS_Backups/Arch_Linux::root-2019-xx-xx```
+
+- ```arch-chroot /mnt```
+
+- apend new uuid to fstab
+  
+  > ```sudo blkid``` or ```sudo fdisk -l```
+
+- ```grub-mkconfig -o /boot/grub/grub.cfg```

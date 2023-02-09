@@ -1,5 +1,8 @@
 ---
-title: Pen & Pencil Cup
+title: Pen Cup
+author: csmertx
+date: January 20, 2023
+weight: -20
 ---
 
 ## January 20, 2023

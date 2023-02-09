@@ -1,4 +1,4 @@
 ---
-title: Virtual Machines
+title: Virtualized
 geekdocCollapseSection: true
 ---

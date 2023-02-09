@@ -1,9 +1,14 @@
 ---
 title: RPi4 Console
+author: csmertx
+date: January 20, 2023
+weight: -20
 ---
 
 ## January 20, 2023
 ### Created: 06-07-21
+
+> RPi4 == Raspberry Pi 4
 
 I wanted a tiny console to check out ARM architecture stuff. My notes are at: Linux > Devices > RPi4
 

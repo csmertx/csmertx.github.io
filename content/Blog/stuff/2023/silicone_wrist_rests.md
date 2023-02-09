@@ -1,5 +1,8 @@
 ---
 title: Wrist Rests
+author: csmertx
+date: January 20, 2023
+weight: -20
 ---
 
 ## January 20, 2023

@@ -1,9 +1,13 @@
 ---
 title: Keyboard Scancodes
+author: csmertx
+date: February 1, 2023
 weight: -20
 ---
 
-## Keyboard Scancodes, X11, EV, etc.
+# Keyboard Scancodes, X11, EV, etc.
+
+> May include game controller keysyms as well?
 
 ```
 01 (Esc)
@@ -48,6 +52,7 @@ weight: -20
 
 52 (Keypad-0/Ins), 53 (Keypad-./Del)
 ```
+
 ```
 X11Keysym: 
   XK_Escape, XK_1, XK_2, XK_3, XK_4, XK_5, XK_6, XK_7, XK_8, XK_9, XK_0, XK_minus, 
@@ -85,7 +90,11 @@ X11Keysym:
   XK_XF86KbdBrightnessUp, XK_XF86Send, XK_XF86Reply, XK_XF86MailForward, XK_XF86Save, 
   XK_XF86Documents, XK_XF86Battery, XK_XF86Bluetooth, XK_XF86WLAN
 ```
+
 **^(https://github.com/basicthinker/ThyNVM/blob/master/ext/x11keysym/keysymdef.h)**
+
+
+
 ```
 EV_KEY:
   KEY_RESERVED, KEY_ESC, KEY_1, KEY_2, KEY_3, KEY_4, KEY_5, KEY_6, KEY_7, KEY_8, KEY_9, 

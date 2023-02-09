@@ -1,12 +1,32 @@
 ---
-title: KVM > Kernel-based Virtual Machine
+title: KVM
+author: csmertx
+date: February 5, 2023
 weight: -20
 ---
 
-### Setup (Arch)
-- sudo modprobe kvm_intel (or kvm_amd)
-- sudo vim /etc/modprobe.d/kvm.conf
-- ++ kvm_intel (or kvm_amd)
+# KVM: Kernal-based Virtual Machine
 
-### Setup Ubuntu
-- apti qemu-kvm
+> See [Windows & DOS VMs](/Windows_and_DOS/win_dos_vm) for minimum and maximum system requirements (RAM, VRAM, etc.)
+
+## Setup (Arch Linux)
+
+- ```sudo modprobe kvm_intel```
+
+    > Or ```kvm_amd```
+
+- ```sudo vim /etc/modprobe.d/kvm.conf```
+
+    ```
+    ++ kvm_intel
+    ```
+    
+    > Or ```kvm_amd```
+
+## Setup Ubuntu
+
+- ```apti qemu-kvm```
+
+## Resources
+
+- [Arch Wiki: KVM](https://wiki.archlinux.org/title/KVM)

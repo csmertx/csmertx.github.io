@@ -1,50 +1,90 @@
 ---
 title: Docker
+author: csmertx
+date: February 3, 2023
 weight: -20
 ---
 
-### Installation
-- docker
-- sudo systemctl {start,enable} docker.service
+# Docker: Containerized Application Development
 
-### List Containers
-- docker images
-- sudo docker ps -aq
+> See also [Jellyfin](/Linux/Software/jellyfin)
 
-### Logs
-- sudo docker logs containerid
+## Installation
 
-### Storage Driver
-- sudov /etc/docker/daemon.json
-    - ++ {
-    - ++   "storage-driver": "overlay2"
-    - ++ }
+- ```docker```
 
-### Volumes
--- docker run -d \
--- --volume /dir/media:/media
--- etc.
+- ```sudo systemctl {start,enable} docker.service```
 
-### Permissions
-- sudo usermod -aG docker user
+## List Containers
 
-### Cannot connect to docker daemon error
-- sudo snap start docker
-- sudo systemctl status docker
-- sudo systemctl enable docker
-- sudo systemctl start docker
+- ```docker images```
 
-### Purge all the things
-- sudo docker system prune
+- ```sudo docker ps -aq```
 
-### Docker Compose
-- Visit: https://docs.docker.com/compose/install/ > Linux > Install Compose on Linux Systems
-- sudoc /usr/local/bin/docker-compose
-- mkdir ~/.sources/project-name
-- cd ~/.sources/project-name
-- mv docker-compose.yml ~/.sources/project-name/docker-compose.yml
-- docker-compose up
+## Logs
 
-### Remove Container
-- docker stop container_id or container_name
-- docker rm container_id or container_name_
+- ```sudo docker logs containerid```
+
+## Storage Driver
+
+- ```sudov /etc/docker/daemon.json```
+
+    ```
+    ++ {
+    ++   "storage-driver": "overlay2"
+    ++ }
+    ```
+
+## Volume examples
+
+- ```docker run -d \```
+
+- ```--volume /dir/media:/media```
+
+## Permissions
+
+- ```sudo usermod -aG docker user```
+
+## Cannot connect to docker daemon error
+
+- ```sudo snap start docker```
+
+- ```sudo systemctl status docker```
+
+- ```sudo systemctl enable docker```
+
+- ```sudo systemctl start docker```
+
+## Purge all the things
+
+- ```sudo docker system prune```
+
+## Docker Compose
+
+- Visit: https://docs.docker.com/compose/install/ 
+
+    > Linux > Install Compose on Linux Systems
+
+- ```sudoc /usr/local/bin/docker-compose```
+
+- ```mkdir ~/.sources/project-name```
+
+- ```cd ~/.sources/project-name```
+
+- ```mv docker-compose.yml ~/.sources/project-name/docker-compose.yml```
+
+- ```docker-compose up```
+
+## Remove Container
+
+- ```docker stop [container_id]```
+
+    > or ```[container_name]```
+
+- ```docker rm [container_id]```
+    
+    > or ```[container_name]```
+
+## Resources
+
+- [Docker / Docs / Overview](https://docs.docker.com/get-started/overview/)

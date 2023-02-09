@@ -1,11 +1,19 @@
 ---
 title: GPS
+author: csmertx
+date: February 1, 2023
 weight: -20
 ---
 
-### From GPS Device
-- pac -S gpsd
-- sudo systemctl start/enable gpsd
-- gpspipe -R/-r/-w
+# Interfacing with GPS devices
 
-### Without GPS Device
+> Not something I've used. Just a curiosity.
+
+## From GPS Device
+- ```apti gpsd```
+
+    > Arch Linux: ```pac -S gpsd```
+
+- ```sudo systemctl start/enable gpsd```
+
+- ```gpspipe -R/-r/-w```

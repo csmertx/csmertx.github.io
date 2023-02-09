@@ -1,16 +1,44 @@
 ---
-title: Time (Clock)
+title: Time
+author: csmertx
+date: January 30, 2023
 weight: -20
 ---
 
-### Set Local Time
+# Linux Time Command
+
+## Set Local Time
+
 - Easy
-    - tzselect (user)
-    - sudo tzselect (global)
-    - reboot (if VM; then host too)
+
+    - ```tzselect```
+
+        > Userland
+
+    - ```sudo tzselect```
+
+        > Global
+
+    - ```reboot```
+
+        > If VM, then reboot host too
+
 - Normal
-    - sudo cp /usr/share/zoneinfo/America/New\_York /etc/localtime
-    - vim /etc/sysconfig/clock
-        - ++ ZONE="America/New_York"
-    - sudo hwclock --utc -s
-    - reboot (if VM; then host too)
+
+    - ```sudo cp /usr/share/zoneinfo/America/New\_York /etc/localtime```
+
+    - ```vim /etc/sysconfig/clock```
+
+        - ```++ ZONE="America/New_York"```
+
+    - ```sudo hwclock --utc -s```
+
+    - ```reboot```
+
+        > if VM, then reboot host too
+
+## Resources
+
+- [Linuxize: Linux Time Command](https://linuxize.com/post/linux-time-command/)
+
+- [nixCraft: How To Format Date For Display or Use In a Shell Script](https://www.cyberciti.biz/faq/linux-unix-formatting-dates-for-display/)

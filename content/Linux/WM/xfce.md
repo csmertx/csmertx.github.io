@@ -1,14 +1,28 @@
 ---
-title: XFCE
+title: Xfce
+author: csmertx
+date: February 6, 2023
 weight: -20
 ---
 
-### Notification Theme
-- /usr/bin/xfce4-notifyd-config
+# Xfce desktop environment
 
-### Whisker Menu Animated Icon
-- https://forum.xfce.org/viewtopic.php?id=11098
+> Originally known as: XForms Common Environment
 
-### Whisker Menu Search w/Catfish
-- Requires: catfish
-- uses updatedb: database exposes files to all users..
+## Notification Theme
+
+- via ```/usr/bin/xfce4-notifyd-config```
+
+## Whisker Menu Animated Icon
+
+- [Xfce forums / Desktop / Change start menu icon on mouseover or click](https://forum.xfce.org/viewtopic.php?id=11098)
+
+## Whisker Catfish menu search
+
+- [Read more about catfish](https://docs.xfce.org/apps/catfish/start)
+
+- Requires ```updatedb```
+
+    > Database exposes files to all users
+
+- apti ```catfish```

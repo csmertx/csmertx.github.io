@@ -1,12 +1,24 @@
 ---
-title: Python Package Index
+title: PyPi
+author: csmertx
+date: January 31, 2023
 weight: -20
 ---
 
-### Installing a Python Package
-- pip3 install "project"
-- pip3 install "project==5.7.1"
-- pip3 install "project>=5.6.1"
+# Python Package Index
 
-### Upgrading packages
-- pip3 install --upgrade "project"
+## Installing Python packages
+
+- ```pip3 install project```
+
+- ```pip3 install project==5.7.1```
+
+- ```pip3 install project>=5.6.1```
+
+## Upgrading packages
+
+- ```pip3 install --upgrade project```
+
+## Resources
+
+- [Python Package Index Homepage](https://pypi.org/)

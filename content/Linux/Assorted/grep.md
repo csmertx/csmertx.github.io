@@ -1,22 +1,34 @@
 ---
-title: Grep Command
+title: Grep
+author: csmertx
+date: January 30, 2023
 weight: -20
 ---
 
-### Recursive matching
-- grep -r term4search /dir
+## Recursive matching
 
-### Exclude Match
-- grep -v term2exclude /dir/file
+> Recursive: check subdirectories
 
-### Match and match
-egrep -w 'term1|term2' /dir/file
+- ```grep -r term4search /dir```
 
-### Ignore case
-- grep -i searchterm /dir/file
+## Exclude Match
 
-### String multiple matches
-- grep -e term1 -e term2 -e term3 /dir/file
+- ```grep -v term2exclude /dir/file```
 
-### Stick to .extension
-- grep -e term1 -e term2 /dir/(asterisk).txt
+## Match and match
+
+- ```egrep -w 'term1|term2' /dir/file```
+
+## Ignore case
+
+- ```grep -i searchterm /dir/file```
+
+## String multiple matches
+
+- ```grep -e term1 -e term2 -e term3 /dir/file```
+
+## Search via extensions
+
+> .txt, .mp3, .svg, .sh, .bash, .conf, etc.
+
+- ```grep -e term1 -e term2 /dir/*.txt```

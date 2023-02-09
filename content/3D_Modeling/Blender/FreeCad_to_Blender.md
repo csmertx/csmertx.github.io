@@ -1,9 +1,16 @@
 ---
 title: FreeCAD to Blender
+author: csmertx
+date: January 30, 2023
 weight: -20
 ---
 
-## > Smoothing out Models made in FreeCAD (Blender v2.8)
-- Preferences > Add-ons > Enable Import STL
-    - Add Modifier > Edge Split (Generate Category)
-        - Smooth Shade (Object Menu: Shade Smooth)
+# Importing FreeCAD models to Blender
+
+## Using Blender v2.8 to smooth out FreeCAD models
+
+1. Preferences > Add-ons > Enable Import STL
+
+2. Add Modifier > Edge Split (Generate Category)
+
+3. Smooth Shade (Object Menu: Shade Smooth)

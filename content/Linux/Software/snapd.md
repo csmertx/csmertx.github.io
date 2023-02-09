@@ -1,18 +1,30 @@
 ---
-title: Snapd > Snapcraft
+title: Snaps
 weight: -20
 ---
 
-### Installation
-- pac -S snapd
-- sudo systemctl {enable,start} snapd.service
-- sudo apt install snapd
+# Snapcraft: Universal Linux packages
 
-### Install Packages
-- sudo snap install docker
+## Installation
 
-### Update Packages
-- sudo snap refresh docker
+> Arch Linux instructions
 
-### Start Systemd type service
-- sudo snap start docker
+- ```pac -S snapd```
+
+- ```sudo systemctl {enable,start} snapd.service```
+
+- ```sudo apt install snapd```
+
+## Install Packages
+
+- ```sudo snap install docker```
+
+    > See: [Jellyfin](/Linux/Software/jellyfin) for DIY media streaming installation
+
+## Update Packages
+
+- ```sudo snap refresh docker```
+
+## Start Systemd type service
+
+- ```sudo snap start docker```

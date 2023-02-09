@@ -1,30 +1,54 @@
 ---
-title: Docker > Installation
+title: Docker
+author: csmertx
+date: February 5, 2023
 weight: -20
 ---
 
-### Debian packages
-=> sudo apti docker docker-compose cockpit cockpit-docker
+# Docker: Accelerated, containerized application development
 
-### Fedora packages
-=> sudo dnf install docker docker-compose cockpit cockpit-docker
+> Or a neat way to setup a DIY media streaming box
 
-### Add user to docker group (single user LAN server only)
-=> sudo usermod -aG docker $USER
+## Debian packages
 
-### Install Nextcloud
-=> sudo docker pull nextcloud
+- ```sudo apti docker docker-compose cockpit cockpit-docker```
 
-### ip address
-=> add IP=192.168.xxx.xx to environment
+## Fedora packages
 
-### Link /var/lib/docker to different partition
-=> remove /var/lib/docker
-=> sudo -ln -s /mnt/containers/docker /var/lib/docker
-=> sudo touch /var/lib/docker/test.txt
+- ```sudo dnf install docker docker-compose cockpit cockpit-docker```
 
-### Configure Cluster (-d for daemonize)
-=> docker-compose -f /mnt/containers/docker-compose/custom_compose.yml up -d
+## Add user to docker group (single user LAN server only)
 
-### Remove Cluster
-=> docker-compose -f /mnt/containers/docker-compose/custom_compose.yml down 
+- ```sudo usermod -aG docker $USER```
+
+## Install Nextcloud
+
+- ```sudo docker pull nextcloud```
+
+## IP Address
+
+- add ```IP=192.168.xxx.xx``` to environment
+
+## Link /var/lib/docker to different partition
+
+- remove ```/var/lib/docker```
+
+    > Backup ```/var/lib/docker``` first?
+
+- ```sudo -ln -s /mnt/containers/docker /var/lib/docker```
+
+- ```sudo touch /var/lib/docker/test.txt```
+
+## Configure Cluster (-d for daemonize)
+
+- ```docker-compose -f /mnt/containers/docker-compose/custom_compose.yml up -d```
+
+## Remove Cluster
+
+- ```docker-compose -f /mnt/containers/docker-compose/custom_compose.yml down```
+
+## Resources
+
+- [Docker: Accelerated, Containerized Application Development](https://www.docker.com/)
+
+- [Red Hat - What is Docker?](https://www.redhat.com/en/topics/containers/what-is-docker)

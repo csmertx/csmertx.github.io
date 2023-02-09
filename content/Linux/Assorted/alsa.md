@@ -1,7 +1,18 @@
 ---
-title: ALSA > Advanced Linux Sound Architecture
+title: ALSA
+author: csmertx
+date: January 30, 2023
 weight: -20
 ---
 
-## > Grok Device id
-    $ aplay -l
+# Advansed Linux Sound Architecture
+
+> For tiling window manager scripting, etc.
+
+## Acquire physical device ID
+
+- ```aplay -l```
+
+## Resources
+
+- [AlsaProject](https://alsa-project.org/wiki/Main_Page)

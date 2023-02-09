@@ -1,20 +1,32 @@
 ---
-title: Grep Command
+title: Grep
+author: csmertx
+date: January 31, 2023
 weight: -20
 ---
 
-#### Note \* Astrisks are escaped because markdown
+# GNU Grep 
 
-### Match or match
-- grep 'match\|match2'
-- grep -E 'match|match2'
+## Find match or match
 
-### Match and match
-- grep 'match.\*match2'
+- ```grep 'match\|match2'```
 
-### Omit match
-- grep -v 'match'
+- ```grep -E 'match|match2'```
 
-### Beginning/end of line match
-- grep "^match"
-- grep "match$"
+## Find match and match
+
+- ```grep 'match.*match2'```
+
+## Omit match
+
+- ```grep -v 'match'```
+
+## Find first or last of line match
+
+- ```grep "^match"```
+
+- ```grep "match$"```
+
+## Resources
+
+- [GNU Grep](https://www.gnu.org/software/grep/)

@@ -1,11 +1,13 @@
 ---
-title: Xscreensaver Multi-monitor Patch
+title: XScreenSaver
+author: csmertx
+date: February 4, 2023
 weight: -20
 ---
 
-"So xscreensaver’s author Jamie Zawinski has previously stated he thinks most of the hacks look bad stretched across multiple monitors Around about version 4.12, multi monitor support turned into “one hack per screen”. After going through the large list of hacks, I thoroughly disagree. Most of them look really good, and some of them – like the above depicted “lattice” look stunning – especially at buttery smooth 144hz.
+# XScreenSaver Multi-monitor Patch
 
-The following patch against drivers/screens.c in xscreensaver v5.40 make this possible in my setup. The resolution is hard-coded – I hope in the future I can convince Jamie or one of the other maintainers to implement a more elegant solution. In essence we’re fooling xscreensaver into thinking theres 1 big screen – 5920 x 1440 (with a few wasted pixels due to the mismatched screen resolutions in my case)."
+> See [patching](/Linux/Software/patching) to use this patch
 
 ```
 $ diff screens-original.c screens.c
@@ -42,5 +44,9 @@ $ diff screens-original.c screens.c
 >   /* one hack over multi-monitor patch - force xscreensaver to use our hardcoded RANDR details, not xinerama */
 ```
 
-Sourced: https://www.jabawok.net/?p=158
+## Resources
+
+- [XScreenSaver](https://www.jwz.org/xscreensaver/)
+
+- [SNARGAWOK: Forcing xscreensaver to display one hack over multiple monitors.](https://www.jabawok.net/?p=158)
 

@@ -1,11 +1,24 @@
 ---
 title: MOC > Music On Console
+author: csmertx
+date: February 3, 2023
 weight: -20
 ---
 
-### Pulseaudio Integration
-- vim ~/.moc/config
-- uncomment: SoundDriver = OSS, ALSA, JACK
-- alias mocp to: padsp mocp
-- Switch mixer with key: x
-- Volume change with keys: ,.
+# Music On Console
+
+## Pulseaudio Integration
+
+- ```vim ~/.moc/config```
+
+    - Uncomment: ```SoundDriver = OSS, ALSA, JACK```
+
+- ```vim ~/.bashrc```
+
+    ```
+    ++ alias mocp="padsp mocp"
+    ```
+
+- Switch mixer with key: ```x```
+
+- Change volume with: ```,``` and ```.```

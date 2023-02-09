@@ -1,13 +1,23 @@
 ---
 title: Gritty Honey Mustard
+author: csmertx
+date: February 7, 2023
 weight: -20
 ---
 
-Makes about 1/4 CUP (~0.37 CUP--and ~100 kcals)
-```
-Plain mustard | 3 TBSP
-Ketchup | 1 TBSP
-Ground chili paste  | 1 TSP
-Molasses  | 1 TBSP
-Brown sugar | 1 TSP
-``` 
+## Makes about 1/4 CUP 
+
+> About 60ml and roughly 100 calories
+
+- 3 tbsp. mustard
+
+    > Stone ground, etc.
+
+- 1 tbsp. Ketchup
+
+- 1 tsp. chili paste
+
+- 1 tbsp. Molasses
+
+- 1 tsp. Brown sugar
+

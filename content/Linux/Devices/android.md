@@ -1,13 +1,30 @@
 ---
-title: Android Devices
+title: Android
+author: csmertx
+date: February 1, 2023
 weight: -20
 ---
 
-### KDE
-- pac -S kio-extras
-- pac -S android-tools (or turn off ADB via Android device)
-- apti android-tools-adb kio-extras (220529: Negative for me w/Kubuntu 22.04)
+# Connecting Android devices to Linux desktops
 
-### Gnome
-- pac -S gvfs-mtp
-- pac -S android-tools (or turn off ADB via Android device)
+> See also [ADB](/Android/adb)
+
+## KDE (MTP)
+
+- ```pac -S kio-extras```
+
+- ```pac -S android-tools```
+    
+    > Or turn off ADB in Android device settings
+
+- ```apti android-tools-adb kio-extras```
+
+    > 05-29-22: No longer a solution w/Kubuntu 22.04?
+
+## Gnome (MTP)
+
+- ```pac -S gvfs-mtp```
+
+- ```pac -S android-tools```
+
+    > Or turn off ADB in Android device settings

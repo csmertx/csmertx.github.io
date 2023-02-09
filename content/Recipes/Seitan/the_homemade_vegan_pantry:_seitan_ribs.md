@@ -1,32 +1,47 @@
 ---
-title: The Homemade Vegan Pantry > Seitan Ribs
+title: Vegan Unribs
+author: Miyoko Schinner
+date: February 7, 2023
 weight: -20
 ---
 
-Prep Time: 20 mins | Cook Time: 1 hr 15 mins | Total Time: 1 hr 35 mins  
-Servings: 8 servings | Calories: 430kcal
+# The Homemade Vegan Pantry: Vegan Unribs
 
-**Author:** Kathy Hester, Miyoko Schinner  
-_The Homemade Vegan Pantry: The Art of Making Your Own Staples [A Cookbook]_
+> Recipe link: [Vegan Unribs: Easy Homemade Seitan Ribs - Healthy Slow Cooking](https://healthyslowcooking.com/unribs-from-the-homemade-vegan-pantry-by-miyoko-schinner/)
 
-### Ingredients
+> Prep Time: 20 mins | Cook Time: 1 hr 15 mins | Total Time: 1 hr 35 mins  
+> Servings: 8 servings | Calories: 430kcal
 
-    - 1/4 cup soy sauce
-    - 3 tablespoons nutritional yeast
-    - 2 tablespoons smooth peanut butter
-    - 2 tablespoons tomato paste
-    - 1 tablespoon white chickpea, or red miso
-    - 4 cloves garlic
-    - 1 1/4 cups water
-    - 2 1/2 cups vital wheat gluten flour , plus extra 1/2 cup if needed
-    - Oil for cooking (optional)
+**Nutrition**  
+Calories: 430kcal | Carbohydrates: 68g | Protein: 33g | Fat: 3g | Saturated Fat: 1g | Sodium: 1946mg | Potassium: 518mg | Fiber: 3g | Sugar: 49g | Vitamin A: 381IU | Vitamin C: 2mg | Calcium: 109mg | Iron: 3mg
 
-### Sauce
+## Ingredients
 
-    - 4 cups bbq sauce
-    - 2 cups water
+- 1/4 cup soy sauce
 
-### Instructions
+- 3 tablespoons nutritional yeast
+
+- 2 tablespoons smooth peanut butter
+
+- 2 tablespoons tomato paste
+
+- 1 tablespoon white chickpea, or red miso
+
+- 4 cloves garlic
+
+- 1 1/4 cups water
+
+- 2 1/2 cups vital wheat gluten flour , plus extra 1/2 cup if needed
+
+- Oil for cooking (optional)
+
+## Sauce
+
+- 4 cups bbq sauce
+
+- 2 cups water
+
+## Instructions
 
 1. In a food processor or blender, combine the soy sauce, nutritional yeast, peanut butter, tomato paste, miso, garlic, and water and process until a smooth and creamy slurry is created.
 
@@ -41,6 +56,3 @@ _The Homemade Vegan Pantry: The Art of Making Your Own Staples [A Cookbook]_
 6. Bake the ribs for 75 to 90 minutes, until the sauce has reduced and just barely coats them and the steaks are chewy and cooked through. They will be relatively tender while hot but will deflate slightly and become chewier as they cool, so fear not if they seem too soft right out of the oven.
 
 7. Let them cool until they can be handled without burning your fingers. Then slice each steak lengthwise into “ribs” about 1⁄3 to 1⁄2 inch thick. Heat the skillet over medium-low heat. You’re going to sauté the individual ribs once more to brown or even blacken them on both sides. Once again, you can choose to oil or not to oil. If you like your ribs on the greasy side, you’ll want to use a good 4 to 6 tablespoons of oil to sauté them. Or you can just use a dry nonstick skillet. Cook them all until nicely dark on both sides (I like them almost black). Then toss them with the remaining 2 to 21⁄2 cups barbecue sauce. Now you can dig in. Or wait until the next day, when they will have deepened in flavor and become even chewier. To reheat, just throw them in the oven or on the grill, or eat them cold with some potato salad—yum! Store in an airtight container in the fridge for up to 1 week or in the freezer for up to 6 months.
-
-**Nutrition**  
-Calories: 430kcal | Carbohydrates: 68g | Protein: 33g | Fat: 3g | Saturated Fat: 1g | Sodium: 1946mg | Potassium: 518mg | Fiber: 3g | Sugar: 49g | Vitamin A: 381IU | Vitamin C: 2mg | Calcium: 109mg | Iron: 3mg

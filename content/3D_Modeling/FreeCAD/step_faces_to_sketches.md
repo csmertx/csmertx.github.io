@@ -1,14 +1,28 @@
 ---
-title: Converting Step faces to Sketches
+title: Step faces to Sketches
+author: csmertx
+date: January 30, 2023
 weight: -20
 ---
 
-## > Convert .step faces to sketches
-- If unclear try: https://www.youtube.com/watch?v=7xupVksPadA
-- Remove all unnecessary objects
-- Switch to Draft Workbench
-- Select Object and Explode (Solid Blue Down Arrow)
-- Find the face required and remove all other faces
-- Select face and Convert bidirectionally between Draft and Sketch Objects
-- Note the position of the original face and move the sketch accordingly
-- Time for a to do contraint hell
+# Convert .step faces to sketches
+
+> Entry added before 2022
+
+1. Remove all unnecessary objects
+
+2. Switch to Draft Workbench
+
+3. Select Object and Explode (Solid Blue Down Arrow)
+
+4. Find the face required and remove all other faces
+
+5. Select face and Convert bidirectionally between Draft and Sketch Objects
+
+6. Note the position of the original face and move the sketch accordingly
+
+7. Time for a to do contraint hell
+
+## Resources
+
+- [YouTube: STEP to FreeCAD Part (61quick)](https://www.youtube.com/watch?v=7xupVksPadA)
