@@ -5,6 +5,11 @@ date: February 6, 2023
 weight: -20
 ---
 
+<br />
+<br />
+<br />
+<br />
+
 ## Disable File Indexer baloo_file
 
 - ```balooctl disable```
