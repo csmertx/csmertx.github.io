@@ -5,8 +5,7 @@ date: January 20, 2023
 weight: -20
 ---
 
-## January 20, 2023
-### Created: 03-10-22
+> Created: March 10, 2022
 
 One of my guilty pleasure hobbies is skateboarding with my fingers. I was never average at skateboarding and Florida has a lot of summer rain. Anyway, I wanted my desk to look nicer, and so I made this thing. Used silver Testors model paint for the sign.
 

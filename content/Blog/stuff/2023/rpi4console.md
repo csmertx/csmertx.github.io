@@ -5,8 +5,7 @@ date: January 20, 2023
 weight: -20
 ---
 
-## January 20, 2023
-### Created: 06-07-21
+> Created: June 7, 2021
 
 > RPi4 = Raspberry Pi 4
 

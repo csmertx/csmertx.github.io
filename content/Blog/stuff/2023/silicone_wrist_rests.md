@@ -5,8 +5,7 @@ date: January 20, 2023
 weight: -20
 ---
 
-## January 20, 2023
-### Created: 03-03-20
+> Created: March 3, 2020
 
 I'll try my best to keep these posts to the point and to not go crazy with the details. At the end of 2020 I stumbled in to some remote contract work. This job required the use of a keyboard, and a lot of typing. Instead of spending time and money on future RSI surgeries, I decided to get an urklenomic keyboard. The problem with the keyboard I bought (aside from the price tag) was that my wrists would go numb after four hours. Not as urklenomic as I'd like. The thin sponge wrist rests sold by the company did not help. That's why I made these.
 
