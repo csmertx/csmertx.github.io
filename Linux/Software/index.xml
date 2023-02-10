@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software on LGM</title><link>https://csmertx.github.io/Linux/Software/</link><description>Recent content in Software on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/Software/index.xml" rel="self" type="application/rss+xml"/><item><title>AppImage</title><link>https://csmertx.github.io/Linux/Software/appimage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/appimage/</guid><description> AppImage AppImageKit</description></item><item><title>Benchmarking</title><link>https://csmertx.github.io/Linux/Software/benchmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/benchmarks/</guid><description>Benchmarking in Linux Glmark2 apti glmark
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software on LGM</title><link>https://csmertx.github.io/Linux/Software/</link><description>Recent content in Software on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/Software/index.xml" rel="self" type="application/rss+xml"/><item><title>AppImages</title><link>https://csmertx.github.io/Linux/Software/appimage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/appimage/</guid><description> AppImageKit</description></item><item><title>Benchmarking</title><link>https://csmertx.github.io/Linux/Software/benchmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/benchmarks/</guid><description>Glmark2 apti glmark
 glmark2 --fullscreen
 03/03/20: Kubuntu 19.10
-03/03/20: Arch Linux</description></item><item><title>BorgBackup</title><link>https://csmertx.github.io/Linux/Software/borgbackup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/borgbackup/</guid><description>BorgBackup (Arch Linux) Intialize new backup directory borg init --encryption={authenticated,repokey,..} /dir/backupdir
+03/03/20: Arch Linux</description></item><item><title>BorgBackup</title><link>https://csmertx.github.io/Linux/Software/borgbackup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/borgbackup/</guid><description>Created before 2022
+BorgBackup (Arch Linux)
+Intialize new backup directory borg init --encryption={authenticated,repokey,..} /dir/backupdir
 borg key export /dir/backupdir /dir/backupdirkey
 List available snapshots sudo mount -t ext /dev/sdX
 borg list /dir/archivedir
@@ -10,8 +12,7 @@ borg init -e none /dir/archivedir
 sudo borg create --stats --progress -C zlib,6 /dir/archivedir::root_archivename-{now:%-m-%d} /dir/inputfilesystem
 Snapshot Device (unencrypted) mkdir /dir/archivedir
 sudo dd if=/dev/sdX | borg create --stats --progress -C zlib,6 /dir/archivedir::sdX-{now:%-m-%d}
-Restore Directory Snapshot (unencrypted) su -
-mkdir /mnt/snapshot</description></item><item><title>Calibre</title><link>https://csmertx.github.io/Linux/Software/epub_to_pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/epub_to_pdf/</guid><description> Calibre - E-book Mangement Installation apti calibre Convert EPUB to PDF ebook-convert example.epub to example.pdf</description></item><item><title>ClamAV</title><link>https://csmertx.github.io/Linux/Software/clamav/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/clamav/</guid><description>ClamAV: Virus scanning and removal using Linux Installation apti clamav clamav-daemon
+Restore Directory Snapshot (unencrypted) su -</description></item><item><title>Calibre</title><link>https://csmertx.github.io/Linux/Software/epub_to_pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/epub_to_pdf/</guid><description> Installation apti calibre Convert EPUB to PDF ebook-convert example.epub to example.pdf</description></item><item><title>Clam Anti-Virus</title><link>https://csmertx.github.io/Linux/Software/clamav/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/clamav/</guid><description>Installation apti clamav clamav-daemon
 Failed: 09-01-2021
 First run mkdir ~/.config/clamav
 mkdir ~/.config/clamav/logs
@@ -24,7 +25,8 @@ chown clamav /var/log/freshclam.log
 Configuration (needed) vim Freshclam.conf
 Uncomment line starting with UpdateLogFile, and change dir to /var/log/clamav/freshclam.log vim clamd.conf, and uncomment line starting with Example.
 Scan freshclam
-Daemon might be running (systemctl stop/start, etc.</description></item><item><title>DBGL</title><link>https://csmertx.github.io/Linux/Software/dbgl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dbgl/</guid><description>Installation (Ubuntu) apti dosbox
+Daemon might be running (systemctl stop/start, etc.)
+clamdscan --log=~/.config/clamav/logs/$(date).log /mnt/Storage</description></item><item><title>DBGL (DOSBox)</title><link>https://csmertx.github.io/Linux/Software/dbgl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dbgl/</guid><description>apti dosbox
 DBGL Download
 64-bit only Linux DBGL in tar.gz (9 MB)
 Extract to: ~/.local/usr/dbgl
@@ -35,7 +37,7 @@ apti default-jdk
 Repository Installation 04/09/20: Negative via 20.04?
 sudo add-apt-repository ppa:savoury1/dbgl
 sudo apt-get update
-sudo apti dosbox default-jdk dbgl</description></item><item><title>Docker</title><link>https://csmertx.github.io/Linux/Software/docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/docker/</guid><description>Docker: Containerized Application Development See also Jellyfin
+sudo apti dosbox default-jdk dbgl</description></item><item><title>Docker</title><link>https://csmertx.github.io/Linux/Software/docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/docker/</guid><description>See also Jellyfin
 Installation docker
 sudo systemctl {start,enable} docker.service
 List Containers docker images
@@ -45,7 +47,8 @@ Logs sudo docker logs containerid Storage Driver sudov /etc/docker/daemon.json
 --volume /dir/media:/media
 Permissions sudo usermod -aG docker user Cannot connect to docker daemon error sudo snap start docker
 sudo systemctl status docker
-sudo systemctl enable docker</description></item><item><title>Dolphin</title><link>https://csmertx.github.io/Linux/Software/dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dolphin/</guid><description>Dolphin File Manager (KDE) Select file/folder with single click (for shift click or alt click selections) System Settings (app)
+sudo systemctl enable docker
+sudo systemctl start docker</description></item><item><title>Dolphin (KDE)</title><link>https://csmertx.github.io/Linux/Software/dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dolphin/</guid><description>Select file/folder with single click (for shift click or alt click selections) System Settings (app)
 Workspace Behaviour
 General Behavior
 Clicking files or folders &amp;gt; Selects them
@@ -55,14 +58,21 @@ Stream media from another PC..
 Custom Right Click Menu kf5-config --path services
 vim $HOME/.local/share/kservices5/ServiceMenus/action.desktop
 Copy path Example (See below for menu entry options)
-Copy Path is now builtin as of 02/03/23</description></item><item><title>Fail2ban</title><link>https://csmertx.github.io/Linux/Software/fail2ban/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/fail2ban/</guid><description>Fail2ban: Server intrusion prevention software framework Setup Systemd
+Copy Path is now builtin as of 02/03/23
+[Desktop Entry] Type=Service Icon=edit-copy X-KDE-ServiceTypes=KonqPopupMenu/Plugin MimeType=directories;all/all; Actions=cppath; Encoding=UTF-8 Terminal=false [Desktop Action cppath] Name=Copy Path Icon=edit-copy Exec=echo &amp;#34;%f&amp;#34; | xclip -selection c Terminal=false Can&amp;rsquo;t Copy Folder Path</description></item><item><title>Fail2ban</title><link>https://csmertx.github.io/Linux/Software/fail2ban/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/fail2ban/</guid><description>Setup Systemd
 sudo systectm enable fail2ban.service
 sudo systectm start fail2ban.service
 SSH Limiting
 sudov /etc/fail2ban/jail.d/sshd.local
 ++ [sshd] ++ enabled = true ++ filter = sshd ++ banaction = ufw ++ backend = systemd ++ maxretry = 3 ++ findtime = 1h ++ bantime = 2h ++ ignoreip = 127.0.0.1/8 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 sudo systectm restart fail2ban.service Client sudo fail2ban-client status
 List all jails
-sudo fail2ban-client status sshd</description></item><item><title>FFmpeg</title><link>https://csmertx.github.io/Linux/Software/ffmpeg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ffmpeg/</guid><description>FFmpeg: audio/video conversion tool Combine files from a list (Ranger File Manager) cd to folder and open with ranger
+sudo fail2ban-client status sshd
+Status of jails</description></item><item><title>FastCGI (PHP-FPM)</title><link>https://csmertx.github.io/Linux/Software/php-fpm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/php-fpm/</guid><description> Enable Error Logging sudov /etc/php/php-fpm.d/www.conf
+or sudov /usr/local/etc/php-fpm.d/www.conf
+Uncomment / Make Changes
+catch_workers_output = yes php_flag[display_errors] = on php_admin_value[error_log] = /var/log/fpm-php.www.log php_admin_flag[log_errors] = on php_admin_value[memory_limit] = 99M sudo touch /var/log/fpm-php.www.log
+sudo chmod 777 /var/log/fpm-php.www.log
+Check Error Log tail -f /var/log/fpm-php.www.log</description></item><item><title>FFmpeg</title><link>https://csmertx.github.io/Linux/Software/ffmpeg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ffmpeg/</guid><description>Combine files from a list (Ranger File Manager) cd to folder and open with ranger
 press v key and issue command :bulkrename
 in vim :w ~/Downloads/bulk.txt &amp;amp; exit
 bulkrename filenames in bulk.txt to: file constantpartoffilename_1.mp4
@@ -72,7 +82,7 @@ vim ~/Downloads/bulk.txt
 Should result in: file constantpartoffilename_x.mp4
 Editing Cut out a slice (audio)
 ffmpeg -i &amp;quot;song.m4a&amp;quot; -ss 00:00:38 -t 00:04:16 &amp;quot;song.mp3&amp;quot;
-Cut out a slice (video) ffmpeg -i &amp;quot;2022-10-20 (1).</description></item><item><title>Flatpak</title><link>https://csmertx.github.io/Linux/Software/flatpak/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/flatpak/</guid><description>Flatpak: &amp;ldquo;the future of appliation distribution&amp;rdquo; Flathub flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+Cut out a slice (video) ffmpeg -i &amp;quot;2022-10-20 (1).mkv&amp;quot; -ss 00:00:00 -to 00:00:26 -c copy &amp;quot;2022-10-20 (1.</description></item><item><title>Flatpaks</title><link>https://csmertx.github.io/Linux/Software/flatpak/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/flatpak/</guid><description>Flathub flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 reboot
 Or logout/login
 Desktop Files vim $HOME/{.bashrc,.zshrc}
@@ -83,10 +93,11 @@ Run: flatpak run com.visualstudio.code
 Glade Install: flatpak install flathub org.gnome.Glade
 Run: flatpak run org.gnome.Glade
 Atom Editor Install: flatpak install flathub io.atom.Atom
-Run: flatpak run io.atom.Atom</description></item><item><title>HTML2PDF</title><link>https://csmertx.github.io/Linux/Software/html_to_pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/html_to_pdf/</guid><description>Converting webpages to PDF Firefox CTRL + P
+Run: flatpak run io.atom.Atom
+Glimpse (fork of Gimp) Install: flatpak install flathub org.</description></item><item><title>HTML to PDF</title><link>https://csmertx.github.io/Linux/Software/html_to_pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/html_to_pdf/</guid><description>Firefox CTRL + P
 Save to PDF Chome CTRL + P
 Save to PDF wkhtmltopdf wkhtmltopdf input.html output.pdf
-Additional options via CLI not available through browsers</description></item><item><title>iptables</title><link>https://csmertx.github.io/Linux/Software/iptables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/iptables/</guid><description>iptables: configure IP packet filter rules of Linux firewalls Start and configuration Systemd
+Additional options via CLI not available through browsers</description></item><item><title>iptables</title><link>https://csmertx.github.io/Linux/Software/iptables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/iptables/</guid><description>Start and configuration Systemd
 sudo systemctl enable iptables.service
 sudo systemctl start iptables.service
 sudo systemctl restart iptables.service
@@ -103,7 +114,7 @@ Policy: Limit
 Ufw Port forwarding
 sudov /etc/ufw/sysctl.conf
 Uncomment..
-#net/ipv4/ip_forward=1 #net/ipv6/conf/default/forwarding=1 #net/ipv6/conf/all/forwarding=1 sudo ufw reload</description></item><item><title>Jellyfin</title><link>https://csmertx.github.io/Linux/Software/jellyfin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/jellyfin/</guid><description>Jellyfin: The Free Software Media System Install Docker apti snapd
+#net/ipv4/ip_forward=1 #net/ipv6/conf/default/forwarding=1 #net/ipv6/conf/all/forwarding=1 sudo ufw reload</description></item><item><title>Jellyfin | Media Server</title><link>https://csmertx.github.io/Linux/Software/jellyfin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/jellyfin/</guid><description>Install Docker apti snapd
 sudo snap install docker
 Yep, container in a container. But it works!
 sudo docker pull jellyfin/jellyfin
@@ -111,45 +122,35 @@ mkdir ~/.config/jellyfin
 mkdir ~/.config/jellyfin/config
 mkdir ~/.config/jellyfin/cache
 Server start First run will take a while to cache (20-60+ minutes)
-sudo docker run -d \ --volume /home/$USER/.config/jellyfin/config:/config \ --volume /home/$USER/.config/jellyfin/cache:/cache \ --volume /mnt/Storage/Videos:/data/videos \ --volume /mnt/Storage/Music:/data/music \ --volume /mnt/Storage/Pictures:/data/pictures \ --user 1000:1000 \ --net=host \ --restart=unless-stopped \ jellyfin/jellyfin Scripted setup My personal setup script</description></item><item><title>KDE STL View</title><link>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</guid><description>View .stl extension files with Dolphin File Manager Kubuntu 21.10 screenshot of opening STL with view3dscene
+sudo docker run -d \ --volume /home/$USER/.config/jellyfin/config:/config \ --volume /home/$USER/.config/jellyfin/cache:/cache \ --volume /mnt/Storage/Videos:/data/videos \ --volume /mnt/Storage/Music:/data/music \ --volume /mnt/Storage/Pictures:/data/pictures \ --user 1000:1000 \ --net=host \ --restart=unless-stopped \ jellyfin/jellyfin Scripted setup My personal setup script</description></item><item><title>KDE STL Preview</title><link>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</guid><description>Kubuntu 21.10 screenshot of opening STL with view3dscene
 Kubuntu 21.10 screenshot of view3dscene
 View3dscene installation Download link: https://castle-engine.io/view3dscene.php
 Or if you prefer: https://github.com/castle-engine/view3dscene
 Extract w/Dolphin &amp;gt; Right Click &amp;gt; Extract &amp;gt; Extract Archive Here
 vim $HOME/.local/share/applications/view3dscene.desktop
-[Desktop Entry] Comment[en_US]=A graphical frontend for viewing 3D meshes Comment=A graphical frontend for viewing 3D meshes Exec=/home/chris/.sources/view3dscene/view3dscene GenericName[en_US]=View3dscene GenericName=View3dscene Icon=/home/chris/Pictures/Icons/3dview.png Name[en_US]=View3dscene Name=View3dscene StartupNotify=false Terminal=false Type=Application Categories=Utility sudoc /home/chris/.</description></item><item><title>Konsole</title><link>https://csmertx.github.io/Linux/Software/konsole/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konsole/</guid><description> KDE Terminal Emulator Trouble with remapped keyboard layout (xmodmap, etc.) Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console
+[Desktop Entry] Comment[en_US]=A graphical frontend for viewing 3D meshes Comment=A graphical frontend for viewing 3D meshes Exec=/home/chris/.sources/view3dscene/view3dscene GenericName[en_US]=View3dscene GenericName=View3dscene Icon=/home/chris/Pictures/Icons/3dview.png Name[en_US]=View3dscene Name=View3dscene StartupNotify=false Terminal=false Type=Application Categories=Utility sudoc /home/chris/.sources/view3dscene/view3dscene
+Right Click .stl file in Dolphin, open with view3dscene (check box to remember)</description></item><item><title>Konsole</title><link>https://csmertx.github.io/Linux/Software/konsole/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konsole/</guid><description> Trouble with remapped keyboard layout (xmodmap, etc.) Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console
 To switch back remember: XFree 4
 Fix for Yakuake too since it pulls in the same profile(s) as Konsole
 Other keybindings might be affected by this &amp;ldquo;fix&amp;rdquo; (F4, etc.)
-So long xmodmap, hello custom keyboard PCB?</description></item><item><title>Konversation</title><link>https://csmertx.github.io/Linux/Software/konversation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konversation/</guid><description>KDE Internet Relay Chat (IRC) client Bouncer/BNC Server In [Password] input box type..
+So long xmodmap, hello custom keyboard PCB?</description></item><item><title>Konversation</title><link>https://csmertx.github.io/Linux/Software/konversation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konversation/</guid><description>KDE Internet Relay Chat (IRC) client
+Bouncer/BNC Server In [Password] input box type..
 username:password
-If connection issues check port number</description></item><item><title>Markdown CLI</title><link>https://csmertx.github.io/Linux/Software/markdown_cli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/markdown_cli/</guid><description>Hacky way to preview Markdown via terminal emulator Setup to preview Markdown via Lynx CLI browser Add ~/.local/bin to $PATH
+If connection issues check port number</description></item><item><title>Markdown CLI</title><link>https://csmertx.github.io/Linux/Software/markdown_cli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/markdown_cli/</guid><description>Hacky way to preview Markdown via terminal emulator
+Setup to preview Markdown via Lynx CLI browser Add ~/.local/bin to $PATH
 vim ~/.profile
 if [ -d &amp;#34;$HOME/.local/bin&amp;#34; ] ; then PATH=&amp;#34;$HOME/.local/bin:$PATH&amp;#34; fi vim ~/.local/bin/rmd
 #!/bin/bash pandoc $1 --highlight-style=zenburn \ | sed \&amp;#34;1s/^/&amp;lt;html&amp;gt; \n&amp;lt;/title&amp;gt;rmd&amp;lt;\/title&amp;gt;/&amp;#34; \ | sed &amp;#39;$s/$/\n&amp;lt;\/html&amp;gt;/&amp;#39; | lynx -stdin w3m doesn&amp;rsquo;t like stdin, but elinks (without -stdin) works
 Open via Ranger File Manger Ranger
 Navigate to file.md
-:open_with rmd</description></item><item><title>MC</title><link>https://csmertx.github.io/Linux/Software/mc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mc/</guid><description>GNU Midnight Commander (MC) Vim as editor F9 &amp;gt; Options &amp;gt; Configuration &amp;gt; Uncheck internal view/edit Mark Files C-t Fish Network Protocol cd sh://user@remotehost/dir
+:open_with rmd</description></item><item><title>Midnight Commander (MC)</title><link>https://csmertx.github.io/Linux/Software/mc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mc/</guid><description>Vim as editor F9 &amp;gt; Options &amp;gt; Configuration &amp;gt; Uncheck internal view/edit Mark Files C-t Fish Network Protocol cd sh://user@remotehost/dir
 Load media w/video player, photo viewer, etc.
 Skins Save to: ~/.local/share/mc/skins/
 vim ~/.config/mc/ini
 Change: skin=
 Resources Midnight Commander Skin Editor
 I recommend the nicedark.ini skin
-GitHub - MidnightCommander/mc: Midnight Commander&amp;rsquo;s repository</description></item><item><title>MOC > Music On Console</title><link>https://csmertx.github.io/Linux/Software/moc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/moc/</guid><description>Music On Console Pulseaudio Integration vim ~/.moc/config
-Uncomment: SoundDriver = OSS, ALSA, JACK vim ~/.bashrc
-++ alias mocp=&amp;#34;padsp mocp&amp;#34; Switch mixer with key: x
-Change volume with: , and .</description></item><item><title>MPD</title><link>https://csmertx.github.io/Linux/Software/mpd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpd/</guid><description>Music Player Daemon Includes some instructions to listen to Commodore 64 .sid files
-Requires mpd-sidplay
-mpc
-DeaDBeeF (optional for .sid playlist creation)
-Debian for .sid songlengths
-Easier listening experience
-mpdconf.example mkdir ~/.config/mpd
-cp /usr/share/doc/mpd/mpdconf.example ~/.config/mpd/mpd.conf
-Local Permissions sudo gpasswd -a mpd $USER
-sudo chmod 710 /home/$USER
-Local Configuration music_directory &amp;#34;/home/user/Music&amp;#34; user &amp;#34;user&amp;#34; #Without systemd group &amp;#34;user&amp;#34; #Without systemd bind_to_address &amp;#34;/home/user/.config/mpd/mpd.socket&amp;#34; pid_file &amp;#34;/home/user/.config/mpd/pid&amp;#34; db_file &amp;#34;/home/user/.config/mpd/db&amp;#34; # MPD will create this.. state_file &amp;#34;/home/user/.</description></item><item><title>MPV</title><link>https://csmertx.github.io/Linux/Software/mpv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpv/</guid><description>MPV: A free, open source, and cross-platform media player Multiple Monitors Autostart on monitor X
+GitHub - MidnightCommander/mc: Midnight Commander&amp;rsquo;s repository</description></item><item><title>MPV</title><link>https://csmertx.github.io/Linux/Software/mpv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpv/</guid><description>Multiple Monitors Autostart on monitor X
 vim /home/user/.config/mpv/mpv.conf
 ++ screen=X e.g. screen=1, xrandr for a list of screens)
 Mpris Integration (desktop notifications, current media info, etc.) https://github.com/hoyon/mpv-mpris/releases
@@ -161,7 +162,21 @@ cp ff2mpv.json $HOME/.mozilla/native-messaging-hosts/ff2mpv.json
 vim $HOME/.mozilla/native-messaging-hosts/ff2mpv.json
 ++ path: /home/chris/.config/mpv/ff2mpv.py, cp ff2mpv.py $HOME/.config/mpv/ff2mpv.py
 sudoc $HOME/.config/mpv/ff2mpv.py
-Right click a video link and open with mpv</description></item><item><title>Mutt</title><link>https://csmertx.github.io/Linux/Software/mutt_encrypted/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mutt_encrypted/</guid><description>The Mutt E-Mail Client Using Mutt the safe way Encrypt plain text password file for added security
+Right click a video link and open with mpv
+Or visit a YT video and click plugin</description></item><item><title>Music On Console (MOC)</title><link>https://csmertx.github.io/Linux/Software/moc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/moc/</guid><description>Pulseaudio Integration vim ~/.moc/config
+Uncomment: SoundDriver = OSS, ALSA, JACK vim ~/.bashrc
+++ alias mocp=&amp;#34;padsp mocp&amp;#34; Switch mixer with key: x
+Change volume with: , and .</description></item><item><title>Music Player Daemon (MPD)</title><link>https://csmertx.github.io/Linux/Software/mpd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpd/</guid><description>Includes some instructions to listen to Commodore 64 .sid files
+Requires mpd-sidplay
+mpc
+DeaDBeeF (optional for .sid playlist creation)
+Debian for .sid songlengths
+Easier listening experience
+mpdconf.example mkdir ~/.config/mpd
+cp /usr/share/doc/mpd/mpdconf.example ~/.config/mpd/mpd.conf
+Local Permissions sudo gpasswd -a mpd $USER
+sudo chmod 710 /home/$USER
+Local Configuration music_directory &amp;#34;/home/user/Music&amp;#34; user &amp;#34;user&amp;#34; #Without systemd group &amp;#34;user&amp;#34; #Without systemd bind_to_address &amp;#34;/home/user/.config/mpd/mpd.socket&amp;#34; pid_file &amp;#34;/home/user/.config/mpd/pid&amp;#34; db_file &amp;#34;/home/user/.config/mpd/db&amp;#34; # MPD will create this.. state_file &amp;#34;/home/user/.config/mpd/state&amp;#34; playlist_directory &amp;#34;/home/user/.</description></item><item><title>Mutt E-Mail Client</title><link>https://csmertx.github.io/Linux/Software/mutt_encrypted/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mutt_encrypted/</guid><description>Using Mutt the safe way Encrypt plain text password file for added security
 gpg --gen-key
 mkdir ~/.mutt
 touch ~/.mutt/password
@@ -173,8 +188,8 @@ Check for original ~/.mutt/password (without .gpg)
 shred ~/.mutt/password
 If the original file remains&amp;ndash;it&amp;rsquo;s been a few years since I&amp;rsquo;ve used Mutt
 vim ~/.muttrc
-++ source &amp;#34;gpg -d ~/.mutt/password.gpg |&amp;#34; Resources The Mutt E-Mail Client</description></item><item><title>Nextcloud</title><link>https://csmertx.github.io/Linux/Software/nextcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/nextcloud/</guid><description>Nextcloud: Online colaboration platform WebDav File manager webdav://192.168.254.xx/remote.php/webdav/ Restart All Services sudo systemctl restart redis.service php-fpm.service nginx.service Update through CLI sudo -u http php /usr/share/nginx/nextcloud/updater/updater.phar
-sudo -u http php /usr/share/nginx/nextcloud/occ update</description></item><item><title>OpenSSH</title><link>https://csmertx.github.io/Linux/Software/openssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/openssh/</guid><description>OpenSSH: Tool for remote login Hardening (see also: fail2ban) sudov /etc/ssh/sshd_config
+++ source &amp;#34;gpg -d ~/.mutt/password.gpg |&amp;#34; Resources The Mutt E-Mail Client</description></item><item><title>Nextcloud</title><link>https://csmertx.github.io/Linux/Software/nextcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/nextcloud/</guid><description>WebDav File manager webdav://192.168.254.xx/remote.php/webdav/ Restart All Services sudo systemctl restart redis.service php-fpm.service nginx.service Update through CLI sudo -u http php /usr/share/nginx/nextcloud/updater/updater.phar
+sudo -u http php /usr/share/nginx/nextcloud/occ update</description></item><item><title>OpenSSH</title><link>https://csmertx.github.io/Linux/Software/openssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/openssh/</guid><description>Hardening (see also: fail2ban) sudov /etc/ssh/sshd_config
 ++ PermitRootLogin no Logs sudo tail -n 50 /var/log/auth.log Basic Local SSH (BAD&amp;ndash;but handy for throw away local VMs) ssh -p 22 user@192.168.254.x
 [Enter Password] apt-get install sshpass
 sshpass -p your_password ssh user@192.168.254.x
@@ -183,13 +198,9 @@ gpg --full-generate-key
 mkdir $HOME/.passcrypt
 vim ssh (create password file)
 gpg --encrypt $HOME/.passcrypt/ssh.gpg
-#!/bin/bash sshpassw=&amp;#34;$(gpg -d $HOME/.passcrypt/ssh.gpg |)&amp;#34; sshpass -p $sshpassw ssh user@192.168.254.x See also: fail2ban &amp;amp; iptables</description></item><item><title>Patch C</title><link>https://csmertx.github.io/Linux/Software/patching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/patching/</guid><description>Applying patches to C source code For when someone says, &amp;ldquo;Patch your systems people!&amp;rdquo;
-Create a patch diff -u original/code.c modified/code.c &amp;gt; code.patch Test Before Applying patch --dry-run Apply a patch patch -u original/code.c modified/code.c -i codes.patch Apply Patch and backup original patch -u -b original/code.c modified/code.c -i code.patch Create a patch of a directory diff -ruN original/ modified/ &amp;gt; code.patch Apply a patch of a directory patch -ruN -d working &amp;lt; slang.</description></item><item><title>PHP-FPM</title><link>https://csmertx.github.io/Linux/Software/php-fpm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/php-fpm/</guid><description> PHP-FPM (FastCGI) Enable Error Logging sudov /etc/php/php-fpm.d/www.conf
-or sudov /usr/local/etc/php-fpm.d/www.conf
-Uncomment / Make Changes
-catch_workers_output = yes php_flag[display_errors] = on php_admin_value[error_log] = /var/log/fpm-php.www.log php_admin_flag[log_errors] = on php_admin_value[memory_limit] = 99M sudo touch /var/log/fpm-php.www.log
-sudo chmod 777 /var/log/fpm-php.www.log
-Check Error Log tail -f /var/log/fpm-php.www.log</description></item><item><title>Pulse Audio</title><link>https://csmertx.github.io/Linux/Software/pulse/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pulse/</guid><description> Pulseaudio: Secure Local Server All Systems sudo systemctl enable avahi-daemon.service
+#!/bin/bash sshpassw=&amp;#34;$(gpg -d $HOME/.passcrypt/ssh.gpg |)&amp;#34; sshpass -p $sshpassw ssh user@192.168.254.x See also: fail2ban &amp;amp; iptables
+Copy Files From Remote to local</description></item><item><title>Patching C</title><link>https://csmertx.github.io/Linux/Software/patching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/patching/</guid><description> For when someone says, &amp;ldquo;Patch your systems people!&amp;rdquo;
+Create a patch diff -u original/code.c modified/code.c &amp;gt; code.patch Test Before Applying patch --dry-run Apply a patch patch -u original/code.c modified/code.c -i codes.patch Apply Patch and backup original patch -u -b original/code.c modified/code.c -i code.patch Create a patch of a directory diff -ruN original/ modified/ &amp;gt; code.patch Apply a patch of a directory patch -ruN -d working &amp;lt; slang.patch</description></item><item><title>Pulseaudio</title><link>https://csmertx.github.io/Linux/Software/pulse/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pulse/</guid><description> All Systems sudo systemctl enable avahi-daemon.service
 sudo systemctl start avahi-daemon.service
 Server(s) sudov /etc/pulse/default.pa
 load-module module-esound-protocol-tcp load-module module-native-protocol-tcp load-module module-zeroconf-publish Client(s) sudov /etc/pulse/default.pa
@@ -198,25 +209,26 @@ set for Both but uni-directional is probably better?
 Trouble with pulseaudio? pulseaudio --kill
 daemonize with: pulseaudio -D
 Buffering Issues sudov /etc/pulse/default.pa
--- load-module module-udev-detect ++ #load-module module-udev-detect -- load-module module-detect ++ load-module module-detect ++ load-module module-alsa-card device_id=0 tsched=true tsched_buffer_size=3145728 tsched_buffer_watermark=786432</description></item><item><title>PyPI</title><link>https://csmertx.github.io/Linux/Software/pypi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pypi/</guid><description>Python Package Index Installation apti python3-pip Install / Remove Packages pip3 install/uninstall [package] Update Packages pip3 install python-manager
+-- load-module module-udev-detect ++ #load-module module-udev-detect -- load-module module-detect ++ load-module module-detect ++ load-module module-alsa-card device_id=0 tsched=true tsched_buffer_size=3145728 tsched_buffer_watermark=786432</description></item><item><title>Python Package Index (PyPI)</title><link>https://csmertx.github.io/Linux/Software/pypi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pypi/</guid><description>Installation apti python3-pip Install / Remove Packages pip3 install/uninstall [package] Update Packages pip3 install python-manager
 python-manager
 A
 To update all)
 Resources PyPI · The Python Package Index
-See Also: /Linux/Code/pypi</description></item><item><title>QT5</title><link>https://csmertx.github.io/Linux/Software/qt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/qt/</guid><description>QT5 via KDE QT Theming in GTK Arch Linux Instructions
+See Also: /Linux/Code/pypi</description></item><item><title>QT5 (KDE)</title><link>https://csmertx.github.io/Linux/Software/qt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/qt/</guid><description>QT Theming in GTK Arch Linux Instructions
 pac -S qt5ct
 su - &amp;amp;&amp;amp; echo &amp;quot;QT_QPA_PLATFORMTHEME='qt5ct'&amp;quot; &amp;gt;&amp;gt; /etc/environment
 qt5ct
-Logout</description></item><item><title>Ranger</title><link>https://csmertx.github.io/Linux/Software/ranger/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ranger/</guid><description>Ranger: Console file manager with VI key bindings Links to the project below
+Logout</description></item><item><title>Ranger File Manager</title><link>https://csmertx.github.io/Linux/Software/ranger/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ranger/</guid><description>Links to the project below
 Custom Commands vim ~/.config/ranger/commands.py
 Add command at the bottom following a comment
-Included additional libraries if needed (from &amp;hellip;) File Compression Command from ranger.core.loader import CommandLoader class compress(Command): def execute(self): &amp;#34;&amp;#34;&amp;#34; Compress marked files to current directory &amp;#34;&amp;#34;&amp;#34; cwd = self.fm.thisdir marked_files = cwd.get_selection() if not marked_files: return def refresh(_): cwd = self.fm.get_directory(original_path) cwd.load_content() original_path = cwd.</description></item><item><title>Rsync</title><link>https://csmertx.github.io/Linux/Software/rsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/rsync/</guid><description> Rsync: Open source utility for incremental file transfer Dry Run rsync --dry-run Copy Directory to Remote rsync -avzh source/ user@host:/destination Copy Directory to Remote w/SSH rsync -avzhe ssh /destination user@host:/source Copy from remote rsync -avzh user@host:/source /destination Copy From remote w/SSH rsync -avzhe ssh user@host:/source /destination Resources Rsync Homepage</description></item><item><title>Snaps</title><link>https://csmertx.github.io/Linux/Software/snapd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/snapd/</guid><description> Snapcraft: Universal Linux packages Installation Arch Linux instructions
+Included additional libraries if needed (from &amp;hellip;) File Compression Command from ranger.core.loader import CommandLoader class compress(Command): def execute(self): &amp;#34;&amp;#34;&amp;#34; Compress marked files to current directory &amp;#34;&amp;#34;&amp;#34; cwd = self.fm.thisdir marked_files = cwd.get_selection() if not marked_files: return def refresh(_): cwd = self.fm.get_directory(original_path) cwd.load_content() original_path = cwd.path parts = self.line.split() au_flags = parts[1:] descr = &amp;#34;compressing files in: &amp;#34; + os.</description></item><item><title>Rsync</title><link>https://csmertx.github.io/Linux/Software/rsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/rsync/</guid><description> Dry Run rsync --dry-run Copy Directory to Remote rsync -avzh source/ user@host:/destination Copy Directory to Remote w/SSH rsync -avzhe ssh /destination user@host:/source Copy from remote rsync -avzh user@host:/source /destination Copy From remote w/SSH rsync -avzhe ssh user@host:/source /destination Resources Rsync Homepage</description></item><item><title>Snaps</title><link>https://csmertx.github.io/Linux/Software/snapd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/snapd/</guid><description> Installation Arch Linux instructions
 pac -S snapd
 sudo systemctl {enable,start} snapd.service
 sudo apt install snapd
 Install Packages sudo snap install docker
 See: Jellyfin for DIY media streaming installation
-Update Packages sudo snap refresh docker Start Systemd type service sudo snap start docker</description></item><item><title>SyncTerm</title><link>https://csmertx.github.io/Linux/Software/syncterm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/syncterm/</guid><description>SyncTerm: Bulletin board system (BBS) display program Armhf dependencies libncurses-dev (6)
+Update Packages sudo snap refresh docker Start Systemd type service sudo snap start docker</description></item><item><title>SyncTerm (BBS)</title><link>https://csmertx.github.io/Linux/Software/syncterm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/syncterm/</guid><description>BBS = Bulletin board system
+Armhf dependencies libncurses-dev (6)
 libc6-dev
 libncurses6
 libncursesw6
@@ -232,7 +244,7 @@ tar xzf syncterm-src-tgz
 cd syncterm-src-$(date '+%y%m%d')
 make
 sudo make install
-termux: no need for sudo</description></item><item><title>Tar</title><link>https://csmertx.github.io/Linux/Software/tar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tar/</guid><description>Tar: File storage compression for GNU/Linux Decompress .tar.gz
+termux: no need for sudo</description></item><item><title>Tar</title><link>https://csmertx.github.io/Linux/Software/tar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tar/</guid><description>Decompress .tar.gz
 tar -xvzf file.tar.gz .tar.xz
 tar -xvf file.tar.xz .tar.bz2
 tar -xjvf file.tar.bz2 Compress .tar.gz
@@ -241,7 +253,7 @@ tar -cvf file.tar.xz directory_or_file .tar.bz2
 tar -cjvf file.tar.gz directory_or_file Resources GNU Tar
 Red Hat: Taming the tar command
 Wikipedia: Tarball (oil)
-Wikipedia: Tarball (Computing)</description></item><item><title>Timeshift</title><link>https://csmertx.github.io/Linux/Software/timeshift/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/timeshift/</guid><description>Timeshift: System restore tool for Linux Incredible system backup utlity with comprehensive backup scheduling
+Wikipedia: Tarball (Computing)</description></item><item><title>Timeshift</title><link>https://csmertx.github.io/Linux/Software/timeshift/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/timeshift/</guid><description>Incredible system backup utlity with comprehensive backup scheduling
 Ubuntu Installation (the developer&amp;rsquo;s PPA) sudo add-apt-repository -y ppa:teejee2008/timeshift
 sudo apt-get update
 sudo apt-get install timeshift
@@ -250,7 +262,7 @@ Homepage
 GitHub - linuxmint/timeshift: System restore tool for Linux
 Currently maintained by Linux Mint
 GitHub - teejee2008/timeshift: System restore tool for Linux
-Original repository</description></item><item><title>Tmux</title><link>https://csmertx.github.io/Linux/Software/tmux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tmux/</guid><description>Tmux: Terminal multiplexor Awesome for SSH, CLI IDEs, system administration, and more
+Original repository</description></item><item><title>Tmux</title><link>https://csmertx.github.io/Linux/Software/tmux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tmux/</guid><description>Awesome for SSH, CLI IDEs, system administration, and more
 Recreate session layouts Build a single window layout and run: tmux list-windows
 Copy it and use it with tmuxinator, etc.
 Install Tmuxinator apti ruby-full
@@ -259,7 +271,7 @@ gem install tmuxinator
 Resources Github - tmux/tmux Wiki
 GitHub - tmux/tmux: tmux source code
 Red Hat: A Beginner&amp;rsquo;s guide to tmux
-GitHub - tmuxinator/tmuxinator: Manage complex tmux sessions easily</description></item><item><title>Vim</title><link>https://csmertx.github.io/Linux/Software/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/vim/</guid><description>Vim: Extendable text editor Cut/Copy Paste Registers not working vim ~/.vimrc
+GitHub - tmuxinator/tmuxinator: Manage complex tmux sessions easily</description></item><item><title>Vim</title><link>https://csmertx.github.io/Linux/Software/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/vim/</guid><description>Cut/Copy Paste Registers not working vim ~/.vimrc
 -- set clipboard+=unnamed ++ set clipboard=unnamed Spellcheck vim ~/.vimrc
 ++ set spell spelllang=en_us Movement
 ] + s = Next misspelled word
@@ -268,10 +280,12 @@ Suggestions
 z + = Add to dictionary
 z + g Mark for later
 z + w turn off with :set nospell
-Or edit ~/.vimrc and add :map &amp;lt;F7&amp;gt; :setlocal spell! spelllang=en_us&amp;lt;CR&amp;gt; to toggle with F7</description></item><item><title>Wget</title><link>https://csmertx.github.io/Linux/Software/wget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/wget/</guid><description> GNU Wget All the webpage wget --recursive https://csmertx.github.io
+Or edit ~/.vimrc and add :map &amp;lt;F7&amp;gt; :setlocal spell! spelllang=en_us&amp;lt;CR&amp;gt; to toggle with F7</description></item><item><title>Wget</title><link>https://csmertx.github.io/Linux/Software/wget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/wget/</guid><description> All the webpage wget --recursive https://csmertx.github.io
 Where is the site index?
-From a list of URLs wget --input-file=lfs-list --continue --directory-prefix=/mnt/LFS/sources Resources GNU Wget</description></item><item><title>Woof-CE</title><link>https://csmertx.github.io/Linux/Software/woof-ce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/woof-ce/</guid><description>Woof-CE: Build system for Puppy Linux distros Instructions PuppyLinux: WoofCE
-GitHub - puppylinux-woof-CE/woof-CE: woof - the Puppy builder</description></item><item><title>XScreenSaver</title><link>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</guid><description>XScreenSaver Multi-monitor Patch See patching to use this patch
+From a list of URLs wget --input-file=lfs-list --continue --directory-prefix=/mnt/LFS/sources Resources GNU Wget</description></item><item><title>Woof-CE</title><link>https://csmertx.github.io/Linux/Software/woof-ce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/woof-ce/</guid><description>Build system for Puppy Linux distros
+Instructions PuppyLinux: WoofCE
+GitHub - puppylinux-woof-CE/woof-CE: woof - the Puppy builder</description></item><item><title>XScreenSaver</title><link>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</guid><description>XScreenSaver Multi-monitor Patch
+See patching to use this patch
 $ diff screens-original.c screens.c
 387a388,389
 &amp;gt; /* one hack over multi-monitor patch - blatantly overrule what randr thinks */
@@ -293,16 +307,18 @@ $ diff screens-original.c screens.c
 &amp;gt; m-&amp;gt;width = 5920;
 &amp;gt; m-&amp;gt;height = 1440;
 574,582c578
-&amp;lt; else if ( randr_monitors[0] &amp;amp;&amp;amp; !</description></item><item><title>Yakuake</title><link>https://csmertx.github.io/Linux/Software/yakuake/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/yakuake/</guid><description>Yakuake: Drop-down terminal emulator for KDE Installation apti yakuake Trouble with remapped keyboard layout (xmodmap, etc.) Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console
+&amp;lt; else if ( randr_monitors[0] &amp;amp;&amp;amp; !</description></item><item><title>Yakuake</title><link>https://csmertx.github.io/Linux/Software/yakuake/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/yakuake/</guid><description>Drop-down terminal emulator for KDE
+Installation apti yakuake Trouble with remapped keyboard layout (xmodmap, etc.) Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console
 To switch back remember: XFree 4
 I hope someone knows what I was talking about here (can&amp;rsquo;t recall)
 Fix for Konsole too since it pulls in the same profile(s) as Yakuake
 Same user profiles used for Konsole and Yakuake
-Other keybindings might be affected by this &amp;ldquo;fix&amp;rdquo; (F4, etc.</description></item><item><title>YouTube-DL</title><link>https://csmertx.github.io/Linux/Software/youtube-dl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/youtube-dl/</guid><description>YouTube-DL: Downloader utility for YouTube videos See also GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes
+Other keybindings might be affected by this &amp;ldquo;fix&amp;rdquo; (F4, etc.</description></item><item><title>YouTube-DL</title><link>https://csmertx.github.io/Linux/Software/youtube-dl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/youtube-dl/</guid><description> See also GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes
 Auto Convert to mp3 youtube-dl -x --audio-format mp3 http://videourl Cron for &amp;ldquo;Podcast&amp;rdquo; mp3s youtube-dl -x --audio-format mp3 --download-archive /my/video/path/downloaded.txt --no-post-overwrites --continue --no-overwrites --ignore-errors -o &amp;#39;/my/video/path/%(uploader_id)s/%(upload_date)s-%(title)s-%(id)s.%(ext)s&amp;#39; https://www.youtube.com/user/insertyourfavoriteyoutubeuserhere Video Playlist (Captain Scarlet and the Mysterons) youtube-dl &amp;#34;https://www.youtube.com/watch?v=iDlFqC-FGWQ&amp;amp;list=PLm5cEiYdCR-fq23tVFa1ypzdt3Ya5DvB-&amp;#34; -o &amp;#34;%(title)s-.$(ext)s&amp;#34; --playlist-start 1 -f 18 MP3 from Playlist Issue with %(ext)s 06-29-2020?
-youtube-dl &amp;#34;https://www.youtube.com/watch?v=_DFypFVnSS0&amp;amp;list=PL_rR2s4GqBlaoriE6n0AvLGu_3e0_nHgr&amp;#34; -x --audio-format mp3 -o &amp;#34;%(title)s-.</description></item><item><title>Zathura</title><link>https://csmertx.github.io/Linux/Software/zathura/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zathura/</guid><description>Zathura: Keyboard driven document viewer Configuring Default config cp /usr/share/doc/zathura/examples/zathurarc ~/.config/zathura/zathurarc Copy to clipboard vim ~/.config/zathura/zathurarc
+youtube-dl &amp;#34;https://www.youtube.com/watch?v=_DFypFVnSS0&amp;amp;list=PL_rR2s4GqBlaoriE6n0AvLGu_3e0_nHgr&amp;#34; -x --audio-format mp3 -o &amp;#34;%(title)s-.%(ext)s&amp;#34; --playlist-start 1</description></item><item><title>Zathura</title><link>https://csmertx.github.io/Linux/Software/zathura/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zathura/</guid><description>Keyboard driven document viewer
+Configuring Default config cp /usr/share/doc/zathura/examples/zathurarc ~/.config/zathura/zathurarc Copy to clipboard vim ~/.config/zathura/zathurarc
 ++ set selection-clipboard clipboard Dual page side-by-side mode: press d
 vim ~/.config/zathura/zathurarc
 ++ set first-page column 1:1 Titlebar vim ~/.config/zathura/zathurarc
 ++ window-title-basename ++ window-title-home-tilde ++ statusbar-basename ++ statusbar-home-tilde Invert Colors vim ~/.config/zathura/zathurarc
-++ set default-fg &amp;#34;#DCDCCC&amp;#34; ++ set default-bg &amp;#34;#2C2C2C&amp;#34; ++ set inputbar-fg &amp;#34;#DCDCCC&amp;#34; ++ set inputbar-bg &amp;#34;#2C2C2C&amp;#34; ++ set statusbar-fg &amp;#34;#DCDCCC&amp;#34; ++ set statusbar-bg &amp;#34;#2C2C2C&amp;#34; ++ set recolor-lightcolor &amp;#34;#2C2C2C&amp;#34; #reversed on purpose ++ set recolor-darkcolor &amp;#34;#DCDCCC&amp;#34; #likewise ++ set recolor Bookmarks bmark pg10</description></item><item><title>ZSTD > Zstandard File Compression</title><link>https://csmertx.github.io/Linux/Software/zstd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zstd/</guid><description> Zstandard File Compression Decompress zstd source.zst packed.zst Compress unzstd source.zst unpacked.zst</description></item></channel></rss>
+++ set default-fg &amp;#34;#DCDCCC&amp;#34; ++ set default-bg &amp;#34;#2C2C2C&amp;#34; ++ set inputbar-fg &amp;#34;#DCDCCC&amp;#34; ++ set inputbar-bg &amp;#34;#2C2C2C&amp;#34; ++ set statusbar-fg &amp;#34;#DCDCCC&amp;#34; ++ set statusbar-bg &amp;#34;#2C2C2C&amp;#34; ++ set recolor-lightcolor &amp;#34;#2C2C2C&amp;#34; #reversed on purpose ++ set recolor-darkcolor &amp;#34;#DCDCCC&amp;#34; #likewise ++ set recolor Bookmarks bmark pg10</description></item><item><title>Zstandard File Compression (ZSTD)</title><link>https://csmertx.github.io/Linux/Software/zstd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zstd/</guid><description> Decompress zstd source.zst packed.zst Compress unzstd source.zst unpacked.zst</description></item></channel></rss>

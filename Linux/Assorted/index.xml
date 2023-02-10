@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Assorted Informaton on LGM</title><link>https://csmertx.github.io/Linux/Assorted/</link><description>Recent content in Assorted Informaton on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/Assorted/index.xml" rel="self" type="application/rss+xml"/><item><title>Admin</title><link>https://csmertx.github.io/Linux/Assorted/admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/admin/</guid><description>Admin stuff Same as Virtual Console
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Assorted Informaton on LGM</title><link>https://csmertx.github.io/Linux/Assorted/</link><description>Recent content in Assorted Informaton on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/Assorted/index.xml" rel="self" type="application/rss+xml"/><item><title>Accessing Media</title><link>https://csmertx.github.io/Linux/Assorted/mount/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/mount/</guid><description>EXT4 sudov /etc/fstab
+UUID=$(sudo blkid...) /mnt/... ext4 rw 0 0
+NTFS sudov /etc/fstab
+UUID=$(sudo blkid...) /mnt/storage ntfs-3g defaults,auto,uid=1000,gid=1000,umask=002 0 0
+Boot without mounting drive UUID=$(sudo blkid...) /mnt/storage ntfs-3g defaults,nofail,auto,uid=1000,gid=1000,umask=002 0 0 Access to USB drive via console w/user permissions Check ftype with: fsck -N /dev/xxx
+Volume was not properply unmounted..
+fsck /dev/xxx
+yes to fix
+sudo mkdir /run/media/usb (/run/media/weyoun/usb;/media/weyoun/usb..)
+sudo chown -R user /run/media/usb (...)
+sudo chmod 0777 /run/media/usb</description></item><item><title>Administration</title><link>https://csmertx.github.io/Linux/Assorted/admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/admin/</guid><description>Same as Virtual Console
 Typical Console Commands Add users &amp;amp; add groups cat /etc/passwd
 Displays all users
 sudo useradd -G wheel,sudo newuser
@@ -15,46 +25,30 @@ sudo passwd
 Superuser passwd
 Permissions RWX == Permission to Read, Write, &amp;amp; eXecute
 Typical user RWX
-chmod 700</description></item><item><title>ALSA</title><link>https://csmertx.github.io/Linux/Assorted/alsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/alsa/</guid><description> Advansed Linux Sound Architecture For tiling window manager scripting, etc.
-Acquire physical device ID aplay -l Resources AlsaProject</description></item><item><title>Bitmap Fonts</title><link>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</guid><description>Bitmap fonts Enable bitmap fonts (Debian/Ubuntu) sudo rm -f /etc/fonts/conf.d/70-{yes,no,force}-bitmaps.conf if test -f /etc/fonts/conf.avail/70-force-bitmaps.conf; then sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-force-bitmaps.conf else sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-yes-bitmaps.conf fi sudo rm -rf /var/cache/fontconfig/(star)
+chmod 700
+similar to chmod +x</description></item><item><title>ALSA</title><link>https://csmertx.github.io/Linux/Assorted/alsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/alsa/</guid><description> For tiling window manager scripting, etc.
+Acquire physical device ID aplay -l Resources AlsaProject</description></item><item><title>Bitmap Fonts</title><link>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</guid><description>Enable bitmap fonts (Debian/Ubuntu) sudo rm -f /etc/fonts/conf.d/70-{yes,no,force}-bitmaps.conf if test -f /etc/fonts/conf.avail/70-force-bitmaps.conf; then sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-force-bitmaps.conf else sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-yes-bitmaps.conf fi sudo rm -rf /var/cache/fontconfig/(star)
 rm -rf &amp;quot;$HOME/.fontconfig&amp;quot;
 sudo fc-cache
-fc-cache</description></item><item><title>Busybox</title><link>https://csmertx.github.io/Linux/Assorted/busybox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/busybox/</guid><description> Busybox Typically used for embedded operating systems with limited resources
+fc-cache</description></item><item><title>Busybox</title><link>https://csmertx.github.io/Linux/Assorted/busybox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/busybox/</guid><description> Typically used for embedded operating systems with limited resources
 List Partitions cat /proc/partitions
 df -h
-Resources Busybox Homepage</description></item><item><title>Console</title><link>https://csmertx.github.io/Linux/Assorted/vconsole/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/vconsole/</guid><description>Virtual Console Same as Administration
-Add users &amp;amp; add groups cat /etc/passwd
-Displays all users
-sudo useradd -G wheel,sudo newuser
-sudo usermod -a -G existinggroup existinguser
-sudo groupadd newgroup
-usermod -a -G newgroup existinguser
-Passwd Unattended
-echo &amp;quot;user:password&amp;quot; | chpasswd
-Only as root
-Normal
-passwd user
-User passwd
-sudo passwd
-Superuser passwd
-Permissions RWX == Permission to Read, Write, &amp;amp; eXecute
-Typical user RWX
-chmod 700
-similar to chmod +x</description></item><item><title>Console Res.</title><link>https://csmertx.github.io/Linux/Assorted/console_resolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/console_resolution/</guid><description>Linux console resolution See also Virtual Console
+Resources Busybox Homepage</description></item><item><title>Console Resolution</title><link>https://csmertx.github.io/Linux/Assorted/console_resolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/console_resolution/</guid><description>See also Virtual Console
 Editing files&amp;hellip; sudov /etc/default/grub
 ++ GRUB_GFXMODE=1152x864x32 ++ GRUB_GFXPAYLOAD=1152x864x32 sudov /etc/grub.d/00_header
 -- if [ &amp;#34;x${GRUB_GFXMODE}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXMODE=auto ; fi ++ if [ &amp;#34;x${GRUB_GFXMODE}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXMODE=1152x864x32 ; fi ++ if [ &amp;#34;x${GRUB_GFXPAYLOAD}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXPAYLOAD=1152x864x32 ; fi Look for: set gfxmode=${GRUB_GFXMODE}
 / to input a search term with Vim
-Next line: set gfxpayload=${GRUB_GFXPAYLOAD}</description></item><item><title>Crontab > Cron Job Management</title><link>https://csmertx.github.io/Linux/Assorted/crontab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/crontab/</guid><description>Crontab (cron table) To edit.. crontab -e
+Next line: set gfxpayload=${GRUB_GFXPAYLOAD}
+Resources Ask Ubuntu: &amp;ldquo;How do I increase console-mode resolution?</description></item><item><title>Cron table</title><link>https://csmertx.github.io/Linux/Assorted/crontab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/crontab/</guid><description>To edit.. crontab -e
 user only
 sudo crontab -e global
 Quick reference * * * * * min hour(24hr) day (month) month day (week) Example: 02 12 * * * == run once at 10:05PM everyday
 Simple: minute hour (24hr)
 Cron location in filesystem /var/spool/cron Resources Crontab Guru: The quick and simple editor for cron schedule expressions
-Red Hat: How to schedule jobs using the Linux 'cron'</description></item><item><title>DD</title><link>https://csmertx.github.io/Linux/Assorted/dd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/dd/</guid><description>Disk Destroyer (DD) An earned reputation for destroying all the things
+Red Hat: How to schedule jobs using the Linux 'cron'</description></item><item><title>Disk Destroyer (DD)</title><link>https://csmertx.github.io/Linux/Assorted/dd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/dd/</guid><description>An earned reputation for destroying all the things
 Find blocksize sudo blkid Write .img file to drive sudo dd if=/mnt/Storage/qemu/winxppro.img of=/dev/sXX
 sudo gunzip -c /backup/backup.image.gz | dd of=/dev/sXX
-Backup drive to compressed .img sudo dd if=/dev/sXX conv=sync,noerror bs=4K | gzip -c &amp;gt; /backup/backup.image.gz Blank a drive (NOT FOR SSDs!) sudo dd if=/dev/zero of=/dev/xXx bs=1M Securely Blank a drive (NOT FOR SSDs!) sudo dd if=/dev/urandom of=/dev/xXx bs=1M Blank MBR (!</description></item><item><title>GnuPG</title><link>https://csmertx.github.io/Linux/Assorted/gpg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/gpg/</guid><description>The GNU Privacy Guard Create New Key gpg –-gen-key Encrypt File gpg -e -r $USER /dir/examplefile Decrypt File gpg -d -o /dir/examplefile /dir/examplefile.(gz.)gpg
+Backup drive to compressed .img sudo dd if=/dev/sXX conv=sync,noerror bs=4K | gzip -c &amp;gt; /backup/backup.image.gz Blank a drive (NOT FOR SSDs!) sudo dd if=/dev/zero of=/dev/xXx bs=1M Securely Blank a drive (NOT FOR SSDs!) sudo dd if=/dev/urandom of=/dev/xXx bs=1M Blank MBR (!) sudo dd if=/dev/zero of=/dev/xXx bs=446 count=1 Copy DVD MakeMKV for copying media is highly recommended</description></item><item><title>GnuPG</title><link>https://csmertx.github.io/Linux/Assorted/gpg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/gpg/</guid><description>Create New Key gpg –-gen-key Encrypt File gpg -e -r $USER /dir/examplefile Decrypt File gpg -d -o /dir/examplefile /dir/examplefile.(gz.)gpg
 shred /dir/examplefile
 rm /dir/examplefile
 Encrypt/Decrypt Folder(s) First convert the folder(s) to file
@@ -64,13 +58,13 @@ One or more PGP Signatures could not be verified! gpg --recv-key [key]
 Key is usually printed with error message
 Export Local key gpg --list-keys # Target == examplekey</description></item><item><title>Grep</title><link>https://csmertx.github.io/Linux/Assorted/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grep/</guid><description> Recursive matching Recursive: check subdirectories
 grep -r term4search /dir Exclude Match grep -v term2exclude /dir/file Match and match egrep -w 'term1|term2' /dir/file Ignore case grep -i searchterm /dir/file String multiple matches grep -e term1 -e term2 -e term3 /dir/file Search via extensions .txt, .mp3, .svg, .sh, .bash, .conf, etc.
-grep -e term1 -e term2 /dir/*.txt</description></item><item><title>Grub</title><link>https://csmertx.github.io/Linux/Assorted/grub/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grub/</guid><description>GNU GRand Unified Bootloader Commonly refered to as Grub
+grep -e term1 -e term2 /dir/*.txt</description></item><item><title>Grub</title><link>https://csmertx.github.io/Linux/Assorted/grub/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grub/</guid><description>Commonly refered to as Grub
 Default File sudov /etc/default/grub Really Quiet w/Splash Cursor Off for all tty [1-7]
 GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0 vt.global_cursor_default=0&amp;quot; &amp;hellip; is probably necessary to boot the system
 Admin Friendly Configuration
 I believe this keeps the console clear of kernel messaging
 GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0&amp;quot; For those extra grumpy kernel messages
-echo 1 &amp;gt; /proc/sys/kernel/printk Kernel panics (/boot/intel-ucode.img) First edit kernel param with grub</description></item><item><title>LVM</title><link>https://csmertx.github.io/Linux/Assorted/lvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/lvm/</guid><description> Logical Volume Manger LVM2 (2020-02-18)
+echo 1 &amp;gt; /proc/sys/kernel/printk Kernel panics (/boot/intel-ucode.img) First edit kernel param with grub</description></item><item><title>Logical Volume Manager</title><link>https://csmertx.github.io/Linux/Assorted/lvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/lvm/</guid><description> LVM2 (2020-02-18)
 Mounting for chroot (Arch ISO) modprobe dm_mod
 vgscan
 vgchange -ay
@@ -80,22 +74,13 @@ mount &amp;lt;LV_PATH&amp;gt; /mnt/archos/root
 mount &amp;lt;LV_PATH&amp;gt; /mnt/archos/home
 chroot /mnt/archos/root
 Don&amp;rsquo;t forget to umount /mnt/archos/root when finished
-Resources RedHat: Chapter 11. LVM (Logical Volume Manger)</description></item><item><title>Mount</title><link>https://csmertx.github.io/Linux/Assorted/mount/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/mount/</guid><description>Mounting filesystems, media, etc. EXT4 sudov /etc/fstab
-UUID=$(sudo blkid...) /mnt/... ext4 rw 0 0
-NTFS sudov /etc/fstab
-UUID=$(sudo blkid...) /mnt/storage ntfs-3g defaults,auto,uid=1000,gid=1000,umask=002 0 0
-Boot without mounting drive UUID=$(sudo blkid...) /mnt/storage ntfs-3g defaults,nofail,auto,uid=1000,gid=1000,umask=002 0 0 Access to USB drive via console w/user permissions Check ftype with: fsck -N /dev/xxx
-Volume was not properply unmounted..
-fsck /dev/xxx
-yes to fix
-sudo mkdir /run/media/usb (/run/media/weyoun/usb;/media/weyoun/usb..)
-sudo chown -R user /run/media/usb (...)</description></item><item><title>Networking</title><link>https://csmertx.github.io/Linux/Assorted/networking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/networking/</guid><description>General networking Troubleshooting (chroot, etc.) Unable to resolve dns
+Resources RedHat: Chapter 11. LVM (Logical Volume Manger)</description></item><item><title>Networking</title><link>https://csmertx.github.io/Linux/Assorted/networking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/networking/</guid><description>General networking Troubleshooting (chroot, etc.) Unable to resolve dns
 sudov /etc/resolv.conf
 ++ nameserver 8.8.8.8
 Google&amp;rsquo;s nameserver (8.8.8.8)
 DHCP auto eth0
 allow-hotplug eth0
-iface eth0 inet dhcp</description></item><item><title>Static IP</title><link>https://csmertx.github.io/Linux/Assorted/static_ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/static_ip/</guid><description> Static IP configuration Local Static IP (QEMU/KVM) sudo EDITOR=vim virsh net-edit default
+iface eth0 inet dhcp</description></item><item><title>Static IP</title><link>https://csmertx.github.io/Linux/Assorted/static_ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/static_ip/</guid><description> Local Static IP (QEMU/KVM) sudo EDITOR=vim virsh net-edit default
 Add hosts after range as shown below
 &amp;lt;dhcp&amp;gt;
 &amp;lt;range start=&amp;#39;192.168.122.100&amp;#39; end=&amp;#39;192.168.122.254&amp;#39;/&amp;gt;
@@ -115,16 +100,16 @@ DNS2=&amp;#34;4.4.4.4&amp;#34;
 GATEWAY=&amp;#34;192.168.254.254&amp;#34;
 HOSTNAME=&amp;#34;eXnX&amp;#34;
 NETMASK=&amp;#34;255.255.255.0&amp;#34;
-IPADDR=&amp;#34;192.168.254.XX&amp;#34;</description></item><item><title>Swap</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description> Linux Swap Space A swapfile (1G) sudo dd if=/dev/zero of=/swap1G bs=1024 count=1048576
+IPADDR=&amp;#34;192.168.254.XX&amp;#34;</description></item><item><title>Swap Memory</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description> A swapfile (1G) sudo dd if=/dev/zero of=/swap1G bs=1024 count=1048576
 sudo chown root:root /swap1G
 sudo chmod 0600 /swap1G
 sudo mkswap /swap1G
 sudo swapon /swap1G
 sudov /etc/fstab
-++ /swap1G none swap sw 0 0 Resources Linux.com: All about Linux swap space</description></item><item><title>Sys Journal</title><link>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</guid><description>Linux System Journal Cleanup sudo journalctl --vacuum-size=50M
+++ /swap1G none swap sw 0 0 Resources Linux.com: All about Linux swap space</description></item><item><title>Systemd Journal</title><link>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</guid><description>Linux System Journal Cleanup sudo journalctl --vacuum-size=50M
 sudov /etc/systemd/journald.conf
 -- #SystemMaxUse= ++ SystemMaxuse=50M Resources Linux.com: Understanding and Using Systemd
-Arch Wiki: Systemd</description></item><item><title>Time</title><link>https://csmertx.github.io/Linux/Assorted/time/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/time/</guid><description>Linux Time Command Set Local Time Easy
+Arch Wiki: Systemd</description></item><item><title>Time</title><link>https://csmertx.github.io/Linux/Assorted/time/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/time/</guid><description>Set Local Time Easy
 tzselect
 Userland
 sudo tzselect
@@ -138,7 +123,26 @@ vim /etc/sysconfig/clock
 reboot
 if VM, then reboot host too
 Resources Linuxize: Linux Time Command
-nixCraft: How To Format Date For Display or Use In a Shell Script</description></item><item><title>X resources</title><link>https://csmertx.github.io/Linux/Assorted/xresources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xresources/</guid><description>X resources: user-level configuration for X client application Set padding, DPI, anti-alising, Xcursor theme, X font settings, etc.
+nixCraft: How To Format Date For Display or Use In a Shell Script</description></item><item><title>Virtual Console</title><link>https://csmertx.github.io/Linux/Assorted/vconsole/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/vconsole/</guid><description>Same as Administration
+Add users &amp;amp; add groups cat /etc/passwd
+Displays all users
+sudo useradd -G wheel,sudo newuser
+sudo usermod -a -G existinggroup existinguser
+sudo groupadd newgroup
+usermod -a -G newgroup existinguser
+Passwd Unattended
+echo &amp;quot;user:password&amp;quot; | chpasswd
+Only as root
+Normal
+passwd user
+User passwd
+sudo passwd
+Superuser passwd
+Permissions RWX == Permission to Read, Write, &amp;amp; eXecute
+Typical user RWX
+chmod 700
+similar to chmod +x
+Only owner has RW</description></item><item><title>X resources</title><link>https://csmertx.github.io/Linux/Assorted/xresources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xresources/</guid><description>Set padding, DPI, anti-alising, Xcursor theme, X font settings, etc.
 Time saver for certain terminal emulators (URxvt, xterm, etc.)
 Xresources Example vim ~/.Xresources
 ! Xresources
@@ -160,7 +164,11 @@ XTerm.vt100.geometry: 100x35
 *.color8: #525252
 ! red
 *.color1: #7c7c7c
-*.</description></item><item><title>Xmodmap</title><link>https://csmertx.github.io/Linux/Assorted/xmodmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xmodmap/</guid><description>Xmodmap: keymapping utility Only for Xorg desktops (No Wayland support atm)
+*.color9: #7c7c7c
+! green
+*.color2: #8e8e8e
+*.color10: #8e8e8e
+!</description></item><item><title>Xmodmap</title><link>https://csmertx.github.io/Linux/Assorted/xmodmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xmodmap/</guid><description>Only for Xorg desktops (No Wayland support atm)
 Using Xmodmap to remap Caps Lock as a FN key Remapping Caps Lock as a modifier key for navigation (hjkl ui nm)
 Mapped keys: h = Left, j = Down, k = Up, l = Right, u = PGDN, i = PGUP, n = Home, m = End
 vim /home/user/.Xmodmap
@@ -184,11 +192,12 @@ keysym 8 = 8 asterisk F8
 keysym 9 = 9 parenleft F9
 keysym 0 = 0 parenright F10
 #keysym minus = minus underscore F11
-#keysym equal = equal plus F12 See Keyboard Scancodes for key additional options</description></item><item><title>XrandR</title><link>https://csmertx.github.io/Linux/Assorted/xrandr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xrandr/</guid><description>XrandR: Configuration utility for screen outputs Mode Not Displayed cvt 1600 900
+#keysym equal = equal plus F12 See Keyboard Scancodes for key additional options</description></item><item><title>XrandR</title><link>https://csmertx.github.io/Linux/Assorted/xrandr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xrandr/</guid><description>Mode Not Displayed cvt 1600 900
 Whatever resolution you need goes here 1920x1080, 3840x2160, etc.
 Copy line that starts with Modeline
 sudo xrandr --newmode [...copied line minus the word Modeline...]
 The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline
 sudo xrandr --addmode {vga,Virtual}-{0,1} &amp;quot;1600x900_60.00&amp;quot; #Virtual-1
 Included Virtual for Virtual Machines (Slackware can be tricky)
-sudo xrandr --output Virtual-1 --mode &amp;quot;1600x900_60.00&amp;quot;</description></item></channel></rss>
+sudo xrandr --output Virtual-1 --mode &amp;quot;1600x900_60.00&amp;quot;
+Whatever output display and mode needed</description></item></channel></rss>

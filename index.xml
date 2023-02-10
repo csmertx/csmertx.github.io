@@ -1,7 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to Linux Gremlin Mysteries on LGM</title><link>https://csmertx.github.io/</link><description>Recent content in Welcome to Linux Gremlin Mysteries on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>01/2023</title><link>https://csmertx.github.io/Blog/music/2023/0123/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0123/</guid><description/></item><item><title>02/2023</title><link>https://csmertx.github.io/Blog/music/2023/0223/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0223/</guid><description/></item><item><title>ADB</title><link>https://csmertx.github.io/Android/adb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/adb/</guid><description> Android Debug Bridge Login to shell of Android device adb root
-db remount
-adb shell
-Resources Android Developers - Android Debug Bridge (adb)</description></item><item><title>Admin</title><link>https://csmertx.github.io/Linux/Assorted/admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/admin/</guid><description>Admin stuff Same as Virtual Console
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux Gremlin Mysteries on LGM</title><link>https://csmertx.github.io/</link><description>Recent content in Linux Gremlin Mysteries on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>01/23</title><link>https://csmertx.github.io/Blog/daynight/2023/0123/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2023/0123/</guid><description/></item><item><title>01/23</title><link>https://csmertx.github.io/Blog/music/2023/0123/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0123/</guid><description/></item><item><title>02/23</title><link>https://csmertx.github.io/Blog/daynight/2023/0223/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2023/0223/</guid><description/></item><item><title>02/23</title><link>https://csmertx.github.io/Blog/music/2023/0223/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0223/</guid><description/></item><item><title>08/22</title><link>https://csmertx.github.io/Blog/daynight/2022/0822/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2022/0822/</guid><description/></item><item><title>09/22</title><link>https://csmertx.github.io/Blog/daynight/2022/0922/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2022/0922/</guid><description/></item><item><title>10/22</title><link>https://csmertx.github.io/Blog/daynight/2022/1022/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2022/1022/</guid><description/></item><item><title>11/22</title><link>https://csmertx.github.io/Blog/daynight/2022/1122/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2022/1122/</guid><description/></item><item><title>Accessing Media</title><link>https://csmertx.github.io/Linux/Assorted/mount/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/mount/</guid><description>EXT4 sudov /etc/fstab
+UUID=$(sudo blkid...) /mnt/... ext4 rw 0 0
+NTFS sudov /etc/fstab
+UUID=$(sudo blkid...) /mnt/storage ntfs-3g defaults,auto,uid=1000,gid=1000,umask=002 0 0
+Boot without mounting drive UUID=$(sudo blkid...) /mnt/storage ntfs-3g defaults,nofail,auto,uid=1000,gid=1000,umask=002 0 0 Access to USB drive via console w/user permissions Check ftype with: fsck -N /dev/xxx
+Volume was not properply unmounted..
+fsck /dev/xxx
+yes to fix
+sudo mkdir /run/media/usb (/run/media/weyoun/usb;/media/weyoun/usb..)
+sudo chown -R user /run/media/usb (...)
+sudo chmod 0777 /run/media/usb</description></item><item><title>Administration</title><link>https://csmertx.github.io/Linux/Assorted/admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/admin/</guid><description>Same as Virtual Console
 Typical Console Commands Add users &amp;amp; add groups cat /etc/passwd
 Displays all users
 sudo useradd -G wheel,sudo newuser
@@ -18,8 +25,9 @@ sudo passwd
 Superuser passwd
 Permissions RWX == Permission to Read, Write, &amp;amp; eXecute
 Typical user RWX
-chmod 700</description></item><item><title>ALSA</title><link>https://csmertx.github.io/Linux/Assorted/alsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/alsa/</guid><description> Advansed Linux Sound Architecture For tiling window manager scripting, etc.
-Acquire physical device ID aplay -l Resources AlsaProject</description></item><item><title>Android</title><link>https://csmertx.github.io/Linux/Devices/android/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/android/</guid><description>Connecting Android devices to Linux desktops See also ADB
+chmod 700
+similar to chmod +x</description></item><item><title>ALSA</title><link>https://csmertx.github.io/Linux/Assorted/alsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/alsa/</guid><description> For tiling window manager scripting, etc.
+Acquire physical device ID aplay -l Resources AlsaProject</description></item><item><title>Android &amp; Linux</title><link>https://csmertx.github.io/Linux/Devices/android/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/android/</guid><description>See also ADB
 KDE (MTP) pac -S kio-extras
 pac -S android-tools
 Or turn off ADB in Android device settings
@@ -27,18 +35,10 @@ apti android-tools-adb kio-extras
 05-29-22: No longer a solution w/Kubuntu 22.04?
 Gnome (MTP) pac -S gvfs-mtp
 pac -S android-tools
-Or turn off ADB in Android device settings</description></item><item><title>AppImage</title><link>https://csmertx.github.io/Linux/Software/appimage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/appimage/</guid><description> AppImage AppImageKit</description></item><item><title>Arch Boot</title><link>https://csmertx.github.io/Linux/Distros/arch_restore/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch_restore/</guid><description>Arch Linux: restore bootloader Caveat: This was a system I used for 2018-2019
-iwctl (wireless access) iwctl
-station wlan0 connect YOURFRIENDLYNEIGHBORHOODWIFIADDRESS
-Device found with ip link
-Enter passphrase exit
-Chroot (chroot: failed to run command /usr/bin/zsh: No such file or directory) chroot /mnt /bin/bash netctl (outdated as of: 2022) cp /etc/netctl/examples/wireless-wpa /etc/netctl/&amp;lt;essid_name&amp;gt;
-vi /etc/netctl/&amp;lt;essid_name&amp;gt;
-ip link, essid, key, etc.
-netctl start &amp;lt;essid_name&amp;gt;
-Format mkfs.ext4 /dev/sXX
-swapon /dev/sXX
-Base install mount /dev/sXX /mnt</description></item><item><title>Arch Linux</title><link>https://csmertx.github.io/Linux/Distros/arch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch/</guid><description>Arch Linux Installation and Maintenance Notes created pre-2020. Check https://wiki.archlinux.org for up to date documentation
+Or turn off ADB in Android device settings</description></item><item><title>Android Debug Bridge (ADB)</title><link>https://csmertx.github.io/Android/adb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/adb/</guid><description> Login to shell of Android device adb root
+db remount
+adb shell
+Resources Android Developers - Android Debug Bridge (adb)</description></item><item><title>AppImages</title><link>https://csmertx.github.io/Linux/Software/appimage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/appimage/</guid><description> AppImageKit</description></item><item><title>Arch Linux</title><link>https://csmertx.github.io/Linux/Distros/arch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch/</guid><description>Notes created before 2020. Check the Arch Wiki for up to date documentation
 Verify ISO gpg \--keyserver pgp.mit.edu \--keyserver-options auto-key-retrieve \--verify archlinux-xxxx.xx.xx-x86_64.iso.sig archlinux-xxxx.xx.xx-x86_64.iso
 md5sum archlinux-xxxx.xx.xx-x86_64.iso
 Wifi cp /etc/netctl/examples/wireless-wpa /etc/netctl/&amp;lt;essid name&amp;gt;
@@ -49,7 +49,19 @@ Chroot to save the system mount /dev/sd&amp;lt;Arch&amp;gt; /mnt
 mount /dev/sd&amp;lt;Grub&amp;gt; /mnt/boot
 cd /mnt
 mount -t proc proc /mnt/proc
-mount -t sysfs sys /mnt/sys</description></item><item><title>ASCII</title><link>https://csmertx.github.io/Linux/Code/ascii/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ascii/</guid><description> American Standard Code for Information Interchange Because sometimes quotes are a pain Certain tiling window status bars&amp;hellip;
+mount -t sysfs sys /mnt/sys</description></item><item><title>Arch Linux Bootloader</title><link>https://csmertx.github.io/Linux/Distros/arch_restore/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch_restore/</guid><description>Caveat: This was a system I used for 2018-2019
+iwctl (wireless access) iwctl
+station wlan0 connect YOURFRIENDLYNEIGHBORHOODWIFIADDRESS
+Device found with ip link
+Enter passphrase exit
+Chroot (chroot: failed to run command /usr/bin/zsh: No such file or directory) chroot /mnt /bin/bash netctl (outdated as of: 2022) cp /etc/netctl/examples/wireless-wpa /etc/netctl/&amp;lt;essid_name&amp;gt;
+vi /etc/netctl/&amp;lt;essid_name&amp;gt;
+ip link, essid, key, etc.
+netctl start &amp;lt;essid_name&amp;gt;
+Format mkfs.ext4 /dev/sXX
+swapon /dev/sXX
+Base install mount /dev/sXX /mnt
+filesystem</description></item><item><title>ASCII</title><link>https://csmertx.github.io/Linux/Code/ascii/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ascii/</guid><description> Because sometimes quotes are a pain Certain tiling window status bars&amp;hellip;
 \x27
 Equivalent to &amp;rsquo; (HEX or hexidecimal is 27)
 \x22
@@ -57,9 +69,10 @@ Equivalent to &amp;quot; (HEX or hexidecimal is 22)
 Example
 echo -en &amp;quot;This is nearly a sure way to print quotes: \x22Blah\x22&amp;quot;
 Result: This is nearly a sure way to print quotes: &amp;ldquo;Blah&amp;rdquo;
-Resources ASCII table: hexidecimals of symbols, HTML number/name, etc.</description></item><item><title>AsciiDoc</title><link>https://csmertx.github.io/Linux/Code/asciidoc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/asciidoc/</guid><description>ASCIIDoc: plain text markup language for writing Resources AsciiDoc: Homepage
+Resources ASCII table: hexidecimals of symbols, HTML number/name, etc.</description></item><item><title>AsciiDoc</title><link>https://csmertx.github.io/Linux/Code/asciidoc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/asciidoc/</guid><description>Resources AsciiDoc: Homepage
 AsciiDoc: Writer&amp;rsquo;s Guide
-AsciiDoc: Sandbox (Live AsciiDoc parser with preview)</description></item><item><title>AwesomeWM</title><link>https://csmertx.github.io/Linux/WM/awesome/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome/</guid><description>Awesome Window Manager Easy Mode Theming mkdir ~/.config/awesome
+AsciiDoc: Sandbox (Live AsciiDoc parser with preview)</description></item><item><title>AwesomeWM</title><link>https://csmertx.github.io/Linux/WM/awesome/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome/</guid><description>See also AwesomeWM | Floppier DE for more theming
+Easy Mode Theming mkdir ~/.config/awesome
 cd ~/.config/awesome
 git clone --recursive https://github.com/lcpz/awesome-copycats.git
 cp ~/.config/awesome/awesome-copycats/rc.lua.template ~/.config/awesome/rc.lua
@@ -75,11 +88,12 @@ cp /etc/xdg/awesome/rc.lua /etc/awesomebackup
 Or: mkdir ~/.config/awesome &amp;amp;&amp;amp; cp /etc/xdg/awesome/rc.lua ~/.config/awesome
 sudov /etc/xdg/awesome/rc.lua
 Or: vim ~/.config/awesome/rc.lua
-++ -- Autorun programs ++ autorun = true ++ autorunApps = ++ { ++ &amp;#34;redshift&amp;#34;, ++ } ++ if autorun then ++ for app = 1, ++ awful.</description></item><item><title>AweWM+</title><link>https://csmertx.github.io/Linux/WM/awesome_floppier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome_floppier/</guid><description>AwesomeWM - Floppier Desktop Environment Never tried it myself, but here are some links and stuff
+++ -- Autorun programs ++ autorun = true ++ autorunApps = ++ { ++ &amp;#34;redshift&amp;#34;, ++ } ++ if autorun then ++ for app = 1, ++ awful.</description></item><item><title>AwesomeWM | Floppier DE</title><link>https://csmertx.github.io/Linux/WM/awesome_floppier/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome_floppier/</guid><description>Never tried it myself, but here are some links and stuff
 What the.. AwesomeWM / Arch Linux turned full desktop environment
 [AwesomeWM] Floppier
-GitHub - manilarome/the-glorious-dotfiles: A glorified personal dot files Install dependencies tri -S awesome-git rofi-git picom-tryone-git light-git alsa-utils acpi acpid acpi_call mpd mpc maim feh xclip xprop xsel imagemagick blueman redshift xfce4-power-manager upower xdg_menu awesome-freedesktop jq noto-fonts-emoji nerd-fonts-fantasque-sans-mono Resources Github - manilarome/the-glorious-dotfiles Wiki</description></item><item><title>Awk</title><link>https://csmertx.github.io/Linux/Code/awk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/awk/</guid><description> Awk (Gawk) Make selections, and do stuff with those selections
-Print Nth item in row hostname -i | awk '{print $1}' Pull info out of quotes echo &amp;quot;\&amp;lt;a href=&amp;quot;www.duckduckgo.com&amp;quot;\&amp;gt;&amp;quot; | awk -F '&amp;quot;' '{print $1}' Resources The GNU Awk User&amp;rsquo;s Guide</description></item><item><title>Bash</title><link>https://csmertx.github.io/Linux/Shells/bash/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/bash/</guid><description>Bourne Again SHell Symlink to /bin/sh sudo ln -sf bash /bin/sh Auto Completion Debian / Ubuntu
+GitHub - manilarome/the-glorious-dotfiles: A glorified personal dot files Install dependencies tri -S awesome-git rofi-git picom-tryone-git light-git alsa-utils acpi acpid acpi_call mpd mpc maim feh xclip xprop xsel imagemagick blueman redshift xfce4-power-manager upower xdg_menu awesome-freedesktop jq noto-fonts-emoji nerd-fonts-fantasque-sans-mono Resources Github - manilarome/the-glorious-dotfiles Wiki
+AwesomeWM - Floppier Desktop Environment (Screenshot)</description></item><item><title>Awk</title><link>https://csmertx.github.io/Linux/Code/awk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/awk/</guid><description> Make selections, and do stuff with those selections
+Print Nth item in row hostname -i | awk '{print $1}' Pull info out of quotes echo &amp;quot;\&amp;lt;a href=&amp;quot;www.duckduckgo.com&amp;quot;\&amp;gt;&amp;quot; | awk -F '&amp;quot;' '{print $1}' Resources The GNU Awk User&amp;rsquo;s Guide</description></item><item><title>Bash</title><link>https://csmertx.github.io/Linux/Shells/bash/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/bash/</guid><description>Symlink to /bin/sh sudo ln -sf bash /bin/sh Auto Completion Debian / Ubuntu
 sudo apt-get install bash-completion
 vim ~/.bashrc
 ++ source /etc/profile.d/bash_completion.sh Arch
@@ -90,13 +104,13 @@ $# Number of args
 $0 First arg (script/program)
 ${10} 9th arg (10+ requires brackets)
 $1 Second arg (user defined arg e.g. &amp;ndash;help)
-$! Process id of last command</description></item><item><title>Benchmarking</title><link>https://csmertx.github.io/Linux/Software/benchmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/benchmarks/</guid><description>Benchmarking in Linux Glmark2 apti glmark
+$! Process id of last command</description></item><item><title>Benchmarking</title><link>https://csmertx.github.io/Linux/Software/benchmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/benchmarks/</guid><description>Glmark2 apti glmark
 glmark2 --fullscreen
 03/03/20: Kubuntu 19.10
-03/03/20: Arch Linux</description></item><item><title>Bitmap Fonts</title><link>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</guid><description>Bitmap fonts Enable bitmap fonts (Debian/Ubuntu) sudo rm -f /etc/fonts/conf.d/70-{yes,no,force}-bitmaps.conf if test -f /etc/fonts/conf.avail/70-force-bitmaps.conf; then sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-force-bitmaps.conf else sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-yes-bitmaps.conf fi sudo rm -rf /var/cache/fontconfig/(star)
+03/03/20: Arch Linux</description></item><item><title>Bitmap Fonts</title><link>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</guid><description>Enable bitmap fonts (Debian/Ubuntu) sudo rm -f /etc/fonts/conf.d/70-{yes,no,force}-bitmaps.conf if test -f /etc/fonts/conf.avail/70-force-bitmaps.conf; then sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-force-bitmaps.conf else sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-yes-bitmaps.conf fi sudo rm -rf /var/cache/fontconfig/(star)
 rm -rf &amp;quot;$HOME/.fontconfig&amp;quot;
 sudo fc-cache
-fc-cache</description></item><item><title>Bluetooth</title><link>https://csmertx.github.io/Linux/Devices/bluetooth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/bluetooth/</guid><description>Connecting to Bluetooth devices Preferred Bluetooth systray apti blueman
+fc-cache</description></item><item><title>Bluetooth</title><link>https://csmertx.github.io/Linux/Devices/bluetooth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/bluetooth/</guid><description>Preferred Bluetooth systray apti blueman
 blueman-applet is the desktop status app
 sudo usermod -a -G lp username
 Allows user access to DBUS
@@ -110,7 +124,10 @@ bluetoothctl set-alias [Newly discovered device name]
 bluetoothctl pair [...]
 bluetoothctl trust [...]
 Polybar Script
-wget https://raw.githubusercontent.com/polybar/polybar-scripts/master/polybar-scripts/system-bluetooth-bluetoothctl/system-bluetooth-bluetoothctl.sh vim ~/.config/polybar/config.ini</description></item><item><title>BorgBackup</title><link>https://csmertx.github.io/Linux/Software/borgbackup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/borgbackup/</guid><description>BorgBackup (Arch Linux) Intialize new backup directory borg init --encryption={authenticated,repokey,..} /dir/backupdir
+wget https://raw.githubusercontent.com/polybar/polybar-scripts/master/polybar-scripts/system-bluetooth-bluetoothctl/system-bluetooth-bluetoothctl.sh vim ~/.config/polybar/config.ini
+modules-right = system-bluetooth-bluetoothctl battery alsa network sysmenu [module/system-bluetooth-bluetoothctl] type = custom/script exec = ~/.</description></item><item><title>BorgBackup</title><link>https://csmertx.github.io/Linux/Software/borgbackup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/borgbackup/</guid><description>Created before 2022
+BorgBackup (Arch Linux)
+Intialize new backup directory borg init --encryption={authenticated,repokey,..} /dir/backupdir
 borg key export /dir/backupdir /dir/backupdirkey
 List available snapshots sudo mount -t ext /dev/sdX
 borg list /dir/archivedir
@@ -119,17 +136,29 @@ borg init -e none /dir/archivedir
 sudo borg create --stats --progress -C zlib,6 /dir/archivedir::root_archivename-{now:%-m-%d} /dir/inputfilesystem
 Snapshot Device (unencrypted) mkdir /dir/archivedir
 sudo dd if=/dev/sdX | borg create --stats --progress -C zlib,6 /dir/archivedir::sdX-{now:%-m-%d}
-Restore Directory Snapshot (unencrypted) su -
-mkdir /mnt/snapshot</description></item><item><title>Busybox</title><link>https://csmertx.github.io/Linux/Assorted/busybox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/busybox/</guid><description> Busybox Typically used for embedded operating systems with limited resources
+Restore Directory Snapshot (unencrypted) su -</description></item><item><title>Busybox</title><link>https://csmertx.github.io/Linux/Assorted/busybox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/busybox/</guid><description> Typically used for embedded operating systems with limited resources
 List Partitions cat /proc/partitions
 df -h
-Resources Busybox Homepage</description></item><item><title>C</title><link>https://csmertx.github.io/Linux/Code/c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/c/</guid><description>C Programming Language Compiling Souce Code Generate a configure file
+Resources Busybox Homepage</description></item><item><title>C Language</title><link>https://csmertx.github.io/Linux/Code/c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/c/</guid><description>Compiling Souce Code Generate a configure file
 autoconf configure.ac Makefile exists?
 ./configure
 This is the fun part&amp;hellip; see links for unmet dependency searches
 User basics: make &amp;amp;&amp;amp; make install
 Resources Such Programming: Spawning New Linux Processes in C
-Debian Package Search: Scroll down to search package directories</description></item><item><title>Calibre</title><link>https://csmertx.github.io/Linux/Software/epub_to_pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/epub_to_pdf/</guid><description> Calibre - E-book Mangement Installation apti calibre Convert EPUB to PDF ebook-convert example.epub to example.pdf</description></item><item><title>CentOS 8</title><link>https://csmertx.github.io/Linux/Distros/centos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/centos/</guid><description>CentOS 8 (Stable) Instructions for Virtualized CentOS This information is obviously out of date as of 2022
+Debian Package Search: Scroll down to search package directories</description></item><item><title>Calibre</title><link>https://csmertx.github.io/Linux/Software/epub_to_pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/epub_to_pdf/</guid><description> Installation apti calibre Convert EPUB to PDF ebook-convert example.epub to example.pdf</description></item><item><title>Carlos [RIBS]iero (Seitan BBQ Ribs)</title><link>https://csmertx.github.io/Recipes/Seitan/the_berrics_seitan_ribs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Seitan/the_berrics_seitan_ribs/</guid><description>Original write up can be found here
+INGREDIENTS: 1 cup vital wheat gluten
+2 tbsp. nutritional yeast
+2 tsp. smoked paprika
+2 tsp. onion powder
+Or 3 tsp. Complete Seasoning)
+1 tsp. garlic powder
+1 tsp. coriander
+1 tsp. italian seasoning
+¾ cup vegetable broth
+Or 1/2 tsp. seasoning + 3/4 cup water + 1 tsp. olive oil
+2 tbsp. tahini
+Or smooth peanut butter
+2 tbsp. tomato past</description></item><item><title>CentOS 8 (stable)</title><link>https://csmertx.github.io/Linux/Distros/centos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/centos/</guid><description>Instructions for Virtualized CentOS This information is obviously out of date as of 2022
 Automation to spin up 5 VMs in a cluster I called the Vorta cluster.. because each of the 4 nodes was named Weyoun
 Default Desktop
 768M RAM
@@ -138,7 +167,7 @@ sudo dnf remove firefox
 sudo dnf update
 Necessary
 sudo dnf install tar bzip2 kernel-devel-$(uname -r) kernel-headers perl gcc make elfutils-libelf-devel
-Insert Guest Additions &amp;amp; Cancel Auto Install</description></item><item><title>ClamAV</title><link>https://csmertx.github.io/Linux/Software/clamav/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/clamav/</guid><description>ClamAV: Virus scanning and removal using Linux Installation apti clamav clamav-daemon
+Insert Guest Additions &amp;amp; Cancel Auto Install</description></item><item><title>Clam Anti-Virus</title><link>https://csmertx.github.io/Linux/Software/clamav/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/clamav/</guid><description>Installation apti clamav clamav-daemon
 Failed: 09-01-2021
 First run mkdir ~/.config/clamav
 mkdir ~/.config/clamav/logs
@@ -151,35 +180,19 @@ chown clamav /var/log/freshclam.log
 Configuration (needed) vim Freshclam.conf
 Uncomment line starting with UpdateLogFile, and change dir to /var/log/clamav/freshclam.log vim clamd.conf, and uncomment line starting with Example.
 Scan freshclam
-Daemon might be running (systemctl stop/start, etc.</description></item><item><title>Console</title><link>https://csmertx.github.io/Linux/Assorted/vconsole/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/vconsole/</guid><description>Virtual Console Same as Administration
-Add users &amp;amp; add groups cat /etc/passwd
-Displays all users
-sudo useradd -G wheel,sudo newuser
-sudo usermod -a -G existinggroup existinguser
-sudo groupadd newgroup
-usermod -a -G newgroup existinguser
-Passwd Unattended
-echo &amp;quot;user:password&amp;quot; | chpasswd
-Only as root
-Normal
-passwd user
-User passwd
-sudo passwd
-Superuser passwd
-Permissions RWX == Permission to Read, Write, &amp;amp; eXecute
-Typical user RWX
-chmod 700
-similar to chmod +x</description></item><item><title>Console Res.</title><link>https://csmertx.github.io/Linux/Assorted/console_resolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/console_resolution/</guid><description>Linux console resolution See also Virtual Console
+Daemon might be running (systemctl stop/start, etc.)
+clamdscan --log=~/.config/clamav/logs/$(date).log /mnt/Storage</description></item><item><title>Console Resolution</title><link>https://csmertx.github.io/Linux/Assorted/console_resolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/console_resolution/</guid><description>See also Virtual Console
 Editing files&amp;hellip; sudov /etc/default/grub
 ++ GRUB_GFXMODE=1152x864x32 ++ GRUB_GFXPAYLOAD=1152x864x32 sudov /etc/grub.d/00_header
 -- if [ &amp;#34;x${GRUB_GFXMODE}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXMODE=auto ; fi ++ if [ &amp;#34;x${GRUB_GFXMODE}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXMODE=1152x864x32 ; fi ++ if [ &amp;#34;x${GRUB_GFXPAYLOAD}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXPAYLOAD=1152x864x32 ; fi Look for: set gfxmode=${GRUB_GFXMODE}
 / to input a search term with Vim
-Next line: set gfxpayload=${GRUB_GFXPAYLOAD}</description></item><item><title>Convert STL to Step</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</guid><description>Using FreeCAD to convert a .stl to .step or .stp Entry added befoe 2022
+Next line: set gfxpayload=${GRUB_GFXPAYLOAD}
+Resources Ask Ubuntu: &amp;ldquo;How do I increase console-mode resolution?</description></item><item><title>Convert STL to Step</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</guid><description>Entry added befoe 2022
 Center model
 Select .stl
 Switch to Part Workbench
 Part &amp;gt; Create shape from mesh&amp;hellip;
-Export &amp;gt; file.step/.stp</description></item><item><title>CPU</title><link>https://csmertx.github.io/Linux/Devices/cpu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/cpu/</guid><description>CPU speed ups, etc. Check status of Intel Mitigations grep . /sys/devices/system/cpu/vulnerabilities/* Turn Off Intel Mitigations (&amp;gt;= 5.1.13 kernel) Obvious system security caveats
+Export &amp;gt; file.step/.stp</description></item><item><title>CPUs</title><link>https://csmertx.github.io/Linux/Devices/cpu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/cpu/</guid><description>Check status of Intel Mitigations grep . /sys/devices/system/cpu/vulnerabilities/* Turn Off Intel Mitigations (&amp;gt;= 5.1.13 kernel) Obvious system security caveats
 sudov /etc/default/grub
 ++ mitigations=off At the end of kernel parameters
 Turn Off Intel Mitigations (&amp;lt; 5.1.13) sudov /etc/default/grub
@@ -188,18 +201,18 @@ reboot
 Monitoring apti htop
 More immersive than top
 apti glances
-Includes sensors, HDD or SDD read/writes, CPU stats.</description></item><item><title>Crontab > Cron Job Management</title><link>https://csmertx.github.io/Linux/Assorted/crontab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/crontab/</guid><description>Crontab (cron table) To edit.. crontab -e
+Includes sensors, HDD or SDD read/writes, CPU stats.</description></item><item><title>Cron table</title><link>https://csmertx.github.io/Linux/Assorted/crontab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/crontab/</guid><description>To edit.. crontab -e
 user only
 sudo crontab -e global
 Quick reference * * * * * min hour(24hr) day (month) month day (week) Example: 02 12 * * * == run once at 10:05PM everyday
 Simple: minute hour (24hr)
 Cron location in filesystem /var/spool/cron Resources Crontab Guru: The quick and simple editor for cron schedule expressions
-Red Hat: How to schedule jobs using the Linux 'cron'</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description> Cython: C-Extensions for Python Python language translator for C (check links below for current information)
+Red Hat: How to schedule jobs using the Linux 'cron'</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description> Python language translator for C (check links below for current information)
 Installation For Linux systems
 Windows sudo apt-get mingw-w64 Linux sudo apt-get cython3 Translate Python to C using Cython Basic examples
 Create Linux programs cython --embed python.py -o python.c
 gcc -I /usr/include/python$(version) python.c -lpython$(version) -o python(.exe)
-Create Windows programs x86_64-w64-mingw32-gcc -o main64.exe main.cx Resources Cython: C-Extensions for Python</description></item><item><title>D&amp;N 01/23</title><link>https://csmertx.github.io/Blog/daynight/2023/0123/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2023/0123/</guid><description/></item><item><title>D&amp;N 02/23</title><link>https://csmertx.github.io/Blog/daynight/2023/0223/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2023/0223/</guid><description/></item><item><title>D&amp;N 08/22</title><link>https://csmertx.github.io/Blog/daynight/2022/0822/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2022/0822/</guid><description/></item><item><title>D&amp;N 09/22</title><link>https://csmertx.github.io/Blog/daynight/2022/0922/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2022/0922/</guid><description/></item><item><title>D&amp;N 10/22</title><link>https://csmertx.github.io/Blog/daynight/2022/1022/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2022/1022/</guid><description/></item><item><title>D&amp;N 11/22</title><link>https://csmertx.github.io/Blog/daynight/2022/1122/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2022/1122/</guid><description/></item><item><title>DBGL</title><link>https://csmertx.github.io/Linux/Software/dbgl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dbgl/</guid><description>Installation (Ubuntu) apti dosbox
+Create Windows programs x86_64-w64-mingw32-gcc -o main64.exe main.cx Resources Cython: C-Extensions for Python</description></item><item><title>DBGL (DOSBox)</title><link>https://csmertx.github.io/Linux/Software/dbgl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dbgl/</guid><description>apti dosbox
 DBGL Download
 64-bit only Linux DBGL in tar.gz (9 MB)
 Extract to: ~/.local/usr/dbgl
@@ -210,10 +223,7 @@ apti default-jdk
 Repository Installation 04/09/20: Negative via 20.04?
 sudo add-apt-repository ppa:savoury1/dbgl
 sudo apt-get update
-sudo apti dosbox default-jdk dbgl</description></item><item><title>DD</title><link>https://csmertx.github.io/Linux/Assorted/dd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/dd/</guid><description>Disk Destroyer (DD) An earned reputation for destroying all the things
-Find blocksize sudo blkid Write .img file to drive sudo dd if=/mnt/Storage/qemu/winxppro.img of=/dev/sXX
-sudo gunzip -c /backup/backup.image.gz | dd of=/dev/sXX
-Backup drive to compressed .img sudo dd if=/dev/sXX conv=sync,noerror bs=4K | gzip -c &amp;gt; /backup/backup.image.gz Blank a drive (NOT FOR SSDs!) sudo dd if=/dev/zero of=/dev/xXx bs=1M Securely Blank a drive (NOT FOR SSDs!) sudo dd if=/dev/urandom of=/dev/xXx bs=1M Blank MBR (!</description></item><item><title>Debian</title><link>https://csmertx.github.io/Linux/Distros/debian_and_ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/debian_and_ubuntu/</guid><description>Installing Debian and adding Ubuntu PPAs PPAs and Debian are not always on speaking terms
+sudo apti dosbox default-jdk dbgl</description></item><item><title>Debian (&amp; PPAs)</title><link>https://csmertx.github.io/Linux/Distros/debian_and_ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/debian_and_ubuntu/</guid><description>PPAs and Debian are not always on speaking terms
 apti: sudo aptitude install
 aptr: sudo aptitude remove
 Adding Debian Backports Repo: sudov /etc/apt/sources.list
@@ -222,7 +232,12 @@ Adding Debian Testing repo: apti debian-keyring
 apti debian-archive-keyring
 vim /etc/apt/sources.list
 ++ deb [trusted=yes] http://http.us.debian.org/debian/ testing non-free contrib main sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com [key]
-sudo apt-get update</description></item><item><title>DNS Over HTTPS</title><link>https://csmertx.github.io/Web/dns_over_https/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/dns_over_https/</guid><description> Firefox setting Hamburger Icon
+sudo apt-get update
+Debian Backports Kernel/Headers
+sudo apt-get -t buster-backports install linux-image-amd64 linux-headers-amd64 Mark as automatically installed for future sanity</description></item><item><title>Disk Destroyer (DD)</title><link>https://csmertx.github.io/Linux/Assorted/dd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/dd/</guid><description>An earned reputation for destroying all the things
+Find blocksize sudo blkid Write .img file to drive sudo dd if=/mnt/Storage/qemu/winxppro.img of=/dev/sXX
+sudo gunzip -c /backup/backup.image.gz | dd of=/dev/sXX
+Backup drive to compressed .img sudo dd if=/dev/sXX conv=sync,noerror bs=4K | gzip -c &amp;gt; /backup/backup.image.gz Blank a drive (NOT FOR SSDs!) sudo dd if=/dev/zero of=/dev/xXx bs=1M Securely Blank a drive (NOT FOR SSDs!) sudo dd if=/dev/urandom of=/dev/xXx bs=1M Blank MBR (!) sudo dd if=/dev/zero of=/dev/xXx bs=446 count=1 Copy DVD MakeMKV for copying media is highly recommended</description></item><item><title>DNS Over HTTPS</title><link>https://csmertx.github.io/Web/dns_over_https/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/dns_over_https/</guid><description> Firefox setting Hamburger Icon
 Preferences
 General
 Network Settings
@@ -230,7 +245,7 @@ Connection Settings (Settings)
 Enable DNS over HTTPS (Check Box)
 Also try provider: NextDNS
 Fly.io Per Application DNS Over HTTPS
-Fly.io / Docs / App Guides / Run a private DNS over HTTPS service</description></item><item><title>Docker</title><link>https://csmertx.github.io/Linux/Software/docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/docker/</guid><description>Docker: Containerized Application Development See also Jellyfin
+Fly.io / Docs / App Guides / Run a private DNS over HTTPS service</description></item><item><title>Docker</title><link>https://csmertx.github.io/Linux/Software/docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/docker/</guid><description>See also Jellyfin
 Installation docker
 sudo systemctl {start,enable} docker.service
 List Containers docker images
@@ -240,9 +255,11 @@ Logs sudo docker logs containerid Storage Driver sudov /etc/docker/daemon.json
 --volume /dir/media:/media
 Permissions sudo usermod -aG docker user Cannot connect to docker daemon error sudo snap start docker
 sudo systemctl status docker
-sudo systemctl enable docker</description></item><item><title>Docker</title><link>https://csmertx.github.io/Linux/VMs/docker_installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/docker_installation/</guid><description>Docker: Accelerated, containerized application development Or a neat way to setup a DIY media streaming box
+sudo systemctl enable docker
+sudo systemctl start docker</description></item><item><title>Docker</title><link>https://csmertx.github.io/Linux/VMs/docker_installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/docker_installation/</guid><description>A neat way to setup a DIY media streaming box
 Debian packages sudo apti docker docker-compose cockpit cockpit-docker Fedora packages sudo dnf install docker docker-compose cockpit cockpit-docker Add user to docker group (single user LAN server only) sudo usermod -aG docker $USER Install Nextcloud sudo docker pull nextcloud IP Address add IP=192.168.xxx.xx to environment Link /var/lib/docker to different partition remove /var/lib/docker
-Backup /var/lib/docker first?</description></item><item><title>Dolphin</title><link>https://csmertx.github.io/Linux/Software/dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dolphin/</guid><description>Dolphin File Manager (KDE) Select file/folder with single click (for shift click or alt click selections) System Settings (app)
+Backup /var/lib/docker first?
+sudo -ln -s /mnt/containers/docker /var/lib/docker</description></item><item><title>Dolphin (KDE)</title><link>https://csmertx.github.io/Linux/Software/dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dolphin/</guid><description>Select file/folder with single click (for shift click or alt click selections) System Settings (app)
 Workspace Behaviour
 General Behavior
 Clicking files or folders &amp;gt; Selects them
@@ -252,7 +269,8 @@ Stream media from another PC..
 Custom Right Click Menu kf5-config --path services
 vim $HOME/.local/share/kservices5/ServiceMenus/action.desktop
 Copy path Example (See below for menu entry options)
-Copy Path is now builtin as of 02/03/23</description></item><item><title>DWM</title><link>https://csmertx.github.io/Linux/WM/dwm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/dwm/</guid><description>Dynamic Window Manager Compile config.def.h Fonts
+Copy Path is now builtin as of 02/03/23
+[Desktop Entry] Type=Service Icon=edit-copy X-KDE-ServiceTypes=KonqPopupMenu/Plugin MimeType=directories;all/all; Actions=cppath; Encoding=UTF-8 Terminal=false [Desktop Action cppath] Name=Copy Path Icon=edit-copy Exec=echo &amp;#34;%f&amp;#34; | xclip -selection c Terminal=false Can&amp;rsquo;t Copy Folder Path</description></item><item><title>Dynamic Window Manager (DWM)</title><link>https://csmertx.github.io/Linux/WM/dwm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/dwm/</guid><description>Compile config.def.h Fonts
 static const char *fonts[] = &amp;quot;hack:size=10&amp;quot;;
 static const char dmenufont[] = &amp;quot;hack:size=10&amp;quot;;
 default terminal
@@ -264,7 +282,7 @@ Recommended
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
 Not recommended
 Status bar Add to ~/.xinitrc
-while true while true; do xsetroot -name &amp;#34; CentOS 8.</description></item><item><title>Egg Boosted Oatmeal</title><link>https://csmertx.github.io/Recipes/Breakfast/egg_boosted_oatmeal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Breakfast/egg_boosted_oatmeal/</guid><description>Ingredients Reciple link: Mind Body Green: Adding Eggs In Your Oatmeal?
+while true while true; do xsetroot -name &amp;#34; CentOS 8.1 | $USER@$HOSTNAME | $(hostname -I| awk &amp;#39;{print $1}&amp;#39;) | $(date &amp;#34;+%F %R&amp;#34;) &amp;#34; sleep 1m done &amp;amp; Status line output = CentOS 8.</description></item><item><title>Egg Boosted Oatmeal</title><link>https://csmertx.github.io/Recipes/Breakfast/egg_boosted_oatmeal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Breakfast/egg_boosted_oatmeal/</guid><description>Ingredients Reciple link: Mind Body Green: Adding Eggs In Your Oatmeal?
 1/3 cup rolled oats
 1 tablespoon ground flax
 1 whole egg
@@ -272,15 +290,22 @@ while true while true; do xsetroot -name &amp;#34; CentOS 8.</description></item
 Instructions Bring water to a boil. Lower heat and add the oats and flax.
 Cook until liquid is almost fully absorbed.
 Add egg and stir in vigorously until mixture begins to look fluffy (1 to 2 minutes).
-Cover pot and let sit 5 minutes before serving.</description></item><item><title>F-Droid</title><link>https://csmertx.github.io/Android/fdroid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/fdroid/</guid><description> Free and Open Source Android App Repository Download F-Droid
-Additional Repos IzzyOnDroid F-Droid Repository</description></item><item><title>Fail2ban</title><link>https://csmertx.github.io/Linux/Software/fail2ban/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/fail2ban/</guid><description>Fail2ban: Server intrusion prevention software framework Setup Systemd
+Cover pot and let sit 5 minutes before serving.</description></item><item><title>F-Droid</title><link>https://csmertx.github.io/Android/fdroid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/fdroid/</guid><description> Download F-Droid
+Additional Repos IzzyOnDroid F-Droid Repository</description></item><item><title>Fail2ban</title><link>https://csmertx.github.io/Linux/Software/fail2ban/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/fail2ban/</guid><description>Setup Systemd
 sudo systectm enable fail2ban.service
 sudo systectm start fail2ban.service
 SSH Limiting
 sudov /etc/fail2ban/jail.d/sshd.local
 ++ [sshd] ++ enabled = true ++ filter = sshd ++ banaction = ufw ++ backend = systemd ++ maxretry = 3 ++ findtime = 1h ++ bantime = 2h ++ ignoreip = 127.0.0.1/8 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 sudo systectm restart fail2ban.service Client sudo fail2ban-client status
 List all jails
-sudo fail2ban-client status sshd</description></item><item><title>Fedora</title><link>https://csmertx.github.io/Linux/Distros/fedora/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/fedora/</guid><description>Fedora additional package sources and other tweaks RPM Fusion sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm RPMSphere (gufw) rpm -Uvh 'https://github.com/rpmsphere/noarch/blob/master/r/rpmsphere-release-30-1.noarch.rpm?raw=true'
+sudo fail2ban-client status sshd
+Status of jails</description></item><item><title>FastCGI (PHP-FPM)</title><link>https://csmertx.github.io/Linux/Software/php-fpm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/php-fpm/</guid><description> Enable Error Logging sudov /etc/php/php-fpm.d/www.conf
+or sudov /usr/local/etc/php-fpm.d/www.conf
+Uncomment / Make Changes
+catch_workers_output = yes php_flag[display_errors] = on php_admin_value[error_log] = /var/log/fpm-php.www.log php_admin_flag[log_errors] = on php_admin_value[memory_limit] = 99M sudo touch /var/log/fpm-php.www.log
+sudo chmod 777 /var/log/fpm-php.www.log
+Check Error Log tail -f /var/log/fpm-php.www.log</description></item><item><title>Fedora</title><link>https://csmertx.github.io/Linux/Distros/fedora/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/fedora/</guid><description>Fedora additional package sources and other tweaks
+RPM Fusion sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm RPMSphere (gufw) rpm -Uvh 'https://github.com/rpmsphere/noarch/blob/master/r/rpmsphere-release-30-1.noarch.rpm?raw=true'
 Fedora as QEMU Guest Copy Paste between guest/host and more (auto install with desktops)
 sudo dnf install spice-vdagent
 Spice
@@ -290,7 +315,7 @@ QXL Video Driver (great w/XFCE)
 sudo dnf install xorg-x11-drv-qxl
 Auto installed with desktops?
 Virtio/OpenGL might be best for KDE/Plasma
-Development Packages sudo yum groupinstall &amp;quot;Development Tools&amp;quot; &amp;quot;Development Libraries&amp;quot;</description></item><item><title>FFmpeg</title><link>https://csmertx.github.io/Linux/Software/ffmpeg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ffmpeg/</guid><description>FFmpeg: audio/video conversion tool Combine files from a list (Ranger File Manager) cd to folder and open with ranger
+Development Packages sudo yum groupinstall &amp;quot;Development Tools&amp;quot; &amp;quot;Development Libraries&amp;quot;</description></item><item><title>FFmpeg</title><link>https://csmertx.github.io/Linux/Software/ffmpeg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ffmpeg/</guid><description>Combine files from a list (Ranger File Manager) cd to folder and open with ranger
 press v key and issue command :bulkrename
 in vim :w ~/Downloads/bulk.txt &amp;amp; exit
 bulkrename filenames in bulk.txt to: file constantpartoffilename_1.mp4
@@ -300,14 +325,14 @@ vim ~/Downloads/bulk.txt
 Should result in: file constantpartoffilename_x.mp4
 Editing Cut out a slice (audio)
 ffmpeg -i &amp;quot;song.m4a&amp;quot; -ss 00:00:38 -t 00:04:16 &amp;quot;song.mp3&amp;quot;
-Cut out a slice (video) ffmpeg -i &amp;quot;2022-10-20 (1).</description></item><item><title>Find</title><link>https://csmertx.github.io/Linux/Code/find/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/find/</guid><description>Find: command to find stuff in filesystems Does not create databases accessible to other users (e.g. locate command)
+Cut out a slice (video) ffmpeg -i &amp;quot;2022-10-20 (1).mkv&amp;quot; -ss 00:00:00 -to 00:00:26 -c copy &amp;quot;2022-10-20 (1.</description></item><item><title>Find</title><link>https://csmertx.github.io/Linux/Code/find/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/find/</guid><description>Does not create databases accessible to other users (e.g. locate command)
 Print subdirectories or files in a directory cd $targetdir &amp;amp;&amp;amp; find . -maxdepth 1 -mindepth 1 -type d -printf &amp;quot;%f&amp;quot; Scripting example ~/.scripts/sudof
-#!/bin/bash # Skips Arch Linux package cache, home directory, etc. dirs_exclude=&amp;#34;-path /mnt -o -path /run -o -path /tmp -o -path /dev -o -path /proc -o -path \ $HOME -o -path /sys -o -path /var/cache/pacman -o -path /var/lib/pacman&amp;#34; sudo find / -type d \( $dirs_exclude \) -prune -o -print | grep $1 echo -en &amp;quot;alias sudof='~/.</description></item><item><title>Firefox</title><link>https://csmertx.github.io/Web/firefox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/firefox/</guid><description>Firefox web browser by Mozilla Firefox Stop Auto Updating sudov /etc/firefox/policies/policies.json
+#!/bin/bash # Skips Arch Linux package cache, home directory, etc. dirs_exclude=&amp;#34;-path /mnt -o -path /run -o -path /tmp -o -path /dev -o -path /proc -o -path \ $HOME -o -path /sys -o -path /var/cache/pacman -o -path /var/lib/pacman&amp;#34; sudo find / -type d \( $dirs_exclude \) -prune -o -print | grep $1 echo -en &amp;quot;alias sudof='~/.</description></item><item><title>Firefox</title><link>https://csmertx.github.io/Web/firefox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/firefox/</guid><description>Firefox Stop Auto Updating sudov /etc/firefox/policies/policies.json
 Kubuntu 21.10
 { &amp;#34;policies&amp;#34;: { &amp;#34;AppAutoUpdate&amp;#34;: false } } Firefox manual installation Download: Firefox for Linux
 And move contents to /opt/firefox
 Desktop environment start menu and taskbar launcher /home/usr/.local/share/applications/firefox.desktop
-[Desktop Entry] Categories=WebBrowser Comment[en_US]=Firefox Web Browser Comment=Firefox Web Browser Exec=/opt/firefox/firefox-bin GenericName[en_US]=Web Browser GenericName=Web Browser Icon=/home/usr/Pictures/Icons/Firefox.png MimeType= Name[en_US]=Firefox Name=Firefox Path= StartupNotify=false Terminal=false TerminalOptions= Type=Application X-DBUS-ServiceName= X-DBUS-StartupType= X-KDE-SubstituteUID=false X-KDE-Username= Don&amp;rsquo;t forget to change user to $USER and grab a copy of the Firefox icon</description></item><item><title>Flatpak</title><link>https://csmertx.github.io/Linux/Software/flatpak/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/flatpak/</guid><description>Flatpak: &amp;ldquo;the future of appliation distribution&amp;rdquo; Flathub flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+[Desktop Entry] Categories=WebBrowser Comment[en_US]=Firefox Web Browser Comment=Firefox Web Browser Exec=/opt/firefox/firefox-bin GenericName[en_US]=Web Browser GenericName=Web Browser Icon=/home/usr/Pictures/Icons/Firefox.png MimeType= Name[en_US]=Firefox Name=Firefox Path= StartupNotify=false Terminal=false TerminalOptions= Type=Application X-DBUS-ServiceName= X-DBUS-StartupType= X-KDE-SubstituteUID=false X-KDE-Username= Don&amp;rsquo;t forget to change user to $USER and grab a copy of the Firefox icon</description></item><item><title>Flatpaks</title><link>https://csmertx.github.io/Linux/Software/flatpak/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/flatpak/</guid><description>Flathub flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 reboot
 Or logout/login
 Desktop Files vim $HOME/{.bashrc,.zshrc}
@@ -318,105 +343,8 @@ Run: flatpak run com.visualstudio.code
 Glade Install: flatpak install flathub org.gnome.Glade
 Run: flatpak run org.gnome.Glade
 Atom Editor Install: flatpak install flathub io.atom.Atom
-Run: flatpak run io.atom.Atom</description></item><item><title>FreeCAD to Blender</title><link>https://csmertx.github.io/3D_Modeling/Blender/FreeCad_to_Blender/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/Blender/FreeCad_to_Blender/</guid><description>Importing FreeCAD models to Blender Using Blender v2.8 to smooth out FreeCAD models Preferences &amp;gt; Add-ons &amp;gt; Enable Import STL
-Add Modifier &amp;gt; Edge Split (Generate Category)
-Smooth Shade (Object Menu: Shade Smooth)</description></item><item><title>Game Sites</title><link>https://csmertx.github.io/Games/game_sites/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/game_sites/</guid><description>Video game websites Steam: video game distribution
-GOG (formerly Good Old Games): video game distribution
-Itch.io: Indie game distribution</description></item><item><title>Git Pro</title><link>https://csmertx.github.io/Linux/Code/git_pro_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/git_pro_notes/</guid><description>Git Pro notes (taken before 2022) Git Pro was written by Ben Straub, and Published by Apress
-Print tags git tag Extended info git show v1.4 Adding tags to older commits (parse first) git log --pretty=oneline
-example output: 9fceb02&amp;hellip; updated rakefile
-Append the tag to: [updated rakefile] commit
-git tag -a v1.2 9fceb02 Sharing tags git push origin v1.5 All the tags all at once git push origin --tags Even more info git checkout 2.</description></item><item><title>Git Quick</title><link>https://csmertx.github.io/Linux/Code/github_quick/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/github_quick/</guid><description>Git Quick Reference Just enough to be dangerous
-Basic push to origin echo $PWD
-Current dir the project dir? Great. Continue..
-No? Then cd ~/.sources/projectdirectory. See Bash prompt links below
-git add .
-Or: git add example1.sh
-git commit -m &amp;quot;commit message&amp;quot;
-git pull
-git push -u origin
-Remove all traces of sensitive data from a repo This won&amp;rsquo;t remove it from clones or forks, but at least the repo will be scrubbed</description></item><item><title>Glade GTK</title><link>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</guid><description>Glade GTK Toolchain to create GTK applications
-Resources GTK-rs: Requirements
-Nora Codes: Speedy Desktop Apps With GTK and RUST
-Gnome Project: Glade Tutorials</description></item><item><title>GNOME 3</title><link>https://csmertx.github.io/Linux/WM/gnome3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/gnome3/</guid><description>GNOME 3 desktop environment Program Not Responsive timeout Some older Win32 games may have this issue (e.g. Runes of Magic)
-gsettings set org.gnome.mutter check-alive-timeout 120000
-ALT + F2 and dconf-config
-org &amp;gt; gnome &amp;gt; mutter check-alive-timeout: uncheck use default value change from 5,000 to 120,000 GDM Enable tap-to-click sudo -i
-xhost +SI:localuser:gdm
-sudo su gdm -s /bin/bash
-export DISPLAY=:0
-gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
-Reset GDM tap-to-click to default gsettings reset org.</description></item><item><title>Gnome Shell</title><link>https://csmertx.github.io/Linux/VMs/gnome-shell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/gnome-shell/</guid><description>Extensions apti gnome-extensions-app
-apti chrome-gnome-shell
-Auto Move Windows
-gamemode
-apti gamemode Native Window Placement
-Autostart (Gnome specific) ALT + F2 and gnome-session-properties
-Gnome tweak-tool (post 3.6?)
-apti gnome-tweaks Autostart (all desktop environments) mkdir $HOME/.config/autostart
-touch $HOME/.config/autostart/clipit.desktop
-Center Windows ALT + F2 and dconf-editor
-org &amp;gt; gnome &amp;gt; mutter &amp;gt; center-new-windows Swap Left Win key for Right Win key Win key or Super key. Whatever you like to call it.</description></item><item><title>GnuPG</title><link>https://csmertx.github.io/Linux/Assorted/gpg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/gpg/</guid><description>The GNU Privacy Guard Create New Key gpg –-gen-key Encrypt File gpg -e -r $USER /dir/examplefile Decrypt File gpg -d -o /dir/examplefile /dir/examplefile.(gz.)gpg
-shred /dir/examplefile
-rm /dir/examplefile
-Encrypt/Decrypt Folder(s) First convert the folder(s) to file
-tar czf /dir/examplefolder.gz /dir/examplefolder
-Then follow steps to encrypt/decrypt files
-One or more PGP Signatures could not be verified! gpg --recv-key [key]
-Key is usually printed with error message
-Export Local key gpg --list-keys # Target == examplekey</description></item><item><title>GPS</title><link>https://csmertx.github.io/Linux/Devices/gps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gps/</guid><description>Interfacing with GPS devices Not something I&amp;rsquo;ve used. Just a curiosity.
-From GPS Device apti gpsd
-Arch Linux: pac -S gpsd
-sudo systemctl start/enable gpsd
-gpspipe -R/-r/-w</description></item><item><title>GPU</title><link>https://csmertx.github.io/Linux/Devices/gpu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gpu/</guid><description>Display Graphics AMD Open Source: tear free sudov /etc/X11/xorg.conf.d/20-[GPU].conf
-Section &amp;#34;Device&amp;#34; Identifier &amp;#34;AMD&amp;#34; Driver &amp;#34;radeon&amp;#34; Option &amp;#34;TearFree&amp;#34; &amp;#34;true&amp;#34; EndSection May not be necessary for newer or more powerful cards
-I used this option for a passively cooled Radeon 5450, and an early 00s Acer laptop
-Monitoring (CLI) Temperatures apti lm-sensors
-sudo sensors detect
-Defaults are a good start
-sensors
-AMD Processor load and memory usage
-apti radeontop
-Run with: radeontop Nvidia Processor load and memory usage</description></item><item><title>Greasemonkey</title><link>https://csmertx.github.io/Web/greasemonkey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/greasemonkey/</guid><description>Greasemonkey: Web browser extension Hide Facebook top/right bars greasyfork: Expand width in www.facebook.com Resources Greasy Fork - safe and useful user scripts
-OpenUserJS.org: The home of Free and Open Source Software (OSS) user scripts.</description></item><item><title>Grep</title><link>https://csmertx.github.io/Linux/Assorted/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grep/</guid><description> Recursive matching Recursive: check subdirectories
-grep -r term4search /dir Exclude Match grep -v term2exclude /dir/file Match and match egrep -w 'term1|term2' /dir/file Ignore case grep -i searchterm /dir/file String multiple matches grep -e term1 -e term2 -e term3 /dir/file Search via extensions .txt, .mp3, .svg, .sh, .bash, .conf, etc.
-grep -e term1 -e term2 /dir/*.txt</description></item><item><title>Grep</title><link>https://csmertx.github.io/Linux/Code/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/grep/</guid><description> GNU Grep Find match or match grep 'match\|match2'
-grep -E 'match|match2'
-Find match and match grep 'match.*match2' Omit match grep -v 'match' Find first or last of line match grep &amp;quot;^match&amp;quot;
-grep &amp;quot;match$&amp;quot;
-Resources GNU Grep</description></item><item><title>Gritty Honey Mustard</title><link>https://csmertx.github.io/Recipes/Sauces/smooth_honey_mustard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Sauces/smooth_honey_mustard/</guid><description>Makes about 1/4 CUP About 60ml and roughly 100 calories
-3 tbsp. mustard
-Stone ground, etc.
-1 tbsp. Ketchup
-1 tsp. chili paste
-1 tbsp. Molasses
-1 tsp. Brown sugar</description></item><item><title>Grub</title><link>https://csmertx.github.io/Linux/Assorted/grub/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grub/</guid><description>GNU GRand Unified Bootloader Commonly refered to as Grub
-Default File sudov /etc/default/grub Really Quiet w/Splash Cursor Off for all tty [1-7]
-GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0 vt.global_cursor_default=0&amp;quot; &amp;hellip; is probably necessary to boot the system
-Admin Friendly Configuration
-I believe this keeps the console clear of kernel messaging
-GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0&amp;quot; For those extra grumpy kernel messages
-echo 1 &amp;gt; /proc/sys/kernel/printk Kernel panics (/boot/intel-ucode.img) First edit kernel param with grub</description></item><item><title>HTML2PDF</title><link>https://csmertx.github.io/Linux/Software/html_to_pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/html_to_pdf/</guid><description>Converting webpages to PDF Firefox CTRL + P
-Save to PDF Chome CTRL + P
-Save to PDF wkhtmltopdf wkhtmltopdf input.html output.pdf
-Additional options via CLI not available through browsers</description></item><item><title>i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description>i3WM: Tiling window manager Mpris Control apti playerctl
-vim ~/.config/i3/config
-Bluetooth headsets
-bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
-bindsym XF86AudioPause exec --no-startup-id playerctl play-pause
-xev can help determine button press outputs
-See also keyboard scancodes for more bindsym options
-See mpv for more about mpris plugin</description></item><item><title>i3WM &amp; KDE</title><link>https://csmertx.github.io/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3_and_plasma/</guid><description> i3WM and KDE&amp;rsquo;s Plasmas desktop environment Install Dependencies sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev xutils-dev autoconf Configuration vim ~/.config/i3/config
-++ exec --no-startup-id wmctrl -c Plasma
-+++ for_window [title=&amp;#34;Desktop — Plasma&amp;#34;] kill, floating enable, border none Avoid tiling popups, dropdown windows from plasma vim ~/.config/i3/config
-++ for_window [class=&amp;#34;plasmashell&amp;#34;] floating enable
-++ for_window [class=&amp;#34;Plasma&amp;#34;] floating enable, border none
-++ for_window [title=&amp;#34;plasma-desktop&amp;#34;] floating enable, border none
-++ for_window [title=&amp;#34;win7&amp;#34;] floating enable, border none
-++ for_window [class=&amp;#34;krunner&amp;#34;] floating enable, border none
-++ for_window [class=&amp;#34;Kmix&amp;#34;] floating enable, border none
-++ for_window [class=&amp;#34;Klipper&amp;#34;] floating enable, border none
-++ for_window [class=&amp;#34;Plasmoidviewer&amp;#34;] floating enable, border none</description></item><item><title>Install FreeBSD</title><link>https://csmertx.github.io/Unix/FreeBSD/freebsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/FreeBSD/freebsd/</guid><description>FreeBSD Installation Notes This page was created before 2022
+Run: flatpak run io.atom.Atom
+Glimpse (fork of Gimp) Install: flatpak install flathub org.</description></item><item><title>FreeBSD Installation</title><link>https://csmertx.github.io/Unix/FreeBSD/freebsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/FreeBSD/freebsd/</guid><description>This page was created before 2022
 Please refer to the FreeBSD Handbook for up to date installation instructions
 Live Login user: root
 password: [automatic login]
@@ -426,36 +354,107 @@ Wifi troubles.. vim /etc/rc.conf
 -- ifconfig_em0=&amp;#34;DHCP&amp;#34;
 -- ifconfig_em0_ipv6=&amp;#34;inet6 accept_rtadv&amp;#34;
 ++ wlans_ath0=&amp;#34;wlan0&amp;#34;
-++ ifconfig_wlan0=&amp;#34;WPA SYNCDHCP&amp;#34; ifconfig wlan0 create wlandev ath0</description></item><item><title>Install NetBSD</title><link>https://csmertx.github.io/Unix/NetBSD/netbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NetBSD/netbsd/</guid><description>NetBSD Installation This page was created before 2020
-Please refere to NetBSD: The NetBSD Guide for up to date installation instructions
-Preparing the USB drive To use CD sets for full installation
-dd if=/dir/NetBSD-(version)-amd64-install.img of=/dev/sdX bs=8M; sync Preparing Wifi Access vi /etc/wpa_supplicant.conf
-++ network={
-++ ssid=&amp;#34;yourssid&amp;#34; ++ scan_ssid=1 ++ key_mgmt=WPA-PSK ++ psk=&amp;#34;yourpsk&amp;#34; ++ } vi /etc/rc.conf
-++ dhcpcd_flags=&amp;#34;-q -b&amp;#34; ++ wpa_supplicant=&amp;#34;YES&amp;#34; ++ wpa_supplicant_flags=&amp;#34;-B -i ath0 -c /etc/wpa_supplicant.conf&amp;#34; vi /etc/ifconfig.ath0</description></item><item><title>Install NomadBSD</title><link>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</guid><description> NomadBSD Installation This page was created before 2020
-Please refer to the NomadBSD Handbooklet for up to date installation instructions.
-WiFi FreeBSD / Docs / Wireless Network
-vim /etc/rc.conf
-++ wlans_rtwn0=&amp;#34;wlan0&amp;#34; ++ ifconfig_wlan0=&amp;#34;WPA DHCP&amp;#34; ++ ifconfig_ale0=&amp;#34;DHCP&amp;#34; vim /boot/loader.conf
-++ if_rtwn_usb_load=&amp;#34;YES&amp;#34;
-++ if_rtwn_pci_load=&amp;#34;YES&amp;#34; vim /etc/wpa_supplicant.conf
-++ network={
-++ ssid=&amp;#34;myssid&amp;#34;
-++ psk=&amp;#34;mypsk&amp;#34;
-++ } service netif restart
-Autostart Programs w/Openbox vim ~/.config/openbox/autostart.sh
-++ dsbmc-cli -a &amp;amp;
-++ xmodmap ~/.Xmodmap</description></item><item><title>Install OpenBSD</title><link>https://csmertx.github.io/Unix/OpenBSD/openbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/OpenBSD/openbsd/</guid><description>OpenBSD Installation This page was created before 2020
-Please refere to the OpenBSD Handbook for more up to date installation instructions.
-Install with X and xenodm for desktop Because 6.4 defaults to fvwm
-To list HDD/SSD/USB drives sysctl hw.disknames To list partitions of drive sdX, etc. disklabel [disk]
-disklabel sd1
-For urtwn-rtl8188eufw Rosewill Realtek rtl8188eufw
-OpenBSD / Firmware / urtwn-1.2.tar.gz
-cp /dir/urtwn-1.2.tar.gz /etc/firmware/urtwn-1.2.tar.gz
-cd /etc/firmware
-tar zvxf urtwn-1.2.tar.gz
-cp /etc/firmware/urtwn-1.</description></item><item><title>iptables</title><link>https://csmertx.github.io/Linux/Software/iptables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/iptables/</guid><description>iptables: configure IP packet filter rules of Linux firewalls Start and configuration Systemd
+++ ifconfig_wlan0=&amp;#34;WPA SYNCDHCP&amp;#34; ifconfig wlan0 create wlandev ath0
+ifconfig wlan0 up scan</description></item><item><title>FreeCAD to Blender</title><link>https://csmertx.github.io/3D_Modeling/Blender/FreeCad_to_Blender/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/Blender/FreeCad_to_Blender/</guid><description>Importing FreeCAD models to Blender Using Blender v2.8 to smooth out FreeCAD models Preferences &amp;gt; Add-ons &amp;gt; Enable Import STL
+Add Modifier &amp;gt; Edge Split (Generate Category)
+Smooth Shade (Object Menu: Shade Smooth)</description></item><item><title>Game Sites</title><link>https://csmertx.github.io/Games/game_sites/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/game_sites/</guid><description>Steam: video game distribution
+GOG (formerly Good Old Games): video game distribution
+Itch.io: Indie game distribution</description></item><item><title>Git Pro</title><link>https://csmertx.github.io/Linux/Code/git_pro_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/git_pro_notes/</guid><description>Notes from before 2022
+Git Pro was written by Ben Straub, and Published by Apress
+Print tags git tag Extended info git show v1.4 Adding tags to older commits (parse first) git log --pretty=oneline
+example output: 9fceb02&amp;hellip; updated rakefile
+Append the tag to: [updated rakefile] commit
+git tag -a v1.2 9fceb02 Sharing tags git push origin v1.5 All the tags all at once git push origin --tags Even more info git checkout 2.</description></item><item><title>Git Quick Ref.</title><link>https://csmertx.github.io/Linux/Code/github_quick/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/github_quick/</guid><description>Just enough to be dangerous
+Basic push to origin echo $PWD
+Current dir the project dir? Great. Continue..
+No? Then cd ~/.sources/projectdirectory. See Bash prompt links below
+git add .
+Or: git add example1.sh
+git commit -m &amp;quot;commit message&amp;quot;
+git pull
+git push -u origin
+Remove all traces of sensitive data from a repo This won&amp;rsquo;t remove it from clones or forks, but at least the repo will be scrubbed</description></item><item><title>Glade GTK</title><link>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</guid><description>Toolchain to create GTK applications
+Resources GTK-rs: Requirements
+Nora Codes: Speedy Desktop Apps With GTK and RUST
+Gnome Project: Glade Tutorials</description></item><item><title>GNOME 3</title><link>https://csmertx.github.io/Linux/WM/gnome3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/gnome3/</guid><description>Program Not Responsive timeout Some older Win32 games may have this issue (e.g. Runes of Magic)
+gsettings set org.gnome.mutter check-alive-timeout 120000
+ALT + F2 and dconf-config
+org &amp;gt; gnome &amp;gt; mutter check-alive-timeout: uncheck use default value change from 5,000 to 120,000 GDM Enable tap-to-click sudo -i
+xhost +SI:localuser:gdm
+sudo su gdm -s /bin/bash
+export DISPLAY=:0
+gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
+Reset GDM tap-to-click to default gsettings reset org.gnome.desktop.peripherals.touchpad tap-to-click</description></item><item><title>Gnome Shell</title><link>https://csmertx.github.io/Linux/VMs/gnome-shell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/gnome-shell/</guid><description>Extensions apti gnome-extensions-app
+apti chrome-gnome-shell
+Auto Move Windows
+gamemode
+apti gamemode Native Window Placement
+Autostart (Gnome specific) ALT + F2 and gnome-session-properties
+Gnome tweak-tool (post 3.6?)
+apti gnome-tweaks Autostart (all desktop environments) mkdir $HOME/.config/autostart
+touch $HOME/.config/autostart/clipit.desktop
+Center Windows ALT + F2 and dconf-editor
+org &amp;gt; gnome &amp;gt; mutter &amp;gt; center-new-windows Swap Left Win key for Right Win key Win key or Super key. Whatever you like to call it.</description></item><item><title>GnuPG</title><link>https://csmertx.github.io/Linux/Assorted/gpg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/gpg/</guid><description>Create New Key gpg –-gen-key Encrypt File gpg -e -r $USER /dir/examplefile Decrypt File gpg -d -o /dir/examplefile /dir/examplefile.(gz.)gpg
+shred /dir/examplefile
+rm /dir/examplefile
+Encrypt/Decrypt Folder(s) First convert the folder(s) to file
+tar czf /dir/examplefolder.gz /dir/examplefolder
+Then follow steps to encrypt/decrypt files
+One or more PGP Signatures could not be verified! gpg --recv-key [key]
+Key is usually printed with error message
+Export Local key gpg --list-keys # Target == examplekey</description></item><item><title>GPS Devices</title><link>https://csmertx.github.io/Linux/Devices/gps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gps/</guid><description>Not something I&amp;rsquo;ve used. Just a curiosity.
+From GPS Device apti gpsd
+Arch Linux: pac -S gpsd
+sudo systemctl start/enable gpsd
+gpspipe -R/-r/-w</description></item><item><title>GPUs</title><link>https://csmertx.github.io/Linux/Devices/gpu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gpu/</guid><description>AMD Open Source: tear free sudov /etc/X11/xorg.conf.d/20-[GPU].conf
+Section &amp;#34;Device&amp;#34; Identifier &amp;#34;AMD&amp;#34; Driver &amp;#34;radeon&amp;#34; Option &amp;#34;TearFree&amp;#34; &amp;#34;true&amp;#34; EndSection May not be necessary for newer or more powerful cards
+I used this option for a passively cooled Radeon 5450, and an early 00s Acer laptop
+Monitoring (CLI) Temperatures apti lm-sensors
+sudo sensors detect
+Defaults are a good start
+sensors
+AMD Processor load and memory usage
+apti radeontop
+Run with: radeontop Nvidia Processor load and memory usage</description></item><item><title>Greasemonkey | Web browser extension</title><link>https://csmertx.github.io/Web/greasemonkey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/greasemonkey/</guid><description>Hide Facebook top/right bars greasyfork: Expand width in www.facebook.com Resources Greasy Fork - safe and useful user scripts
+OpenUserJS.org: The home of Free and Open Source Software (OSS) user scripts.</description></item><item><title>Grep</title><link>https://csmertx.github.io/Linux/Assorted/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grep/</guid><description> Recursive matching Recursive: check subdirectories
+grep -r term4search /dir Exclude Match grep -v term2exclude /dir/file Match and match egrep -w 'term1|term2' /dir/file Ignore case grep -i searchterm /dir/file String multiple matches grep -e term1 -e term2 -e term3 /dir/file Search via extensions .txt, .mp3, .svg, .sh, .bash, .conf, etc.
+grep -e term1 -e term2 /dir/*.txt</description></item><item><title>Grep</title><link>https://csmertx.github.io/Linux/Code/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/grep/</guid><description> Find match or match grep 'match\|match2'
+grep -E 'match|match2'
+Find match and match grep 'match.*match2' Omit match grep -v 'match' Find first or last of line match grep &amp;quot;^match&amp;quot;
+grep &amp;quot;match$&amp;quot;
+Resources GNU Grep</description></item><item><title>Gritty Honey Mustard</title><link>https://csmertx.github.io/Recipes/Sauces/smooth_honey_mustard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Sauces/smooth_honey_mustard/</guid><description>Makes about 1/4 CUP About 60ml and roughly 100 calories
+3 tbsp. mustard
+Stone ground, etc.
+1 tbsp. Ketchup
+1 tsp. chili paste
+1 tbsp. Molasses
+1 tsp. Brown sugar</description></item><item><title>Grub</title><link>https://csmertx.github.io/Linux/Assorted/grub/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grub/</guid><description>Commonly refered to as Grub
+Default File sudov /etc/default/grub Really Quiet w/Splash Cursor Off for all tty [1-7]
+GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0 vt.global_cursor_default=0&amp;quot; &amp;hellip; is probably necessary to boot the system
+Admin Friendly Configuration
+I believe this keeps the console clear of kernel messaging
+GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0&amp;quot; For those extra grumpy kernel messages
+echo 1 &amp;gt; /proc/sys/kernel/printk Kernel panics (/boot/intel-ucode.img) First edit kernel param with grub</description></item><item><title>HTML to PDF</title><link>https://csmertx.github.io/Linux/Software/html_to_pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/html_to_pdf/</guid><description>Firefox CTRL + P
+Save to PDF Chome CTRL + P
+Save to PDF wkhtmltopdf wkhtmltopdf input.html output.pdf
+Additional options via CLI not available through browsers</description></item><item><title>i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description>Mpris Control apti playerctl
+vim ~/.config/i3/config
+Bluetooth headsets
+bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
+bindsym XF86AudioPause exec --no-startup-id playerctl play-pause
+xev can help determine button press outputs
+See also keyboard scancodes for more bindsym options
+See mpv for more about mpris plugin</description></item><item><title>i3WM &amp; KDE</title><link>https://csmertx.github.io/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3_and_plasma/</guid><description> Install Dependencies sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev xutils-dev autoconf Configuration vim ~/.config/i3/config
+++ exec --no-startup-id wmctrl -c Plasma
++++ for_window [title=&amp;#34;Desktop — Plasma&amp;#34;] kill, floating enable, border none Avoid tiling popups, dropdown windows from plasma vim ~/.config/i3/config
+++ for_window [class=&amp;#34;plasmashell&amp;#34;] floating enable
+++ for_window [class=&amp;#34;Plasma&amp;#34;] floating enable, border none
+++ for_window [title=&amp;#34;plasma-desktop&amp;#34;] floating enable, border none
+++ for_window [title=&amp;#34;win7&amp;#34;] floating enable, border none
+++ for_window [class=&amp;#34;krunner&amp;#34;] floating enable, border none
+++ for_window [class=&amp;#34;Kmix&amp;#34;] floating enable, border none
+++ for_window [class=&amp;#34;Klipper&amp;#34;] floating enable, border none
+++ for_window [class=&amp;#34;Plasmoidviewer&amp;#34;] floating enable, border none</description></item><item><title>iptables</title><link>https://csmertx.github.io/Linux/Software/iptables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/iptables/</guid><description>Start and configuration Systemd
 sudo systemctl enable iptables.service
 sudo systemctl start iptables.service
 sudo systemctl restart iptables.service
@@ -472,12 +471,12 @@ Policy: Limit
 Ufw Port forwarding
 sudov /etc/ufw/sysctl.conf
 Uncomment..
-#net/ipv4/ip_forward=1 #net/ipv6/conf/default/forwarding=1 #net/ipv6/conf/all/forwarding=1 sudo ufw reload</description></item><item><title>Java</title><link>https://csmertx.github.io/Linux/Code/java/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/java/</guid><description>Java Programming Language Installation (Linux) To satisfy dependencies (e.g. Kingdom of Loathing: KoLMafia)
+#net/ipv4/ip_forward=1 #net/ipv6/conf/default/forwarding=1 #net/ipv6/conf/all/forwarding=1 sudo ufw reload</description></item><item><title>Java Apps</title><link>https://csmertx.github.io/Linux/Code/java/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/java/</guid><description>Installation (Linux) To satisfy dependencies (e.g. Kingdom of Loathing: KoLMafia)
 sudo apti default-jdk Create desktop shortcuts for Java apps For all those delightful .jar files
 vim ~/.local/share/applications/kolmafia.desktop
 [Desktop Entry] Comment[en_US]=Kingdom of Loathing Mafia Client Comment=Kingdom of Loathing Mafia Client Exec=java -jar /home/chris/.sources/KoLmafia-20755.jar GenericName[en_US]=KoLmafia GenericName=KoLmafia Icon=/home/chris/Pictures/Icons/swordandmartini_dark_theme.png Name[en_US]=KoLmafia Name=KoLmafia StartupNotify=true Terminal=false Type=Application Categories=Game sudoc /home/chris/.local/share/applications/kolmafia.desktop
 Launch in KDE Plasma: Start Menu &amp;gt; Games &amp;gt; KoLmafia
-Logout and login for some desktop environments</description></item><item><title>Jellyfin</title><link>https://csmertx.github.io/Linux/Software/jellyfin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/jellyfin/</guid><description>Jellyfin: The Free Software Media System Install Docker apti snapd
+Logout and login for some desktop environments</description></item><item><title>Jellyfin | Media Server</title><link>https://csmertx.github.io/Linux/Software/jellyfin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/jellyfin/</guid><description>Install Docker apti snapd
 sudo snap install docker
 Yep, container in a container. But it works!
 sudo docker pull jellyfin/jellyfin
@@ -485,13 +484,14 @@ mkdir ~/.config/jellyfin
 mkdir ~/.config/jellyfin/config
 mkdir ~/.config/jellyfin/cache
 Server start First run will take a while to cache (20-60+ minutes)
-sudo docker run -d \ --volume /home/$USER/.config/jellyfin/config:/config \ --volume /home/$USER/.config/jellyfin/cache:/cache \ --volume /mnt/Storage/Videos:/data/videos \ --volume /mnt/Storage/Music:/data/music \ --volume /mnt/Storage/Pictures:/data/pictures \ --user 1000:1000 \ --net=host \ --restart=unless-stopped \ jellyfin/jellyfin Scripted setup My personal setup script</description></item><item><title>KDE STL View</title><link>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</guid><description>View .stl extension files with Dolphin File Manager Kubuntu 21.10 screenshot of opening STL with view3dscene
+sudo docker run -d \ --volume /home/$USER/.config/jellyfin/config:/config \ --volume /home/$USER/.config/jellyfin/cache:/cache \ --volume /mnt/Storage/Videos:/data/videos \ --volume /mnt/Storage/Music:/data/music \ --volume /mnt/Storage/Pictures:/data/pictures \ --user 1000:1000 \ --net=host \ --restart=unless-stopped \ jellyfin/jellyfin Scripted setup My personal setup script</description></item><item><title>KDE STL Preview</title><link>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</guid><description>Kubuntu 21.10 screenshot of opening STL with view3dscene
 Kubuntu 21.10 screenshot of view3dscene
 View3dscene installation Download link: https://castle-engine.io/view3dscene.php
 Or if you prefer: https://github.com/castle-engine/view3dscene
 Extract w/Dolphin &amp;gt; Right Click &amp;gt; Extract &amp;gt; Extract Archive Here
 vim $HOME/.local/share/applications/view3dscene.desktop
-[Desktop Entry] Comment[en_US]=A graphical frontend for viewing 3D meshes Comment=A graphical frontend for viewing 3D meshes Exec=/home/chris/.sources/view3dscene/view3dscene GenericName[en_US]=View3dscene GenericName=View3dscene Icon=/home/chris/Pictures/Icons/3dview.png Name[en_US]=View3dscene Name=View3dscene StartupNotify=false Terminal=false Type=Application Categories=Utility sudoc /home/chris/.</description></item><item><title>Keyboard Scancodes</title><link>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</guid><description>Keyboard Scancodes, X11, EV, etc. May include game controller keysyms as well?
+[Desktop Entry] Comment[en_US]=A graphical frontend for viewing 3D meshes Comment=A graphical frontend for viewing 3D meshes Exec=/home/chris/.sources/view3dscene/view3dscene GenericName[en_US]=View3dscene GenericName=View3dscene Icon=/home/chris/Pictures/Icons/3dview.png Name[en_US]=View3dscene Name=View3dscene StartupNotify=false Terminal=false Type=Application Categories=Utility sudoc /home/chris/.sources/view3dscene/view3dscene
+Right Click .stl file in Dolphin, open with view3dscene (check box to remember)</description></item><item><title>Keyboard Scancodes</title><link>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</guid><description>May include game controller keysyms as well?
 01 (Esc)
 02 (1!), 03 (2@), 04 (3#), 05 (4$), 06 (5%E), 07 (6^), 08 (7&amp;amp;), 09 (8*), 0a (9(), 0b (0)), 0c (-_), 0d (=+), 0e (Backspace)
 0f (Tab), 10 (Q), 11 (W), 12 (E), 13 (R), 14 (T), 15 (Y), 16 (U), 17 (I), 18 (O), 19 (P), 1a ([{), 1b (]})
@@ -501,21 +501,22 @@ vim $HOME/.local/share/applications/view3dscene.desktop
 29 (`~)
 2a (LShift)
 2b (\|), on a 102-key keyboard
-2c (Z), 2d (X), 2e (C), 2f (V), 30 (B), 31 (N), 32 (M), 33 (,&amp;lt;), 34 (.</description></item><item><title>KoL Notes</title><link>https://csmertx.github.io/Games/KoL/kol_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/KoL/kol_notes/</guid><description>k
-Kingdom of Loathing browser game KoLmafia: cross-platform desktop tool to interface with the game in the links below
+2c (Z), 2d (X), 2e (C), 2f (V), 30 (B), 31 (N), 32 (M), 33 (,&amp;lt;), 34 (.</description></item><item><title>Kingdom of Loathing</title><link>https://csmertx.github.io/Games/KoL/kol_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/KoL/kol_notes/</guid><description>KoLmafia: cross-platform desktop tool to interface with the game in the links below
 KoLmafia Installation for Linux
 Aftercore July 30, 2019
 &amp;ldquo;The Sea is a tough thing for someone with only a couple of skills. Better to wait a bit on that.
-I&amp;rsquo;d suggest: go to the Mall and buy a Training Scroll: Snokebomb and read it. You&amp;rsquo;ll have to use your karma from this run to perm it for use in future runs, but it is an excellent skill to have for turncutting.</description></item><item><title>Konsole</title><link>https://csmertx.github.io/Linux/Software/konsole/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konsole/</guid><description> KDE Terminal Emulator Trouble with remapped keyboard layout (xmodmap, etc.) Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console
+I&amp;rsquo;d suggest: go to the Mall and buy a Training Scroll: Snokebomb and read it. You&amp;rsquo;ll have to use your karma from this run to perm it for use in future runs, but it is an excellent skill to have for turncutting.</description></item><item><title>Konsole</title><link>https://csmertx.github.io/Linux/Software/konsole/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konsole/</guid><description> Trouble with remapped keyboard layout (xmodmap, etc.) Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console
 To switch back remember: XFree 4
 Fix for Yakuake too since it pulls in the same profile(s) as Konsole
 Other keybindings might be affected by this &amp;ldquo;fix&amp;rdquo; (F4, etc.)
-So long xmodmap, hello custom keyboard PCB?</description></item><item><title>Konversation</title><link>https://csmertx.github.io/Linux/Software/konversation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konversation/</guid><description>KDE Internet Relay Chat (IRC) client Bouncer/BNC Server In [Password] input box type..
+So long xmodmap, hello custom keyboard PCB?</description></item><item><title>Konversation</title><link>https://csmertx.github.io/Linux/Software/konversation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konversation/</guid><description>KDE Internet Relay Chat (IRC) client
+Bouncer/BNC Server In [Password] input box type..
 username:password
-If connection issues check port number</description></item><item><title>Kubuntu</title><link>https://csmertx.github.io/Linux/Distros/kubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/kubuntu/</guid><description>Kubuntu Desktop and Distribution Disable Automatic Update Check Icon Right Click Up Arrow in panel
+If connection issues check port number</description></item><item><title>Kubuntu</title><link>https://csmertx.github.io/Linux/Distros/kubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/kubuntu/</guid><description>Disable Automatic Update Check Icon Right Click Up Arrow in panel
 Uncheck: General &amp;gt; Extra Items &amp;gt; Updates Update Settings Muon Package manager &amp;gt; Settings &amp;gt; Software Sources &amp;gt; Updates Dist Upgrade sudo aptitude update &amp;amp;&amp;amp; sudo aptitude upgrade
 sudo do-release-upgrade -d
-Tiny fonts in GTK applications (2022) System Settings &amp;gt; Appearance &amp;gt; Fonts &amp;gt; Enable Force font DPI (96 DPI) Incorrect resolution with QEMU usermod -a -G video user Switch to virtio cvt 1600 900 60</description></item><item><title>KVM</title><link>https://csmertx.github.io/Linux/VMs/kvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/kvm/</guid><description> KVM: Kernal-based Virtual Machine See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
+Tiny fonts in GTK applications (2022) System Settings &amp;gt; Appearance &amp;gt; Fonts &amp;gt; Enable Force font DPI (96 DPI) Incorrect resolution with QEMU usermod -a -G video user Switch to virtio cvt 1600 900 60</description></item><item><title>KVM</title><link>https://csmertx.github.io/Linux/VMs/kvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/kvm/</guid><description> Kernal-based Virtual Machine
+See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
 Setup (Arch Linux) sudo modprobe kvm_intel
 Or kvm_amd
 sudo vim /etc/modprobe.d/kvm.conf
@@ -531,7 +532,7 @@ adb push /dir/rom.zip /sdcard
 ROM Installation Try MTP/OTG or use adb
 Move ROM.zip to device storage (unzip not necessary)
 Install (or wipe then install)
-Wipe the cache afterwards (clears out the ROM)</description></item><item><title>LVM</title><link>https://csmertx.github.io/Linux/Assorted/lvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/lvm/</guid><description> Logical Volume Manger LVM2 (2020-02-18)
+Wipe the cache afterwards (clears out the ROM)</description></item><item><title>Logical Volume Manager</title><link>https://csmertx.github.io/Linux/Assorted/lvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/lvm/</guid><description> LVM2 (2020-02-18)
 Mounting for chroot (Arch ISO) modprobe dm_mod
 vgscan
 vgchange -ay
@@ -541,31 +542,30 @@ mount &amp;lt;LV_PATH&amp;gt; /mnt/archos/root
 mount &amp;lt;LV_PATH&amp;gt; /mnt/archos/home
 chroot /mnt/archos/root
 Don&amp;rsquo;t forget to umount /mnt/archos/root when finished
-Resources RedHat: Chapter 11. LVM (Logical Volume Manger)</description></item><item><title>Manjaro/RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/manjaro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/manjaro/</guid><description>Raspberry Pi 4 and Manjaro Linux (2021) Waveshare WM8960 Soundcard Unable to access the capabilities of this RPi4 hat Issues KDE login with touchscreen maybe wasn&amp;rsquo;t tested as much for RPi4 as other ARM devices. More details I wish I could provide more details. Unfortunately, I failed to properly document this experiment.</description></item><item><title>Markdown</title><link>https://csmertx.github.io/Linux/Code/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/markdown/</guid><description>Markdown: lightweight markup language for text Convert Markdown to PDF flatpak install org.freedesktop.Sdk
+Resources RedHat: Chapter 11. LVM (Logical Volume Manger)</description></item><item><title>Manjaro/RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/manjaro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/manjaro/</guid><description>Created 2021
+Waveshare WM8960 Soundcard Unable to access the capabilities of this RPi4 hat Issues KDE login with touchscreen maybe wasn&amp;rsquo;t tested as much for RPi4 as other ARM devices. More details I wish I could provide more details. Unfortunately, I failed to properly document this experiment.</description></item><item><title>Markdown</title><link>https://csmertx.github.io/Linux/Code/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/markdown/</guid><description>Convert Markdown to PDF flatpak install org.freedesktop.Sdk
 flatpak install flathub io.atom.Atom
 Edit &amp;gt; Preferences &amp;gt; Install &amp;gt; Markdown to PDF
 Packages &amp;gt; Markdown to PDF &amp;gt; Convert
 Resources Markdown Guide: Basic Syntax
 Google&amp;rsquo;s Markdown Style Guide
 Hugo: Configure Markup
-This website is generated by Hugo</description></item><item><title>Markdown CLI</title><link>https://csmertx.github.io/Linux/Software/markdown_cli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/markdown_cli/</guid><description>Hacky way to preview Markdown via terminal emulator Setup to preview Markdown via Lynx CLI browser Add ~/.local/bin to $PATH
+This website is generated by Hugo</description></item><item><title>Markdown CLI</title><link>https://csmertx.github.io/Linux/Software/markdown_cli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/markdown_cli/</guid><description>Hacky way to preview Markdown via terminal emulator
+Setup to preview Markdown via Lynx CLI browser Add ~/.local/bin to $PATH
 vim ~/.profile
 if [ -d &amp;#34;$HOME/.local/bin&amp;#34; ] ; then PATH=&amp;#34;$HOME/.local/bin:$PATH&amp;#34; fi vim ~/.local/bin/rmd
 #!/bin/bash pandoc $1 --highlight-style=zenburn \ | sed \&amp;#34;1s/^/&amp;lt;html&amp;gt; \n&amp;lt;/title&amp;gt;rmd&amp;lt;\/title&amp;gt;/&amp;#34; \ | sed &amp;#39;$s/$/\n&amp;lt;\/html&amp;gt;/&amp;#39; | lynx -stdin w3m doesn&amp;rsquo;t like stdin, but elinks (without -stdin) works
 Open via Ranger File Manger Ranger
 Navigate to file.md
-:open_with rmd</description></item><item><title>MC</title><link>https://csmertx.github.io/Linux/Software/mc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mc/</guid><description>GNU Midnight Commander (MC) Vim as editor F9 &amp;gt; Options &amp;gt; Configuration &amp;gt; Uncheck internal view/edit Mark Files C-t Fish Network Protocol cd sh://user@remotehost/dir
+:open_with rmd</description></item><item><title>Meme?</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>Purpose of this website Some of this documentation may help Linux beginners. There are a lot of examples that could be helpful, but I assume certain understandings about GNU/Linux that may be frustrating to newbies. As it turns out I love researching topics, but I&amp;rsquo;m not that great at documenting my findings. I&amp;rsquo;m open to any mistakes glaring or otherwise found in this documentation. Thank you for visting.
+For Linux newbies definitely check out: Learn Linux TV, Linuxize, AskUbuntu, Tecmint, ItsFOSS, nixCraft, Linux Mint Forums, Ubuntu: The Linux command line for beginners, Techspot: A Beginner&amp;rsquo;s Guide to the Linux Command Line</description></item><item><title>Midnight Commander (MC)</title><link>https://csmertx.github.io/Linux/Software/mc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mc/</guid><description>Vim as editor F9 &amp;gt; Options &amp;gt; Configuration &amp;gt; Uncheck internal view/edit Mark Files C-t Fish Network Protocol cd sh://user@remotehost/dir
 Load media w/video player, photo viewer, etc.
 Skins Save to: ~/.local/share/mc/skins/
 vim ~/.config/mc/ini
 Change: skin=
 Resources Midnight Commander Skin Editor
 I recommend the nicedark.ini skin
-GitHub - MidnightCommander/mc: Midnight Commander&amp;rsquo;s repository</description></item><item><title>Meme?</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>Purpose of this website Some of this documentation may help Linux beginners. There are a lot of examples that could be helpful, but I assume certain understandings about GNU/Linux that may be frustrating to newbies. As it turns out I love researching topics, but I&amp;rsquo;m not that great at documenting my findings. I&amp;rsquo;m open to any mistakes glaring or otherwise found in this documentation. Thank you for visting.
-For Linux newbies definitely check out: Learn Linux TV, Linuxize, AskUbuntu, Tecmint, ItsFOSS, nixCraft, Linux Mint Forums, Ubuntu: The Linux command line for beginners, Techspot: A Beginner&amp;rsquo;s Guide to the Linux Command Line</description></item><item><title>MOC > Music On Console</title><link>https://csmertx.github.io/Linux/Software/moc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/moc/</guid><description>Music On Console Pulseaudio Integration vim ~/.moc/config
-Uncomment: SoundDriver = OSS, ALSA, JACK vim ~/.bashrc
-++ alias mocp=&amp;#34;padsp mocp&amp;#34; Switch mixer with key: x
-Change volume with: , and .</description></item><item><title>Monitors</title><link>https://csmertx.github.io/Linux/Devices/monitor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/monitor/</guid><description>XrandR: Configuration utility for screen outputs Note copied from: /Linux/Assorted/xrandr
+GitHub - MidnightCommander/mc: Midnight Commander&amp;rsquo;s repository</description></item><item><title>Monitors</title><link>https://csmertx.github.io/Linux/Devices/monitor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/monitor/</guid><description>Note copied from: /Linux/Assorted/xrandr
 Mode Not Displayed cvt 1600 900
 Whatever resolution you need goes here 1920x1080, 3840x2160, etc.
 Copy line that starts with Modeline
@@ -573,26 +573,8 @@ sudo xrandr --newmode [...copied line minus the word Modeline...]
 The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline
 sudo xrandr --addmode {vga,Virtual}-{0,1} &amp;quot;1600x900_60.00&amp;quot; #Virtual-1
 Included Virtual for Virtual Machines (Slackware can be tricky)
-sudo xrandr --output Virtual-1 --mode &amp;quot;1600x900_60.</description></item><item><title>Mount</title><link>https://csmertx.github.io/Linux/Assorted/mount/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/mount/</guid><description>Mounting filesystems, media, etc. EXT4 sudov /etc/fstab
-UUID=$(sudo blkid...) /mnt/... ext4 rw 0 0
-NTFS sudov /etc/fstab
-UUID=$(sudo blkid...) /mnt/storage ntfs-3g defaults,auto,uid=1000,gid=1000,umask=002 0 0
-Boot without mounting drive UUID=$(sudo blkid...) /mnt/storage ntfs-3g defaults,nofail,auto,uid=1000,gid=1000,umask=002 0 0 Access to USB drive via console w/user permissions Check ftype with: fsck -N /dev/xxx
-Volume was not properply unmounted..
-fsck /dev/xxx
-yes to fix
-sudo mkdir /run/media/usb (/run/media/weyoun/usb;/media/weyoun/usb..)
-sudo chown -R user /run/media/usb (...)</description></item><item><title>MPD</title><link>https://csmertx.github.io/Linux/Software/mpd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpd/</guid><description>Music Player Daemon Includes some instructions to listen to Commodore 64 .sid files
-Requires mpd-sidplay
-mpc
-DeaDBeeF (optional for .sid playlist creation)
-Debian for .sid songlengths
-Easier listening experience
-mpdconf.example mkdir ~/.config/mpd
-cp /usr/share/doc/mpd/mpdconf.example ~/.config/mpd/mpd.conf
-Local Permissions sudo gpasswd -a mpd $USER
-sudo chmod 710 /home/$USER
-Local Configuration music_directory &amp;#34;/home/user/Music&amp;#34; user &amp;#34;user&amp;#34; #Without systemd group &amp;#34;user&amp;#34; #Without systemd bind_to_address &amp;#34;/home/user/.config/mpd/mpd.socket&amp;#34; pid_file &amp;#34;/home/user/.config/mpd/pid&amp;#34; db_file &amp;#34;/home/user/.config/mpd/db&amp;#34; # MPD will create this.. state_file &amp;#34;/home/user/.</description></item><item><title>MPV</title><link>https://csmertx.github.io/Linux/Software/mpv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpv/</guid><description>MPV: A free, open source, and cross-platform media player Multiple Monitors Autostart on monitor X
+sudo xrandr --output Virtual-1 --mode &amp;quot;1600x900_60.00&amp;quot;
+Whatever output display and mode needed</description></item><item><title>MPV</title><link>https://csmertx.github.io/Linux/Software/mpv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpv/</guid><description>Multiple Monitors Autostart on monitor X
 vim /home/user/.config/mpv/mpv.conf
 ++ screen=X e.g. screen=1, xrandr for a list of screens)
 Mpris Integration (desktop notifications, current media info, etc.) https://github.com/hoyon/mpv-mpris/releases
@@ -604,7 +586,21 @@ cp ff2mpv.json $HOME/.mozilla/native-messaging-hosts/ff2mpv.json
 vim $HOME/.mozilla/native-messaging-hosts/ff2mpv.json
 ++ path: /home/chris/.config/mpv/ff2mpv.py, cp ff2mpv.py $HOME/.config/mpv/ff2mpv.py
 sudoc $HOME/.config/mpv/ff2mpv.py
-Right click a video link and open with mpv</description></item><item><title>Mutt</title><link>https://csmertx.github.io/Linux/Software/mutt_encrypted/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mutt_encrypted/</guid><description>The Mutt E-Mail Client Using Mutt the safe way Encrypt plain text password file for added security
+Right click a video link and open with mpv
+Or visit a YT video and click plugin</description></item><item><title>Music On Console (MOC)</title><link>https://csmertx.github.io/Linux/Software/moc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/moc/</guid><description>Pulseaudio Integration vim ~/.moc/config
+Uncomment: SoundDriver = OSS, ALSA, JACK vim ~/.bashrc
+++ alias mocp=&amp;#34;padsp mocp&amp;#34; Switch mixer with key: x
+Change volume with: , and .</description></item><item><title>Music Player Daemon (MPD)</title><link>https://csmertx.github.io/Linux/Software/mpd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpd/</guid><description>Includes some instructions to listen to Commodore 64 .sid files
+Requires mpd-sidplay
+mpc
+DeaDBeeF (optional for .sid playlist creation)
+Debian for .sid songlengths
+Easier listening experience
+mpdconf.example mkdir ~/.config/mpd
+cp /usr/share/doc/mpd/mpdconf.example ~/.config/mpd/mpd.conf
+Local Permissions sudo gpasswd -a mpd $USER
+sudo chmod 710 /home/$USER
+Local Configuration music_directory &amp;#34;/home/user/Music&amp;#34; user &amp;#34;user&amp;#34; #Without systemd group &amp;#34;user&amp;#34; #Without systemd bind_to_address &amp;#34;/home/user/.config/mpd/mpd.socket&amp;#34; pid_file &amp;#34;/home/user/.config/mpd/pid&amp;#34; db_file &amp;#34;/home/user/.config/mpd/db&amp;#34; # MPD will create this.. state_file &amp;#34;/home/user/.config/mpd/state&amp;#34; playlist_directory &amp;#34;/home/user/.</description></item><item><title>Mutt E-Mail Client</title><link>https://csmertx.github.io/Linux/Software/mutt_encrypted/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mutt_encrypted/</guid><description>Using Mutt the safe way Encrypt plain text password file for added security
 gpg --gen-key
 mkdir ~/.mutt
 touch ~/.mutt/password
@@ -616,14 +612,35 @@ Check for original ~/.mutt/password (without .gpg)
 shred ~/.mutt/password
 If the original file remains&amp;ndash;it&amp;rsquo;s been a few years since I&amp;rsquo;ve used Mutt
 vim ~/.muttrc
-++ source &amp;#34;gpg -d ~/.mutt/password.gpg |&amp;#34; Resources The Mutt E-Mail Client</description></item><item><title>Networking</title><link>https://csmertx.github.io/Linux/Assorted/networking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/networking/</guid><description>General networking Troubleshooting (chroot, etc.) Unable to resolve dns
+++ source &amp;#34;gpg -d ~/.mutt/password.gpg |&amp;#34; Resources The Mutt E-Mail Client</description></item><item><title>NetBSD Installation</title><link>https://csmertx.github.io/Unix/NetBSD/netbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NetBSD/netbsd/</guid><description>This page was created before 2020
+Please refere to NetBSD: The NetBSD Guide for up to date installation instructions
+Preparing the USB drive To use CD sets for full installation
+dd if=/dir/NetBSD-(version)-amd64-install.img of=/dev/sdX bs=8M; sync Preparing Wifi Access vi /etc/wpa_supplicant.conf
+++ network={
+++ ssid=&amp;#34;yourssid&amp;#34; ++ scan_ssid=1 ++ key_mgmt=WPA-PSK ++ psk=&amp;#34;yourpsk&amp;#34; ++ } vi /etc/rc.conf
+++ dhcpcd_flags=&amp;#34;-q -b&amp;#34; ++ wpa_supplicant=&amp;#34;YES&amp;#34; ++ wpa_supplicant_flags=&amp;#34;-B -i ath0 -c /etc/wpa_supplicant.conf&amp;#34; vi /etc/ifconfig.ath0
+++ up
+++ dhcp /etc/rc.</description></item><item><title>Networking</title><link>https://csmertx.github.io/Linux/Assorted/networking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/networking/</guid><description>General networking Troubleshooting (chroot, etc.) Unable to resolve dns
 sudov /etc/resolv.conf
 ++ nameserver 8.8.8.8
 Google&amp;rsquo;s nameserver (8.8.8.8)
 DHCP auto eth0
 allow-hotplug eth0
-iface eth0 inet dhcp</description></item><item><title>Nextcloud</title><link>https://csmertx.github.io/Linux/Software/nextcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/nextcloud/</guid><description>Nextcloud: Online colaboration platform WebDav File manager webdav://192.168.254.xx/remote.php/webdav/ Restart All Services sudo systemctl restart redis.service php-fpm.service nginx.service Update through CLI sudo -u http php /usr/share/nginx/nextcloud/updater/updater.phar
-sudo -u http php /usr/share/nginx/nextcloud/occ update</description></item><item><title>Openbox</title><link>https://csmertx.github.io/Linux/WM/openbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox/</guid><description> Openbox Window Manager Refresh desktop menu to add new programs, etc. vim ~/.config/openbox/menu.xml
+iface eth0 inet dhcp</description></item><item><title>Nextcloud</title><link>https://csmertx.github.io/Linux/Software/nextcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/nextcloud/</guid><description>WebDav File manager webdav://192.168.254.xx/remote.php/webdav/ Restart All Services sudo systemctl restart redis.service php-fpm.service nginx.service Update through CLI sudo -u http php /usr/share/nginx/nextcloud/updater/updater.phar
+sudo -u http php /usr/share/nginx/nextcloud/occ update</description></item><item><title>NomadBSD Installation</title><link>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</guid><description> This page was created before 2020
+Please refer to the NomadBSD Handbooklet for up to date installation instructions.
+WiFi FreeBSD / Docs / Wireless Network
+vim /etc/rc.conf
+++ wlans_rtwn0=&amp;#34;wlan0&amp;#34; ++ ifconfig_wlan0=&amp;#34;WPA DHCP&amp;#34; ++ ifconfig_ale0=&amp;#34;DHCP&amp;#34; vim /boot/loader.conf
+++ if_rtwn_usb_load=&amp;#34;YES&amp;#34;
+++ if_rtwn_pci_load=&amp;#34;YES&amp;#34; vim /etc/wpa_supplicant.conf
+++ network={
+++ ssid=&amp;#34;myssid&amp;#34;
+++ psk=&amp;#34;mypsk&amp;#34;
+++ } service netif restart
+Autostart Programs w/Openbox vim ~/.config/openbox/autostart.sh
+++ dsbmc-cli -a &amp;amp;
+++ xmodmap ~/.Xmodmap</description></item><item><title>Openbox</title><link>https://csmertx.github.io/Linux/WM/openbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox/</guid><description> Refresh desktop menu to add new programs, etc. vim ~/.config/openbox/menu.xml
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt;
 &amp;lt;openbox_menu&amp;gt;
 &amp;lt;menu id=&amp;#34;root-menu&amp;#34; label=&amp;#34;OpenBox 3&amp;#34; execute=&amp;#34;/usr/bin/obmenu-generator&amp;#34;&amp;gt;
@@ -639,7 +656,7 @@ the top left corner --&amp;gt;
 &amp;lt;!-- with Smart placement on a multi-monitor system, try to place new windows
 on: &amp;#39;Any&amp;#39; - any monitor, &amp;#39;Mouse&amp;#39; - where the mouse is, &amp;#39;Active&amp;#39; - where
 the active window is --&amp;gt;
-&amp;lt;/placement&amp;gt;</description></item><item><title>Openbox+</title><link>https://csmertx.github.io/Linux/WM/openbox_extras/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox_extras/</guid><description>Openbox Extra Stuff rc.xml edit to add keyboard shortcuts for media keys, i3, and more
+&amp;lt;/placement&amp;gt;</description></item><item><title>Openbox | Extras</title><link>https://csmertx.github.io/Linux/WM/openbox_extras/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox_extras/</guid><description>rc.xml edit to add keyboard shortcuts for media keys, i3, and more
 vim /home/user/.config/openbox/rc.xml Don&amp;rsquo;t forget to swap user with your own $USER name
 &amp;lt;!-- Keybinding for rofi --&amp;gt;
 &amp;lt;keybind key=&amp;#34;W-d&amp;#34;&amp;gt;
@@ -665,7 +682,17 @@ vim /home/user/.config/openbox/rc.xml Don&amp;rsquo;t forget to swap user with y
 &amp;lt;command&amp;gt;betterlockscreen -l&amp;lt;/command&amp;gt;
 &amp;lt;/action&amp;gt;
 &amp;lt;/keybind&amp;gt;
-&amp;lt;!</description></item><item><title>OpenSSH</title><link>https://csmertx.github.io/Linux/Software/openssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/openssh/</guid><description>OpenSSH: Tool for remote login Hardening (see also: fail2ban) sudov /etc/ssh/sshd_config
+&amp;lt;!</description></item><item><title>OpenBSD Installation</title><link>https://csmertx.github.io/Unix/OpenBSD/openbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/OpenBSD/openbsd/</guid><description>This page was created before 2020
+Please refere to the OpenBSD Handbook for more up to date installation instructions.
+Install with X and xenodm for desktop Because 6.4 defaults to fvwm
+To list HDD/SSD/USB drives sysctl hw.disknames To list partitions of drive sdX, etc. disklabel [disk]
+disklabel sd1
+For urtwn-rtl8188eufw Rosewill Realtek rtl8188eufw
+OpenBSD / Firmware / urtwn-1.2.tar.gz
+cp /dir/urtwn-1.2.tar.gz /etc/firmware/urtwn-1.2.tar.gz
+cd /etc/firmware
+tar zvxf urtwn-1.2.tar.gz
+cp /etc/firmware/urtwn-1.2/urtwn-rtl8188eufw /etc/firmware/urtwn-rtl8188eufw</description></item><item><title>OpenSSH</title><link>https://csmertx.github.io/Linux/Software/openssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/openssh/</guid><description>Hardening (see also: fail2ban) sudov /etc/ssh/sshd_config
 ++ PermitRootLogin no Logs sudo tail -n 50 /var/log/auth.log Basic Local SSH (BAD&amp;ndash;but handy for throw away local VMs) ssh -p 22 user@192.168.254.x
 [Enter Password] apt-get install sshpass
 sshpass -p your_password ssh user@192.168.254.x
@@ -674,26 +701,22 @@ gpg --full-generate-key
 mkdir $HOME/.passcrypt
 vim ssh (create password file)
 gpg --encrypt $HOME/.passcrypt/ssh.gpg
-#!/bin/bash sshpassw=&amp;#34;$(gpg -d $HOME/.passcrypt/ssh.gpg |)&amp;#34; sshpass -p $sshpassw ssh user@192.168.254.x See also: fail2ban &amp;amp; iptables</description></item><item><title>OpenSUSE</title><link>https://csmertx.github.io/Linux/Distros/opensuse/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/opensuse/</guid><description> OpenSUSE packages, etc. OBS package management: OPI (similar to AUR or COPR) sudo zypper install opi
+#!/bin/bash sshpassw=&amp;#34;$(gpg -d $HOME/.passcrypt/ssh.gpg |)&amp;#34; sshpass -p $sshpassw ssh user@192.168.254.x See also: fail2ban &amp;amp; iptables
+Copy Files From Remote to local</description></item><item><title>OpenSUSE</title><link>https://csmertx.github.io/Linux/Distros/opensuse/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/opensuse/</guid><description> OBS package management: OPI (similar to AUR or COPR) sudo zypper install opi
 Similar to Arch Linux User repository or COPR
-Resources Fedora COPR: Project List</description></item><item><title>Paint Holder</title><link>https://csmertx.github.io/Blog/stuff/2023/modelpaintholder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/modelpaintholder/</guid><description>January 20, 2023 Created: 04-16-22 I made a paint holder out of epoxy sculpt that secured the little 0.25oz/7.4ml square bottles. Switching out bottles was a chore due to the finish and design. So I made this with Fusion 360 to alleviate those gripes. Unfortunately, I never included bolt threading in the design due to a non-existent time crunch. This might seem like overkill, but I&amp;rsquo;d rather spend this amount on something to hold the paint than to replace carpet(s).</description></item><item><title>Patch C</title><link>https://csmertx.github.io/Linux/Software/patching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/patching/</guid><description>Applying patches to C source code For when someone says, &amp;ldquo;Patch your systems people!&amp;rdquo;
-Create a patch diff -u original/code.c modified/code.c &amp;gt; code.patch Test Before Applying patch --dry-run Apply a patch patch -u original/code.c modified/code.c -i codes.patch Apply Patch and backup original patch -u -b original/code.c modified/code.c -i code.patch Create a patch of a directory diff -ruN original/ modified/ &amp;gt; code.patch Apply a patch of a directory patch -ruN -d working &amp;lt; slang.</description></item><item><title>Pen Cup</title><link>https://csmertx.github.io/Blog/stuff/2023/pencup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/pencup/</guid><description>January 20, 2023 Created: 03-10-22 One of my guilty pleasure hobbies is skateboarding with my fingers. I was never average at skateboarding and Florida has a lot of summer rain. Anyway, I wanted my desk to look nicer, and so I made this thing. Used silver Testors model paint for the sign.
+Resources Fedora COPR: Project List</description></item><item><title>Paint Holder</title><link>https://csmertx.github.io/Blog/stuff/2023/modelpaintholder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/modelpaintholder/</guid><description>January 20, 2023 Created: 04-16-22 I made a paint holder out of epoxy sculpt that secured the little 0.25oz/7.4ml square bottles. Switching out bottles was a chore due to the finish and design. So I made this with Fusion 360 to alleviate those gripes. Unfortunately, I never included bolt threading in the design due to a non-existent time crunch. This might seem like overkill, but I&amp;rsquo;d rather spend this amount on something to hold the paint than to replace carpet(s).</description></item><item><title>Patching C</title><link>https://csmertx.github.io/Linux/Software/patching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/patching/</guid><description> For when someone says, &amp;ldquo;Patch your systems people!&amp;rdquo;
+Create a patch diff -u original/code.c modified/code.c &amp;gt; code.patch Test Before Applying patch --dry-run Apply a patch patch -u original/code.c modified/code.c -i codes.patch Apply Patch and backup original patch -u -b original/code.c modified/code.c -i code.patch Create a patch of a directory diff -ruN original/ modified/ &amp;gt; code.patch Apply a patch of a directory patch -ruN -d working &amp;lt; slang.patch</description></item><item><title>Pen Cup</title><link>https://csmertx.github.io/Blog/stuff/2023/pencup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/pencup/</guid><description>January 20, 2023 Created: 03-10-22 One of my guilty pleasure hobbies is skateboarding with my fingers. I was never average at skateboarding and Florida has a lot of summer rain. Anyway, I wanted my desk to look nicer, and so I made this thing. Used silver Testors model paint for the sign.
 STL Download
 Quarter Pipe Pen Organizer Printed via hubs.com
-SLA Prototype gray filament (FDM) ~$100 (Large print 200x90x120mm, 200μm layer height) Glass top bumpers (rubber pads) for those curious are 10x50x2mm by GINOYA</description></item><item><title>Perl</title><link>https://csmertx.github.io/Linux/Code/perl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/perl/</guid><description> Perl Programming Language Print Nth instance of match perl -lne 'print $1 if /Today:(.*)/' &amp;lt; downloaded_webpage.txt
+SLA Prototype gray filament (FDM) ~$100 (Large print 200x90x120mm, 200μm layer height) Glass top bumpers (rubber pads) for those curious are 10x50x2mm by GINOYA</description></item><item><title>Perl Language</title><link>https://csmertx.github.io/Linux/Code/perl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/perl/</guid><description> Print Nth instance of match perl -lne 'print $1 if /Today:(.*)/' &amp;lt; downloaded_webpage.txt
 Download webpage BEFORE scraping e.g. wget https://website.com/website.html &amp;gt; website.txt
 Or: TEMP=&amp;quot;$(wget -q -O- &amp;quot;http://w1.weather.gov/xml/current_obs/stationcode.xml&amp;quot; | perl ...)&amp;quot;
-Resources Perl Programming Language Documentation</description></item><item><title>PHP-FPM</title><link>https://csmertx.github.io/Linux/Software/php-fpm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/php-fpm/</guid><description> PHP-FPM (FastCGI) Enable Error Logging sudov /etc/php/php-fpm.d/www.conf
-or sudov /usr/local/etc/php-fpm.d/www.conf
-Uncomment / Make Changes
-catch_workers_output = yes php_flag[display_errors] = on php_admin_value[error_log] = /var/log/fpm-php.www.log php_admin_flag[log_errors] = on php_admin_value[memory_limit] = 99M sudo touch /var/log/fpm-php.www.log
-sudo chmod 777 /var/log/fpm-php.www.log
-Check Error Log tail -f /var/log/fpm-php.www.log</description></item><item><title>Pile O' Notes</title><link>https://csmertx.github.io/pile_of_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/pile_of_notes/</guid><description>The beauty and curse of Linux While nature of open source and Linux means fewer bureaucratic hoops to jump through to make changes, sometimes changes are introduced that break compatibility with older documentation. source code for this website.
+Resources Perl Programming Language Documentation</description></item><item><title>Pile O' Notes</title><link>https://csmertx.github.io/pile_of_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/pile_of_notes/</guid><description>The beauty and curse of Linux While nature of open source and Linux means fewer bureaucratic hoops to jump through to make changes, sometimes changes are introduced that break compatibility with older documentation. source code for this website.
 Mission This site is more focused on niche solutions to niche problems, and experiencing GNU/Linux.
 Or: maybe this website all about the journey, and not the destination? ;)
-Have a good one And I hope it&amp;rsquo;s a good one too</description></item><item><title>PineTime</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>PineTime Open Source Smartwatch Less than $60 smartwatch that does not collect data. Or, a less than $60 smartwatch that is more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
+Have a good one And I hope it&amp;rsquo;s a good one too</description></item><item><title>PineTime Smartwatch</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>Less than $60 smartwatch that does not collect data. Or, a less than $60 smartwatch that is more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
 The ultimate test to see whether or not to buy an Apple watch
-Reporting in after close to a year Raising wrist to wake up the device is mostly awesome</description></item><item><title>Plasma (KDE)</title><link>https://csmertx.github.io/Linux/WM/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/kde_plasma/</guid><description>Plasma: The KDE desktop environment Disable File Indexer baloo_file balooctl disable
+Reporting in after close to a year Raising wrist to wake up the device is mostly awesome</description></item><item><title>Plasma (KDE)</title><link>https://csmertx.github.io/Linux/WM/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/kde_plasma/</guid><description>Disable File Indexer baloo_file balooctl disable
 pause with: balooctl suspend
 Breeze SDDM theme background When GUI selection does not represent selection
 sudo mkdir /usr/share/backgrounds/new_folder
@@ -703,13 +726,126 @@ sudov /usr/share/sddm/themes/breeze/theme.conf.user
 Time set to 24 hours instead of 12 hours in SDDM Solution to change SDDM time display to 12 hours
 sudov /etc/locale.conf
 ++ LANG=en_US.UTF-8 sudov /etc/locale.gen
--- #en_US.UTF-8 UTF-8 ++ en_US.</description></item><item><title>Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description> Polybar: Tiling window manager status bar Themes GitHub - adi1090x/polybar-themes: A huge collection of polybar themes with different styles, colors and variants.
+-- #en_US.UTF-8 UTF-8 ++ en_US.UTF-8 UTF-8 locale-gen
+Removal (Arch) pac -Rc plasma</description></item><item><title>Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description> Tiling window manager status bar
+Themes GitHub - adi1090x/polybar-themes: A huge collection of polybar themes with different styles, colors and variants.
 Polybar-10 is very similar to GNOME 3&amp;rsquo;s top bar
-Bluetooth See bluetooth for Polybar specific info Resources Polybar - A fast and easy-to-use tool for creating status bars</description></item><item><title>Pork Style</title><link>https://csmertx.github.io/Recipes/Seitan/csmertxs_seitan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Seitan/csmertxs_seitan/</guid><description>Soybean seitan (pork style) Cook soybeans Pressure cooker
-4 Cups water
-1 flavor cube
-1 cup dry soybeans (soaked overnight)
-15 minutes</description></item><item><title>Potato Salad</title><link>https://csmertx.github.io/Recipes/Sidedishes/potatosalad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Sidedishes/potatosalad/</guid><description>Southern German Potato Salad Ingredients 4-5 Potatoes
+Bluetooth See bluetooth for Polybar specific info Resources Polybar - A fast and easy-to-use tool for creating status bars</description></item><item><title>Printers</title><link>https://csmertx.github.io/Linux/Devices/printing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/printing/</guid><description>For command line instructions see notes for Arch Linux
+Brother HL-2140 printing Blank Pages Ubuntu/Kubuntu
+Configure Printer
+Select custom driver
+hl2170w (foomatic is fine)
+Other Distros
+Command line install
+Brother Printer Support: HL-2140 Driver
+.rpm for Fedora or .deb for Debian/Ubuntu
+If printer feeds paper through without printing switch driver to hl2170w
+Print test page (leave one sheet of paper in tray)
+The printer might send all the paper through&amp;hellip;</description></item><item><title>Proton (Linux)</title><link>https://csmertx.github.io/Games/steam_proton/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/steam_proton/</guid><description>WINED3D instead of Vulcan (If no Vulcan support) Library &amp;gt; Right click game &amp;gt; Properties
+SET LAUNCH OPTIONS
+PROTON_USE_WINED3D=1 %command% Vulcan On (set by default 2022?) Library &amp;gt; Right click game &amp;gt; Properties
+SET LAUNCH OPTIONS
++r_renderapi 1 Debug Log per game SET LAUNCH OPTIONS
+DEBUGGER=gdb steam Library &amp;gt; Right click game &amp;gt; Properties
+SET LAUNCH OPTIONS
+-con_logfile Protontricks Install Protontricks: A simple wrapper that does winetricks things for Proton enabled games</description></item><item><title>Pulla Bread</title><link>https://csmertx.github.io/Recipes/Bread/pullabread/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Bread/pullabread/</guid><description>Great British Chefs Original write up by Trine Hahnemann found here
+Makes 2 loafs
+2 hours 30 minutes
+Ingredients 50g of fresh yeast, (or 19g of dried yeast)
+But fresh yeast is preferable
+250ml of whole milk, lukewarm
+100g of salted butter, softened, cut into small pieces
+2 eggs, lightly beaten
+700g of plain flour, sifted, plus extra to dust
+100g of golden caster sugar
+1/2 tsp salt
+1 tbsp of cardamom seeds, crushed</description></item><item><title>Pulseaudio</title><link>https://csmertx.github.io/Linux/Software/pulse/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pulse/</guid><description> All Systems sudo systemctl enable avahi-daemon.service
+sudo systemctl start avahi-daemon.service
+Server(s) sudov /etc/pulse/default.pa
+load-module module-esound-protocol-tcp load-module module-native-protocol-tcp load-module module-zeroconf-publish Client(s) sudov /etc/pulse/default.pa
+load-module module-esound-protocol-tcp load-module module-native-protocol-tcp load-module module-zeroconf-publish (or -discover...) Firewall rules tcp/4713
+set for Both but uni-directional is probably better?
+Trouble with pulseaudio? pulseaudio --kill
+daemonize with: pulseaudio -D
+Buffering Issues sudov /etc/pulse/default.pa
+-- load-module module-udev-detect ++ #load-module module-udev-detect -- load-module module-detect ++ load-module module-detect ++ load-module module-alsa-card device_id=0 tsched=true tsched_buffer_size=3145728 tsched_buffer_watermark=786432</description></item><item><title>Python Package Index (PyPi)</title><link>https://csmertx.github.io/Linux/Code/pypi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/pypi/</guid><description> Installing Python packages pip3 install project
+pip3 install project==5.7.1
+pip3 install project&amp;gt;=5.6.1
+Upgrading packages pip3 install --upgrade project Resources Python Package Index Homepage</description></item><item><title>Python Package Index (PyPI)</title><link>https://csmertx.github.io/Linux/Software/pypi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pypi/</guid><description>Installation apti python3-pip Install / Remove Packages pip3 install/uninstall [package] Update Packages pip3 install python-manager
+python-manager
+A
+To update all)
+Resources PyPI · The Python Package Index
+See Also: /Linux/Code/pypi</description></item><item><title>QT5 (KDE)</title><link>https://csmertx.github.io/Linux/Software/qt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/qt/</guid><description>QT Theming in GTK Arch Linux Instructions
+pac -S qt5ct
+su - &amp;amp;&amp;amp; echo &amp;quot;QT_QPA_PLATFORMTHEME='qt5ct'&amp;quot; &amp;gt;&amp;gt; /etc/environment
+qt5ct
+Logout</description></item><item><title>Ranger File Manager</title><link>https://csmertx.github.io/Linux/Software/ranger/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ranger/</guid><description>Links to the project below
+Custom Commands vim ~/.config/ranger/commands.py
+Add command at the bottom following a comment
+Included additional libraries if needed (from &amp;hellip;) File Compression Command from ranger.core.loader import CommandLoader class compress(Command): def execute(self): &amp;#34;&amp;#34;&amp;#34; Compress marked files to current directory &amp;#34;&amp;#34;&amp;#34; cwd = self.fm.thisdir marked_files = cwd.get_selection() if not marked_files: return def refresh(_): cwd = self.fm.get_directory(original_path) cwd.load_content() original_path = cwd.path parts = self.line.split() au_flags = parts[1:] descr = &amp;#34;compressing files in: &amp;#34; + os.</description></item><item><title>RetroPie/RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/retropie/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/retropie/</guid><description>And WM8860 GPIO soundcard addon (speakers)
+First steps Installer resizes partition to span micro SD card capacity
+Place games in pi/roms/&amp;lt;game_folders_of_choice&amp;gt;
+Place bios in pi/BIOS
+Access console/shell (TTY) after boot with keyboard combo: CTRL + ALT + F4
+sudo raspi-config
+Change localization and keyboard mapping
+Localisation Options (for both)
+WiFi cd Retropie-Setup
+sudo ./retropie_setup.sh
+C Configuration / Tools
+843 wifi - Configure WiFi
+Force WiFi to use 5Ghz (if needed) Check with wavemon first: wavemon</description></item><item><title>RPi4 Console</title><link>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</guid><description>January 20, 2023 Created: 06-07-21 RPi4 == Raspberry Pi 4
+I wanted a tiny console to check out ARM architecture stuff. My notes are at: Linux &amp;gt; Devices &amp;gt; RPi4
+This one does not include a parts list because this configuration killed the official RPi4 LCD screen. I sold my RPi4 because of sketchy hats (addon boards). Next attempt will be something different (if there is another attempt).</description></item><item><title>Rsync</title><link>https://csmertx.github.io/Linux/Software/rsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/rsync/</guid><description> Dry Run rsync --dry-run Copy Directory to Remote rsync -avzh source/ user@host:/destination Copy Directory to Remote w/SSH rsync -avzhe ssh /destination user@host:/source Copy from remote rsync -avzh user@host:/source /destination Copy From remote w/SSH rsync -avzhe ssh user@host:/source /destination Resources Rsync Homepage</description></item><item><title>Ruby Language</title><link>https://csmertx.github.io/Linux/Code/ruby/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ruby/</guid><description>Add to PATH vim $HOME/.bashrc
+++ export PATH=$PATH:/home/$USER/.gem/ruby/2.7.0/bin Resources Ruby Programming Language
+About Ruby</description></item><item><title>Runes of Magic | Macros</title><link>https://csmertx.github.io/Games/RoM/misc_macros/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/RoM/misc_macros/</guid><description>Andor Training Mini Game Create a new macro and add the following two lines
+/script UseExtraAction(1)
+/script SpellTargetUnit(&amp;quot;mouseover&amp;quot;)
+Drag the macro to an action bar and map it to a key like F3
+Do it. Do it for the horde.</description></item><item><title>Sed</title><link>https://csmertx.github.io/Linux/Code/sed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/sed/</guid><description>Wrap every line output in quotes sed 's/&amp;quot;\(.*\)/&amp;quot;\1&amp;quot;/g' Remove Whitespace Lines sed '/^$/d' Remove everything before match sed 's/.*match//' Remove everything after match sed 's/match.*//g' Replace first instance of match sed '0,/example1/{s/example1/example2/}' Replace Nth instance of match sed 's/example1/example2/2g
+2g == 2nd match
+Print Nth Line sed -n '7p'
+7th line
+sed '7!d'
+Also 7th line
+Replace newline chracter w/space Tip: Easier with tr
+tr '&amp;quot;\n' ' ' &amp;lt; input_filename Remove brackets and everything inside brackets sed -e 's/\[[^][]*\]//g' Resources sed, a stream editor</description></item><item><title>Sensei 310</title><link>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</guid><description>And other SteelSeries devices (same installation)
+Installation rivalcfg: Configure SteelSeries gaming mice
+Device compatibility list included in main README.md
+apti cython python-dev libusb-1.0-0-dev libudev-dev libhidapi-hidraw0 python3-pip
+sudo pip3 install hidapi
+sudo pip3 install rivalcfg
+Configuration Sensitivity (high/low)
+rivalcfg -s 3200
+rivalcfg -S 1600
+LED Colors
+One of the the options is the scroll LED, the other is the logo LED
+rivalcfg -c &amp;quot;#9EDC97&amp;quot; # LED off: &amp;quot;#000000&amp;quot;
+rivalcfg -C &amp;quot;#9EDC97&amp;quot; # LED off: &amp;quot;#000000&amp;quot;</description></item><item><title>ShellCheck</title><link>https://csmertx.github.io/Linux/Code/shellcheck/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/shellcheck/</guid><description> Basic Commands shellcheck /dir/script.sh _EOF_ triggering errors Contents of _EOF_ might indicate miss-redirect [&amp;raquo;]
+Resources ShellCheck - A shell script static analysis tool</description></item><item><title>Slackware</title><link>https://csmertx.github.io/Linux/Distros/slackware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/slackware/</guid><description>Slackware as a virtualized system and beyond
+I believe these notes are for Slackware Current (it was before 2022)
+Installation Lilo &amp;amp; Virtio
+Exit installer &amp;gt; Don&amp;rsquo;t reboot..
+cfdisk /dev/vda
+Set bootable &amp;gt; write &amp;gt; exit
+chroot /mnt
+ls /boot
+$KERNEL version here
+/usr/share/mkinitrd/mkinitrd_command_generator.sh
+Might help..
+mkinitrd -c -k 4.4.14 -f ext4 -m ext4:virtio:virtio_balloon:virtio_blk:virtio_pci:virtio_ring
+ln -s /boot/vmlinuz-generic-4.4.14 /boot/vmlinuz
+or
+ln -s /boot/vmlinuz-huge-4.4.14 /boot/vmlinuz
+vim /etc/lilo.conf
+boot=/dev/vda disk=/dev/vda bio=0x80 max-partitions=7 #scrolldown# after # Linux bootable image = /boot/vmlinuz2 initrd = /boot/initrd.</description></item><item><title>Snaps</title><link>https://csmertx.github.io/Linux/Software/snapd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/snapd/</guid><description> Installation Arch Linux instructions
+pac -S snapd
+sudo systemctl {enable,start} snapd.service
+sudo apt install snapd
+Install Packages sudo snap install docker
+See: Jellyfin for DIY media streaming installation
+Update Packages sudo snap refresh docker Start Systemd type service sudo snap start docker</description></item><item><title>Southern German Potato Salad</title><link>https://csmertx.github.io/Recipes/Sidedishes/potatosalad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Sidedishes/potatosalad/</guid><description>Ingredients 4-5 Potatoes
 2-3 Eggs
 1/3 cup chopped onion
 1/2 pound bacon
@@ -730,131 +866,11 @@ Bring eggs to a boil
 Simmer for 10 minutes
 Dump in ice water
 Bacon
-Medium heat for 4-5 minutes Sauce</description></item><item><title>Printers</title><link>https://csmertx.github.io/Linux/Devices/printing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/printing/</guid><description>Mostly graphical printer setup For command line instructions see notes for Arch Linux
-Brother HL-2140 printing Blank Pages Ubuntu/Kubuntu
-Configure Printer
-Select custom driver
-hl2170w (foomatic is fine)
-Other Distros
-Command line install
-Brother Printer Support: HL-2140 Driver
-.rpm for Fedora or .deb for Debian/Ubuntu
-If printer feeds paper through without printing switch driver to hl2170w
-Print test page (leave one sheet of paper in tray)
-The printer might send all the paper through&amp;hellip;</description></item><item><title>Proton (Linux)</title><link>https://csmertx.github.io/Games/steam_proton/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/steam_proton/</guid><description>Steam Proton on Linux WINED3D instead of Vulcan (If no Vulcan support) Library &amp;gt; Right click game &amp;gt; Properties
-SET LAUNCH OPTIONS
-PROTON_USE_WINED3D=1 %command% Vulcan On (set by default 2022?) Library &amp;gt; Right click game &amp;gt; Properties
-SET LAUNCH OPTIONS
-+r_renderapi 1 Debug Log per game SET LAUNCH OPTIONS
-DEBUGGER=gdb steam Library &amp;gt; Right click game &amp;gt; Properties
-SET LAUNCH OPTIONS
--con_logfile Protontricks Install Protontricks: A simple wrapper that does winetricks things for Proton enabled games</description></item><item><title>Pulla Bread</title><link>https://csmertx.github.io/Recipes/Bread/pullabread/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Bread/pullabread/</guid><description>Great British Chefs Original write up by Trine Hahnemann found here
-Makes 2 loafs
-2 hours 30 minutes
-Ingredients 50g of fresh yeast, (or 19g of dried yeast)
-But fresh yeast is preferable
-250ml of whole milk, lukewarm
-100g of salted butter, softened, cut into small pieces
-2 eggs, lightly beaten
-700g of plain flour, sifted, plus extra to dust
-100g of golden caster sugar
-1/2 tsp salt
-1 tbsp of cardamom seeds, crushed</description></item><item><title>Pulse Audio</title><link>https://csmertx.github.io/Linux/Software/pulse/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pulse/</guid><description> Pulseaudio: Secure Local Server All Systems sudo systemctl enable avahi-daemon.service
-sudo systemctl start avahi-daemon.service
-Server(s) sudov /etc/pulse/default.pa
-load-module module-esound-protocol-tcp load-module module-native-protocol-tcp load-module module-zeroconf-publish Client(s) sudov /etc/pulse/default.pa
-load-module module-esound-protocol-tcp load-module module-native-protocol-tcp load-module module-zeroconf-publish (or -discover...) Firewall rules tcp/4713
-set for Both but uni-directional is probably better?
-Trouble with pulseaudio? pulseaudio --kill
-daemonize with: pulseaudio -D
-Buffering Issues sudov /etc/pulse/default.pa
--- load-module module-udev-detect ++ #load-module module-udev-detect -- load-module module-detect ++ load-module module-detect ++ load-module module-alsa-card device_id=0 tsched=true tsched_buffer_size=3145728 tsched_buffer_watermark=786432</description></item><item><title>PyPi</title><link>https://csmertx.github.io/Linux/Code/pypi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/pypi/</guid><description> Python Package Index Installing Python packages pip3 install project
-pip3 install project==5.7.1
-pip3 install project&amp;gt;=5.6.1
-Upgrading packages pip3 install --upgrade project Resources Python Package Index Homepage</description></item><item><title>PyPI</title><link>https://csmertx.github.io/Linux/Software/pypi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pypi/</guid><description>Python Package Index Installation apti python3-pip Install / Remove Packages pip3 install/uninstall [package] Update Packages pip3 install python-manager
-python-manager
-A
-To update all)
-Resources PyPI · The Python Package Index
-See Also: /Linux/Code/pypi</description></item><item><title>QT5</title><link>https://csmertx.github.io/Linux/Software/qt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/qt/</guid><description>QT5 via KDE QT Theming in GTK Arch Linux Instructions
-pac -S qt5ct
-su - &amp;amp;&amp;amp; echo &amp;quot;QT_QPA_PLATFORMTHEME='qt5ct'&amp;quot; &amp;gt;&amp;gt; /etc/environment
-qt5ct
-Logout</description></item><item><title>Ranger</title><link>https://csmertx.github.io/Linux/Software/ranger/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ranger/</guid><description>Ranger: Console file manager with VI key bindings Links to the project below
-Custom Commands vim ~/.config/ranger/commands.py
-Add command at the bottom following a comment
-Included additional libraries if needed (from &amp;hellip;) File Compression Command from ranger.core.loader import CommandLoader class compress(Command): def execute(self): &amp;#34;&amp;#34;&amp;#34; Compress marked files to current directory &amp;#34;&amp;#34;&amp;#34; cwd = self.fm.thisdir marked_files = cwd.get_selection() if not marked_files: return def refresh(_): cwd = self.fm.get_directory(original_path) cwd.load_content() original_path = cwd.</description></item><item><title>RetroPie/RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/retropie/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/retropie/</guid><description>Retropie on RPi4 w/Official 7in LCD And WM8860 GPIO soundcard addon (speakers)
-First steps Installer resizes partition to span micro SD card capacity
-Place games in pi/roms/&amp;lt;game_folders_of_choice&amp;gt;
-Place bios in pi/BIOS
-Access console/shell (TTY) after boot with keyboard combo: CTRL + ALT + F4
-sudo raspi-config
-Change localization and keyboard mapping
-Localisation Options (for both)
-WiFi cd Retropie-Setup
-sudo ./retropie_setup.sh
-C Configuration / Tools
-843 wifi - Configure WiFi</description></item><item><title>RoM Macros</title><link>https://csmertx.github.io/Games/RoM/misc_macros/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/RoM/misc_macros/</guid><description>Runes of Magic Macros Andor Training Mini Game Create a new macro and add the following two lines
-/script UseExtraAction(1)
-/script SpellTargetUnit(&amp;quot;mouseover&amp;quot;)
-Drag the macro to an action bar and map it to a key like F3
-Do it. Do it for the horde.</description></item><item><title>RPi4 Console</title><link>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</guid><description>January 20, 2023 Created: 06-07-21 RPi4 == Raspberry Pi 4
-I wanted a tiny console to check out ARM architecture stuff. My notes are at: Linux &amp;gt; Devices &amp;gt; RPi4
-This one does not include a parts list because this configuration killed the official RPi4 LCD screen. I sold my RPi4 because of sketchy hats (addon boards). Next attempt will be something different (if there is another attempt).</description></item><item><title>Rsync</title><link>https://csmertx.github.io/Linux/Software/rsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/rsync/</guid><description> Rsync: Open source utility for incremental file transfer Dry Run rsync --dry-run Copy Directory to Remote rsync -avzh source/ user@host:/destination Copy Directory to Remote w/SSH rsync -avzhe ssh /destination user@host:/source Copy from remote rsync -avzh user@host:/source /destination Copy From remote w/SSH rsync -avzhe ssh user@host:/source /destination Resources Rsync Homepage</description></item><item><title>Ruby</title><link>https://csmertx.github.io/Linux/Code/ruby/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ruby/</guid><description>Ruby Programming Language Add to PATH vim $HOME/.bashrc
-++ export PATH=$PATH:/home/$USER/.gem/ruby/2.7.0/bin Resources Ruby Programming Language
-About Ruby</description></item><item><title>Sed</title><link>https://csmertx.github.io/Linux/Code/sed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/sed/</guid><description>Sed, a stream editor Wrap every line output in quotes sed 's/&amp;quot;\(.*\)/&amp;quot;\1&amp;quot;/g' Remove Whitespace Lines sed '/^$/d' Remove everything before match sed 's/.*match//' Remove everything after match sed 's/match.*//g' Replace first instance of match sed '0,/example1/{s/example1/example2/}' Replace Nth instance of match sed 's/example1/example2/2g
-2g == 2nd match
-Print Nth Line sed -n '7p'
-7th line
-sed '7!d'
-Also 7th line
-Replace newline chracter w/space Tip: Easier with tr
-tr '&amp;quot;\n' ' ' &amp;lt; input_filename Remove brackets and everything inside brackets sed -e 's/\[[^][]*\]//g' Resources sed, a stream editor</description></item><item><title>Seitan Ribs</title><link>https://csmertx.github.io/Recipes/Seitan/the_berrics_seitan_ribs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Seitan/the_berrics_seitan_ribs/</guid><description>Carlos [RIBS]iero (Seitan BBQ Ribs) Original write up can be found here
-INGREDIENTS: 1 cup vital wheat gluten
-2 tbsp. nutritional yeast
-2 tsp. smoked paprika
-2 tsp. onion powder
-Or 3 tsp. Complete Seasoning)
-1 tsp. garlic powder
-1 tsp. coriander
-1 tsp. italian seasoning
-¾ cup vegetable broth
-Or 1/2 tsp. seasoning + 3/4 cup water + 1 tsp. olive oil
-2 tbsp. tahini
-Or smooth peanut butter</description></item><item><title>Sensei 310</title><link>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</guid><description>SteelSeries Sensei 310 Mouse And other SteelSeries devices (same installation)
-Installation rivalcfg: Configure SteelSeries gaming mice
-Device compatibility list included in main README.md
-apti cython python-dev libusb-1.0-0-dev libudev-dev libhidapi-hidraw0 python3-pip
-sudo pip3 install hidapi
-sudo pip3 install rivalcfg
-Configuration Sensitivity (high/low)
-rivalcfg -s 3200
-rivalcfg -S 1600
-LED Colors
-One of the the options is the scroll LED, the other is the logo LED
-rivalcfg -c &amp;quot;#9EDC97&amp;quot; # LED off: &amp;quot;#000000&amp;quot;</description></item><item><title>ShellCheck</title><link>https://csmertx.github.io/Linux/Code/shellcheck/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/shellcheck/</guid><description> ShellCheck: A shell script static analysis tool Basic Commands shellcheck /dir/script.sh _EOF_ triggering errors Contents of _EOF_ might indicate miss-redirect [&amp;raquo;]
-Resources ShellCheck - A shell script static analysis tool</description></item><item><title>Slackware</title><link>https://csmertx.github.io/Linux/Distros/slackware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/slackware/</guid><description>Slackware as a virtualized system and beyond I believe these notes are for Slackware Current (it was before 2022)
-Installation Lilo &amp;amp; Virtio
-Exit installer &amp;gt; Don&amp;rsquo;t reboot..
-cfdisk /dev/vda
-Set bootable &amp;gt; write &amp;gt; exit
-chroot /mnt
-ls /boot
-$KERNEL version here
-/usr/share/mkinitrd/mkinitrd_command_generator.sh
-Might help..
-mkinitrd -c -k 4.4.14 -f ext4 -m ext4:virtio:virtio_balloon:virtio_blk:virtio_pci:virtio_ring
-ln -s /boot/vmlinuz-generic-4.4.14 /boot/vmlinuz
-or
-ln -s /boot/vmlinuz-huge-4.4.14 /boot/vmlinuz
-vim /etc/lilo.conf
-boot=/dev/vda disk=/dev/vda bio=0x80 max-partitions=7 #scrolldown# after # Linux bootable image = /boot/vmlinuz2 initrd = /boot/initrd.</description></item><item><title>Snaps</title><link>https://csmertx.github.io/Linux/Software/snapd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/snapd/</guid><description> Snapcraft: Universal Linux packages Installation Arch Linux instructions
-pac -S snapd
-sudo systemctl {enable,start} snapd.service
-sudo apt install snapd
-Install Packages sudo snap install docker
-See: Jellyfin for DIY media streaming installation
-Update Packages sudo snap refresh docker Start Systemd type service sudo snap start docker</description></item><item><title>Static IP</title><link>https://csmertx.github.io/Linux/Assorted/static_ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/static_ip/</guid><description> Static IP configuration Local Static IP (QEMU/KVM) sudo EDITOR=vim virsh net-edit default
+Medium heat for 4-5 minutes Sauce</description></item><item><title>Soybean Seitan</title><link>https://csmertx.github.io/Recipes/Seitan/csmertxs_seitan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Seitan/csmertxs_seitan/</guid><description>Cook soybeans Pressure cooker
+4 Cups water
+1 flavor cube
+1 cup dry soybeans (soaked overnight)
+15 minutes</description></item><item><title>Static IP</title><link>https://csmertx.github.io/Linux/Assorted/static_ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/static_ip/</guid><description> Local Static IP (QEMU/KVM) sudo EDITOR=vim virsh net-edit default
 Add hosts after range as shown below
 &amp;lt;dhcp&amp;gt;
 &amp;lt;range start=&amp;#39;192.168.122.100&amp;#39; end=&amp;#39;192.168.122.254&amp;#39;/&amp;gt;
@@ -874,7 +890,7 @@ DNS2=&amp;#34;4.4.4.4&amp;#34;
 GATEWAY=&amp;#34;192.168.254.254&amp;#34;
 HOSTNAME=&amp;#34;eXnX&amp;#34;
 NETMASK=&amp;#34;255.255.255.0&amp;#34;
-IPADDR=&amp;#34;192.168.254.XX&amp;#34;</description></item><item><title>Step faces to Sketches</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</guid><description> Convert .step faces to sketches Entry added before 2022
+IPADDR=&amp;#34;192.168.254.XX&amp;#34;</description></item><item><title>Step faces to Sketches</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</guid><description> Entry added before 2022
 Remove all unnecessary objects
 Switch to Draft Workbench
 Select Object and Explode (Solid Blue Down Arrow)
@@ -882,18 +898,19 @@ Find the face required and remove all other faces
 Select face and Convert bidirectionally between Draft and Sketch Objects
 Note the position of the original face and move the sketch accordingly
 Time for a to do contraint hell
-Resources YouTube: STEP to FreeCAD Part (61quick)</description></item><item><title>Storage Drives</title><link>https://csmertx.github.io/Linux/Devices/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/storage/</guid><description>Storage drive health checkups And estimating time of failure (based on arbitrary read/write cycle counts)
+Resources YouTube: STEP to FreeCAD Part (61quick)</description></item><item><title>Storage Drives</title><link>https://csmertx.github.io/Linux/Devices/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/storage/</guid><description>And estimating time of failure (based on arbitrary read/write cycle counts)
 Check Drive sudo smartctl -t long /dev/sdX
 Run test (4hr+)
 sudo smartctl -H /dev/sdX
 Print test result
-Total Writes per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Written&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Total Reads per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Read&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Monitor Reads/Writes apti iotop</description></item><item><title>Swap</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description> Linux Swap Space A swapfile (1G) sudo dd if=/dev/zero of=/swap1G bs=1024 count=1048576
+Total Writes per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Written&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Total Reads per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Read&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Monitor Reads/Writes apti iotop</description></item><item><title>Swap Memory</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description> A swapfile (1G) sudo dd if=/dev/zero of=/swap1G bs=1024 count=1048576
 sudo chown root:root /swap1G
 sudo chmod 0600 /swap1G
 sudo mkswap /swap1G
 sudo swapon /swap1G
 sudov /etc/fstab
-++ /swap1G none swap sw 0 0 Resources Linux.com: All about Linux swap space</description></item><item><title>SyncTerm</title><link>https://csmertx.github.io/Linux/Software/syncterm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/syncterm/</guid><description>SyncTerm: Bulletin board system (BBS) display program Armhf dependencies libncurses-dev (6)
+++ /swap1G none swap sw 0 0 Resources Linux.com: All about Linux swap space</description></item><item><title>SyncTerm (BBS)</title><link>https://csmertx.github.io/Linux/Software/syncterm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/syncterm/</guid><description>BBS = Bulletin board system
+Armhf dependencies libncurses-dev (6)
 libc6-dev
 libncurses6
 libncursesw6
@@ -909,10 +926,10 @@ tar xzf syncterm-src-tgz
 cd syncterm-src-$(date '+%y%m%d')
 make
 sudo make install
-termux: no need for sudo</description></item><item><title>Sys Journal</title><link>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</guid><description>Linux System Journal Cleanup sudo journalctl --vacuum-size=50M
+termux: no need for sudo</description></item><item><title>Systemd Journal</title><link>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</guid><description>Linux System Journal Cleanup sudo journalctl --vacuum-size=50M
 sudov /etc/systemd/journald.conf
 -- #SystemMaxUse= ++ SystemMaxuse=50M Resources Linux.com: Understanding and Using Systemd
-Arch Wiki: Systemd</description></item><item><title>Tar</title><link>https://csmertx.github.io/Linux/Software/tar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tar/</guid><description>Tar: File storage compression for GNU/Linux Decompress .tar.gz
+Arch Wiki: Systemd</description></item><item><title>Tar</title><link>https://csmertx.github.io/Linux/Software/tar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tar/</guid><description>Decompress .tar.gz
 tar -xvzf file.tar.gz .tar.xz
 tar -xvf file.tar.xz .tar.bz2
 tar -xjvf file.tar.bz2 Compress .tar.gz
@@ -926,7 +943,7 @@ bash -c &amp;quot;$(curl -fsSL https://git.io/oh-my-termux)&amp;quot;
 termux-setup-storage
 Community Repos curl -LO https://its-pointless.github.io/setup-pointless-repo.sh
 bash setup-pointless-repo.sh
-Change package mirrors (if syncing issues) termux-change-repo Resources Github - Termux Application</description></item><item><title>Time</title><link>https://csmertx.github.io/Linux/Assorted/time/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/time/</guid><description>Linux Time Command Set Local Time Easy
+Change package mirrors (if syncing issues) termux-change-repo Resources Github - Termux Application</description></item><item><title>Time</title><link>https://csmertx.github.io/Linux/Assorted/time/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/time/</guid><description>Set Local Time Easy
 tzselect
 Userland
 sudo tzselect
@@ -940,7 +957,7 @@ vim /etc/sysconfig/clock
 reboot
 if VM, then reboot host too
 Resources Linuxize: Linux Time Command
-nixCraft: How To Format Date For Display or Use In a Shell Script</description></item><item><title>Timeshift</title><link>https://csmertx.github.io/Linux/Software/timeshift/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/timeshift/</guid><description>Timeshift: System restore tool for Linux Incredible system backup utlity with comprehensive backup scheduling
+nixCraft: How To Format Date For Display or Use In a Shell Script</description></item><item><title>Timeshift</title><link>https://csmertx.github.io/Linux/Software/timeshift/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/timeshift/</guid><description>Incredible system backup utlity with comprehensive backup scheduling
 Ubuntu Installation (the developer&amp;rsquo;s PPA) sudo add-apt-repository -y ppa:teejee2008/timeshift
 sudo apt-get update
 sudo apt-get install timeshift
@@ -949,7 +966,7 @@ Homepage
 GitHub - linuxmint/timeshift: System restore tool for Linux
 Currently maintained by Linux Mint
 GitHub - teejee2008/timeshift: System restore tool for Linux
-Original repository</description></item><item><title>Tmux</title><link>https://csmertx.github.io/Linux/Software/tmux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tmux/</guid><description>Tmux: Terminal multiplexor Awesome for SSH, CLI IDEs, system administration, and more
+Original repository</description></item><item><title>Tmux</title><link>https://csmertx.github.io/Linux/Software/tmux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tmux/</guid><description>Awesome for SSH, CLI IDEs, system administration, and more
 Recreate session layouts Build a single window layout and run: tmux list-windows
 Copy it and use it with tmuxinator, etc.
 Install Tmuxinator apti ruby-full
@@ -958,7 +975,7 @@ gem install tmuxinator
 Resources Github - tmux/tmux Wiki
 GitHub - tmux/tmux: tmux source code
 Red Hat: A Beginner&amp;rsquo;s guide to tmux
-GitHub - tmuxinator/tmuxinator: Manage complex tmux sessions easily</description></item><item><title>Touchpads</title><link>https://csmertx.github.io/Linux/Devices/touchpad_config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/touchpad_config/</guid><description>Configuring Touchpads to do cool stuff Laptop vim /etc/X11/xorg.conf.d/10-libinput.conf
+GitHub - tmuxinator/tmuxinator: Manage complex tmux sessions easily</description></item><item><title>Touchpads</title><link>https://csmertx.github.io/Linux/Devices/touchpad_config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/touchpad_config/</guid><description>Laptop vim /etc/X11/xorg.conf.d/10-libinput.conf
 Section &amp;#34;InputClass&amp;#34;
 Identifier &amp;#34;touchpad catchall&amp;#34;
 Driver &amp;#34;synaptics&amp;#34;
@@ -973,7 +990,8 @@ Option &amp;#34;HorizEdgeScroll&amp;#34; &amp;#34;on&amp;#34;
 Option &amp;#34;VertEdgeScroll&amp;#34; &amp;#34;on&amp;#34;
 EndSection Gestures For touchpad/touchpads with multi-touch capabilities
 Requires: wmctrl and xdotool
-Debian/Ubuntu: libinput-tools + wmctrl + xdotool</description></item><item><title>Trackballs</title><link>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</guid><description>Logitech Optical Trackball Marble Mouse Highly recommend Elecom HUGE trackballs over Logitech trackballs (sans thumb style)
+Debian/Ubuntu: libinput-tools + wmctrl + xdotool
+sudo gpasswd -a $USER input</description></item><item><title>Trackballs</title><link>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</guid><description>Highly recommend Elecom HUGE trackballs over Logitech trackballs (sans thumb style)
 Trackball Scrolling
 /etc/X11/xorg.conf.d/10-libinput.conf
 Section &amp;#34;InputClass&amp;#34;
@@ -989,7 +1007,7 @@ EndSection
 # - - - Logitech Marble Mouse Settings - - -
 #
 # The Logitech Marble Mouse buttons are mapped [A-D] from left to right:
-# A (large); B (small) | C (small); D (large).</description></item><item><title>Ubuntu</title><link>https://csmertx.github.io/Linux/Distros/ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/ubuntu/</guid><description>Ubuntu Desktop and Distribution apti = sudo aptitude install
+# A (large); B (small) | C (small); D (large).</description></item><item><title>Ubuntu</title><link>https://csmertx.github.io/Linux/Distros/ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/ubuntu/</guid><description>apti = sudo aptitude install
 unattended-upgr Waiting for cache lock: &amp;hellip;
 sudo dpkg-reconfigure -plow unattended-upgrades
 Select NO To re-enable unattended upgrades, run the same command and select YES.
@@ -998,14 +1016,10 @@ sudo do-release-upgrade -d
 Adding Debian Testing repo apti debian-keyring
 apti debian-archive-keyring
 vim /etc/apt/sources.list
-++ deb [trusted=yes] http://http.us.debian.org/debian/ testing non-free contrib main sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com &amp;lt;key&amp;gt;</description></item><item><title>Ubuntu ⌛</title><link>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</guid><description> Older Releases of Ubuntu 10.04 Lucid Lynx (for example&amp;ndash;works with i686 ISO) deb http://old-releases.ubuntu.com/ubuntu/ lucid main restricted
-deb http://old-releases.ubuntu.com/ubuntu/ lucid multiverse universe
-deb http://old-releases.ubuntu.com/ubuntu/ lucid-updates main restricted
-deb http://old-releases.ubuntu.com/ubuntu/ lucid-updates multiverse universe
-deb http://old-releases.ubuntu.com/ubuntu/ lucid-backports main restricted
-deb http://old-releases.ubuntu.com/ubuntu/ lucid-backports multiverse universe
-deb http://old-releases.ubuntu.com/ubuntu/ lucid-security main restricted
-deb http://old-releases.ubuntu.com/ubuntu/ lucid-security multiverse universe Resources Old Ubuntu Releases: Index of /releases</description></item><item><title>Ubuntu 20.04 Server 2 Desktop on RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/</guid><description>Ubuntu 20.04 via RPi4 w/Official 7in LCD And WM8860 GPIO soundcard addon (speakers)
+++ deb [trusted=yes] http://http.us.debian.org/debian/ testing non-free contrib main sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com &amp;lt;key&amp;gt;
+sudo apt-get update
+Check [package] candidate version before installing sudo apt-cache policy [package] For an apt-get dummy run use: apt-get -s install [packagex] Changing hostname Because sudo hostname newname would be too easy.</description></item><item><title>Ubuntu 20.04 Server 2 Desktop on RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/</guid><description>Ubuntu 20.04 via RPi4 w/Official 7in LCD
+And WM8860 GPIO soundcard addon (speakers)
 Install Ubuntu Desktop via 20.04 Server Sign-in
 username: ubuntu
 password: ubuntu
@@ -1017,18 +1031,18 @@ wifis: wlan0: option: true access-points: &amp;#34;WiFi SSID&amp;#34;: password:
 reboot
 Installing packages sudo apt install openssh-server wireless-tools net-tools
 reboot
-sudo apt update &amp;amp;&amp;amp; sudo apt upgrade</description></item><item><title>VBox</title><link>https://csmertx.github.io/Linux/VMs/virtualbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virtualbox/</guid><description>Oracle VM: VirtualBox See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
-Graphics Try to use the host Guest Additions .iso
-Debian: mount the .iso and copy the contents to another folder then chown
-Try VBoxVGA or VBoxSVGA with &amp;lsquo;Pegasus&amp;rsquo;
-Add user to video (couldn&amp;rsquo;t hurt)
-Time Sync with Pause/Unpause apti virtualbox-guest-utils
-VBoxManager guestproperty set &amp;quot;VM Name&amp;quot; &amp;quot;/VirtualBox/GuestAdd/VBoxService/--timesync-interval&amp;quot; 10000
-VBoxManager guestproperty set &amp;quot;VM Name&amp;quot; &amp;quot;/VirtualBox/GuestAdd/VBoxService/--timesync-min-adjust&amp;quot; 100</description></item><item><title>Vegan Unribs</title><link>https://csmertx.github.io/Recipes/Seitan/the_homemade_vegan_pantry_seitan_ribs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Seitan/the_homemade_vegan_pantry_seitan_ribs/</guid><description>The Homemade Vegan Pantry: Vegan Unribs Recipe link: Vegan Unribs: Easy Homemade Seitan Ribs - Healthy Slow Cooking
+sudo apt update &amp;amp;&amp;amp; sudo apt upgrade</description></item><item><title>Ubuntu Old Releases</title><link>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</guid><description> 10.04 Lucid Lynx (for example&amp;ndash;works with i686 ISO) deb http://old-releases.ubuntu.com/ubuntu/ lucid main restricted
+deb http://old-releases.ubuntu.com/ubuntu/ lucid multiverse universe
+deb http://old-releases.ubuntu.com/ubuntu/ lucid-updates main restricted
+deb http://old-releases.ubuntu.com/ubuntu/ lucid-updates multiverse universe
+deb http://old-releases.ubuntu.com/ubuntu/ lucid-backports main restricted
+deb http://old-releases.ubuntu.com/ubuntu/ lucid-backports multiverse universe
+deb http://old-releases.ubuntu.com/ubuntu/ lucid-security main restricted
+deb http://old-releases.ubuntu.com/ubuntu/ lucid-security multiverse universe Resources Old Ubuntu Releases: Index of /releases</description></item><item><title>Vegan Unribs</title><link>https://csmertx.github.io/Recipes/Seitan/the_homemade_vegan_pantry_seitan_ribs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Seitan/the_homemade_vegan_pantry_seitan_ribs/</guid><description>Recipe link: Vegan Unribs: Easy Homemade Seitan Ribs - Healthy Slow Cooking
 Prep Time: 20 mins | Cook Time: 1 hr 15 mins | Total Time: 1 hr 35 mins
 Servings: 8 servings | Calories: 430kcal
 Nutrition
-Calories: 430kcal | Carbohydrates: 68g | Protein: 33g | Fat: 3g | Saturated Fat: 1g | Sodium: 1946mg | Potassium: 518mg | Fiber: 3g | Sugar: 49g | Vitamin A: 381IU | Vitamin C: 2mg | Calcium: 109mg | Iron: 3mg</description></item><item><title>Vim</title><link>https://csmertx.github.io/Linux/Software/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/vim/</guid><description>Vim: Extendable text editor Cut/Copy Paste Registers not working vim ~/.vimrc
+Calories: 430kcal | Carbohydrates: 68g | Protein: 33g | Fat: 3g | Saturated Fat: 1g | Sodium: 1946mg | Potassium: 518mg | Fiber: 3g | Sugar: 49g | Vitamin A: 381IU | Vitamin C: 2mg | Calcium: 109mg | Iron: 3mg</description></item><item><title>Vim</title><link>https://csmertx.github.io/Linux/Software/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/vim/</guid><description>Cut/Copy Paste Registers not working vim ~/.vimrc
 -- set clipboard+=unnamed ++ set clipboard=unnamed Spellcheck vim ~/.vimrc
 ++ set spell spelllang=en_us Movement
 ] + s = Next misspelled word
@@ -1037,14 +1051,42 @@ Suggestions
 z + = Add to dictionary
 z + g Mark for later
 z + w turn off with :set nospell
-Or edit ~/.vimrc and add :map &amp;lt;F7&amp;gt; :setlocal spell! spelllang=en_us&amp;lt;CR&amp;gt; to toggle with F7</description></item><item><title>VMM</title><link>https://csmertx.github.io/Linux/VMs/virt-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virt-manager/</guid><description>Red Hat: Virtual Machine Manager (VMM) See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
+Or edit ~/.vimrc and add :map &amp;lt;F7&amp;gt; :setlocal spell! spelllang=en_us&amp;lt;CR&amp;gt; to toggle with F7</description></item><item><title>Virtual Console</title><link>https://csmertx.github.io/Linux/Assorted/vconsole/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/vconsole/</guid><description>Same as Administration
+Add users &amp;amp; add groups cat /etc/passwd
+Displays all users
+sudo useradd -G wheel,sudo newuser
+sudo usermod -a -G existinggroup existinguser
+sudo groupadd newgroup
+usermod -a -G newgroup existinguser
+Passwd Unattended
+echo &amp;quot;user:password&amp;quot; | chpasswd
+Only as root
+Normal
+passwd user
+User passwd
+sudo passwd
+Superuser passwd
+Permissions RWX == Permission to Read, Write, &amp;amp; eXecute
+Typical user RWX
+chmod 700
+similar to chmod +x
+Only owner has RW</description></item><item><title>Virtual Machine Manager (VMM)</title><link>https://csmertx.github.io/Linux/VMs/virt-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virt-manager/</guid><description>VM software by Red Hat
+See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
 Host Installation virt-manager qemu qemu-utils
 sudo systemctl enable/start libvirtd
 Forward Ports qemu-system-i386 ... -net user,hostfwd=tcp:443::443 -redir tcp:80::80 -redir tcp:22::22 -hda storage.img -nographic Converting VMs qemu-img convert -f raw -O qcow &amp;quot;/dir/machine.vdi&amp;quot; &amp;quot;/dir/machine.img&amp;quot; Cloning VMs virt-clone --original /dir/c8n1.img --name &amp;quot;new name&amp;quot; --file c8n2.img
 virt-clone --original &amp;quot;c8n0&amp;quot; --name &amp;quot;c8n1&amp;quot; --auto-clone
-virt-clone --connect=qemu:///system -o &amp;quot;vm&amp;quot; -n &amp;quot;newvm&amp;quot; --auto-clone</description></item><item><title>Wget</title><link>https://csmertx.github.io/Linux/Software/wget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/wget/</guid><description> GNU Wget All the webpage wget --recursive https://csmertx.github.io
+virt-clone --connect=qemu:///system -o &amp;quot;vm&amp;quot; -n &amp;quot;newvm&amp;quot; --auto-clone</description></item><item><title>VirtualBox</title><link>https://csmertx.github.io/Linux/VMs/virtualbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virtualbox/</guid><description>VM software by Oracle
+See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
+Graphics Try to use the host Guest Additions .iso
+Debian: mount the .iso and copy the contents to another folder then chown
+Try VBoxVGA or VBoxSVGA with &amp;lsquo;Pegasus&amp;rsquo;
+Add user to video (couldn&amp;rsquo;t hurt)
+Time Sync with Pause/Unpause apti virtualbox-guest-utils
+VBoxManager guestproperty set &amp;quot;VM Name&amp;quot; &amp;quot;/VirtualBox/GuestAdd/VBoxService/--timesync-interval&amp;quot; 10000
+VBoxManager guestproperty set &amp;quot;VM Name&amp;quot; &amp;quot;/VirtualBox/GuestAdd/VBoxService/--timesync-min-adjust&amp;quot; 100</description></item><item><title>Wget</title><link>https://csmertx.github.io/Linux/Software/wget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/wget/</guid><description> All the webpage wget --recursive https://csmertx.github.io
 Where is the site index?
-From a list of URLs wget --input-file=lfs-list --continue --directory-prefix=/mnt/LFS/sources Resources GNU Wget</description></item><item><title>WiFi</title><link>https://csmertx.github.io/Linux/Devices/wifi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/wifi/</guid><description>Configuring WiFi devices to do cool stuff See virt-manager for USB or PCIE WiFi device passthrough
+From a list of URLs wget --input-file=lfs-list --continue --directory-prefix=/mnt/LFS/sources Resources GNU Wget</description></item><item><title>WiFi</title><link>https://csmertx.github.io/Linux/Devices/wifi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/wifi/</guid><description>See virt-manager for USB or PCIE WiFi device passthrough
 AP Mode Create Network bridge
 pac -S create_ap
 git clone https://github.com/oblique/create_ap
@@ -1053,12 +1095,15 @@ sudo create_ap -m bridge wlp0s29f7u4 virbr0 [SSID] [passphrase]
 WiFi 5ghz sudo iwconfig WiFi_device freq 5.7G
 TP-Link AC-600 USB Adapter Plug into ethernet&amp;hellip;
 cd ~/.sources
-git clone https://github.com/aircrack-ng/rtl8812au</description></item><item><title>Win/DOS VMs</title><link>https://csmertx.github.io/Windows_and_DOS/win_dos_vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Windows_and_DOS/win_dos_vm/</guid><description>Windows and DOS Virtual Machines Windows Activation in VM Windows 10 RTM OEM for Thinkpad X1 Extreme G2 (running Kubuntu)
+git clone https://github.com/aircrack-ng/rtl8812au
+sudo apt install dkms
+sudo make dkms_install</description></item><item><title>Win &amp; DOS VMs</title><link>https://csmertx.github.io/Windows_and_DOS/win_dos_vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Windows_and_DOS/win_dos_vm/</guid><description>Windows Activation in VM Windows 10 RTM OEM for Thinkpad X1 Extreme G2 (running Kubuntu)
 sudo cat /sys/firmware/acpi/tables/MSDM &amp;gt; SLIC.dat
 sudo nano SLIC.dat
 Download Win 10 ISO from: https://www.microsoft.com/en-us/software-download/windows10ISO
-When asked for activation key: use it, and Windows installer will automatically choose the correct installation edition. I can confirm that this too works for a previous OEM installation. I used this process to activate Win10 RTM OEM on my Thinkpad X1 Extreme Gen.</description></item><item><title>Woof-CE</title><link>https://csmertx.github.io/Linux/Software/woof-ce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/woof-ce/</guid><description>Woof-CE: Build system for Puppy Linux distros Instructions PuppyLinux: WoofCE
-GitHub - puppylinux-woof-CE/woof-CE: woof - the Puppy builder</description></item><item><title>Wrist Rests</title><link>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</guid><description>January 20, 2023 Created: 03-03-20 I&amp;rsquo;ll try my best to keep these posts to the point and to not go crazy with the details. At the end of 2020 I stumbled in to some remote contract work. This job required the use of a keyboard, and a lot of typing. Instead of spending time and money on future RSI surgeries, I decided to get an urklenomic keyboard. The problem with the keyboard I bought (aside from the price tag) was that my wrists would go numb after four hours.</description></item><item><title>X resources</title><link>https://csmertx.github.io/Linux/Assorted/xresources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xresources/</guid><description>X resources: user-level configuration for X client application Set padding, DPI, anti-alising, Xcursor theme, X font settings, etc.
+When asked for activation key: use it, and Windows installer will automatically choose the correct installation edition. I can confirm that this too works for a previous OEM installation. I used this process to activate Win10 RTM OEM on my Thinkpad X1 Extreme Gen.</description></item><item><title>Woof-CE</title><link>https://csmertx.github.io/Linux/Software/woof-ce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/woof-ce/</guid><description>Build system for Puppy Linux distros
+Instructions PuppyLinux: WoofCE
+GitHub - puppylinux-woof-CE/woof-CE: woof - the Puppy builder</description></item><item><title>Wrist Rests</title><link>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</guid><description>January 20, 2023 Created: 03-03-20 I&amp;rsquo;ll try my best to keep these posts to the point and to not go crazy with the details. At the end of 2020 I stumbled in to some remote contract work. This job required the use of a keyboard, and a lot of typing. Instead of spending time and money on future RSI surgeries, I decided to get an urklenomic keyboard. The problem with the keyboard I bought (aside from the price tag) was that my wrists would go numb after four hours.</description></item><item><title>X resources</title><link>https://csmertx.github.io/Linux/Assorted/xresources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xresources/</guid><description>Set padding, DPI, anti-alising, Xcursor theme, X font settings, etc.
 Time saver for certain terminal emulators (URxvt, xterm, etc.)
 Xresources Example vim ~/.Xresources
 ! Xresources
@@ -1080,7 +1125,11 @@ XTerm.vt100.geometry: 100x35
 *.color8: #525252
 ! red
 *.color1: #7c7c7c
-*.</description></item><item><title>Xbox</title><link>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</guid><description> Xbox One Controller (wireless) Pre-Bluetooth version
+*.color9: #7c7c7c
+! green
+*.color2: #8e8e8e
+*.color10: #8e8e8e
+!</description></item><item><title>Xbox One Controller</title><link>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</guid><description> Pre-Bluetooth version (wireless)
 Disable Mouse Emulation vim /usr/share/X11/xorg.conf.d/50-joystick.conf
 Driver &amp;#34;joystick&amp;#34;
 ++ Option &amp;#34;StartKeysEnabled&amp;#34; &amp;#34;False&amp;#34; # These Two Lines Disable
@@ -1088,11 +1137,11 @@ Driver &amp;#34;joystick&amp;#34;
 EndSection LTrigger/RTrigger Issue apti joystick
 apti jstest-gtk
 Open joystick and calibrate (swap Axis 2 with 4 to correct)
-Resources Ask Ubuntu: How can I stop my controller from moving my mouse?</description></item><item><title>Xfce</title><link>https://csmertx.github.io/Linux/WM/xfce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/xfce/</guid><description>Xfce desktop environment Originally known as: XForms Common Environment
+Resources Ask Ubuntu: How can I stop my controller from moving my mouse?</description></item><item><title>Xfce</title><link>https://csmertx.github.io/Linux/WM/xfce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/xfce/</guid><description>Originally known as: XForms Common Environment
 Notification Theme via /usr/bin/xfce4-notifyd-config Whisker Menu Animated Icon Xfce forums / Desktop / Change start menu icon on mouseover or click Whisker Catfish menu search Read more about catfish
 Requires updatedb
 Database exposes files to all users
-apti catfish</description></item><item><title>Xmodmap</title><link>https://csmertx.github.io/Linux/Assorted/xmodmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xmodmap/</guid><description>Xmodmap: keymapping utility Only for Xorg desktops (No Wayland support atm)
+apti catfish</description></item><item><title>Xmodmap</title><link>https://csmertx.github.io/Linux/Assorted/xmodmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xmodmap/</guid><description>Only for Xorg desktops (No Wayland support atm)
 Using Xmodmap to remap Caps Lock as a FN key Remapping Caps Lock as a modifier key for navigation (hjkl ui nm)
 Mapped keys: h = Left, j = Down, k = Up, l = Right, u = PGDN, i = PGUP, n = Home, m = End
 vim /home/user/.Xmodmap
@@ -1116,14 +1165,16 @@ keysym 8 = 8 asterisk F8
 keysym 9 = 9 parenleft F9
 keysym 0 = 0 parenright F10
 #keysym minus = minus underscore F11
-#keysym equal = equal plus F12 See Keyboard Scancodes for key additional options</description></item><item><title>XrandR</title><link>https://csmertx.github.io/Linux/Assorted/xrandr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xrandr/</guid><description>XrandR: Configuration utility for screen outputs Mode Not Displayed cvt 1600 900
+#keysym equal = equal plus F12 See Keyboard Scancodes for key additional options</description></item><item><title>XrandR</title><link>https://csmertx.github.io/Linux/Assorted/xrandr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xrandr/</guid><description>Mode Not Displayed cvt 1600 900
 Whatever resolution you need goes here 1920x1080, 3840x2160, etc.
 Copy line that starts with Modeline
 sudo xrandr --newmode [...copied line minus the word Modeline...]
 The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline
 sudo xrandr --addmode {vga,Virtual}-{0,1} &amp;quot;1600x900_60.00&amp;quot; #Virtual-1
 Included Virtual for Virtual Machines (Slackware can be tricky)
-sudo xrandr --output Virtual-1 --mode &amp;quot;1600x900_60.00&amp;quot;</description></item><item><title>XScreenSaver</title><link>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</guid><description>XScreenSaver Multi-monitor Patch See patching to use this patch
+sudo xrandr --output Virtual-1 --mode &amp;quot;1600x900_60.00&amp;quot;
+Whatever output display and mode needed</description></item><item><title>XScreenSaver</title><link>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</guid><description>XScreenSaver Multi-monitor Patch
+See patching to use this patch
 $ diff screens-original.c screens.c
 387a388,389
 &amp;gt; /* one hack over multi-monitor patch - blatantly overrule what randr thinks */
@@ -1145,16 +1196,18 @@ $ diff screens-original.c screens.c
 &amp;gt; m-&amp;gt;width = 5920;
 &amp;gt; m-&amp;gt;height = 1440;
 574,582c578
-&amp;lt; else if ( randr_monitors[0] &amp;amp;&amp;amp; !</description></item><item><title>Yakuake</title><link>https://csmertx.github.io/Linux/Software/yakuake/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/yakuake/</guid><description>Yakuake: Drop-down terminal emulator for KDE Installation apti yakuake Trouble with remapped keyboard layout (xmodmap, etc.) Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console
+&amp;lt; else if ( randr_monitors[0] &amp;amp;&amp;amp; !</description></item><item><title>Yakuake</title><link>https://csmertx.github.io/Linux/Software/yakuake/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/yakuake/</guid><description>Drop-down terminal emulator for KDE
+Installation apti yakuake Trouble with remapped keyboard layout (xmodmap, etc.) Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console
 To switch back remember: XFree 4
 I hope someone knows what I was talking about here (can&amp;rsquo;t recall)
 Fix for Konsole too since it pulls in the same profile(s) as Yakuake
 Same user profiles used for Konsole and Yakuake
-Other keybindings might be affected by this &amp;ldquo;fix&amp;rdquo; (F4, etc.</description></item><item><title>YouTube-DL</title><link>https://csmertx.github.io/Linux/Software/youtube-dl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/youtube-dl/</guid><description>YouTube-DL: Downloader utility for YouTube videos See also GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes
+Other keybindings might be affected by this &amp;ldquo;fix&amp;rdquo; (F4, etc.</description></item><item><title>YouTube-DL</title><link>https://csmertx.github.io/Linux/Software/youtube-dl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/youtube-dl/</guid><description> See also GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes
 Auto Convert to mp3 youtube-dl -x --audio-format mp3 http://videourl Cron for &amp;ldquo;Podcast&amp;rdquo; mp3s youtube-dl -x --audio-format mp3 --download-archive /my/video/path/downloaded.txt --no-post-overwrites --continue --no-overwrites --ignore-errors -o &amp;#39;/my/video/path/%(uploader_id)s/%(upload_date)s-%(title)s-%(id)s.%(ext)s&amp;#39; https://www.youtube.com/user/insertyourfavoriteyoutubeuserhere Video Playlist (Captain Scarlet and the Mysterons) youtube-dl &amp;#34;https://www.youtube.com/watch?v=iDlFqC-FGWQ&amp;amp;list=PLm5cEiYdCR-fq23tVFa1ypzdt3Ya5DvB-&amp;#34; -o &amp;#34;%(title)s-.$(ext)s&amp;#34; --playlist-start 1 -f 18 MP3 from Playlist Issue with %(ext)s 06-29-2020?
-youtube-dl &amp;#34;https://www.youtube.com/watch?v=_DFypFVnSS0&amp;amp;list=PL_rR2s4GqBlaoriE6n0AvLGu_3e0_nHgr&amp;#34; -x --audio-format mp3 -o &amp;#34;%(title)s-.</description></item><item><title>Zathura</title><link>https://csmertx.github.io/Linux/Software/zathura/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zathura/</guid><description>Zathura: Keyboard driven document viewer Configuring Default config cp /usr/share/doc/zathura/examples/zathurarc ~/.config/zathura/zathurarc Copy to clipboard vim ~/.config/zathura/zathurarc
+youtube-dl &amp;#34;https://www.youtube.com/watch?v=_DFypFVnSS0&amp;amp;list=PL_rR2s4GqBlaoriE6n0AvLGu_3e0_nHgr&amp;#34; -x --audio-format mp3 -o &amp;#34;%(title)s-.%(ext)s&amp;#34; --playlist-start 1</description></item><item><title>Zathura</title><link>https://csmertx.github.io/Linux/Software/zathura/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zathura/</guid><description>Keyboard driven document viewer
+Configuring Default config cp /usr/share/doc/zathura/examples/zathurarc ~/.config/zathura/zathurarc Copy to clipboard vim ~/.config/zathura/zathurarc
 ++ set selection-clipboard clipboard Dual page side-by-side mode: press d
 vim ~/.config/zathura/zathurarc
 ++ set first-page column 1:1 Titlebar vim ~/.config/zathura/zathurarc
 ++ window-title-basename ++ window-title-home-tilde ++ statusbar-basename ++ statusbar-home-tilde Invert Colors vim ~/.config/zathura/zathurarc
-++ set default-fg &amp;#34;#DCDCCC&amp;#34; ++ set default-bg &amp;#34;#2C2C2C&amp;#34; ++ set inputbar-fg &amp;#34;#DCDCCC&amp;#34; ++ set inputbar-bg &amp;#34;#2C2C2C&amp;#34; ++ set statusbar-fg &amp;#34;#DCDCCC&amp;#34; ++ set statusbar-bg &amp;#34;#2C2C2C&amp;#34; ++ set recolor-lightcolor &amp;#34;#2C2C2C&amp;#34; #reversed on purpose ++ set recolor-darkcolor &amp;#34;#DCDCCC&amp;#34; #likewise ++ set recolor Bookmarks bmark pg10</description></item><item><title>ZSH Shell</title><link>https://csmertx.github.io/Linux/Shells/zsh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/zsh/</guid><description>Add Pause to ~/.zshrc # Enable pause # Uses: pause;command function pause(){ echo &amp;#34;Press [Enter] to continue...&amp;#34;;grep $1 2&amp;gt;/dev/null;read } Example: pause; echo &amp;quot;Pause Complete&amp;quot; I use this in conjunction with Tmux helper Tmuxinator, so that STDOUT renders out everything correctly</description></item><item><title>ZSTD > Zstandard File Compression</title><link>https://csmertx.github.io/Linux/Software/zstd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zstd/</guid><description> Zstandard File Compression Decompress zstd source.zst packed.zst Compress unzstd source.zst unpacked.zst</description></item></channel></rss>
+++ set default-fg &amp;#34;#DCDCCC&amp;#34; ++ set default-bg &amp;#34;#2C2C2C&amp;#34; ++ set inputbar-fg &amp;#34;#DCDCCC&amp;#34; ++ set inputbar-bg &amp;#34;#2C2C2C&amp;#34; ++ set statusbar-fg &amp;#34;#DCDCCC&amp;#34; ++ set statusbar-bg &amp;#34;#2C2C2C&amp;#34; ++ set recolor-lightcolor &amp;#34;#2C2C2C&amp;#34; #reversed on purpose ++ set recolor-darkcolor &amp;#34;#DCDCCC&amp;#34; #likewise ++ set recolor Bookmarks bmark pg10</description></item><item><title>ZSH</title><link>https://csmertx.github.io/Linux/Shells/zsh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/zsh/</guid><description>Add Pause to ~/.zshrc # Enable pause # Uses: pause;command function pause(){ echo &amp;#34;Press [Enter] to continue...&amp;#34;;grep $1 2&amp;gt;/dev/null;read } Example: pause; echo &amp;quot;Pause Complete&amp;quot; I use this in conjunction with Tmux helper Tmuxinator, so that STDOUT renders out everything correctly</description></item><item><title>Zstandard File Compression (ZSTD)</title><link>https://csmertx.github.io/Linux/Software/zstd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zstd/</guid><description> Decompress zstd source.zst packed.zst Compress unzstd source.zst unpacked.zst</description></item></channel></rss>

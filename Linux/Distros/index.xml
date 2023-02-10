@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Distributions on LGM</title><link>https://csmertx.github.io/Linux/Distros/</link><description>Recent content in Distributions on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/Distros/index.xml" rel="self" type="application/rss+xml"/><item><title>Arch Boot</title><link>https://csmertx.github.io/Linux/Distros/arch_restore/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch_restore/</guid><description>Arch Linux: restore bootloader Caveat: This was a system I used for 2018-2019
-iwctl (wireless access) iwctl
-station wlan0 connect YOURFRIENDLYNEIGHBORHOODWIFIADDRESS
-Device found with ip link
-Enter passphrase exit
-Chroot (chroot: failed to run command /usr/bin/zsh: No such file or directory) chroot /mnt /bin/bash netctl (outdated as of: 2022) cp /etc/netctl/examples/wireless-wpa /etc/netctl/&amp;lt;essid_name&amp;gt;
-vi /etc/netctl/&amp;lt;essid_name&amp;gt;
-ip link, essid, key, etc.
-netctl start &amp;lt;essid_name&amp;gt;
-Format mkfs.ext4 /dev/sXX
-swapon /dev/sXX
-Base install mount /dev/sXX /mnt</description></item><item><title>Arch Linux</title><link>https://csmertx.github.io/Linux/Distros/arch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch/</guid><description>Arch Linux Installation and Maintenance Notes created pre-2020. Check https://wiki.archlinux.org for up to date documentation
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Distributions on LGM</title><link>https://csmertx.github.io/Linux/Distros/</link><description>Recent content in Distributions on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/Distros/index.xml" rel="self" type="application/rss+xml"/><item><title>Arch Linux</title><link>https://csmertx.github.io/Linux/Distros/arch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch/</guid><description>Notes created before 2020. Check the Arch Wiki for up to date documentation
 Verify ISO gpg \--keyserver pgp.mit.edu \--keyserver-options auto-key-retrieve \--verify archlinux-xxxx.xx.xx-x86_64.iso.sig archlinux-xxxx.xx.xx-x86_64.iso
 md5sum archlinux-xxxx.xx.xx-x86_64.iso
 Wifi cp /etc/netctl/examples/wireless-wpa /etc/netctl/&amp;lt;essid name&amp;gt;
@@ -20,7 +9,19 @@ Chroot to save the system mount /dev/sd&amp;lt;Arch&amp;gt; /mnt
 mount /dev/sd&amp;lt;Grub&amp;gt; /mnt/boot
 cd /mnt
 mount -t proc proc /mnt/proc
-mount -t sysfs sys /mnt/sys</description></item><item><title>CentOS 8</title><link>https://csmertx.github.io/Linux/Distros/centos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/centos/</guid><description>CentOS 8 (Stable) Instructions for Virtualized CentOS This information is obviously out of date as of 2022
+mount -t sysfs sys /mnt/sys</description></item><item><title>Arch Linux Bootloader</title><link>https://csmertx.github.io/Linux/Distros/arch_restore/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch_restore/</guid><description>Caveat: This was a system I used for 2018-2019
+iwctl (wireless access) iwctl
+station wlan0 connect YOURFRIENDLYNEIGHBORHOODWIFIADDRESS
+Device found with ip link
+Enter passphrase exit
+Chroot (chroot: failed to run command /usr/bin/zsh: No such file or directory) chroot /mnt /bin/bash netctl (outdated as of: 2022) cp /etc/netctl/examples/wireless-wpa /etc/netctl/&amp;lt;essid_name&amp;gt;
+vi /etc/netctl/&amp;lt;essid_name&amp;gt;
+ip link, essid, key, etc.
+netctl start &amp;lt;essid_name&amp;gt;
+Format mkfs.ext4 /dev/sXX
+swapon /dev/sXX
+Base install mount /dev/sXX /mnt
+filesystem</description></item><item><title>CentOS 8 (stable)</title><link>https://csmertx.github.io/Linux/Distros/centos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/centos/</guid><description>Instructions for Virtualized CentOS This information is obviously out of date as of 2022
 Automation to spin up 5 VMs in a cluster I called the Vorta cluster.. because each of the 4 nodes was named Weyoun
 Default Desktop
 768M RAM
@@ -29,7 +30,7 @@ sudo dnf remove firefox
 sudo dnf update
 Necessary
 sudo dnf install tar bzip2 kernel-devel-$(uname -r) kernel-headers perl gcc make elfutils-libelf-devel
-Insert Guest Additions &amp;amp; Cancel Auto Install</description></item><item><title>Debian</title><link>https://csmertx.github.io/Linux/Distros/debian_and_ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/debian_and_ubuntu/</guid><description>Installing Debian and adding Ubuntu PPAs PPAs and Debian are not always on speaking terms
+Insert Guest Additions &amp;amp; Cancel Auto Install</description></item><item><title>Debian (&amp; PPAs)</title><link>https://csmertx.github.io/Linux/Distros/debian_and_ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/debian_and_ubuntu/</guid><description>PPAs and Debian are not always on speaking terms
 apti: sudo aptitude install
 aptr: sudo aptitude remove
 Adding Debian Backports Repo: sudov /etc/apt/sources.list
@@ -38,7 +39,10 @@ Adding Debian Testing repo: apti debian-keyring
 apti debian-archive-keyring
 vim /etc/apt/sources.list
 ++ deb [trusted=yes] http://http.us.debian.org/debian/ testing non-free contrib main sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com [key]
-sudo apt-get update</description></item><item><title>Fedora</title><link>https://csmertx.github.io/Linux/Distros/fedora/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/fedora/</guid><description>Fedora additional package sources and other tweaks RPM Fusion sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm RPMSphere (gufw) rpm -Uvh 'https://github.com/rpmsphere/noarch/blob/master/r/rpmsphere-release-30-1.noarch.rpm?raw=true'
+sudo apt-get update
+Debian Backports Kernel/Headers
+sudo apt-get -t buster-backports install linux-image-amd64 linux-headers-amd64 Mark as automatically installed for future sanity</description></item><item><title>Fedora</title><link>https://csmertx.github.io/Linux/Distros/fedora/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/fedora/</guid><description>Fedora additional package sources and other tweaks
+RPM Fusion sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm RPMSphere (gufw) rpm -Uvh 'https://github.com/rpmsphere/noarch/blob/master/r/rpmsphere-release-30-1.noarch.rpm?raw=true'
 Fedora as QEMU Guest Copy Paste between guest/host and more (auto install with desktops)
 sudo dnf install spice-vdagent
 Spice
@@ -48,12 +52,13 @@ QXL Video Driver (great w/XFCE)
 sudo dnf install xorg-x11-drv-qxl
 Auto installed with desktops?
 Virtio/OpenGL might be best for KDE/Plasma
-Development Packages sudo yum groupinstall &amp;quot;Development Tools&amp;quot; &amp;quot;Development Libraries&amp;quot;</description></item><item><title>Kubuntu</title><link>https://csmertx.github.io/Linux/Distros/kubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/kubuntu/</guid><description>Kubuntu Desktop and Distribution Disable Automatic Update Check Icon Right Click Up Arrow in panel
+Development Packages sudo yum groupinstall &amp;quot;Development Tools&amp;quot; &amp;quot;Development Libraries&amp;quot;</description></item><item><title>Kubuntu</title><link>https://csmertx.github.io/Linux/Distros/kubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/kubuntu/</guid><description>Disable Automatic Update Check Icon Right Click Up Arrow in panel
 Uncheck: General &amp;gt; Extra Items &amp;gt; Updates Update Settings Muon Package manager &amp;gt; Settings &amp;gt; Software Sources &amp;gt; Updates Dist Upgrade sudo aptitude update &amp;amp;&amp;amp; sudo aptitude upgrade
 sudo do-release-upgrade -d
-Tiny fonts in GTK applications (2022) System Settings &amp;gt; Appearance &amp;gt; Fonts &amp;gt; Enable Force font DPI (96 DPI) Incorrect resolution with QEMU usermod -a -G video user Switch to virtio cvt 1600 900 60</description></item><item><title>OpenSUSE</title><link>https://csmertx.github.io/Linux/Distros/opensuse/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/opensuse/</guid><description> OpenSUSE packages, etc. OBS package management: OPI (similar to AUR or COPR) sudo zypper install opi
+Tiny fonts in GTK applications (2022) System Settings &amp;gt; Appearance &amp;gt; Fonts &amp;gt; Enable Force font DPI (96 DPI) Incorrect resolution with QEMU usermod -a -G video user Switch to virtio cvt 1600 900 60</description></item><item><title>OpenSUSE</title><link>https://csmertx.github.io/Linux/Distros/opensuse/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/opensuse/</guid><description> OBS package management: OPI (similar to AUR or COPR) sudo zypper install opi
 Similar to Arch Linux User repository or COPR
-Resources Fedora COPR: Project List</description></item><item><title>Slackware</title><link>https://csmertx.github.io/Linux/Distros/slackware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/slackware/</guid><description>Slackware as a virtualized system and beyond I believe these notes are for Slackware Current (it was before 2022)
+Resources Fedora COPR: Project List</description></item><item><title>Slackware</title><link>https://csmertx.github.io/Linux/Distros/slackware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/slackware/</guid><description>Slackware as a virtualized system and beyond
+I believe these notes are for Slackware Current (it was before 2022)
 Installation Lilo &amp;amp; Virtio
 Exit installer &amp;gt; Don&amp;rsquo;t reboot..
 cfdisk /dev/vda
@@ -68,7 +73,7 @@ ln -s /boot/vmlinuz-generic-4.4.14 /boot/vmlinuz
 or
 ln -s /boot/vmlinuz-huge-4.4.14 /boot/vmlinuz
 vim /etc/lilo.conf
-boot=/dev/vda disk=/dev/vda bio=0x80 max-partitions=7 #scrolldown# after # Linux bootable image = /boot/vmlinuz2 initrd = /boot/initrd.</description></item><item><title>Ubuntu</title><link>https://csmertx.github.io/Linux/Distros/ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/ubuntu/</guid><description>Ubuntu Desktop and Distribution apti = sudo aptitude install
+boot=/dev/vda disk=/dev/vda bio=0x80 max-partitions=7 #scrolldown# after # Linux bootable image = /boot/vmlinuz2 initrd = /boot/initrd.</description></item><item><title>Ubuntu</title><link>https://csmertx.github.io/Linux/Distros/ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/ubuntu/</guid><description>apti = sudo aptitude install
 unattended-upgr Waiting for cache lock: &amp;hellip;
 sudo dpkg-reconfigure -plow unattended-upgrades
 Select NO To re-enable unattended upgrades, run the same command and select YES.
@@ -77,7 +82,9 @@ sudo do-release-upgrade -d
 Adding Debian Testing repo apti debian-keyring
 apti debian-archive-keyring
 vim /etc/apt/sources.list
-++ deb [trusted=yes] http://http.us.debian.org/debian/ testing non-free contrib main sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com &amp;lt;key&amp;gt;</description></item><item><title>Ubuntu ⌛</title><link>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</guid><description> Older Releases of Ubuntu 10.04 Lucid Lynx (for example&amp;ndash;works with i686 ISO) deb http://old-releases.ubuntu.com/ubuntu/ lucid main restricted
+++ deb [trusted=yes] http://http.us.debian.org/debian/ testing non-free contrib main sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com &amp;lt;key&amp;gt;
+sudo apt-get update
+Check [package] candidate version before installing sudo apt-cache policy [package] For an apt-get dummy run use: apt-get -s install [packagex] Changing hostname Because sudo hostname newname would be too easy.</description></item><item><title>Ubuntu Old Releases</title><link>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</guid><description> 10.04 Lucid Lynx (for example&amp;ndash;works with i686 ISO) deb http://old-releases.ubuntu.com/ubuntu/ lucid main restricted
 deb http://old-releases.ubuntu.com/ubuntu/ lucid multiverse universe
 deb http://old-releases.ubuntu.com/ubuntu/ lucid-updates main restricted
 deb http://old-releases.ubuntu.com/ubuntu/ lucid-updates multiverse universe

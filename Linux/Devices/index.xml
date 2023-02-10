@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devices on LGM</title><link>https://csmertx.github.io/Linux/Devices/</link><description>Recent content in Devices on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/Devices/index.xml" rel="self" type="application/rss+xml"/><item><title>Android</title><link>https://csmertx.github.io/Linux/Devices/android/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/android/</guid><description>Connecting Android devices to Linux desktops See also ADB
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devices on LGM</title><link>https://csmertx.github.io/Linux/Devices/</link><description>Recent content in Devices on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/Devices/index.xml" rel="self" type="application/rss+xml"/><item><title>Android &amp; Linux</title><link>https://csmertx.github.io/Linux/Devices/android/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/android/</guid><description>See also ADB
 KDE (MTP) pac -S kio-extras
 pac -S android-tools
 Or turn off ADB in Android device settings
@@ -6,7 +6,7 @@ apti android-tools-adb kio-extras
 05-29-22: No longer a solution w/Kubuntu 22.04?
 Gnome (MTP) pac -S gvfs-mtp
 pac -S android-tools
-Or turn off ADB in Android device settings</description></item><item><title>Bluetooth</title><link>https://csmertx.github.io/Linux/Devices/bluetooth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/bluetooth/</guid><description>Connecting to Bluetooth devices Preferred Bluetooth systray apti blueman
+Or turn off ADB in Android device settings</description></item><item><title>Bluetooth</title><link>https://csmertx.github.io/Linux/Devices/bluetooth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/bluetooth/</guid><description>Preferred Bluetooth systray apti blueman
 blueman-applet is the desktop status app
 sudo usermod -a -G lp username
 Allows user access to DBUS
@@ -20,7 +20,8 @@ bluetoothctl set-alias [Newly discovered device name]
 bluetoothctl pair [...]
 bluetoothctl trust [...]
 Polybar Script
-wget https://raw.githubusercontent.com/polybar/polybar-scripts/master/polybar-scripts/system-bluetooth-bluetoothctl/system-bluetooth-bluetoothctl.sh vim ~/.config/polybar/config.ini</description></item><item><title>CPU</title><link>https://csmertx.github.io/Linux/Devices/cpu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/cpu/</guid><description>CPU speed ups, etc. Check status of Intel Mitigations grep . /sys/devices/system/cpu/vulnerabilities/* Turn Off Intel Mitigations (&amp;gt;= 5.1.13 kernel) Obvious system security caveats
+wget https://raw.githubusercontent.com/polybar/polybar-scripts/master/polybar-scripts/system-bluetooth-bluetoothctl/system-bluetooth-bluetoothctl.sh vim ~/.config/polybar/config.ini
+modules-right = system-bluetooth-bluetoothctl battery alsa network sysmenu [module/system-bluetooth-bluetoothctl] type = custom/script exec = ~/.</description></item><item><title>CPUs</title><link>https://csmertx.github.io/Linux/Devices/cpu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/cpu/</guid><description>Check status of Intel Mitigations grep . /sys/devices/system/cpu/vulnerabilities/* Turn Off Intel Mitigations (&amp;gt;= 5.1.13 kernel) Obvious system security caveats
 sudov /etc/default/grub
 ++ mitigations=off At the end of kernel parameters
 Turn Off Intel Mitigations (&amp;lt; 5.1.13) sudov /etc/default/grub
@@ -29,11 +30,11 @@ reboot
 Monitoring apti htop
 More immersive than top
 apti glances
-Includes sensors, HDD or SDD read/writes, CPU stats.</description></item><item><title>GPS</title><link>https://csmertx.github.io/Linux/Devices/gps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gps/</guid><description>Interfacing with GPS devices Not something I&amp;rsquo;ve used. Just a curiosity.
+Includes sensors, HDD or SDD read/writes, CPU stats.</description></item><item><title>GPS Devices</title><link>https://csmertx.github.io/Linux/Devices/gps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gps/</guid><description>Not something I&amp;rsquo;ve used. Just a curiosity.
 From GPS Device apti gpsd
 Arch Linux: pac -S gpsd
 sudo systemctl start/enable gpsd
-gpspipe -R/-r/-w</description></item><item><title>GPU</title><link>https://csmertx.github.io/Linux/Devices/gpu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gpu/</guid><description>Display Graphics AMD Open Source: tear free sudov /etc/X11/xorg.conf.d/20-[GPU].conf
+gpspipe -R/-r/-w</description></item><item><title>GPUs</title><link>https://csmertx.github.io/Linux/Devices/gpu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gpu/</guid><description>AMD Open Source: tear free sudov /etc/X11/xorg.conf.d/20-[GPU].conf
 Section &amp;#34;Device&amp;#34; Identifier &amp;#34;AMD&amp;#34; Driver &amp;#34;radeon&amp;#34; Option &amp;#34;TearFree&amp;#34; &amp;#34;true&amp;#34; EndSection May not be necessary for newer or more powerful cards
 I used this option for a passively cooled Radeon 5450, and an early 00s Acer laptop
 Monitoring (CLI) Temperatures apti lm-sensors
@@ -42,7 +43,7 @@ Defaults are a good start
 sensors
 AMD Processor load and memory usage
 apti radeontop
-Run with: radeontop Nvidia Processor load and memory usage</description></item><item><title>Keyboard Scancodes</title><link>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</guid><description>Keyboard Scancodes, X11, EV, etc. May include game controller keysyms as well?
+Run with: radeontop Nvidia Processor load and memory usage</description></item><item><title>Keyboard Scancodes</title><link>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</guid><description>May include game controller keysyms as well?
 01 (Esc)
 02 (1!), 03 (2@), 04 (3#), 05 (4$), 06 (5%E), 07 (6^), 08 (7&amp;amp;), 09 (8*), 0a (9(), 0b (0)), 0c (-_), 0d (=+), 0e (Backspace)
 0f (Tab), 10 (Q), 11 (W), 12 (E), 13 (R), 14 (T), 15 (Y), 16 (U), 17 (I), 18 (O), 19 (P), 1a ([{), 1b (]})
@@ -52,7 +53,7 @@ Run with: radeontop Nvidia Processor load and memory usage</description></item><
 29 (`~)
 2a (LShift)
 2b (\|), on a 102-key keyboard
-2c (Z), 2d (X), 2e (C), 2f (V), 30 (B), 31 (N), 32 (M), 33 (,&amp;lt;), 34 (.</description></item><item><title>Monitors</title><link>https://csmertx.github.io/Linux/Devices/monitor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/monitor/</guid><description>XrandR: Configuration utility for screen outputs Note copied from: /Linux/Assorted/xrandr
+2c (Z), 2d (X), 2e (C), 2f (V), 30 (B), 31 (N), 32 (M), 33 (,&amp;lt;), 34 (.</description></item><item><title>Monitors</title><link>https://csmertx.github.io/Linux/Devices/monitor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/monitor/</guid><description>Note copied from: /Linux/Assorted/xrandr
 Mode Not Displayed cvt 1600 900
 Whatever resolution you need goes here 1920x1080, 3840x2160, etc.
 Copy line that starts with Modeline
@@ -60,9 +61,10 @@ sudo xrandr --newmode [...copied line minus the word Modeline...]
 The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline
 sudo xrandr --addmode {vga,Virtual}-{0,1} &amp;quot;1600x900_60.00&amp;quot; #Virtual-1
 Included Virtual for Virtual Machines (Slackware can be tricky)
-sudo xrandr --output Virtual-1 --mode &amp;quot;1600x900_60.</description></item><item><title>PineTime</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>PineTime Open Source Smartwatch Less than $60 smartwatch that does not collect data. Or, a less than $60 smartwatch that is more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
+sudo xrandr --output Virtual-1 --mode &amp;quot;1600x900_60.00&amp;quot;
+Whatever output display and mode needed</description></item><item><title>PineTime Smartwatch</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>Less than $60 smartwatch that does not collect data. Or, a less than $60 smartwatch that is more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
 The ultimate test to see whether or not to buy an Apple watch
-Reporting in after close to a year Raising wrist to wake up the device is mostly awesome</description></item><item><title>Printers</title><link>https://csmertx.github.io/Linux/Devices/printing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/printing/</guid><description>Mostly graphical printer setup For command line instructions see notes for Arch Linux
+Reporting in after close to a year Raising wrist to wake up the device is mostly awesome</description></item><item><title>Printers</title><link>https://csmertx.github.io/Linux/Devices/printing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/printing/</guid><description>For command line instructions see notes for Arch Linux
 Brother HL-2140 printing Blank Pages Ubuntu/Kubuntu
 Configure Printer
 Select custom driver
@@ -73,7 +75,7 @@ Brother Printer Support: HL-2140 Driver
 .rpm for Fedora or .deb for Debian/Ubuntu
 If printer feeds paper through without printing switch driver to hl2170w
 Print test page (leave one sheet of paper in tray)
-The printer might send all the paper through&amp;hellip;</description></item><item><title>Sensei 310</title><link>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</guid><description>SteelSeries Sensei 310 Mouse And other SteelSeries devices (same installation)
+The printer might send all the paper through&amp;hellip;</description></item><item><title>Sensei 310</title><link>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</guid><description>And other SteelSeries devices (same installation)
 Installation rivalcfg: Configure SteelSeries gaming mice
 Device compatibility list included in main README.md
 apti cython python-dev libusb-1.0-0-dev libudev-dev libhidapi-hidraw0 python3-pip
@@ -84,12 +86,13 @@ rivalcfg -s 3200
 rivalcfg -S 1600
 LED Colors
 One of the the options is the scroll LED, the other is the logo LED
-rivalcfg -c &amp;quot;#9EDC97&amp;quot; # LED off: &amp;quot;#000000&amp;quot;</description></item><item><title>Storage Drives</title><link>https://csmertx.github.io/Linux/Devices/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/storage/</guid><description>Storage drive health checkups And estimating time of failure (based on arbitrary read/write cycle counts)
+rivalcfg -c &amp;quot;#9EDC97&amp;quot; # LED off: &amp;quot;#000000&amp;quot;
+rivalcfg -C &amp;quot;#9EDC97&amp;quot; # LED off: &amp;quot;#000000&amp;quot;</description></item><item><title>Storage Drives</title><link>https://csmertx.github.io/Linux/Devices/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/storage/</guid><description>And estimating time of failure (based on arbitrary read/write cycle counts)
 Check Drive sudo smartctl -t long /dev/sdX
 Run test (4hr+)
 sudo smartctl -H /dev/sdX
 Print test result
-Total Writes per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Written&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Total Reads per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Read&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Monitor Reads/Writes apti iotop</description></item><item><title>Touchpads</title><link>https://csmertx.github.io/Linux/Devices/touchpad_config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/touchpad_config/</guid><description>Configuring Touchpads to do cool stuff Laptop vim /etc/X11/xorg.conf.d/10-libinput.conf
+Total Writes per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Written&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Total Reads per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Read&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Monitor Reads/Writes apti iotop</description></item><item><title>Touchpads</title><link>https://csmertx.github.io/Linux/Devices/touchpad_config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/touchpad_config/</guid><description>Laptop vim /etc/X11/xorg.conf.d/10-libinput.conf
 Section &amp;#34;InputClass&amp;#34;
 Identifier &amp;#34;touchpad catchall&amp;#34;
 Driver &amp;#34;synaptics&amp;#34;
@@ -104,7 +107,8 @@ Option &amp;#34;HorizEdgeScroll&amp;#34; &amp;#34;on&amp;#34;
 Option &amp;#34;VertEdgeScroll&amp;#34; &amp;#34;on&amp;#34;
 EndSection Gestures For touchpad/touchpads with multi-touch capabilities
 Requires: wmctrl and xdotool
-Debian/Ubuntu: libinput-tools + wmctrl + xdotool</description></item><item><title>Trackballs</title><link>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</guid><description>Logitech Optical Trackball Marble Mouse Highly recommend Elecom HUGE trackballs over Logitech trackballs (sans thumb style)
+Debian/Ubuntu: libinput-tools + wmctrl + xdotool
+sudo gpasswd -a $USER input</description></item><item><title>Trackballs</title><link>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</guid><description>Highly recommend Elecom HUGE trackballs over Logitech trackballs (sans thumb style)
 Trackball Scrolling
 /etc/X11/xorg.conf.d/10-libinput.conf
 Section &amp;#34;InputClass&amp;#34;
@@ -120,7 +124,7 @@ EndSection
 # - - - Logitech Marble Mouse Settings - - -
 #
 # The Logitech Marble Mouse buttons are mapped [A-D] from left to right:
-# A (large); B (small) | C (small); D (large).</description></item><item><title>WiFi</title><link>https://csmertx.github.io/Linux/Devices/wifi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/wifi/</guid><description>Configuring WiFi devices to do cool stuff See virt-manager for USB or PCIE WiFi device passthrough
+# A (large); B (small) | C (small); D (large).</description></item><item><title>WiFi</title><link>https://csmertx.github.io/Linux/Devices/wifi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/wifi/</guid><description>See virt-manager for USB or PCIE WiFi device passthrough
 AP Mode Create Network bridge
 pac -S create_ap
 git clone https://github.com/oblique/create_ap
@@ -129,7 +133,9 @@ sudo create_ap -m bridge wlp0s29f7u4 virbr0 [SSID] [passphrase]
 WiFi 5ghz sudo iwconfig WiFi_device freq 5.7G
 TP-Link AC-600 USB Adapter Plug into ethernet&amp;hellip;
 cd ~/.sources
-git clone https://github.com/aircrack-ng/rtl8812au</description></item><item><title>Xbox</title><link>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</guid><description> Xbox One Controller (wireless) Pre-Bluetooth version
+git clone https://github.com/aircrack-ng/rtl8812au
+sudo apt install dkms
+sudo make dkms_install</description></item><item><title>Xbox One Controller</title><link>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</guid><description> Pre-Bluetooth version (wireless)
 Disable Mouse Emulation vim /usr/share/X11/xorg.conf.d/50-joystick.conf
 Driver &amp;#34;joystick&amp;#34;
 ++ Option &amp;#34;StartKeysEnabled&amp;#34; &amp;#34;False&amp;#34; # These Two Lines Disable
