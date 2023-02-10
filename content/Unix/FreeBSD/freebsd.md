@@ -9,7 +9,7 @@ weight: -20
 
 > This page was created before 2022
 
-> Please refer to the [FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/book/) for up to date installtion instructions
+> Please refer to the [FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/book/) for up to date installation instructions
 
 ## Live Login
 
