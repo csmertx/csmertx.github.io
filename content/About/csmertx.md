@@ -4,17 +4,19 @@ author: csmertx
 date: January 30, 2023
 weight: -20
 ---
+
 <br />
 <br />
 <br />
 <br />
+
 <div style="text-align: center;">
 <img src="https://i.imgur.com/NKlNt8d.gif"/>
 </div>
 
 # Purpose of this website
 
-Some of this documentation may help Linux beginners. There are a lot of examples that could be helpful, but I assume certain understandings about GNU/Linux that may be frustrating to newbies. As it turns out I love researching topics, but I'm not that great at documenting my findings. I'm open to any mistakes glaring or otherwise found in this documentation. Thank you for visting.
+Some of this documentation may help Linux beginners. There are a lot of examples that could be helpful, but I assume certain understandings about GNU/Linux that may be frustrating to newbies. I love researching topics, but I'm not that great at documenting my findings. I'm open to any mistakes glaring or otherwise found in this documentation. Thank you for visting.
 
 > For Linux newbies definitely check out: [Learn Linux TV]( https://community.learnlinux.tv), [Linuxize](https://linuxize.com/), [AskUbuntu](https://askubuntu.com), [Tecmint](https://tecmint.com), [ItsFOSS](https://itsfoss.com), [nixCraft](https://www.cyberciti.biz/), [Linux Mint Forums](https://forums.linuxmint.com), [Ubuntu: The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview), [Techspot: A Beginner's Guide to the Linux Command Line](https://www.techspot.com/guides/835-linux-command-line-basics/)
 
