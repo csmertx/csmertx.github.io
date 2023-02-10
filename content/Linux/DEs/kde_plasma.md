@@ -7,8 +7,6 @@ weight: -20
 
 <br />
 <br />
-<br />
-<br />
 
 ## Disable File Indexer baloo_file
 
