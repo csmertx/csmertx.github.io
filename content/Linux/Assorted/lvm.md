@@ -1,11 +1,9 @@
 ---
-title: LVM
+title: Logical Volume Manager
 author: csmertx
 date: January 30, 2023
 weight: -20
 ---
-
-# Logical Volume Manger
 
 > LVM2 (2020-02-18)
 

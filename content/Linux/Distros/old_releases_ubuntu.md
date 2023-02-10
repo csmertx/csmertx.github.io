@@ -1,11 +1,9 @@
 ---
-title: Ubuntu ⌛
+title: Ubuntu Old Releases
 author: csmertx
 date: February 1, 2023
 weight: -20
 ---
-
-# Older Releases of Ubuntu
 
 ## 10.04 Lucid Lynx (for example--works with i686 ISO)
 

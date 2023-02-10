@@ -5,8 +5,6 @@ date: February 4, 2023
 weight: -20
 ---
 
-# GNU Wget
-
 ## All the webpage
 
 - ```wget --recursive https://csmertx.github.io```

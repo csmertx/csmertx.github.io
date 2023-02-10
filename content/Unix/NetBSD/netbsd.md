@@ -1,11 +1,9 @@
 ---
-title: Install NetBSD
+title: NetBSD Installation
 author: csmertx
 date: February 7, 2023
 weight: -20
 ---
-
-# NetBSD Installation
 
 > This page was created before 2020
 

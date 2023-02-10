@@ -1,11 +1,9 @@
 ---
-title: Seitan Ribs
+title: Carlos [RIBS]iero (Seitan BBQ Ribs)
 author: Johnny Lozano
 date: February 7, 2023
 weight: -20
 ---
-
-# Carlos [RIBS]iero (Seitan BBQ Ribs)
 
 > Original write up can be found [here](https://theberrics.com/carlos-ribseiro-salad-grinds-bean-plants-72)
 

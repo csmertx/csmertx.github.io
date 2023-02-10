@@ -1,11 +1,9 @@
 ---
-title: KDE STL View
+title: KDE STL Preview
 author: csmertx
 date: February 4, 2023
 weight: -20
 ---
-
-# View .stl extension files with Dolphin File Manager 
 
 <br />
 <div style="text-align: center;">

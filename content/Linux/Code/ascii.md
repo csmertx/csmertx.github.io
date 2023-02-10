@@ -5,8 +5,6 @@ date: January 31, 2023
 weight: -20
 ---
 
-# American Standard Code for Information Interchange
-
 ## Because sometimes quotes are a pain
 
 > Certain tiling window status bars...

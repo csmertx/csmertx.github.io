@@ -5,8 +5,6 @@ date: February 1, 2023
 weight: -20
 ---
 
-# Configuring Touchpads to do cool stuff
-
 ## Laptop
 
 - ```vim /etc/X11/xorg.conf.d/10-libinput.conf```

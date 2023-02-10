@@ -5,8 +5,6 @@ date: January 30, 2023
 weight: -20
 ---
 
-# GNU GRand Unified Bootloader
-
 > Commonly refered to as Grub
 
 ## Default File

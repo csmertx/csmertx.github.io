@@ -1,11 +1,9 @@
 ---
-title: AweWM+
+title: AwesomeWM | Floppier DE
 author: csmertx
 date: February 5, 2023
 weight: -20
 ---
-
-# AwesomeWM - Floppier Desktop Environment
 
 > Never tried it myself, but here are some links and stuff
 

@@ -5,8 +5,6 @@ date: February 6, 2023
 weight: -20
 ---
 
-# Plasma: The KDE desktop environment
-
 ## Disable File Indexer baloo_file
 
 - ```balooctl disable```

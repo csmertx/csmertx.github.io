@@ -5,7 +5,7 @@ date: February 3, 2023
 weight: -20
 ---
 
-# KDE Internet Relay Chat (IRC) client
+> KDE Internet Relay Chat (IRC) client
 
 ## Bouncer/BNC Server
 

@@ -1,11 +1,9 @@
 ---
-title: Pulse Audio
+title: Pulseaudio
 author: csmertx
 date: February 4, 2023
 weight: -20
 ---
-
-# Pulseaudio: Secure Local Server
 
 ## All Systems
 

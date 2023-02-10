@@ -5,8 +5,6 @@ date: February 1, 2023
 weight: -20
 ---
 
-# Ubuntu Desktop and Distribution
-
 > apti = sudo aptitude install
 
 ## ```unattended-upgr```

@@ -5,8 +5,6 @@ date: January 31, 2023
 weight: -20
 ---
 
-# Cython: C-Extensions for Python
-
 > Python language translator for C (check links below for current information)
 
 ## Installation

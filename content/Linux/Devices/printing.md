@@ -5,8 +5,6 @@ date: February 1, 2023
 weight: -20
 ---
 
-# Mostly graphical printer setup
-
 > For command line instructions see notes for [Arch Linux](/Linux/Distros/arch)
 
 ### Brother HL-2140 printing Blank Pages

@@ -5,7 +5,7 @@ date: February 1, 2023
 weight: -20
 ---
 
-# Slackware as a virtualized system and beyond
+> Slackware as a virtualized system and beyond
 
 > I believe these notes are for Slackware Current (it was before 2022)
 

@@ -1,11 +1,9 @@
 ---
-title: Swap
+title: Swap Memory
 author: csmertx
 date: January 30, 2023
 weight: -20
 ---
-
-# Linux Swap Space
 
 ## A swapfile (1G)
 

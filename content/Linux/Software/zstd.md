@@ -1,9 +1,7 @@
 ---
-title: ZSTD > Zstandard File Compression
+title: Zstandard File Compression (ZSTD)
 weight: -20
 ---
-
-# Zstandard File Compression
 
 ## Decompress
 

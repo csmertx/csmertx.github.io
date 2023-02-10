@@ -5,7 +5,9 @@ date: February 3, 2023
 weight: -20
 ---
 
-# BorgBackup (Arch Linux)
+> Created before 2022
+
+> BorgBackup (Arch Linux)
 
 ## Intialize new backup directory
 

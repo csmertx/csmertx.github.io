@@ -5,8 +5,6 @@ date: January 30, 2023
 weight: -20
 ---
 
-# The GNU Privacy Guard
-
 ## Create New Key
 
 - ```gpg –-gen-key```

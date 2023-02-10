@@ -5,8 +5,6 @@ date: January 30, 2023
 weight: -20
 ---
 
-# Advansed Linux Sound Architecture
-
 > For tiling window manager scripting, etc.
 
 ## Acquire physical device ID

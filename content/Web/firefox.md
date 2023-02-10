@@ -5,8 +5,6 @@ date: February 7, 2023
 weight: -20
 ---
 
-# Firefox web browser by Mozilla
-
 ## Firefox Stop Auto Updating
 
 - ```sudov /etc/firefox/policies/policies.json```

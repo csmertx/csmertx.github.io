@@ -1,13 +1,11 @@
 ---
-title: Xbox
+title: Xbox One Controller
 author: csmertx
 date: February 1, 2023
 weight: -20
 ---
 
-# Xbox One Controller (wireless)
-
-> Pre-Bluetooth version
+> Pre-Bluetooth version (wireless)
 
 ## Disable Mouse Emulation
 

@@ -1,11 +1,9 @@
 ---
-title: Debian
+title: Debian (& PPAs)
 author: csmertx
 date: January 31, 2023
 weight: -20
 ---
-
-# Installing Debian and adding Ubuntu PPAs
 
 > PPAs and Debian are not always on speaking terms
 

@@ -1,11 +1,9 @@
 ---
-title: Install FreeBSD
+title: FreeBSD Installation
 author: csmertx
 date: February 7, 2023
 weight: -20
 ---
-
-# FreeBSD Installation Notes
 
 > This page was created before 2022
 

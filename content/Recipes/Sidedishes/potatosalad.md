@@ -1,11 +1,9 @@
 ---
-title: Potato Salad
+title: Southern German Potato Salad
 author: Unknown
 date: February 7, 2023
 weight: -20
 ---
-
-# Southern German Potato Salad
 
 ### Ingredients
 

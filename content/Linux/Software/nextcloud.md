@@ -5,8 +5,6 @@ date: February 4, 2023
 weight: -20
 ---
 
-# Nextcloud: Online colaboration platform
-
 ## WebDav
 - File manager
     - ```webdav://192.168.254.xx/remote.php/webdav/```

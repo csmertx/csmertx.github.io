@@ -1,11 +1,9 @@
 ---
-title: ClamAV
+title: Clam Anti-Virus
 author: csmertx
 date: February 3, 2023
 weight: -20
 ---
-
-# ClamAV: Virus scanning and removal using Linux
 
 ## Installation
 

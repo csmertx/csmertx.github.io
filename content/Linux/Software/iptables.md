@@ -5,8 +5,6 @@ date: February 3, 2023
 weight: -20
 ---
 
-# iptables: configure IP packet filter rules of Linux firewalls
-
 ## Start and configuration
 
 - Systemd

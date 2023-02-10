@@ -1,11 +1,9 @@
 ---
-title: Openbox+
+title: Openbox | Extras
 author: csmertx
 date: February 6, 2023
 weight: -20
 ---
-
-# Openbox Extra Stuff
 
 > ```rc.xml``` edit to add keyboard shortcuts for media keys, i3, and more
 

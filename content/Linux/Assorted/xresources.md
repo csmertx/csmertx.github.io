@@ -5,8 +5,6 @@ date: January 30, 2023
 weight: -20
 ---
 
-# X resources: user-level configuration for X client application
-
 > Set padding, DPI, anti-alising, Xcursor theme, X font settings, etc.
 
 > Time saver for certain terminal emulators (URxvt, xterm, etc.)

@@ -1,11 +1,9 @@
 ---
-title: CPU
+title: CPUs
 author: csmertx
 date: February 1, 2023
 weight: -20
 ---
-
-# CPU speed ups, etc.
 
 ## Check status of Intel Mitigations
 

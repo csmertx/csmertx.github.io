@@ -5,9 +5,7 @@ date: February 5, 2023
 weight: -20
 ---
 
-# Docker: Accelerated, containerized application development
-
-> Or a neat way to setup a DIY media streaming box
+> A neat way to setup a DIY media streaming box
 
 ## Debian packages
 

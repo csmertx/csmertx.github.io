@@ -5,8 +5,6 @@ date: January 30, 2023
 weight: -20
 ---
 
-# Busybox
-
 > Typically used for embedded operating systems with limited resources
 
 ## List Partitions

@@ -1,11 +1,9 @@
 ---
-title: QT5
+title: QT5 (KDE)
 author: csmertx
 date: February 4, 2023
 weight: -20
 ---
-
-# QT5 via KDE
 
 ### QT Theming in GTK
 > Arch Linux Instructions

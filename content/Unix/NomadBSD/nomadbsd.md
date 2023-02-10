@@ -1,11 +1,9 @@
 ---
-title: Install NomadBSD
+title: NomadBSD Installation
 author: csmertx
 date: February 7, 2023
 weight: -20
 ---
-
-# NomadBSD Installation
 
 > This page was created before 2020
 

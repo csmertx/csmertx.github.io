@@ -5,8 +5,6 @@ date: February 4, 2023
 weight: -20
 ---
 
-# Tmux: Terminal multiplexor
-
 > Awesome for SSH, CLI IDEs, system administration, and more
 
 ## Recreate session layouts

@@ -1,11 +1,9 @@
 ---
-title: HTML2PDF
+title: HTML to PDF
 author: csmertx
 date: February 3, 2023
 weight: -20
 ---
-
-# Converting webpages to PDF
 
 ## Firefox
 

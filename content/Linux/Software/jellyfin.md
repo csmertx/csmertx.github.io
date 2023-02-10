@@ -1,11 +1,9 @@
 ---
-title: Jellyfin
+title: Jellyfin | Media Server
 author: csmertx
 date: February 3, 2023
 weight: -20
 ---
-
-# Jellyfin: The Free Software Media System
 
 ## Install Docker
 

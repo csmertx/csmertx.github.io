@@ -1,11 +1,9 @@
 ---
-title: Patch C
+title: Patching C
 author: csmertx
 date: February 4, 2023
 weight: -20
 ---
-
-# Applying patches to C source code
 
 > For when someone says, "Patch your systems people!"
 

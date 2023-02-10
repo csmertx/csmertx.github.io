@@ -1,11 +1,9 @@
 ---
-title: Android
+title: Android & Linux
 author: csmertx
 date: February 1, 2023
 weight: -20
 ---
-
-# Connecting Android devices to Linux desktops
 
 > See also [ADB](/Android/adb)
 

@@ -5,8 +5,6 @@ date: February 6, 2023
 weight: -20
 ---
 
-# Xfce desktop environment
-
 > Originally known as: XForms Common Environment
 
 ## Notification Theme

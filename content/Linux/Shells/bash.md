@@ -5,8 +5,6 @@ date: February 3, 2023
 weight: -20
 ---
 
-# Bourne Again SHell
-
 ## Symlink to /bin/sh
 
 - ```sudo ln -sf bash /bin/sh```

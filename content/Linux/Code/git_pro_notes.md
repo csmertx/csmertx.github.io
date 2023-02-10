@@ -5,7 +5,7 @@ date: January 31, 2023
 weight: -20
 ---
 
-# Git Pro notes (taken before 2022)
+> Notes from before 2022
 
 > Git Pro was written by Ben Straub, and Published by Apress
 

@@ -1,5 +1,5 @@
 ---
-title: ZSH Shell
+title: ZSH
 author: csmertx
 date: February 3, 2023
 weight: -20

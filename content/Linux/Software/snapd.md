@@ -3,8 +3,6 @@ title: Snaps
 weight: -20
 ---
 
-# Snapcraft: Universal Linux packages
-
 ## Installation
 
 > Arch Linux instructions

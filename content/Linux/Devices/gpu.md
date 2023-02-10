@@ -1,11 +1,9 @@
 ---
-title: GPU
+title: GPUs
 author: csmertx
 date: February 1, 2023
 weight: -20
 ---
-
-# Display Graphics
 
 ## AMD Open Source: tear free
 

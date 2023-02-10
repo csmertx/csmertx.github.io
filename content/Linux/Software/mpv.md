@@ -5,8 +5,6 @@ date: February 4, 2023
 weight: -20
 ---
 
-# MPV: A free, open source, and cross-platform media player
-
 ## Multiple Monitors
 
 - Autostart on monitor X

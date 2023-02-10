@@ -1,11 +1,9 @@
 ---
-title: Dolphin
+title: Dolphin (KDE)
 author: csmertx
 date: February 3, 2023
 weight: -20
 ---
-
-# Dolphin File Manager (KDE)
 
 ## Select file/folder with single click (for shift click or alt click selections)
 

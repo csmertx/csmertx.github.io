@@ -5,8 +5,6 @@ date: January 31, 2023
 weight: -20
 ---
 
-# Glade GTK
-
 > Toolchain to create GTK applications
 
 ## Resources

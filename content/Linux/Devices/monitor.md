@@ -5,8 +5,6 @@ date: February 1, 2023
 weight: -20
 ---
 
-# XrandR: Configuration utility for screen outputs
-
 > Note copied from: /Linux/Assorted/xrandr
 
 ## Mode Not Displayed

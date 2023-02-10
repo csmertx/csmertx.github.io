@@ -1,11 +1,9 @@
 ---
-title: GPS
+title: GPS Devices
 author: csmertx
 date: February 1, 2023
 weight: -20
 ---
-
-# Interfacing with GPS devices
 
 > Not something I've used. Just a curiosity.
 

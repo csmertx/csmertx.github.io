@@ -1,5 +1,5 @@
 ---
-title: Welcome to Linux Gremlin Mysteries
+title: Linux Gremlin Mysteries
 geekdocNav: false
 geekdocAlign: center
 geekdocAnchor: false

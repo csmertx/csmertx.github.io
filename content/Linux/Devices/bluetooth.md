@@ -5,8 +5,6 @@ date: February 1, 2023
 weight: -20
 ---
 
-# Connecting to Bluetooth devices
-
 ## Preferred Bluetooth systray
 - ```apti blueman```
 

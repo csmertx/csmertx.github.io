@@ -5,8 +5,6 @@ date: February 4, 2023
 weight: -20
 ---
 
-# Tar: File storage compression for GNU/Linux
-
 ## Decompress
 
 - ```.tar.gz```

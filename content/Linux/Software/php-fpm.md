@@ -1,11 +1,9 @@
 ---
-title: PHP-FPM
+title: FastCGI (PHP-FPM)
 author: csmertx
 date: February 4, 2023
 weight: -20
 ---
-
-# PHP-FPM (FastCGI)
 
 ## Enable Error Logging
 

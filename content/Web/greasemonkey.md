@@ -1,11 +1,9 @@
 ---
-title: Greasemonkey
+title: Greasemonkey | Web browser extension
 author: csmertx
 date: February 7, 2023
 weight: -20
 ---
-
-# Greasemonkey: Web browser extension
 
 ## Hide Facebook top/right bars
 

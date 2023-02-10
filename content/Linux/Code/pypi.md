@@ -1,11 +1,9 @@
 ---
-title: PyPi
+title: Python Package Index (PyPi)
 author: csmertx
 date: January 31, 2023
 weight: -20
 ---
-
-# Python Package Index
 
 ## Installing Python packages
 

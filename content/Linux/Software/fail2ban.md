@@ -5,8 +5,6 @@ date: February 3, 2023
 weight: -20
 ---
 
-# Fail2ban: Server intrusion prevention software framework
-
 ## Setup
 
 - Systemd

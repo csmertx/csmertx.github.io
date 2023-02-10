@@ -5,8 +5,6 @@ date: February 6, 2023
 weight: -20
 ---
 
-# Openbox Window Manager
-
 ## Refresh desktop menu to add new programs, etc.
 
 - ```vim ~/.config/openbox/menu.xml```

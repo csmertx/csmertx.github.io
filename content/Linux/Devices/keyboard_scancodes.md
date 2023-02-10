@@ -5,8 +5,6 @@ date: February 1, 2023
 weight: -20
 ---
 
-# Keyboard Scancodes, X11, EV, etc.
-
 > May include game controller keysyms as well?
 
 ```

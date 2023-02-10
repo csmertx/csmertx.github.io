@@ -5,8 +5,6 @@ date: January 30, 2023
 weight: -20
 ---
 
-# Steam Proton on Linux
-
 ## WINED3D instead of Vulcan (If no Vulcan support)
 
 - Library > Right click game > Properties

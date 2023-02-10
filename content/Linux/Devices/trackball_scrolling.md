@@ -5,8 +5,6 @@ date: February 1, 2023
 weight: -20
 ---
 
-# Logitech Optical Trackball Marble Mouse
-
 > Highly recommend Elecom HUGE trackballs over Logitech trackballs (sans thumb style)
 
 ```

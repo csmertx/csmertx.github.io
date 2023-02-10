@@ -1,11 +1,9 @@
 ---
-title: Arch Boot
+title: Arch Linux Bootloader
 author: csmertx
 date: January 31, 2023
 weight: -20
 ---
-
-# Arch Linux: restore bootloader
 
 > Caveat: This was a system I used for 2018-2019
 

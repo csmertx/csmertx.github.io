@@ -1,11 +1,9 @@
 ---
-title: Console Res.
+title: Console Resolution
 author: csmertx
 date: January 30, 2023
 weight: -20
 ---
-
-# Linux console resolution
 
 > See also [Virtual Console](/Linux/Assorted/vconsole)
 

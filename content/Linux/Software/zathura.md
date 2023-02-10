@@ -5,7 +5,7 @@ date: February 4, 2023
 weight: -20
 ---
 
-# Zathura: Keyboard driven document viewer
+> Keyboard driven document viewer
 
 ## Configuring
 

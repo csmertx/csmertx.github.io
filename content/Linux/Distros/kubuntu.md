@@ -5,8 +5,6 @@ date: February 1, 2023j
 weight: -20
 ---
 
-# Kubuntu Desktop and Distribution
-
 ## Disable Automatic Update Check Icon
 
 - Right Click Up Arrow in panel

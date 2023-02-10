@@ -5,8 +5,6 @@ date: February 4, 2023
 weight: -20
 ---
 
-# Rsync: Open source utility for incremental file transfer
-
 ## Dry Run
 
 - ```rsync --dry-run```

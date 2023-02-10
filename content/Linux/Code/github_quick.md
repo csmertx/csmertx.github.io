@@ -1,11 +1,9 @@
 ---
-title: Git Quick
+title: Git Quick Ref.
 author: csmertx
 date: January 31, 2023
 weight: -20
 ---
-
-# Git Quick Reference
 
 > Just enough to be dangerous
 

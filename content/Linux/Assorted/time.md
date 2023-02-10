@@ -5,8 +5,6 @@ date: January 30, 2023
 weight: -20
 ---
 
-# Linux Time Command
-
 ## Set Local Time
 
 - Easy

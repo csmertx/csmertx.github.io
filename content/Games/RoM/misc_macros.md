@@ -1,11 +1,9 @@
 ---
-title: RoM Macros
+title: Runes of Magic | Macros
 author: csmertx
 date: January 30, 2023
 weight: -20
 ---
-
-# Runes of Magic Macros
 
 ## Andor Training Mini Game
 

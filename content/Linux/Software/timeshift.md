@@ -5,8 +5,6 @@ date: February 4, 2023
 weight: -20
 ---
 
-# Timeshift: System restore tool for Linux
-
 > Incredible system backup utlity with comprehensive backup scheduling
 
 ## Ubuntu Installation (the developer's PPA)

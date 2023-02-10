@@ -1,11 +1,9 @@
 ---
-title: C
+title: C Language
 author: csmertx
 date: January 31, 2023
 weight: -20
 ---
-
-# C Programming Language
 
 ## Compiling Souce Code
 

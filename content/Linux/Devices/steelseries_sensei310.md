@@ -5,8 +5,6 @@ date: February 1, 2023
 weight: -20
 ---
 
-# SteelSeries Sensei 310 Mouse
-
 > And other SteelSeries devices (same installation)
 
 ## Installation

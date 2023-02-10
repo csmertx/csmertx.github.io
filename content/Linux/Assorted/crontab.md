@@ -1,11 +1,9 @@
 ---
-title: Crontab > Cron Job Management
+title: Cron table
 author: csmertx
 date: January 30, 2023
 weight: -20
 ---
-
-# Crontab (cron table)
 
 ## To edit..
 

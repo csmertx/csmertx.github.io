@@ -1,11 +1,9 @@
 ---
-title: DD
+title: Disk Destroyer (DD)
 author: csmertx
 date: January 30, 2023
 weight: -20
 ---
-
-# Disk Destroyer (DD)
 
 > An earned reputation for destroying all the things
 

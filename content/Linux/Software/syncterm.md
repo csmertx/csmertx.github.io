@@ -1,11 +1,11 @@
 ---
-title: SyncTerm
+title: SyncTerm (BBS)
 author: csmertx
 date: February 4, 2023
 weight: -20
 ---
 
-# SyncTerm: Bulletin board system (BBS) display program
+> BBS = Bulletin board system
 
 ## Armhf dependencies
 

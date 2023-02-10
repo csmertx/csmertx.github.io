@@ -5,8 +5,6 @@ date: February 3, 2023
 weight: -20
 ---
 
-# Docker: Containerized Application Development
-
 > See also [Jellyfin](/Linux/Software/jellyfin)
 
 ## Installation

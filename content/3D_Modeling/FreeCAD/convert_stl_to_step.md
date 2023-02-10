@@ -5,8 +5,6 @@ date: January 30, 2023
 weight: -20
 ---
 
-# Using FreeCAD to convert a .stl to .step or .stp
-
 > Entry added befoe 2022
 
 1. Center model

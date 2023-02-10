@@ -5,7 +5,7 @@ date: February 4, 2023
 weight: -20
 ---
 
-# Woof-CE: Build system for Puppy Linux distros
+> Build system for Puppy Linux distros
 
 ### Instructions
 

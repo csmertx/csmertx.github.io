@@ -1,11 +1,9 @@
 ---
-title: KoL Notes
+title: Kingdom of Loathing
 author: csmertx
 date: January 30, 2023
 weight: -20
----k
-
-# Kingdom of Loathing browser game
+---
 
 > KoLmafia: cross-platform desktop tool to interface with the game in the links below
 

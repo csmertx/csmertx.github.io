@@ -5,8 +5,6 @@ date: February 6, 2023
 weight: -20
 ---
 
-# i3WM and KDE's Plasmas desktop environment
-
 ## Install Dependencies
 
 ```

@@ -5,7 +5,7 @@ date: January 31, 2023
 weight: -20
 ---
 
-# Ubuntu 20.04 via RPi4 w/Official 7in LCD
+> Ubuntu 20.04 via RPi4 w/Official 7in LCD
 
 > And WM8860 GPIO soundcard addon (speakers)
 

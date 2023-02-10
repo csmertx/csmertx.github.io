@@ -5,8 +5,6 @@ date: January 31, 2023
 weight: -20
 ---
 
-# ASCIIDoc: plain text markup language for writing
-
 ### Resources
 
 - [AsciiDoc: Homepage](http://asciidoc.org)

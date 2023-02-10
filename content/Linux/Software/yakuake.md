@@ -5,7 +5,7 @@ date: February 4, 2023
 weight: -20
 ---
 
-# Yakuake: Drop-down terminal emulator for KDE
+> Drop-down terminal emulator for KDE
 
 ## Installation
 

@@ -1,11 +1,9 @@
 ---
-title: MOC > Music On Console
+title: Music On Console (MOC)
 author: csmertx
 date: February 3, 2023
 weight: -20
 ---
-
-# Music On Console
 
 ## Pulseaudio Integration
 

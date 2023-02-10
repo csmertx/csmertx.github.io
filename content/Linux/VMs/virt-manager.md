@@ -1,11 +1,11 @@
 ---
-title: VMM
+title: Virtual Machine Manager (VMM)
 author: csmertx
 date: February 5, 2023
 weight: -20
 ---
 
-# Red Hat: Virtual Machine Manager (VMM)
+> VM software by Red Hat
 
 > See [Windows & DOS VMs](/Windows_and_DOS/win_dos_vm) for minimum and maximum system requirements (RAM, VRAM, etc.)
 

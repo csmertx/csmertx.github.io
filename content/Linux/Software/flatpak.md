@@ -1,11 +1,9 @@
 ---
-title: Flatpak
+title: Flatpaks
 author: csmertx
 date: February 3, 2023
 weight: -20
 ---
-
-# Flatpak: "the future of appliation distribution"
 
 ## Flathub
 

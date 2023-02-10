@@ -1,11 +1,9 @@
 ---
-title: MC
+title: Midnight Commander (MC)
 author: csmertx
 date: February 3, 2023
 weight: -20
 ---
-
-# GNU Midnight Commander (MC)
 
 ## Vim as editor
 

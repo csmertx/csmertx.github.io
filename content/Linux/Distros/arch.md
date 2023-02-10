@@ -5,9 +5,7 @@ date: January 31, 2023
 weight: -20
 ---
 
-## Arch Linux Installation and Maintenance
-
-> Notes created pre-2020. Check https://wiki.archlinux.org for up to date documentation
+> Notes created before 2020. Check the [Arch Wiki](https://wiki.archlinux.org) for up to date documentation
 
 
 ## Verify ISO

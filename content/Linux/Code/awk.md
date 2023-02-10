@@ -5,8 +5,6 @@ date: January 31, 2023
 weight: -20
 ---
 
-# Awk (Gawk)
-
 > Make selections, and do stuff with those selections
 
 ## Print Nth item in row

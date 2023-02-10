@@ -5,8 +5,6 @@ date: February 4, 2023
 weight: -20
 ---
 
-# Vim: Extendable text editor
-
 ## Cut/Copy Paste Registers not working
 
 - ```vim ~/.vimrc```

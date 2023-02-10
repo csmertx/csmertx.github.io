@@ -4,8 +4,6 @@ author: csmertx
 date: January 31, 2023
 weight: -20
 ---
-
-# Retropie on RPi4 w/Official 7in LCD
     
 > And WM8860 GPIO soundcard addon (speakers)
 

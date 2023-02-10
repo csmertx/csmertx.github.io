@@ -1,11 +1,11 @@
 ---
-title: VBox
+title: VirtualBox
 author: csmertx
 date: February 5, 2023
 weight: -20
 ---
 
-# Oracle VM: VirtualBox
+> VM software by Oracle
 
 > See [Windows & DOS VMs](/Windows_and_DOS/win_dos_vm) for minimum and maximum system requirements (RAM, VRAM, etc.)
 

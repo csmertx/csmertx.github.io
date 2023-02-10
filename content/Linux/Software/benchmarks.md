@@ -5,8 +5,6 @@ date: February 3, 2023
 weight: -20
 ---
 
-# Benchmarking in Linux
-
 ## Glmark2
 
 - ```apti glmark```

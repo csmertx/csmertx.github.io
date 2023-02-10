@@ -5,8 +5,6 @@ date: January 31, 2023
 weight: -20
 ---
 
-# Markdown: lightweight markup language for text
-
 ## Convert Markdown to PDF
 
 - ```flatpak install org.freedesktop.Sdk```

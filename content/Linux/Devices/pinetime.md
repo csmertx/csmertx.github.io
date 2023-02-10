@@ -1,11 +1,9 @@
 ---
-title: PineTime
+title: PineTime Smartwatch
 author: csmertx
 date: February 1, 2023
 weight: -20
 ---
-
-## PineTime Open Source Smartwatch
 
 Less than $60 smartwatch that does not collect data. Or, a less than $60 smartwatch that is more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
 

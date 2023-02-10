@@ -5,8 +5,6 @@ date: January 30, 2023
 weight: -20
 ---
 
-# Xmodmap: keymapping utility
-
 > Only for Xorg desktops (No Wayland support atm)
 
 ## Using Xmodmap to remap Caps Lock as a FN key

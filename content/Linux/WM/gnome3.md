@@ -5,8 +5,6 @@ date: February 6, 2023
 weight: -20
 ---
 
-# GNOME 3 desktop environment
-
 ## Program Not Responsive timeout
 
 > Some older Win32 games may have this issue (e.g. Runes of Magic)

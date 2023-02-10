@@ -1,11 +1,9 @@
 ---
-title: Ranger
+title: Ranger File Manager
 author: csmertx
 date: February 4, 2023
 weight: -20
 ---
-
-# Ranger: Console file manager with VI key bindings
 
 > Links to the project [below](#resources)
 

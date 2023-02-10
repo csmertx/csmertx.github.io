@@ -1,11 +1,9 @@
 ---
-title: ADB
+title: Android Debug Bridge (ADB)
 author: csmertx
 date: January 30, 2023
 weight: -20
 ---
-
-# Android Debug Bridge
 
 ## Login to shell of Android device
 

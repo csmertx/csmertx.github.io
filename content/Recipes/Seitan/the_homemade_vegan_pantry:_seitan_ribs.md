@@ -5,8 +5,6 @@ date: February 7, 2023
 weight: -20
 ---
 
-# The Homemade Vegan Pantry: Vegan Unribs
-
 > Recipe link: [Vegan Unribs: Easy Homemade Seitan Ribs - Healthy Slow Cooking](https://healthyslowcooking.com/unribs-from-the-homemade-vegan-pantry-by-miyoko-schinner/)
 
 > Prep Time: 20 mins | Cook Time: 1 hr 15 mins | Total Time: 1 hr 35 mins  

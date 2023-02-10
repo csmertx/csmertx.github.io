@@ -1,11 +1,9 @@
 ---
-title: Win/DOS VMs
+title: Win & DOS VMs
 author: csmertx
 date: February 7, 2023
 weight: -20
 ---
-
-# Windows and DOS Virtual Machines
 
 ## Windows Activation in VM
 

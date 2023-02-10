@@ -1,11 +1,9 @@
 ---
-title: Console
+title: Virtual Console
 author: csmertx
 date: January 30, 2023
 weight: -20
 ---
-
-# Virtual Console
 
 > Same as [Administration](/Linux/Assorted/admin)
 

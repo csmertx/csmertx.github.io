@@ -5,8 +5,6 @@ date: January 30, 2023
 weight: -20
 ---
 
-# XrandR: Configuration utility for screen outputs
-
 ## Mode Not Displayed
 
 1. ```cvt 1600 900```

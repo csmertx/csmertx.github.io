@@ -5,8 +5,6 @@ date: January 31, 2023
 weight: -20
 ---
 
-# GNU Grep 
-
 ## Find match or match
 
 - ```grep 'match\|match2'```

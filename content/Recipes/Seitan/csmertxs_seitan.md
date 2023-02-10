@@ -1,11 +1,9 @@
 ---
-title: Pork Style
+title: Soybean Seitan
 author: csmertx
 date: February 7, 2023
 weight: -20
 ---
-
-# Soybean seitan (pork style)
 
 ## Cook soybeans
 

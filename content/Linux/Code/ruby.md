@@ -1,11 +1,9 @@
 ---
-title: Ruby
+title: Ruby Language
 author: csmertx
 date: January 31, 2023
 weight: -20
 ---
-
-# Ruby Programming Language
 
 ## Add to PATH
 

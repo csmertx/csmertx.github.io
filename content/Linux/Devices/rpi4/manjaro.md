@@ -5,7 +5,7 @@ date: January 31, 2023
 weight: -20
 ---
 
-# Raspberry Pi 4 and Manjaro Linux (2021)
+> Created 2021
 
 ## Waveshare WM8960 Soundcard
 

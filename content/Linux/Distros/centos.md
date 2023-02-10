@@ -1,11 +1,9 @@
 ---
-title: CentOS 8
+title: CentOS 8 (stable)
 author: csmertx
 date: January 31, 2023
 weight: -20
 ---
-
-# CentOS 8 (Stable)
 
 ## Instructions for Virtualized CentOS
 
