@@ -8,11 +8,11 @@ weight: -20
 ## January 20, 2023
 ### Created: 06-07-21
 
-> RPi4 == Raspberry Pi 4
+> RPi4 = Raspberry Pi 4
 
-I wanted a tiny console to check out ARM architecture stuff. My notes are at: Linux > Devices > RPi4
+I wanted a tiny console to check out ARM architecture stuff: [Ubuntu/RPi4](/Linux/Devices/rpi4/ubuntu), and [RetroPie/RPi4](/Linux/Devices/rpi4/retropie).
 
-This one does not include a parts list because this configuration killed the official RPi4 LCD screen. I sold my RPi4 because of sketchy hats (addon boards). Next attempt will be something different (if there is another attempt).
+This one does not include a parts list because this configuration (power delivery hat/addon) killed the official RPi4 LCD screen. I sold my RPi4 because of sketchy hats (addon boards). Next attempt will be something different.
 
 <div style="text-align: center;">
 
