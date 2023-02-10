@@ -376,15 +376,7 @@ git push -u origin
 Remove all traces of sensitive data from a repo This won&amp;rsquo;t remove it from clones or forks, but at least the repo will be scrubbed</description></item><item><title>Glade GTK</title><link>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</guid><description>Toolchain to create GTK applications
 Resources GTK-rs: Requirements
 Nora Codes: Speedy Desktop Apps With GTK and RUST
-Gnome Project: Glade Tutorials</description></item><item><title>GNOME 3</title><link>https://csmertx.github.io/Linux/WM/gnome3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/gnome3/</guid><description>Program Not Responsive timeout Some older Win32 games may have this issue (e.g. Runes of Magic)
-gsettings set org.gnome.mutter check-alive-timeout 120000
-ALT + F2 and dconf-config
-org &amp;gt; gnome &amp;gt; mutter check-alive-timeout: uncheck use default value change from 5,000 to 120,000 GDM Enable tap-to-click sudo -i
-xhost +SI:localuser:gdm
-sudo su gdm -s /bin/bash
-export DISPLAY=:0
-gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
-Reset GDM tap-to-click to default gsettings reset org.gnome.desktop.peripherals.touchpad tap-to-click</description></item><item><title>Gnome Shell</title><link>https://csmertx.github.io/Linux/VMs/gnome-shell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/gnome-shell/</guid><description>Extensions apti gnome-extensions-app
+Gnome Project: Glade Tutorials</description></item><item><title>GNOME 3</title><link>https://csmertx.github.io/Linux/DEs/gnome3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/gnome3/</guid><description>Extensions apti gnome-extensions-app
 apti chrome-gnome-shell
 Auto Move Windows
 gamemode
@@ -717,7 +709,7 @@ Mission This site is more focused on niche solutions to niche problems, and expe
 Or: maybe this website all about the journey, and not the destination? ;)
 Have a good one And I hope it&amp;rsquo;s a good one too</description></item><item><title>PineTime Smartwatch</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>Less than $60 smartwatch that does not collect data. Or, a less than $60 smartwatch that is more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
 The ultimate test to see whether or not to buy an Apple watch
-Reporting in after close to a year Raising wrist to wake up the device is mostly awesome</description></item><item><title>Plasma (KDE)</title><link>https://csmertx.github.io/Linux/WM/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/kde_plasma/</guid><description>Disable File Indexer baloo_file balooctl disable
+Reporting in after close to a year Raising wrist to wake up the device is mostly awesome</description></item><item><title>Plasma (KDE)</title><link>https://csmertx.github.io/Linux/DEs/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/kde_plasma/</guid><description>Disable File Indexer baloo_file balooctl disable
 pause with: balooctl suspend
 Breeze SDDM theme background When GUI selection does not represent selection
 sudo mkdir /usr/share/backgrounds/new_folder
@@ -1138,7 +1130,7 @@ Driver &amp;#34;joystick&amp;#34;
 EndSection LTrigger/RTrigger Issue apti joystick
 apti jstest-gtk
 Open joystick and calibrate (swap Axis 2 with 4 to correct)
-Resources Ask Ubuntu: How can I stop my controller from moving my mouse?</description></item><item><title>Xfce</title><link>https://csmertx.github.io/Linux/WM/xfce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/xfce/</guid><description>Originally known as: XForms Common Environment
+Resources Ask Ubuntu: How can I stop my controller from moving my mouse?</description></item><item><title>Xfce</title><link>https://csmertx.github.io/Linux/DEs/xfce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/xfce/</guid><description>Originally known as: XForms Common Environment
 Notification Theme via /usr/bin/xfce4-notifyd-config Whisker Menu Animated Icon Xfce forums / Desktop / Change start menu icon on mouseover or click Whisker Catfish menu search Read more about catfish
 Requires updatedb
 Database exposes files to all users

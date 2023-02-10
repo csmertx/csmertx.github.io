@@ -31,15 +31,7 @@ Recommended
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
 Not recommended
 Status bar Add to ~/.xinitrc
-while true while true; do xsetroot -name &amp;#34; CentOS 8.1 | $USER@$HOSTNAME | $(hostname -I| awk &amp;#39;{print $1}&amp;#39;) | $(date &amp;#34;+%F %R&amp;#34;) &amp;#34; sleep 1m done &amp;amp; Status line output = CentOS 8.</description></item><item><title>GNOME 3</title><link>https://csmertx.github.io/Linux/WM/gnome3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/gnome3/</guid><description>Program Not Responsive timeout Some older Win32 games may have this issue (e.g. Runes of Magic)
-gsettings set org.gnome.mutter check-alive-timeout 120000
-ALT + F2 and dconf-config
-org &amp;gt; gnome &amp;gt; mutter check-alive-timeout: uncheck use default value change from 5,000 to 120,000 GDM Enable tap-to-click sudo -i
-xhost +SI:localuser:gdm
-sudo su gdm -s /bin/bash
-export DISPLAY=:0
-gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
-Reset GDM tap-to-click to default gsettings reset org.gnome.desktop.peripherals.touchpad tap-to-click</description></item><item><title>i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description>Mpris Control apti playerctl
+while true while true; do xsetroot -name &amp;#34; CentOS 8.1 | $USER@$HOSTNAME | $(hostname -I| awk &amp;#39;{print $1}&amp;#39;) | $(date &amp;#34;+%F %R&amp;#34;) &amp;#34; sleep 1m done &amp;amp; Status line output = CentOS 8.</description></item><item><title>i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description>Mpris Control apti playerctl
 vim ~/.config/i3/config
 Bluetooth headsets
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
@@ -98,22 +90,7 @@ vim /home/user/.config/openbox/rc.xml Don&amp;rsquo;t forget to swap user with y
 &amp;lt;command&amp;gt;betterlockscreen -l&amp;lt;/command&amp;gt;
 &amp;lt;/action&amp;gt;
 &amp;lt;/keybind&amp;gt;
-&amp;lt;!</description></item><item><title>Plasma (KDE)</title><link>https://csmertx.github.io/Linux/WM/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/kde_plasma/</guid><description>Disable File Indexer baloo_file balooctl disable
-pause with: balooctl suspend
-Breeze SDDM theme background When GUI selection does not represent selection
-sudo mkdir /usr/share/backgrounds/new_folder
-cp /folder/image.jpg /usr/share/backgrounds/new_folder/image.jpg
-sudov /usr/share/sddm/themes/breeze/theme.conf.user
-++ background=/usr/share/backgrounds/new_folder/image.jpg Logout &amp;amp; login
-Time set to 24 hours instead of 12 hours in SDDM Solution to change SDDM time display to 12 hours
-sudov /etc/locale.conf
-++ LANG=en_US.UTF-8 sudov /etc/locale.gen
--- #en_US.UTF-8 UTF-8 ++ en_US.UTF-8 UTF-8 locale-gen
-Removal (Arch) pac -Rc plasma</description></item><item><title>Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description> Tiling window manager status bar
+&amp;lt;!</description></item><item><title>Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description> Tiling window manager status bar
 Themes GitHub - adi1090x/polybar-themes: A huge collection of polybar themes with different styles, colors and variants.
 Polybar-10 is very similar to GNOME 3&amp;rsquo;s top bar
-Bluetooth See bluetooth for Polybar specific info Resources Polybar - A fast and easy-to-use tool for creating status bars</description></item><item><title>Xfce</title><link>https://csmertx.github.io/Linux/WM/xfce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/xfce/</guid><description>Originally known as: XForms Common Environment
-Notification Theme via /usr/bin/xfce4-notifyd-config Whisker Menu Animated Icon Xfce forums / Desktop / Change start menu icon on mouseover or click Whisker Catfish menu search Read more about catfish
-Requires updatedb
-Database exposes files to all users
-apti catfish</description></item></channel></rss>
+Bluetooth See bluetooth for Polybar specific info Resources Polybar - A fast and easy-to-use tool for creating status bars</description></item></channel></rss>

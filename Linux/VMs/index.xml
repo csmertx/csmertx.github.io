@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Virtualized on LGM</title><link>https://csmertx.github.io/Linux/VMs/</link><description>Recent content in Virtualized on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/VMs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker</title><link>https://csmertx.github.io/Linux/VMs/docker_installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/docker_installation/</guid><description>A neat way to setup a DIY media streaming box
 Debian packages sudo apti docker docker-compose cockpit cockpit-docker Fedora packages sudo dnf install docker docker-compose cockpit cockpit-docker Add user to docker group (single user LAN server only) sudo usermod -aG docker $USER Install Nextcloud sudo docker pull nextcloud IP Address add IP=192.168.xxx.xx to environment Link /var/lib/docker to different partition remove /var/lib/docker
 Backup /var/lib/docker first?
-sudo -ln -s /mnt/containers/docker /var/lib/docker</description></item><item><title>Gnome Shell</title><link>https://csmertx.github.io/Linux/VMs/gnome-shell/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/gnome-shell/</guid><description>Extensions apti gnome-extensions-app
-apti chrome-gnome-shell
-Auto Move Windows
-gamemode
-apti gamemode Native Window Placement
-Autostart (Gnome specific) ALT + F2 and gnome-session-properties
-Gnome tweak-tool (post 3.6?)
-apti gnome-tweaks Autostart (all desktop environments) mkdir $HOME/.config/autostart
-touch $HOME/.config/autostart/clipit.desktop
-Center Windows ALT + F2 and dconf-editor
-org &amp;gt; gnome &amp;gt; mutter &amp;gt; center-new-windows Swap Left Win key for Right Win key Win key or Super key. Whatever you like to call it.</description></item><item><title>KVM</title><link>https://csmertx.github.io/Linux/VMs/kvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/kvm/</guid><description> Kernal-based Virtual Machine
+sudo -ln -s /mnt/containers/docker /var/lib/docker</description></item><item><title>KVM</title><link>https://csmertx.github.io/Linux/VMs/kvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/kvm/</guid><description> Kernal-based Virtual Machine
 See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
 Setup (Arch Linux) sudo modprobe kvm_intel
 Or kvm_amd
