@@ -19,7 +19,7 @@ Some of this documentation may help Linux beginners. There are a lot of examples
 
 ## csmertx?
 
-My handle is portmanteau of ```c``` for my first initial, ```smert``` for a common mispronunciation of my surname, and ```x``` because of my experience working for Eckerd/CVS Pharmacy (like ```RX```). Thankfully ```smert``` was already taken.
+My handle is portmanteau of ```c``` for my first initial, ```smert``` for a common mispronunciation of my surname, and ```x``` because of my experience working for Eckerd/CVS Pharmacy (like ```RX```). ```¯\_(ツ)_/¯```. Thankfully ```smert``` was already taken.
 
 I created the handle before it was really common to see ```CS``` as an abbreviation for ```computer science```. So it goes.
 
