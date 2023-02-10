@@ -52,7 +52,7 @@ weight: -20
 
 - ```pac -Rc kwallet```
 
-## Auto ```kdewallet``` login
+## Auto kdewallet login
 
 > May minimize security
 
