@@ -117,7 +117,7 @@ ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="
 
     - The Linux version is the first 'portable' option under ```Files```.
 
-        > Please see the Known issues: [Subtitle Edit for Linux](https://www.nikse.dk/subtitleedit/help#linux)
+        > Please see the known issues: [Subtitle Edit for Linux](https://www.nikse.dk/subtitleedit/help#linux)
 
 - Open Subtitle Edit with: ```mono SubtitleEdit.exe```
 
