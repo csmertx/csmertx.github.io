@@ -6,9 +6,6 @@ weight: -20
 ---
 
 <br />
-<br />
-<br />
-<br />
 
 <div style="text-align: center;">
 <img src="https://i.imgur.com/NKlNt8d.gif"/>

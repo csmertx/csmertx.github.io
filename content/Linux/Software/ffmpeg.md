@@ -47,7 +47,7 @@ Cut out a slice (audio)
 
     > Would not work via my copies of The Office DVD box sets, but that's ok.
 
-- ```ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -map 0:s:0 "dr_rad_got_the_hose.```srt"
+- ```ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -map 0:s:0 "dr_rad_got_the_hose.srt"```
 
 - Convert ```.mp4``` to ```.gif``` while including subtitles and without changing the framerate (30fps).
 
@@ -91,6 +91,75 @@ ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="
 > Background color: H0000000
 </div>
 
+## "Subtitle encoding currently only possible from text to text"
+
+> Meaning the video is probably encoded with [PGS subtitles, which are image based subs, ](https://handbrake.fr/docs/en/latest/advanced/subtitles.html) and not text based.
+
+### Subtitle Edit (GUI app)
+
+- [Subtitle Edit: Dependencies](https://www.nikse.dk/subtitleedit/help#linux)
+
+    - ```apti mono-complete```
+
+    - ```apti libhunspell-dev```
+
+    - ```apti libmpv-dev```
+
+    - ```apti tesseract-ocr```
+
+    - ```apti vlc```
+
+    - ```apti ffmpeg```
+
+- [Subtitle Edit: Download](https://github.com/SubtitleEdit/subtitleedit/releases/tag/3.6.11)
+
+    - The Linux version is the first 'portable' option under ```Files```.
+
+        > Please see the Known issues: [Subtitle Edit for Linux](https://www.nikse.dk/subtitleedit/help#linux)
+
+- Open Subtitle Edit with: ```mono SubtitleEdit.exe```
+
+    > File > Open > Personal Files > ... (takes a little while to process)
+
+    - Follow these [instructions](https://www.nikse.dk/subtitleedit/help#importvobsub) to use the GUI to convert subtitles using OCR.
+
+- Desktop entry: ```vim /home/user/.local/share/applications/subtitleedit.desktop```
+
+    ```
+    [Desktop Entry]
+    Comment[en_US]=Subtitle Edit
+    Comment=Edit video subtitles
+    Exec=mono /home/user/.sources/SubtitleEdit3611/SubtitleEdit.exe
+    GenericName[en_US]=Subtitle Edit
+    GenericName=Subtitle Edit
+    Icon=/home/user/Pictures/Icons/subtitleedit.png
+    Name[en_US]=Subtitle Edit
+    Name=Subtitle Edit
+    StartupNotify=true
+    Terminal=false
+    Type=Application
+    Categories=AudioVideo;AudioVideoEditing;Audio;
+    ```
+
+    > SE Icon can be found [here](https://github.com/SubtitleEdit/subtitleedit/issues/675) or [here](https://user-images.githubusercontent.com/20923700/107876340-10da6a80-6ece-11eb-91e0-05902a474ac9.png).
+
+    - ```sudo chmod +x /home/user/.local/share/applications/subtitleedit.desktop```
+
+#### After converting the PGS to SRT
+
+- ```ffmpeg -i "source_video.mkv" -vf "subtitleedit_converted.srt" "output_video_ready_for_memes.mp4"```
+
+    > Future clips copied out of output_video.mp4 will contain subtitles for the scene
+
+    > This method burns the subtitles to the video, so change font size, etc. if needed
+
+<br />
+<div style="text-align: center;">
+<img src="https://i.imgur.com/9fSbHlW.gif"/>
+
+> The City of Violence (2006) -- PGS to SRT
+</div>
+<br />
 
 ## Resources
 
@@ -99,3 +168,5 @@ ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="
 - [SubStation Alpha](https://fileformats.fandom.com/wiki/SubStation_Alpha#Fields)
 
 - [How to set background to subtitle in ffmpeg?](https://stackoverflow.com/questions/25870169/how-to-set-background-to-subtitle-in-ffmpeg)
+
+- [Stack Overflow: ffmpeg extract hdmv pgs subtitles from mkv to srt](https://stackoverflow.com/questions/62976902/ffmpeg-extract-hdmv-pgs-subtitles-from-mkv-to-srt)
