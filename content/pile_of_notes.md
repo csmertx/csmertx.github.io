@@ -11,7 +11,7 @@ While nature of open source and Linux means fewer bureaucratic hoops to jump thr
 
 This site is more focused on niche solutions to niche problems, and experiencing GNU/Linux.
 
-> Or: maybe this website all about the journey, and not the destination? ;)
+> Or: maybe this website is all about the journey, and not about the destination? ;)
 
 ## Have a good one
 
