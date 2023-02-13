@@ -187,7 +187,7 @@ Editing files&amp;hellip; sudov /etc/default/grub
 -- if [ &amp;#34;x${GRUB_GFXMODE}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXMODE=auto ; fi ++ if [ &amp;#34;x${GRUB_GFXMODE}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXMODE=1152x864x32 ; fi ++ if [ &amp;#34;x${GRUB_GFXPAYLOAD}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXPAYLOAD=1152x864x32 ; fi Look for: set gfxmode=${GRUB_GFXMODE}
 / to input a search term with Vim
 Next line: set gfxpayload=${GRUB_GFXPAYLOAD}
-Resources Ask Ubuntu: &amp;ldquo;How do I increase console-mode resolution?</description></item><item><title>Convert STL to Step</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</guid><description>Entry added befoe 2022
+Resources Ask Ubuntu: &amp;ldquo;How do I increase console-mode resolution?</description></item><item><title>Convert STL to Step</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</guid><description>Entry added before 2022
 Center model
 Select .stl
 Switch to Part Workbench
