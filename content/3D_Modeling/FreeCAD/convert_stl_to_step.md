@@ -5,7 +5,7 @@ date: January 30, 2023
 weight: -20
 ---
 
-> Entry added befoe 2022
+> Entry added before 2022
 
 1. Center model
 
