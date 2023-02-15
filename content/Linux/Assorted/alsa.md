@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 > For tiling window manager scripting, etc.
 
 ## Acquire physical device ID

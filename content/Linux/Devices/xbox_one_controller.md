@@ -5,6 +5,8 @@ date: February 1, 2023
 weight: -20
 ---
 
+<br />
+
 > Pre-Bluetooth version (wireless)
 
 ## Disable Mouse Emulation

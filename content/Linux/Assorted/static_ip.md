@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 ## Local Static IP (QEMU/KVM)
 
 - ```sudo EDITOR=vim virsh net-edit default```

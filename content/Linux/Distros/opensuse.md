@@ -5,6 +5,8 @@ date: February 1, 2023
 weight: -20
 ---
 
+<br />
+
 ## OBS package management: OPI (similar to AUR or COPR)
 
 - ```sudo zypper install opi```

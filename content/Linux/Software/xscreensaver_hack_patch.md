@@ -5,6 +5,8 @@ date: February 4, 2023
 weight: -20
 ---
 
+<br />
+
 > XScreenSaver Multi-monitor Patch
 
 > See [patching](/Linux/Software/patching) to use this patch

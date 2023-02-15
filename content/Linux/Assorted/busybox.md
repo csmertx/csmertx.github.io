@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 > Typically used for embedded operating systems with limited resources
 
 ## List Partitions

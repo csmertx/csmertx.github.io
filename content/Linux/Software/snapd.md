@@ -3,6 +3,8 @@ title: Snaps
 weight: -20
 ---
 
+<br />
+
 ## Installation
 
 > Arch Linux instructions

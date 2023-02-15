@@ -5,6 +5,8 @@ date: February 7, 2023
 weight: -20
 ---
 
+<br />
+
 > This page was created before 2020
 
 > Please refere to the [OpenBSD Handbook](https://www.openbsdhandbook.com/installation/) for more up to date installation instructions.

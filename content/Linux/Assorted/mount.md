@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 ## EXT4
 
 - ```sudov /etc/fstab```

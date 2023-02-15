@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 ## A swapfile (1G)
 
 - ```sudo dd if=/dev/zero of=/swap1G bs=1024 count=1048576```

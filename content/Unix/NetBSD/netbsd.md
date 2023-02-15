@@ -5,6 +5,8 @@ date: February 7, 2023
 weight: -20
 ---
 
+<br />
+
 > This page was created before 2020
 
 > Please refere to [NetBSD: The NetBSD Guide](https://www.netbsd.org/docs/guide/en/) for up to date installation instructions

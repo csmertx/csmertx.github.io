@@ -5,6 +5,8 @@ date: January 31, 2023
 weight: -20
 ---
 
+<br />
+
 ## Because sometimes quotes are a pain
 
 > Certain tiling window status bars...

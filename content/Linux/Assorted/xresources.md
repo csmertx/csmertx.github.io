@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 > Set padding, DPI, anti-alising, Xcursor theme, X font settings, etc.
 
 > Time saver for certain terminal emulators (URxvt, xterm, etc.)

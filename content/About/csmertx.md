@@ -13,7 +13,7 @@ weight: -20
 
 # Purpose of this website
 
-Some of this documentation may help Linux beginners. There are a lot of examples that could be helpful, but I assume certain understandings about GNU/Linux that may be frustrating to newbies. I love researching topics, but I'm not that great at documenting my findings. I'm open to any mistakes glaring or otherwise found in this documentation. Thank you for visting.
+Some of this documentation may help Linux beginners. There are a lot of examples that could be helpful, but I assume certain understandings about GNU/Linux that may be frustrating to newbies. I love researching topics, but I'm not that great at documenting my findings. I'm open to any mistakes glaring or otherwise found in this documentation. Thank you for visiting.
 
 > For Linux newbies definitely check out: [Learn Linux TV]( https://community.learnlinux.tv), [Linuxize](https://linuxize.com/), [AskUbuntu](https://askubuntu.com), [Tecmint](https://tecmint.com), [ItsFOSS](https://itsfoss.com), [nixCraft](https://www.cyberciti.biz/), [Linux Mint Forums](https://forums.linuxmint.com), [Ubuntu: The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview), [Techspot: A Beginner's Guide to the Linux Command Line](https://www.techspot.com/guides/835-linux-command-line-basics/)
 
@@ -156,11 +156,11 @@ Nope, that's not it. Abbreviations may seem the same, but mine is mostly meme.
 
     - [Transworld Skateboarding: Skateboard Science](https://skateboarding.transworld.net/news/skateboard-science/)
 
-- The 'Godfather' of street skating and kickflip imagineer:
+- The 'Godfather' of street skating and kickflip imaginer:
 
     - [Rodney Mullen net worth](https://networthpost.org/net-worth/rodney-mullen-net-worth/)
 
-- Rodeny Mullen spoke of Open Source and Linux in his TED Talk:
+- Rodney Mullen spoke of Open Source and Linux in his TED Talk:
 
     - [Rodney Mullen Ted Talk: Pop an ollie and innovate!](https://www.youtube.com/watch?v=3GVO-MfIl1Q)
 
@@ -170,47 +170,47 @@ Nope, that's not it. Abbreviations may seem the same, but mine is mostly meme.
 
 - Skateboarding Stereotypes
     
-    - Speaking of stereos: Jason Lee (My Name Is Earl, Mallrats, etc.) is a professional skateboarder, actor, filmmaker, and photographer that rode for Blind Skateboards, and founded Stereo Skateboards. Some of the best 360 flips too.
+    - Speaking of stereos: Famous person Jason Lee (My Name Is Earl, Mallrats, etc.) is a professional skateboarder, actor, filmmaker, and photographer that rode for Blind Skateboards, and founded Stereo Skateboards. He has one of the best 360 flips too.
 
 
-## Unsolicited non-fiction book recommendedations
+## Unsolicited non-fiction book recommendations
 
-- *Moonwalking with Einstein*, by Joshua Foer
+- ```Moonwalking with Einstein```, by Joshua Foer
 
-    > About the limitless potential of the human memory
+    > About the limitless potential of memory
 
-- *Hidden Figures*, by Margot Lee Shetterly
+- ```Hidden Figures```, by Margot Lee Shetterly
 
     > History lesson of how we broke through the atmosphere
 
-- *The Philosopher and the Druids*, by Philip Freeman
+- ```The Philosopher and the Druids```, by Philip Freeman
 
     > History lesson of the Druids from the viewpoint of Posidonius
 
-- *NeuroTribes*, by Steve Silberman
+- ```NeuroTribes```, by Steve Silberman
 
     > *"The Legacy of Autism and the Future of Neurodiversity"*
 
-- *Improve Your Social Skills*, by Daniel Wendler
+- ```Improve Your Social Skills```, by Daniel Wendler
 
     > Introduction to building sandwiches
 
-- *Outliers*, by Malcolm Gladwell
+- ```Outliers```, by Malcolm Gladwell
 
-    > Extrodinary tales of extrodinary people
+    > Extraordinary tales of extraordinary people
 
-- *Start Finishing*, by Charlie Gilkey
+- ```Start Finishing```, by Charlie Gilkey
 
     > How to finish that one thing
 
-- *Atomic Habits*, by James Clear
+- ```Atomic Habits```, by James Clear
 
     > How to build positive habits
 
-- *Escape from Cubicle Nation*, by Pamela Slim
+- ```Escape from Cubicle Nation```, by Pamela Slim
 
     > Great for creativity or understanding the world of cubicles
 
-- _The Subtle Art of Not Giving a F*ck_, by Mark Manson
+- ```The Subtle Art of Not Giving a F*ck```, by Mark Manson
 
-    > Explicit and leans toward evolution
+    > Explicit, leans to evolution, and very insightful

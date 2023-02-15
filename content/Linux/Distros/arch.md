@@ -5,6 +5,8 @@ date: January 31, 2023
 weight: -20
 ---
 
+<br />
+
 > Notes created before 2020. Check the [Arch Wiki](https://wiki.archlinux.org) for up to date documentation
 
 

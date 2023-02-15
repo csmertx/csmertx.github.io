@@ -5,6 +5,8 @@ date: February 3, 2023
 weight: -20
 ---
 
+<br />
+
 > Hacky way to preview Markdown via terminal emulator
 
 ## Setup to preview Markdown via Lynx CLI browser

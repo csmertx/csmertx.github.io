@@ -5,6 +5,8 @@ date: February 1, 2023
 weight: -20
 ---
 
+<br />
+
 ## AMD Open Source: tear free
 
 - ```sudov /etc/X11/xorg.conf.d/20-[GPU].conf```

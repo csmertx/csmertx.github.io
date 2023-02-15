@@ -5,6 +5,8 @@ date: February 4, 2023
 weight: -20
 ---
 
+<br />
+
 > Awesome for SSH, CLI IDEs, system administration, and more
 
 ## Recreate session layouts

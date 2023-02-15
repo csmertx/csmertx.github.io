@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 - [Steam: video game distribution](https://store.steampowered.com)
 
 - [GOG (formerly Good Old Games): video game distribution](https://gog.com)

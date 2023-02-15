@@ -5,6 +5,8 @@ date: February 1, 2023
 weight: -20
 ---
 
+<br />
+
 ## Check status of Intel Mitigations
 
 - ```grep . /sys/devices/system/cpu/vulnerabilities/*```

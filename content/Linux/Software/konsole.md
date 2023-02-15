@@ -5,6 +5,8 @@ date: February 3, 2023
 weight: -20
 ---
 
+<br />
+
 ## Trouble with remapped keyboard layout (xmodmap, etc.)
 
 - Edit Profile > Keyboard > Linux Console

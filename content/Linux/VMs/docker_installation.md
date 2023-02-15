@@ -5,6 +5,8 @@ date: February 5, 2023
 weight: -20
 ---
 
+<br />
+
 > A neat way to setup a DIY media streaming box
 
 ## Debian packages

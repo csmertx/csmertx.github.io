@@ -5,6 +5,8 @@ date: February 1, 2023
 weight: -20
 ---
 
+<br />
+
 > Note copied from: /Linux/Assorted/xrandr
 
 ## Mode Not Displayed

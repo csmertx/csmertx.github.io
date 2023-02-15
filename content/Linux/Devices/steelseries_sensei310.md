@@ -5,6 +5,8 @@ date: February 1, 2023
 weight: -20
 ---
 
+<br />
+
 > And other SteelSeries devices (same installation)
 
 ## Installation

@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 > KoLmafia: cross-platform desktop tool to interface with the game in the links below
 
 > [KoLmafia Installation for Linux](/Linux/Code/java)

@@ -5,7 +5,10 @@ date: February 1, 2023
 weight: -20
 ---
 
+<br />
+
 ## Preferred Bluetooth systray
+
 - ```apti blueman```
 
     > blueman-applet is the desktop status app

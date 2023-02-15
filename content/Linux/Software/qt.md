@@ -5,7 +5,9 @@ date: February 4, 2023
 weight: -20
 ---
 
-### QT Theming in GTK
+<br />
+
+## QT Theming in GTK
 > Arch Linux Instructions
 
 - ```pac -S qt5ct```

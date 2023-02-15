@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 # Importing FreeCAD models to Blender
 
 ## Using Blender v2.8 to smooth out FreeCAD models

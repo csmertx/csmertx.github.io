@@ -3,6 +3,8 @@ title: Polybar
 weight: -20
 ---
 
+<br />
+
 > Tiling window manager status bar
 
 ## Themes

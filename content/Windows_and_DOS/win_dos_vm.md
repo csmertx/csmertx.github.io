@@ -5,6 +5,8 @@ date: February 7, 2023
 weight: -20
 ---
 
+<br />
+
 ## Windows Activation in VM
 
 > Windows 10 RTM OEM for Thinkpad X1 Extreme G2 (running Kubuntu)

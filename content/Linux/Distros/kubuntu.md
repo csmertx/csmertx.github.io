@@ -5,6 +5,8 @@ date: February 1, 2023j
 weight: -20
 ---
 
+<br />
+
 ## Disable Automatic Update Check Icon
 
 - Right Click Up Arrow in panel

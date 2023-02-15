@@ -5,6 +5,8 @@ date: January 31, 2023
 weight: -20
 ---
 
+<br />
+
 ## Instructions for Virtualized CentOS
 
 > This information is obviously out of date as of 2022

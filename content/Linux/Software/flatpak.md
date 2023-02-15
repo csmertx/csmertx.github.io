@@ -5,6 +5,8 @@ date: February 3, 2023
 weight: -20
 ---
 
+<br />
+
 ## Flathub
 
 - ```flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo```

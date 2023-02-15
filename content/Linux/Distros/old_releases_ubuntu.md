@@ -5,6 +5,8 @@ date: February 1, 2023
 weight: -20
 ---
 
+<br />
+
 ## 10.04 Lucid Lynx (for example--works with i686 ISO)
 
 ```

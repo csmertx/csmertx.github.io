@@ -5,6 +5,8 @@ date: February 4, 2023
 weight: -20
 ---
 
+<br />
+
 ## Using Mutt the safe way
 
 > Encrypt plain text password file for added security

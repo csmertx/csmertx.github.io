@@ -5,6 +5,8 @@ date: February 7, 2023
 weight: -20
 ---
 
+<br />
+
 > Original write up can be found [here](https://theberrics.com/carlos-ribseiro-salad-grinds-bean-plants-72)
 
 ## INGREDIENTS:

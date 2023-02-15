@@ -5,6 +5,8 @@ date: January 31, 2023
 weight: -20
 ---
 
+<br />
+
 ## Installation (Linux)
 
 > To satisfy dependencies (e.g. Kingdom of Loathing: KoLMafia)

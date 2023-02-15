@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 ## Login to shell of Android device
 
 1. ```adb root```

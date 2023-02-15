@@ -6,6 +6,8 @@ weight: -20
 ---
 
 <br />
+
+<br />
 <div style="text-align: center;">
 
 ![albumimg](/Linux/Software/Screenshot_20220401_000441.png "Kubuntu 21.10 screenshot of opening STL with view3dscene")

@@ -5,6 +5,8 @@ date: February 5, 2023
 weight: -20
 ---
 
+<br />
+
 > See also [AwesomeWM | Floppier DE](/Linux/WM/awesome_floppier) for more theming
 
 ## Easy Mode Theming

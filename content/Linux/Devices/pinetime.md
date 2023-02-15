@@ -5,9 +5,11 @@ date: February 1, 2023
 weight: -20
 ---
 
-Less than $60 smartwatch that does not collect data. Or, a less than $60 smartwatch that is more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
+<br />
 
-> The ultimate test to see whether or not to buy an Apple watch 
+## Pinetime Smartwatch?
+
+~$40 smartwatch with Open Source firmware. And more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
 
 ## Reporting in after close to a year
 

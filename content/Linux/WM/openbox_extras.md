@@ -5,6 +5,8 @@ date: February 6, 2023
 weight: -20
 ---
 
+<br />
+
 > ```rc.xml``` edit to add keyboard shortcuts for media keys, i3, and more
 
 - ```vim /home/user/.config/openbox/rc.xml```

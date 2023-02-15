@@ -5,6 +5,8 @@ date: February 1, 2023
 weight: -20
 ---
 
+<br />
+
 ## Laptop
 
 - ```vim /etc/X11/xorg.conf.d/10-libinput.conf```

@@ -5,6 +5,8 @@ date: February 3, 2023
 weight: -20
 ---
 
+<br />
+
 ## Vim as editor
 
 - ```F9``` > Options > Configuration > Uncheck internal view/edit

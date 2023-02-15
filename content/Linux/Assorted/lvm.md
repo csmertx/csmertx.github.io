@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 > LVM2 (2020-02-18)
 
 ## Mounting for chroot (Arch ISO)

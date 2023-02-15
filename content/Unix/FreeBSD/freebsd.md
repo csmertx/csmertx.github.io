@@ -5,6 +5,8 @@ date: February 7, 2023
 weight: -20
 ---
 
+<br />
+
 > This page was created before 2022
 
 > Please refer to the [FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/book/) for up to date installation instructions

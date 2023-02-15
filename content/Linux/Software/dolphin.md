@@ -5,6 +5,8 @@ date: February 3, 2023
 weight: -20
 ---
 
+<br />
+
 ## Select file/folder with single click (for shift click or alt click selections)
 
 1. System Settings (app)

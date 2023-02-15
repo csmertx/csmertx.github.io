@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 ## Andor Training Mini Game
 
 1. Create a new macro and add the following two lines

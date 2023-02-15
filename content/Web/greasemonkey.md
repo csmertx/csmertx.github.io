@@ -5,6 +5,8 @@ date: February 7, 2023
 weight: -20
 ---
 
+<br />
+
 ## Hide Facebook top/right bars
 
 - [greasyfork: Expand width in www.facebook.com](https://greasyfork.org/en/scripts/38282-expand-width-in-www-facebook-com)

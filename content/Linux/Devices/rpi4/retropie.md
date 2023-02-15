@@ -4,7 +4,9 @@ author: csmertx
 date: January 31, 2023
 weight: -20
 ---
-    
+
+<br />
+  
 > And WM8860 GPIO soundcard addon (speakers)
 
 ## First steps

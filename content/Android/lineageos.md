@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 > Open-source Android distribution (OS)
 
 ## Samsung Galaxy Tab 3 10in (3G)

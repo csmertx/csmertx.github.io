@@ -5,7 +5,9 @@ date: February 4, 2023
 weight: -20
 ---
 
-> Incredible system backup utlity with comprehensive backup scheduling
+<br />
+
+> Incredible system backup utility with comprehensive backup scheduling
 
 ## Ubuntu Installation (the developer's PPA)
 

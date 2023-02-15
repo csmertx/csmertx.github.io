@@ -5,6 +5,8 @@ date: February 4, 2023
 weight: -20
 ---
 
+<br />
+
 > For when someone says, "Patch your systems people!"
 
 ## Create a patch

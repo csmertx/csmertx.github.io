@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 > Same as [Virtual Console](/Linux/Assorted/vconsole)
 
 # Typical Console Commands

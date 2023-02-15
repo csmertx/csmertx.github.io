@@ -5,6 +5,8 @@ date: February 3, 2023
 weight: -20
 ---
 
+<br />
+
 ## Symlink to /bin/sh
 
 - ```sudo ln -sf bash /bin/sh```

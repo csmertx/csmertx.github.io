@@ -5,6 +5,8 @@ date: January 31, 2023
 weight: -20
 ---
 
+<br />
+
 > Created 2021
 
 ## Waveshare WM8960 Soundcard

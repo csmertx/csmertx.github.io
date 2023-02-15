@@ -5,6 +5,8 @@ date: February 7, 2023
 weight: -20
 ---
 
+<br />
+
 > This page was created before 2020
 
 > Please refer to the [NomadBSD Handbooklet](https://nomadbsd.org/handbook/handbook.html) for up to date installation instructions.

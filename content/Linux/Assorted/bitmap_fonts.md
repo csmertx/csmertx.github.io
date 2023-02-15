@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 ## Enable bitmap fonts (Debian/Ubuntu)
 
 - ```sudo rm -f /etc/fonts/conf.d/70-{yes,no,force}-bitmaps.conf```

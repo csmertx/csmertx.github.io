@@ -5,6 +5,8 @@ date: January 30, 2023
 weight: -20
 ---
 
+<br />
+
 # Free and open-source Android terminal emulator
 
 ## Lite Installation

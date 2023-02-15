@@ -5,6 +5,8 @@ date: January 31, 2023
 weight: -20
 ---
 
+<br />
+
 > Does not create databases accessible to other users (e.g. locate command)
 
 ## Print subdirectories or files in a directory
