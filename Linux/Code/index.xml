@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code on LGM</title><link>https://csmertx.github.io/Linux/Code/</link><description>Recent content in Code on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/Code/index.xml" rel="self" type="application/rss+xml"/><item><title>ASCII</title><link>https://csmertx.github.io/Linux/Code/ascii/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ascii/</guid><description> Because sometimes quotes are a pain Certain tiling window status bars&amp;hellip;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code on LGM</title><link>https://csmertx.github.io/Linux/Code/</link><description>Recent content in Code on LGM</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://csmertx.github.io/Linux/Code/index.xml" rel="self" type="application/rss+xml"/><item><title>ASCII</title><link>https://csmertx.github.io/Linux/Code/ascii/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ascii/</guid><description>
+Because sometimes quotes are a pain Certain tiling window status bars&amp;hellip;
 \x27
 Equivalent to &amp;rsquo; (HEX or hexidecimal is 27)
 \x22
@@ -8,14 +9,16 @@ echo -en &amp;quot;This is nearly a sure way to print quotes: \x22Blah\x22&amp;q
 Result: This is nearly a sure way to print quotes: &amp;ldquo;Blah&amp;rdquo;
 Resources ASCII table: hexidecimals of symbols, HTML number/name, etc.</description></item><item><title>AsciiDoc</title><link>https://csmertx.github.io/Linux/Code/asciidoc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/asciidoc/</guid><description>Resources AsciiDoc: Homepage
 AsciiDoc: Writer&amp;rsquo;s Guide
-AsciiDoc: Sandbox (Live AsciiDoc parser with preview)</description></item><item><title>Awk</title><link>https://csmertx.github.io/Linux/Code/awk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/awk/</guid><description> Make selections, and do stuff with those selections
+AsciiDoc: Sandbox (Live AsciiDoc parser with preview)</description></item><item><title>Awk</title><link>https://csmertx.github.io/Linux/Code/awk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/awk/</guid><description>
+Make selections, and do stuff with those selections
 Print Nth item in row hostname -i | awk '{print $1}' Pull info out of quotes echo &amp;quot;\&amp;lt;a href=&amp;quot;www.duckduckgo.com&amp;quot;\&amp;gt;&amp;quot; | awk -F '&amp;quot;' '{print $1}' Resources The GNU Awk User&amp;rsquo;s Guide</description></item><item><title>C Language</title><link>https://csmertx.github.io/Linux/Code/c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/c/</guid><description>Compiling Souce Code Generate a configure file
 autoconf configure.ac Makefile exists?
 ./configure
 This is the fun part&amp;hellip; see links for unmet dependency searches
 User basics: make &amp;amp;&amp;amp; make install
 Resources Such Programming: Spawning New Linux Processes in C
-Debian Package Search: Scroll down to search package directories</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description> Python language translator for C (check links below for current information)
+Debian Package Search: Scroll down to search package directories</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
+Python language translator for C (check links below for current information)
 Installation For Linux systems
 Windows sudo apt-get mingw-w64 Linux sudo apt-get cython3 Translate Python to C using Cython Basic examples
 Create Linux programs cython --embed python.py -o python.c
@@ -39,7 +42,8 @@ git push -u origin
 Remove all traces of sensitive data from a repo This won&amp;rsquo;t remove it from clones or forks, but at least the repo will be scrubbed</description></item><item><title>Glade GTK</title><link>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</guid><description>Toolchain to create GTK applications
 Resources GTK-rs: Requirements
 Nora Codes: Speedy Desktop Apps With GTK and RUST
-Gnome Project: Glade Tutorials</description></item><item><title>Grep</title><link>https://csmertx.github.io/Linux/Code/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/grep/</guid><description> Find match or match grep 'match\|match2'
+Gnome Project: Glade Tutorials</description></item><item><title>Grep</title><link>https://csmertx.github.io/Linux/Code/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/grep/</guid><description>
+Find match or match grep 'match\|match2'
 grep -E 'match|match2'
 Find match and match grep 'match.*match2' Omit match grep -v 'match' Find first or last of line match grep &amp;quot;^match&amp;quot;
 grep &amp;quot;match$&amp;quot;
@@ -55,10 +59,12 @@ Packages &amp;gt; Markdown to PDF &amp;gt; Convert
 Resources Markdown Guide: Basic Syntax
 Google&amp;rsquo;s Markdown Style Guide
 Hugo: Configure Markup
-This website is generated by Hugo</description></item><item><title>Perl Language</title><link>https://csmertx.github.io/Linux/Code/perl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/perl/</guid><description> Print Nth instance of match perl -lne 'print $1 if /Today:(.*)/' &amp;lt; downloaded_webpage.txt
+This website is generated by Hugo</description></item><item><title>Perl Language</title><link>https://csmertx.github.io/Linux/Code/perl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/perl/</guid><description>
+Print Nth instance of match perl -lne 'print $1 if /Today:(.*)/' &amp;lt; downloaded_webpage.txt
 Download webpage BEFORE scraping e.g. wget https://website.com/website.html &amp;gt; website.txt
 Or: TEMP=&amp;quot;$(wget -q -O- &amp;quot;http://w1.weather.gov/xml/current_obs/stationcode.xml&amp;quot; | perl ...)&amp;quot;
-Resources Perl Programming Language Documentation</description></item><item><title>Python Package Index (PyPi)</title><link>https://csmertx.github.io/Linux/Code/pypi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/pypi/</guid><description> Installing Python packages pip3 install project
+Resources Perl Programming Language Documentation</description></item><item><title>Python Package Index (PyPi)</title><link>https://csmertx.github.io/Linux/Code/pypi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/pypi/</guid><description>
+Installing Python packages pip3 install project
 pip3 install project==5.7.1
 pip3 install project&amp;gt;=5.6.1
 Upgrading packages pip3 install --upgrade project Resources Python Package Index Homepage</description></item><item><title>Ruby Language</title><link>https://csmertx.github.io/Linux/Code/ruby/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ruby/</guid><description>Add to PATH vim $HOME/.bashrc
@@ -70,5 +76,6 @@ Print Nth Line sed -n '7p'
 sed '7!d'
 Also 7th line
 Replace newline chracter w/space Tip: Easier with tr
-tr '&amp;quot;\n' ' ' &amp;lt; input_filename Remove brackets and everything inside brackets sed -e 's/\[[^][]*\]//g' Resources sed, a stream editor</description></item><item><title>ShellCheck</title><link>https://csmertx.github.io/Linux/Code/shellcheck/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/shellcheck/</guid><description> Basic Commands shellcheck /dir/script.sh _EOF_ triggering errors Contents of _EOF_ might indicate miss-redirect [&amp;raquo;]
+tr '&amp;quot;\n' ' ' &amp;lt; input_filename Remove brackets and everything inside brackets sed -e 's/\[[^][]*\]//g' Resources sed, a stream editor</description></item><item><title>ShellCheck</title><link>https://csmertx.github.io/Linux/Code/shellcheck/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/shellcheck/</guid><description>
+Basic Commands shellcheck /dir/script.sh _EOF_ triggering errors Contents of _EOF_ might indicate miss-redirect [&amp;raquo;]
 Resources ShellCheck - A shell script static analysis tool</description></item></channel></rss>

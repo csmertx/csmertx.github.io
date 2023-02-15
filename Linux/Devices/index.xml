@@ -62,9 +62,10 @@ The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline
 sudo xrandr --addmode {vga,Virtual}-{0,1} &amp;quot;1600x900_60.00&amp;quot; #Virtual-1
 Included Virtual for Virtual Machines (Slackware can be tricky)
 sudo xrandr --output Virtual-1 --mode &amp;quot;1600x900_60.00&amp;quot;
-Whatever output display and mode needed</description></item><item><title>PineTime Smartwatch</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>Less than $60 smartwatch that does not collect data. Or, a less than $60 smartwatch that is more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
-The ultimate test to see whether or not to buy an Apple watch
-Reporting in after close to a year Raising wrist to wake up the device is mostly awesome</description></item><item><title>Printers</title><link>https://csmertx.github.io/Linux/Devices/printing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/printing/</guid><description>For command line instructions see notes for Arch Linux
+Whatever output display and mode needed</description></item><item><title>PineTime Smartwatch</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>Pinetime Smartwatch? ~$40 smartwatch with Open Source firmware. And more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
+Reporting in after close to a year Raising wrist to wake up the device is mostly awesome
+Sometimes waking device displays last notification (swipe to clear notification)
+Sometimes waking device displays a random game of pong</description></item><item><title>Printers</title><link>https://csmertx.github.io/Linux/Devices/printing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/printing/</guid><description>For command line instructions see notes for Arch Linux
 Brother HL-2140 printing Blank Pages Ubuntu/Kubuntu
 Configure Printer
 Select custom driver
@@ -135,7 +136,8 @@ TP-Link AC-600 USB Adapter Plug into ethernet&amp;hellip;
 cd ~/.sources
 git clone https://github.com/aircrack-ng/rtl8812au
 sudo apt install dkms
-sudo make dkms_install</description></item><item><title>Xbox One Controller</title><link>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</guid><description> Pre-Bluetooth version (wireless)
+sudo make dkms_install</description></item><item><title>Xbox One Controller</title><link>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</guid><description>
+Pre-Bluetooth version (wireless)
 Disable Mouse Emulation vim /usr/share/X11/xorg.conf.d/50-joystick.conf
 Driver &amp;#34;joystick&amp;#34;
 ++ Option &amp;#34;StartKeysEnabled&amp;#34; &amp;#34;False&amp;#34; # These Two Lines Disable

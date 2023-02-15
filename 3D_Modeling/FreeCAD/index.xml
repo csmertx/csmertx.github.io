@@ -3,7 +3,8 @@ Center model
 Select .stl
 Switch to Part Workbench
 Part &amp;gt; Create shape from mesh&amp;hellip;
-Export &amp;gt; file.step/.stp</description></item><item><title>Step faces to Sketches</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</guid><description> Entry added before 2022
+Export &amp;gt; file.step/.stp</description></item><item><title>Step faces to Sketches</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</guid><description>
+Entry added before 2022
 Remove all unnecessary objects
 Switch to Draft Workbench
 Select Object and Explode (Solid Blue Down Arrow)

@@ -38,7 +38,8 @@ bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 bindsym XF86AudioPause exec --no-startup-id playerctl play-pause
 xev can help determine button press outputs
 See also keyboard scancodes for more bindsym options
-See mpv for more about mpris plugin</description></item><item><title>i3WM &amp; KDE</title><link>https://csmertx.github.io/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3_and_plasma/</guid><description> Install Dependencies sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev xutils-dev autoconf Configuration vim ~/.config/i3/config
+See mpv for more about mpris plugin</description></item><item><title>i3WM &amp; KDE</title><link>https://csmertx.github.io/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3_and_plasma/</guid><description>
+Install Dependencies sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev xutils-dev autoconf Configuration vim ~/.config/i3/config
 ++ exec --no-startup-id wmctrl -c Plasma
 +++ for_window [title=&amp;#34;Desktop — Plasma&amp;#34;] kill, floating enable, border none Avoid tiling popups, dropdown windows from plasma vim ~/.config/i3/config
 ++ for_window [class=&amp;#34;plasmashell&amp;#34;] floating enable
@@ -48,7 +49,8 @@ See mpv for more about mpris plugin</description></item><item><title>i3WM &amp; 
 ++ for_window [class=&amp;#34;krunner&amp;#34;] floating enable, border none
 ++ for_window [class=&amp;#34;Kmix&amp;#34;] floating enable, border none
 ++ for_window [class=&amp;#34;Klipper&amp;#34;] floating enable, border none
-++ for_window [class=&amp;#34;Plasmoidviewer&amp;#34;] floating enable, border none</description></item><item><title>Openbox</title><link>https://csmertx.github.io/Linux/WM/openbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox/</guid><description> Refresh desktop menu to add new programs, etc. vim ~/.config/openbox/menu.xml
+++ for_window [class=&amp;#34;Plasmoidviewer&amp;#34;] floating enable, border none</description></item><item><title>Openbox</title><link>https://csmertx.github.io/Linux/WM/openbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox/</guid><description>
+Refresh desktop menu to add new programs, etc. vim ~/.config/openbox/menu.xml
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt;
 &amp;lt;openbox_menu&amp;gt;
 &amp;lt;menu id=&amp;#34;root-menu&amp;#34; label=&amp;#34;OpenBox 3&amp;#34; execute=&amp;#34;/usr/bin/obmenu-generator&amp;#34;&amp;gt;
@@ -90,7 +92,8 @@ vim /home/user/.config/openbox/rc.xml Don&amp;rsquo;t forget to swap user with y
 &amp;lt;command&amp;gt;betterlockscreen -l&amp;lt;/command&amp;gt;
 &amp;lt;/action&amp;gt;
 &amp;lt;/keybind&amp;gt;
-&amp;lt;!</description></item><item><title>Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description> Tiling window manager status bar
+&amp;lt;!</description></item><item><title>Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description>
+Tiling window manager status bar
 Themes GitHub - adi1090x/polybar-themes: A huge collection of polybar themes with different styles, colors and variants.
 Polybar-10 is very similar to GNOME 3&amp;rsquo;s top bar
 Bluetooth See bluetooth for Polybar specific info Resources Polybar - A fast and easy-to-use tool for creating status bars</description></item></channel></rss>

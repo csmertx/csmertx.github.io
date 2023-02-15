@@ -55,7 +55,8 @@ Virtio/OpenGL might be best for KDE/Plasma
 Development Packages sudo yum groupinstall &amp;quot;Development Tools&amp;quot; &amp;quot;Development Libraries&amp;quot;</description></item><item><title>Kubuntu</title><link>https://csmertx.github.io/Linux/Distros/kubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/kubuntu/</guid><description>Disable Automatic Update Check Icon Right Click Up Arrow in panel
 Uncheck: General &amp;gt; Extra Items &amp;gt; Updates Update Settings Muon Package manager &amp;gt; Settings &amp;gt; Software Sources &amp;gt; Updates Dist Upgrade sudo aptitude update &amp;amp;&amp;amp; sudo aptitude upgrade
 sudo do-release-upgrade -d
-Tiny fonts in GTK applications (2022) System Settings &amp;gt; Appearance &amp;gt; Fonts &amp;gt; Enable Force font DPI (96 DPI) Incorrect resolution with QEMU usermod -a -G video user Switch to virtio cvt 1600 900 60</description></item><item><title>OpenSUSE</title><link>https://csmertx.github.io/Linux/Distros/opensuse/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/opensuse/</guid><description> OBS package management: OPI (similar to AUR or COPR) sudo zypper install opi
+Tiny fonts in GTK applications (2022) System Settings &amp;gt; Appearance &amp;gt; Fonts &amp;gt; Enable Force font DPI (96 DPI) Incorrect resolution with QEMU usermod -a -G video user Switch to virtio cvt 1600 900 60</description></item><item><title>OpenSUSE</title><link>https://csmertx.github.io/Linux/Distros/opensuse/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/opensuse/</guid><description>
+OBS package management: OPI (similar to AUR or COPR) sudo zypper install opi
 Similar to Arch Linux User repository or COPR
 Resources Fedora COPR: Project List</description></item><item><title>Slackware</title><link>https://csmertx.github.io/Linux/Distros/slackware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/slackware/</guid><description>Slackware as a virtualized system and beyond
 I believe these notes are for Slackware Current (it was before 2022)
@@ -84,7 +85,8 @@ apti debian-archive-keyring
 vim /etc/apt/sources.list
 ++ deb [trusted=yes] http://http.us.debian.org/debian/ testing non-free contrib main sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com &amp;lt;key&amp;gt;
 sudo apt-get update
-Check [package] candidate version before installing sudo apt-cache policy [package] For an apt-get dummy run use: apt-get -s install [packagex] Changing hostname Because sudo hostname newname would be too easy.</description></item><item><title>Ubuntu Old Releases</title><link>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</guid><description> 10.04 Lucid Lynx (for example&amp;ndash;works with i686 ISO) deb http://old-releases.ubuntu.com/ubuntu/ lucid main restricted
+Check [package] candidate version before installing sudo apt-cache policy [package] For an apt-get dummy run use: apt-get -s install [packagex] Changing hostname Because sudo hostname newname would be too easy.</description></item><item><title>Ubuntu Old Releases</title><link>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</guid><description>
+10.04 Lucid Lynx (for example&amp;ndash;works with i686 ISO) deb http://old-releases.ubuntu.com/ubuntu/ lucid main restricted
 deb http://old-releases.ubuntu.com/ubuntu/ lucid multiverse universe
 deb http://old-releases.ubuntu.com/ubuntu/ lucid-updates main restricted
 deb http://old-releases.ubuntu.com/ubuntu/ lucid-updates multiverse universe

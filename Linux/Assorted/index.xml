@@ -26,11 +26,13 @@ Superuser passwd
 Permissions RWX == Permission to Read, Write, &amp;amp; eXecute
 Typical user RWX
 chmod 700
-similar to chmod +x</description></item><item><title>ALSA</title><link>https://csmertx.github.io/Linux/Assorted/alsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/alsa/</guid><description> For tiling window manager scripting, etc.
+similar to chmod +x</description></item><item><title>ALSA</title><link>https://csmertx.github.io/Linux/Assorted/alsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/alsa/</guid><description>
+For tiling window manager scripting, etc.
 Acquire physical device ID aplay -l Resources AlsaProject</description></item><item><title>Bitmap Fonts</title><link>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</guid><description>Enable bitmap fonts (Debian/Ubuntu) sudo rm -f /etc/fonts/conf.d/70-{yes,no,force}-bitmaps.conf if test -f /etc/fonts/conf.avail/70-force-bitmaps.conf; then sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-force-bitmaps.conf else sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-yes-bitmaps.conf fi sudo rm -rf /var/cache/fontconfig/(star)
 rm -rf &amp;quot;$HOME/.fontconfig&amp;quot;
 sudo fc-cache
-fc-cache</description></item><item><title>Busybox</title><link>https://csmertx.github.io/Linux/Assorted/busybox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/busybox/</guid><description> Typically used for embedded operating systems with limited resources
+fc-cache</description></item><item><title>Busybox</title><link>https://csmertx.github.io/Linux/Assorted/busybox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/busybox/</guid><description>
+Typically used for embedded operating systems with limited resources
 List Partitions cat /proc/partitions
 df -h
 Resources Busybox Homepage</description></item><item><title>Console Resolution</title><link>https://csmertx.github.io/Linux/Assorted/console_resolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/console_resolution/</guid><description>See also Virtual Console
@@ -56,7 +58,8 @@ tar czf /dir/examplefolder.gz /dir/examplefolder
 Then follow steps to encrypt/decrypt files
 One or more PGP Signatures could not be verified! gpg --recv-key [key]
 Key is usually printed with error message
-Export Local key gpg --list-keys # Target == examplekey</description></item><item><title>Grep</title><link>https://csmertx.github.io/Linux/Assorted/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grep/</guid><description> Recursive matching Recursive: check subdirectories
+Export Local key gpg --list-keys # Target == examplekey</description></item><item><title>Grep</title><link>https://csmertx.github.io/Linux/Assorted/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grep/</guid><description>
+Recursive matching Recursive: check subdirectories
 grep -r term4search /dir Exclude Match grep -v term2exclude /dir/file Match and match egrep -w 'term1|term2' /dir/file Ignore case grep -i searchterm /dir/file String multiple matches grep -e term1 -e term2 -e term3 /dir/file Search via extensions .txt, .mp3, .svg, .sh, .bash, .conf, etc.
 grep -e term1 -e term2 /dir/*.txt</description></item><item><title>Grub</title><link>https://csmertx.github.io/Linux/Assorted/grub/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grub/</guid><description>Commonly refered to as Grub
 Default File sudov /etc/default/grub Really Quiet w/Splash Cursor Off for all tty [1-7]
@@ -64,7 +67,8 @@ GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0 v
 Admin Friendly Configuration
 I believe this keeps the console clear of kernel messaging
 GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0&amp;quot; For those extra grumpy kernel messages
-echo 1 &amp;gt; /proc/sys/kernel/printk Kernel panics (/boot/intel-ucode.img) First edit kernel param with grub</description></item><item><title>Logical Volume Manager</title><link>https://csmertx.github.io/Linux/Assorted/lvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/lvm/</guid><description> LVM2 (2020-02-18)
+echo 1 &amp;gt; /proc/sys/kernel/printk Kernel panics (/boot/intel-ucode.img) First edit kernel param with grub</description></item><item><title>Logical Volume Manager</title><link>https://csmertx.github.io/Linux/Assorted/lvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/lvm/</guid><description>
+LVM2 (2020-02-18)
 Mounting for chroot (Arch ISO) modprobe dm_mod
 vgscan
 vgchange -ay
@@ -80,7 +84,8 @@ sudov /etc/resolv.conf
 Google&amp;rsquo;s nameserver (8.8.8.8)
 DHCP auto eth0
 allow-hotplug eth0
-iface eth0 inet dhcp</description></item><item><title>Static IP</title><link>https://csmertx.github.io/Linux/Assorted/static_ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/static_ip/</guid><description> Local Static IP (QEMU/KVM) sudo EDITOR=vim virsh net-edit default
+iface eth0 inet dhcp</description></item><item><title>Static IP</title><link>https://csmertx.github.io/Linux/Assorted/static_ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/static_ip/</guid><description>
+Local Static IP (QEMU/KVM) sudo EDITOR=vim virsh net-edit default
 Add hosts after range as shown below
 &amp;lt;dhcp&amp;gt;
 &amp;lt;range start=&amp;#39;192.168.122.100&amp;#39; end=&amp;#39;192.168.122.254&amp;#39;/&amp;gt;
@@ -100,7 +105,8 @@ DNS2=&amp;#34;4.4.4.4&amp;#34;
 GATEWAY=&amp;#34;192.168.254.254&amp;#34;
 HOSTNAME=&amp;#34;eXnX&amp;#34;
 NETMASK=&amp;#34;255.255.255.0&amp;#34;
-IPADDR=&amp;#34;192.168.254.XX&amp;#34;</description></item><item><title>Swap Memory</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description> A swapfile (1G) sudo dd if=/dev/zero of=/swap1G bs=1024 count=1048576
+IPADDR=&amp;#34;192.168.254.XX&amp;#34;</description></item><item><title>Swap Memory</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description>
+A swapfile (1G) sudo dd if=/dev/zero of=/swap1G bs=1024 count=1048576
 sudo chown root:root /swap1G
 sudo chmod 0600 /swap1G
 sudo mkswap /swap1G
