@@ -41,7 +41,7 @@ Cut out a slice (audio)
 ```ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4```
 
 
-## Gif with subtitles (so-so quality)
+## GIF with subtitles (so-so quality)
 
 - [Gifski](https://gif.ski/) may be the right choice for high quality gifs, but here are the basics with FFmpeg.
 
@@ -65,6 +65,26 @@ Cut out a slice (audio)
 > Subtitles extracted from dr_rad_got_the_hose.mkv added to new dr_rad_got_the_hose.gif
 </div>
 
+## GIF via PNG (pretty decent quality)
+
+```
+ffmpeg -i "/mnt/Storage/Videos/Movies/Ice Age 3: Dawn of the Dinosaurs (2009).mp4" -ss 00:34:18 -to 00:34:26 -c copy "/mnt/Storage/Videos/iceage3weasel/Ice_Age_3_weasel.mp4"
+```
+
+```ffmpeg -i "/mnt/Storage/Videos/iceage3weasel/Ice_Age_3_weasel.mp4" -vf fps=24 %d.png```
+    
+> For frame rate via Dolphin File Manager: Right click the file > Properties > Details > Frame Rate (23.98fps)
+
+```cd /mnt/Storage/Videos/iceage3weasel/```
+
+```ffmpeg -i %d.png iceage3weasel.gif```
+<div style="text-align: center;">
+<img src="https://i.imgur.com/7UXtSnZ.gif"/>
+
+> [Ice Age 3: Dawn of the Dinosaurs (character: Buck)](https://www.imdb.com/title/tt1080016/characters/nm0670408?ref_=tt_cl_c_18) via DVD rip
+</div>
+
+> Why not use .gifv or .webm? Video does not appear to be compatible with Github pages
 
 ## Changing subtitle font size and color for gifs/video
 
