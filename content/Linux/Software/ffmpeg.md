@@ -78,6 +78,12 @@ ffmpeg -i "/mnt/Storage/Videos/Movies/Ice Age 3: Dawn of the Dinosaurs (2009).mp
 ```cd /mnt/Storage/Videos/iceage3weasel/```
 
 ```ffmpeg -i %d.png iceage3weasel.gif```
+
+### Could find no file with path '%d.png' and index in the range 0-4
+
+```ffmpeg -start_number 54 -i %d.png iceage3weasel.gif```
+> ```54``` in this case was the first image number
+
 <div style="text-align: center;">
 <img src="https://i.imgur.com/7UXtSnZ.gif"/>
 
