@@ -12,6 +12,9 @@ disablePathToLower = true
 # Required if you want to render robots.txt template
 enableRobotsTXT = true
 
+# Google indexing verification (.html)
+canonifyURLs = true
+
 # Needed for mermaid shortcodes
 [markup]
   [markup.goldmark.renderer]

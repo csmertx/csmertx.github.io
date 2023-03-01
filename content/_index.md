@@ -5,9 +5,6 @@ geekdocAlign: center
 geekdocAnchor: false
 ---
 
-<meta name="google-site-verification" content="k4wDKNaGbJo52nPB8LkbrdQUXfTX37xW9tHJxRt7ttM" />
-
-
 <br />
 
 ## Hwhat?
