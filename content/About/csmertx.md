@@ -189,7 +189,7 @@ Nope, that's not it. Abbreviations may seem the same, but mine is mostly meme.
 
 - ```NeuroTribes```, by Steve Silberman
 
-    > *"The Legacy of Autism and the Future of Neurodiversity"*
+    > *The Legacy of Autism and the Future of Neurodiversity*
 
 - ```Improve Your Social Skills```, by Daniel Wendler
 
@@ -197,7 +197,7 @@ Nope, that's not it. Abbreviations may seem the same, but mine is mostly meme.
 
 - ```The Open Organization```, by Jim Whitehurst CEO, Red Hat
 
-    > *"Igniting Passion and Performance"* ([Red Hat Linux](https://www.redhat.com/en/explore/the-open-organization-book))
+    > *Igniting Passion and Performance* ([Red Hat Linux](https://www.redhat.com/en/explore/the-open-organization-book))
 
 - ```Outliers```, by Malcolm Gladwell
 
