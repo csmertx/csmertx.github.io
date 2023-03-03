@@ -195,6 +195,10 @@ Nope, that's not it. Abbreviations may seem the same, but mine is mostly meme.
 
     > Introduction to building sandwiches
 
+- ```The Open Organization```, by Jim Whitehurst CEO, Red Hat
+
+    > *"Igniting Passion and Performance"* ([Red Hat Linux](https://www.redhat.com/en/explore/the-open-organization-book))
+
 - ```Outliers```, by Malcolm Gladwell
 
     > Extraordinary tales of extraordinary people
