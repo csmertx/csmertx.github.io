@@ -443,7 +443,14 @@ GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0&a
 echo 1 &amp;gt; /proc/sys/kernel/printk Kernel panics (/boot/intel-ucode.img) First edit kernel param with grub</description></item><item><title>HTML to PDF</title><link>https://csmertx.github.io/Linux/Software/html_to_pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/html_to_pdf/</guid><description>Firefox CTRL + P
 Save to PDF Chome CTRL + P
 Save to PDF wkhtmltopdf wkhtmltopdf input.html output.pdf
-Additional options via CLI not available through browsers</description></item><item><title>i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description>Mpris Control apti playerctl
+Additional options via CLI not available through browsers</description></item><item><title>Hugo</title><link>https://csmertx.github.io/Web/hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/hugo/</guid><description>Google Search Console verification (URL prefix) and Github Pages First step is to visit: https://search.google.com/search-console?action=inspect
+Add downloaded googleXXXX.html to /static
+Wait 3-5 minutes for Github Pages to update the site before clicking verify
+Add website sitemap via: https://search.google.com/search-console/sitemaps
+Hugo via Github Pages: https://user.github.io/sitemap.xml
+All that&amp;rsquo;s left to do is wait in line for the site to be indexed
+Resources Hugo: The world’s fastest framework for building websites
+How to verify Hugo site to Google Search Console?</description></item><item><title>i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description>Mpris Control apti playerctl
 vim ~/.config/i3/config
 Bluetooth headsets
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
