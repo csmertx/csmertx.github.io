@@ -1,7 +1,7 @@
 ---
 title: Hugo
 author: csmertx
-date: March 1, 2023
+date: March 4, 2023
 weight: -20
 ---
 
@@ -21,9 +21,27 @@ weight: -20
 
 - All that's left to do is wait in line for the site to be indexed
 
+## Robots.txt blocking Google crawl
+
+> [Google Search Console](https://search.google.com/search-console) > Indexing > Pages > Why pages aren’t indexed
+
+> For me it was this URL: https://user.github.io/tags/
+
+- ```vim ../config.toml```
+
+    - Change ```enableRobotsTXT = true``` to ```enableRobotsTXT = false```
+
+- Upload the following robots.txt to ```/static/robots.txt```
+
+    ```
+    User-agent: *
+    Disallow:
+    ```
+
 ## Resources
 
 - [Hugo: The world’s fastest framework for building websites](https://gohugo.io/)
 
-- [How to verify Hugo site to Google Search Console? - support - HUGO
-](https://discourse.gohugo.io/t/how-to-verify-hugo-site-to-google-search-console/15078)
+- [Hugo Support: How to verify Hugo site to Google Search Console?](https://discourse.gohugo.io/t/how-to-verify-hugo-site-to-google-search-console/15078)
+
+- [Search Facts: How to Use Robots.txt to Allow or Disallow Everything](https://searchfacts.com/robots-txt-allow-disallow-all/)
