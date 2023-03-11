@@ -91,6 +91,26 @@ ffmpeg -i "/mnt/Storage/Videos/Movies/Ice Age 3: Dawn of the Dinosaurs (2009).mp
 </div>
 
 > Why not use .gifv or .webm? Video does not appear to be compatible with Github pages
+<br />
+
+## Batch cropping PNG images for GIF creation
+
+- [XnConvert: Batch Image Converter](#resources)
+
+    > Downloads & Purchase > Linux > Linux DEB 64-Bit
+
+- In Dolphin File Browser ```CTRL``` + ```F``` can be used to search for ```result```
+    
+    > Since Dolphin only displays the output of search, it's easy to copy to a different folder for processing
+
+<br />
+
+<div style="text-align: center;">
+<img src="https://i.imgur.com/pnUeaaD.gif"/>
+
+> Batch cropped from 1280 width to 401x400 with xnconvert
+</div>
+<br />
 
 ## Changing subtitle font size and color for gifs/video
 
@@ -198,3 +218,5 @@ ffmpeg -i "/home/chris/Downloads/Shares/dr_rad_got_the_hose.mkv" -vf subtitles="
 - [How to set background to subtitle in ffmpeg?](https://stackoverflow.com/questions/25870169/how-to-set-background-to-subtitle-in-ffmpeg)
 
 - [Stack Overflow: ffmpeg extract hdmv pgs subtitles from mkv to srt](https://stackoverflow.com/questions/62976902/ffmpeg-extract-hdmv-pgs-subtitles-from-mkv-to-srt)
+
+- [XnConvert: Batch Image Converter](https://www.xnview.com/en/xnconvert)
