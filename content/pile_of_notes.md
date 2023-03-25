@@ -11,6 +11,4 @@ While developers of open source and Linux have fewer corporate hoops to jump thr
 
 ## Navigation
 
-Tap the top left hamburger. Also, the top right arrow hides the button to change the website theme, and the Github repo of this website. At the bottom of each page is a ^Top link that scrolls the page back to the top of the website.
-
-
+Tap the top left hamburger. Also, the top right arrow hides the button to change the website theme, and the Github repo of this website. At the bottom of each page is a ^Top link that scrolls the page back to the top of the page.
