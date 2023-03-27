@@ -7,4 +7,11 @@ SET LAUNCH OPTIONS
 +r_renderapi 1 Debug Log per game SET LAUNCH OPTIONS
 DEBUGGER=gdb steam Library &amp;gt; Right click game &amp;gt; Properties
 SET LAUNCH OPTIONS
--con_logfile Protontricks Install Protontricks: A simple wrapper that does winetricks things for Proton enabled games</description></item></channel></rss>
+-con_logfile Protontricks Install Protontricks: A simple wrapper that does winetricks things for Proton enabled games</description></item><item><title>Skyrim Special Edition</title><link>https://csmertx.github.io/Games/skyrim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/skyrim/</guid><description>
+Screen tearing (for slow camera movement) Ubuntu
+vim &amp;quot;/home/user/.steam/debian-installation/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini&amp;quot; Custom Steam games location
+vim &amp;quot;.../SteamLibrary/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini&amp;quot; Add iPresentInterval=0 as the last entry in [Display]
+[Display] ... ++ iPresentInterval=0 Mouse Acceleration (for slow mouse movement) Ubuntu
+vim /home/user/.steam/debian-installation/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini Custom Steam games location
+vim .../SteamLibrary/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini Add bMouseAcceleration=0 as the last entry in [Controls]
+[Controls] ... ++ bMouseAcceleration=0</description></item></channel></rss>
