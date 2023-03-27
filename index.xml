@@ -851,14 +851,13 @@ One of the the options is the scroll LED, the other is the logo LED
 rivalcfg -c &amp;quot;#9EDC97&amp;quot; # LED off: &amp;quot;#000000&amp;quot;
 rivalcfg -C &amp;quot;#9EDC97&amp;quot; # LED off: &amp;quot;#000000&amp;quot;</description></item><item><title>ShellCheck</title><link>https://csmertx.github.io/Linux/Code/shellcheck/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/shellcheck/</guid><description>
 Basic Commands shellcheck /dir/script.sh _EOF_ triggering errors Contents of _EOF_ might indicate miss-redirect [&amp;raquo;]
-Resources ShellCheck - A shell script static analysis tool</description></item><item><title>Skyrim Special Edition</title><link>https://csmertx.github.io/Games/skyrim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/skyrim/</guid><description>
-Screen tearing (for slow camera movement) Ubuntu
+Resources ShellCheck - A shell script static analysis tool</description></item><item><title>Skyrim Special Edition</title><link>https://csmertx.github.io/Games/skyrim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/skyrim/</guid><description>Screen tearing (for slow camera movement) Ubuntu
 vim &amp;quot;/home/user/.steam/debian-installation/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini&amp;quot; Custom Steam games location
 vim &amp;quot;.../SteamLibrary/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini&amp;quot; Add iPresentInterval=0 as the last entry in [Display]
 [Display] ... ++ iPresentInterval=0 Mouse Acceleration (for slow mouse movement) Ubuntu
 vim /home/user/.steam/debian-installation/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini Custom Steam games location
 vim .../SteamLibrary/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini Add bMouseAcceleration=0 as the last entry in [Controls]
-[Controls] ... ++ bMouseAcceleration=0</description></item><item><title>Slackware</title><link>https://csmertx.github.io/Linux/Distros/slackware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/slackware/</guid><description>Slackware as a virtualized system and beyond
+[Controls] ... ++ bMouseAcceleration=0 Resources Bethesda Support: What do I do if my mouse has a delay while playing The Elder Scrolls V: Skyrim?</description></item><item><title>Slackware</title><link>https://csmertx.github.io/Linux/Distros/slackware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/slackware/</guid><description>Slackware as a virtualized system and beyond
 I believe these notes are for Slackware Current (it was before 2022)
 Installation Lilo &amp;amp; Virtio
 Exit installer &amp;gt; Don&amp;rsquo;t reboot..
