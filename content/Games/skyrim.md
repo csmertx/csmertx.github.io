@@ -42,3 +42,7 @@ weight: -20
     ...
     ++ bMouseAcceleration=0
     ```
+
+## Resources
+
+- [Bethesda Support: What do I do if my mouse has a delay while playing The Elder Scrolls V: Skyrim?](https://help.bethesda.net/#en/answer/27025)
