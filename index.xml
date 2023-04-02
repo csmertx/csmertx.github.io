@@ -259,14 +259,15 @@ Fly.io / Docs / App Guides / Run a private DNS over HTTPS service</description><
 Installation docker
 sudo systemctl {start,enable} docker.service
 List Containers docker images
-sudo docker ps -aq
+sudo docker ps
 Logs sudo docker logs containerid Storage Driver sudov /etc/docker/daemon.json
 ++ { ++ &amp;#34;storage-driver&amp;#34;: &amp;#34;overlay2&amp;#34; ++ } Volume examples docker run -d \
 --volume /dir/media:/media
 Permissions sudo usermod -aG docker user Cannot connect to docker daemon error sudo snap start docker
 sudo systemctl status docker
 sudo systemctl enable docker
-sudo systemctl start docker</description></item><item><title>Docker</title><link>https://csmertx.github.io/Linux/VMs/docker_installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/docker_installation/</guid><description>A neat way to setup a DIY media streaming box
+sudo systemctl start docker
+Purge all the things sudo docker system prune Docker Compose Visit: https://docs.</description></item><item><title>Docker</title><link>https://csmertx.github.io/Linux/VMs/docker_installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/docker_installation/</guid><description>A neat way to setup a DIY media streaming box
 Debian packages sudo apti docker docker-compose cockpit cockpit-docker Fedora packages sudo dnf install docker docker-compose cockpit cockpit-docker Add user to docker group (single user LAN server only) sudo usermod -aG docker $USER Install Nextcloud sudo docker pull nextcloud IP Address add IP=192.168.xxx.xx to environment Link /var/lib/docker to different partition remove /var/lib/docker
 Backup /var/lib/docker first?
 sudo -ln -s /mnt/containers/docker /var/lib/docker</description></item><item><title>Dolphin (KDE)</title><link>https://csmertx.github.io/Linux/Software/dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dolphin/</guid><description>Select file/folder with single click (for shift click or alt click selections) System Settings (app)

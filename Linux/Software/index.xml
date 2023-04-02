@@ -43,14 +43,15 @@ sudo apti dosbox default-jdk dbgl</description></item><item><title>Docker</title
 Installation docker
 sudo systemctl {start,enable} docker.service
 List Containers docker images
-sudo docker ps -aq
+sudo docker ps
 Logs sudo docker logs containerid Storage Driver sudov /etc/docker/daemon.json
 ++ { ++ &amp;#34;storage-driver&amp;#34;: &amp;#34;overlay2&amp;#34; ++ } Volume examples docker run -d \
 --volume /dir/media:/media
 Permissions sudo usermod -aG docker user Cannot connect to docker daemon error sudo snap start docker
 sudo systemctl status docker
 sudo systemctl enable docker
-sudo systemctl start docker</description></item><item><title>Dolphin (KDE)</title><link>https://csmertx.github.io/Linux/Software/dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dolphin/</guid><description>Select file/folder with single click (for shift click or alt click selections) System Settings (app)
+sudo systemctl start docker
+Purge all the things sudo docker system prune Docker Compose Visit: https://docs.</description></item><item><title>Dolphin (KDE)</title><link>https://csmertx.github.io/Linux/Software/dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dolphin/</guid><description>Select file/folder with single click (for shift click or alt click selections) System Settings (app)
 Workspace Behaviour
 General Behavior
 Clicking files or folders &amp;gt; Selects them
