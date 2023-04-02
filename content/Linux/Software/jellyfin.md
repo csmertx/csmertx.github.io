@@ -64,13 +64,15 @@ jellyfin/jellyfin
 
 - ```sudo docker ps -aq```
 
-- ```sudo docker stop [listedcontainer]```
+- ```sudo docker stop CONTAINER```
 
 ## Update
 
 - ```sudo aa-remove-unknown```
 
     > You may want to [read](https://forum.snapcraft.io/t/broken-apparmor/32191) about the repercussions of ```aa-remove-unknown``` ...
+
+- ```sudo docker ps -aq```
 
 - ```sudo docker stop CONTAINER```
 
