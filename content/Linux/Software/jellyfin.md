@@ -80,6 +80,8 @@ jellyfin/jellyfin
 
 - ```$HOME/.scripts/jellyfin_setup.sh```
 
+    > The script I use can be found [here](https://github.com/csmertx/dotfiles/blob/master/scripts/jellyfin_setup.sh)
+
 ## Not running after system update(s)?
 
 - ```$HOME/.scripts/jellyfin_setup.sh```
