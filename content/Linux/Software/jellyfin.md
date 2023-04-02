@@ -70,7 +70,7 @@ jellyfin/jellyfin
 
 - ```sudo aa-remove-unknown```
 
-    > You may want to [read](https://forum.snapcraft.io/t/broken-apparmor/32191) about the repercussions of ```aa-remove-unknown``` ...
+    > You might want to [read](https://forum.snapcraft.io/t/broken-apparmor/32191) about the repercussions of ```aa-remove-unknown``` ...
 
 - ```sudo docker ps```
 
