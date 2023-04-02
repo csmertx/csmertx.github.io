@@ -1,7 +1,7 @@
 ---
 title: Docker
 author: csmertx
-date: February 3, 2023
+date: April 1, 2023
 weight: -20
 ---
 
@@ -19,7 +19,7 @@ weight: -20
 
 - ```docker images```
 
-- ```sudo docker ps -aq```
+- ```sudo docker ps```
 
 ## Logs
 

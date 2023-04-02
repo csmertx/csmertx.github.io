@@ -1,7 +1,7 @@
 ---
 title: Jellyfin | Media Server
 author: csmertx
-date: February 3, 2023
+date: April 1, 2023
 weight: -20
 ---
 
@@ -62,7 +62,7 @@ jellyfin/jellyfin
 
 ## Server stop
 
-- ```sudo docker ps -aq```
+- ```sudo docker ps```
 
 - ```sudo docker stop CONTAINER```
 
@@ -72,7 +72,7 @@ jellyfin/jellyfin
 
     > You may want to [read](https://forum.snapcraft.io/t/broken-apparmor/32191) about the repercussions of ```aa-remove-unknown``` ...
 
-- ```sudo docker ps -aq```
+- ```sudo docker ps```
 
 - ```sudo docker stop CONTAINER```
 
@@ -86,7 +86,7 @@ jellyfin/jellyfin
 
 ## Restart
 
-- ```sudo docker ps -aq```
+- ```sudo docker ps```
 
 - ```sudo docker restart [container]```
 
