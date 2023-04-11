@@ -7,6 +7,15 @@ weight: -20
 
 <br />
 
+## SDDM High CPU Usage (25% +)
+
+- ```sudov /etc/security/pam_env.conf```
+
+    ```
+    ...
+    ++ QT_QUICK_BACKEND DEFAULT=software
+    ```
+
 ## Disable File Indexer baloo_file
 
 - ```balooctl disable```
@@ -129,3 +138,7 @@ weight: -20
 - Delete ```/home/user/.local/share/kscreen```
 
 - ```reboot```
+
+## Resources
+
+- [r/kde: Constant CPU usage when sddm-greeter is idle](https://www.reddit.com/r/kde/comments/u4chnl/constant_cpu_usage_when_sddmgreeter_is_idle/)
