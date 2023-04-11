@@ -141,4 +141,6 @@ weight: -20
 
 ## Resources
 
-- [r/kde: Constant CPU usage when sddm-greeter is idle](https://www.reddit.com/r/kde/comments/u4chnl/constant_cpu_usage_when_sddmgreeter_is_idle/)
+- [r/kde: Constant CPU usage when sddm-greeter is idle (references: sddm/sddm Issue #323)](https://www.reddit.com/r/kde/comments/u4chnl/constant_cpu_usage_when_sddmgreeter_is_idle/)
+
+- [GitHub: sddm/sddm - high cpu when sddm-greeter is idle · Issue #323](https://github.com/sddm/sddm/issues/323)
