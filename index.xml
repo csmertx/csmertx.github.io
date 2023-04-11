@@ -739,7 +739,8 @@ Resources Perl Programming Language Documentation</description></item><item><tit
 Navigation Tap the top left hamburger. Also, the top right arrow hides the button to change the website theme, and the Github repo of this website.</description></item><item><title>PineTime Smartwatch</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>Pinetime Smartwatch? ~$40 smartwatch with Open Source firmware. And more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
 Reporting in after close to a year Raising wrist to wake up the device is mostly awesome
 Sometimes waking device displays last notification (swipe to clear notification)
-Sometimes waking device displays a random game of pong</description></item><item><title>Plasma (KDE)</title><link>https://csmertx.github.io/Linux/DEs/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/kde_plasma/</guid><description>Disable File Indexer baloo_file balooctl disable
+Sometimes waking device displays a random game of pong</description></item><item><title>Plasma (KDE)</title><link>https://csmertx.github.io/Linux/DEs/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/kde_plasma/</guid><description>SDDM High CPU Usage (25% +) sudov /etc/security/pam_env.conf
+... ++ QT_QUICK_BACKEND DEFAULT=software Disable File Indexer baloo_file balooctl disable
 pause with: balooctl suspend
 Breeze SDDM theme background When GUI selection does not represent selection
 sudo mkdir /usr/share/backgrounds/new_folder
@@ -748,9 +749,7 @@ sudov /usr/share/sddm/themes/breeze/theme.conf.user
 ++ background=/usr/share/backgrounds/new_folder/image.jpg Logout &amp;amp; login
 Time set to 24 hours instead of 12 hours in SDDM Solution to change SDDM time display to 12 hours
 sudov /etc/locale.conf
-++ LANG=en_US.UTF-8 sudov /etc/locale.gen
--- #en_US.UTF-8 UTF-8 ++ en_US.UTF-8 UTF-8 locale-gen
-Removal (Arch) pac -Rc plasma</description></item><item><title>Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description>
+++ LANG=en_US.</description></item><item><title>Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description>
 Tiling window manager status bar
 Themes GitHub - adi1090x/polybar-themes: A huge collection of polybar themes with different styles, colors and variants.
 Polybar-10 is very similar to GNOME 3&amp;rsquo;s top bar
