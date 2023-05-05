@@ -407,7 +407,11 @@ tar czf /dir/examplefolder.gz /dir/examplefolder
 Then follow steps to encrypt/decrypt files
 One or more PGP Signatures could not be verified! gpg --recv-key [key]
 Key is usually printed with error message
-Export Local key gpg --list-keys # Target == examplekey</description></item><item><title>GPS Devices</title><link>https://csmertx.github.io/Linux/Devices/gps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gps/</guid><description>Not something I&amp;rsquo;ve used. Just a curiosity.
+Export Local key gpg --list-keys # Target == examplekey</description></item><item><title>Google Chrome</title><link>https://csmertx.github.io/Web/chrome/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/chrome/</guid><description>
+Google Chrome 112 - Ubuntu 22.04 Chrome (Stable) via Flatpak
+Enable &amp;lsquo;Performance&amp;rsquo; option in settings chrome://flags/#high-efficiency-mode-available &amp;lsquo;Enable the high efficiency mode feature in the settings&amp;rsquo; (Toggle: Enable) Disable Memory Saver If no &amp;lsquo;Performance&amp;rsquo; option in settings see above
+Three dots (Top Right of browser) &amp;gt; Settings &amp;gt; Performance &amp;gt; Disable Memory Saver
+Resources Android Police: Google Chrome rolls out long awaited battery saving features</description></item><item><title>GPS Devices</title><link>https://csmertx.github.io/Linux/Devices/gps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gps/</guid><description>Not something I&amp;rsquo;ve used. Just a curiosity.
 From GPS Device apti gpsd
 Arch Linux: pac -S gpsd
 sudo systemctl start/enable gpsd
