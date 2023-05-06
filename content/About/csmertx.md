@@ -1,14 +1,14 @@
 ---
 title: csmertx
 author: csmertx
-date: March 3, 2023
+date: May 5, 2023
 weight: -20
 ---
 
 <br />
 
 <div style="text-align: center;">
-<img src="https://i.imgur.com/NKlNt8d.gif"/>
+<img src="https://i.imgur.com/63qlCQj.gif"/>
 </div>
 
 # Purpose of this website
