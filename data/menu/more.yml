@@ -1,6 +1,6 @@
 ---
-contact:
-  - name: Email
+more:
+  - name: "Email"
     ref: "mailto:csmertx@protonmail.com"
     external: true
     icon: "gdoc_email"
