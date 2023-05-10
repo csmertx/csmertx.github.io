@@ -8,7 +8,9 @@ weight: -20
 <br />
 
 <div style="text-align: center;">
-<img src="https://i.imgur.com/63qlCQj.gif"/>
+
+![MC Chris](/mc_gremlin.png "A picture of MC Gremlin, the mascot of LGM")
+
 </div>
 
 # Purpose of this website
