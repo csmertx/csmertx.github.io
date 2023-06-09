@@ -15,45 +15,108 @@ weight: -20
 
 # Purpose of this website
 
-Some of this documentation may help Linux beginners. There are a lot of examples that could be helpful, but I assume certain understandings about GNU/Linux that may be frustrating to newbies. I love researching topics, but I'm not that great at documenting my findings. I'm open to any mistakes glaring or otherwise found in this documentation. Thank you for visiting.
+This website is more like a remote cabinet drawer for my computering notes.
 
-> For Linux newbies definitely check out: [Learn Linux TV]( https://community.learnlinux.tv), [Linuxize](https://linuxize.com/), [AskUbuntu](https://askubuntu.com), [Tecmint](https://tecmint.com), [ItsFOSS](https://itsfoss.com), [nixCraft](https://www.cyberciti.biz/), [Linux Mint Forums](https://forums.linuxmint.com), [Ubuntu: The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview), [Techspot: A Beginner's Guide to the Linux Command Line](https://www.techspot.com/guides/835-linux-command-line-basics/)
+## Recommended Linux Websites
 
-> Linux Podcast networks: [Destination Linux](https://destinationlinux.network/), [Jupiter Broadcasting](https://www.jupiterbroadcasting.com/)
+> Some have YouTube channels
 
-## csmertx?
+- [Learn Linux TV]( https://community.learnlinux.tv)
 
-My handle is portmanteau of ```c``` for my first initial, ```smert``` for a common mispronunciation of my surname, and ```x``` because of my experience working for Eckerd/CVS Pharmacy (like ```RX```). ```¯\_(ツ)_/¯```. Thankfully ```smert``` was already taken.
+- [Linuxize](https://linuxize.com/)
 
-I created the handle before it was really common to see ```CS``` as an abbreviation for ```computer science```. So it goes.
+- [AskUbuntu](https://askubuntu.com)
+
+- [Tecmint](https://tecmint.com)
+
+- [ItsFOSS](https://itsfoss.com)
+
+- [nixCraft](https://www.cyberciti.biz/)
+
+- [Linux Mint Forums](https://forums.linuxmint.com)
+
+- [Ubuntu: The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+
+- [Techspot: A Beginner's Guide to the Linux Command Line](https://www.techspot.com/guides/835-linux-command-line-basics/)
+
+## Recommended Linux Podcast networks
+
+> All have YouTube channels (50K+ subscribers)
+
+1. [Destination Linux](https://destinationlinux.network/)
+
+2. [Jupiter Broadcasting](https://www.jupiterbroadcasting.com/)
 
 ## Gremlins?
 
-> grem·lin ˈgrem-lən
-> : a cause of error or equipment malfunction (as in aircraft) conceived of as a small mischievous gnome
+1. grem·lin ˈgrem-lən
+
+    > A cause of error or equipment malfunction (as in aircraft) conceived of as a small mischievous gnome
 
 
 ## My history with Linux
 
-My time with Linux started at the beginning of 2013. Computering with some kind of prompt since 1987. That said, my credentials are in my config files, so I am not an authority of computer science.  Regarding these notes--please take care.
+> My distro hopping
 
+- [Linux Mint](https://linuxmint.com/) w/Cinnamon (2013 - 2016)
+
+    > Also a few Ubuntu ['flavors'](https://ubuntu.com/desktop/flavours)
+
+    > Dual booted Windows 7
+
+- [Debian](https://www.debian.org/) 9 w/Gnome 3 (2017 - 2018)
+
+- [Manjaro](https://manjaro.org/) i3wm (2018 - 2019)
+
+- [Arch Linux](https://archlinux.org/) w/i3wm, w/BSPWM, and KDE (2018 - 2020)
+
+- [Ubuntu](https://ubuntu.com/) 20.04 (2020 - 2022)
+
+- [Kubuntu](https://kubuntu.org/) (2022 - 2023)
+
+    - Very gamer friendly w/Steam installed and configured with [Proton](/Games/steam_proton.md)
+
+        - Pinball PX3
+
+        - Dirt Rally 2.0
+
+        - Fallout 4
+
+        - Skyrim Special Edition
+
+        - Fishing Planet
+
+        - The Sims 4
+
+        - Skater XL
+
+        - Darkplaces Quake
+
+        - Unreal Tournament 2000
+
+        - Commander Keen
+
+        - Path of Exile
+
+        - Doom Eternal
+
+        - Runes of Magic (crashes are commonplace)
 
 ## What? No tiling window managers?
 
-ᐳ [Fear and Loathing on the Arch Linux Trail (2018)](https://imgur.com/a/VXpYHBM)
+> ᐳ Cobbled together with single threaded Bash scripts
 
+- [Imgur.com | Fear and Loathing on the Arch Linux Trail (2018)](https://imgur.com/a/VXpYHBM)
 
-## LGM.. like that one \*Insert Name Here\*
-
-Nope, that's not it. Abbreviations may seem the same, but mine is mostly meme.
-
+    > Most of my pet Bash scripting projects sprung from this virtual journey
 
 ## Hugo theme used
 
-> Hint: clone the theme instead of this website
+- [Preview of the Hugo Geekdocs theme](https://geekdocs.de/)
 
-[Github - thegeeklab/hugo-geekdoc](https://github.com/thegeeklab/hugo-geekdoc)
+    > This website is based on a 2022 version of GeekDocs
 
+- [Github - thegeeklab/hugo-geekdoc](https://github.com/thegeeklab/hugo-geekdoc)
 
 ## Shorthand reference
 
@@ -172,7 +235,7 @@ Nope, that's not it. Abbreviations may seem the same, but mine is mostly meme.
 
 - Skateboarding Stereotypes
     
-    - Speaking of stereos: Famous person Jason Lee (My Name Is Earl, Mallrats, etc.) is a professional skateboarder, actor, filmmaker, and photographer that rode for Blind Skateboards, and founded Stereo Skateboards. He has one of the best 360 flips too.
+    - Speaking of stereos. Jason Lee (My Name Is Earl, Mallrats, etc.) is a professional skateboarder, actor, filmmaker, and photographer that rode for Blind Skateboards, and founded Stereo Skateboards.
 
 
 ## Unsolicited non-fiction book recommendations
