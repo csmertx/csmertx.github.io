@@ -9,7 +9,7 @@ weight: -20
 
 <div style="text-align: center;">
 
-![MC Chris](/mc_gremlin.png "A picture of MC Gremlin, the mascot of LGM")
+![MC Chris](/mc_gremlin.png "A picture of MC Gremlin, the logo of LGM via Stable Diffusion")
 
 </div>
 
