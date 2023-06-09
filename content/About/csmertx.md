@@ -1,7 +1,7 @@
 ---
 title: csmertx
 author: csmertx
-date: May 5, 2023
+date: June 9, 2023
 weight: -20
 ---
 
@@ -12,10 +12,6 @@ weight: -20
 ![MC Chris](/mc_gremlin.png "A picture of MC Gremlin, the mascot of LGM")
 
 </div>
-
-# Purpose of this website
-
-This website is more like a remote cabinet drawer for my computering notes.
 
 ## Recommended Linux Websites
 
