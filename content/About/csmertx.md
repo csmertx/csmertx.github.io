@@ -68,7 +68,7 @@ weight: -20
 
 - [Ubuntu](https://ubuntu.com/) 20.04 (2020 - 2022)
 
-- [Kubuntu](https://kubuntu.org/) (2022 - 2023)
+- [Kubuntu](https://kubuntu.org/) (2022 - Present)
 
     - Very gamer friendly w/Steam installed and configured with [Proton](/Games/steam_proton.md)
 
