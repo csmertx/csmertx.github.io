@@ -13,6 +13,10 @@ weight: -20
 
 </div>
 
+# LGM (Linux Gremlin Mysteries)
+
+> A pet project website
+
 ## Recommended Linux Websites
 
 > Some have YouTube channels
