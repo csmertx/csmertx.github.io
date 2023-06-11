@@ -214,7 +214,8 @@ sudo crontab -e global
 Quick reference * * * * * min hour(24hr) day (month) month day (week) Example: 02 12 * * * == run once at 10:05PM everyday
 Simple: minute hour (24hr)
 Cron location in filesystem /var/spool/cron Resources Crontab Guru: The quick and simple editor for cron schedule expressions
-Red Hat: How to schedule jobs using the Linux 'cron'</description></item><item><title>csmertx</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>Recommended Linux Websites Some have YouTube channels
+Red Hat: How to schedule jobs using the Linux 'cron'</description></item><item><title>csmertx</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>LGM (Linux Gremlin Mysteries) A pet project website
+Recommended Linux Websites Some have YouTube channels
 Learn Linux TV
 Linuxize
 AskUbuntu
@@ -228,8 +229,7 @@ Recommended Linux Podcast networks All have YouTube channels (50K+ subscribers)
 Destination Linux
 Jupiter Broadcasting
 Gremlins? grem·lin ˈgrem-lən
-A cause of error or equipment malfunction (as in aircraft) conceived of as a small mischievous gnome
-My history with Linux My distro hopping</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
+A cause of error or equipment malfunction (as in aircraft) conceived of as a small mischievous gnome</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
 Python language translator for C (check links below for current information)
 Installation For Linux systems
 Windows sudo apt-get mingw-w64 Linux sudo apt-get cython3 Translate Python to C using Cython Basic examples
