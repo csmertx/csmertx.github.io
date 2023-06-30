@@ -1,11 +1,23 @@
 ---
 title: Touchpads
 author: csmertx
-date: February 1, 2023
+date: June 30, 2023
 weight: -20
 ---
 
 <br />
+
+## Jelly Comb glass slow cursor w/Ubuntu 22.04
+
+> Rendered my touchpad unusable for a few weeks
+
+- ```libinput list-devices```
+
+    - HTX USB HID Device HTX HID Device Mouse
+
+- [Upgraded to Ubuntu](/Linux/Distros/ubuntu) (Kubuntu) 23.04
+
+    - Tracking as expected after upgrading to 22.10, then 23.04
 
 ## Laptop
 
