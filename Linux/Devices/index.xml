@@ -93,7 +93,10 @@ Check Drive sudo smartctl -t long /dev/sdX
 Run test (4hr+)
 sudo smartctl -H /dev/sdX
 Print test result
-Total Writes per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Written&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Total Reads per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Read&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Monitor Reads/Writes apti iotop</description></item><item><title>Touchpads</title><link>https://csmertx.github.io/Linux/Devices/touchpad_config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/touchpad_config/</guid><description>Laptop vim /etc/X11/xorg.conf.d/10-libinput.conf
+Total Writes per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Written&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Total Reads per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Read&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Monitor Reads/Writes apti iotop</description></item><item><title>Touchpads</title><link>https://csmertx.github.io/Linux/Devices/touchpad_config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/touchpad_config/</guid><description>Jelly Comb glass slow cursor w/Ubuntu 22.04 Rendered my touchpad unusable for a few weeks
+libinput list-devices
+HTX USB HID Device HTX HID Device Mouse Upgraded to Ubuntu (Kubuntu) 23.04
+Tracking as expected after upgrading to 22.10, then 23.04 Laptop vim /etc/X11/xorg.conf.d/10-libinput.conf
 Section &amp;#34;InputClass&amp;#34;
 Identifier &amp;#34;touchpad catchall&amp;#34;
 Driver &amp;#34;synaptics&amp;#34;
@@ -106,10 +109,7 @@ Option &amp;#34;HorizTwoFingerScroll&amp;#34; &amp;#34;on&amp;#34; # set to off 
 Option &amp;#34;VertTwoFingerScroll&amp;#34; &amp;#34;on&amp;#34; # set to off if edge
 Option &amp;#34;HorizEdgeScroll&amp;#34; &amp;#34;on&amp;#34;
 Option &amp;#34;VertEdgeScroll&amp;#34; &amp;#34;on&amp;#34;
-EndSection Gestures For touchpad/touchpads with multi-touch capabilities
-Requires: wmctrl and xdotool
-Debian/Ubuntu: libinput-tools + wmctrl + xdotool
-sudo gpasswd -a $USER input</description></item><item><title>Trackballs</title><link>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</guid><description>Highly recommend Elecom HUGE trackballs over Logitech trackballs (sans thumb style)
+EndSection Gestures For touchpad/touchpads with multi-touch capabilities</description></item><item><title>Trackballs</title><link>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</guid><description>Highly recommend Elecom HUGE trackballs over Logitech trackballs (sans thumb style)
 Trackball Scrolling
 /etc/X11/xorg.conf.d/10-libinput.conf
 Section &amp;#34;InputClass&amp;#34;
