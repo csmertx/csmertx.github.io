@@ -1,15 +1,17 @@
 ---
 title: Pen Cup
 author: csmertx
-date: January 20, 2023
+date: July 5, 2023
 weight: -20
 ---
 
 <br />
 
-> Created: March 10, 2022
+> Delivered: March 10, 2022
 
 One of my guilty pleasure hobbies is skateboarding with my fingers. I was never average at skateboarding and Florida has a lot of summer rain. Anyway, I wanted my desk to look nicer, and so I made this thing. Used silver Testors model paint for the sign.
+
+I don't go out to eat and I rarely drink alcohol, so there's always a little money rolling around for these little projects.
 
 STL Download
 - [Quarter Pipe Pen Organizer](/Blog/stuff/stls/quarterpipe_pen_organizer.stl)
@@ -26,6 +28,7 @@ Printed via hubs.com
 ![albumimg](/Blog/stuff/images/penc_side_blank_style.jpg "Quater Pipe Pen Organizer - side")
 ![albumimg](/Blog/stuff/images/penc_back_blank_style.jpg "Quater Pipe Pen Organizer - back")
 ![albumimg](/Blog/stuff/images/penc_render.png "Quater Pipe Pen Organizer - Fusion 360 render")
+![albumimg](/Blog/stuff/images/penc_fishing_line_spooler.jpg "Quater Pipe Pen Organizer (decorated) - Spooled 120 yds of 30 lb braided line to my Abu Garcia Max STX fishing reel w/help of a the pen holder and a Platinum Preppy fountain pen")
 <br />
 
 </div>
