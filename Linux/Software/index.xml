@@ -271,7 +271,7 @@ Homepage
 GitHub - linuxmint/timeshift: System restore tool for Linux
 Currently maintained by Linux Mint
 GitHub - teejee2008/timeshift: System restore tool for Linux
-Original repository</description></item><item><title>Tmux</title><link>https://csmertx.github.io/Linux/Software/tmux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tmux/</guid><description>Awesome for SSH, CLI IDEs, system administration, and more
+Original repository</description></item><item><title>Tmux</title><link>https://csmertx.github.io/Linux/Software/tmux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tmux/</guid><description>July 27, 2023 Awesome for SSH, command line IDEs, system administration, and more
 Recreate session layouts Build a single window layout and run: tmux list-windows
 Copy it and use it with tmuxinator, etc.
 Install Tmuxinator apti ruby-full
@@ -280,7 +280,7 @@ gem install tmuxinator
 Resources Github - tmux/tmux Wiki
 GitHub - tmux/tmux: tmux source code
 Red Hat: A Beginner&amp;rsquo;s guide to tmux
-GitHub - tmuxinator/tmuxinator: Manage complex tmux sessions easily</description></item><item><title>Vim</title><link>https://csmertx.github.io/Linux/Software/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/vim/</guid><description>Cut/Copy Paste Registers not working vim ~/.vimrc
+GitHub - tmuxinator/tmuxinator: Manage complex tmux sessions easily &amp;lt;- featured above</description></item><item><title>Vim</title><link>https://csmertx.github.io/Linux/Software/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/vim/</guid><description>Cut/Copy Paste Registers not working vim ~/.vimrc
 -- set clipboard+=unnamed ++ set clipboard=unnamed Spellcheck vim ~/.vimrc
 ++ set spell spelllang=en_us Movement
 ] + s = Next misspelled word

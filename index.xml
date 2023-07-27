@@ -1024,7 +1024,7 @@ Homepage
 GitHub - linuxmint/timeshift: System restore tool for Linux
 Currently maintained by Linux Mint
 GitHub - teejee2008/timeshift: System restore tool for Linux
-Original repository</description></item><item><title>Tmux</title><link>https://csmertx.github.io/Linux/Software/tmux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tmux/</guid><description>Awesome for SSH, CLI IDEs, system administration, and more
+Original repository</description></item><item><title>Tmux</title><link>https://csmertx.github.io/Linux/Software/tmux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tmux/</guid><description>July 27, 2023 Awesome for SSH, command line IDEs, system administration, and more
 Recreate session layouts Build a single window layout and run: tmux list-windows
 Copy it and use it with tmuxinator, etc.
 Install Tmuxinator apti ruby-full
@@ -1033,7 +1033,7 @@ gem install tmuxinator
 Resources Github - tmux/tmux Wiki
 GitHub - tmux/tmux: tmux source code
 Red Hat: A Beginner&amp;rsquo;s guide to tmux
-GitHub - tmuxinator/tmuxinator: Manage complex tmux sessions easily</description></item><item><title>Touchpads</title><link>https://csmertx.github.io/Linux/Devices/touchpad_config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/touchpad_config/</guid><description>Jelly Comb glass slow cursor w/Ubuntu 22.04 Rendered my touchpad unusable for a few weeks
+GitHub - tmuxinator/tmuxinator: Manage complex tmux sessions easily &amp;lt;- featured above</description></item><item><title>Touchpads</title><link>https://csmertx.github.io/Linux/Devices/touchpad_config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/touchpad_config/</guid><description>Jelly Comb glass slow cursor w/Ubuntu 22.04 Rendered my touchpad unusable for a few weeks
 libinput list-devices
 HTX USB HID Device HTX HID Device Mouse Upgraded to Ubuntu (Kubuntu) 23.04
 Tracking as expected after upgrading to 22.10, then 23.04 Laptop vim /etc/X11/xorg.conf.d/10-libinput.conf
