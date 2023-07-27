@@ -1,13 +1,15 @@
 ---
 title: Tmux
 author: csmertx
-date: February 4, 2023
+date: July 27, 2023
 weight: -20
 ---
 
 <br />
 
-> Awesome for SSH, CLI IDEs, system administration, and more
+![TMUX screenshot](/Linux/Software/Screenshot_20230727_011339_edit.png "TMUX by Tmuxinator with panes open for Htop, Neofetch, and More command. All within Yakuake, the defacto KDE dropdown terminal emulator.")
+
+> Awesome for SSH, command line IDEs, system administration, and more
 
 ## Recreate session layouts
 
@@ -31,7 +33,7 @@ weight: -20
 
 - [Red Hat: A Beginner's guide to tmux](https://www.redhat.com/sysadmin/introduction-tmux-linux)
 
-- [GitHub - tmuxinator/tmuxinator: Manage complex tmux sessions easily](https://github.com/tmuxinator/tmuxinator)
+- [GitHub - tmuxinator/tmuxinator: Manage complex tmux sessions easily](https://github.com/tmuxinator/tmuxinator) <- featured above
 
 - [Linuxize: Install Ruby on Debian](https://linuxize.com/post/how-to-install-ruby-on-debian-10/)
 
