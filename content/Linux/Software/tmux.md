@@ -5,6 +5,8 @@ date: July 27, 2023
 weight: -20
 ---
 
+###### July 27, 2023
+
 <br />
 
 ![TMUX screenshot](/Linux/Software/Screenshot_20230727_011339_edit.png "TMUX by Tmuxinator with panes open for Htop, Neofetch, and More command. All within Yakuake, the defacto KDE dropdown terminal emulator.")
