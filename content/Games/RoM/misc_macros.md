@@ -1,11 +1,15 @@
 ---
 title: Runes of Magic | Misc.
 author: csmertx
-date: January 30, 2023
+date: August 11, 2023
 weight: -20
 ---
 
 <br />
+
+# Warning: Money pit of a game
+
+> I enjoy gaming the system ^_ __+
 
 ## Andor Training Mini Game
 
