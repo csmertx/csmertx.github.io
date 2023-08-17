@@ -43,7 +43,7 @@ weight: -20
 
 > All have YouTube channels (50K+ subscribers)
 
-1. [Destination Linux](https://destinationlinux.network/)
+1. [Tux Digital](https://tuxdigital.com/tag/video/) (Destination Linux)
 
 2. [Jupiter Broadcasting](https://www.jupiterbroadcasting.com/)
 
