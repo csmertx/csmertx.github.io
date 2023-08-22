@@ -7,7 +7,7 @@ weight: -20
 
 <br />
 
-> 📅 Feb. 3, 2023
+> ⌚ <b>February 3, 2023</b>
 
 <br />
 
