@@ -1,6 +1,6 @@
 ---
 more:
-  - name: "Contact"
+  - name: "Email"
     ref: "mailto:csmertx@pm.me"
     external: true
     icon: "gdoc_email"
