@@ -7,7 +7,7 @@ weight: -20
 
 <br />
 
-# Warning: Money pit of a game
+# 'F2P' MMORPG game similar to World of Warcraft
 
 > I enjoy gaming the game ^_ __+
 
