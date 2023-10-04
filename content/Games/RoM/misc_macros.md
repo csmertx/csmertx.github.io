@@ -9,7 +9,7 @@ weight: -20
 
 # Warning: Money pit of a game
 
-> I enjoy gaming the system ^_ __+
+> I enjoy gaming the game ^_ __+
 
 ## Andor Training Mini Game
 
@@ -30,3 +30,7 @@ weight: -20
 - ```/ahh history```
 
 - Log out + login to save changes
+
+## Resources
+
+- [Runes of Magic: Forum | Give a Macro, Take a Macro!](https://forum.runesofmagic.gameforge.com/forum/thread/523-give-a-macro-take-a-macro/)
