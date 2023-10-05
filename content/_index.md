@@ -17,6 +17,6 @@ geekdocAnchor: false
 ## Linux? Gremlins? Mysteries?
 I've been poking at Linux and personal computers with a pointy stick for more than 10 years, and this [~/pile_of_notes](pile_of_notes) is the result.
 
-> Blogs may contain language and content not suitable for children [NSFW]
+> Blogs may contain language and content not suitable for children or young adults [NSFW]
 
 </div>
