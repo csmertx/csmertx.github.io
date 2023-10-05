@@ -15,7 +15,7 @@ geekdocAnchor: false
 <br />
 
 ## Linux? Gremlins? Mysteries?
-I've been poking at Linux and personal computers with a pointy stick for more than 10 years, and this [~/pile_of_notes](pile_of_notes) is the result.
+I'm an unofficial student of Linux and personal computers for more than 10 years, and this [~/pile_of_notes](pile_of_notes) is the result.
 
 > Blogs may contain language and content not suitable for children or young adults [NSFW]
 
