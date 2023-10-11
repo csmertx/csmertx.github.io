@@ -119,7 +119,7 @@ Policy: Limit
 Ufw Port forwarding
 sudov /etc/ufw/sysctl.conf
 Uncomment..
-#net/ipv4/ip_forward=1 #net/ipv6/conf/default/forwarding=1 #net/ipv6/conf/all/forwarding=1 sudo ufw reload</description></item><item><title>Jellyfin | Media Server</title><link>https://csmertx.github.io/Linux/Software/jellyfin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/jellyfin/</guid><description>Install Docker apti snapd
+#net/ipv4/ip_forward=1 #net/ipv6/conf/default/forwarding=1 #net/ipv6/conf/all/forwarding=1 sudo ufw reload</description></item><item><title>Jellyfin - Media Server</title><link>https://csmertx.github.io/Linux/Software/jellyfin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/jellyfin/</guid><description>Install Docker apti snapd
 sudo snap install docker
 Yep, container in a container. But it works!
 sudo docker pull jellyfin/jellyfin

@@ -509,7 +509,7 @@ sudo apti default-jdk Create desktop shortcuts for Java apps For all those delig
 vim ~/.local/share/applications/kolmafia.desktop
 [Desktop Entry] Comment[en_US]=Kingdom of Loathing Mafia Client Comment=Kingdom of Loathing Mafia Client Exec=java -jar /home/chris/.sources/KoLmafia-20755.jar GenericName[en_US]=KoLmafia GenericName=KoLmafia Icon=/home/chris/Pictures/Icons/swordandmartini_dark_theme.png Name[en_US]=KoLmafia Name=KoLmafia StartupNotify=true Terminal=false Type=Application Categories=Game sudoc /home/chris/.local/share/applications/kolmafia.desktop
 Launch in KDE Plasma: Start Menu &amp;gt; Games &amp;gt; KoLmafia
-Logout and login for some desktop environments</description></item><item><title>Jellyfin | Media Server</title><link>https://csmertx.github.io/Linux/Software/jellyfin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/jellyfin/</guid><description>Install Docker apti snapd
+Logout and login for some desktop environments</description></item><item><title>Jellyfin - Media Server</title><link>https://csmertx.github.io/Linux/Software/jellyfin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/jellyfin/</guid><description>Install Docker apti snapd
 sudo snap install docker
 Yep, container in a container. But it works!
 sudo docker pull jellyfin/jellyfin
