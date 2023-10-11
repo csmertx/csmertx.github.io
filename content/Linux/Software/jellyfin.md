@@ -64,7 +64,7 @@ jellyfin/jellyfin
 
 - ```sudo docker ps```
 
-- ```sudo docker stop CONTAINER```
+- ```sudo docker stop [CONTAINER ID]```
 
 ## Update
 
