@@ -74,7 +74,7 @@ jellyfin/jellyfin
 
 - ```sudo docker ps```
 
-- ```sudo docker stop CONTAINER```
+- ```sudo docker stop [CONTAINER ID]```
 
 - ```sudo docker pull jellyfin/jellyfin```
 
@@ -90,7 +90,7 @@ jellyfin/jellyfin
 
 - ```sudo docker ps```
 
-- ```sudo docker restart [container]```
+- ```sudo docker restart [CONTAINER ID]```
 
 ## Resources
 
