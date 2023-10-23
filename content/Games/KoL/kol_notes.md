@@ -9,7 +9,7 @@ weight: -20
 
 > KoLmafia: cross-platform desktop tool to interface with the game in the links below
 
-> [KoLmafia Installation for Linux](/Linux/Code/java)
+> [🔗 KoLmafia Installation for Linux](/Linux/Code/java)
 
 ## Aftercore
 
@@ -97,10 +97,10 @@ Recommended gear for The Sea: Rusty diving helmet, pristine fish scales x6, sea 
 
 ## Resources
 
-- [/r/kol - The Sea](https://www.reddit.com/r/kol/comments/7p8vet/comment/dsfm59k/)
+- [🔗 /r/kol | The Sea](https://www.reddit.com/r/kol/comments/7p8vet/comment/dsfm59k/)
 
-- [The Kingdom of Loathing: An Adventurer is You!](https://www.kingdomofloathing.com)
+- [🔗 The Kingdom of Loathing: An Adventurer is You!](https://www.kingdomofloathing.com)
 
-- [KoLmafia: Github](https://github.com/kolmafia/kolmafia)
+- [🔗 Github | KoLmafia](https://github.com/kolmafia/kolmafia)
 
-- [Kolmafia: Guide](https://wiki.kolmafia.us/index.php?title=KoLmafia_Guide)
+- [🔗 Kolmafia | Guide](https://wiki.kolmafia.us/index.php?title=KoLmafia_Guide)

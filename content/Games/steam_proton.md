@@ -37,7 +37,7 @@ weight: -20
 
 ## Protontricks
 
-- [Install Protontricks](https://flathub.org/apps/details/com.github.Matoking.protontricks): A simple wrapper that does winetricks things for Proton enabled games
+- [🔗 Install Protontricks](https://flathub.org/apps/details/com.github.Matoking.protontricks): A simple wrapper that does winetricks things for Proton enabled games
 
     - ```flatpak install flathub com.github.Matoking.protontricks```
 

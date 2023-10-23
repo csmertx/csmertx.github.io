@@ -7,8 +7,8 @@ weight: -20
 
 <br />
 
-> [Download F-Droid](https://f-droid.org/F-Droid.apk)
+> [🔗 Download F-Droid](https://f-droid.org/F-Droid.apk)
 
 ## Additional Repos
 
-- [IzzyOnDroid F-Droid Repository](https://apt.izzysoft.de/fdroid/repo)
+- [🔗 IzzyOnDroid F-Droid Repository](https://apt.izzysoft.de/fdroid/repo)

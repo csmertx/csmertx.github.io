@@ -17,4 +17,4 @@ weight: -20
 
 ## Resources
 
-- [Android Developers - Android Debug Bridge (adb)](https://developer.android.com/studio/command-line/adb)
+- [🔗 Android Developers - Android Debug Bridge (adb)](https://developer.android.com/studio/command-line/adb)

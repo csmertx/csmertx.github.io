@@ -25,4 +25,4 @@ weight: -20
 
 ## Resources
 
-- [YouTube: STEP to FreeCAD Part (61quick)](https://www.youtube.com/watch?v=7xupVksPadA)
+- [🔗 YouTube | STEP to FreeCAD Part (61quick)](https://www.youtube.com/watch?v=7xupVksPadA)

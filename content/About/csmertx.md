@@ -21,31 +21,31 @@ weight: -20
 
 > Some have YouTube channels
 
-- [Learn Linux TV]( https://community.learnlinux.tv)
+- [🔗 Learn Linux TV]( https://community.learnlinux.tv)
 
-- [Linuxize](https://linuxize.com/)
+- [🔗 Linuxize](https://linuxize.com/)
 
-- [AskUbuntu](https://askubuntu.com)
+- [🔗 AskUbuntu](https://askubuntu.com)
 
-- [Tecmint](https://tecmint.com)
+- [🔗 Tecmint](https://tecmint.com)
 
-- [ItsFOSS](https://itsfoss.com)
+- [🔗 ItsFOSS](https://itsfoss.com)
 
-- [nixCraft](https://www.cyberciti.biz/)
+- [🔗 nixCraft](https://www.cyberciti.biz/)
 
-- [Linux Mint Forums](https://forums.linuxmint.com)
+- [🔗 Linux Mint Forums](https://forums.linuxmint.com)
 
-- [Ubuntu: The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+- [🔗 Ubuntu: The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 
-- [Techspot: A Beginner's Guide to the Linux Command Line](https://www.techspot.com/guides/835-linux-command-line-basics/)
+- [🔗 Techspot: A Beginner's Guide to the Linux Command Line](https://www.techspot.com/guides/835-linux-command-line-basics/)
 
 ## Recommended Linux Podcast networks
 
 > All have YouTube channels (50K+ subscribers)
 
-1. [Tux Digital](https://tuxdigital.com/tag/video/) (Destination Linux)
+1. [🔗 Tux Digital](https://tuxdigital.com/tag/video/) (Destination Linux)
 
-2. [Jupiter Broadcasting](https://www.jupiterbroadcasting.com/)
+2. [🔗 Jupiter Broadcasting](https://www.jupiterbroadcasting.com/)
 
 ## Gremlins?
 
@@ -58,23 +58,23 @@ weight: -20
 
 > My distro hopping
 
-- [Linux Mint](https://linuxmint.com/) w/Cinnamon (2013 - 2016)
+- [🔗 Linux Mint](https://linuxmint.com/) w/Cinnamon (2013 - 2016)
 
-    > Also a few Ubuntu ['flavors'](https://ubuntu.com/desktop/flavours)
+    > Also a few Ubuntu [🔗 'flavors'](https://ubuntu.com/desktop/flavours)
 
     > Dual booted Windows 7
 
-- [Debian](https://www.debian.org/) 9 w/Gnome 3 (2017 - 2018)
+- [🔗 Debian](https://www.debian.org/) 9 w/Gnome 3 (2017 - 2018)
 
-- [Manjaro](https://manjaro.org/) i3wm (2018 - 2019)
+- [🔗 Manjaro](https://manjaro.org/) i3wm (2018 - 2019)
 
-- [Arch Linux](https://archlinux.org/) w/i3wm, w/BSPWM, and KDE (2018 - 2020)
+- [🔗 Arch Linux](https://archlinux.org/) w/i3wm, w/BSPWM, and KDE (2018 - 2020)
 
-- [Ubuntu](https://ubuntu.com/) 20.04 (2020 - 2022)
+- [🔗 Ubuntu](https://ubuntu.com/) 20.04 (2020 - 2022)
 
-- [Kubuntu](https://kubuntu.org/) (2022 - Present)
+- [🔗 Kubuntu](https://kubuntu.org/) (2022 - Present)
 
-    - Very gamer friendly w/Steam installed and configured with [Proton](/Games/steam_proton.md)
+    - Very gamer friendly w/Steam installed and configured with [🔗 Proton](/Games/steam_proton.md)
 
         - Pinball PX3
 
@@ -106,17 +106,17 @@ weight: -20
 
 > ᐳ Cobbled together with single threaded Bash scripts
 
-- [Imgur.com | Fear and Loathing on the Arch Linux Trail (2018)](https://imgur.com/a/VXpYHBM)
+- [🔗 Imgur.com | Fear and Loathing on the Arch Linux Trail (2018)](https://imgur.com/a/VXpYHBM)
 
     > Most of my pet Bash scripting projects sprung from this virtual journey
 
 ## Hugo theme used
 
-- [Preview of the Hugo Geekdocs theme](https://geekdocs.de/)
+- [🔗 Preview of the Hugo Geekdocs theme](https://geekdocs.de/)
 
     > This website is based on a 2022 version of GeekDocs
 
-- [Github - thegeeklab/hugo-geekdoc](https://github.com/thegeeklab/hugo-geekdoc)
+- [🔗 Github | thegeeklab/hugo-geekdoc](https://github.com/thegeeklab/hugo-geekdoc)
 
 ## Shorthand reference
 
@@ -154,7 +154,7 @@ weight: -20
 
     ```sudo ranger```
 
-    > [Python based TUI file manager](https://ranger.github.io/)
+    > [🔗 Python based TUI file manager](https://ranger.github.io/)
 
 - **sudoc**
 
@@ -206,11 +206,11 @@ weight: -20
 
 - **tri**
 
-    - Trizen: [Perl based AUR package manager](https://github.com/trizen/trizen)
+    - Trizen: [🔗 Perl based AUR package manager](https://github.com/trizen/trizen)
 
 - **yay**
 
-    - Yay: [Go based AUR package manager](https://github.com/Jguer/yay)
+    - Yay: [🔗 Go based AUR package manager](https://github.com/Jguer/yay)
 
 
 ## Skateboarding (1992 - 2005, 2022 - ?)
@@ -219,19 +219,19 @@ weight: -20
 
 - How skate decks are made (before bamboo and or carbon fiber skateboard decks):
 
-    - [Transworld Skateboarding: Skateboard Science](https://skateboarding.transworld.net/news/skateboard-science/)
+    - [🔗 Transworld Skateboarding: Skateboard Science](https://skateboarding.transworld.net/news/skateboard-science/)
 
 - The 'Godfather' of street skating and kickflip imaginer:
 
-    - [Rodney Mullen net worth](https://networthpost.org/net-worth/rodney-mullen-net-worth/)
+    - [🔗 Networth Post | Rodney Mullen's net worth (~)](https://networthpost.org/net-worth/rodney-mullen-net-worth/)
 
 - Rodney Mullen spoke of Open Source and Linux in his TED Talk:
 
-    - [Rodney Mullen Ted Talk: Pop an ollie and innovate!](https://www.youtube.com/watch?v=3GVO-MfIl1Q)
+    - [🔗 YouTube | Pop an ollie and innovate! (Ted Talk)](https://www.youtube.com/watch?v=3GVO-MfIl1Q)
 
-- 'Locals only' skateboard clubs are now obsolete
+- The days of 'Locals only' skateboard clubs are mostly in the past
 
-    - [Braille Skateboarding YouTube Channel](https://www.youtube.com/user/sprocker7) (5.75M+ Subscribers)
+    - [🔗 YouTube | Braille Skateboarding](https://www.youtube.com/user/sprocker7) (5.75M+ Subscribers)
 
 - Skateboarding Stereotypes
     
@@ -262,7 +262,7 @@ weight: -20
 
 - ```The Open Organization```, by Jim Whitehurst CEO, Red Hat
 
-    > *Igniting Passion and Performance* ([Red Hat Linux](https://www.redhat.com/en/explore/the-open-organization-book))
+    > *Igniting Passion and Performance* ([🔗 Red Hat Linux](https://www.redhat.com/en/explore/the-open-organization-book))
 
 - ```Outliers```, by Malcolm Gladwell
 

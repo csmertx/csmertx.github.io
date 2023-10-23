@@ -29,4 +29,4 @@ weight: -20
 
 ## Resources
 
-- [Github - Termux Application](https://github.com/termux/termux-app)
+- [🔗 Github | Termux Application](https://github.com/termux/termux-app)

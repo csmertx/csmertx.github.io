@@ -7,8 +7,8 @@ weight: -20
 
 <br />
 
-- [Steam: video game distribution](https://store.steampowered.com)
+- [🔗 Steam | Video game distribution](https://store.steampowered.com)
 
-- [GOG (formerly Good Old Games): video game distribution](https://gog.com)
+- [🔗 GOG (formerly Good Old Games) | Video game distribution](https://gog.com)
 
-- [Itch.io: Indie game distribution](https://itch.io)
+- [🔗 Itch.io | Indie game distribution](https://itch.io)
