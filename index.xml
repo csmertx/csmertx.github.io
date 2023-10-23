@@ -40,7 +40,7 @@ Or turn off ADB in Android device settings</description></item><item><title>Andr
 Login to shell of Android device adb root
 db remount
 adb shell
-Resources Android Developers - Android Debug Bridge (adb)</description></item><item><title>AppImages</title><link>https://csmertx.github.io/Linux/Software/appimage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/appimage/</guid><description>
+Resources 🔗 Android Developers - Android Debug Bridge (adb)</description></item><item><title>AppImages</title><link>https://csmertx.github.io/Linux/Software/appimage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/appimage/</guid><description>
 ⌚ February 3, 2023
 AppImageKit</description></item><item><title>Arch Linux</title><link>https://csmertx.github.io/Linux/Distros/arch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch/</guid><description>Notes created before 2020. Check the Arch Wiki for up to date documentation
 Verify ISO gpg \--keyserver pgp.mit.edu \--keyserver-options auto-key-retrieve \--verify archlinux-xxxx.xx.xx-x86_64.iso.sig archlinux-xxxx.xx.xx-x86_64.iso
@@ -217,20 +217,18 @@ Simple: minute hour (24hr)
 Cron location in filesystem /var/spool/cron Resources Crontab Guru: The quick and simple editor for cron schedule expressions
 Red Hat: How to schedule jobs using the Linux 'cron'</description></item><item><title>csmertx</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>LGM (Linux Gremlin Mysteries) A pet project website
 Recommended Linux Websites Some have YouTube channels
-Learn Linux TV
-Linuxize
-AskUbuntu
-Tecmint
-ItsFOSS
-nixCraft
-Linux Mint Forums
-Ubuntu: The Linux command line for beginners
-Techspot: A Beginner&amp;rsquo;s Guide to the Linux Command Line
+🔗 Learn Linux TV
+🔗 Linuxize
+🔗 AskUbuntu
+🔗 Tecmint
+🔗 ItsFOSS
+🔗 nixCraft
+🔗 Linux Mint Forums
+🔗 Ubuntu: The Linux command line for beginners
+🔗 Techspot: A Beginner&amp;rsquo;s Guide to the Linux Command Line
 Recommended Linux Podcast networks All have YouTube channels (50K+ subscribers)
-Tux Digital (Destination Linux)
-Jupiter Broadcasting
-Gremlins? grem·lin ˈgrem-lən
-A cause of error or equipment malfunction (as in aircraft) conceived of as a small mischievous gnome</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
+🔗 Tux Digital (Destination Linux)
+🔗 Jupiter Broadcasting</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
 Python language translator for C (check links below for current information)
 Installation For Linux systems
 Windows sudo apt-get mingw-w64 Linux sudo apt-get cython3 Translate Python to C using Cython Basic examples
@@ -317,8 +315,8 @@ Instructions Bring water to a boil. Lower heat and add the oats and flax.
 Cook until liquid is almost fully absorbed.
 Add egg and stir in vigorously until mixture begins to look fluffy (1 to 2 minutes).
 Cover pot and let sit 5 minutes before serving.</description></item><item><title>F-Droid</title><link>https://csmertx.github.io/Android/fdroid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/fdroid/</guid><description>
-Download F-Droid
-Additional Repos IzzyOnDroid F-Droid Repository</description></item><item><title>Fail2ban</title><link>https://csmertx.github.io/Linux/Software/fail2ban/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/fail2ban/</guid><description>Setup Systemd
+🔗 Download F-Droid
+Additional Repos 🔗 IzzyOnDroid F-Droid Repository</description></item><item><title>Fail2ban</title><link>https://csmertx.github.io/Linux/Software/fail2ban/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/fail2ban/</guid><description>Setup Systemd
 sudo systectm enable fail2ban.service
 sudo systectm start fail2ban.service
 SSH Limiting
@@ -385,9 +383,9 @@ Wifi troubles.. vim /etc/rc.conf
 ++ ifconfig_wlan0=&amp;#34;WPA SYNCDHCP&amp;#34; ifconfig wlan0 create wlandev ath0
 ifconfig wlan0 up scan</description></item><item><title>FreeCAD to Blender</title><link>https://csmertx.github.io/3D_Modeling/Blender/FreeCad_to_Blender/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/Blender/FreeCad_to_Blender/</guid><description>Importing FreeCAD models to Blender Using Blender v2.8 to smooth out FreeCAD models Preferences &amp;gt; Add-ons &amp;gt; Enable Import STL
 Add Modifier &amp;gt; Edge Split (Generate Category)
-Smooth Shade (Object Menu: Shade Smooth)</description></item><item><title>Game Sites</title><link>https://csmertx.github.io/Games/game_sites/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/game_sites/</guid><description>Steam: video game distribution
-GOG (formerly Good Old Games): video game distribution
-Itch.io: Indie game distribution</description></item><item><title>Git Pro</title><link>https://csmertx.github.io/Linux/Code/git_pro_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/git_pro_notes/</guid><description>Notes from before 2022
+Smooth Shade (Object Menu: Shade Smooth)</description></item><item><title>Game Sites</title><link>https://csmertx.github.io/Games/game_sites/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/game_sites/</guid><description>🔗 Steam | Video game distribution
+🔗 GOG (formerly Good Old Games) | Video game distribution
+🔗 Itch.io | Indie game distribution</description></item><item><title>Git Pro</title><link>https://csmertx.github.io/Linux/Code/git_pro_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/git_pro_notes/</guid><description>Notes from before 2022
 Git Pro was written by Ben Straub, and Published by Apress
 Print tags git tag Extended info git show v1.4 Adding tags to older commits (parse first) git log --pretty=oneline
 example output: 9fceb02&amp;hellip; updated rakefile
@@ -535,7 +533,7 @@ Right Click .stl file in Dolphin, open with view3dscene (check box to remember)<
 2a (LShift)
 2b (\|), on a 102-key keyboard
 2c (Z), 2d (X), 2e (C), 2f (V), 30 (B), 31 (N), 32 (M), 33 (,&amp;lt;), 34 (.</description></item><item><title>KoL | Assorted</title><link>https://csmertx.github.io/Games/KoL/kol_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/KoL/kol_notes/</guid><description>KoLmafia: cross-platform desktop tool to interface with the game in the links below
-KoLmafia Installation for Linux
+🔗 KoLmafia Installation for Linux
 Aftercore July 30, 2019
 &amp;ldquo;The Sea is a tough thing for someone with only a couple of skills. Better to wait a bit on that.
 I&amp;rsquo;d suggest: go to the Mall and buy a Training Scroll: Snokebomb and read it. You&amp;rsquo;ll have to use your karma from this run to perm it for use in future runs, but it is an excellent skill to have for turncutting.</description></item><item><title>Konsole</title><link>https://csmertx.github.io/Linux/Software/konsole/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konsole/</guid><description>
@@ -791,7 +789,7 @@ SET LAUNCH OPTIONS
 +r_renderapi 1 Debug Log per game SET LAUNCH OPTIONS
 DEBUGGER=gdb steam Library &amp;gt; Right click game &amp;gt; Properties
 SET LAUNCH OPTIONS
--con_logfile Protontricks Install Protontricks: A simple wrapper that does winetricks things for Proton enabled games</description></item><item><title>Pulla Bread</title><link>https://csmertx.github.io/Recipes/Bread/pullabread/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Bread/pullabread/</guid><description>Great British Chefs Original write up by Trine Hahnemann found here
+-con_logfile Protontricks 🔗 Install Protontricks: A simple wrapper that does winetricks things for Proton enabled games</description></item><item><title>Pulla Bread</title><link>https://csmertx.github.io/Recipes/Bread/pullabread/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Recipes/Bread/pullabread/</guid><description>Great British Chefs Original write up by Trine Hahnemann found here
 Makes 2 loafs
 2 hours 30 minutes
 Ingredients 50g of fresh yeast, (or 19g of dried yeast)
@@ -879,7 +877,7 @@ vim &amp;quot;.../SteamLibrary/steamapps/common/Skyrim Special Edition/Skyrim/Sk
 [Display] ... ++ iPresentInterval=0 Mouse Acceleration (for slow mouse movement) Ubuntu
 vim /home/user/.steam/debian-installation/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini Custom Steam games location
 vim .../SteamLibrary/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini Add bMouseAcceleration=0 as the last entry in [Controls]
-[Controls] ... ++ bMouseAcceleration=0 Resources Bethesda Support: What do I do if my mouse has a delay while playing The Elder Scrolls V: Skyrim?</description></item><item><title>Slackware</title><link>https://csmertx.github.io/Linux/Distros/slackware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/slackware/</guid><description>Slackware as a virtualized system and beyond
+[Controls] ... ++ bMouseAcceleration=0 Resources 🔗 Bethesda Support: What do I do if my mouse has a delay while playing The Elder Scrolls V: Skyrim?</description></item><item><title>Slackware</title><link>https://csmertx.github.io/Linux/Distros/slackware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/slackware/</guid><description>Slackware as a virtualized system and beyond
 I believe these notes are for Slackware Current (it was before 2022)
 Installation Lilo &amp;amp; Virtio
 Exit installer &amp;gt; Don&amp;rsquo;t reboot..
@@ -957,7 +955,7 @@ Find the face required and remove all other faces
 Select face and Convert bidirectionally between Draft and Sketch Objects
 Note the position of the original face and move the sketch accordingly
 Time for a to do contraint hell
-Resources YouTube: STEP to FreeCAD Part (61quick)</description></item><item><title>Storage Drives</title><link>https://csmertx.github.io/Linux/Devices/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/storage/</guid><description>And estimating time of failure (based on arbitrary read/write cycle counts)
+Resources 🔗 YouTube | STEP to FreeCAD Part (61quick)</description></item><item><title>Storage Drives</title><link>https://csmertx.github.io/Linux/Devices/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/storage/</guid><description>And estimating time of failure (based on arbitrary read/write cycle counts)
 Check Drive sudo smartctl -t long /dev/sdX
 Run test (4hr+)
 sudo smartctl -H /dev/sdX
@@ -1004,7 +1002,7 @@ bash -c &amp;quot;$(curl -fsSL https://git.io/oh-my-termux)&amp;quot;
 termux-setup-storage
 Community Repos curl -LO https://its-pointless.github.io/setup-pointless-repo.sh
 bash setup-pointless-repo.sh
-Change package mirrors (if syncing issues) termux-change-repo Resources Github - Termux Application</description></item><item><title>Time</title><link>https://csmertx.github.io/Linux/Assorted/time/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/time/</guid><description>Set Local Time Easy
+Change package mirrors (if syncing issues) termux-change-repo Resources 🔗 Github | Termux Application</description></item><item><title>Time</title><link>https://csmertx.github.io/Linux/Assorted/time/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/time/</guid><description>Set Local Time Easy
 tzselect
 Userland
 sudo tzselect

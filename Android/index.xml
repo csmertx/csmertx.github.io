@@ -2,9 +2,9 @@
 Login to shell of Android device adb root
 db remount
 adb shell
-Resources Android Developers - Android Debug Bridge (adb)</description></item><item><title>F-Droid</title><link>https://csmertx.github.io/Android/fdroid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/fdroid/</guid><description>
-Download F-Droid
-Additional Repos IzzyOnDroid F-Droid Repository</description></item><item><title>LineageOS</title><link>https://csmertx.github.io/Android/lineageos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/lineageos/</guid><description>Open-source Android distribution (OS)
+Resources 🔗 Android Developers - Android Debug Bridge (adb)</description></item><item><title>F-Droid</title><link>https://csmertx.github.io/Android/fdroid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/fdroid/</guid><description>
+🔗 Download F-Droid
+Additional Repos 🔗 IzzyOnDroid F-Droid Repository</description></item><item><title>LineageOS</title><link>https://csmertx.github.io/Android/lineageos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/lineageos/</guid><description>Open-source Android distribution (OS)
 Samsung Galaxy Tab 3 10in (3G) TWRP
 Installation
 Download Heimdall (link below) Access TWRP (link below)
@@ -22,4 +22,4 @@ bash -c &amp;quot;$(curl -fsSL https://git.io/oh-my-termux)&amp;quot;
 termux-setup-storage
 Community Repos curl -LO https://its-pointless.github.io/setup-pointless-repo.sh
 bash setup-pointless-repo.sh
-Change package mirrors (if syncing issues) termux-change-repo Resources Github - Termux Application</description></item></channel></rss>
+Change package mirrors (if syncing issues) termux-change-repo Resources 🔗 Github | Termux Application</description></item></channel></rss>
