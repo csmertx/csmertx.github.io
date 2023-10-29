@@ -844,13 +844,7 @@ I wanted a tiny console to check out ARM architecture stuff: Ubuntu/RPi4, and Re
 This one does not include a parts list because this configuration (power delivery hat/addon) killed the official RPi4 LCD screen. I sold my RPi4 because of sketchy hats (addon boards). Next attempt will be something different.</description></item><item><title>Rsync</title><link>https://csmertx.github.io/Linux/Software/rsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/rsync/</guid><description>
 Dry Run rsync --dry-run Copy Directory to Remote rsync -avzh source/ user@host:/destination Copy Directory to Remote w/SSH rsync -avzhe ssh /destination user@host:/source Copy from remote rsync -avzh user@host:/source /destination Copy From remote w/SSH rsync -avzhe ssh user@host:/source /destination Resources Rsync Homepage</description></item><item><title>Ruby Language</title><link>https://csmertx.github.io/Linux/Code/ruby/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ruby/</guid><description>Add to PATH vim $HOME/.bashrc
 ++ export PATH=$PATH:/home/$USER/.gem/ruby/2.7.0/bin Resources Ruby Programming Language
-About Ruby</description></item><item><title>Runes of Magic | Misc.</title><link>https://csmertx.github.io/Games/RoM/misc_macros/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/RoM/misc_macros/</guid><description>&amp;lsquo;F2P&amp;rsquo; MMORPG game similar to World of Warcraft I enjoy gaming the game ^_ __+
-Andor Training Mini Game Create a new macro and add the following two lines
-/script UseExtraAction(1)
-/script SpellTargetUnit(&amp;quot;mouseover&amp;quot;)
-Drag the macro to an action bar and map it to a key like F3
-Do it. Do it for the horde.
-Advanced Auction House tooltip Mouse hover on certain items displays recent AH prices for that item</description></item><item><title>Sed</title><link>https://csmertx.github.io/Linux/Code/sed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/sed/</guid><description>Wrap every line output in quotes sed 's/&amp;quot;\(.*\)/&amp;quot;\1&amp;quot;/g' Remove Whitespace Lines sed '/^$/d' Remove everything before match sed 's/.*match//' Remove everything after match sed 's/match.*//g' Replace first instance of match sed '0,/example1/{s/example1/example2/}' Replace Nth instance of match sed 's/example1/example2/2g
+About Ruby</description></item><item><title>Sed</title><link>https://csmertx.github.io/Linux/Code/sed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/sed/</guid><description>Wrap every line output in quotes sed 's/&amp;quot;\(.*\)/&amp;quot;\1&amp;quot;/g' Remove Whitespace Lines sed '/^$/d' Remove everything before match sed 's/.*match//' Remove everything after match sed 's/match.*//g' Replace first instance of match sed '0,/example1/{s/example1/example2/}' Replace Nth instance of match sed 's/example1/example2/2g
 2g == 2nd match
 Print Nth Line sed -n '7p'
 7th line
@@ -1066,7 +1060,13 @@ EndSection
 # - - - Logitech Marble Mouse Settings - - -
 #
 # The Logitech Marble Mouse buttons are mapped [A-D] from left to right:
-# A (large); B (small) | C (small); D (large).</description></item><item><title>Ubuntu</title><link>https://csmertx.github.io/Linux/Distros/ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/ubuntu/</guid><description>apti = sudo aptitude install
+# A (large); B (small) | C (small); D (large).</description></item><item><title>Tricks and Tips</title><link>https://csmertx.github.io/Games/RoM/misc_macros/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/RoM/misc_macros/</guid><description>&amp;lsquo;F2P&amp;rsquo; MMORPG game similar to World of Warcraft I enjoy gaming the game ^_ __+
+Andor Training Mini Game Create a new macro and add the following two lines
+/script UseExtraAction(1)
+/script SpellTargetUnit(&amp;quot;mouseover&amp;quot;)
+Drag the macro to an action bar and map it to a key like F3
+Do it. Do it for 🔗 Taborea.
+Advanced Auction House tooltip Mouse hover on certain items displays recent AH prices for that item</description></item><item><title>Ubuntu</title><link>https://csmertx.github.io/Linux/Distros/ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/ubuntu/</guid><description>apti = sudo aptitude install
 unattended-upgr Waiting for cache lock: &amp;hellip;
 sudo dpkg-reconfigure -plow unattended-upgrades
 Select NO To re-enable unattended upgrades, run the same command and select YES.
