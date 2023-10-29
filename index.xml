@@ -467,7 +467,7 @@ Wait 3-5 minutes for Github Pages to update the site before clicking verify
 Add website sitemap via: https://search.google.com/search-console/sitemaps
 Hugo via Github Pages: https://user.github.io/sitemap.xml
 All that&amp;rsquo;s left to do is wait in line for the site to be indexed
-Robots.txt blocking Google crawl Google Search Console &amp;gt; Indexing &amp;gt; Pages &amp;gt; Why pages aren’t indexed</description></item><item><title>i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description>Mpris Control apti playerctl
+Robots.txt blocking Google crawl 🔗 Google Search Console &amp;gt; Indexing &amp;gt; Pages &amp;gt; Why pages aren’t indexed</description></item><item><title>i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description>Mpris Control apti playerctl
 vim ~/.config/i3/config
 Bluetooth headsets
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
