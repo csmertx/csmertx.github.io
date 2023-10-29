@@ -23,7 +23,7 @@ weight: -20
 
 ## Robots.txt blocking Google crawl
 
-> [Google Search Console](https://search.google.com/search-console) > Indexing > Pages > Why pages aren’t indexed
+> [🔗 Google Search Console](https://search.google.com/search-console) > Indexing > Pages > Why pages aren’t indexed
 
 > For me it was this URL: https://user.github.io/tags/
 
@@ -38,10 +38,14 @@ weight: -20
     Disallow:
     ```
 
+## Geekdoc theme icons
+
+- [🔗 Geekdocs.de | Build-in icons](https://geekdocs.de/features/icon-sets/#build-in-icons)
+
 ## Resources
 
-- [Hugo: The world’s fastest framework for building websites](https://gohugo.io/)
+- [🔗 Hugo: The world’s fastest framework for building websites](https://gohugo.io/)
 
-- [Hugo Support: How to verify Hugo site to Google Search Console?](https://discourse.gohugo.io/t/how-to-verify-hugo-site-to-google-search-console/15078)
+- [🔗 Hugo Support: How to verify Hugo site to Google Search Console?](https://discourse.gohugo.io/t/how-to-verify-hugo-site-to-google-search-console/15078)
 
-- [Search Facts: How to Use Robots.txt to Allow or Disallow Everything](https://searchfacts.com/robots-txt-allow-disallow-all/)
+- [🔗 Search Facts: How to Use Robots.txt to Allow or Disallow Everything](https://searchfacts.com/robots-txt-allow-disallow-all/)
