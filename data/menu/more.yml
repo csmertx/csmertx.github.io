@@ -11,4 +11,4 @@ more:
   - name: "Donate"
     ref: "https://www.woundedwarriorproject.org/donate"
     external: true
-    icon: "handshake-o"
+    icon: "gdoc_shield"
