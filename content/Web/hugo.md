@@ -25,7 +25,7 @@ weight: -20
 
 > [🔗 Google Search Console](https://search.google.com/search-console) > Indexing > Pages > Why pages aren’t indexed
 
-> For me it was this URL: https://user.github.io/tags/
+> For me it was this URL: ...user.github.io/tags/
 
 - ```vim ../config.toml```
 
