@@ -9,15 +9,15 @@ weight: -20
 
 ## Google Search Console verification (URL prefix) and Github Pages
 
-- First step is to visit: https://search.google.com/search-console?action=inspect
+- First step is to visit: 🔗 https://search.google.com/search-console?action=inspect
 
 - Add downloaded ```googleXXXX.html``` to ```/static```
 
 - Wait 3-5 minutes for Github Pages to update the site before clicking verify
 
-- Add website sitemap via: https://search.google.com/search-console/sitemaps
+- Add website sitemap via: 🔗 https://search.google.com/search-console/sitemaps
     
-    > Hugo via Github Pages: https://user.github.io/sitemap.xml
+    > Hugo via Github Pages: ...user.github.io/sitemap.xml
 
 - All that's left to do is wait in line for the site to be indexed
 
