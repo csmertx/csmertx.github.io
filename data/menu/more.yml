@@ -8,3 +8,7 @@ more:
     ref: "https://github.com/csmertx/csmertx.github.io"
     external: true
     icon: "gdoc_github"
+  - name: "Donate"
+    ref: "https://www.woundedwarriorproject.org/donate"
+    external: true
+    icon: "handshake-o"
