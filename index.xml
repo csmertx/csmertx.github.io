@@ -216,19 +216,13 @@ Quick reference * * * * * min hour(24hr) day (month) month day (week) Example: 0
 Simple: minute hour (24hr)
 Cron location in filesystem /var/spool/cron Resources Crontab Guru: The quick and simple editor for cron schedule expressions
 Red Hat: How to schedule jobs using the Linux 'cron'</description></item><item><title>csmertx</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>LGM (Linux Gremlin Mysteries) A pet project website
+Donation button? The donation button for this website redirects to the Wounded Warrior Project
+This website is not an affiliated with the Wounded Warrior Project
+CSmertX Linux-ing for over ten years, and have been typing random things into computer prompts since 1989 (39y).
+csmertx = Christopher Schammert + x
 Recommended Linux Websites Some have YouTube channels
 🔗 Learn Linux TV
-🔗 Linuxize
-🔗 AskUbuntu
-🔗 Tecmint
-🔗 ItsFOSS
-🔗 nixCraft
-🔗 Linux Mint Forums
-🔗 Ubuntu: The Linux command line for beginners
-🔗 Techspot: A Beginner&amp;rsquo;s Guide to the Linux Command Line
-Recommended Linux Podcast networks All have YouTube channels (50K+ subscribers)
-🔗 Tux Digital (Destination Linux)
-🔗 Jupiter Broadcasting</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
+🔗 Linuxize</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
 Python language translator for C (check links below for current information)
 Installation For Linux systems
 Windows sudo apt-get mingw-w64 Linux sudo apt-get cython3 Translate Python to C using Cython Basic examples
