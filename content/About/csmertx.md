@@ -17,6 +17,18 @@ weight: -20
 
 > A pet project website
 
+## Donation button?
+
+The donation button for this website redirects to the [Wounded Warrior Project](https://www.woundedwarriorproject.org/)
+
+> *This website is not an affiliated with the Wounded Warrior Project*
+
+## CSmertX
+
+Linux-ing for over ten years, and have been typing random things into computer prompts since 1989 (39y).
+
+> csmertx = <b>C</b><s>hristopher</s> <b>S</b><s>cham</s><b>mert</b> + <b>x</b>
+
 ## Recommended Linux Websites
 
 > Some have YouTube channels
@@ -43,9 +55,9 @@ weight: -20
 
 > All have YouTube channels (50K+ subscribers)
 
-1. [🔗 Tux Digital](https://tuxdigital.com/tag/video/) (Destination Linux)
+- [🔗 Tux Digital](https://tuxdigital.com/tag/video/) (Destination Linux)
 
-2. [🔗 Jupiter Broadcasting](https://www.jupiterbroadcasting.com/)
+- [🔗 Jupiter Broadcasting](https://www.jupiterbroadcasting.com/)
 
 ## Gremlins?
 
