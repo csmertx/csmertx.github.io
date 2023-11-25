@@ -32,4 +32,4 @@ geekdocLogo = "mc_gremlin.png"
 #http://flagmypicture.com/
 #geekdocToC = 3
 #geekdocMenuBundle = true
-geekdocBreadcrumb = true
+#geekdocBreadcrumb = true
