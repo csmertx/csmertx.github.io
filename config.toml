@@ -32,7 +32,4 @@ geekdocLogo = "mc_gremlin.png"
 #http://flagmypicture.com/
 #geekdocToC = 3
 #geekdocMenuBundle = true
-geekdocBreadcrumb = false
-
-# Set to true to make a section foldable in side menu.
-geekdocCollapseSection = true
+geekdocBreadcrumb = true
