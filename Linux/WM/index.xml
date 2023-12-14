@@ -40,59 +40,13 @@ xev can help determine button press outputs
 See also keyboard scancodes for more bindsym options
 See mpv for more about mpris plugin</description></item><item><title>i3WM &amp; KDE</title><link>https://csmertx.github.io/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3_and_plasma/</guid><description>
 Install Dependencies sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev xutils-dev autoconf Configuration vim ~/.config/i3/config
-++ exec --no-startup-id wmctrl -c Plasma
-+++ for_window [title=&amp;#34;Desktop — Plasma&amp;#34;] kill, floating enable, border none Avoid tiling popups, dropdown windows from plasma vim ~/.config/i3/config
-++ for_window [class=&amp;#34;plasmashell&amp;#34;] floating enable
-++ for_window [class=&amp;#34;Plasma&amp;#34;] floating enable, border none
-++ for_window [title=&amp;#34;plasma-desktop&amp;#34;] floating enable, border none
-++ for_window [title=&amp;#34;win7&amp;#34;] floating enable, border none
-++ for_window [class=&amp;#34;krunner&amp;#34;] floating enable, border none
-++ for_window [class=&amp;#34;Kmix&amp;#34;] floating enable, border none
-++ for_window [class=&amp;#34;Klipper&amp;#34;] floating enable, border none
-++ for_window [class=&amp;#34;Plasmoidviewer&amp;#34;] floating enable, border none</description></item><item><title>Openbox</title><link>https://csmertx.github.io/Linux/WM/openbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox/</guid><description>
+++ exec --no-startup-id wmctrl -c Plasma+++ for_window [title=&amp;#34;Desktop — Plasma&amp;#34;] kill, floating enable, border none Avoid tiling popups, dropdown windows from plasma vim ~/.config/i3/config
+++ for_window [class=&amp;#34;plasmashell&amp;#34;] floating enable++ for_window [class=&amp;#34;Plasma&amp;#34;] floating enable, border none++ for_window [title=&amp;#34;plasma-desktop&amp;#34;] floating enable, border none++ for_window [title=&amp;#34;win7&amp;#34;] floating enable, border none++ for_window [class=&amp;#34;krunner&amp;#34;] floating enable, border none++ for_window [class=&amp;#34;Kmix&amp;#34;] floating enable, border none++ for_window [class=&amp;#34;Klipper&amp;#34;] floating enable, border none++ for_window [class=&amp;#34;Plasmoidviewer&amp;#34;] floating enable, border none</description></item><item><title>Openbox</title><link>https://csmertx.github.io/Linux/WM/openbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox/</guid><description>
 Refresh desktop menu to add new programs, etc. vim ~/.config/openbox/menu.xml
-&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt;
-&amp;lt;openbox_menu&amp;gt;
-&amp;lt;menu id=&amp;#34;root-menu&amp;#34; label=&amp;#34;OpenBox 3&amp;#34; execute=&amp;#34;/usr/bin/obmenu-generator&amp;#34;&amp;gt;
-&amp;lt;/menu&amp;gt;
-&amp;lt;/openbox_menu&amp;gt; Center all new windows vim ~/.config/openbox/rc.xml
-&amp;lt;placement&amp;gt;
-&amp;lt;policy&amp;gt;Smart&amp;lt;/policy&amp;gt;
-&amp;lt;!-- &amp;#39;Smart&amp;#39; or &amp;#39;UnderMouse&amp;#39; --&amp;gt;
-&amp;lt;center&amp;gt;yes&amp;lt;/center&amp;gt;
-&amp;lt;!-- whether to place windows in the center of the free area found or
-the top left corner --&amp;gt;
-&amp;lt;monitor&amp;gt;Any&amp;lt;/monitor&amp;gt;
-&amp;lt;!-- with Smart placement on a multi-monitor system, try to place new windows
-on: &amp;#39;Any&amp;#39; - any monitor, &amp;#39;Mouse&amp;#39; - where the mouse is, &amp;#39;Active&amp;#39; - where
-the active window is --&amp;gt;
-&amp;lt;/placement&amp;gt;</description></item><item><title>Openbox | Extras</title><link>https://csmertx.github.io/Linux/WM/openbox_extras/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox_extras/</guid><description>rc.xml edit to add keyboard shortcuts for media keys, i3, and more
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt;&amp;lt;openbox_menu&amp;gt;&amp;lt;menu id=&amp;#34;root-menu&amp;#34; label=&amp;#34;OpenBox 3&amp;#34; execute=&amp;#34;/usr/bin/obmenu-generator&amp;#34;&amp;gt;&amp;lt;/menu&amp;gt;&amp;lt;/openbox_menu&amp;gt; Center all new windows vim ~/.config/openbox/rc.xml
+&amp;lt;placement&amp;gt;&amp;lt;policy&amp;gt;Smart&amp;lt;/policy&amp;gt;&amp;lt;!-- &amp;#39;Smart&amp;#39; or &amp;#39;UnderMouse&amp;#39; --&amp;gt;&amp;lt;center&amp;gt;yes&amp;lt;/center&amp;gt;&amp;lt;!-- whether to place windows in the center of the free area found orthe top left corner --&amp;gt;&amp;lt;monitor&amp;gt;Any&amp;lt;/monitor&amp;gt;&amp;lt;!-- with Smart placement on a multi-monitor system, try to place new windowson: &amp;#39;Any&amp;#39; - any monitor, &amp;#39;Mouse&amp;#39; - where the mouse is, &amp;#39;Active&amp;#39; - wherethe active window is --&amp;gt;&amp;lt;/placement&amp;gt;</description></item><item><title>Openbox | Extras</title><link>https://csmertx.github.io/Linux/WM/openbox_extras/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox_extras/</guid><description>rc.xml edit to add keyboard shortcuts for media keys, i3, and more
 vim /home/user/.config/openbox/rc.xml Don&amp;rsquo;t forget to swap user with your own $USER name
-&amp;lt;!-- Keybinding for rofi --&amp;gt;
-&amp;lt;keybind key=&amp;#34;W-d&amp;#34;&amp;gt;
-&amp;lt;action name=&amp;#34;Execute&amp;#34;&amp;gt;
-&amp;lt;command&amp;gt;rofi -show run&amp;lt;/command&amp;gt;
-&amp;lt;/action&amp;gt;
-&amp;lt;/keybind&amp;gt;
-&amp;lt;!-- Keybinding for zen run --&amp;gt;
-&amp;lt;keybind key=&amp;#34;W-r&amp;#34;&amp;gt;
-&amp;lt;action name=&amp;#34;Execute&amp;#34;&amp;gt;
-&amp;lt;command&amp;gt;/home/user/.scripts/zen_run&amp;lt;/command&amp;gt;
-&amp;lt;/action&amp;gt;
-&amp;lt;/keybind&amp;gt;
-&amp;lt;!-- Keybinding for terminal --&amp;gt;
-&amp;lt;keybind key=&amp;#34;W-t&amp;#34;&amp;gt;
-&amp;lt;action name=&amp;#34;Execute&amp;#34;&amp;gt;
-&amp;lt;command&amp;gt;terminology&amp;lt;/command&amp;gt;
-&amp;lt;/action&amp;gt;
-&amp;lt;/keybind&amp;gt;
-&amp;lt;!-- Keybinding for i3lock --&amp;gt;
-&amp;lt;keybind key=&amp;#34;W-9&amp;#34;&amp;gt;
-&amp;lt;action name=&amp;#34;Execute&amp;#34;&amp;gt;
-&amp;lt;command&amp;gt;betterlockscreen -l&amp;lt;/command&amp;gt;
-&amp;lt;/action&amp;gt;
-&amp;lt;/keybind&amp;gt;
-&amp;lt;!</description></item><item><title>Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description>
+&amp;lt;!-- Keybinding for rofi --&amp;gt;&amp;lt;keybind key=&amp;#34;W-d&amp;#34;&amp;gt;&amp;lt;action name=&amp;#34;Execute&amp;#34;&amp;gt;&amp;lt;command&amp;gt;rofi -show run&amp;lt;/command&amp;gt;&amp;lt;/action&amp;gt;&amp;lt;/keybind&amp;gt;&amp;lt;!-- Keybinding for zen run --&amp;gt;&amp;lt;keybind key=&amp;#34;W-r&amp;#34;&amp;gt;&amp;lt;action name=&amp;#34;Execute&amp;#34;&amp;gt;&amp;lt;command&amp;gt;/home/user/.scripts/zen_run&amp;lt;/command&amp;gt;&amp;lt;/action&amp;gt;&amp;lt;/keybind&amp;gt;&amp;lt;!-- Keybinding for terminal --&amp;gt;&amp;lt;keybind key=&amp;#34;W-t&amp;#34;&amp;gt;&amp;lt;action name=&amp;#34;Execute&amp;#34;&amp;gt;&amp;lt;command&amp;gt;terminology&amp;lt;/command&amp;gt;&amp;lt;/action&amp;gt;&amp;lt;/keybind&amp;gt;&amp;lt;!-- Keybinding for i3lock --&amp;gt;&amp;lt;keybind key=&amp;#34;W-9&amp;#34;&amp;gt;&amp;lt;action name=&amp;#34;Execute&amp;#34;&amp;gt;&amp;lt;command&amp;gt;betterlockscreen -l&amp;lt;/command&amp;gt;&amp;lt;/action&amp;gt;&amp;lt;/keybind&amp;gt;&amp;lt;!</description></item><item><title>Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description>
 Tiling window manager status bar
 Themes GitHub - adi1090x/polybar-themes: A huge collection of polybar themes with different styles, colors and variants.
 Polybar-10 is very similar to GNOME 3&amp;rsquo;s top bar

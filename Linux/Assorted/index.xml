@@ -87,25 +87,11 @@ allow-hotplug eth0
 iface eth0 inet dhcp</description></item><item><title>Static IP</title><link>https://csmertx.github.io/Linux/Assorted/static_ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/static_ip/</guid><description>
 Local Static IP (QEMU/KVM) sudo EDITOR=vim virsh net-edit default
 Add hosts after range as shown below
-&amp;lt;dhcp&amp;gt;
-&amp;lt;range start=&amp;#39;192.168.122.100&amp;#39; end=&amp;#39;192.168.122.254&amp;#39;/&amp;gt;
-&amp;lt;host mac=&amp;#39;...&amp;#39; name&amp;#39;c8n0&amp;#39; ip=&amp;#39;192.168.122.4&amp;#39;/&amp;gt;
-&amp;lt;dhcp/&amp;gt; sudo virsh net-destroy default
+&amp;lt;dhcp&amp;gt;&amp;lt;range start=&amp;#39;192.168.122.100&amp;#39; end=&amp;#39;192.168.122.254&amp;#39;/&amp;gt;&amp;lt;host mac=&amp;#39;...&amp;#39; name&amp;#39;c8n0&amp;#39; ip=&amp;#39;192.168.122.4&amp;#39;/&amp;gt;&amp;lt;dhcp/&amp;gt; sudo virsh net-destroy default
 sudo virsh net-start default
 Local Static IP (Bare Metal or Virualized w/bridge) sudov /etc/sysconfig/network
-NETWORKING=yes
-HOSTNAME=eXnX
-GATEWAY=192.168.254.254
-NETWORKING_IPV6=no
-IPV6INIT=no sudov /etc/sysconfig/network-scripts (ifcfg-enp0s3)
-ifconfig
-BOOTPROTO...
-DNS1=&amp;#34;8.8.8.8&amp;#34;
-DNS2=&amp;#34;4.4.4.4&amp;#34;
-GATEWAY=&amp;#34;192.168.254.254&amp;#34;
-HOSTNAME=&amp;#34;eXnX&amp;#34;
-NETMASK=&amp;#34;255.255.255.0&amp;#34;
-IPADDR=&amp;#34;192.168.254.XX&amp;#34;</description></item><item><title>Swap Memory</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description>
+NETWORKING=yesHOSTNAME=eXnXGATEWAY=192.168.254.254NETWORKING_IPV6=noIPV6INIT=no sudov /etc/sysconfig/network-scripts (ifcfg-enp0s3)
+ifconfigBOOTPROTO...DNS1=&amp;#34;8.8.8.8&amp;#34;DNS2=&amp;#34;4.4.4.4&amp;#34;GATEWAY=&amp;#34;192.168.254.254&amp;#34;HOSTNAME=&amp;#34;eXnX&amp;#34;NETMASK=&amp;#34;255.255.255.0&amp;#34;IPADDR=&amp;#34;192.168.254.XX&amp;#34;</description></item><item><title>Swap Memory</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description>
 A swapfile (1G) sudo dd if=/dev/zero of=/swap1G bs=1024 count=1048576
 sudo chown root:root /swap1G
 sudo chmod 0600 /swap1G
@@ -151,54 +137,11 @@ similar to chmod +x
 Only owner has RW</description></item><item><title>X resources</title><link>https://csmertx.github.io/Linux/Assorted/xresources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xresources/</guid><description>Set padding, DPI, anti-alising, Xcursor theme, X font settings, etc.
 Time saver for certain terminal emulators (URxvt, xterm, etc.)
 Xresources Example vim ~/.Xresources
-! Xresources
-Xft.dpi: 96
-Xft.hinting: true
-Xft.rgba: rgb
-Xft.autohint: true
-Xft.hintstyle: auto
-XTerm*termName: xterm-256color
-XTerm.vt100.faceName: Hack:size=13:antialias=true
-XTerm.vt100.locale: true
-XTerm.vt100.geometry: 100x35
-! special
-*.foreground: #464646
-*.background: #f7f7f7
-*.cursorColor: #464646
-! black
-*.color0: #101010
-*.color8: #525252
-! red
-*.color1: #7c7c7c
-*.color9: #7c7c7c
-! green
-*.color2: #8e8e8e
-*.color10: #8e8e8e
-!</description></item><item><title>Xmodmap</title><link>https://csmertx.github.io/Linux/Assorted/xmodmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xmodmap/</guid><description>Only for Xorg desktops (No Wayland support atm)
+! XresourcesXft.dpi: 96Xft.hinting: trueXft.rgba: rgbXft.autohint: trueXft.hintstyle: autoXTerm*termName: xterm-256colorXTerm.vt100.faceName: Hack:size=13:antialias=trueXTerm.vt100.locale: trueXTerm.vt100.geometry: 100x35! special*.foreground: #464646*.background: #f7f7f7*.cursorColor: #464646! black*.color0: #101010*.color8: #525252! red*.color1: #7c7c7c*.color9: #7c7c7c! green*.color2: #8e8e8e*.color10: #8e8e8e!</description></item><item><title>Xmodmap</title><link>https://csmertx.github.io/Linux/Assorted/xmodmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xmodmap/</guid><description>Only for Xorg desktops (No Wayland support atm)
 Using Xmodmap to remap Caps Lock as a FN key Remapping Caps Lock as a modifier key for navigation (hjkl ui nm)
 Mapped keys: h = Left, j = Down, k = Up, l = Right, u = PGDN, i = PGUP, n = Home, m = End
 vim /home/user/.Xmodmap
-keycode 66 = Mode_switch keysym h = h H Left keysym l = l L Right keysym k = k K Up
-keysym j = j J Down
-keysym n = n N End
-keysym m = m M Home
-keysym i = i I KP_Prior
-keysym u = u U KP_Next
-keysym o = o O KP_Insert
-keysym p = p P KP_Delete
-keysym q = q Q Escape
-keysym 1 = 1 exclam F1
-keysym 2 = 2 at F2
-keysym 3 = 3 numbersign F3
-keysym 4 = 4 dollar F4
-keysym 5 = 5 percent F5
-keysym 6 = 6 asciicircum F6
-keysym 7 = 7 ampersand F7
-keysym 8 = 8 asterisk F8
-keysym 9 = 9 parenleft F9
-keysym 0 = 0 parenright F10
-#keysym minus = minus underscore F11
-#keysym equal = equal plus F12 See Keyboard Scancodes for key additional options</description></item><item><title>XrandR</title><link>https://csmertx.github.io/Linux/Assorted/xrandr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xrandr/</guid><description>Mode Not Displayed cvt 1600 900
+keycode 66 = Mode_switch keysym h = h H Left keysym l = l L Right keysym k = k K Upkeysym j = j J Downkeysym n = n N Endkeysym m = m M Homekeysym i = i I KP_Priorkeysym u = u U KP_Nextkeysym o = o O KP_Insertkeysym p = p P KP_Deletekeysym q = q Q Escapekeysym 1 = 1 exclam F1keysym 2 = 2 at F2keysym 3 = 3 numbersign F3keysym 4 = 4 dollar F4keysym 5 = 5 percent F5keysym 6 = 6 asciicircum F6keysym 7 = 7 ampersand F7keysym 8 = 8 asterisk F8keysym 9 = 9 parenleft F9keysym 0 = 0 parenright F10#keysym minus = minus underscore F11#keysym equal = equal plus F12 See Keyboard Scancodes for key additional options</description></item><item><title>XrandR</title><link>https://csmertx.github.io/Linux/Assorted/xrandr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xrandr/</guid><description>Mode Not Displayed cvt 1600 900
 Whatever resolution you need goes here 1920x1080, 3840x2160, etc.
 Copy line that starts with Modeline
 sudo xrandr --newmode [...copied line minus the word Modeline...]

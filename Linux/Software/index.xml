@@ -297,28 +297,7 @@ From a list of URLs wget --input-file=lfs-list --continue --directory-prefix=/mn
 Instructions PuppyLinux: WoofCE
 GitHub - puppylinux-woof-CE/woof-CE: woof - the Puppy builder</description></item><item><title>XScreenSaver</title><link>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</guid><description>XScreenSaver Multi-monitor Patch
 See patching to use this patch
-$ diff screens-original.c screens.c
-387a388,389
-&amp;gt; /* one hack over multi-monitor patch - blatantly overrule what randr thinks */
-&amp;gt; nscreens = 1;
-450c452,453
-&amp;lt; for (k = 0; k &amp;lt; res-&amp;gt;noutput; k++, j++)
----
-&amp;gt; /* one hack over multi-monitor patch - ignore randr number of outputs, force 1 */
-&amp;gt; for (k = 0; k &amp;lt; 1; k++, j++)
-469,472c472,476
-&amp;lt; m-&amp;gt;x = crtci-&amp;gt;x;
-&amp;lt; m-&amp;gt;y = crtci-&amp;gt;y;
-&amp;lt; m-&amp;gt;width = crtci-&amp;gt;width;
-&amp;lt; m-&amp;gt;height = crtci-&amp;gt;height;
----
-&amp;gt; /* one hack over multi-monitor patch - hardcoded resolution for this workstation&amp;#39;s &amp;#34;single&amp;#34; screen */
-&amp;gt; m-&amp;gt;x = 0;
-&amp;gt; m-&amp;gt;y = 0;
-&amp;gt; m-&amp;gt;width = 5920;
-&amp;gt; m-&amp;gt;height = 1440;
-574,582c578
-&amp;lt; else if ( randr_monitors[0] &amp;amp;&amp;amp; !</description></item><item><title>Yakuake</title><link>https://csmertx.github.io/Linux/Software/yakuake/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/yakuake/</guid><description>Drop-down terminal emulator for KDE
+$ diff screens-original.c screens.c387a388,389&amp;gt; /* one hack over multi-monitor patch - blatantly overrule what randr thinks */&amp;gt; nscreens = 1;450c452,453&amp;lt; for (k = 0; k &amp;lt; res-&amp;gt;noutput; k++, j++)---&amp;gt; /* one hack over multi-monitor patch - ignore randr number of outputs, force 1 */&amp;gt; for (k = 0; k &amp;lt; 1; k++, j++)469,472c472,476&amp;lt; m-&amp;gt;x = crtci-&amp;gt;x;&amp;lt; m-&amp;gt;y = crtci-&amp;gt;y;&amp;lt; m-&amp;gt;width = crtci-&amp;gt;width;&amp;lt; m-&amp;gt;height = crtci-&amp;gt;height;---&amp;gt; /* one hack over multi-monitor patch - hardcoded resolution for this workstation&amp;#39;s &amp;#34;single&amp;#34; screen */&amp;gt; m-&amp;gt;x = 0;&amp;gt; m-&amp;gt;y = 0;&amp;gt; m-&amp;gt;width = 5920;&amp;gt; m-&amp;gt;height = 1440;574,582c578&amp;lt; else if ( randr_monitors[0] &amp;amp;&amp;amp; !</description></item><item><title>Yakuake</title><link>https://csmertx.github.io/Linux/Software/yakuake/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/yakuake/</guid><description>Drop-down terminal emulator for KDE
 Installation apti yakuake Trouble with remapped keyboard layout (xmodmap, etc.) Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console
 To switch back remember: XFree 4
 I hope someone knows what I was talking about here (can&amp;rsquo;t recall)

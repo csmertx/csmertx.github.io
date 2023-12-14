@@ -44,16 +44,7 @@ sensors
 AMD Processor load and memory usage
 apti radeontop
 Run with: radeontop Nvidia Processor load and memory usage</description></item><item><title>Keyboard Scancodes</title><link>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</guid><description>May include game controller keysyms as well?
-01 (Esc)
-02 (1!), 03 (2@), 04 (3#), 05 (4$), 06 (5%E), 07 (6^), 08 (7&amp;amp;), 09 (8*), 0a (9(), 0b (0)), 0c (-_), 0d (=+), 0e (Backspace)
-0f (Tab), 10 (Q), 11 (W), 12 (E), 13 (R), 14 (T), 15 (Y), 16 (U), 17 (I), 18 (O), 19 (P), 1a ([{), 1b (]})
-1c (Enter)
-1d (LCtrl)
-1e (A), 1f (S), 20 (D), 21 (F), 22 (G), 23 (H), 24 (J), 25 (K), 26 (L), 27 (;:), 28 (&amp;#39;&amp;#34;)
-29 (`~)
-2a (LShift)
-2b (\|), on a 102-key keyboard
-2c (Z), 2d (X), 2e (C), 2f (V), 30 (B), 31 (N), 32 (M), 33 (,&amp;lt;), 34 (.</description></item><item><title>Monitors</title><link>https://csmertx.github.io/Linux/Devices/monitor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/monitor/</guid><description>Note copied from: /Linux/Assorted/xrandr
+01 (Esc)02 (1!), 03 (2@), 04 (3#), 05 (4$), 06 (5%E), 07 (6^), 08 (7&amp;amp;), 09 (8*), 0a (9(), 0b (0)), 0c (-_), 0d (=+), 0e (Backspace)0f (Tab), 10 (Q), 11 (W), 12 (E), 13 (R), 14 (T), 15 (Y), 16 (U), 17 (I), 18 (O), 19 (P), 1a ([{), 1b (]})1c (Enter)1d (LCtrl)1e (A), 1f (S), 20 (D), 21 (F), 22 (G), 23 (H), 24 (J), 25 (K), 26 (L), 27 (;:), 28 (&amp;#39;&amp;#34;)29 (`~)2a (LShift)2b (\|), on a 102-key keyboard2c (Z), 2d (X), 2e (C), 2f (V), 30 (B), 31 (N), 32 (M), 33 (,&amp;lt;), 34 (.</description></item><item><title>Monitors</title><link>https://csmertx.github.io/Linux/Devices/monitor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/monitor/</guid><description>Note copied from: /Linux/Assorted/xrandr
 Mode Not Displayed cvt 1600 900
 Whatever resolution you need goes here 1920x1080, 3840x2160, etc.
 Copy line that starts with Modeline
@@ -97,35 +88,8 @@ Total Writes per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep 
 libinput list-devices
 HTX USB HID Device HTX HID Device Mouse Upgraded to Ubuntu (Kubuntu) 23.04
 Tracking as expected after upgrading to 22.10, then 23.04 Laptop vim /etc/X11/xorg.conf.d/10-libinput.conf
-Section &amp;#34;InputClass&amp;#34;
-Identifier &amp;#34;touchpad catchall&amp;#34;
-Driver &amp;#34;synaptics&amp;#34;
-MatchIsTouchpad &amp;#34;on&amp;#34;
-MatchDevicePath &amp;#34;/dev/input/event*&amp;#34;
-Option &amp;#34;TapButton1&amp;#34; &amp;#34;1&amp;#34;
-Option &amp;#34;TapButton2&amp;#34; &amp;#34;3&amp;#34;
-Option &amp;#34;TapButton3&amp;#34; &amp;#34;2&amp;#34;
-Option &amp;#34;HorizTwoFingerScroll&amp;#34; &amp;#34;on&amp;#34; # set to off if edge
-Option &amp;#34;VertTwoFingerScroll&amp;#34; &amp;#34;on&amp;#34; # set to off if edge
-Option &amp;#34;HorizEdgeScroll&amp;#34; &amp;#34;on&amp;#34;
-Option &amp;#34;VertEdgeScroll&amp;#34; &amp;#34;on&amp;#34;
-EndSection Gestures For touchpad/touchpads with multi-touch capabilities</description></item><item><title>Trackballs</title><link>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</guid><description>Highly recommend Elecom HUGE trackballs over Logitech trackballs (sans thumb style)
-Trackball Scrolling
-/etc/X11/xorg.conf.d/10-libinput.conf
-Section &amp;#34;InputClass&amp;#34;
-Identifier &amp;#34;Marble Mouse&amp;#34;
-MatchProduct &amp;#34;Logitech USB Trackball&amp;#34;
-Driver &amp;#34;libinput&amp;#34;
-Option &amp;#34;ScrollMethod&amp;#34; &amp;#34;button&amp;#34;
-Option &amp;#34;ScrollButton&amp;#34; &amp;#34;8&amp;#34;
-#Option &amp;#34;ScrollButton&amp;#34; &amp;#34;9&amp;#34; #left handed scrolling
-Option &amp;#34;MiddleEmulation&amp;#34; &amp;#34;on&amp;#34;
-EndSection
-/etc/X11/xorg.conf.d/10-evdev.conf
-# - - - Logitech Marble Mouse Settings - - -
-#
-# The Logitech Marble Mouse buttons are mapped [A-D] from left to right:
-# A (large); B (small) | C (small); D (large).</description></item><item><title>WiFi</title><link>https://csmertx.github.io/Linux/Devices/wifi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/wifi/</guid><description>See virt-manager for USB or PCIE WiFi device passthrough
+Section &amp;#34;InputClass&amp;#34;Identifier &amp;#34;touchpad catchall&amp;#34;Driver &amp;#34;synaptics&amp;#34;MatchIsTouchpad &amp;#34;on&amp;#34;MatchDevicePath &amp;#34;/dev/input/event*&amp;#34;Option &amp;#34;TapButton1&amp;#34; &amp;#34;1&amp;#34;Option &amp;#34;TapButton2&amp;#34; &amp;#34;3&amp;#34;Option &amp;#34;TapButton3&amp;#34; &amp;#34;2&amp;#34;Option &amp;#34;HorizTwoFingerScroll&amp;#34; &amp;#34;on&amp;#34; # set to off if edgeOption &amp;#34;VertTwoFingerScroll&amp;#34; &amp;#34;on&amp;#34; # set to off if edgeOption &amp;#34;HorizEdgeScroll&amp;#34; &amp;#34;on&amp;#34;Option &amp;#34;VertEdgeScroll&amp;#34; &amp;#34;on&amp;#34;EndSection Gestures For touchpad/touchpads with multi-touch capabilities</description></item><item><title>Trackballs</title><link>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</guid><description>Highly recommend Elecom HUGE trackballs over Logitech trackballs (sans thumb style)
+Trackball Scrolling/etc/X11/xorg.conf.d/10-libinput.confSection &amp;#34;InputClass&amp;#34;Identifier &amp;#34;Marble Mouse&amp;#34;MatchProduct &amp;#34;Logitech USB Trackball&amp;#34;Driver &amp;#34;libinput&amp;#34;Option &amp;#34;ScrollMethod&amp;#34; &amp;#34;button&amp;#34;Option &amp;#34;ScrollButton&amp;#34; &amp;#34;8&amp;#34;#Option &amp;#34;ScrollButton&amp;#34; &amp;#34;9&amp;#34; #left handed scrollingOption &amp;#34;MiddleEmulation&amp;#34; &amp;#34;on&amp;#34;EndSection/etc/X11/xorg.conf.d/10-evdev.conf# - - - Logitech Marble Mouse Settings - - -## The Logitech Marble Mouse buttons are mapped [A-D] from left to right:# A (large); B (small) | C (small); D (large).</description></item><item><title>WiFi</title><link>https://csmertx.github.io/Linux/Devices/wifi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/wifi/</guid><description>See virt-manager for USB or PCIE WiFi device passthrough
 AP Mode Create Network bridge
 pac -S create_ap
 git clone https://github.com/oblique/create_ap
@@ -139,10 +103,7 @@ sudo apt install dkms
 sudo make dkms_install</description></item><item><title>Xbox One Controller</title><link>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</guid><description>
 Pre-Bluetooth version (wireless)
 Disable Mouse Emulation vim /usr/share/X11/xorg.conf.d/50-joystick.conf
-Driver &amp;#34;joystick&amp;#34;
-++ Option &amp;#34;StartKeysEnabled&amp;#34; &amp;#34;False&amp;#34; # These Two Lines Disable
-++ Option &amp;#34;StartMouseEnabled&amp;#34; &amp;#34;False&amp;#34; # The mouse emulation
-EndSection LTrigger/RTrigger Issue apti joystick
+Driver &amp;#34;joystick&amp;#34;++ Option &amp;#34;StartKeysEnabled&amp;#34; &amp;#34;False&amp;#34; # These Two Lines Disable++ Option &amp;#34;StartMouseEnabled&amp;#34; &amp;#34;False&amp;#34; # The mouse emulationEndSection LTrigger/RTrigger Issue apti joystick
 apti jstest-gtk
 Open joystick and calibrate (swap Axis 2 with 4 to correct)
 Resources Ask Ubuntu: How can I stop my controller from moving my mouse?</description></item></channel></rss>

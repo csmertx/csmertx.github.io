@@ -86,11 +86,4 @@ vim /etc/apt/sources.list
 ++ deb [trusted=yes] http://http.us.debian.org/debian/ testing non-free contrib main sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com &amp;lt;key&amp;gt;
 sudo apt-get update
 Check [package] candidate version before installing sudo apt-cache policy [package] For an apt-get dummy run use: apt-get -s install [packagex] Changing hostname Because sudo hostname newname would be too easy.</description></item><item><title>Ubuntu Old Releases</title><link>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</guid><description>
-10.04 Lucid Lynx (for example&amp;ndash;works with i686 ISO) deb http://old-releases.ubuntu.com/ubuntu/ lucid main restricted
-deb http://old-releases.ubuntu.com/ubuntu/ lucid multiverse universe
-deb http://old-releases.ubuntu.com/ubuntu/ lucid-updates main restricted
-deb http://old-releases.ubuntu.com/ubuntu/ lucid-updates multiverse universe
-deb http://old-releases.ubuntu.com/ubuntu/ lucid-backports main restricted
-deb http://old-releases.ubuntu.com/ubuntu/ lucid-backports multiverse universe
-deb http://old-releases.ubuntu.com/ubuntu/ lucid-security main restricted
-deb http://old-releases.ubuntu.com/ubuntu/ lucid-security multiverse universe Resources Old Ubuntu Releases: Index of /releases</description></item></channel></rss>
+10.04 Lucid Lynx (for example&amp;ndash;works with i686 ISO) deb http://old-releases.ubuntu.com/ubuntu/ lucid main restricteddeb http://old-releases.ubuntu.com/ubuntu/ lucid multiverse universedeb http://old-releases.ubuntu.com/ubuntu/ lucid-updates main restricteddeb http://old-releases.ubuntu.com/ubuntu/ lucid-updates multiverse universedeb http://old-releases.ubuntu.com/ubuntu/ lucid-backports main restricteddeb http://old-releases.ubuntu.com/ubuntu/ lucid-backports multiverse universedeb http://old-releases.ubuntu.com/ubuntu/ lucid-security main restricteddeb http://old-releases.ubuntu.com/ubuntu/ lucid-security multiverse universe Resources Old Ubuntu Releases: Index of /releases</description></item></channel></rss>

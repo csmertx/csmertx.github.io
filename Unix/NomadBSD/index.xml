@@ -4,12 +4,7 @@ Please refer to the NomadBSD Handbooklet for up to date installation instruction
 WiFi FreeBSD / Docs / Wireless Network
 vim /etc/rc.conf
 ++ wlans_rtwn0=&amp;#34;wlan0&amp;#34; ++ ifconfig_wlan0=&amp;#34;WPA DHCP&amp;#34; ++ ifconfig_ale0=&amp;#34;DHCP&amp;#34; vim /boot/loader.conf
-++ if_rtwn_usb_load=&amp;#34;YES&amp;#34;
-++ if_rtwn_pci_load=&amp;#34;YES&amp;#34; vim /etc/wpa_supplicant.conf
-++ network={
-++ ssid=&amp;#34;myssid&amp;#34;
-++ psk=&amp;#34;mypsk&amp;#34;
-++ } service netif restart
+++ if_rtwn_usb_load=&amp;#34;YES&amp;#34;++ if_rtwn_pci_load=&amp;#34;YES&amp;#34; vim /etc/wpa_supplicant.conf
+++ network={++	ssid=&amp;#34;myssid&amp;#34;++	psk=&amp;#34;mypsk&amp;#34;++ } service netif restart
 Autostart Programs w/Openbox vim ~/.config/openbox/autostart.sh
-++ dsbmc-cli -a &amp;amp;
-++ xmodmap ~/.Xmodmap</description></item></channel></rss>
+++ dsbmc-cli -a &amp;amp;++ xmodmap ~/.Xmodmap</description></item></channel></rss>

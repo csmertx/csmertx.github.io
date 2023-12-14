@@ -2,8 +2,6 @@
 Please refere to NetBSD: The NetBSD Guide for up to date installation instructions
 Preparing the USB drive To use CD sets for full installation
 dd if=/dir/NetBSD-(version)-amd64-install.img of=/dev/sdX bs=8M; sync Preparing Wifi Access vi /etc/wpa_supplicant.conf
-++ network={
-++ ssid=&amp;#34;yourssid&amp;#34; ++ scan_ssid=1 ++ key_mgmt=WPA-PSK ++ psk=&amp;#34;yourpsk&amp;#34; ++ } vi /etc/rc.conf
+++ network={++ ssid=&amp;#34;yourssid&amp;#34; ++ scan_ssid=1 ++ key_mgmt=WPA-PSK ++ psk=&amp;#34;yourpsk&amp;#34; ++ } vi /etc/rc.conf
 ++ dhcpcd_flags=&amp;#34;-q -b&amp;#34; ++ wpa_supplicant=&amp;#34;YES&amp;#34; ++ wpa_supplicant_flags=&amp;#34;-B -i ath0 -c /etc/wpa_supplicant.conf&amp;#34; vi /etc/ifconfig.ath0
-++ up
-++ dhcp /etc/rc.</description></item></channel></rss>
+++ up++ dhcp /etc/rc.</description></item></channel></rss>

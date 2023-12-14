@@ -5,8 +5,5 @@ password: [automatic login]
 First step Boot into the installed system before completing any of the following!
 Full installation is covered via FreeBSD Handbook linked above
 Wifi troubles.. vim /etc/rc.conf
--- ifconfig_em0=&amp;#34;DHCP&amp;#34;
--- ifconfig_em0_ipv6=&amp;#34;inet6 accept_rtadv&amp;#34;
-++ wlans_ath0=&amp;#34;wlan0&amp;#34;
-++ ifconfig_wlan0=&amp;#34;WPA SYNCDHCP&amp;#34; ifconfig wlan0 create wlandev ath0
+-- ifconfig_em0=&amp;#34;DHCP&amp;#34;-- ifconfig_em0_ipv6=&amp;#34;inet6 accept_rtadv&amp;#34;++ wlans_ath0=&amp;#34;wlan0&amp;#34;++ ifconfig_wlan0=&amp;#34;WPA SYNCDHCP&amp;#34; ifconfig wlan0 create wlandev ath0
 ifconfig wlan0 up scan</description></item></channel></rss>
