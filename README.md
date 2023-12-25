@@ -8,6 +8,6 @@
 
 ### Donations? Coffee? Pizza?
 
-> Please send all coffee, pizza, tacos, and veggie burgers to the link below
+> Please send all coffee, seltzer water, pizza, tacos, and veggie burgers to the link below
 
 - [🔗Wounded Warrior Project | Donate](https://www.woundedwarriorproject.org/donate)
