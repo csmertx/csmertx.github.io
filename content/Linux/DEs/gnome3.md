@@ -48,7 +48,7 @@ weight: -20
 
 ## Program Not Responsive timeout
 
-> Some older Win32 games may have this issue (e.g. Runes of Magic)
+> Some older Win32 games may have this issue
 
 - ```gsettings set org.gnome.mutter check-alive-timeout 120000```
 

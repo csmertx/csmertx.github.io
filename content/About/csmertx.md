@@ -88,32 +88,6 @@ Linux-ing for over ten years, and have been typing random things into computer p
 
     - Very gamer friendly w/Steam installed and configured with [🔗 Proton](/Games/steam_proton.md)
 
-        - Pinball PX3
-
-        - Dirt Rally 2.0
-
-        - Fallout 4
-
-        - Skyrim Special Edition
-
-        - Fishing Planet
-
-        - The Sims 4
-
-        - Skater XL
-
-        - Darkplaces Quake
-
-        - Unreal Tournament 2000
-
-        - Commander Keen
-
-        - Path of Exile
-
-        - Doom Eternal
-
-        - Runes of Magic (crashes are commonplace)
-
 ## What? No tiling window managers?
 
 > ᐳ Cobbled together with single threaded Bash scripts
