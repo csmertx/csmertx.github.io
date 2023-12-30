@@ -17,9 +17,11 @@ Extract Windows 10 RTM OEM serial number (Ubuntu + flavors)
 
 - ```sudo nano SLIC.dat```
 
+- Serial character fomat is 5x5 (xxxxx-xxxxx-xxxxx-xxxxx-xxxxx)
+
 - Download Win 10 ISO from: https://www.microsoft.com/en-us/software-download/windows10ISO
 
-> When asked for activation key: use it, and Windows installer will automatically choose the correct installation edition.  I can confirm that this too works for a previous OEM installation.  I used this process to activate Win10 RTM OEM on my Thinkpad X1 Extreme Gen. 2 that I wiped immediately after unboxing in favor of Linux.
+> When asked for activation key: use it, and Windows installer will automatically choose the correct installation edition.
 
 - [Spice Space: Copy & Paste w/virtmanager](https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe)
 
