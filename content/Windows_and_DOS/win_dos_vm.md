@@ -1,7 +1,7 @@
 ---
 title: Win & DOS VMs
 author: csmertx
-date: February 7, 2023
+date: December 30, 2024
 weight: -20
 ---
 
@@ -11,7 +11,7 @@ weight: -20
 
 Extract Windows 10 RTM OEM serial number (Ubuntu + flavors)
 
-> Windows 10 RTM OEM | Verified via: Thinkpad X1 Extreme G2 (Kubuntu), and Lenovo M73 (Kubuntu)
+> Windows 10 RTM OEM | Verified via: Thinkpad X270, Lenovo M73, and Thinkpad X1 Extreme G2
 
 - ```sudo cat /sys/firmware/acpi/tables/MSDM > SLIC.dat```
 
