@@ -9,7 +9,9 @@ weight: -20
 
 ## Windows Activation in VM
 
-> Windows 10 RTM OEM for Thinkpad X1 Extreme G2 (running Kubuntu)
+Extract Windows 10 RTM OEM serial number (Ubuntu + flavors)
+
+> Windows 10 RTM OEM | Verified via: Thinkpad X1 Extreme G2 (Kubuntu), and Lenovo M73 (Kubuntu)
 
 - ```sudo cat /sys/firmware/acpi/tables/MSDM > SLIC.dat```
 
