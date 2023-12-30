@@ -1032,7 +1032,7 @@ cd ~/.sources
 git clone https://github.com/aircrack-ng/rtl8812au
 sudo apt install dkms
 sudo make dkms_install</description></item><item><title>Win &amp; DOS VMs</title><link>https://csmertx.github.io/Windows_and_DOS/win_dos_vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Windows_and_DOS/win_dos_vm/</guid><description>Windows Activation in VM Extract Windows 10 RTM OEM serial number (Ubuntu + flavors)
-Windows 10 RTM OEM | Verified via: Thinkpad X1 Extreme G2 (Kubuntu), and Lenovo M73 (Kubuntu)
+Windows 10 RTM OEM | Verified via: Thinkpad X270, Lenovo M73, and Thinkpad X1 Extreme G2
 sudo cat /sys/firmware/acpi/tables/MSDM &amp;gt; SLIC.dat
 sudo nano SLIC.dat
 Download Win 10 ISO from: https://www.microsoft.com/en-us/software-download/windows10ISO
