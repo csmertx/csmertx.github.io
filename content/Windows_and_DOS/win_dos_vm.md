@@ -17,7 +17,7 @@ Extract Windows 10 RTM OEM serial number (Ubuntu + flavors)
 
 - ```sudo nano SLIC.dat```
 
-- Serial character fomat is 5x5 ```xxxxx-xxxxx-xxxxx-xxxxx-xxxxx```
+- Serial character format is 5x5 ```xxxxx-xxxxx-xxxxx-xxxxx-xxxxx```
 
 - Download Win 10 ISO from: https://www.microsoft.com/en-us/software-download/windows10ISO
 
