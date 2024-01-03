@@ -1035,7 +1035,7 @@ sudo make dkms_install</description></item><item><title>Win &amp; DOS VMs</title
 Windows 10 RTM OEM | Verified via: Thinkpad X270, Lenovo M73, and Thinkpad X1 Extreme G2
 sudo cat /sys/firmware/acpi/tables/MSDM &amp;gt; SLIC.dat
 sudo nano SLIC.dat
-Serial character fomat is 5x5 xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
+Serial character format is 5x5 xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
 Download Win 10 ISO from: https://www.microsoft.com/en-us/software-download/windows10ISO
 When asked for activation key: use it, and Windows installer will automatically choose the correct installation edition.
 Spice Space: Copy &amp;amp; Paste w/virtmanager</description></item><item><title>Woof-CE</title><link>https://csmertx.github.io/Linux/Software/woof-ce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/woof-ce/</guid><description>Build system for Puppy Linux distros
