@@ -1,7 +1,7 @@
 ---
 title: Win & DOS VMs
 author: csmertx
-date: December 30, 2024
+date: January 09, 2024
 weight: -20
 ---
 
@@ -13,6 +13,8 @@ Extract Windows 10 RTM OEM serial number (Ubuntu + flavors)
 
 > Windows 10 RTM OEM | Verified via: Thinkpad X270, Lenovo M73, and Thinkpad X1 Extreme G2
 
+> Thinkpad X270 users: BIOS 1.50 is 🔗[not compatible](https://techfixify.com/how-to-roll-back-bios-update-lenovo/#How_To_Roll_Back_BIOS_Update_Lenovo_Step-By-Step "Techfixify | How To Roll Back BIOS Update Lenovo? (Easy)") with aftermarket batteries (🔗[1.47](https://pcsupport.lenovo.com/us/en/downloads/ds120442-bios-update-utility-bootable-cd-for-windows-10-81-7-64-bit-7-32-bit-thinkpad-x270 "Lenovo Support US | BIOS Update (Utility & Bootable CD) for Windows 10, 8.1, 7 (64-bit), 7 (32-bit) - ThinkPad X270") is fine)
+
 - ```sudo cat /sys/firmware/acpi/tables/MSDM > SLIC.dat```
 
 - ```sudo nano SLIC.dat```
@@ -23,7 +25,7 @@ Extract Windows 10 RTM OEM serial number (Ubuntu + flavors)
 
 > When asked for activation key: use it, and Windows installer will automatically choose the correct installation edition.
 
-- [Spice Space: Copy & Paste w/virtmanager](https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe)
+- 🔗[Spice Space: Copy & Paste w/virtmanager](https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe)
 
     > Spice Guest Tools for Windows
 
@@ -31,7 +33,7 @@ Extract Windows 10 RTM OEM serial number (Ubuntu + flavors)
 
 > Includes minimum and maxmimum specifications. K = Kilobyte, G = Gigabyte, M = Megabyte, T = Terabyte
 
-> See [Virtualbox](/Linux/VMs/virtualbox), [Virtual Machine Manager](/Linux/VMs/virt-manager) or [KVM](/Linux/VMs/kvm) for more information on virtual machines
+> See 🔗[Virtualbox](/Linux/VMs/virtualbox), 🔗[Virtual Machine Manager](/Linux/VMs/virt-manager) or 🔗[KVM](/Linux/VMs/kvm) for more information on virtual machines
 
 ### Windows 7
 
