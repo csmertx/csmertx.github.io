@@ -1,11 +1,13 @@
 ---
-title: Keyboards (2016-2017)
+title: Keyboard Modeling
 author: csmertx
 date: December 27, 2023
 weight: -20
 ---
 
 <br />
+
+> 2016-2017
 
 > Started with Blender and finished with Fusion 360 (switches and stabilizers from Thingiverse?)
 
