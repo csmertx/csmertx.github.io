@@ -31,6 +31,14 @@ Linux-ing for over ten years, and have been typing random things into computer p
 
 > csmertx = <b>C</b><s>hristopher</s> <b>S</b><s>cham</s><b>mert</b> + <b>x</b>
 
+## Hugo theme used
+
+- [🔗 Preview of the Hugo Geekdocs theme](https://geekdocs.de/)
+
+    > This website is based on a 2022 version of GeekDocs
+
+- [🔗 Github | thegeeklab/hugo-geekdoc](https://github.com/thegeeklab/hugo-geekdoc)
+
 ## Recommended Linux Websites
 
 > Some have YouTube channels
@@ -67,7 +75,6 @@ Linux-ing for over ten years, and have been typing random things into computer p
 
     > A cause of error or equipment malfunction (as in aircraft) conceived of as a small mischievous gnome
 
-
 ## My history with Linux
 
 > My distro hopping
@@ -97,14 +104,6 @@ Linux-ing for over ten years, and have been typing random things into computer p
 - [🔗 Imgur.com | Fear and Loathing on the Arch Linux Trail (2018)](https://imgur.com/a/VXpYHBM)
 
     > Most of my pet Bash scripting projects sprung from this virtual journey
-
-## Hugo theme used
-
-- [🔗 Preview of the Hugo Geekdocs theme](https://geekdocs.de/)
-
-    > This website is based on a 2022 version of GeekDocs
-
-- [🔗 Github | thegeeklab/hugo-geekdoc](https://github.com/thegeeklab/hugo-geekdoc)
 
 ## Shorthand reference
 
