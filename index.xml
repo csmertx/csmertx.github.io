@@ -215,14 +215,11 @@ sudo crontab -e global
 Quick reference * * * * * min hour(24hr) day (month) month day (week) Example: 02 12 * * * == run once at 10:05PM everyday
 Simple: minute hour (24hr)
 Cron location in filesystem /var/spool/cron Resources Crontab Guru: The quick and simple editor for cron schedule expressions
-Red Hat: How to schedule jobs using the Linux 'cron'</description></item><item><title>csmertx</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>LGM (Linux Gremlin Mysteries) A pet project website
+Red Hat: How to schedule jobs using the Linux 'cron'</description></item><item><title>csmertx</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>Christopher Roy Schammert (aka, the c is silent)
+LGM (Linux Gremlin Mysteries) LGM is a pet project website with a little bin a fun mixed in with a lot of RTFM
 Donation button? The donation button for this website redirects to the Wounded Warrior Project
 This website is not an affiliated with the Wounded Warrior Project
-CSmertX Linux-ing for over ten years, and have been typing random things into computer prompts since 1989 (39y).
-csmertx = Christopher Schammert + x
-Recommended Linux Websites Some have YouTube channels
-🔗 Learn Linux TV
-🔗 Linuxize</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
+C-Smert-X, CS-Mert-X, Mertx, Smert-Tex, etc. Linux-ing for over ten years, and have been typing random things into computer prompts since 1989 (39y).</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
 Python language translator for C (check links below for current information)
 Installation For Linux systems
 Windows sudo apt-get mingw-w64 Linux sudo apt-get cython3 Translate Python to C using Cython Basic examples
