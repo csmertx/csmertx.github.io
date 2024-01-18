@@ -13,6 +13,7 @@ weight: -20
 
 Developed some RSI symptoms as I was worked on this pathway
 
+![albumimg](/Blog/stuff/images/keyboards/KA2Q.png "Kinesis Advantage2 Quiet pixel art (2022)")
 ![albumimg](/Blog/stuff/images/keyboards/keyboards_2016-2017_1.jpg "First render using DSA/104 key template before developing the 3-point lighting system (Blender)")
 ![albumimg](/Blog/stuff/images/keyboards/keyboards_2016-2017_2.jpg "Single source of light and maybe a custom mouse (iirc), DSA/104 Key template (Blender)")
 ![albumimg](/Blog/stuff/images/keyboards/keyboards_2016-2017_3.png "First full Sculpted Angle (SA) caps custom TKL before using switches stabilizers (Blender)")
