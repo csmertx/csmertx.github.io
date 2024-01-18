@@ -9,13 +9,15 @@ weight: -20
 
 <div style="text-align: center;">
 
-![MC Chris](/mc_gremlin.png "A picture of MC Gremlin, the logo of LGM via Stable Diffusion")
+![MC Chris](/the_great_hambino_jan_2024.png "The Great Hambino aka csmertx (-_ __+)")
+
+> Christopher Roy Schammert (aka, the c is silent)
 
 </div>
 
 # LGM (Linux Gremlin Mysteries)
 
-> A pet project website
+> LGM is a pet project website with a little bin a fun mixed in with a lot of RTFM
 
 ## Donation button?
 
@@ -23,7 +25,7 @@ The donation button for this website redirects to the [Wounded Warrior Project](
 
 > *This website is not an affiliated with the Wounded Warrior Project*
 
-## CSmertX
+## C-Smert-X, CS-Mert-X, Mertx, Smert-Tex, etc.
 
 Linux-ing for over ten years, and have been typing random things into computer prompts since 1989 (39y).
 
