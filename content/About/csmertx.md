@@ -17,7 +17,7 @@ weight: -20
 
 # LGM (Linux Gremlin Mysteries)
 
-> LGM is a pet project website with a little bin a fun mixed in with a lot of RTFM
+> LGM is a pet project website with a little bin of fun mixed in with a lot of RTFM
 
 ## Donation button?
 
