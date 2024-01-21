@@ -1,7 +1,7 @@
 ---
 title: csmertx
 author: csmertx
-date: June 9, 2023
+date: January 20, 2024
 weight: -20
 ---
 
@@ -9,7 +9,7 @@ weight: -20
 
 <div style="text-align: center;">
 
-![MC Chris](/the_great_hambino_jan_2024.png "The Great Hambino aka csmertx (-_ __+)")
+![MC Chris](/the_great_hambino_2024.gif "The Great Hambino aka csmertx (-_ __+)")
 
 > Christopher Roy Schammert (aka, the c is silent)
 
