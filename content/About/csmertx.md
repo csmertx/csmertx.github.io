@@ -95,7 +95,7 @@ Linux-ing for over ten years, and have been typing random things into computer p
 
 - [🔗 Kubuntu](https://kubuntu.org/) (2022 - Present)
 
-    - Very gamer friendly w/Steam installed and configured with [🔗 Proton](/Games/steam_proton.md)
+    - Very gamer friendly w/Steam installed and configured with [🔗 Proton](/Games/steam_proton)
 
 ## What? No tiling window managers?
 
