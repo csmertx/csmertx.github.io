@@ -54,3 +54,11 @@ weight: -20
     - ```protontricks -s "Name Of Super Awesome Game"```
 
     - ```protontricks GAMEIDNUMBER --gui```
+
+
+<br />
+<br />
+
+## Resources
+
+- 🔗[Github | GloriousEggroll / proton-ge-custom / releases](https://github.com/GloriousEggroll/proton-ge-custom/releases)
