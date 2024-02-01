@@ -11,7 +11,7 @@ weight: -20
 
 ![MC Chris](/the_great_hambino_2024.gif "The Great Hambino aka csmertx (-_ __+)")
 
-> Christopher Roy Schammert (aka, the c is silent)
+> Christopher Roy Schammert (aka, Chris Schammert [Since 1984])
 
 </div>
 
