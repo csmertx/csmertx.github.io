@@ -29,7 +29,7 @@ The donation button for this website redirects to the [Wounded Warrior Project](
 
 Linux-ing for over ten years, and have been typing random things into computer prompts since 1989 (39y)
 
-- Socials: 🇫@cschammert 📸/𝕏@csmertx
+- Socials: 🇫@cschammert 📸/𝕏@csmertx 🦣 @mertx3000
 
 > csmertx = <b>C</b><s>hristopher</s> <b>S</b><s>cham</s><b>mert</b> + <b>x</b>
 
