@@ -9,7 +9,7 @@ weight: -20
 
 <div style="text-align: center;">
 
-![MC Chris](/christopher_roy_schammert.png "The Great Hambino aka csmertx (-_ __+)")
+![MC Chris](/christopher_roy_schammert.png "csmertx (-_ __+)")
 
 > Christopher Roy Schammert | aka, Chris Schammert [Since 1984], and Sharky
 
@@ -17,7 +17,7 @@ weight: -20
 
 # LGM (Linux Gremlin Mysteries)
 
-> LGM is a pet project website with a little bin of fun mixed in with a lot of RTFM
+> LGM is a pet project website with a little bin of fun mixed in with a lot of RTFM. Mostly an easy way to check the notes from multiple devices--or from a family member's computer.
 
 ## Donation button?
 
