@@ -11,7 +11,7 @@ weight: -20
 
 ![MC Chris](/christopher_roy_schammert.png "csmertx (-_ __+)")
 
-> Christopher Roy Schammert | aka, Chris Schammert [Since 1984], and Sharky
+> Christopher Roy Schammert | aka: Chris/Sharky
 
 </div>
 
