@@ -19,11 +19,15 @@ weight: -20
 
 > LGM is a pet project website with a little bin of fun mixed in with a lot of RTFM. Mostly an easy way to check the notes from multiple devices--or from a family member's computer.
 
-## Donation button?
+## Donation Button Clarification
 
-The donation button for this website redirects to the [Wounded Warrior Project](https://www.woundedwarriorproject.org/)
+The donation button for this website redirects to the 🔗 [Wounded Warrior Project](https://www.woundedwarriorproject.org/)
 
 > *This website is not an affiliated with the Wounded Warrior Project*
+
+My father dedicated over 20 years of his life to the military (Navy), which included a year long tour of Vietnam. He suffered through at least one fused vertebrae. Military said it wasn't their problem. That's why I am the way I am. And that's why I've included the link.
+
+> If anyone has an issue with the donation button please contact me.
 
 ## C-Smert-X, CS-Mert-X, Mertx, Smert-Tex, etc.
 
