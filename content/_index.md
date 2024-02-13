@@ -9,7 +9,7 @@ geekdocAnchor: false
 
 <div style="text-align: center;">
 
-![LGM Glow](/lgm_glow_256x256.png "/Pictures/Icons/LGM/Glow/lgm_glow_256x256.png")
+![LGM Glow](/lgm_glow_256x256.png "Glow Sign created via Inkscape 1.2.2")
 
 <br />
 
