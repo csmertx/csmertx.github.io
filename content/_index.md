@@ -1,5 +1,5 @@
 ---
-title: Linux Gremlin Mysteries
+title: "Behold! Text!"
 geekdocNav: false
 geekdocAlign: center
 geekdocAnchor: false
@@ -10,8 +10,6 @@ geekdocAnchor: false
 <div style="text-align: center;">
 
 ![LGM Glow](/lgm_glow.png "")
-
-> Behold! Text!
 
 <br />
 
