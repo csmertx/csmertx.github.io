@@ -9,15 +9,15 @@ weight: -20
 
 <div style="text-align: center;">
 
-![MC Chris](/christopher_roy_schammert.png "csmertx (-_ __+)")
+![CRS](/christopher_roy_schammert.png "csmertx (-_ __+)")
 
 > Christopher Roy Schammert | aka: Chris/Sharky
 
 </div>
 
-# LGM (Linux Gremlin Mysteries)
+# CSx: Csmertx
 
-> LGM is a pet project website with a little bin of fun mixed in with a lot of RTFM. Mostly an easy way to check the notes from multiple devices--or from a family member's computer.
+> CSx is a pet project website with a little bin of fun mixed in with a lot of RTFM. Mostly an easy way to check the notes from multiple devices--or from a family member's computer.
 
 ## Donation Button Clarification
 
