@@ -1,6 +1,8 @@
 # csmertx.github.io
 
-### LGM: Linux Gremlin Mysteries
+### CSx
+
+- Csmertx
 
 ### Hugo Theme
 
