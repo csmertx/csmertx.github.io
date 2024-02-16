@@ -9,7 +9,7 @@ geekdocAnchor: false
 
 <div style="text-align: center;">
 
-![crs](/crs_256x256.png "Initials created with Krita")
+![crs](/crs_256x256_silver.png "Initials created with Krita")
 
 <br />
 

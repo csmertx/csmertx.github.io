@@ -75,12 +75,6 @@ Linux-ing for over ten years, and have been typing random things into computer p
 
 - [🔗 Jupiter Broadcasting](https://www.jupiterbroadcasting.com/)
 
-## Gremlins?
-
-1. grem·lin ˈgrem-lən
-
-    > A cause of error or equipment malfunction (as in aircraft) conceived of as a small mischievous gnome
-
 ## My history with Linux
 
 > My distro hopping
