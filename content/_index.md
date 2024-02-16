@@ -1,5 +1,5 @@
 ---
-title: "CSx"
+title: "🗃️"
 geekdocNav: false
 geekdocAlign: center
 geekdocAnchor: false
@@ -13,7 +13,7 @@ geekdocAnchor: false
 
 <br />
 
-Csmertx's [🔗📑](pile_of_notes "LGMysteries | Notes").
+Csmertx's [🔗📑](pile_of_notes "Notes").
 
 > Blogs contain [NSFW] content
 
