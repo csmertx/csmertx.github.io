@@ -29,14 +29,6 @@ My father dedicated over 20 years of his life to the military (Navy), which incl
 
 > If anyone has an issue with the donation button please contact me.
 
-## C-Smert-X, CS-Mert-X, Mertx, Smert-Tex, etc.
-
-Linux-ing for over ten years, and have been typing random things into computer prompts since 1989 (39y)
-
-- Socials: 🇫@cschammert 📸/𝕏@csmertx 🦣 @mertx3000
-
-> csmertx = <b>C</b><s>hristopher</s> <b>S</b><s>cham</s><b>mert</b> + <b>x</b>
-
 ## Hugo theme used
 
 - [🔗 Preview of the Hugo Geekdocs theme](https://geekdocs.de/)
@@ -44,6 +36,14 @@ Linux-ing for over ten years, and have been typing random things into computer p
     > This website is based on a 2022 version of GeekDocs
 
 - [🔗 Github | thegeeklab/hugo-geekdoc](https://github.com/thegeeklab/hugo-geekdoc)
+
+## C-Smert-X, CS-Mert-X, Mertx, Smert-Tex, etc.
+
+Linux-ing for over ten years, and have been typing random things into computer prompts since 1989 (39y)
+
+- Socials: 🇫@cschammert 📸/𝕏@csmertx 🦣 @mertx3000
+
+> csmertx = <b>C</b><s>hristopher</s> <b>S</b><s>cham</s><b>mert</b> + <b>x</b>
 
 ## Recommended Linux Websites
 
