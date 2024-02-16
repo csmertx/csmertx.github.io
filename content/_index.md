@@ -1,5 +1,5 @@
 ---
-title: "Behold! Text!"
+title: "CSx"
 geekdocNav: false
 geekdocAlign: center
 geekdocAnchor: false
@@ -9,7 +9,7 @@ geekdocAnchor: false
 
 <div style="text-align: center;">
 
-![LGM Glow](/lgm_glow_256x256.png "Glow Sign created via Inkscape 1.2.2")
+![crs](/crs_256x256.png "Initials created with Krita")
 
 <br />
 

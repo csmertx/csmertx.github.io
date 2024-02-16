@@ -1,5 +1,5 @@
 baseURL = "https://csmertx.github.io"
-title = "LGMysteries"
+title = "CSx"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
@@ -28,7 +28,7 @@ relativeUrls = true
    tag = "tags"
 
 [params]
-geekdocLogo = "lgm_glow.png"
+geekdocLogo = "crs.png"
 #http://flagmypicture.com/
 #geekdocToC = 3
 #geekdocMenuBundle = true
