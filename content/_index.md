@@ -13,7 +13,7 @@ geekdocAnchor: false
 
 <br />
 
-Csmertx's [🔗📑](pile_of_notes "Notes").
+Csmertx's [🔗🗂️](pile_of_notes "Notes").
 
 > Blogs contain [NSFW] content
 
