@@ -216,7 +216,7 @@ Quick reference * * * * * min hour(24hr) day (month) month day (week) Example: 0
 Simple: minute hour (24hr)
 Cron location in filesystem /var/spool/cron Resources Crontab Guru: The quick and simple editor for cron schedule expressions
 Red Hat: How to schedule jobs using the Linux 'cron'</description></item><item><title>csmertx</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>Christopher Roy Schammert | aka: Chris/Sharky
-LGM (Linux Gremlin Mysteries) LGM is a pet project website with a little bin of fun mixed in with a lot of RTFM. Mostly an easy way to check the notes from multiple devices&amp;ndash;or from a family member&amp;rsquo;s computer.
+CSx: Csmertx CSx is a pet project website with a little bin of fun mixed in with a lot of RTFM. Mostly an easy way to check the notes from multiple devices&amp;ndash;or from a family member&amp;rsquo;s computer.
 Donation Button Clarification The donation button for this website redirects to the 🔗 Wounded Warrior Project
 This website is not an affiliated with the Wounded Warrior Project</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
 Python language translator for C (check links below for current information)
