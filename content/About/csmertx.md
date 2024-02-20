@@ -216,10 +216,6 @@ Linux-ing for over ten years, and have been typing random things into computer p
 
     - [🔗 YouTube | Pop an ollie and innovate! (Ted Talk)](https://www.youtube.com/watch?v=3GVO-MfIl1Q)
 
-- The days of 'Locals only' skateboard clubs are mostly in the past
-
-    - [🔗 YouTube | Braille Skateboarding](https://www.youtube.com/user/sprocker7) (5.75M+ Subscribers)
-
 - Skateboarding Stereotypes
     
     - Speaking of stereos. Jason Lee (My Name Is Earl, Mallrats, etc.) is a professional skateboarder, actor, filmmaker, and photographer that rode for Blind Skateboards, and founded Stereo Skateboards.
