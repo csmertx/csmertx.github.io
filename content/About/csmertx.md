@@ -9,7 +9,7 @@ weight: -20
 
 <div style="text-align: center;">
 
-![CRS](/christopher_roy_schammert_256x256_circle_blur.png "csmertx (-_ __+)")
+![CRS](/crs_shell_elementary_90s_blur_512x512.png "Lil Csmertx")
 
 > Christopher Roy Schammert | aka: Chris/Sharky
 
