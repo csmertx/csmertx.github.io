@@ -8,8 +8,10 @@
 
 - 🔗[hugo-geekdoc theme (Github)](https://github.com/thegeeklab/hugo-geekdoc)
 
-### Donations? Coffee? Pizza?
+### Donation button? Why?
 
-> Please send all coffee, seltzer water, pizza, tacos, and veggie burgers to the link below
+> CSx is not affilied with the Wounded Warrior Project
+
+- [Csmertx | About: Donation Button Clarification](https://csmertx.github.io/About/csmertx/#donation-button-clarification)
 
 - 🔗[Wounded Warrior Project | Donate](https://www.woundedwarriorproject.org/donate)
