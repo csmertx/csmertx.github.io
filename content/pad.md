@@ -1,5 +1,5 @@
 ---
-title: Pile Of Notes
+title: "No Ads. No Tracking."
 weight: -20
 ---
 
