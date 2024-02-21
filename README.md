@@ -12,6 +12,4 @@
 
 > CSx is not affilied with the Wounded Warrior Project
 
-- [Csmertx | About: Donation Button Clarification](https://csmertx.github.io/About/csmertx/#donation-button-clarification)
-
-- 🔗[Wounded Warrior Project | Donate](https://www.woundedwarriorproject.org/donate)
+- 🔗[Csmertx | About: Donation Button Clarification](https://csmertx.github.io/About/csmertx/#donation-button-clarification)
