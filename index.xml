@@ -645,7 +645,11 @@ Google&amp;rsquo;s nameserver (8.8.8.8)
 DHCP auto eth0
 allow-hotplug eth0
 iface eth0 inet dhcp</description></item><item><title>Nextcloud</title><link>https://csmertx.github.io/Linux/Software/nextcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/nextcloud/</guid><description>WebDav File manager webdav://192.168.254.xx/remote.php/webdav/ Restart All Services sudo systemctl restart redis.service php-fpm.service nginx.service Update through CLI sudo -u http php /usr/share/nginx/nextcloud/updater/updater.phar
-sudo -u http php /usr/share/nginx/nextcloud/occ update</description></item><item><title>NomadBSD Installation</title><link>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</guid><description>
+sudo -u http php /usr/share/nginx/nextcloud/occ update</description></item><item><title>No Ads. No Tracking.</title><link>https://csmertx.github.io/pad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/pad/</guid><description>Notes Authenticator Down Some of these notes may be out of date (i.e. Arch Linux).
+Mobile Navigation Tap the top left hamburger for categories.
+Tap the top &amp;lt; to access light theme.
+Tap the bottom right &amp;ldquo;^Top&amp;rdquo; to return to the top of the page.
+Tap the search bar to search through both the note titles (or subtitles) and the contents of the notes.</description></item><item><title>NomadBSD Installation</title><link>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</guid><description>
 This page was created before 2020
 Please refer to the NomadBSD Handbooklet for up to date installation instructions.
 WiFi FreeBSD / Docs / Wireless Network
@@ -688,11 +692,7 @@ Create a patch diff -u original/code.c modified/code.c &amp;gt; code.patch Test 
 Print Nth instance of match perl -lne 'print $1 if /Today:(.*)/' &amp;lt; downloaded_webpage.txt
 Download webpage BEFORE scraping e.g. wget https://website.com/website.html &amp;gt; website.txt
 Or: TEMP=&amp;quot;$(wget -q -O- &amp;quot;http://w1.weather.gov/xml/current_obs/stationcode.xml&amp;quot; | perl ...)&amp;quot;
-Resources Perl Programming Language Documentation</description></item><item><title>Pile Of Notes</title><link>https://csmertx.github.io/pile_of_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/pile_of_notes/</guid><description>Notes Authenticator Down Some of these notes may be out of date (i.e. Arch Linux).
-Mobile Navigation Tap the top left hamburger for categories.
-Tap the top &amp;lt; to access light theme.
-Tap the bottom right &amp;ldquo;^Top&amp;rdquo; to return to the top of the page.
-Tap the search bar to search through both the note titles (or subtitles) and the contents of the notes.</description></item><item><title>PineTime Smartwatch</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>Pinetime Smartwatch? ~$40 smartwatch with Open Source firmware. And more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
+Resources Perl Programming Language Documentation</description></item><item><title>PineTime Smartwatch</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>Pinetime Smartwatch? ~$40 smartwatch with Open Source firmware. And more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
 Reporting in after close to a year Raising wrist to wake up the device is mostly awesome
 Sometimes waking device displays last notification (swipe to clear notification)
 Sometimes waking device displays a random game of pong</description></item><item><title>Plasma (KDE)</title><link>https://csmertx.github.io/Linux/DEs/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/kde_plasma/</guid><description>SDDM High CPU Usage (25% +) sudov /etc/security/pam_env.conf
