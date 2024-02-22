@@ -13,7 +13,7 @@ weight: -20
 
 ![albumimg](/Blog/stuff/images/2by4_self_made_water_vole.jpg "Water vole ready for testing")
 
-Pine 2x4, household lacquer, and brass hardware (bored)
+Pine 2x4, household lacquer, yellow acrylic painted eyes, and brass hardware (I was bored)
 
 > Yet to test the wiggle pattern
 
