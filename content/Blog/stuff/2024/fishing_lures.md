@@ -11,7 +11,7 @@ weight: -20
 
 <div style="text-align: center;">
 
-![albumimg](/Blog/stuff/images/2by4_self_made_water_vole.jpg "Water vole ready for testing")
+![albumimg](/Blog/stuff/images/2by4_self_made_water_vole.jpg "Vintage style water vole muskie lure: 4.5in x 1.25in x 1in, dual treble hooks. Ready for testing once the water warms up")
 
 Pine 2x4, household lacquer, yellow acrylic painted eyes, and brass hardware (I was bored)
 
