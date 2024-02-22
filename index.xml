@@ -364,7 +364,7 @@ Kubuntu 21.10
 And move contents to /opt/firefox
 Desktop environment start menu and taskbar launcher /home/usr/.local/share/applications/firefox.desktop
 [Desktop Entry] Categories=WebBrowser Comment[en_US]=Firefox Web Browser Comment=Firefox Web Browser Exec=/opt/firefox/firefox-bin GenericName[en_US]=Web Browser GenericName=Web Browser Icon=/home/usr/Pictures/Icons/Firefox.png MimeType= Name[en_US]=Firefox Name=Firefox Path= StartupNotify=false Terminal=false TerminalOptions= Type=Application X-DBUS-ServiceName= X-DBUS-StartupType= X-KDE-SubstituteUID=false X-KDE-Username= Don&amp;rsquo;t forget to change user to $USER and grab a copy of the Firefox icon</description></item><item><title>Fishing Lures</title><link>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</guid><description>2018
-Pine 2x4, household lacquer, and brass hardware (bored)
+Pine 2x4, household lacquer, yellow acrylic painted eyes, and brass hardware (I was bored)
 Yet to test the wiggle pattern</description></item><item><title>Flatpaks</title><link>https://csmertx.github.io/Linux/Software/flatpak/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/flatpak/</guid><description>Flathub flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 reboot
 Or logout/login
