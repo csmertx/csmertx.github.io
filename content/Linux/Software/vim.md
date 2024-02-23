@@ -140,6 +140,10 @@ weight: -20
 
 - ```fc-cache -f -v```
 
+## Add line numbers to the beginning of each line
+
+- ```:%s/^/\=line('.')/```
+
 ## Resources
 
 - [Vim Homepage](https://www.vim.org/)
@@ -151,6 +155,8 @@ weight: -20
 - [GitHub - VundleVim/Vundle.vim: Vundle, the plug-in manager for Vim](https://github.com/VundleVim/Vundle.vim)
 
 - [GitHub - csmertx/dotfiles: configs, scripts, etc.](https://github.com/csmertx/dotfiles)
+
+- [Stack Overflow | How to add line numbers to range of lines in Vim?](https://stackoverflow.com/questions/252766/how-to-add-line-numbers-to-range-of-lines-in-vim#253041)
 
 ### Resources (Vim Plugins / Colorschemes)
 

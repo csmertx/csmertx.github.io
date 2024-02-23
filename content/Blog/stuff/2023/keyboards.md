@@ -11,7 +11,7 @@ weight: -20
 
 > Started with Blender and finished with Fusion 360 (switches and stabilizers from Thingiverse?)
 
-Developed some RSI symptoms as I was worked on this pathway
+Developed some RSI symptoms as I worked on this pathway
 
 ![albumimg](/Blog/stuff/images/keyboards/KA2Q.png "Kinesis Advantage2 Quiet pixel art (2022)")
 ![albumimg](/Blog/stuff/images/keyboards/keyboards_2016-2017_1.jpg "First render using DSA/104 key template before developing the 3-point lighting system (Blender)")
