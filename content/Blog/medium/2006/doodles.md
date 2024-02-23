@@ -27,15 +27,11 @@ Star Wars, which can be found 🔗[here](https://archive.org/details/style-wars-
 
 DPAP?
 
->
-
 <br />
 
 ![albumimg](/Blog/medium/2006/2.jpg "A hungry looking purple monster slicking its hand and head out of a green trash can outlined with ink and filled in with paint pens")
 
 If Oscar the Grouch and Grover were combined in a transporter accident and spent too much time in the badlands
-
-> 
 
 <br />
 
@@ -43,15 +39,11 @@ If Oscar the Grouch and Grover were combined in a transporter accident and spent
 
 Apparently I really enjoyed iPath shoes
 
->
-
 <br />
 
 ![albumimg](/Blog/medium/2006/4.jpg "Illustrator ready outline of a black widow spider with a barcode instead of the typical red violin or hourglass associated with black widow spiders")
 
 A trace of a trace of a trace of a trace
-
->
 
 <br />
 
@@ -91,15 +83,11 @@ Playing with backgrounds
 
 Shirt designs that never made the cut
 
->
-
 <br />
 
 ![albumimg](/Blog/medium/2006/10.jpg "Sketch style inked vampire squid with tentacles deployed to ensnare an unseen meal")
 
 Vampire squid? Yup.
-
->
 
 <br />
 
@@ -163,15 +151,11 @@ Playing with throw-ups
 
 DSPLE (pronounced display)
 
->
-
 <br />
 
 ![albumimg](/Blog/medium/2006/20.jpg "No attempt at 3D, with straight lettered graffiti in black and white")
 
 Meh
-
->
 
 <br />
 
@@ -179,15 +163,11 @@ Meh
 
 DSPLE
 
->
-
 <br />
 
 ![albumimg](/Blog/medium/2006/22.jpg "Inked angel speaking bomb language (bomb-bomb style) wearing headphones, and with a tilted halo")
 
 Failed t-shirt design based on the tribal inspired doodles I enjoyed scribbling in high school
-
->
 
 <br />
 
@@ -195,7 +175,6 @@ Failed t-shirt design based on the tribal inspired doodles I enjoyed scribbling 
 
 Hot and cold, like volcanic rock floating on an iceberg or something
 
->
 
 <br />
 
@@ -203,7 +182,6 @@ Hot and cold, like volcanic rock floating on an iceberg or something
 
 I'm sure there's a psychological reason for this one.. idk lol
 
->
 
 <br />
 
@@ -211,7 +189,6 @@ I'm sure there's a psychological reason for this one.. idk lol
 
 I think I dreamt of a goblin/sandman inspired mecha
 
->
 
 <br />
 
