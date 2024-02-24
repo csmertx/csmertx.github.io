@@ -9,7 +9,7 @@ weight: -20
 
 ## Influenced by a documentary
 
-Star Wars, which can be found 🔗[here](https://archive.org/details/style-wars-1983-documentary-on-graffiti)
+Style Wars, which can be found 🔗[here](https://archive.org/details/style-wars-1983-documentary-on-graffiti "Archive.org | Style Wars (1983 Documentary on Graffiti)")
 
 > Staying in South Florida made me realize that my style was stagnant and childish
 
