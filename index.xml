@@ -305,7 +305,7 @@ Custom Right Click Menu kf5-config --path services
 vim $HOME/.local/share/kservices5/ServiceMenus/action.desktop
 Copy path Example (See below for menu entry options)
 Copy Path is now builtin as of 02/03/23
-[Desktop Entry] Type=Service Icon=edit-copy X-KDE-ServiceTypes=KonqPopupMenu/Plugin MimeType=directories;all/all; Actions=cppath; Encoding=UTF-8 Terminal=false [Desktop Action cppath] Name=Copy Path Icon=edit-copy Exec=echo &amp;#34;%f&amp;#34; | xclip -selection c Terminal=false Can&amp;rsquo;t Copy Folder Path</description></item><item><title>Doodles</title><link>https://csmertx.github.io/Blog/medium/2006/doodles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/medium/2006/doodles/</guid><description>Influenced by a documentary Star Wars, which can be found 🔗here
+[Desktop Entry] Type=Service Icon=edit-copy X-KDE-ServiceTypes=KonqPopupMenu/Plugin MimeType=directories;all/all; Actions=cppath; Encoding=UTF-8 Terminal=false [Desktop Action cppath] Name=Copy Path Icon=edit-copy Exec=echo &amp;#34;%f&amp;#34; | xclip -selection c Terminal=false Can&amp;rsquo;t Copy Folder Path</description></item><item><title>Doodles</title><link>https://csmertx.github.io/Blog/medium/2006/doodles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/medium/2006/doodles/</guid><description>Influenced by a documentary Style Wars, which can be found 🔗here
 Staying in South Florida made me realize that my style was stagnant and childish
 Random doodles and sketches (2006-2007) I uh, nothing went up. Made a few stencils and had a few late nights, but nothing major
 Grew up listening to Beastie Boy songs thanks to my older brother. Hopefully some of that influence is apparent
