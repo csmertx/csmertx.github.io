@@ -35,7 +35,7 @@ B&W of a statue of whom is commonly known in U.S. America as The Laughing Buddha
 
 ![albumimg](/Blog/medium/2005/3.jpg "Storm drain height angle of an alligator sized storm drain with a bar installed to keep people from entering. And all that reflected by the water in front of it.")
 
-One of the few times I went on a journey to take pictures. Was with a cool dude that's no longer with us.
+One of the few times I went on a journey to take pictures. Was with a cool dude who is no longer with us.
 
 <br />
 
