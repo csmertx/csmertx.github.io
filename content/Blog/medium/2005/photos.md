@@ -131,6 +131,10 @@ Data center tapes!
 
 Better image of tapes!
 
+> On the tile floor was the RCA Voice Recorder ([🔗RP-5010](https://www.amazon.com/RCA-RP5010-Digital-Voice-Recorder/dp/B00006LEJ9/ref=cm_cr_arp_d_product_top?ie=UTF8 "Amazon.com | Archived Listing | RCA RP5010 Digital Voice Recorder ")) I used to record all the Santa Fe Community College lectures I attended (a roommate worked at the backup facility, and thought the place was haunted (or perhaps he just didn't like me)--no audio evidence lol).
+
+> A solid chunk of my 28 hours of study per week included listening to and taking notes using the college lecture recordings from the tiny RCA voice recorder device shown in image above
+
 <br />
 
 ![albumimg](/Blog/medium/2005/20.jpg "SLR bathroom mirror selfie of myself with a fresh haircut and wearing a sleeveless white shirt")
