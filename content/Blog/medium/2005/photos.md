@@ -71,7 +71,7 @@ From 2002 when my friends and I found the coolest dog (he went to an awesome lov
 
 > Point and Shoot camera. I'm the weirdo at the computer (my skateboard to my left)
 
-> I installed the ceiling fan of that room lol
+> I installed the ceiling fan (with help) of that room lol
 
 <br />
 
