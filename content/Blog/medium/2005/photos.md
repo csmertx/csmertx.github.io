@@ -13,7 +13,7 @@ weight: -20
 
 ### Printed via Me (2005-2007)
 
-> Info on the printer & developer we used at the Millhopper CVS of Gainesville, FL: 🔗[blog post](/Blog/daynight/2023/0823/#brink-the-disney-channel-movie)
+> Info on the printer & developer we used at the Millhopper CVS of Gainesville, FL: 🔗[Bootlegged Banksy with a Noritsu](https://csmertx.github.io/Blog/daynight/2023/0823/#bootlegged-bansky-with-a-noritsu)
 
 <br />
 
