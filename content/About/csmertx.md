@@ -45,6 +45,10 @@ Linux-ing for over ten years, and have been typing random things into computer p
 
 > csmertx = <b>C</b><s>hristopher</s> <b>S</b><s>cham</s><b>mert</b> + <b>x</b>
 
+## My Political Views
+
+    "That shit is fucked up yo."
+
 ## Recommended Linux Websites
 
 > Some have YouTube channels
