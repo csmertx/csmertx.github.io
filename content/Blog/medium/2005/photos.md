@@ -91,9 +91,7 @@ Used those fingerboard deck creating photoshop super skills to create a persona
 
 ![albumimg](/Blog/medium/2005/12.jpg "Three vinyl records with multiple layers of spray paint. Two background layers, and shadowed stencils. One is a stencil of a man sitting on a toilet, with a line traced from his mouth to his heart. Another stencil is of a person surfing with bombs overhead and part of the wave cut away to show the text REALITY? (influenced by the 1979 movie Apocalypse Now) The final stencil is of an Star Wars universe All Terrain Scout Transport (AT-ST) with locs on the crown of its head and smoke coming out of the chin mounted blaster cannons")
 
-Display, or DSPLY, or DP. I once made a stencil so diabolical that it got an entire retention wall painted.
-
-> Hopefully I can find either images of that one stencil or the photo of the piece
+Display, or DSPLY, or DP.
 
 > The 🔗[All Terrain Scout Transport (AT-ST)](https://starwars.fandom.com/wiki/All_Terrain_Scout_Transport "Star Wars Wiki | https://starwars.fandom.com/wiki/All_Terrain_Scout_Transport") stencil was my very weird attempt to show my support for the legalization of Cannabis
 
