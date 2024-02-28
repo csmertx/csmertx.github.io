@@ -69,9 +69,9 @@ Mushroom chilling in a log
 
 From 2002 when my friends and I found the coolest dog (he went to an awesome loving household).
 
-> Point and Shoot camera. I'm the weirdo at the computer (my skateboard to my left)
+> Point and Shoot camera (🔗[high rez scan here](/Blog/medium/2005/scooby_high_school.png)). I'm the weirdo at the computer (my skateboard to my left)
 
-> I installed the ceiling fan (with help) of that room lol
+> I installed the ceiling fan (with help) lol
 
 <br />
 
