@@ -7,6 +7,8 @@ weight: -20
 
 <br />
 
+> If you want scripts that are works of art check out Stack Overflow.
+
 ## Symlink to /bin/sh
 
 - ```sudo ln -sf bash /bin/sh```
@@ -58,6 +60,10 @@ weight: -20
     - ```moreutils```
 
         > errno errorcodes
+
+## Cloak output errors
+
+- ```cat /box 2> /dev/null```
 
 ## Output to clipboard
 - ```command | xclip -selection c```
