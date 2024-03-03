@@ -29,6 +29,8 @@ My father dedicated over 20 years of his life to the military (Navy), which incl
 
 > If anyone has an issue with the donation button please contact me.
 
+> Also: Da Bears, and Da Cubs (\*__\* 2016)
+
 ## Hugo theme used
 
 - [🔗 Preview of the Hugo Geekdocs theme](https://geekdocs.de/)
@@ -52,6 +54,8 @@ Linux-ing for over ten years, and have been typing random things into computer p
 ## Recommended Linux Websites
 
 > Some have YouTube channels
+
+- [🔗 SS64](https://ss64.com/)
 
 - [🔗 Learn Linux TV]( https://community.learnlinux.tv)
 
