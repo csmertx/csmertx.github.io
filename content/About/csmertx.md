@@ -33,7 +33,7 @@ My father dedicated over 20 years of his life to the military (Navy), which incl
 
 ## Why Hugo?
 
-- Minimal javascript, portable, accountable, and low maintenance.
+- 🔗 [Hugo](https://gohugo.io/ "Hugo Homepage"): minimal javascript, portable, accountable via Git, and low maintenance.
 
 ## Hugo theme used
 
