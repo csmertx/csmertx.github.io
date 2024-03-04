@@ -31,6 +31,10 @@ My father dedicated over 20 years of his life to the military (Navy), which incl
 
 > Also: Da Bears, and Da Cubs (\*__\* 2016)
 
+## Why Hugo?
+
+- Minimal javascript, portable, accountable, and low maintenance.
+
 ## Hugo theme used
 
 - [🔗 Preview of the Hugo Geekdocs theme](https://geekdocs.de/)
@@ -50,6 +54,10 @@ Linux-ing for over ten years, and have been typing random things into computer p
 ## My Political Views
 
     "That shit is fucked up yo."
+
+## Religious views
+
+I've seen enough to make me skeptical that it all just ends.
 
 ## Recommended Linux Websites
 
