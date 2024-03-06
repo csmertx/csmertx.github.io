@@ -59,6 +59,14 @@ Newcastle
 
 <br />
 
+![albumimg](/Blog/medium/2005/7_1.jpg "Emerson Research CKS1862 alarm clock (2005) and trailing 8:08 effect via Canon SLR")
+
+808
+
+> Two alarms for an alarm clock was kind of helpful back then
+
+<br />
+
 ![albumimg](/Blog/medium/2005/8.jpg "Literally a mushroom chilling inside the ledge of a fallen log")
 
 Mushroom chilling in a log
@@ -94,6 +102,14 @@ Used those fingerboard deck creating photoshop super skills to create a persona
 Display, or DSPLY, or DP.
 
 > The 🔗[All Terrain Scout Transport (AT-ST)](https://starwars.fandom.com/wiki/All_Terrain_Scout_Transport "Star Wars Wiki | https://starwars.fandom.com/wiki/All_Terrain_Scout_Transport") stencil was my very weird attempt to show my support for the legalization of Cannabis
+
+<br />
+
+![albumimg](/Blog/medium/2005/12_1.jpg "1984 red Schwinn World Sport touring bike in a cluttered and scruffy looking dining room")
+
+I got a little more use out of that back in 2010 thanks to a buddy.
+
+> Seat was stolen by BMX riders while skating West Side Skatepark (skate sidewalk) in 2007. And later someone stole the entire bike from an apartment complex bike rack :'(
 
 <br />
 
@@ -153,9 +169,33 @@ A few moments later (before I had the one front tooth extracted)
 
 <br />
 
+![albumimg](/Blog/medium/2005/22_1.jpg "Selfie using an SLR camera in 2005")
+
+That bathroom nearly always smelled of city pool chlorine .
+
+> About to squish the lens with all that powa
+
+<br />
+
+![albumimg](/Blog/medium/2005/22_2.jpg "Bathroom mirror selfie using an SLR camera in 2005")
+
+Was that really a screamo band shirt? idk
+
+> Water damage in the ceiling slightly visible above me 
+
+<br />
+
 ![albumimg](/Blog/medium/2005/23.jpg "Artistic photo of the pool partially blocked by a green sun umbrella from the angle of the second story handrail that ran the length of the apartment building we stayed in. I could have jumped from the handrail to inside the pool fence, if it wasn't such a drop. It was taken right outside our apartment door.")
 
 A lot of parties took place around that pool back then.
+
+<br />
+
+![albumimg](/Blog/medium/2005/23_1.jpg "Pool maintenance box next to public apartments pool")
+
+Sidewalk looked close enough for a few drop tricks
+
+> Frontside flip for $20. Any takers? lol
 
 <br />
 
@@ -171,11 +211,35 @@ Water line check at Lake Alice, Gainesville, Florida
 
 <br />
 
-![albumimg](/Blog/medium/2005/27.jpg "Decently exposed B&W nighttime photo of a 7-8 foot tall roof top air conditioning condenser PVC drain pipe sticking out the side of a white cinder block Citgo gas station building of the corner of 13th and 16th Gville, FL. The pipe was dripping water when I took the shot")
+![albumimg](/Blog/medium/2005/26_1.jpg "Stray cat missing part of its right ear posing by a tree for a photo op")
+
+Cat that prob killed the mole. I felt so bad about setting spring loaded mouse traps as a kid that I started developing my own contraptions lol
+
+> tbh wasn't sure if bobcat until I developed the photos (digitized all to CDs)
+
+<br />
+
+![albumimg](/Blog/medium/2005/27.jpg "Decently exposed B&W nighttime photo of a 7-8 foot tall roof top air conditioning condenser PVC drain pipe sticking out the side of a white cinder block Citgo gas station building of the corner of 13th and 16th Gville, FL. The pipe was dripping water when I took the shot Angle #3")
 
 Behind the mattress shop off NW 13th and 16th (Georgetown Apartments, Villa Ravine Apartments, Walgreens, Starbucks, Dick's Sporting Goods, etc.). This picture got an honorable mention in the Gainesville Sun (local newspaper) for a Halloween photo 🔗[contest](https://www.gainesville.com/story/news/2005/12/18/art-and-humor-come-together-in-photo-contest/64291859007/ "Gainesville.com | Art and humor come together in photo contest")
 
 > PDF backup of the article 🔗[here](/Blog/medium/Gainesville%20Sun%20-%20Art%20and%20humor%20come%20together%20in%20photo%20contest%20(December%2017,%202005).pdf "Gainesville.com | Art and humor come together in photo contest (December 17, 2005)"). Gainesville.com is RAM hungry with Ad blockers
+
+<br />
+
+![albumimg](/Blog/medium/2005/27_1.jpg "Washed out B&W nighttime photo of a 7-8 foot tall roof top air conditioning condenser PVC drain pipe sticking out the side of a white cinder block Citgo gas station building of the corner of 13th and 16th Gville, FL. The pipe was dripping water when I took the shot Angle #1")
+
+I think this was my first attempt at the image above.
+
+> No spray foam was harmed in the placement of that PVC pipe
+
+<br />
+
+![albumimg](/Blog/medium/2005/27_2.jpg "B&W nighttime photo of a 7-8 foot tall roof top air conditioning condenser PVC drain pipe sticking out the side of a white cinder block Citgo gas station building of the corner of 13th and 16th Gville, FL. Botched the focusing. The pipe was dripping water when I took the shot Angle #2")
+
+I think this was my second attempt at this shot.
+
+> Not quite focused or framed the way I wanted. Can't remember if I took two trips or one
 
 <br />
 
