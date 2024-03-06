@@ -17,7 +17,7 @@ weight: -20
 
 # CSx: Csmertx
 
-> CSx is a pet project website with a little bin of fun mixed in with a lot of RTFM. Mostly an easy way to check the notes from multiple devices--or from a family member's computer.
+> CSx is a hobby website with a little bin of fun mixed in with a little bit of documentation.
 
 ## Donation Button Clarification
 
