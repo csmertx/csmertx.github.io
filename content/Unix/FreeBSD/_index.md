@@ -1,4 +1,4 @@
 ---
-title: FreeBSD
+title: 💻 FreeBSD (OS)
 geekdocCollapseSection: true
 ---

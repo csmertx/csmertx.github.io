@@ -1,5 +1,5 @@
 ---
-title: Xbox One Controller
+title: 💻 Xbox One Controller
 author: csmertx
 date: February 1, 2023
 weight: -20

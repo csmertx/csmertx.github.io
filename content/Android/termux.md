@@ -1,5 +1,5 @@
 ---
-title: Termux
+title: 📱 Termux
 author: csmertx
 date: January 30, 2023
 weight: -20

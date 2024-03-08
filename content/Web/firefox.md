@@ -1,5 +1,5 @@
 ---
-title: Firefox
+title: 🏄 Firefox
 author: csmertx
 date: February 7, 2023
 weight: -20

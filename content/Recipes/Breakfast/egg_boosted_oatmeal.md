@@ -1,6 +1,6 @@
 ---
-title: Egg Boosted Oatmeal
-author: Jessica Cording, M.S., R.D., CDN
+title: 🍳 Egg Boosted Oatmeal
+author: Original author - Jessica Cording, M.S., R.D., CDN
 date: February 7, 2023
 weight: -20
 ---

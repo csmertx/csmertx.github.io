@@ -1,5 +1,5 @@
 ---
-title: i3WM
+title: 💻 i3WM
 author: csmertx
 date: February 6, 2023
 weight: -20

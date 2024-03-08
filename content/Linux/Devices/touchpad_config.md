@@ -1,5 +1,5 @@
 ---
-title: Touchpads
+title: 💻 Touchpads
 author: csmertx
 date: June 30, 2023
 weight: -20

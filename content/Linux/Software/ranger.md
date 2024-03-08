@@ -1,5 +1,5 @@
 ---
-title: Ranger File Manager
+title: 💻 Ranger File Manager
 author: csmertx
 date: February 4, 2023
 weight: -20

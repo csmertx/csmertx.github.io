@@ -1,4 +1,4 @@
 ---
-title: Shells
+title: 💻 Shells
 geekdocCollapseSection: true
 ---

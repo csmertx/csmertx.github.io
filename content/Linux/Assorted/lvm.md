@@ -1,5 +1,5 @@
 ---
-title: Logical Volume Manager
+title: 💻 Logical Volume Manager
 author: csmertx
 date: January 30, 2023
 weight: -20

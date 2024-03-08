@@ -1,4 +1,4 @@
 ---
-title: Raspberry Pi 4
+title: 🥧 Raspberry Pi 4
 geekdocCollapseSection: true
 ---

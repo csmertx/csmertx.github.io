@@ -1,4 +1,4 @@
 ---
-title: OpenBSD
+title: 💻 OpenBSD (OS)
 geekdocCollapseSection: true
 ---

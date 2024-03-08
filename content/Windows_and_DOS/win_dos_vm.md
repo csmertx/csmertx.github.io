@@ -1,5 +1,5 @@
 ---
-title: Win & DOS VMs
+title: 🖥️ Win & DOS VMs
 author: csmertx
 date: January 09, 2024
 weight: -20

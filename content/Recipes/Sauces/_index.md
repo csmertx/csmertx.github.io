@@ -1,4 +1,4 @@
 ---
-title: Sauces
+title: 🍲 Sauces
 geekdocCollapseSection: true
 ---

@@ -1,4 +1,4 @@
 ---
-title: Seitan
+title: 🍲 Seitan
 geekdocCollapseSection: true
 ---

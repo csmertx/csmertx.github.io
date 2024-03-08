@@ -1,4 +1,4 @@
 ---
-title: Windows & DOS
+title: 🖥️ Windows & DOS
 geekdocCollapseSection: true
 ---

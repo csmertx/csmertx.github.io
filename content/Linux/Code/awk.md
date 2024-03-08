@@ -1,5 +1,5 @@
 ---
-title: Awk
+title: 💻 Awk
 author: csmertx
 date: January 31, 2023
 weight: -20

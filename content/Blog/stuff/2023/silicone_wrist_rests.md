@@ -1,5 +1,5 @@
 ---
-title: Wrist Rests (2020)
+title: 🛠️ Casting Silicone (2020)
 author: csmertx
 date: January 20, 2023
 weight: -20

@@ -1,4 +1,4 @@
 ---
-title: Devices
+title: 💻 Devices
 geekdocCollapseSection: true
 ---

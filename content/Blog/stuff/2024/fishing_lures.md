@@ -1,5 +1,5 @@
 ---
-title: Fishing Lures
+title: 🛠️ Fishing Lures
 author: csmertx
 date: February 21, 2024
 weight: -20

@@ -1,5 +1,5 @@
 ---
-title: Printers
+title: 🖨️ Printers
 author: csmertx
 date: February 1, 2023
 weight: -20

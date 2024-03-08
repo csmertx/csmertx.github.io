@@ -1,5 +1,5 @@
 ---
-title: Busybox
+title: 💻 Busybox
 author: csmertx
 date: January 30, 2023
 weight: -20

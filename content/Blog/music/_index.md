@@ -1,4 +1,4 @@
 ---
-title: Music
+title: 🎼 Music
 geekdocCollapseSection: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: CentOS 8 (stable)
+title: 💻 CentOS 8 Stable
 author: csmertx
 date: January 31, 2023
 weight: -20

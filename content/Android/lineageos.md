@@ -1,5 +1,5 @@
 ---
-title: LineageOS
+title: 📱 LineageOS
 author: csmertx
 date: January 30, 2023
 weight: -20

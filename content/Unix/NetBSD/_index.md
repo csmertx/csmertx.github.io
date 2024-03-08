@@ -1,4 +1,4 @@
 ---
-title: NetBSD
+title: 💻 NetBSD (OS)
 geekdocCollapseSection: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: NomadBSD Installation
+title: 💻 NomadBSD Installation
 author: csmertx
 date: February 7, 2023
 weight: -20

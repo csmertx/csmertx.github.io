@@ -1,5 +1,5 @@
 ---
-title: Java Apps
+title: 💻 Java Apps
 author: csmertx
 date: January 31, 2023
 weight: -20

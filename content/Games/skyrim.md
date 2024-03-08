@@ -1,5 +1,5 @@
 ---
-title: Skyrim Special Edition
+title: 🕹️ Skyrim Special Edition
 author: csmertx
 date: March 27, 2023
 weight: -20

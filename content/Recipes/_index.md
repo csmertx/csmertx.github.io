@@ -1,4 +1,4 @@
 ---
-title: Recipes
+title: 🍲 Recipes
 geekdocCollapseSection: true
 ---

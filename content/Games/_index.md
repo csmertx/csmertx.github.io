@@ -1,4 +1,4 @@
 ---
-title: Games
+title: 🕹️ Games
 geekdocCollapseSection: true
 ---

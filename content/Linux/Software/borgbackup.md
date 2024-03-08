@@ -1,5 +1,5 @@
 ---
-title: BorgBackup
+title: 💻 BorgBackup
 author: csmertx
 date: February 3, 2023
 weight: -20

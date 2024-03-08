@@ -1,5 +1,5 @@
 ---
-title: Zathura
+title: 💻 Zathura
 author: csmertx
 date: February 4, 2023
 weight: -20

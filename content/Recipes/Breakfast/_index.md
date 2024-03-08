@@ -1,4 +1,4 @@
 ---
-title: Breakfast
+title: 🍳 Breakfast
 geekdocCollapseSection: true
 ---

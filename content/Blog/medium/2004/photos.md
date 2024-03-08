@@ -1,5 +1,5 @@
 ---
-title: Toronto, Canada
+title: 📁 Toronto, Canada
 author: csmertx
 date: March 07, 2024
 weight: -20

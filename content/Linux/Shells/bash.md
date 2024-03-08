@@ -1,5 +1,5 @@
 ---
-title: Bash
+title: 💻 Bash
 author: csmertx
 date: February 3, 2023
 weight: -20

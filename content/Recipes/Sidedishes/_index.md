@@ -1,4 +1,4 @@
 ---
-title: Side Dishes
+title: 🍲 Side Dishes
 geekdocCollapseSection: true
 ---

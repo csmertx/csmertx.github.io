@@ -1,5 +1,5 @@
 ---
-title: Game Sites
+title: 🕹️ Game Sites
 author: csmertx
 date: January 30, 2023
 weight: -20

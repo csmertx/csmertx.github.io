@@ -1,5 +1,5 @@
 ---
-title: Gritty Honey Mustard
+title: 🍲 Gritty Honey Mustard
 author: csmertx
 date: February 7, 2023
 weight: -20

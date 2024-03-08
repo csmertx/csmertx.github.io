@@ -1,5 +1,5 @@
 ---
-title: Manjaro/RPi4
+title: 🥧 Manjaro/RPi4
 author: csmertx
 date: January 31, 2023
 weight: -20

@@ -1,4 +1,4 @@
 ---
-title: Desktop Environments
+title: 💻 Desktop Environments
 geekdocCollapseSection: true
 ---

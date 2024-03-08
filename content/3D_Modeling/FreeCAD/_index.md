@@ -1,4 +1,4 @@
 ---
-title: FreeCAD
+title: 🛠️ FreeCAD
 geekdocCollapseSection: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: Step faces to Sketches
+title: 🛠️ Step faces to Sketches
 author: csmertx
 date: January 30, 2023
 weight: -20

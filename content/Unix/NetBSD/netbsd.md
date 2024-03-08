@@ -1,5 +1,5 @@
 ---
-title: NetBSD Installation
+title: 💻 NetBSD Installation
 author: csmertx
 date: February 7, 2023
 weight: -20

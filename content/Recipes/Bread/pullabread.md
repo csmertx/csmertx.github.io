@@ -1,6 +1,6 @@
 ---
-title: Pulla Bread
-author: Trine Hahnemann
+title: 🥖 Pulla Bread
+author: Original author - Trine Hahnemann
 date: February 6, 2023
 weight: -20
 ---

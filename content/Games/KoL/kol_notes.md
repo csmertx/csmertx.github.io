@@ -1,5 +1,5 @@
 ---
-title: KoL | Assorted
+title: 🕹️ KoL | Assorted
 author: csmertx
 date: January 30, 2023
 weight: -20

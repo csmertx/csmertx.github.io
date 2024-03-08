@@ -1,5 +1,5 @@
 ---
-title: RPi4 Console (2021)
+title: 🛠️ RPi4 Console (2021)
 author: csmertx
 date: January 20, 2023
 weight: -20

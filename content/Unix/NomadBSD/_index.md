@@ -1,4 +1,4 @@
 ---
-title: NomadBSD
+title: 💻 NomadBSD (OS)
 geekdocCollapseSection: true
 ---

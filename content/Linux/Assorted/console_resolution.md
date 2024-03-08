@@ -1,5 +1,5 @@
 ---
-title: Console Resolution
+title: 💻 Console Resolution
 author: csmertx
 date: January 30, 2023
 weight: -20

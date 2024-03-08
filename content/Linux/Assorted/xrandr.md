@@ -1,5 +1,5 @@
 ---
-title: XrandR
+title: 💻 XrandR
 author: csmertx
 date: January 30, 2023
 weight: -20

@@ -1,5 +1,5 @@
 ---
-title: Snaps
+title: 💻 Snaps
 weight: -20
 ---
 

@@ -1,4 +1,4 @@
 ---
-title: Kingdom of Loathing
+title: 🕹️ Kingdom of Loathing
 geekdocCollapseSection: true
 ---

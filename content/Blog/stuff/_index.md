@@ -1,4 +1,4 @@
 ---
-title: Projects
+title: 🛠️ Projects
 geekdocCollapseSection: true
 ---

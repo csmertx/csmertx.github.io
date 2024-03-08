@@ -1,5 +1,5 @@
 ---
-title: Jellyfin - Media Server
+title: 💻 Jellyfin (Media Server)
 author: csmertx
 date: April 1, 2023
 weight: -20

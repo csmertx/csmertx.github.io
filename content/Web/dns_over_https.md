@@ -1,5 +1,5 @@
 ---
-title: DNS Over HTTPS
+title: 🏄 DNS Over HTTPS
 author: csmertx
 date: February 7, 2023
 weight: -20

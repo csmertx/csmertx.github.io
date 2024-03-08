@@ -1,4 +1,4 @@
 ---
-title: Blender 3D
+title: 📽️ Blender 3D
 geekdocCollapseSection: true
 ---

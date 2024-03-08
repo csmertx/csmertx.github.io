@@ -1,5 +1,5 @@
 ---
-title: Arch Linux Bootloader
+title: 💻 Arch Linux Bootloader
 author: csmertx
 date: January 31, 2023
 weight: -20

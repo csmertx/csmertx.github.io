@@ -1,4 +1,4 @@
 ---
-title: Virtualized
+title: 💻 Virtual Computing
 geekdocCollapseSection: true
 ---

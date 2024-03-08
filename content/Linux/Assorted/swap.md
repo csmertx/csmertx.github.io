@@ -1,5 +1,5 @@
 ---
-title: Swap Memory
+title: 💻 Swap Memory
 author: csmertx
 date: January 30, 2023
 weight: -20

@@ -1,5 +1,5 @@
 ---
-title: Polybar
+title: 💻 Polybar
 weight: -20
 ---
 

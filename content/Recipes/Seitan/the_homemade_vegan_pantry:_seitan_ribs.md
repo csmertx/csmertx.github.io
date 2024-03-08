@@ -1,6 +1,6 @@
 ---
-title: Vegan Unribs
-author: Miyoko Schinner
+title: 🍲 Vegan Unribs
+author: Original author - Miyoko Schinner
 date: February 7, 2023
 weight: -20
 ---

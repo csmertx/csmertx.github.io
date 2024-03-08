@@ -1,5 +1,5 @@
 ---
-title: Networking
+title: 💻 Networking
 author: csmertx
 date: January 30, 2023
 weight: -20

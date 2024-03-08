@@ -1,5 +1,5 @@
 ---
-title: Markdown CLI
+title: 💻 Markdown CLI
 author: csmertx
 date: February 3, 2023
 weight: -20

@@ -1,6 +1,6 @@
 ---
-title: Carlos [RIBS]iero (Seitan BBQ Ribs)
-author: Johnny Lozano
+title: 🍲 Carlos [RIBS]iero (Seitan BBQ Ribs)
+author: Original author - Johnny Lozano
 date: February 7, 2023
 weight: -20
 ---

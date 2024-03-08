@@ -1,4 +1,4 @@
 ---
-title: Bread
+title: 🥖 Bread
 geekdocCollapseSection: true
 ---

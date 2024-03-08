@@ -1,5 +1,5 @@
 ---
-title: Southern German Potato Salad
+title: 🍲 Southern German Potato Salad
 author: Unknown
 date: February 7, 2023
 weight: -20

@@ -1,5 +1,5 @@
 ---
-title: Dynamic Window Manager (DWM)
+title: 💻 Dynamic Window Manager (DWM)
 weight: -20
 ---
 

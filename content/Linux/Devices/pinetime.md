@@ -1,5 +1,5 @@
 ---
-title: PineTime Smartwatch
+title: ⌚ PineTime Smartwatch
 author: csmertx
 date: February 1, 2023
 weight: -20

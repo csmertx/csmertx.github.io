@@ -1,5 +1,5 @@
 ---
-title: Virtual Console
+title: 💻 Virtual Console
 author: csmertx
 date: January 30, 2023
 weight: -20

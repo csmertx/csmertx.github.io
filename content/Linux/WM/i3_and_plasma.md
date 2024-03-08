@@ -1,5 +1,5 @@
 ---
-title: i3WM & KDE
+title: 💻 i3WM & KDE
 author: csmertx
 date: February 6, 2023
 weight: -20

@@ -1,4 +1,4 @@
 ---
-title: Code
+title: 💻 Code
 geekdocCollapseSection: true
 ---

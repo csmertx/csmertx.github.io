@@ -1,13 +1,17 @@
 ---
-title: Android Debug Bridge (ADB)
+title: 📱 Android Debug Bridge (ADB)
 author: csmertx
-date: January 30, 2023
+date: March 08, 2023
 weight: -20
 ---
 
 <br />
 
-## Login to shell of Android device
+## Login to Android shell
+
+Android shell of device connected via USB
+
+- May need to toggle USB connection to accept data
 
 1. ```adb root```
 

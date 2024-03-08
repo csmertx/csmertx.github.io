@@ -1,5 +1,5 @@
 ---
-title: Git Pro
+title: 💻 Git Pro
 author: csmertx
 date: January 31, 2023
 weight: -20

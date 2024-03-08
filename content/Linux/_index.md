@@ -1,4 +1,4 @@
 ---
-title: Linux
+title: 💻 Linux
 geekdocCollapseSection: true
 ---

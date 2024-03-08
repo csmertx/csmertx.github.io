@@ -1,5 +1,5 @@
 ---
-title: Sensei 310
+title: 🖱️ Sensei 310
 author: csmertx
 date: February 1, 2023
 weight: -20

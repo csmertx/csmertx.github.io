@@ -1,5 +1,5 @@
 ---
-title: AppImages
+title: 💻 AppImages
 author: csmertx
 date: February 3, 2023
 weight: -20

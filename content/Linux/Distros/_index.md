@@ -1,4 +1,4 @@
 ---
-title: Distributions
+title: 💻 Distros
 geekdocCollapseSection: true
 ---

@@ -1,4 +1,4 @@
 ---
-title: Web
+title: 🏄 Web
 geekdocCollapseSection: true
 ---

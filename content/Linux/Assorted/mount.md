@@ -1,5 +1,5 @@
 ---
-title: Accessing Media
+title: 💻 Accessing Media
 author: csmertx
 date: January 30, 2023
 weight: -20

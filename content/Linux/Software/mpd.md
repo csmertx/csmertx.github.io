@@ -1,5 +1,5 @@
 ---
-title: Music Player Daemon (MPD)
+title: 💻 Music Player Daemon (MPD)
 author: csmertx
 date: February 4, 2023
 weight: -20

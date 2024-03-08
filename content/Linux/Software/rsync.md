@@ -1,5 +1,5 @@
 ---
-title: Rsync
+title: 💻 Rsync
 author: csmertx
 date: February 4, 2023
 weight: -20

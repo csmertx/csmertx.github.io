@@ -1,4 +1,4 @@
 ---
-title: Software
+title: 💻 Software
 geekdocCollapseSection: true
 ---

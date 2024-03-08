@@ -1,5 +1,5 @@
 ---
-title: Tmux
+title: 💻 Tmux
 author: csmertx
 date: July 27, 2023
 weight: -20

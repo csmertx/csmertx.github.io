@@ -1,5 +1,5 @@
 ---
-title: Slackware
+title: 💻 Slackware
 author: csmertx
 date: February 1, 2023
 weight: -20

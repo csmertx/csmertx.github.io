@@ -1,5 +1,5 @@
 ---
-title: QT5 (KDE)
+title: 💻 QT5 (KDE)
 author: csmertx
 date: February 4, 2023
 weight: -20

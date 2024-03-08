@@ -1,7 +1,7 @@
 ---
-title: Kubuntu
+title: 💻 Kubuntu
 author: csmertx
-date: February 1, 2023j
+date: February 1, 2023
 weight: -20
 ---
 

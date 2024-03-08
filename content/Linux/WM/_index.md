@@ -1,4 +1,4 @@
 ---
-title: Window Managers
+title: 💻 Window Managers
 geekdocCollapseSection: true
 ---

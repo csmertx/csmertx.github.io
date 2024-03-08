@@ -1,5 +1,5 @@
 ---
-title: Zstandard File Compression (ZSTD)
+title: 💻 Zstandard File Compression (ZSTD)
 weight: -20
 ---
 

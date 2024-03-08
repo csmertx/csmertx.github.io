@@ -1,5 +1,5 @@
 ---
-title: Arch Linux
+title: 💻 Arch Linux (BTW)
 author: csmertx
 date: January 31, 2023
 weight: -20

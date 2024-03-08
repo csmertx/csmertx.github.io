@@ -1,5 +1,5 @@
 ---
-title: Openbox | Extras
+title: 💻 Openbox (Extras)
 author: csmertx
 date: February 6, 2023
 weight: -20

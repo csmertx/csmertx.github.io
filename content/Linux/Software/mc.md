@@ -1,5 +1,5 @@
 ---
-title: Midnight Commander (MC)
+title: 💻 Midnight Commander (MC)
 author: csmertx
 date: February 3, 2023
 weight: -20

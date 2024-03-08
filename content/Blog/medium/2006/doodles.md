@@ -1,5 +1,5 @@
 ---
-title: Doodles
+title: 📁 Doodles
 author: csmertx
 date: February 23, 2024
 weight: -20

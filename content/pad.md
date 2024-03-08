@@ -1,5 +1,5 @@
 ---
-title: "No Ads. No Tracking."
+title: "🗒️ No Ads. No Tracking."
 weight: -20
 ---
 

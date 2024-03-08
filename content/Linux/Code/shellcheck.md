@@ -1,5 +1,5 @@
 ---
-title: ShellCheck
+title: 💻 ShellCheck
 author: csmertx
 date: January 31, 2023
 weight: -20
