@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code on CSx</title><link>https://csmertx.github.io/Linux/Code/</link><description>Recent content in Code on CSx</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://csmertx.github.io/Linux/Code/index.xml" rel="self" type="application/rss+xml"/><item><title>ASCII</title><link>https://csmertx.github.io/Linux/Code/ascii/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ascii/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Code on CSx</title><link>https://csmertx.github.io/Linux/Code/</link><description>Recent content in 💻 Code on CSx</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://csmertx.github.io/Linux/Code/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 ASCII</title><link>https://csmertx.github.io/Linux/Code/ascii/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ascii/</guid><description>
 Because sometimes quotes are a pain Certain tiling window status bars&amp;hellip;
 \x27
 Equivalent to &amp;rsquo; (HEX or hexidecimal is 27)
@@ -7,30 +7,30 @@ Equivalent to &amp;quot; (HEX or hexidecimal is 22)
 Example
 echo -en &amp;quot;This is nearly a sure way to print quotes: \x22Blah\x22&amp;quot;
 Result: This is nearly a sure way to print quotes: &amp;ldquo;Blah&amp;rdquo;
-Resources ASCII table: hexidecimals of symbols, HTML number/name, etc.</description></item><item><title>AsciiDoc</title><link>https://csmertx.github.io/Linux/Code/asciidoc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/asciidoc/</guid><description>Resources AsciiDoc: Homepage
+Resources ASCII table: hexidecimals of symbols, HTML number/name, etc.</description></item><item><title>💻 AsciiDoc</title><link>https://csmertx.github.io/Linux/Code/asciidoc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/asciidoc/</guid><description>Resources AsciiDoc: Homepage
 AsciiDoc: Writer&amp;rsquo;s Guide
-AsciiDoc: Sandbox (Live AsciiDoc parser with preview)</description></item><item><title>Awk</title><link>https://csmertx.github.io/Linux/Code/awk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/awk/</guid><description>
+AsciiDoc: Sandbox (Live AsciiDoc parser with preview)</description></item><item><title>💻 Awk</title><link>https://csmertx.github.io/Linux/Code/awk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/awk/</guid><description>
 Make selections, and do stuff with those selections
-Print Nth item in row hostname -i | awk '{print $1}' Pull info out of quotes echo &amp;quot;\&amp;lt;a href=&amp;quot;www.duckduckgo.com&amp;quot;\&amp;gt;&amp;quot; | awk -F '&amp;quot;' '{print $1}' Resources The GNU Awk User&amp;rsquo;s Guide</description></item><item><title>C Language</title><link>https://csmertx.github.io/Linux/Code/c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/c/</guid><description>Compiling Souce Code Generate a configure file
+Print Nth item in row hostname -i | awk '{print $1}' Pull info out of quotes echo &amp;quot;\&amp;lt;a href=&amp;quot;www.duckduckgo.com&amp;quot;\&amp;gt;&amp;quot; | awk -F '&amp;quot;' '{print $1}' Resources The GNU Awk User&amp;rsquo;s Guide</description></item><item><title>💻 C Language</title><link>https://csmertx.github.io/Linux/Code/c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/c/</guid><description>Compiling Souce Code Generate a configure file
 autoconf configure.ac Makefile exists?
 ./configure
 This is the fun part&amp;hellip; see links for unmet dependency searches
 User basics: make &amp;amp;&amp;amp; make install
 Resources Such Programming: Spawning New Linux Processes in C
-Debian Package Search: Scroll down to search package directories</description></item><item><title>Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
+Debian Package Search: Scroll down to search package directories</description></item><item><title>💻 Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
 Python language translator for C (check links below for current information)
 Installation For Linux systems
 Windows sudo apt-get mingw-w64 Linux sudo apt-get cython3 Translate Python to C using Cython Basic examples
 Create Linux programs cython --embed python.py -o python.c
 gcc -I /usr/include/python$(version) python.c -lpython$(version) -o python(.exe)
-Create Windows programs x86_64-w64-mingw32-gcc -o main64.exe main.cx Resources Cython: C-Extensions for Python</description></item><item><title>Find</title><link>https://csmertx.github.io/Linux/Code/find/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/find/</guid><description>Does not create databases accessible to other users (e.g. locate command)
+Create Windows programs x86_64-w64-mingw32-gcc -o main64.exe main.cx Resources Cython: C-Extensions for Python</description></item><item><title>💻 Find</title><link>https://csmertx.github.io/Linux/Code/find/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/find/</guid><description>Does not create databases accessible to other users (e.g. locate command)
 Print subdirectories or files in a directory cd $targetdir &amp;amp;&amp;amp; find . -maxdepth 1 -mindepth 1 -type d -printf &amp;quot;%f&amp;quot; Scripting example ~/.scripts/sudof
-#!/bin/bash # Skips Arch Linux package cache, home directory, etc. dirs_exclude=&amp;#34;-path /mnt -o -path /run -o -path /tmp -o -path /dev -o -path /proc -o -path \ $HOME -o -path /sys -o -path /var/cache/pacman -o -path /var/lib/pacman&amp;#34; sudo find / -type d \( $dirs_exclude \) -prune -o -print | grep $1 echo -en &amp;quot;alias sudof='~/.</description></item><item><title>Git Pro</title><link>https://csmertx.github.io/Linux/Code/git_pro_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/git_pro_notes/</guid><description>Notes from before 2022
+#!/bin/bash # Skips Arch Linux package cache, home directory, etc. dirs_exclude=&amp;#34;-path /mnt -o -path /run -o -path /tmp -o -path /dev -o -path /proc -o -path \ $HOME -o -path /sys -o -path /var/cache/pacman -o -path /var/lib/pacman&amp;#34; sudo find / -type d \( $dirs_exclude \) -prune -o -print | grep $1 echo -en &amp;quot;alias sudof='~/.</description></item><item><title>💻 Git Pro</title><link>https://csmertx.github.io/Linux/Code/git_pro_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/git_pro_notes/</guid><description>Notes from before 2022
 Git Pro was written by Ben Straub, and Published by Apress
 Print tags git tag Extended info git show v1.4 Adding tags to older commits (parse first) git log --pretty=oneline
 example output: 9fceb02&amp;hellip; updated rakefile
 Append the tag to: [updated rakefile] commit
-git tag -a v1.2 9fceb02 Sharing tags git push origin v1.5 All the tags all at once git push origin --tags Even more info git checkout 2.</description></item><item><title>Git Quick Ref.</title><link>https://csmertx.github.io/Linux/Code/github_quick/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/github_quick/</guid><description>Just enough to be dangerous
+git tag -a v1.2 9fceb02 Sharing tags git push origin v1.5 All the tags all at once git push origin --tags Even more info git checkout 2.</description></item><item><title>💻 Git Quick Ref.</title><link>https://csmertx.github.io/Linux/Code/github_quick/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/github_quick/</guid><description>Just enough to be dangerous
 Basic push to origin echo $PWD
 Current dir the project dir? Great. Continue..
 No? Then cd ~/.sources/projectdirectory. See Bash prompt links below
@@ -39,43 +39,43 @@ Or: git add example1.sh
 git commit -m &amp;quot;commit message&amp;quot;
 git pull
 git push -u origin
-Remove all traces of sensitive data from a repo This won&amp;rsquo;t remove it from clones or forks, but at least the repo will be scrubbed</description></item><item><title>Glade GTK</title><link>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</guid><description>Toolchain to create GTK applications
+Remove all traces of sensitive data from a repo This won&amp;rsquo;t remove it from clones or forks, but at least the repo will be scrubbed</description></item><item><title>💻 Glade GTK</title><link>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</guid><description>Toolchain to create GTK applications
 Resources GTK-rs: Requirements
 Nora Codes: Speedy Desktop Apps With GTK and RUST
-Gnome Project: Glade Tutorials</description></item><item><title>Grep</title><link>https://csmertx.github.io/Linux/Code/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/grep/</guid><description>
+Gnome Project: Glade Tutorials</description></item><item><title>💻 Grep</title><link>https://csmertx.github.io/Linux/Code/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/grep/</guid><description>
 Find match or match grep 'match\|match2'
 grep -E 'match|match2'
 Find match and match grep 'match.*match2' Omit match grep -v 'match' Find first or last of line match grep &amp;quot;^match&amp;quot;
 grep &amp;quot;match$&amp;quot;
-Resources GNU Grep</description></item><item><title>Java Apps</title><link>https://csmertx.github.io/Linux/Code/java/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/java/</guid><description>Installation (Linux) To satisfy dependencies (e.g. Kingdom of Loathing: KoLMafia)
+Resources GNU Grep</description></item><item><title>💻 Java Apps</title><link>https://csmertx.github.io/Linux/Code/java/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/java/</guid><description>Installation (Linux) To satisfy dependencies (e.g. Kingdom of Loathing: KoLMafia)
 sudo apti default-jdk Create desktop shortcuts for Java apps For all those delightful .jar files
 vim ~/.local/share/applications/kolmafia.desktop
 [Desktop Entry] Comment[en_US]=Kingdom of Loathing Mafia Client Comment=Kingdom of Loathing Mafia Client Exec=java -jar /home/chris/.sources/KoLmafia-20755.jar GenericName[en_US]=KoLmafia GenericName=KoLmafia Icon=/home/chris/Pictures/Icons/swordandmartini_dark_theme.png Name[en_US]=KoLmafia Name=KoLmafia StartupNotify=true Terminal=false Type=Application Categories=Game sudoc /home/chris/.local/share/applications/kolmafia.desktop
 Launch in KDE Plasma: Start Menu &amp;gt; Games &amp;gt; KoLmafia
-Logout and login for some desktop environments</description></item><item><title>Markdown</title><link>https://csmertx.github.io/Linux/Code/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/markdown/</guid><description>Convert Markdown to PDF flatpak install org.freedesktop.Sdk
+Logout and login for some desktop environments</description></item><item><title>💻 Markdown</title><link>https://csmertx.github.io/Linux/Code/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/markdown/</guid><description>Convert Markdown to PDF flatpak install org.freedesktop.Sdk
 flatpak install flathub io.atom.Atom
 Edit &amp;gt; Preferences &amp;gt; Install &amp;gt; Markdown to PDF
 Packages &amp;gt; Markdown to PDF &amp;gt; Convert
 Resources Markdown Guide: Basic Syntax
 Google&amp;rsquo;s Markdown Style Guide
 Hugo: Configure Markup
-This website is generated by Hugo</description></item><item><title>Perl Language</title><link>https://csmertx.github.io/Linux/Code/perl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/perl/</guid><description>
+This website is generated by Hugo</description></item><item><title>💻 Perl Language</title><link>https://csmertx.github.io/Linux/Code/perl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/perl/</guid><description>
 Print Nth instance of match perl -lne 'print $1 if /Today:(.*)/' &amp;lt; downloaded_webpage.txt
 Download webpage BEFORE scraping e.g. wget https://website.com/website.html &amp;gt; website.txt
 Or: TEMP=&amp;quot;$(wget -q -O- &amp;quot;http://w1.weather.gov/xml/current_obs/stationcode.xml&amp;quot; | perl ...)&amp;quot;
-Resources Perl Programming Language Documentation</description></item><item><title>Python Package Index (PyPi)</title><link>https://csmertx.github.io/Linux/Code/pypi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/pypi/</guid><description>
+Resources Perl Programming Language Documentation</description></item><item><title>💻 Python Package Index (PyPi)</title><link>https://csmertx.github.io/Linux/Code/pypi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/pypi/</guid><description>
 Installing Python packages pip3 install project
 pip3 install project==5.7.1
 pip3 install project&amp;gt;=5.6.1
-Upgrading packages pip3 install --upgrade project Resources Python Package Index Homepage</description></item><item><title>Ruby Language</title><link>https://csmertx.github.io/Linux/Code/ruby/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ruby/</guid><description>Add to PATH vim $HOME/.bashrc
+Upgrading packages pip3 install --upgrade project Resources Python Package Index Homepage</description></item><item><title>💻 Ruby Language</title><link>https://csmertx.github.io/Linux/Code/ruby/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ruby/</guid><description>Add to PATH vim $HOME/.bashrc
 ++ export PATH=$PATH:/home/$USER/.gem/ruby/2.7.0/bin Resources Ruby Programming Language
-About Ruby</description></item><item><title>Sed</title><link>https://csmertx.github.io/Linux/Code/sed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/sed/</guid><description>Wrap every line output in quotes sed 's/&amp;quot;\(.*\)/&amp;quot;\1&amp;quot;/g' Remove Whitespace Lines sed '/^$/d' Remove everything before match sed 's/.*match//' Remove everything after match sed 's/match.*//g' Replace first instance of match sed '0,/example1/{s/example1/example2/}' Replace Nth instance of match sed 's/example1/example2/2g
+About Ruby</description></item><item><title>💻 Sed</title><link>https://csmertx.github.io/Linux/Code/sed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/sed/</guid><description>Wrap every line output in quotes sed 's/&amp;quot;\(.*\)/&amp;quot;\1&amp;quot;/g' Remove Whitespace Lines sed '/^$/d' Remove everything before match sed 's/.*match//' Remove everything after match sed 's/match.*//g' Replace first instance of match sed '0,/example1/{s/example1/example2/}' Replace Nth instance of match sed 's/example1/example2/2g
 2g == 2nd match
 Print Nth Line sed -n '7p'
 7th line
 sed '7!d'
 Also 7th line
 Replace newline chracter w/space Tip: Easier with tr
-tr '&amp;quot;\n' ' ' &amp;lt; input_filename Remove brackets and everything inside brackets sed -e 's/\[[^][]*\]//g' Resources sed, a stream editor</description></item><item><title>ShellCheck</title><link>https://csmertx.github.io/Linux/Code/shellcheck/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/shellcheck/</guid><description>
+tr '&amp;quot;\n' ' ' &amp;lt; input_filename Remove brackets and everything inside brackets sed -e 's/\[[^][]*\]//g' Resources sed, a stream editor</description></item><item><title>💻 ShellCheck</title><link>https://csmertx.github.io/Linux/Code/shellcheck/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/shellcheck/</guid><description>
 Basic Commands shellcheck /dir/script.sh _EOF_ triggering errors Contents of _EOF_ might indicate miss-redirect [&amp;raquo;]
 Resources ShellCheck - A shell script static analysis tool</description></item></channel></rss>

@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Virtualized on CSx</title><link>https://csmertx.github.io/Linux/VMs/</link><description>Recent content in Virtualized on CSx</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://csmertx.github.io/Linux/VMs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker</title><link>https://csmertx.github.io/Linux/VMs/docker_installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/docker_installation/</guid><description>A neat way to setup a DIY media streaming box
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Virtual Computing on CSx</title><link>https://csmertx.github.io/Linux/VMs/</link><description>Recent content in 💻 Virtual Computing on CSx</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://csmertx.github.io/Linux/VMs/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Docker</title><link>https://csmertx.github.io/Linux/VMs/docker_installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/docker_installation/</guid><description>A neat way to setup a DIY media streaming box
 Debian packages sudo apti docker docker-compose cockpit cockpit-docker Fedora packages sudo dnf install docker docker-compose cockpit cockpit-docker Add user to docker group (single user LAN server only) sudo usermod -aG docker $USER Install Nextcloud sudo docker pull nextcloud IP Address add IP=192.168.xxx.xx to environment Link /var/lib/docker to different partition remove /var/lib/docker
 Backup /var/lib/docker first?
-sudo -ln -s /mnt/containers/docker /var/lib/docker</description></item><item><title>KVM</title><link>https://csmertx.github.io/Linux/VMs/kvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/kvm/</guid><description>
+sudo -ln -s /mnt/containers/docker /var/lib/docker</description></item><item><title>💻 KVM</title><link>https://csmertx.github.io/Linux/VMs/kvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/kvm/</guid><description>
 Kernal-based Virtual Machine
 See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
 Setup (Arch Linux) sudo modprobe kvm_intel
 Or kvm_amd
 sudo vim /etc/modprobe.d/kvm.conf
 ++ kvm_intel Or kvm_amd
-Setup Ubuntu apti qemu-kvm Resources Arch Wiki: KVM</description></item><item><title>Virtual Machine Manager (VMM)</title><link>https://csmertx.github.io/Linux/VMs/virt-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virt-manager/</guid><description>VM software by Red Hat
+Setup Ubuntu apti qemu-kvm Resources Arch Wiki: KVM</description></item><item><title>💻 Virtual Machine Manager (VMM)</title><link>https://csmertx.github.io/Linux/VMs/virt-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virt-manager/</guid><description>VM software by Red Hat
 See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
 Host Installation virt-manager qemu qemu-utils
 sudo systemctl enable/start libvirtd
 Forward Ports qemu-system-i386 ... -net user,hostfwd=tcp:443::443 -redir tcp:80::80 -redir tcp:22::22 -hda storage.img -nographic Converting VMs qemu-img convert -f raw -O qcow &amp;quot;/dir/machine.vdi&amp;quot; &amp;quot;/dir/machine.img&amp;quot; Cloning VMs virt-clone --original /dir/c8n1.img --name &amp;quot;new name&amp;quot; --file c8n2.img
 virt-clone --original &amp;quot;c8n0&amp;quot; --name &amp;quot;c8n1&amp;quot; --auto-clone
-virt-clone --connect=qemu:///system -o &amp;quot;vm&amp;quot; -n &amp;quot;newvm&amp;quot; --auto-clone</description></item><item><title>VirtualBox</title><link>https://csmertx.github.io/Linux/VMs/virtualbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virtualbox/</guid><description>VM software by Oracle
+virt-clone --connect=qemu:///system -o &amp;quot;vm&amp;quot; -n &amp;quot;newvm&amp;quot; --auto-clone</description></item><item><title>💻 VirtualBox</title><link>https://csmertx.github.io/Linux/VMs/virtualbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virtualbox/</guid><description>VM software by Oracle
 See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
 Graphics Try to use the host Guest Additions .iso
 Debian: mount the .iso and copy the contents to another folder then chown
