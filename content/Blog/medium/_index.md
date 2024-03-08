@@ -1,4 +1,4 @@
 ---
-title: 📁 Medium
+title: 🎨 Medium
 geekdocCollapseSection: true
 ---

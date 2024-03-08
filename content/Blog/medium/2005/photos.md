@@ -1,5 +1,5 @@
 ---
-title: 📁 Canon SLR
+title: 🎞️ Canon SLR
 author: csmertx
 date: February 23, 2024
 weight: -20
