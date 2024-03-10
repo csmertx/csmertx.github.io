@@ -1,4 +1,4 @@
 ---
-title: 🎼 2024
+title: 🎸 2024
 geekdocCollapseSection: true
 ---
