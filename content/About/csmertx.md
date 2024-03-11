@@ -1,7 +1,7 @@
 ---
-title: 🧓 csmertx
+title: 🧑 csmertx
 author: csmertx
-date: January 20, 2024
+date: March 11, 2024
 weight: -20
 ---
 
@@ -13,11 +13,17 @@ weight: -20
 
 > Christopher Roy Schammert | aka: Chris/Sharky
 
+> [📷 @csmertx](https://www.instagram.com/csmertx "Instagram | @csmertx") | [🇫 @cschammert](https://facebook.com/@cschammert "Facebook | @cschammert") | [🐦 @csmertx](https://twitter.com/@csmertx "Twitter | @csmertx") | [🦣 @mertx3000](https://mastodon.social/@mertx3000 "Mastodon.social | @mertx3000")
+
+[📧 csmertx@pm.me](mailto:csmertx@pm.me "Proton Mail email address | @csmertx")
+
 </div>
 
 # CSx: Csmertx
 
 > CSx is a hobby website with a little bin of fun mixed in with a little bit of documentation.
+
+> Likes: Pork Cutlets
 
 ## Donation Button Clarification
 
@@ -46,8 +52,6 @@ My father dedicated over 20 years of his life to the military (Navy), which incl
 ## C-Smert-X, CS-Mert-X, Mertx, Smert-Tex, etc.
 
 Linux-ing for over ten years, and have been typing random things into computer prompts since 1989 (39y)
-
-- Socials: 🇫@cschammert 📸/𝕏@csmertx 🦣 @mertx3000
 
 > csmertx = <b>C</b><s>hristopher</s> <b>S</b><s>cham</s><b>mert</b> + <b>x</b>
 
