@@ -214,4 +214,12 @@ Made an attempt to design a sewer system Quake 1 level. This one may have been f
 
 > I probably would have completed it had I had the foresight to research large scale waste treatment facilities
 
+<br />
+
+![albumimg](/Blog/medium/2006/quake_1_player_model_elmo_square.png "Quake 1 green armored player model skin with Elmo's face and red arms")
+
+Close approximation of a Quake 1 clan skin I made in 1999
+
+> Elmo's Reign! NetZero dial-up! 🔗[Ad marketing](https://en.wikipedia.org/wiki/NetZero "Wikipedia | NetZero") guinnea pig! Wait..
+
 </div><br />
