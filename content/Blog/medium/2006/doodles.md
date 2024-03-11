@@ -220,6 +220,6 @@ Made an attempt to design a sewer system Quake 1 level. This one may have been f
 
 Close approximation of a Quake 1 clan skin I made in 1999
 
-> Elmo's Reign! NetZero dial-up! 🔗[Ad marketing](https://en.wikipedia.org/wiki/NetZero "Wikipedia | NetZero") guinnea pig! Wait..
+> Elmo's Reign! NetZero dial-up! 🔗[Ad marketing](https://en.wikipedia.org/wiki/NetZero "Wikipedia | NetZero") guinea pig! Wait..
 
 </div><br />
