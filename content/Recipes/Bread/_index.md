@@ -1,4 +1,0 @@
----
-title: 🥖 Bread
-geekdocCollapseSection: true
----

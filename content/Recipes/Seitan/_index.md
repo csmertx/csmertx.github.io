@@ -1,4 +1,0 @@
----
-title: 🍲 Seitan
-geekdocCollapseSection: true
----
