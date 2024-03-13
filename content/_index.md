@@ -15,6 +15,6 @@ geekdocAnchor: false
 
 Csmertx's [🔗🗂️](pad "Notes").
 
-> Blogs contain [NSFW] content
+> ⚠️ Blogs NSFW [18+] ⚠️
 
 </div>
