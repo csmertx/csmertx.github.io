@@ -31,7 +31,7 @@ The donation button for this website redirects to the 🔗 [Wounded Warrior Proj
 
 > *This website is not an affiliated with the Wounded Warrior Project*
 
-My father dedicated over 20 years of his life to the military (Navy), which included a year long tour of Vietnam. He suffered through at least one fused vertebrae. Military said it wasn't their problem. That's why I am the way I am. And that's why I've included the link.
+My father dedicated over 20 years of his life to the military (Navy), which included a year long tour of Vietnam. He suffered through at least one fused vertebrae. Military (Jacksonville, FL) said it wasn't their problem. That's why I am the way I am. And that's why I've included the link.
 
 > If anyone has an issue with the donation button please contact me.
 
