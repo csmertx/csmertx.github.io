@@ -7,6 +7,10 @@ weight: -20
 
 <br />
 
+## Right click menu not working
+
+- ```Settings``` > ```Interface``` > ```Enable content focus compatibility mode```
+
 ## WINED3D instead of Vulcan (If no Vulcan support)
 
 - Library > Right click game > Properties
