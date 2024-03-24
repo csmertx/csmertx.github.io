@@ -924,14 +924,13 @@ Printed via Me (2005-2007) Info on the printer &amp;amp; developer we used at th
 🔗 KoLmafia Installation for Linux
 Aftercore July 30, 2019
 &amp;ldquo;The Sea is a tough thing for someone with only a couple of skills. Better to wait a bit on that.
-I&amp;rsquo;d suggest: go to the Mall and buy a Training Scroll: Snokebomb and read it. You&amp;rsquo;ll have to use your karma from this run to perm it for use in future runs, but it is an excellent skill to have for turncutting.</description></item><item><title>🕹️ Proton (Linux)</title><link>https://csmertx.github.io/Games/steam_proton/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/steam_proton/</guid><description>WINED3D instead of Vulcan (If no Vulcan support) Library &amp;gt; Right click game &amp;gt; Properties
+I&amp;rsquo;d suggest: go to the Mall and buy a Training Scroll: Snokebomb and read it. You&amp;rsquo;ll have to use your karma from this run to perm it for use in future runs, but it is an excellent skill to have for turncutting.</description></item><item><title>🕹️ Proton (Linux)</title><link>https://csmertx.github.io/Games/steam_proton/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/steam_proton/</guid><description>Right click menu not working Settings &amp;gt; Interface &amp;gt; Enable content focus compatibility mode WINED3D instead of Vulcan (If no Vulcan support) Library &amp;gt; Right click game &amp;gt; Properties
 SET LAUNCH OPTIONS
 PROTON_USE_WINED3D=1 %command% Vulcan On (set by default 2022?) Library &amp;gt; Right click game &amp;gt; Properties
 SET LAUNCH OPTIONS
 +r_renderapi 1 Debug Log per game SET LAUNCH OPTIONS
 DEBUGGER=gdb steam Library &amp;gt; Right click game &amp;gt; Properties
-SET LAUNCH OPTIONS
--con_logfile Protontricks 🔗 Install Protontricks: A simple wrapper that does winetricks things for Proton enabled games</description></item><item><title>🕹️ Skyrim Special Edition</title><link>https://csmertx.github.io/Games/skyrim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/skyrim/</guid><description>Screen tearing (for slow camera movement) Ubuntu
+SET LAUNCH OPTIONS</description></item><item><title>🕹️ Skyrim Special Edition</title><link>https://csmertx.github.io/Games/skyrim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/skyrim/</guid><description>Screen tearing (for slow camera movement) Ubuntu
 vim &amp;quot;/home/user/.steam/debian-installation/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini&amp;quot; Custom Steam games location
 vim &amp;quot;.../SteamLibrary/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini&amp;quot; Add iPresentInterval=0 as the last entry in [Display]
 [Display] ... ++ iPresentInterval=0 Mouse Acceleration (for slow mouse movement) Ubuntu
