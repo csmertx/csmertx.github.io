@@ -1006,7 +1006,7 @@ Added 🔗QMK compatible controller (🔗KinT), custom USB outlet, and touchpad
 Coffee bag tie for cable management, and right angle USB for the touchpad.
 Soldered using a 🔗Pinecil V1 powered with a Lenovo laptop power brick
 Splatter from too much flux?
-GFCI in the kitchen. It&amp;rsquo;s a 300W hotplate, so probably fine but still (lead free). JLCPCB
+GFCI in the kitchen. It&amp;rsquo;s a 300W hotplate, so probably fine but still (lead free).
 Those little bits are from me scrapping away accidental bridges</description></item><item><title>🛠️ RPi4 Console (2021)</title><link>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</guid><description>Pieced together: June 7, 2021
 RPi4 = Raspberry Pi 4
 I wanted a tiny console to check out ARM architecture stuff: Ubuntu/RPi4, and RetroPie/RPi4.
