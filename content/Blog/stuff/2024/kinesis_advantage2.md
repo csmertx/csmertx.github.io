@@ -9,8 +9,6 @@ Modding a Kinesis Advantage 2
 
 > Added 🔗[QMK](https://config.qmk.fm/#/kinesis/kint36/LAYOUT "QMK Configurator") compatible controller (🔗[KinT](https://github.com/kinx-project/kint "Github.com | kinx-project | kint")), custom USB outlet, and touchpad
 
-> 
-
 <br />
 
 <div style="text-align: center;">
