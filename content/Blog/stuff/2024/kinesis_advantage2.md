@@ -29,7 +29,7 @@ Modding a Kinesis Advantage 2
 
 ![albumimg](/Blog/stuff/images/ka2/3.jpg "Kitchen counter with budget friendly hot plate soldering equipment")
 
-> GFCI in the kitchen. It's a 300W hotplate, so probably fine but still (lead free). JLCPCB
+> GFCI in the kitchen. It's a 300W hotplate, so probably fine but still (lead free).
 
 ![albumimg](/Blog/stuff/images/ka2/4.jpg "Close up of freshly soldered SMD components for a KinT keyboard controller")
 
