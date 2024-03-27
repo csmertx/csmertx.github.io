@@ -35,7 +35,7 @@ Modding a Kinesis Advantage 2
 
 > First SMD not as scary as I thought (~15 minutes)
 
-![albumimg](/Blog/stuff/images/ka2/5.jpg "KinT keyboard controller fully soldered")
+![albumimg](/Blog/stuff/images/ka2/5.jpg "Underside of fully soldered KinT keyboard controller")
 
 > PCBs from 🔗[JLCPCB](https://jlcpcb.com/ "JLCPCB") (completely functional)
 
