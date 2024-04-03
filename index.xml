@@ -1009,12 +1009,12 @@ Add Modifier &amp;gt; Edge Split (Generate Category)
 Smooth Shade (Object Menu: Shade Smooth)</description></item><item><title>🛠️ Keyboard Modeling</title><link>https://csmertx.github.io/Blog/stuff/2023/keyboards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/keyboards/</guid><description>2016-2017
 Started with Blender and finished with Fusion 360 (switches and stabilizers from Thingiverse?)
 Developed some RSI symptoms as I worked on this pathway</description></item><item><title>🛠️ Kinesis Advantage 2</title><link>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</guid><description>Modding a Kinesis Advantage 2
-Added 🔗QMK compatible controller (🔗KinT), custom USB outlet, and touchpad
+Pieced together 🔗QMK compatible controller via 🔗KinT kit. Also added custom USB stress relief, and touchpad
+Touchpad gestures: 🔗libinput-gestures 🔗configured for 3-4 finger gestures (Back/Forward/Home/End/PGUP/PGDN)
 Coffee bag tie for cable management, and right angle USB for the touchpad.
 Soldered using a 🔗Pinecil V1 powered with a Lenovo laptop power brick
-Splatter from too much flux?
-GFCI in the kitchen. It&amp;rsquo;s a 300W hotplate, so probably fine but still (lead free).
-Those little bits are from me scrapping away accidental bridges</description></item><item><title>🛠️ RPi4 Console (2021)</title><link>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</guid><description>Pieced together: June 7, 2021
+Splatter from too much flux? (lead-free)
+GFCI in the kitchen. It&amp;rsquo;s one of those 300W LED strip soldering hotplates, probably fine but still.</description></item><item><title>🛠️ RPi4 Console (2021)</title><link>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</guid><description>Pieced together: June 7, 2021
 RPi4 = Raspberry Pi 4
 I wanted a tiny console to check out ARM architecture stuff: Ubuntu/RPi4, and RetroPie/RPi4.
 This one does not include a parts list because this configuration (power delivery hat/addon) killed the official RPi4 LCD screen. I sold my RPi4 because of sketchy hats (addon boards). Next attempt will be something different.</description></item><item><title>🛠️ Step faces to Sketches</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</guid><description>
