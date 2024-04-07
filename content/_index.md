@@ -13,8 +13,8 @@ geekdocAnchor: false
 
 <br />
 
-Csmertx's [🔗🗂️](pad "Notes").
+Csmertx's [🗂️](pad "Notes").
 
-> ⚠️ Blogs NSFW [18+] ⚠️
+> ⚠️ Blogs NSFW [21+] ⚠️
 
 </div>
