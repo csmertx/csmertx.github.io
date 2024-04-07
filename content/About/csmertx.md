@@ -57,11 +57,15 @@ Linux-ing for over ten years, and have been typing random things into computer p
 
 ## My Political Views
 
-    "That shit is fucked up yo."
+- I like the U.S. Constitution. Registered as an Independent.
 
 ## Religious views
 
 I've seen enough to make me skeptical that it all just ends.
+
+## Apologies to System76
+
+- My bad, and thank you for all the hard work both downstream and upstream!
 
 ## Recommended Linux Websites
 
