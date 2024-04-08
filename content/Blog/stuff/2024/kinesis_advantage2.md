@@ -19,6 +19,8 @@ Modding a Kinesis Advantage 2
 
 > Coffee bag tie for cable management, and right angle USB for the touchpad.
 
+> Touchpad mess: Sanded the burn marks caused by oil paint pens on card stock paper (whoops)
+
 ![albumimg](/Blog/stuff/images/ka2/1.jpg "Small soldering station on a budget friendly manual adjustment standing table")
 
 > Soldered using a 🔗[Pinecil V1](https://wiki.pine64.org/wiki/Pinecil "Pine64 Wiki | Pinecil") powered with a Lenovo laptop power brick
