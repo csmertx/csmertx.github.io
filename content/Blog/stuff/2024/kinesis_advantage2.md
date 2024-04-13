@@ -69,9 +69,9 @@ Modding a Kinesis Advantage 2
 
 ![albumimg](/Blog/stuff/images/ka2/ka2_layout_4.png "Kinesis Advantage QMK Layout Layer 4")
 
-> I remapped the KA2 down key to forward music track instead of this DOS gaming layer (DGBL DOSBox frontend and X-box controller <3)
+> I remapped the KA2 down key to forward music track instead of this DOS gaming layer (🔗[DBGL](https://dbgl.org/ "DBGL.org") DOSBox frontend and Xbox controller ❤️‍🔥)
 
-> QMK 🔗[json](/Blog/stuff/images/ka2/kinesis_kint36_layout_mertx3000_24_01_12.json) for the configurator and [hex](/Blog/stuff/images/ka2/kinesis_kint36_layout_mertx3000_24_01_12.hex) for flashing Teensy firmware. Remapped a few things since, and have no idea where I put my current firmware. So ah, whoops.
+> QMK 🔗[json](/Blog/stuff/images/ka2/kinesis_kint36_layout_mertx3000_24_01_12.json "QMK .json file for use with QMK Configurator") for the configurator and 🔗[hex](/Blog/stuff/images/ka2/kinesis_kint36_layout_mertx3000_24_01_12.hex "Hexadecimal file created by the QMK configurator to flash firmware to a Teensy 3.6-4.x") for flashing Teensy firmware. Remapped a few things since, and have no idea where I put my current firmware. So ah, whoops.
 
 <br />
 
