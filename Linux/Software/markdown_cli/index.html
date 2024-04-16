@@ -6,14 +6,14 @@ if [ -d "$HOME/.local/bin" ] ; then PATH="$HOME/.local/bin:$PATH" fi vim ~/.loca
 Open via Ranger File Manger Ranger
 Navigate to file.md
 :open_with rmd'><title>💻 Markdown CLI | CSx</title>
-<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:title" content="💻 Markdown CLI"><meta property="og:description" content='Hacky way to preview Markdown via terminal emulator
+<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:url" content="https://csmertx.github.io/Linux/Software/markdown_cli/"><meta property="og:site_name" content="CSx"><meta property="og:title" content="💻 Markdown CLI"><meta property="og:description" content="Hacky way to preview Markdown via terminal emulator
 Setup to preview Markdown via Lynx CLI browser Add ~/.local/bin to $PATH
 vim ~/.profile
-if [ -d "$HOME/.local/bin" ] ; then PATH="$HOME/.local/bin:$PATH" fi vim ~/.local/bin/rmd
-#!/bin/bash pandoc $1 --highlight-style=zenburn \ | sed \"1s/^/<html> \n</title>rmd<\/title>/" \ | sed &#39;$s/$/\n<\/html>/&#39; | lynx -stdin w3m doesn&rsquo;t like stdin, but elinks (without -stdin) works
+if [ -d &amp;#34;$HOME/.local/bin&amp;#34; ] ; then PATH=&amp;#34;$HOME/.local/bin:$PATH&amp;#34; fi vim ~/.local/bin/rmd
+#!/bin/bash pandoc $1 --highlight-style=zenburn \ | sed \&amp;#34;1s/^/&amp;lt;html&amp;gt; \n&amp;lt;/title&amp;gt;rmd&amp;lt;\/title&amp;gt;/&amp;#34; \ | sed &amp;#39;$s/$/\n&amp;lt;\/html&amp;gt;/&amp;#39; | lynx -stdin w3m doesn&amp;rsquo;t like stdin, but elinks (without -stdin) works
 Open via Ranger File Manger Ranger
 Navigate to file.md
-:open_with rmd'><meta property="og:type" content="article"><meta property="og:url" content="https://csmertx.github.io/Linux/Software/markdown_cli/"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Markdown CLI"><meta name=twitter:description content='Hacky way to preview Markdown via terminal emulator
+:open_with rmd"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Markdown CLI"><meta name=twitter:description content='Hacky way to preview Markdown via terminal emulator
 Setup to preview Markdown via Lynx CLI browser Add ~/.local/bin to $PATH
 vim ~/.profile
 if [ -d "$HOME/.local/bin" ] ; then PATH="$HOME/.local/bin:$PATH" fi vim ~/.local/bin/rmd

@@ -5,13 +5,13 @@ sudo systemctl enable/start libvirtd
 Forward Ports qemu-system-i386 ... -net user,hostfwd=tcp:443::443 -redir tcp:80::80 -redir tcp:22::22 -hda storage.img -nographic Converting VMs qemu-img convert -f raw -O qcow "/dir/machine.vdi" "/dir/machine.img" Cloning VMs virt-clone --original /dir/c8n1.img --name "new name" --file c8n2.img
 virt-clone --original "c8n0" --name "c8n1" --auto-clone
 virt-clone --connect=qemu:///system -o "vm" -n "newvm" --auto-clone'><title>💻 Virtual Machine Manager (VMM) | CSx</title>
-<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:title" content="💻 Virtual Machine Manager (VMM)"><meta property="og:description" content='VM software by Red Hat
-See Windows & DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
+<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:url" content="https://csmertx.github.io/Linux/VMs/virt-manager/"><meta property="og:site_name" content="CSx"><meta property="og:title" content="💻 Virtual Machine Manager (VMM)"><meta property="og:description" content="VM software by Red Hat
+See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
 Host Installation virt-manager qemu qemu-utils
 sudo systemctl enable/start libvirtd
-Forward Ports qemu-system-i386 ... -net user,hostfwd=tcp:443::443 -redir tcp:80::80 -redir tcp:22::22 -hda storage.img -nographic Converting VMs qemu-img convert -f raw -O qcow "/dir/machine.vdi" "/dir/machine.img" Cloning VMs virt-clone --original /dir/c8n1.img --name "new name" --file c8n2.img
-virt-clone --original "c8n0" --name "c8n1" --auto-clone
-virt-clone --connect=qemu:///system -o "vm" -n "newvm" --auto-clone'><meta property="og:type" content="article"><meta property="og:url" content="https://csmertx.github.io/Linux/VMs/virt-manager/"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Virtual Machine Manager (VMM)"><meta name=twitter:description content='VM software by Red Hat
+Forward Ports qemu-system-i386 ... -net user,hostfwd=tcp:443::443 -redir tcp:80::80 -redir tcp:22::22 -hda storage.img -nographic Converting VMs qemu-img convert -f raw -O qcow &amp;quot;/dir/machine.vdi&amp;quot; &amp;quot;/dir/machine.img&amp;quot; Cloning VMs virt-clone --original /dir/c8n1.img --name &amp;quot;new name&amp;quot; --file c8n2.img
+virt-clone --original &amp;quot;c8n0&amp;quot; --name &amp;quot;c8n1&amp;quot; --auto-clone
+virt-clone --connect=qemu:///system -o &amp;quot;vm&amp;quot; -n &amp;quot;newvm&amp;quot; --auto-clone"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Virtual Machine Manager (VMM)"><meta name=twitter:description content='VM software by Red Hat
 See Windows & DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
 Host Installation virt-manager qemu qemu-utils
 sudo systemctl enable/start libvirtd

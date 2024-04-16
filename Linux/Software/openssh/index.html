@@ -9,8 +9,8 @@ vim ssh (create password file)
 gpg --encrypt $HOME/.passcrypt/ssh.gpg
 #!/bin/bash sshpassw="$(gpg -d $HOME/.passcrypt/ssh.gpg |)" sshpass -p $sshpassw ssh user@192.168.254.x See also: fail2ban & iptables
 Copy Files From Remote to local'><title>💻 OpenSSH | CSx</title>
-<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:title" content="💻 OpenSSH"><meta property="og:description" content='Hardening (see also: fail2ban) sudov /etc/ssh/sshd_config
-++ PermitRootLogin no Logs sudo tail -n 50 /var/log/auth.log Basic Local SSH (BAD&ndash;but handy for throw away local VMs) ssh -p 22 user@192.168.254.x
+<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:url" content="https://csmertx.github.io/Linux/Software/openssh/"><meta property="og:site_name" content="CSx"><meta property="og:title" content="💻 OpenSSH"><meta property="og:description" content="Hardening (see also: fail2ban) sudov /etc/ssh/sshd_config
+++ PermitRootLogin no Logs sudo tail -n 50 /var/log/auth.log Basic Local SSH (BAD&amp;ndash;but handy for throw away local VMs) ssh -p 22 user@192.168.254.x
 [Enter Password] apt-get install sshpass
 sshpass -p your_password ssh user@192.168.254.x
 Script it
@@ -18,8 +18,8 @@ gpg --full-generate-key
 mkdir $HOME/.passcrypt
 vim ssh (create password file)
 gpg --encrypt $HOME/.passcrypt/ssh.gpg
-#!/bin/bash sshpassw="$(gpg -d $HOME/.passcrypt/ssh.gpg |)" sshpass -p $sshpassw ssh user@192.168.254.x See also: fail2ban & iptables
-Copy Files From Remote to local'><meta property="og:type" content="article"><meta property="og:url" content="https://csmertx.github.io/Linux/Software/openssh/"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 OpenSSH"><meta name=twitter:description content='Hardening (see also: fail2ban) sudov /etc/ssh/sshd_config
+#!/bin/bash sshpassw=&amp;#34;$(gpg -d $HOME/.passcrypt/ssh.gpg |)&amp;#34; sshpass -p $sshpassw ssh user@192.168.254.x See also: fail2ban &amp;amp; iptables
+Copy Files From Remote to local"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 OpenSSH"><meta name=twitter:description content='Hardening (see also: fail2ban) sudov /etc/ssh/sshd_config
 ++ PermitRootLogin no Logs sudo tail -n 50 /var/log/auth.log Basic Local SSH (BAD&ndash;but handy for throw away local VMs) ssh -p 22 user@192.168.254.x
 [Enter Password] apt-get install sshpass
 sshpass -p your_password ssh user@192.168.254.x

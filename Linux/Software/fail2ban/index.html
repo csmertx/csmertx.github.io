@@ -7,7 +7,7 @@ sudov /etc/fail2ban/jail.d/sshd.local
 List all jails
 sudo fail2ban-client status sshd
 Status of jails"><title>💻 Fail2ban | CSx</title>
-<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:title" content="💻 Fail2ban"><meta property="og:description" content="Setup Systemd
+<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:url" content="https://csmertx.github.io/Linux/Software/fail2ban/"><meta property="og:site_name" content="CSx"><meta property="og:title" content="💻 Fail2ban"><meta property="og:description" content="Setup Systemd
 sudo systectm enable fail2ban.service
 sudo systectm start fail2ban.service
 SSH Limiting
@@ -15,7 +15,7 @@ sudov /etc/fail2ban/jail.d/sshd.local
 ++ [sshd] ++ enabled = true ++ filter = sshd ++ banaction = ufw ++ backend = systemd ++ maxretry = 3 ++ findtime = 1h ++ bantime = 2h ++ ignoreip = 127.0.0.1/8 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 sudo systectm restart fail2ban.service Client sudo fail2ban-client status
 List all jails
 sudo fail2ban-client status sshd
-Status of jails"><meta property="og:type" content="article"><meta property="og:url" content="https://csmertx.github.io/Linux/Software/fail2ban/"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Fail2ban"><meta name=twitter:description content="Setup Systemd
+Status of jails"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Fail2ban"><meta name=twitter:description content="Setup Systemd
 sudo systectm enable fail2ban.service
 sudo systectm start fail2ban.service
 SSH Limiting

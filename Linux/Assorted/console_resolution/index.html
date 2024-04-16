@@ -5,13 +5,13 @@ Editing files&mldr; sudov /etc/default/grub
 / to input a search term with Vim
 Next line: set gfxpayload=${GRUB_GFXPAYLOAD}
 Resources Ask Ubuntu: &ldquo;How do I increase console-mode resolution?'><title>💻 Console Resolution | CSx</title>
-<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:title" content="💻 Console Resolution"><meta property="og:description" content='See also Virtual Console
-Editing files&mldr; sudov /etc/default/grub
+<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:url" content="https://csmertx.github.io/Linux/Assorted/console_resolution/"><meta property="og:site_name" content="CSx"><meta property="og:title" content="💻 Console Resolution"><meta property="og:description" content="See also Virtual Console
+Editing files&amp;hellip; sudov /etc/default/grub
 ++ GRUB_GFXMODE=1152x864x32 ++ GRUB_GFXPAYLOAD=1152x864x32 sudov /etc/grub.d/00_header
--- if [ "x${GRUB_GFXMODE}" = "x" ] ; then GRUB_GFXMODE=auto ; fi ++ if [ "x${GRUB_GFXMODE}" = "x" ] ; then GRUB_GFXMODE=1152x864x32 ; fi ++ if [ "x${GRUB_GFXPAYLOAD}" = "x" ] ; then GRUB_GFXPAYLOAD=1152x864x32 ; fi Look for: set gfxmode=${GRUB_GFXMODE}
+-- if [ &amp;#34;x${GRUB_GFXMODE}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXMODE=auto ; fi ++ if [ &amp;#34;x${GRUB_GFXMODE}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXMODE=1152x864x32 ; fi ++ if [ &amp;#34;x${GRUB_GFXPAYLOAD}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXPAYLOAD=1152x864x32 ; fi Look for: set gfxmode=${GRUB_GFXMODE}
 / to input a search term with Vim
 Next line: set gfxpayload=${GRUB_GFXPAYLOAD}
-Resources Ask Ubuntu: &ldquo;How do I increase console-mode resolution?'><meta property="og:type" content="article"><meta property="og:url" content="https://csmertx.github.io/Linux/Assorted/console_resolution/"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Console Resolution"><meta name=twitter:description content='See also Virtual Console
+Resources Ask Ubuntu: &amp;ldquo;How do I increase console-mode resolution?"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Console Resolution"><meta name=twitter:description content='See also Virtual Console
 Editing files&mldr; sudov /etc/default/grub
 ++ GRUB_GFXMODE=1152x864x32 ++ GRUB_GFXPAYLOAD=1152x864x32 sudov /etc/grub.d/00_header
 -- if [ "x${GRUB_GFXMODE}" = "x" ] ; then GRUB_GFXMODE=auto ; fi ++ if [ "x${GRUB_GFXMODE}" = "x" ] ; then GRUB_GFXMODE=1152x864x32 ; fi ++ if [ "x${GRUB_GFXPAYLOAD}" = "x" ] ; then GRUB_GFXPAYLOAD=1152x864x32 ; fi Look for: set gfxmode=${GRUB_GFXMODE}

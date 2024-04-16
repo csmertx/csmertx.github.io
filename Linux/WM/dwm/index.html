@@ -11,11 +11,11 @@ cp /etc/X11/xinit/xinitrc ~/.xinitrc
 Not recommended
 Status bar Add to ~/.xinitrc
 while true while true; do xsetroot -name " CentOS 8.1 | $USER@$HOSTNAME | $(hostname -I| awk &#39;{print $1}&#39;) | $(date "+%F %R") " sleep 1m done & Status line output = CentOS 8.'><title>💻 Dynamic Window Manager (DWM) | CSx</title>
-<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:title" content="💻 Dynamic Window Manager (DWM)"><meta property="og:description" content='Compile config.def.h Fonts
-static const char *fonts[] = "hack:size=10";
-static const char dmenufont[] = "hack:size=10";
+<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:url" content="https://csmertx.github.io/Linux/WM/dwm/"><meta property="og:site_name" content="CSx"><meta property="og:title" content="💻 Dynamic Window Manager (DWM)"><meta property="og:description" content="Compile config.def.h Fonts
+static const char *fonts[] = &amp;quot;hack:size=10&amp;quot;;
+static const char dmenufont[] = &amp;quot;hack:size=10&amp;quot;;
 default terminal
-static const char *termcmd[] = { "terminal-name", NULL }; Fix window gaps
+static const char *termcmd[] = { &amp;quot;terminal-name&amp;quot;, NULL }; Fix window gaps
 -- static cont int resizehints = 1;
 ++ static cont int resizehints = 0;
 No ~/.xinitrc cp /etc/X11/xinit/xinitrc-common ~/.xinitrc
@@ -23,7 +23,7 @@ Recommended
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
 Not recommended
 Status bar Add to ~/.xinitrc
-while true while true; do xsetroot -name " CentOS 8.1 | $USER@$HOSTNAME | $(hostname -I| awk &#39;{print $1}&#39;) | $(date "+%F %R") " sleep 1m done & Status line output = CentOS 8.'><meta property="og:type" content="article"><meta property="og:url" content="https://csmertx.github.io/Linux/WM/dwm/"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Dynamic Window Manager (DWM)"><meta name=twitter:description content='Compile config.def.h Fonts
+while true while true; do xsetroot -name &amp;#34; CentOS 8.1 | $USER@$HOSTNAME | $(hostname -I| awk &amp;#39;{print $1}&amp;#39;) | $(date &amp;#34;+%F %R&amp;#34;) &amp;#34; sleep 1m done &amp;amp; Status line output = CentOS 8."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Dynamic Window Manager (DWM)"><meta name=twitter:description content='Compile config.def.h Fonts
 static const char *fonts[] = "hack:size=10";
 static const char dmenufont[] = "hack:size=10";
 default terminal

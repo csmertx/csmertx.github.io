@@ -9,7 +9,7 @@ Trouble with pulseaudio? pulseaudio --kill
 daemonize with: pulseaudio -D
 Buffering Issues sudov /etc/pulse/default.pa
 -- load-module module-udev-detect ++ #load-module module-udev-detect -- load-module module-detect ++ load-module module-detect ++ load-module module-alsa-card device_id=0 tsched=true tsched_buffer_size=3145728 tsched_buffer_watermark=786432 "><title>💻 Pulseaudio | CSx</title>
-<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:title" content="💻 Pulseaudio"><meta property="og:description" content="
+<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:url" content="https://csmertx.github.io/Linux/Software/pulse/"><meta property="og:site_name" content="CSx"><meta property="og:title" content="💻 Pulseaudio"><meta property="og:description" content="
 All Systems sudo systemctl enable avahi-daemon.service
 sudo systemctl start avahi-daemon.service
 Server(s) sudov /etc/pulse/default.pa
@@ -19,7 +19,7 @@ set for Both but uni-directional is probably better?
 Trouble with pulseaudio? pulseaudio --kill
 daemonize with: pulseaudio -D
 Buffering Issues sudov /etc/pulse/default.pa
--- load-module module-udev-detect ++ #load-module module-udev-detect -- load-module module-detect ++ load-module module-detect ++ load-module module-alsa-card device_id=0 tsched=true tsched_buffer_size=3145728 tsched_buffer_watermark=786432 "><meta property="og:type" content="article"><meta property="og:url" content="https://csmertx.github.io/Linux/Software/pulse/"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Pulseaudio"><meta name=twitter:description content="
+-- load-module module-udev-detect ++ #load-module module-udev-detect -- load-module module-detect ++ load-module module-detect ++ load-module module-alsa-card device_id=0 tsched=true tsched_buffer_size=3145728 tsched_buffer_watermark=786432 "><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Pulseaudio"><meta name=twitter:description content="
 All Systems sudo systemctl enable avahi-daemon.service
 sudo systemctl start avahi-daemon.service
 Server(s) sudov /etc/pulse/default.pa
