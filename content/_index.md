@@ -15,7 +15,9 @@ geekdocAnchor: false
 
 Csmertx's [🗂️](pad "Notes").
 
-> ⚠️ Blogs PG to R (language, substance use, etc.) ⚠️
+> ⚠️ Blogs Rating: PG to R ⚠️
+
+> ⚠️ Language, substance use, etc. ⚠️
 
 > How 2 block this website: 🔗[1](https://www.digitaltrends.com/computing/how-to-block-a-website/ "Digital Trends | How to Block a Website"), 🔗[2](https://www.lifewire.com/how-to-block-a-website-4177078 "Lifewire | How to Block a Website"), 🔗[3](https://www.wired.com/story/how-to-block-websites-chrome-firefox-ios-android/ "Wired | How to Block Bad Websites—or Just Get Things Done")
 

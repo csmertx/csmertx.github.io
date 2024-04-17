@@ -9,7 +9,7 @@ weight: -20
 
 Some of these notes may be out of date (i.e. Arch Linux).
 
-## Mobile Navigation
+{{< expand "Tap for Mobile Navigation Guide" "⬇" >}}
 
 - Tap the top left hamburger for categories.
 
@@ -17,4 +17,6 @@ Some of these notes may be out of date (i.e. Arch Linux).
 
 - Tap the bottom right "^Top" to return to the top of the page.
 
-- Tap the search bar to search through both the note titles (or subtitles) and the contents of the notes.
+- Tap the top left search bar to search through both the note titles (or subtitles) and the contents of the notes.
+
+{{< /expand >}}
