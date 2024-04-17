@@ -9,6 +9,8 @@ weight: -20
 
 ## Google Search Console verification (URL prefix) and Github Pages
 
+> 🔗[Namecheap Advanced DNS instructions](https://www.namecheap.com/support/knowledgebase/article.aspx/9252/2208/how-do-i-add-my-domain-to-google-sites/ "Namecheap.com | How do I add my domain to Google Sites")
+
 - First step is to visit: 🔗 https://search.google.com/search-console?action=inspect
 
 - Add downloaded ```googleXXXX.html``` to ```/static```
