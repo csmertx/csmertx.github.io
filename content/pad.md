@@ -13,7 +13,7 @@ Some of these notes may be out of date (i.e. Arch Linux).
 
 - Tap the top left hamburger for categories.
 
-- Tap the top < to access light theme.
+- Tap the top right < to access light theme.
 
 - Tap the bottom right "^Top" to return to the top of the page.
 
