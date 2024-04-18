@@ -13,7 +13,7 @@ weight: -20
 
 > Christopher Roy Schammert | aka: Chris/Sharky
 
-> [📷 @csmertx](https://www.instagram.com/csmertx "Instagram | @csmertx") | [🇫 @cschammert](https://facebook.com/@cschammert "Facebook | @cschammert") | 🎙️ [TheRealCSmertX](https://archive.org/search?query=creator%3A%22TheRealCSmertX%22 "Archive.org | TheRealCSmertX") | [🐦 @csmertx](https://twitter.com/@csmertx "Twitter | @csmertx") | [🦣 @mertx3000](https://mastodon.social/@mertx3000 "Mastodon.social | @mertx3000")
+> [📷 @csmertx](https://www.instagram.com/csmertx "Instagram | @csmertx") | [🇫 @cschammert](https://facebook.com/@cschammert "Facebook | @cschammert") | 🎙️ [TheRealCSmertX](https://archive.org/details/@archiveuser4193kxhm "Archive.org | TheRealCSmertX") | [🐦 @csmertx](https://twitter.com/@csmertx "Twitter | @csmertx") | [🦣 @mertx3000](https://mastodon.social/@mertx3000 "Mastodon.social | @mertx3000")
 
 [📧 csmertx@pm.me](mailto:csmertx@pm.me "Proton Mail email address | @csmertx")
 
