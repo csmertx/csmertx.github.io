@@ -1,6 +1,6 @@
 ---
 title: 📱 Android Debug Bridge (ADB)
-author: csmertx
+author: Chris Schammert (csmertx)
 date: March 08, 2023
 weight: -20
 ---

@@ -1,6 +1,6 @@
 ---
 title: 💻 GNOME 3
-author: csmertx
+author: Chris Schammert (csmertx)
 date: February 6, 2023
 weight: -20
 ---

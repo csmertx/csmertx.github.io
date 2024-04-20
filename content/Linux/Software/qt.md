@@ -1,6 +1,6 @@
 ---
 title: 💻 QT5 (KDE)
-author: csmertx
+author: Chris Schammert (csmertx)
 date: February 4, 2023
 weight: -20
 ---

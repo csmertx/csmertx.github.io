@@ -1,6 +1,6 @@
 ---
 title: 💻 Git Quick Ref.
-author: csmertx
+author: Chris Schammert (csmertx)
 date: January 31, 2023
 weight: -20
 ---

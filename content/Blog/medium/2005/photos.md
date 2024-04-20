@@ -1,6 +1,6 @@
 ---
 title: 📸 Canon SLR
-author: csmertx
+author: Chris Schammert (csmertx)
 date: February 23, 2024
 weight: -20
 ---

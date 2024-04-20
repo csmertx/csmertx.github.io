@@ -1,6 +1,6 @@
 ---
 title: 💻 Plasma (KDE)
-author: csmertx
+author: Chris Schammert (csmertx)
 date: February 6, 2023
 weight: -20
 ---

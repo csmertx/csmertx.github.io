@@ -1,5 +1,6 @@
 ---
 title: 💻 Dynamic Window Manager (DWM)
+author: Chris Schammert (csmertx)
 weight: -20
 ---
 

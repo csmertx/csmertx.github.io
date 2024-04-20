@@ -1,6 +1,6 @@
 ---
 title: 💻 Docker
-author: csmertx
+author: Chris Schammert (csmertx)
 date: April 1, 2023
 weight: -20
 ---

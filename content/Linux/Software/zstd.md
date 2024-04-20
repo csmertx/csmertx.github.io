@@ -1,5 +1,6 @@
 ---
 title: 💻 Zstandard File Compression (ZSTD)
+author: Chris Schammert (csmertx)
 weight: -20
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 💻 AppImages
-author: csmertx
+author: Chris Schammert (csmertx)
 date: February 3, 2023
 weight: -20
 ---

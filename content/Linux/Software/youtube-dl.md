@@ -1,13 +1,17 @@
 ---
 title: 💻 YouTube-DL
-author: csmertx
-date: February 4, 2023
+author: Chris Schammert (csmertx)
+date: April 20, 2024
 weight: -20
 ---
 
 <br />
 
-> See also [GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes](https://github.com/yt-dlp/yt-dlp) 
+> See also [GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes](https://github.com/yt-dlp/yt-dlp "Github.com | yt-dlp / yt-dlp")
+
+> Linux Mint yt-dlp download: [yt-dlp via PyPi installation](https://github.com/yt-dlp/yt-dlp/wiki/Installation#with-pip "Github.com | yt-dlp / yt-dlp / Wiki / Installation w/PyPi")
+
+> Kubuntu: [yt-dlp via binary software package](https://github.com/yt-dlp/yt-dlp/wiki/Installation#using-the-release-binary "Github.com | yt-dlp / yt-dlp / Wiki / Installation w/Release Binary")
 
 ## Auto Convert to mp3
 

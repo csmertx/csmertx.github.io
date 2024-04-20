@@ -1,5 +1,6 @@
 ---
 title: 💻 Snaps
+author: Chris Schammert (csmertx)
 weight: -20
 ---
 

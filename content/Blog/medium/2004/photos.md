@@ -1,6 +1,6 @@
 ---
 title: 📷 Toronto, Canada
-author: csmertx
+author: Chris Schammert (csmertx)
 date: March 07, 2024
 weight: -20
 ---

@@ -1,6 +1,6 @@
 ---
 title: 💾 Hard Disk Drives
-author: csmertx
+author: Chris Schammert (csmertx)
 date: February 1, 2023
 weight: -20
 ---

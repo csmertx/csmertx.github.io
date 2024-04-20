@@ -1,6 +1,6 @@
 ---
 title: 💻 Disk Destroyer (DD)
-author: csmertx
+author: Chris Schammert (csmertx)
 date: January 30, 2023
 weight: -20
 ---

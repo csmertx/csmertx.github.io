@@ -1,5 +1,6 @@
 ---
 title: 💻 Polybar
+author: Chris Schammert (csmertx)
 weight: -20
 ---
 

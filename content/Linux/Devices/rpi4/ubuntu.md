@@ -1,6 +1,6 @@
 ---
 title: 🥧 Ubuntu 20.04 Server 2 Desktop on RPi4
-author: csmertx
+author: Chris Schammert (csmertx)
 date: January 31, 2023
 weight: -20
 ---

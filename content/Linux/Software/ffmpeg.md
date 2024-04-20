@@ -1,6 +1,6 @@
 ---
 title: 💻 FFmpeg
-author: csmertx
+author: Chris Schammert (csmertx)
 date: February 28, 2023
 weight: -20
 ---

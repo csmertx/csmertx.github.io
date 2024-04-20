@@ -1,6 +1,6 @@
 ---
 title: 🏄 Hugo
-author: csmertx
+author: Chris Schammert (csmertx)
 date: March 4, 2023
 weight: -20
 ---

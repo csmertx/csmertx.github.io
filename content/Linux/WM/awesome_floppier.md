@@ -1,6 +1,6 @@
 ---
 title: AwesomeWM (Floppier DE)
-author: csmertx
+author: Chris Schammert (csmertx)
 date: February 5, 2023
 weight: -20
 ---

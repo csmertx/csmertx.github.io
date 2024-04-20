@@ -1,6 +1,6 @@
 ---
 title: 🛰️ GPS Devices
-author: csmertx
+author: Chris Schammert (csmertx)
 date: February 1, 2023
 weight: -20
 ---

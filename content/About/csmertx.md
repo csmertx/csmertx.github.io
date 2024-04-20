@@ -1,6 +1,6 @@
 ---
 title: 🧑 csmertx
-author: csmertx
+author: Chris Schammert (csmertx)
 date: March 11, 2024
 weight: -20
 ---
