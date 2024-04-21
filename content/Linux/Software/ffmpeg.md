@@ -43,7 +43,9 @@ Cut out a slice (audio)
 
 ## GIF with subtitles (so-so quality)
 
-- [Gifski](https://gif.ski/) may be the right choice for high quality gifs, but here are the basics with FFmpeg.
+- AIO GUI: 🔗[Kdenlive](https://kdenlive.org/) (create gifs with effects, etc.)
+
+- 🔗[Gifski](https://gif.ski/) may be the right choice for high quality gifs, but here are the basics with FFmpeg.
 
 - Extract the subtitles if the subtitles are embeded (in this instance Scrubs Season 6 DVDs via MakeMKV).
 
@@ -60,7 +62,7 @@ Cut out a slice (audio)
 <br />
 
 <div style="text-align: center;">
-<img src="https://i.imgur.com/Ydz5yKx.gif"/>
+<img src="https://i.imgur.com/AlNT7JK.gif"/>
 
 > Subtitles extracted from dr_rad_got_the_hose.mkv added to new dr_rad_got_the_hose.gif
 </div>
