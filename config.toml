@@ -28,7 +28,7 @@ relativeUrls = true
    tag = "tags"
 
 [params]
-geekdocLogo = "crs.png"
+geekdocLogo = "crs_256x256_silver"
 #http://flagmypicture.com/
 #geekdocToC = 3
 #geekdocMenuBundle = true
