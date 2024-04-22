@@ -62,6 +62,12 @@ weight: -20
 
 - ```sed -e 's/\[[^][]*\]//g'```
 
+## Add line numbers to the beginning of each line
+
+- ```s/^/\=line('.').". "```
+
+    - 🔗[Vim](/Linux/Software/vim): ```%s/^/\=line('.').". "```
+
 
 ## Resources
 
