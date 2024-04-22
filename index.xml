@@ -627,7 +627,7 @@ Print Nth Line sed -n '7p'
 sed '7!d'
 Also 7th line
 Replace newline chracter w/space Tip: Easier with tr
-tr '&amp;quot;\n' ' ' &amp;lt; input_filename Remove brackets and everything inside brackets sed -e 's/\[[^][]*\]//g' Resources sed, a stream editor</description></item><item><title>💻 ShellCheck</title><link>https://csmertx.github.io/Linux/Code/shellcheck/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/shellcheck/</guid><description>
+tr '&amp;quot;\n' ' ' &amp;lt; input_filename Remove brackets and everything inside brackets sed -e 's/\[[^][]*\]//g' Add line numbers to the beginning of each line s/^/\=line('.</description></item><item><title>💻 ShellCheck</title><link>https://csmertx.github.io/Linux/Code/shellcheck/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/shellcheck/</guid><description>
 Basic Commands shellcheck /dir/script.sh _EOF_ triggering errors Contents of _EOF_ might indicate miss-redirect [&amp;raquo;]
 Resources ShellCheck - A shell script static analysis tool</description></item><item><title>💻 Slackware</title><link>https://csmertx.github.io/Linux/Distros/slackware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/slackware/</guid><description>Slackware as a virtualized system and beyond
 I believe these notes are for Slackware Current (it was before 2022)
