@@ -1,13 +1,43 @@
 ---
 title: 🖲️ Trackballs
 author: Chris Schammert (csmertx)
-date: February 1, 2023
+date: April 22, 2024
 weight: -20
 ---
 
 <br />
 
-> Highly recommend Elecom HUGE trackballs over Logitech trackballs (sans thumb style)
+## Elecom HUGE trackball FN Buttons
+
+<br /><div style="text-align: center;">
+
+![Photo](/Linux/Devices/images/elecom_huge_wired_catbus_for_scale_800x800.jpg)
+
+> Apoxie Sculpt palm rest and 'Catbus So Many Poses!' 'blind box' figurine for scale
+
+</div><br />
+
+Elecom HUGE button remapping via GUI: 🔗[input-remapper](https://github.com/sezanzeb/input-remapper)
+
+> Requires escalated privileges
+
+Restore presets for each reboot/poweroff
+
+- ```sudo systemctl enable input-remapper```
+
+- ```sudo systemctl start input-remapper```
+
+- Apply presets & make sure ```Autoload``` is toggled
+
+#### Copy/Paste with Tmux, Refresh, and Undo (how I have mine configured)
+
+- FN1 -> Shift + Ctrl + v
+
+- FN2 -> F5
+
+- FN3 -> Ctrl + z
+
+## Logitech Trackman Marble via X11 + 🔗[libinput](https://man.archlinux.org/man/xorg.conf.5#INPUTCLASS_SECTION "Archlinux | Manuals / xorg.conf / Inputclass Section")
 
 ```
 Trackball Scrolling
