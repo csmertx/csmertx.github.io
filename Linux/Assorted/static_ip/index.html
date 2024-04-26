@@ -6,14 +6,14 @@ sudo virsh net-start default
 Local Static IP (Bare Metal or Virualized w/bridge) sudov /etc/sysconfig/network
 NETWORKING=yesHOSTNAME=eXnXGATEWAY=192.168.254.254NETWORKING_IPV6=noIPV6INIT=no sudov /etc/sysconfig/network-scripts (ifcfg-enp0s3)
 ifconfigBOOTPROTO...DNS1="8.8.8.8"DNS2="4.4.4.4"GATEWAY="192.168.254.254"HOSTNAME="eXnX"NETMASK="255.255.255.0"IPADDR="192.168.254.XX" '><title>💻 Static IP | CSx</title>
-<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:url" content="https://csmertx.github.io/Linux/Assorted/static_ip/"><meta property="og:site_name" content="CSx"><meta property="og:title" content="💻 Static IP"><meta property="og:description" content="
+<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:url" content="https://csmertx.github.io/Linux/Assorted/static_ip/"><meta property="og:site_name" content="CSx"><meta property="og:title" content="💻 Static IP"><meta property="og:description" content='
 Local Static IP (QEMU/KVM) sudo EDITOR=vim virsh net-edit default
 Add hosts after range as shown below
-&amp;lt;dhcp&amp;gt;&amp;lt;range start=&amp;#39;192.168.122.100&amp;#39; end=&amp;#39;192.168.122.254&amp;#39;/&amp;gt;&amp;lt;host mac=&amp;#39;...&amp;#39; name&amp;#39;c8n0&amp;#39; ip=&amp;#39;192.168.122.4&amp;#39;/&amp;gt;&amp;lt;dhcp/&amp;gt; sudo virsh net-destroy default
+<dhcp><range start=&#39;192.168.122.100&#39; end=&#39;192.168.122.254&#39;/><host mac=&#39;...&#39; name&#39;c8n0&#39; ip=&#39;192.168.122.4&#39;/><dhcp/> sudo virsh net-destroy default
 sudo virsh net-start default
 Local Static IP (Bare Metal or Virualized w/bridge) sudov /etc/sysconfig/network
 NETWORKING=yesHOSTNAME=eXnXGATEWAY=192.168.254.254NETWORKING_IPV6=noIPV6INIT=no sudov /etc/sysconfig/network-scripts (ifcfg-enp0s3)
-ifconfigBOOTPROTO...DNS1=&amp;#34;8.8.8.8&amp;#34;DNS2=&amp;#34;4.4.4.4&amp;#34;GATEWAY=&amp;#34;192.168.254.254&amp;#34;HOSTNAME=&amp;#34;eXnX&amp;#34;NETMASK=&amp;#34;255.255.255.0&amp;#34;IPADDR=&amp;#34;192.168.254.XX&amp;#34; "><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Static IP"><meta name=twitter:description content='
+ifconfigBOOTPROTO...DNS1="8.8.8.8"DNS2="4.4.4.4"GATEWAY="192.168.254.254"HOSTNAME="eXnX"NETMASK="255.255.255.0"IPADDR="192.168.254.XX" '><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Static IP"><meta name=twitter:description content='
 Local Static IP (QEMU/KVM) sudo EDITOR=vim virsh net-edit default
 Add hosts after range as shown below
 <dhcp><range start=&#39;192.168.122.100&#39; end=&#39;192.168.122.254&#39;/><host mac=&#39;...&#39; name&#39;c8n0&#39; ip=&#39;192.168.122.4&#39;/><dhcp/> sudo virsh net-destroy default

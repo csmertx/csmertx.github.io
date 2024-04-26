@@ -17,9 +17,9 @@ clamdscan --log=~/.config/clamav/logs/$(date).log /mnt/Storage"><title>💻 Clam
 Failed: 09-01-2021
 First run mkdir ~/.config/clamav
 mkdir ~/.config/clamav/logs
-clamconf -g freshclam.conf &amp;gt; ~/.config/clamav/Freshclam.conf
-clamconf -g clamd.conf &amp;gt; ~/.config/clamav/clamd.conf
-clamconf -g clamav-milter.conf &amp;gt; ~/.config/clamav/clamav-milter.conf
+clamconf -g freshclam.conf > ~/.config/clamav/Freshclam.conf
+clamconf -g clamd.conf > ~/.config/clamav/clamd.conf
+clamconf -g clamav-milter.conf > ~/.config/clamav/clamav-milter.conf
 touch /var/log/freshclam.log
 chmod 600 /var/log/freshclam.log
 chown clamav /var/log/freshclam.log

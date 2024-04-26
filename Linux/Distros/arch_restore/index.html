@@ -16,10 +16,10 @@ iwctl (wireless access) iwctl
 station wlan0 connect YOURFRIENDLYNEIGHBORHOODWIFIADDRESS
 Device found with ip link
 Enter passphrase exit
-Chroot (chroot: failed to run command /usr/bin/zsh: No such file or directory) chroot /mnt /bin/bash netctl (outdated as of: 2022) cp /etc/netctl/examples/wireless-wpa /etc/netctl/&amp;lt;essid_name&amp;gt;
-vi /etc/netctl/&amp;lt;essid_name&amp;gt;
+Chroot (chroot: failed to run command /usr/bin/zsh: No such file or directory) chroot /mnt /bin/bash netctl (outdated as of: 2022) cp /etc/netctl/examples/wireless-wpa /etc/netctl/<essid_name>
+vi /etc/netctl/<essid_name>
 ip link, essid, key, etc.
-netctl start &amp;lt;essid_name&amp;gt;
+netctl start <essid_name>
 Format mkfs.ext4 /dev/sXX
 swapon /dev/sXX
 Base install mount /dev/sXX /mnt

@@ -17,10 +17,10 @@ vim /etc/lilo.conf
 boot=/dev/vda disk=/dev/vda bio=0x80 max-partitions=7 #scrolldown# after # Linux bootable image = /boot/vmlinuz2 initrd = /boot/initrd."><title>💻 Slackware | CSx</title>
 <link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:url" content="https://csmertx.github.io/Linux/Distros/slackware/"><meta property="og:site_name" content="CSx"><meta property="og:title" content="💻 Slackware"><meta property="og:description" content="Slackware as a virtualized system and beyond
 I believe these notes are for Slackware Current (it was before 2022)
-Installation Lilo &amp;amp; Virtio
-Exit installer &amp;gt; Don&amp;rsquo;t reboot..
+Installation Lilo & Virtio
+Exit installer > Don’t reboot..
 cfdisk /dev/vda
-Set bootable &amp;gt; write &amp;gt; exit
+Set bootable > write > exit
 chroot /mnt
 ls /boot
 $KERNEL version here

@@ -5,13 +5,13 @@ Admin Friendly Configuration
 I believe this keeps the console clear of kernel messaging
 GRUB_CMDLINE_LINUX_DEFAULT="... splash quiet loglevel=0 console=ttyS0" For those extra grumpy kernel messages
 echo 1 > /proc/sys/kernel/printk Kernel panics (/boot/intel-ucode.img) First edit kernel param with grub'><title>💻 Grub | CSx</title>
-<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:url" content="https://csmertx.github.io/Linux/Assorted/grub/"><meta property="og:site_name" content="CSx"><meta property="og:title" content="💻 Grub"><meta property="og:description" content="Commonly refered to as Grub
+<link rel=icon type=image/svg+xml href=../../../favicon/favicon.svg><link rel=icon type=image/png sizes=32x32 href=../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../favicon/favicon-16x16.png><meta property="og:url" content="https://csmertx.github.io/Linux/Assorted/grub/"><meta property="og:site_name" content="CSx"><meta property="og:title" content="💻 Grub"><meta property="og:description" content='Commonly refered to as Grub
 Default File sudov /etc/default/grub Really Quiet w/Splash Cursor Off for all tty [1-7]
-GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0 vt.global_cursor_default=0&amp;quot; &amp;hellip; is probably necessary to boot the system
+GRUB_CMDLINE_LINUX_DEFAULT="... splash quiet loglevel=0 console=ttyS0 vt.global_cursor_default=0" … is probably necessary to boot the system
 Admin Friendly Configuration
 I believe this keeps the console clear of kernel messaging
-GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0&amp;quot; For those extra grumpy kernel messages
-echo 1 &amp;gt; /proc/sys/kernel/printk Kernel panics (/boot/intel-ucode.img) First edit kernel param with grub"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Grub"><meta name=twitter:description content='Commonly refered to as Grub
+GRUB_CMDLINE_LINUX_DEFAULT="... splash quiet loglevel=0 console=ttyS0" For those extra grumpy kernel messages
+echo 1 > /proc/sys/kernel/printk Kernel panics (/boot/intel-ucode.img) First edit kernel param with grub'><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 Grub"><meta name=twitter:description content='Commonly refered to as Grub
 Default File sudov /etc/default/grub Really Quiet w/Splash Cursor Off for all tty [1-7]
 GRUB_CMDLINE_LINUX_DEFAULT="... splash quiet loglevel=0 console=ttyS0 vt.global_cursor_default=0" &mldr; is probably necessary to boot the system
 Admin Friendly Configuration
