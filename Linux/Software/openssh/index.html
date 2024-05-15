@@ -20,7 +20,7 @@ vim ssh (create password file)
 gpg --encrypt $HOME/.passcrypt/ssh.gpg
 #!/bin/bash sshpassw="$(gpg -d $HOME/.passcrypt/ssh.gpg |)" sshpass -p $sshpassw ssh user@192.168.254.x See also: fail2ban & iptables
 Copy Files From Remote to local'><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="linux"><meta name=twitter:card content="summary"><meta name=twitter:title content="💻 OpenSSH"><meta name=twitter:description content='Hardening (see also: fail2ban) sudov /etc/ssh/sshd_config
-++ PermitRootLogin no Logs sudo tail -n 50 /var/log/auth.log Basic Local SSH (BAD&ndash;but handy for throw away local VMs) ssh -p 22 user@192.168.254.x
+++ PermitRootLogin no Logs sudo tail -n 50 /var/log/auth.log Basic Local SSH (BAD–but handy for throw away local VMs) ssh -p 22 user@192.168.254.x
 [Enter Password] apt-get install sshpass
 sshpass -p your_password ssh user@192.168.254.x
 Script it
