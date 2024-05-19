@@ -139,8 +139,65 @@ weight: -20
 
 - ```reboot```
 
+## Linux Mint | KDE Plasma Clipboard Emoji Support
+
+- ```apts emoji``` or ```sudo aptitude search emoji```
+
+    - If needed ```apti fonts-noto-color-emoji```
+
+- ```sudov /etc/fonts/local.conf```
+
+```
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+ <alias>
+   <family>sans-serif</family>
+   <prefer>
+     <family>Noto Sans</family>
+     <family>Noto Color Emoji</family>
+     <family>Noto Emoji</family>
+     <family>DejaVu Sans</family>
+   </prefer> 
+ </alias>
+
+ <alias>
+   <family>serif</family>
+   <prefer>
+     <family>Noto Serif</family>
+     <family>Noto Color Emoji</family>
+     <family>Noto Emoji</family>
+     <family>DejaVu Serif</family>
+   </prefer>
+ </alias>
+
+ <alias>
+  <family>monospace</family>
+  <prefer>
+    <family>Noto Mono</family>
+    <family>Noto Color Emoji</family>
+    <family>Noto Emoji</family>
+    <family>DejaVu Sans Mono</family>
+   </prefer>
+ </alias>
+</fontconfig>
+```
+- ```fc-cache```
+
+In a disposable shell prompt
+
+- ```killall plasmashell```
+
+- ```sleep 5```
+
+- ```kstart5 plasmashell &```
+
+Close prompt whenever. Emoji characters should be visible via Plasma clipboard
+
 ## Resources
 
-- [r/kde: Constant CPU usage when sddm-greeter is idle (references: sddm/sddm Issue #323)](https://www.reddit.com/r/kde/comments/u4chnl/constant_cpu_usage_when_sddmgreeter_is_idle/)
+- 🔗 [r/kde | Constant CPU usage when sddm-greeter is idle (references: sddm/sddm Issue #323)](https://www.reddit.com/r/kde/comments/u4chnl/constant_cpu_usage_when_sddmgreeter_is_idle/)
 
-- [GitHub: sddm/sddm - high cpu when sddm-greeter is idle · Issue #323](https://github.com/sddm/sddm/issues/323)
+- 🔗 [GitHub | sddm/sddm - high cpu when sddm-greeter is idle · Issue #323](https://github.com/sddm/sddm/issues/323)
+
+- 🔗 [DEV Community | Get emojis working on arch linux with noto-fonts-emoji](https://dev.to/darksmile92/get-emojis-working-on-arch-linux-with-noto-fonts-emoji-2a9 "DEV Community | Get emojis working on arch linux with noto-fonts-emoji")
