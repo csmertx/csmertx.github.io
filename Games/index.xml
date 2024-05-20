@@ -6,7 +6,9 @@ PROTON_USE_WINED3D=1 %command% Vulcan On (set by default 2022?) Library &amp;gt;
 SET LAUNCH OPTIONS
 +r_renderapi 1 Debug Log per game SET LAUNCH OPTIONS
 DEBUGGER=gdb steam Library &amp;gt; Right click game &amp;gt; Properties
-SET LAUNCH OPTIONS</description></item><item><title>🕹️ Skyrim Special Edition</title><link>https://csmertx.github.io/Games/skyrim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/skyrim/</guid><description>Screen tearing (for slow camera movement) Ubuntu
+SET LAUNCH OPTIONS</description></item><item><title>🕹️ SimCity 4 Deluxe</title><link>https://csmertx.github.io/Games/simcity_4_deluxe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/simcity_4_deluxe/</guid><description>
+Steam Launch Options (Windowed 4K) -intro:off -CustomResolution:enabled -r3840x2160x32 -CPUCount:1 -CPUPriority:high -Cursors:fullcolor For my use it was easier to use an additional display for 🔗 Jellyfin rather than split-screen. Not sure if there is a UI scaling either. YMMV
+Resources 🔗 Steam Community | SimCity 4 Deluxe General Discussions | UPDATED GUIDE: Launching SC4 Deluxe (Including UHD Support)</description></item><item><title>🕹️ Skyrim Special Edition</title><link>https://csmertx.github.io/Games/skyrim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/skyrim/</guid><description>Screen tearing (for slow camera movement) Ubuntu
 vim &amp;quot;/home/user/.steam/debian-installation/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini&amp;quot; Custom Steam games location
 vim &amp;quot;.../SteamLibrary/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini&amp;quot; Add iPresentInterval=0 as the last entry in [Display]
 [Display] ... ++ iPresentInterval=0 Mouse Acceleration (for slow mouse movement) Ubuntu
