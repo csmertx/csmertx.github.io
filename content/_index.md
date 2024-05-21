@@ -22,25 +22,21 @@ _Parental advisory for Day & Night, and Music blog: Uncouth language, personal s
 
 <hr />
 
-#### How to block this website: 🔗 [[1]](https://www.digitaltrends.com/computing/how-to-block-a-website/ "Digital Trends \ How to Block a Website"), 🔗 [[2]](https://www.lifewire.com/how-to-block-a-website-4177078 "Lifewire \ How to Block a Website"), 🔗 [[3]](https://www.wired.com/story/how-to-block-websites-chrome-firefox-ios-android/ "Wired \ How to Block Bad Websites—or Just Get Things Done")
+#### How to block this website: 🔗 [[1]](https://www.digitaltrends.com/computing/how-to-block-a-website/ "Digital Trends \ How to Block a Website") 🔗 [[2]](https://www.lifewire.com/how-to-block-a-website-4177078 "Lifewire \ How to Block a Website") 🔗 [[3]](https://www.wired.com/story/how-to-block-websites-chrome-firefox-ios-android/ "Wired \ How to Block Bad Websites—or Just Get Things Done")
 
-</div>
 
 <br />
+<br />
 
-<center>
+<div style="text-align: center;">
 
 Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_science "Wikipedia \ Computer Science") 🔗 [hobbist](/About/csmertx "About \ Csmertx (Chris Schammert)" ) and occasional PC gamer.
 
-</center>
-
 <br />
-
-<center> 
 
 The image above leads to the main navigation page labelled [🔗 Notes](pad "Click here to Enter the Navigation Page").
 
-</center>
+</div>
 
 
 
