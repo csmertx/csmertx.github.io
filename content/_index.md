@@ -12,7 +12,6 @@ geekdocAnchor: false
 [![crs](/crs_256x256_silver.png "Click here to Enter the Navigation Page")](pad)
 
 <br />
-<br />
 
 </div>
 
@@ -24,15 +23,11 @@ _Parental advisory for Day & Night, and Music blog: Uncouth language, personal s
 
 {{< /expand >}}
 
-<br />
-
 <div style="text-align: center;">
 
 Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_science "Wikipedia \ Computer Science") 🔗 [hobbyist](/About/csmertx "About \ Csmertx (Chris Schammert)" ) and occasional PC gamer.
 
 </div>
-
-<br />
 
 <div style="text-align: center;">
 
@@ -44,13 +39,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 <u>August 11, 2022</u> - 🔗 [Day & Night Blog \ The day a soccer goal chose violence](/Blog/daynight/2022/0822#the-day-a-soccer-goal-chose-violence "Day & Night Blog \ August 2022")
 
-<br />
-
-## Recently Modified
-
-<br />
-
-### -\ Rolling Blogs \\-
+## -\ Rolling Blogs \\-
 
 <u>May 23, 2024</u> - 🔗 [Day & Night Blog \ There are four lights.](/Blog/daynight/2024/0524#there-are-four-lights "Day & Night Blog \ May 2024")
 
@@ -60,9 +49,8 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 <u>May 17, 2024</u> - 🔗 [Day & Night Blog \ Power Metal](/Blog/daynight/2024/0524#power-metal "Day & Night Blog \ May 2024")
 
-<br />
 
-### -\ Recent Notes \\-
+## -\ Recent Notes \\-
 
 <u>May 19, 2024</u> - 🔗 [SimCity 4 Deluxe \ Windowed 4K](/Games/simcity_4_deluxe#steam-launch-options-windowed-4k "SimCity 4 Deluxe")
 
