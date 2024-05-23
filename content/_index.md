@@ -9,7 +9,7 @@ geekdocAnchor: false
 
 <div style="text-align: center;">
 
-[![crs](/crs_256x256_silver.png "Click here to Enter the Navigation Page")](pad)
+[![crs](/crs_128x128_silver.png "Click here to Enter the Navigation Page")](pad)
 
 <br />
 
