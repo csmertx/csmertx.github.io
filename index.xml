@@ -1039,10 +1039,10 @@ wifis: wlan0: option: true access-points: &amp;#34;WiFi SSID&amp;#34;: password:
 reboot
 Installing packages sudo apt install openssh-server wireless-tools net-tools
 reboot
-sudo apt update &amp;amp;&amp;amp; sudo apt upgrade</description></item><item><title>🧑 csmertx</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>Christopher Roy Schammert | aka: Chris/Sharky
-📷 @csmertx | 🇫 @cschammert | 🎙️ TheRealCSmertX | 🐦 @csmertx | 🦣 @mertx3000
+sudo apt update &amp;amp;&amp;amp; sudo apt upgrade</description></item><item><title>🧑 csmertx</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>Christopher Roy Schammert | aka: Chris/Sharky (Bermuda, Military Housing, 1987)
+@csmertx \ @cschammert \ @TheRealCSmertX \ @csmertx \ @mertx3000
 📧 csmertx@pm.me
 CSx: Csmertx CSx is a hobby website with a little bin of fun mixed in with a little bit of documentation.
-Likes: Pork Cutlets
+Likes: 🔗 Pork Cutlet Bowl
 Donation Button Clarification The donation button for this website redirects to the 🔗 Wounded Warrior Project
 This website is not an affiliated with the Wounded Warrior Project</description></item></channel></rss>
