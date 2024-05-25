@@ -9,13 +9,13 @@ weight: -20
 
 <div style="text-align: center;">
 
-![CRS](/crs_shell_elementary_90s_blur_512x512.png "Lil Csmertx")
+![CRS](/csmertx_chris_schammert_bermuda_1987.png "Lil Csmertx")
 
-> Christopher Roy Schammert | aka: Chris/Sharky
+> Christopher Roy Schammert | aka: Chris/Sharky (Bermuda, Military Housing, 1987)
 
-> [📷 @csmertx](https://www.instagram.com/csmertx "Instagram | @csmertx") | [🇫 @cschammert](https://facebook.com/@cschammert "Facebook | @cschammert") | 🎙️ [TheRealCSmertX](https://archive.org/details/@archiveuser4193kxhm "Archive.org | TheRealCSmertX") | [🐦 @csmertx](https://twitter.com/@csmertx "Twitter | @csmertx") | [🦣 @mertx3000](https://mastodon.social/@mertx3000 "Mastodon.social | @mertx3000")
+> ![Instagram Icon](/About/Instagram_icon_14x14.png "Instagram Icon")[ @csmertx](https://www.instagram.com/csmertx "Instagram | @csmertx") \ ![Facebook Icon](/About/Facebook_F_icon_14x14.png "Facebook Icon")[ @cschammert](https://facebook.com/@cschammert "Facebook | @cschammert") \ ![Archive.org Icon](/About/Archive-org.001-1185389304_icon_14x14.jpg "Archive.org Icon") [ @TheRealCSmertX](https://archive.org/details/@archiveuser4193kxhm "Archive.org | TheRealCSmertX") \ ![Twitter Icon](/About/Twitter_icon_14x14.png "Twitter Icon")[ @csmertx](https://twitter.com/@csmertx "Twitter | @csmertx") \ ![Mastodon.Social Icon](/About/Mastodon_Logotype_(Simple)_14x14.png "Mastodon.Social Icon")[ @mertx3000](https://mastodon.social/@mertx3000 "Mastodon.social | @mertx3000")
 
-[📧 csmertx@pm.me](mailto:csmertx@pm.me "Proton Mail email address | @csmertx")
+[📧 csmertx@pm.me](mailto:csmertx@pm.me "Proton Mail email address | @csmertx - Anytime.")
 
 </div>
 
@@ -23,11 +23,11 @@ weight: -20
 
 > CSx is a hobby website with a little bin of fun mixed in with a little bit of documentation.
 
-> Likes: Pork Cutlets
+> Likes: 🔗 [Pork Cutlet Bowl](https://www.youtube.com/watch?v=n-R5R59jiys "YouTube \ Deku's Katsudon from My Hero Academia - MIDORIYA'S FAVOURITE FOOD!?")
 
 ## Donation Button Clarification
 
-The donation button for this website redirects to the 🔗 [Wounded Warrior Project](https://www.woundedwarriorproject.org/)
+The donation button for this website redirects to the 🔗 [Wounded Warrior Project](https://www.woundedwarriorproject.org/ "Wounded Warrior Project.org")
 
 > *This website is not an affiliated with the Wounded Warrior Project*
 
