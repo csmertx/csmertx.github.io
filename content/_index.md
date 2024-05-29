@@ -41,6 +41,8 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 ## -\ Rolling Blogs \\-
 
+<u>May 29, 2024</u> - 🔗 [Music Blog \ French 79 - Burning Legend (Official Video) (Teenagers)](/Blog/music/2024/0524#french-79---burning-legend-official-video-teenagers "Music Blog \ May 2024")
+
 <u>May 28, 2024</u> - 🔗 [Music Blog \ The Rosebuds - Boxcar (Birds Make Good Neighbors)](/Blog/music/2024/0524#the-rosebuds---boxcar-birds-make-good-neighbors "Music Blog \ May 2024")
 
 <u>May 24, 2024</u> - 🔗 [Day & Night BLog \ The Kulturkampf was the beginning.](/Blog/daynight/2024/0524#the-kulturkampf-was-the-beginning)
@@ -48,8 +50,6 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 <u>May 23, 2024</u> - 🔗 [Day & Night Blog \ There are four lights.](/Blog/daynight/2024/0524#there-are-four-lights "Day & Night Blog \ May 2024")
 
 <u>May 20, 2024</u> - 🔗 [Music Blog \ Death Grips - Lord of the Game ft. Mexican Girl (Leeside Skatepark Video) (Exmilitary)](/Blog/music/2024/0524#death-grips---lord-of-the-game-ft-mexican-girl-leeside-skatepark-video-exmilitary "Music Blog \ May 2024")
-
-<u>May 18, 2024</u> - 🔗 [Music Blog \ Kenshi Yonezu - Flamingo (Official Video) (Stray Sheep)](/Blog/music/2024/0524#kenshi-yonezu---flamingo-official-video-stray-sheep "Music Blog \ May 2024")
 
 ## -\ Recent Notes \\-
 
