@@ -6,9 +6,11 @@ weight: -20
 
 <br />
 
-## Notes Authenticator Down
+## This is my [CRS](https://www.urbandictionary.com/define.php?term=CRS "Urbandictionary.com / CRS (Can't Remember Shit)") site. There are many like it, but this one is mine.
 
-Some of these notes may be out of date (i.e. Arch Linux).
+Some of the pages for example 🔗 [NetBSD](/Unix/NetBSD/netbsd) are a snapshot of my observations from 2018. Please refer to project documentation before wantonly copying and pasting from this website. Sources cited at the bottom of each page. Thank you.
+
+> New to Linux? Check out these newbie friendly 🔗 [websites](/About/csmertx#recommended-linux-websites)
 
 {{< expand "Tap for Mobile Navigation Guide" "⬇" >}}
 
