@@ -976,11 +976,9 @@ sudo systemctl enable input-remapper
 sudo systemctl start input-remapper
 Apply presets &amp;amp; make sure Autoload is toggled
 Copy/Paste with Tmux, Refresh, and Undo (how I have mine configured) FN1 -&amp;gt; Shift + Ctrl + v
-FN2 -&amp;gt; F5</description></item><item><title>🗒️ No Ads. No Tracking.</title><link>https://csmertx.github.io/pad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/pad/</guid><description>Notes Authenticator Down Some of these notes may be out of date (i.e. Arch Linux).
-Tap for Mobile Navigation Guide ⬇ Tap the top left hamburger for categories.
-Tap the top right &amp;lt; to access light theme.
-Tap the bottom right &amp;ldquo;^Top&amp;rdquo; to return to the top of the page.
-Tap the top left search bar to search through both the note titles (or subtitles) and the contents of the notes.</description></item><item><title>🛠️ Casting Silicone (2020)</title><link>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</guid><description>Supplies delivered: March 3, 2020
+FN2 -&amp;gt; F5</description></item><item><title>🗒️ No Ads. No Tracking.</title><link>https://csmertx.github.io/pad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/pad/</guid><description>This is my CRS site. There are many like it, but this one is mine. Some of the pages for example 🔗 NetBSD are a snapshot of my observations from 2018. Please refer to project documentation before wantonly copying and pasting from this website. Sources cited at the bottom of each page. Thank you.
+New to Linux? Check out these newbie friendly 🔗 websites
+Tap for Mobile Navigation Guide ⬇ Tap the top left hamburger for categories.</description></item><item><title>🛠️ Casting Silicone (2020)</title><link>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</guid><description>Supplies delivered: March 3, 2020
 I&amp;rsquo;ll try my best to keep these posts to the point and to not go crazy with the details. At the end of 2020 I stumbled in to some remote contract work. This job required the use of a keyboard, and a lot of typing. Instead of spending time and money on future RSI surgeries, I decided to get an urklenomic keyboard. The problem with the keyboard I bought (aside from the price tag) was that my wrists would go numb after four hours.</description></item><item><title>🛠️ Convert STL to Step</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</guid><description>Entry added before 2022
 Center model
 Select .stl
