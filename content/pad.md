@@ -6,7 +6,7 @@ weight: -20
 
 <br />
 
-## This is my [ CRS ](https://www.urbandictionary.com/define.php?term=CRS "Urbandictionary.com / CRS (Can't Remember Shit)") site. There are many like it, but this one is mine.
+## This is my CRS site. There are many like it, but this one is mine.
 
 Some of the pages for example 🔗 [NetBSD](/Unix/NetBSD/netbsd) are a snapshot of my observations from 2018. Please refer to project documentation before wantonly copying and pasting from this website. Sources cited at the bottom of each page. Thank you.
 
