@@ -29,8 +29,6 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 </div>
 
-<center>
-
 | Date | Pinned Blog Entries |
 |:---- | :------------------ |
 |Mar 03, 2024 | 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story)|
@@ -54,6 +52,8 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 |Apr 21, 2024 | 🔗 [FFmpeg \ GIF with subtitles (so-so quality)](/Linux/Software/ffmpeg#gif-with-subtitles-so-so-quality "FFmpeg")|
 
 <br />
+
+<center>
 
 The image above leads to the main navigation [🔗 page](pad "Click here for the Navigation Page").
 
