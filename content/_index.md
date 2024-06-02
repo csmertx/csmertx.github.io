@@ -33,13 +33,13 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Pinned Blog Entries |
 |:---- | :------------------ |
-|Mar 3, 2024 | 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story)|
-|May 3, 2024 | 🔗 [Day & Night Blog \ Chris Schammert](/Blog/daynight/2024/0524#chris-schammert "Day & Night Blog \ May 2024") (since 1984)|
+|Mar 03, 2024 | 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story)|
+|May 03, 2024 | 🔗 [Day & Night Blog \ Chris Schammert](/Blog/daynight/2024/0524#chris-schammert "Day & Night Blog \ May 2024") (since 1984)|
 |Aug 11, 2022 | 🔗 [Day & Night Blog \ The day a soccer goal chose violence](/Blog/daynight/2022/0822#the-day-a-soccer-goal-chose-violence "Day & Night Blog \ August 2022")|
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
-|Jun 2, 2024 | 🔗 [Music Blog \ The Beatles - Yellow Submarine (Official Video) (Revolver)](/Blog/music/2024/0624#the-beatles---yellow-submarine-official-video-revolver "Music Blog \ June 2024")|
+|Jun 02, 2024 | 🔗 [Music Blog \ The Beatles - Yellow Submarine (Official Video) (Revolver)](/Blog/music/2024/0624#the-beatles---yellow-submarine-official-video-revolver "Music Blog \ June 2024")|
 |May 29, 2024 | 🔗 [Music Blog \ French 79 - Burning Legend (Official Video) (Teenagers)](/Blog/music/2024/0524#french-79---burning-legend-official-video-teenagers "Music Blog \ May 2024") |
 |May 28, 2024 | 🔗 [Music Blog \ The Rosebuds - Boxcar (Birds Make Good Neighbors)](/Blog/music/2024/0524#the-rosebuds---boxcar-birds-make-good-neighbors "Music Blog \ May 2024") |
 |May 24, 2024 | 🔗 [Day & Night BLog \ The Kulturkampf was the beginning.](/Blog/daynight/2024/0524#the-kulturkampf-was-the-beginning)|
