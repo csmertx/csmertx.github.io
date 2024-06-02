@@ -55,9 +55,9 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 |:------- | :----------------------------------------------------- |
 |May 19, 2024 | 🔗 [SimCity 4 Deluxe \ Windowed 4K](/Games/simcity_4_deluxe#steam-launch-options-windowed-4k "SimCity 4 Deluxe")|
 |May 17, 2024 | 🔗 [KDE Plasma \ Linux Mint \ KDE Plasma Clipboard Emoji Support](/Linux/DEs/kde_plasma#linux-mint--kde-plasma-clipboard-emoji-support "KDE Plasma")|
-|April 22, 2024 | 🔗 [Trackballs / Elecom HUGE trackball FN Buttons](/Linux/Devices/trackball_scrolling#elecom-huge-trackball-fn-buttons "Trackballs")|
-|April 22, 2024 | 🔗 [Sed / Add line numbers to the beginning of each line](/Linux/Code/sed#add-line-numbers-to-the-beginning-of-each-line "Sed")|
-|April 21, 2024 | 🔗 [FFmpeg / GIF with subtitles (so-so quality)](/Linux/Software/ffmpeg#gif-with-subtitles-so-so-quality "FFmpeg")|
+|April 22, 2024 | 🔗 [Trackballs \ Elecom HUGE trackball FN Buttons](/Linux/Devices/trackball_scrolling#elecom-huge-trackball-fn-buttons "Trackballs")|
+|April 22, 2024 | 🔗 [Sed \ Add line numbers to the beginning of each line](/Linux/Code/sed#add-line-numbers-to-the-beginning-of-each-line "Sed")|
+|April 21, 2024 | 🔗 [FFmpeg \ GIF with subtitles (so-so quality)](/Linux/Software/ffmpeg#gif-with-subtitles-so-so-quality "FFmpeg")|
 
 <br />
 
