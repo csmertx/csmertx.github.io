@@ -31,7 +31,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 <div style="text-align: center;">
 
-## -\ Pinned \\-
+## - Pinned -
 
 <u>March 3, 2024</u> - 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story)
 
@@ -39,7 +39,9 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 <u>August 11, 2022</u> - 🔗 [Day & Night Blog \ The day a soccer goal chose violence](/Blog/daynight/2022/0822#the-day-a-soccer-goal-chose-violence "Day & Night Blog \ August 2022")
 
-## -\ Rolling Blogs \\-
+## - Rolling Blogs -
+
+<u>June 2, 2024</u> - 🔗 [Music Blog \ The Beatles - Yellow Submarine (Official Video) (Revolver)](/Blog/music/2024/0624#the-beatles---yellow-submarine-official-video-revolver "Music Blog \ June 2024")
 
 <u>May 29, 2024</u> - 🔗 [Music Blog \ French 79 - Burning Legend (Official Video) (Teenagers)](/Blog/music/2024/0524#french-79---burning-legend-official-video-teenagers "Music Blog \ May 2024")
 
@@ -49,9 +51,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 <u>May 23, 2024</u> - 🔗 [Day & Night Blog \ There are four lights.](/Blog/daynight/2024/0524#there-are-four-lights "Day & Night Blog \ May 2024")
 
-<u>May 20, 2024</u> - 🔗 [Music Blog \ Death Grips - Lord of the Game ft. Mexican Girl (Leeside Skatepark Video) (Exmilitary)](/Blog/music/2024/0524#death-grips---lord-of-the-game-ft-mexican-girl-leeside-skatepark-video-exmilitary "Music Blog \ May 2024")
-
-## -\ Recent Notes \\-
+## - Recent PC Stuff -
 
 <u>May 19, 2024</u> - 🔗 [SimCity 4 Deluxe \ Windowed 4K](/Games/simcity_4_deluxe#steam-launch-options-windowed-4k "SimCity 4 Deluxe")
 
