@@ -53,11 +53,11 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 <br />
 
-<center>
+<div style="text-align: center;">
 
 The image above leads to the main navigation [🔗 page](pad "Click here for the Navigation Page").
 
-</center>
+</div>
 
 
 <!-- This website comprises a patchwork of notes written over my 10+ years with Linux (+2 served apps). I also poked at DOS prompts as a youth (1988) before my high school typing and web design classes (1999-2001). Due to the rolling nature of open source and or free software, the notes may not align with the current timeline of the subject's software documentation. I mostly focus my efforts on edge cases as I find them. On top of that I have included a life story blog, and a music blog, which may appeal to a broader audience. The warning above is mostly for music lyrics, some life stories, and my occasional use of profanity. I was raised on a mixture of English dialects via family brought together by the U.S. Navy--hopefully my attempt at college English will improve with time. I accept pull requests and emails. No worries about time of day or night. I capitalize on Don't Disturb Modes, so anytime is a good time. My use of an Orca illustration is merely for entertainment purposes. The depiction of an Orca is not meant as a personal attack towards anyone, nor is it a prelude into a new Linux OS. Glory to the maintainers! And thank you for checking the source! -->
