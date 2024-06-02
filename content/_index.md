@@ -33,13 +33,13 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Pinned Blog Entries |
 |:---- | :------------------ |
-|March 3, 2024 | 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story)|
+|Mar 3, 2024 | 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story)|
 |May 3, 2024 | 🔗 [Day & Night Blog \ Chris Schammert](/Blog/daynight/2024/0524#chris-schammert "Day & Night Blog \ May 2024") (since 1984)|
-|August 11, 2022 | 🔗 [Day & Night Blog \ The day a soccer goal chose violence](/Blog/daynight/2022/0822#the-day-a-soccer-goal-chose-violence "Day & Night Blog \ August 2022")|
+|Aug 11, 2022 | 🔗 [Day & Night Blog \ The day a soccer goal chose violence](/Blog/daynight/2022/0822#the-day-a-soccer-goal-chose-violence "Day & Night Blog \ August 2022")|
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
-|June 2, 2024 | 🔗 [Music Blog \ The Beatles - Yellow Submarine (Official Video) (Revolver)](/Blog/music/2024/0624#the-beatles---yellow-submarine-official-video-revolver "Music Blog \ June 2024")|
+|Jun 2, 2024 | 🔗 [Music Blog \ The Beatles - Yellow Submarine (Official Video) (Revolver)](/Blog/music/2024/0624#the-beatles---yellow-submarine-official-video-revolver "Music Blog \ June 2024")|
 |May 29, 2024 | 🔗 [Music Blog \ French 79 - Burning Legend (Official Video) (Teenagers)](/Blog/music/2024/0524#french-79---burning-legend-official-video-teenagers "Music Blog \ May 2024") |
 |May 28, 2024 | 🔗 [Music Blog \ The Rosebuds - Boxcar (Birds Make Good Neighbors)](/Blog/music/2024/0524#the-rosebuds---boxcar-birds-make-good-neighbors "Music Blog \ May 2024") |
 |May 24, 2024 | 🔗 [Day & Night BLog \ The Kulturkampf was the beginning.](/Blog/daynight/2024/0524#the-kulturkampf-was-the-beginning)|
@@ -49,9 +49,9 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 |:---- | :-------------------------- |
 |May 19, 2024 | 🔗 [SimCity 4 Deluxe \ Windowed 4K](/Games/simcity_4_deluxe#steam-launch-options-windowed-4k "SimCity 4 Deluxe")|
 |May 17, 2024 | 🔗 [KDE Plasma \ Linux Mint \ KDE Plasma Clipboard Emoji Support](/Linux/DEs/kde_plasma#linux-mint--kde-plasma-clipboard-emoji-support "KDE Plasma")|
-|April 22, 2024 | 🔗 [Trackballs \ Elecom HUGE trackball FN Buttons](/Linux/Devices/trackball_scrolling#elecom-huge-trackball-fn-buttons "Trackballs")|
-|April 22, 2024 | 🔗 [Sed \ Add line numbers to the beginning of each line](/Linux/Code/sed#add-line-numbers-to-the-beginning-of-each-line "Sed")|
-|April 21, 2024 | 🔗 [FFmpeg \ GIF with subtitles (so-so quality)](/Linux/Software/ffmpeg#gif-with-subtitles-so-so-quality "FFmpeg")|
+|Apr 22, 2024 | 🔗 [Trackballs \ Elecom HUGE trackball FN Buttons](/Linux/Devices/trackball_scrolling#elecom-huge-trackball-fn-buttons "Trackballs")|
+|Apr 22, 2024 | 🔗 [Sed \ Add line numbers to the beginning of each line](/Linux/Code/sed#add-line-numbers-to-the-beginning-of-each-line "Sed")|
+|Apr 21, 2024 | 🔗 [FFmpeg \ GIF with subtitles (so-so quality)](/Linux/Software/ffmpeg#gif-with-subtitles-so-so-quality "FFmpeg")|
 
 <br />
 
