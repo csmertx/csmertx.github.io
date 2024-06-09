@@ -40,7 +40,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 |Jun 02, 2024 | 🔗 [Music Blog \ The Beatles - Yellow Submarine (Official Video) (Revolver)](/Blog/music/2024/0624#the-beatles---yellow-submarine-official-video-revolver "Music Blog \ June 2024")|
 |May 29, 2024 | 🔗 [Music Blog \ French 79 - Burning Legend (Official Video) (Teenagers)](/Blog/music/2024/0524#french-79---burning-legend-official-video-teenagers "Music Blog \ May 2024") |
 |May 28, 2024 | 🔗 [Music Blog \ The Rosebuds - Boxcar (Birds Make Good Neighbors)](/Blog/music/2024/0524#the-rosebuds---boxcar-birds-make-good-neighbors "Music Blog \ May 2024") |
-|May 24, 2024 | 🔗 [Day & Night BLog \ The Kulturkampf was the beginning.](/Blog/daynight/2024/0524#the-kulturkampf-was-the-beginning)|
+|May 24, 2024 | 🔗 [Day & Night Blog \ The Kulturkampf was the beginning.](/Blog/daynight/2024/0524#the-kulturkampf-was-the-beginning)|
 |May 23, 2024 | 🔗 [Day & Night Blog \ There are four lights.](/Blog/daynight/2024/0524#there-are-four-lights "Day & Night Blog \ May 2024")|
 
 | Date | Recent Computer Scribblings |
