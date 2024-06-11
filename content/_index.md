@@ -31,6 +31,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Pinned Blog Entries |
 |:---- | :------------------ |
+|Jun 10, 2024 | 🔗 [Day & Night Blog \ Hiding Spot](/Blog/daynight/2024/0624#hiding-spot "Day & Night Blog \ June 2024")|
 |Mar 03, 2024 | 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story)|
 |May 03, 2024 | 🔗 [Day & Night Blog \ Chris Schammert](/Blog/daynight/2024/0524#chris-schammert "Day & Night Blog \ May 2024") (since 1984)|
 |Aug 11, 2022 | 🔗 [Day & Night Blog \ The day a soccer goal chose violence](/Blog/daynight/2022/0822#the-day-a-soccer-goal-chose-violence "Day & Night Blog \ August 2022")|
