@@ -38,6 +38,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Jun 16, 2024 | 🔗 [Music Blog \ Sage Francis - Escape Artist (Official Video) (A Healthy Distrust)](/Blog/music/2024/0624#sage-francis---escape-artist-official-video-a-healthy-distrust "Music Blog \ June 2024")|
 |Jun 02, 2024 | 🔗 [Music Blog \ The Beatles - Yellow Submarine (Official Video) (Revolver)](/Blog/music/2024/0624#the-beatles---yellow-submarine-official-video-revolver "Music Blog \ June 2024")|
 |May 29, 2024 | 🔗 [Music Blog \ French 79 - Burning Legend (Official Video) (Teenagers)](/Blog/music/2024/0524#french-79---burning-legend-official-video-teenagers "Music Blog \ May 2024") |
 |May 28, 2024 | 🔗 [Music Blog \ The Rosebuds - Boxcar (Birds Make Good Neighbors)](/Blog/music/2024/0524#the-rosebuds---boxcar-birds-make-good-neighbors "Music Blog \ May 2024") |
@@ -51,6 +52,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 |Apr 22, 2024 | 🔗 [Trackballs \ Elecom HUGE trackball FN Buttons](/Linux/Devices/trackball_scrolling#elecom-huge-trackball-fn-buttons "Trackballs")|
 |Apr 22, 2024 | 🔗 [Sed \ Add line numbers to the beginning of each line](/Linux/Code/sed#add-line-numbers-to-the-beginning-of-each-line "Sed")|
 |Apr 21, 2024 | 🔗 [FFmpeg \ GIF with subtitles (so-so quality)](/Linux/Software/ffmpeg#gif-with-subtitles-so-so-quality "FFmpeg")|
+|Apr 17, 2024 | 🔗 [Hugo \ Google Search Console verification (URL prefix) and Github Pages](/Web/hugo#google-search-console-verification-url-prefix-and-github-pages "Hugo")|
 
 <br />
 
