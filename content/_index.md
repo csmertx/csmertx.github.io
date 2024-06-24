@@ -31,13 +31,14 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Pinned Blog Entries |
 |:---- | :------------------ |
-|Jun 10, 2024 | 🔗 [Day & Night Blog \ Hiding Spot](/Blog/daynight/2024/0624#hiding-spot "Day & Night Blog \ June 2024")|
 |Mar 03, 2024 | 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story)|
 |May 03, 2024 | 🔗 [Day & Night Blog \ Chris Schammert](/Blog/daynight/2024/0524#chris-schammert "Day & Night Blog \ May 2024") (since 1984)|
+|Jun 10, 2024 | 🔗 [Day & Night Blog \ Hiding Spot](/Blog/daynight/2024/0624#hiding-spot "Day & Night Blog \ June 2024")|
 |Aug 11, 2022 | 🔗 [Day & Night Blog \ The day a soccer goal chose violence](/Blog/daynight/2022/0822#the-day-a-soccer-goal-chose-violence "Day & Night Blog \ August 2022")|
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Jun 24, 2024 | 🔗 [Music Blog \  Evanescence - Bring Me To Life (moshibass Edition) (Fallen)](/Blog/music/2024/0624#evanescence---bring-me-to-life-moshibass-edition-fallen "Music Blog \ June 2024")|
 |Jun 17, 2024 | 🔗 [Music Blog \ Me First and the Gimme Gimmes - My Favorite Things (Are a Drag)](/Blog/music/2024/0624#me-first-and-the-gimme-gimmes---favorite-things-are-a-drag "Music Blog \ June 2024")|
 |Jun 16, 2024 | 🔗 [Music Blog \ Sage Francis - Escape Artist (Official Video) (A Healthy Distrust)](/Blog/music/2024/0624#sage-francis---escape-artist-official-video-a-healthy-distrust "Music Blog \ June 2024")|
 |Jun 02, 2024 | 🔗 [Music Blog \ The Beatles - Yellow Submarine (Official Video) (Revolver)](/Blog/music/2024/0624#the-beatles---yellow-submarine-official-video-revolver "Music Blog \ June 2024")|
@@ -55,6 +56,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 |Apr 21, 2024 | 🔗 [FFmpeg \ GIF with subtitles (so-so quality)](/Linux/Software/ffmpeg#gif-with-subtitles-so-so-quality "FFmpeg")|
 |Apr 17, 2024 | 🔗 [Hugo \ Google Search Console verification (URL prefix) and Github Pages](/Web/hugo#google-search-console-verification-url-prefix-and-github-pages "Hugo")|
 |Apr 12, 2024 | 🔗 [Kinesis Advantage 2 Modding](/Blog/stuff/2024/kinesis_advantage2 "Kinesis Advantage 2 Modding")|
+|Mar 24, 2024 | 🔗 [Steam \ Proton (Linux) \ Right click menu not working](/Games/steam_proton#right-click-menu-not-working "Steam \ Proton (Linux)")|
 
 <br />
 
