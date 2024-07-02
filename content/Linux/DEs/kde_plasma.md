@@ -1,11 +1,19 @@
 ---
 title: 💻 Plasma (KDE)
 author: Chris Schammert (csmertx)
-date: February 6, 2023
+date: July 2, 2024
 weight: -20
 ---
 
 <br />
+
+## Exclude firmware updates
+
+- Discover (KDE Software Center) > Settings > Uncheck: ```vendor-directory - Vendor (Automatic)```
+
+- Lenovo X270 BIOS (firmware) 1.50+ update incompatible with aftermarket batteries. Also mentioned 🔗 [here](/Windows_and_DOS/win_dos_vm#windows-activation-in-vm "Windows and DOS VMs / Windows Activation in VM")
+
+    - Link above includes BIOS rollback procedure (_confirmed as of January 9th, 2024_). Batteries will charge again.
 
 ## SDDM High CPU Usage (25% +)
 

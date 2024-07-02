@@ -13,7 +13,7 @@ Extract Windows 10 RTM OEM serial number (Ubuntu + flavors)
 
 > Windows 10 RTM OEM | Verified via: Thinkpad X270, Lenovo M73, and Thinkpad X1 Extreme G2
 
-> <b><i>Thinkpad X270 users</i></b>: BIOS 1.50 is 🔗[not compatible](https://techfixify.com/how-to-roll-back-bios-update-lenovo/#How_To_Roll_Back_BIOS_Update_Lenovo_Step-By-Step "Techfixify | How To Roll Back BIOS Update Lenovo? (Easy)") with aftermarket batteries (🔗[1.47](https://pcsupport.lenovo.com/us/en/downloads/ds120442-bios-update-utility-bootable-cd-for-windows-10-81-7-64-bit-7-32-bit-thinkpad-x270 "Lenovo Support US | BIOS Update (Utility & Bootable CD) for Windows 10, 8.1, 7 (64-bit), 7 (32-bit) - ThinkPad X270") is fine)
+> <b><i>Thinkpad X270 users</i></b>: BIOS 1.50 is 🔗[not compatible (drain but no charge)](https://techfixify.com/how-to-roll-back-bios-update-lenovo/#How_To_Roll_Back_BIOS_Update_Lenovo_Step-By-Step "Techfixify | How To Roll Back BIOS Update Lenovo? (Easy)") with aftermarket batteries (🔗[1.47](https://pcsupport.lenovo.com/us/en/downloads/ds120442-bios-update-utility-bootable-cd-for-windows-10-81-7-64-bit-7-32-bit-thinkpad-x270 "Lenovo Support US | BIOS Update (Utility & Bootable CD) for Windows 10, 8.1, 7 (64-bit), 7 (32-bit) - ThinkPad X270") is fine)
 
 - ```sudo cat /sys/firmware/acpi/tables/MSDM > SLIC.dat```
 
