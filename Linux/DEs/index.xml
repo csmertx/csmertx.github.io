@@ -8,17 +8,12 @@ Gnome tweak-tool (post 3.6?)
 apti gnome-tweaks Autostart (all desktop environments) mkdir $HOME/.config/autostart
 touch $HOME/.config/autostart/clipit.desktop
 Center Windows ALT + F2 and dconf-editor
-org &amp;gt; gnome &amp;gt; mutter &amp;gt; center-new-windows Swap Left Win key for Right Win key Win key or Super key. Whatever you like to call it.</description></item><item><title>💻 Plasma (KDE)</title><link>https://csmertx.github.io/Linux/DEs/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/kde_plasma/</guid><description>SDDM High CPU Usage (25% +) sudov /etc/security/pam_env.conf
+org &amp;gt; gnome &amp;gt; mutter &amp;gt; center-new-windows Swap Left Win key for Right Win key Win key or Super key. Whatever you like to call it.</description></item><item><title>💻 Plasma (KDE)</title><link>https://csmertx.github.io/Linux/DEs/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/kde_plasma/</guid><description>Exclude firmware updates Discover (KDE Software Center) &amp;gt; Settings &amp;gt; Uncheck: vendor-directory - Vendor (Automatic)
+Lenovo X270 BIOS (firmware) 1.50+ update incompatible with aftermarket batteries. Also mentioned 🔗 here
+Link above includes BIOS rollback procedure (confirmed as of January 9th, 2024). Batteries will charge again. SDDM High CPU Usage (25% +) sudov /etc/security/pam_env.conf
 ... ++ QT_QUICK_BACKEND DEFAULT=software Disable File Indexer baloo_file balooctl disable
 pause with: balooctl suspend
-Breeze SDDM theme background When GUI selection does not represent selection
-sudo mkdir /usr/share/backgrounds/new_folder
-cp /folder/image.jpg /usr/share/backgrounds/new_folder/image.jpg
-sudov /usr/share/sddm/themes/breeze/theme.conf.user
-++ background=/usr/share/backgrounds/new_folder/image.jpg Logout &amp;amp; login
-Time set to 24 hours instead of 12 hours in SDDM Solution to change SDDM time display to 12 hours
-sudov /etc/locale.conf
-++ LANG=en_US.</description></item><item><title>💻 Xfce</title><link>https://csmertx.github.io/Linux/DEs/xfce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/xfce/</guid><description>Originally known as: XForms Common Environment
+Breeze SDDM theme background When GUI selection does not represent selection</description></item><item><title>💻 Xfce</title><link>https://csmertx.github.io/Linux/DEs/xfce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/xfce/</guid><description>Originally known as: XForms Common Environment
 Notification Theme via /usr/bin/xfce4-notifyd-config Whisker Menu Animated Icon Xfce forums / Desktop / Change start menu icon on mouseover or click Whisker Catfish menu search Read more about catfish
 Requires updatedb
 Database exposes files to all users

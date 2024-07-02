@@ -577,17 +577,12 @@ Create a patch diff -u original/code.c modified/code.c &amp;gt; code.patch Test 
 Print Nth instance of match perl -lne 'print $1 if /Today:(.*)/' &amp;lt; downloaded_webpage.txt
 Download webpage BEFORE scraping e.g. wget https://website.com/website.html &amp;gt; website.txt
 Or: TEMP=&amp;quot;$(wget -q -O- &amp;quot;http://w1.weather.gov/xml/current_obs/stationcode.xml&amp;quot; | perl ...)&amp;quot;
-Resources Perl Programming Language Documentation</description></item><item><title>💻 Plasma (KDE)</title><link>https://csmertx.github.io/Linux/DEs/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/kde_plasma/</guid><description>SDDM High CPU Usage (25% +) sudov /etc/security/pam_env.conf
+Resources Perl Programming Language Documentation</description></item><item><title>💻 Plasma (KDE)</title><link>https://csmertx.github.io/Linux/DEs/kde_plasma/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/kde_plasma/</guid><description>Exclude firmware updates Discover (KDE Software Center) &amp;gt; Settings &amp;gt; Uncheck: vendor-directory - Vendor (Automatic)
+Lenovo X270 BIOS (firmware) 1.50+ update incompatible with aftermarket batteries. Also mentioned 🔗 here
+Link above includes BIOS rollback procedure (confirmed as of January 9th, 2024). Batteries will charge again. SDDM High CPU Usage (25% +) sudov /etc/security/pam_env.conf
 ... ++ QT_QUICK_BACKEND DEFAULT=software Disable File Indexer baloo_file balooctl disable
 pause with: balooctl suspend
-Breeze SDDM theme background When GUI selection does not represent selection
-sudo mkdir /usr/share/backgrounds/new_folder
-cp /folder/image.jpg /usr/share/backgrounds/new_folder/image.jpg
-sudov /usr/share/sddm/themes/breeze/theme.conf.user
-++ background=/usr/share/backgrounds/new_folder/image.jpg Logout &amp;amp; login
-Time set to 24 hours instead of 12 hours in SDDM Solution to change SDDM time display to 12 hours
-sudov /etc/locale.conf
-++ LANG=en_US.</description></item><item><title>💻 Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description>
+Breeze SDDM theme background When GUI selection does not represent selection</description></item><item><title>💻 Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description>
 Tiling window manager status bar
 Themes GitHub - adi1090x/polybar-themes: A huge collection of polybar themes with different styles, colors and variants.
 Polybar-10 is very similar to GNOME 3&amp;rsquo;s top bar
@@ -940,7 +935,7 @@ Included Virtual for Virtual Machines (Slackware can be tricky)
 sudo xrandr --output Virtual-1 --mode &amp;quot;1600x900_60.00&amp;quot;
 Whatever output display and mode needed</description></item><item><title>🖥️ Win &amp; DOS VMs</title><link>https://csmertx.github.io/Windows_and_DOS/win_dos_vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Windows_and_DOS/win_dos_vm/</guid><description>Windows Activation in VM Extract Windows 10 RTM OEM serial number (Ubuntu + flavors)
 Windows 10 RTM OEM | Verified via: Thinkpad X270, Lenovo M73, and Thinkpad X1 Extreme G2
-Thinkpad X270 users: BIOS 1.50 is 🔗not compatible with aftermarket batteries (🔗1.47 is fine)
+Thinkpad X270 users: BIOS 1.50 is 🔗not compatible (drain but no charge) with aftermarket batteries (🔗1.47 is fine)
 sudo cat /sys/firmware/acpi/tables/MSDM &amp;gt; SLIC.dat
 sudo nano SLIC.dat
 Serial character format is 5x5 xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
