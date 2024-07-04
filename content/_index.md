@@ -66,6 +66,8 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 The image above leads to the main navigation [🔗 page](pad "Click here for the Navigation Page").
 
+(Day & Night blog is not a preview of anything.)
+
 </div>
 
 
