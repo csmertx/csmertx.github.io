@@ -34,10 +34,12 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 |Mar 03, 2024 | 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story)|
 |May 03, 2024 | 🔗 [Day & Night Blog \ Chris Schammert](/Blog/daynight/2024/0524#chris-schammert "Day & Night Blog \ May 2024") (since 1984)|
 |Jun 10, 2024 | 🔗 [Day & Night Blog \ Hiding Spot](/Blog/daynight/2024/0624#hiding-spot "Day & Night Blog \ June 2024")|
+|Jul 08, 2024 | 🔗 [Day & Night Blog \ Wrapping Up](/Blog/daynight/2024/0724#wrapping-up "Day & Night Blog \ July 2024")|
 |Aug 11, 2022 | 🔗 [Day & Night Blog \ The day a soccer goal chose violence](/Blog/daynight/2022/0822#the-day-a-soccer-goal-chose-violence "Day & Night Blog \ August 2022")|
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Jul 08, 2024 | 🔗 [Music Blog \ They Live! (Trevor Loveys Remix) (They Live!)](/Blog/music/2024/0724#they-live-trevor-loveys-remix-they-live "Music Blog \ July 2024")|
 |Jun 26, 2024 | 🔗 [Music Blog \  BigXthaPlug - Texas (Andrew Broom Video) (Texas)](/Blog/music/2024/0624#bigxthaplug---texas-andrew-broom-video-texas "Music Blog \ June 2024")|
 |Jun 24, 2024 | 🔗 [Music Blog \  Evanescence - Bring Me To Life (moshibass Edition) (Fallen)](/Blog/music/2024/0624#evanescence---bring-me-to-life-moshibass-edition-fallen "Music Blog \ June 2024")|
 |Jun 17, 2024 | 🔗 [Music Blog \ Me First and the Gimme Gimmes - My Favorite Things (Are a Drag)](/Blog/music/2024/0624#me-first-and-the-gimme-gimmes---favorite-things-are-a-drag "Music Blog \ June 2024")|
@@ -59,6 +61,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 |Apr 12, 2024 | 🔗 [Kinesis Advantage 2 Modding](/Blog/stuff/2024/kinesis_advantage2 "Kinesis Advantage 2 Modding")|
 |Mar 24, 2024 | 🔗 [Steam \ Proton (Linux) \ Right click menu not working](/Games/steam_proton#right-click-menu-not-working "Steam \ Proton (Linux)")|
 |Mar 03, 2024 | 🔗 [Bash (Shell) \ Cloak Output Errors](/Linux/Shells/bash#cloak-output-errors "Bash (Shell)")|
+|Jan 09, 2024 | 🔗 [Windows & DOS VMs \ Thinkpad X270 BIOS 1.50+ locks out aftermarket batteries](/Windows_and_DOS/win_dos_vm#windows-activation-in-vm "Windows & DOS VMs")|
 
 <br />
 
