@@ -39,6 +39,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Jul 15, 2024 | 🔗 [Music Blog \ Explosions in the Sky - A Song For Our Fathers (How Strange, Innocence)](/Blog/music/2024/0724#explosions-in-the-sky---a-song-for-our-fathers-how-strange-innocence "Music Blog \ July 2024")|
 |Jul 08, 2024 | 🔗 [Music Blog \ They Live! (Trevor Loveys Remix) (They Live!)](/Blog/music/2024/0724#they-live-trevor-loveys-remix-they-live "Music Blog \ July 2024")|
 |Jun 26, 2024 | 🔗 [Music Blog \  BigXthaPlug - Texas (Andrew Broom Video) (Texas)](/Blog/music/2024/0624#bigxthaplug---texas-andrew-broom-video-texas "Music Blog \ June 2024")|
 |Jun 24, 2024 | 🔗 [Music Blog \  Evanescence - Bring Me To Life (moshibass Edition) (Fallen)](/Blog/music/2024/0624#evanescence---bring-me-to-life-moshibass-edition-fallen "Music Blog \ June 2024")|
@@ -48,7 +49,6 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 |May 29, 2024 | 🔗 [Music Blog \ French 79 - Burning Legend (Official Video) (Teenagers)](/Blog/music/2024/0524#french-79---burning-legend-official-video-teenagers "Music Blog \ May 2024") |
 |May 28, 2024 | 🔗 [Music Blog \ The Rosebuds - Boxcar (Birds Make Good Neighbors)](/Blog/music/2024/0524#the-rosebuds---boxcar-birds-make-good-neighbors "Music Blog \ May 2024") |
 |May 24, 2024 | 🔗 [Day & Night Blog \ The Kulturkampf was the beginning.](/Blog/daynight/2024/0524#the-kulturkampf-was-the-beginning)|
-|May 23, 2024 | 🔗 [Day & Night Blog \ There are four lights.](/Blog/daynight/2024/0524#there-are-four-lights "Day & Night Blog \ May 2024")|
 
 | Date | Recent Computer Scribblings |
 |:---- | :-------------------------- |
