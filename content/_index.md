@@ -39,6 +39,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Jul 27, 2024 | 🔗 [Music Blog \ Bad Religion - Supersonic (bigarmybug x Stick Edit) (The Process Of Belief)](/Blog/music/2024/0724#bad-religion---supersonic-bigarmybug-x-stick-edit-the-process-of-belief "Music Blog \ July 2024")|
 |Jul 15, 2024 | 🔗 [Music Blog \ Explosions in the Sky - A Song For Our Fathers (How Strange, Innocence)](/Blog/music/2024/0724#explosions-in-the-sky---a-song-for-our-fathers-how-strange-innocence "Music Blog \ July 2024")|
 |Jul 08, 2024 | 🔗 [Music Blog \ They Live! (Trevor Loveys Remix) (They Live!)](/Blog/music/2024/0724#they-live-trevor-loveys-remix-they-live "Music Blog \ July 2024")|
 |Jun 26, 2024 | 🔗 [Music Blog \  BigXthaPlug - Texas (Andrew Broom Video) (Texas)](/Blog/music/2024/0624#bigxthaplug---texas-andrew-broom-video-texas "Music Blog \ June 2024")|
