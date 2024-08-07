@@ -23,14 +23,6 @@ I'm not sure what compelled me to take this, but I enjoyed this view.
 
 <br />
 
-![albumimg](/Blog/medium/2004/2.jpg "Small room with a sleeping bag, low mini laptop desk, fan, pillows, and a bunch of other amenities for my three week say.")
-
-I felt lucky and welcomed.
-
-> 1.3MP shirt pocket camera? idk
-
-<br />
-
 ![albumimg](/Blog/medium/2004/3.jpg "RCMP statue on the way to Niagara Falls")
 
 Niagara Falls photos were shot with an overkill waterproof instant camera.
