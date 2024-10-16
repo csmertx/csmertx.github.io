@@ -70,7 +70,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 The image above leads to the main navigation [🔗 page](pad "Click here for the Navigation Page").
 
-Day & Night blog is not a preview of anything. And I do not advertise this site. If you found this site from a QR code, social media advertisement, or focus group please reach out via [ csmertx@pm.me](mailto:csmertx@pm.me "Proton Mail email address | @csmertx - Anytime."). Advertising this site breaks the spirit of discovery 😉
+Day & Night blog is not a preview of anything. And I do not advertise this site. If you discovered this site from a QR code, social media advertisement, or focus group please reach out via [ csmertx@pm.me](mailto:csmertx@pm.me "Proton Mail email address | @csmertx - Anytime."). Advertising this site breaks the spirit of discovery 😉
 
 </div>
 
