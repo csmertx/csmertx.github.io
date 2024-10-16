@@ -1,116 +1,757 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Devices on CSx</title><link>https://csmertx.github.io/Linux/Devices/</link><description>Recent content in 💻 Devices on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Linux/Devices/index.xml" rel="self" type="application/rss+xml"/><item><title>⌚ PineTime Smartwatch</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>Pinetime Smartwatch? ~$40 smartwatch with Open Source firmware. And more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).
-Reporting in after close to a year Raising wrist to wake up the device is mostly awesome
-Sometimes waking device displays last notification (swipe to clear notification)
-Sometimes waking device displays a random game of pong</description></item><item><title>⌨️ Keyboard Scancodes</title><link>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</guid><description>May include game controller keysyms as well?
-01 (Esc)02 (1!), 03 (2@), 04 (3#), 05 (4$), 06 (5%E), 07 (6^), 08 (7&amp;amp;), 09 (8*), 0a (9(), 0b (0)), 0c (-_), 0d (=+), 0e (Backspace)0f (Tab), 10 (Q), 11 (W), 12 (E), 13 (R), 14 (T), 15 (Y), 16 (U), 17 (I), 18 (O), 19 (P), 1a ([{), 1b (]})1c (Enter)1d (LCtrl)1e (A), 1f (S), 20 (D), 21 (F), 22 (G), 23 (H), 24 (J), 25 (K), 26 (L), 27 (;:), 28 (&amp;#39;&amp;#34;)29 (`~)2a (LShift)2b (\|), on a 102-key keyboard2c (Z), 2d (X), 2e (C), 2f (V), 30 (B), 31 (N), 32 (M), 33 (,&amp;lt;), 34 (.</description></item><item><title>👾 GPUs</title><link>https://csmertx.github.io/Linux/Devices/gpu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gpu/</guid><description>AMD Open Source: tear free sudov /etc/X11/xorg.conf.d/20-[GPU].conf
-Section &amp;#34;Device&amp;#34; Identifier &amp;#34;AMD&amp;#34; Driver &amp;#34;radeon&amp;#34; Option &amp;#34;TearFree&amp;#34; &amp;#34;true&amp;#34; EndSection May not be necessary for newer or more powerful cards
-I used this option for a passively cooled Radeon 5450, and an early 00s Acer laptop
-Monitoring (CLI) Temperatures apti lm-sensors
-sudo sensors detect
-Defaults are a good start
-sensors
-AMD Processor load and memory usage
-apti radeontop
-Run with: radeontop Nvidia Processor load and memory usage</description></item><item><title>💻 Android &amp; Linux</title><link>https://csmertx.github.io/Linux/Devices/android/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/android/</guid><description>See also ADB
-KDE (MTP) pac -S kio-extras
-pac -S android-tools
-Or turn off ADB in Android device settings
-apti android-tools-adb kio-extras
-05-29-22: No longer a solution w/Kubuntu 22.04?
-Gnome (MTP) pac -S gvfs-mtp
-pac -S android-tools
-Or turn off ADB in Android device settings</description></item><item><title>💻 Touchpads</title><link>https://csmertx.github.io/Linux/Devices/touchpad_config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/touchpad_config/</guid><description>Jelly Comb glass slow cursor w/Ubuntu 22.04 Rendered my touchpad unusable for a few weeks
-libinput list-devices
-HTX USB HID Device HTX HID Device Mouse Upgraded to Ubuntu (Kubuntu) 23.04
-Tracking as expected after upgrading to 22.10, then 23.04 Laptop vim /etc/X11/xorg.conf.d/10-libinput.conf
-Section &amp;#34;InputClass&amp;#34;Identifier &amp;#34;touchpad catchall&amp;#34;Driver &amp;#34;synaptics&amp;#34;MatchIsTouchpad &amp;#34;on&amp;#34;MatchDevicePath &amp;#34;/dev/input/event*&amp;#34;Option &amp;#34;TapButton1&amp;#34; &amp;#34;1&amp;#34;Option &amp;#34;TapButton2&amp;#34; &amp;#34;3&amp;#34;Option &amp;#34;TapButton3&amp;#34; &amp;#34;2&amp;#34;Option &amp;#34;HorizTwoFingerScroll&amp;#34; &amp;#34;on&amp;#34; # set to off if edgeOption &amp;#34;VertTwoFingerScroll&amp;#34; &amp;#34;on&amp;#34; # set to off if edgeOption &amp;#34;HorizEdgeScroll&amp;#34; &amp;#34;on&amp;#34;Option &amp;#34;VertEdgeScroll&amp;#34; &amp;#34;on&amp;#34;EndSection Gestures For touchpad/touchpads with multi-touch capabilities</description></item><item><title>💻 WiFi</title><link>https://csmertx.github.io/Linux/Devices/wifi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/wifi/</guid><description>See virt-manager for USB or PCIE WiFi device passthrough
-AP Mode Create Network bridge
-pac -S create_ap
-git clone https://github.com/oblique/create_ap
-cd create_ap &amp;amp;&amp;amp; make install sudo nmcli r wifi off &amp;amp;&amp;amp; sudo rfkill unblock wlan
-sudo create_ap -m bridge wlp0s29f7u4 virbr0 [SSID] [passphrase]
-WiFi 5ghz sudo iwconfig WiFi_device freq 5.7G
-TP-Link AC-600 USB Adapter Plug into ethernet&amp;hellip;
-cd ~/.sources
-git clone https://github.com/aircrack-ng/rtl8812au
-sudo apt install dkms
-sudo make dkms_install</description></item><item><title>💻 Xbox One Controller</title><link>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</guid><description>
-Pre-Bluetooth version (wireless)
-Disable Mouse Emulation vim /usr/share/X11/xorg.conf.d/50-joystick.conf
-Driver &amp;#34;joystick&amp;#34;++ Option &amp;#34;StartKeysEnabled&amp;#34; &amp;#34;False&amp;#34; # These Two Lines Disable++ Option &amp;#34;StartMouseEnabled&amp;#34; &amp;#34;False&amp;#34; # The mouse emulationEndSection LTrigger/RTrigger Issue apti joystick
-apti jstest-gtk
-Open joystick and calibrate (swap Axis 2 with 4 to correct)
-Resources Ask Ubuntu: How can I stop my controller from moving my mouse?</description></item><item><title>💾 Hard Disk Drives</title><link>https://csmertx.github.io/Linux/Devices/storage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/storage/</guid><description>And estimating time of failure (based on arbitrary read/write cycle counts)
-Check Drive sudo smartctl -t long /dev/sdX
-Run test (4hr+)
-sudo smartctl -H /dev/sdX
-Print test result
-Total Writes per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Written&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Total Reads per drive echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Read&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34; Monitor Reads/Writes apti iotop</description></item><item><title>📡 Bluetooth</title><link>https://csmertx.github.io/Linux/Devices/bluetooth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/bluetooth/</guid><description>Preferred Bluetooth systray apti blueman
-blueman-applet is the desktop status app
-sudo usermod -a -G lp username
-Allows user access to DBUS
-USB Tethering 5G Ubuntu 22.04: smooth sailing (05-19-22)
-Random disconnects with EndeavourOS (05-19-22)
-Did not try WiFi tethering
-CLI apti bluez
-Arch Linux: bluez-tools
-bluetoothctl
-bluetoothctl set-alias [Newly discovered device name]
-bluetoothctl pair [...]
-bluetoothctl trust [...]
-Polybar Script
-wget https://raw.githubusercontent.com/polybar/polybar-scripts/master/polybar-scripts/system-bluetooth-bluetoothctl/system-bluetooth-bluetoothctl.sh vim ~/.config/polybar/config.ini
-modules-right = system-bluetooth-bluetoothctl battery alsa network sysmenu [module/system-bluetooth-bluetoothctl] type = custom/script exec = ~/.</description></item><item><title>🖥️ CPUs</title><link>https://csmertx.github.io/Linux/Devices/cpu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/cpu/</guid><description>Check status of Intel Mitigations grep . /sys/devices/system/cpu/vulnerabilities/* Turn Off Intel Mitigations (&amp;gt;= 5.1.13 kernel) Obvious system security caveats
-sudov /etc/default/grub
-++ mitigations=off At the end of kernel parameters
-Turn Off Intel Mitigations (&amp;lt; 5.1.13) sudov /etc/default/grub
-++ noibrs noibpb nopti nospectre_v2 nospectre_v1 l1tf=off nospec_store_bypass_disable no_stf_barrier mds=off At the end of kernel parameters
-reboot
-Monitoring apti htop
-More immersive than top
-apti glances
-Includes sensors, HDD or SDD read/writes, CPU stats.</description></item><item><title>🖥️ Monitors</title><link>https://csmertx.github.io/Linux/Devices/monitor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/monitor/</guid><description>Note copied from: /Linux/Assorted/xrandr
-Mode Not Displayed cvt 1600 900
-Whatever resolution you need goes here 1920x1080, 3840x2160, etc.
-Copy line that starts with Modeline
-sudo xrandr --newmode [...copied line minus the word Modeline...]
-The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline
-sudo xrandr --addmode {vga,Virtual}-{0,1} &amp;quot;1600x900_60.00&amp;quot; #Virtual-1
-Included Virtual for Virtual Machines (Slackware can be tricky)
-sudo xrandr --output Virtual-1 --mode &amp;quot;1600x900_60.00&amp;quot;
-Whatever output display and mode needed</description></item><item><title>🖨️ Printers</title><link>https://csmertx.github.io/Linux/Devices/printing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/printing/</guid><description>For command line instructions see notes for Arch Linux
-Brother HL-2140 printing Blank Pages Ubuntu/Kubuntu
-Configure Printer
-Select custom driver
-hl2170w (foomatic is fine)
-Other Distros
-Command line install
-Brother Printer Support: HL-2140 Driver
-.rpm for Fedora or .deb for Debian/Ubuntu
-If printer feeds paper through without printing switch driver to hl2170w
-Print test page (leave one sheet of paper in tray)
-The printer might send all the paper through&amp;hellip;</description></item><item><title>🖱️ Sensei 310</title><link>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</guid><description>And other SteelSeries devices (same installation)
-Installation rivalcfg: Configure SteelSeries gaming mice
-Device compatibility list included in main README.md
-apti cython python-dev libusb-1.0-0-dev libudev-dev libhidapi-hidraw0 python3-pip
-sudo pip3 install hidapi
-sudo pip3 install rivalcfg
-Configuration Sensitivity (high/low)
-rivalcfg -s 3200
-rivalcfg -S 1600
-LED Colors
-One of the the options is the scroll LED, the other is the logo LED
-rivalcfg -c &amp;quot;#9EDC97&amp;quot; # LED off: &amp;quot;#000000&amp;quot;
-rivalcfg -C &amp;quot;#9EDC97&amp;quot; # LED off: &amp;quot;#000000&amp;quot;</description></item><item><title>🖲️ Trackballs</title><link>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</guid><description>Elecom HUGE trackball FN Buttons Apoxie Sculpt palm rest and &amp;lsquo;Catbus So Many Poses!&amp;rsquo; &amp;lsquo;blind box&amp;rsquo; figurine for scale
-Elecom HUGE button remapping via GUI: 🔗input-remapper
-Requires escalated privileges
-Restore presets for each reboot/poweroff
-sudo systemctl enable input-remapper
-sudo systemctl start input-remapper
-Apply presets &amp;amp; make sure Autoload is toggled
-Copy/Paste with Tmux, Refresh, and Undo (how I have mine configured) FN1 -&amp;gt; Shift + Ctrl + v
-FN2 -&amp;gt; F5</description></item><item><title>🛰️ GPS Devices</title><link>https://csmertx.github.io/Linux/Devices/gps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gps/</guid><description>Not something I&amp;rsquo;ve used. Just a curiosity.
-From GPS Device apti gpsd
-Arch Linux: pac -S gpsd
-sudo systemctl start/enable gpsd
-gpspipe -R/-r/-w</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Devices on CSx</title><link>https://csmertx.github.io/Linux/Devices/</link><description>Recent content in 💻 Devices on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Devices/index.xml" rel="self" type="application/rss+xml"/><item><title>🖲️ Trackballs</title><link>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</link><pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="elecom-huge-trackball-fn-buttons">
+ Elecom HUGE trackball FN Buttons
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/trackball_scrolling/#elecom-huge-trackball-fn-buttons" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Elecom HUGE trackball FN Buttons" href="#elecom-huge-trackball-fn-buttons">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>&lt;br />&lt;div style="text-align: center;">&lt;/p>
+&lt;p>&lt;img src="../../Linux/Devices/images/elecom_huge_wired_catbus_for_scale_800x800.jpg" alt="Photo" />&lt;/p>
+&lt;blockquote>
+&lt;p>Apoxie Sculpt palm rest and &amp;lsquo;Catbus So Many Poses!&amp;rsquo; &amp;lsquo;blind box&amp;rsquo; figurine for scale&lt;/p>
+&lt;/blockquote>
+&lt;/div>&lt;br />
+&lt;p>Elecom HUGE button remapping via GUI: 🔗&lt;a class="gdoc-markdown__link" href="https://github.com/sezanzeb/input-remapper">input-remapper&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Requires escalated privileges&lt;/p>
+&lt;/blockquote>
+&lt;p>Restore presets for each reboot/poweroff&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl enable input-remapper&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl start input-remapper&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Apply presets &amp;amp; make sure &lt;code>Autoload&lt;/code> is toggled&lt;/p></description></item><item><title>💻 Touchpads</title><link>https://csmertx.github.io/Linux/Devices/touchpad_config/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/touchpad_config/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="jelly-comb-glass-slow-cursor-wubuntu-2204">
+ Jelly Comb glass slow cursor w/Ubuntu 22.04
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/touchpad_config/#jelly-comb-glass-slow-cursor-wubuntu-2204" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Jelly Comb glass slow cursor w/Ubuntu 22.04" href="#jelly-comb-glass-slow-cursor-wubuntu-2204">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>Rendered my touchpad unusable for a few weeks&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>libinput list-devices&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>HTX USB HID Device HTX HID Device Mouse&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="../../Linux/Distros/ubuntu">Upgraded to Ubuntu&lt;/a> (Kubuntu) 23.04&lt;/p>
+&lt;ul>
+&lt;li>Tracking as expected after upgrading to 22.10, then 23.04&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="laptop">
+ Laptop
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/touchpad_config/#laptop" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Laptop" href="#laptop">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim /etc/X11/xorg.conf.d/10-libinput.conf&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>Section &amp;#34;InputClass&amp;#34;
+ Identifier &amp;#34;touchpad catchall&amp;#34;
+ Driver &amp;#34;synaptics&amp;#34;
+ MatchIsTouchpad &amp;#34;on&amp;#34;
+ MatchDevicePath &amp;#34;/dev/input/event*&amp;#34;
+ Option &amp;#34;TapButton1&amp;#34; &amp;#34;1&amp;#34;
+ Option &amp;#34;TapButton2&amp;#34; &amp;#34;3&amp;#34;
+ Option &amp;#34;TapButton3&amp;#34; &amp;#34;2&amp;#34;
+ Option &amp;#34;HorizTwoFingerScroll&amp;#34; &amp;#34;on&amp;#34; # set to off if edge
+ Option &amp;#34;VertTwoFingerScroll&amp;#34; &amp;#34;on&amp;#34; # set to off if edge
+ Option &amp;#34;HorizEdgeScroll&amp;#34; &amp;#34;on&amp;#34;
+ Option &amp;#34;VertEdgeScroll&amp;#34; &amp;#34;on&amp;#34;
+EndSection
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="gestures">
+ Gestures
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/touchpad_config/#gestures" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Gestures" href="#gestures">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>For touchpad/touchpads with multi-touch capabilities&lt;/p></description></item><item><title>⌚ PineTime Smartwatch</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="pinetime-smartwatch">
+ Pinetime Smartwatch?
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/pinetime/#pinetime-smartwatch" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pinetime Smartwatch?" href="#pinetime-smartwatch">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>~$40 smartwatch with Open Source firmware. And more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).&lt;/p>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="reporting-in-after-close-to-a-year">
+ Reporting in after close to a year
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/pinetime/#reporting-in-after-close-to-a-year" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Reporting in after close to a year" href="#reporting-in-after-close-to-a-year">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ol>
+&lt;li>
+&lt;p>Raising wrist to wake up the device is mostly awesome&lt;/p></description></item><item><title>⌨️ Keyboard Scancodes</title><link>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>May include game controller keysyms as well?&lt;/p>
+&lt;/blockquote>
+&lt;pre tabindex="0">&lt;code>01 (Esc)
+
+02 (1!), 03 (2@), 04 (3#), 05 (4$), 06 (5%E), 07 (6^), 08 (7&amp;amp;), 09 (8*), 0a (9(), 0b (0)), 0c (-_), 0d (=+), 0e (Backspace)
+
+0f (Tab), 10 (Q), 11 (W), 12 (E), 13 (R), 14 (T), 15 (Y), 16 (U), 17 (I), 18 (O), 19 (P), 1a ([{), 1b (]})
+
+1c (Enter)
+
+1d (LCtrl)
+
+1e (A), 1f (S), 20 (D), 21 (F), 22 (G), 23 (H), 24 (J), 25 (K), 26 (L), 27 (;:), 28 (&amp;#39;&amp;#34;)
+
+29 (`~)
+
+2a (LShift)
+
+2b (\|), on a 102-key keyboard
+
+2c (Z), 2d (X), 2e (C), 2f (V), 30 (B), 31 (N), 32 (M), 33 (,&amp;lt;), 34 (.&amp;gt;), 35 (/?), 36 (RShift)
+
+37 (Keypad-*) or (*/PrtScn) on a 83/84-key keyboard
+
+38 (LAlt), 39 (Space bar),
+
+3a (CapsLock)
+
+3b (F1), 3c (F2), 3d (F3), 3e (F4), 3f (F5), 40 (F6), 41 (F7), 42 (F8), 43 (F9), 44 (F10)
+
+45 (NumLock)
+
+46 (ScrollLock)
+
+47 (Keypad-7/Home), 48 (Keypad-8/Up), 49 (Keypad-9/PgUp)
+
+4a (Keypad--)
+
+4b (Keypad-4/Left), 4c (Keypad-5), 4d (Keypad-6/Right), 4e (Keypad-+)
+
+4f (Keypad-1/End), 50 (Keypad-2/Down), 51 (Keypad-3/PgDn)
+
+52 (Keypad-0/Ins), 53 (Keypad-./Del)
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code>XF86 keyboard symbols:
+
+XF86AddFavorite
+XF86ApplicationLeft
+XF86ApplicationRight
+XF86AudioMedia
+XF86AudioMute
+XF86AudioNext
+XF86AudioPause
+XF86AudioPlay
+XF86AudioPrev
+XF86AudioLowerVolume
+XF86AudioRaiseVolume
+XF86AudioRecord
+XF86AudioRewind
+XF86AudioStop
+XF86Away
+XF86Back
+XF86Book
+XF86BrightnessAdjust
+XF86CD
+XF86Calculator
+XF86Calendar
+XF86Clear
+XF86ClearGrab
+XF86Close
+XF86Community
+XF86ContrastAdjust
+XF86Copy
+XF86Cut
+XF86DOS
+XF86Display
+XF86Documents
+XF86Eject
+XF86Excel
+XF86Explorer
+XF86Favorites
+XF86Finance
+XF86Forward
+XF86Game
+XF86Go
+XF86History
+XF86HomePage
+XF86HotLinks
+XF86Launch0
+XF86Launch1
+XF86Launch2
+XF86Launch3
+XF86Launch4
+XF86Launch5
+XF86Launch6
+XF86Launch7
+XF86Launch8
+XF86Launch9
+XF86LaunchA
+XF86LaunchB
+XF86LaunchC
+XF86LaunchD
+XF86LaunchE
+XF86LaunchF
+XF86LightBulb
+XF86LogOff
+XF86Mail
+XF86MailForward
+XF86Market
+XF86Meeting
+XF86Memo
+XF86MenuKB
+XF86MenuPB
+XF86Messenger
+XF86MonBrightnessUp
+XF86MonBrightnessDown
+XF86Music
+XF86MyComputer
+XF86MySites
+XF86New
+XF86News
+XF86Next_VMode
+XF86Prev_VMode
+XF86OfficeHome
+XF86Open
+XF86OpenURL
+XF86Option
+XF86Paste
+XF86Phone
+XF86Pictures
+XF86PowerDown
+XF86PowerOff
+XF86Next_VMode
+XF86Prev_VMode
+XF86Q
+XF86Refresh
+XF86Reload
+XF86Reply
+XF86RockerDown
+XF86RockerEnter
+XF86RockerUp
+XF86RotateWindows
+XF86RotationKB
+XF86RotationPB
+XF86Save
+XF86ScreenSaver
+XF86ScrollClick
+XF86ScrollDown
+XF86ScrollUp
+XF86Search
+XF86Send
+XF86Shop
+XF86Sleep
+XF86Spell
+XF86SplitScreen
+XF86Standby
+XF86Start
+XF86Stop
+XF86Support
+XF86Switch_VT_1
+XF86Switch_VT_10
+XF86Switch_VT_11
+XF86Switch_VT_12
+XF86Switch_VT_2
+XF86Switch_VT_3
+XF86Switch_VT_4
+XF86Switch_VT_5
+XF86Switch_VT_6
+XF86Switch_VT_7
+XF86Switch_VT_8
+XF86Switch_VT_9
+XF86TaskPane
+XF86Terminal
+XF86ToDoList
+XF86Tools
+XF86Travel
+XF86Ungrab
+XF86User1KB
+XF86User2KB
+XF86UserPB
+XF86VendorHome
+XF86Video
+XF86WWW
+XF86WakeUp
+XF86WebCam
+XF86WheelButton
+XF86Word
+XF86XF86BackForward
+XF86Xfer
+XF86ZoomIn
+XF86ZoomOut
+XF86iTouch 
+&lt;/code>&lt;/pre>&lt;p>*&lt;strong>^(&lt;a class="gdoc-markdown__link" href="https://wiki.linuxquestions.org/wiki/XF86_keyboard_symbols">https://wiki.linuxquestions.org/wiki/XF86_keyboard_symbols&lt;/a>)&lt;/strong>&lt;/p></description></item><item><title>👾 GPUs</title><link>https://csmertx.github.io/Linux/Devices/gpu/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gpu/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="amd-open-source-tear-free">
+ AMD Open Source: tear free
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/gpu/#amd-open-source-tear-free" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor AMD Open Source: tear free" href="#amd-open-source-tear-free">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/X11/xorg.conf.d/20-[GPU].conf&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>Section &amp;#34;Device&amp;#34;
+ Identifier &amp;#34;AMD&amp;#34;
+ Driver &amp;#34;radeon&amp;#34;
+ Option &amp;#34;TearFree&amp;#34; &amp;#34;true&amp;#34;
+EndSection
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;p>May not be necessary for newer or more powerful cards&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>I used this option for a passively cooled Radeon 5450, and an early 00s Acer laptop&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="monitoring-cli">
+ Monitoring (CLI)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/gpu/#monitoring-cli" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Monitoring (CLI)" href="#monitoring-cli">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="temperatures">
+ Temperatures
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/gpu/#temperatures" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Temperatures" href="#temperatures">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>apti lm-sensors&lt;/code>&lt;/p></description></item><item><title>💻 Android &amp; Linux</title><link>https://csmertx.github.io/Linux/Devices/android/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/android/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>See also &lt;a class="gdoc-markdown__link" href="../../Android/adb">ADB&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="kde-mtp">
+ KDE (MTP)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/android/#kde-mtp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor KDE (MTP)" href="#kde-mtp">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>pac -S kio-extras&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>pac -S android-tools&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Or turn off ADB in Android device settings&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>apti android-tools-adb kio-extras&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>05-29-22: No longer a solution w/Kubuntu 22.04?&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="gnome-mtp">
+ Gnome (MTP)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/android/#gnome-mtp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Gnome (MTP)" href="#gnome-mtp">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>pac -S gvfs-mtp&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>pac -S android-tools&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Or turn off ADB in Android device settings&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 WiFi</title><link>https://csmertx.github.io/Linux/Devices/wifi/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/wifi/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>See &lt;a class="gdoc-markdown__link" href="../../Linux/VMs/virt-manager">virt-manager&lt;/a> for USB or PCIE WiFi device passthrough&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="ap-mode">
+ AP Mode
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/wifi/#ap-mode" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor AP Mode" href="#ap-mode">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Create Network bridge&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>pac -S create_ap&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>git clone https://github.com/oblique/create_ap&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>cd create_ap &amp;amp;&amp;amp; make install&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo nmcli r wifi off &amp;amp;&amp;amp; sudo rfkill unblock wlan&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo create_ap -m bridge wlp0s29f7u4 virbr0 [SSID] [passphrase]&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="wifi-5ghz">
+ WiFi 5ghz
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/wifi/#wifi-5ghz" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor WiFi 5ghz" href="#wifi-5ghz">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>&lt;code>sudo iwconfig WiFi_device freq 5.7G&lt;/code>&lt;/p></description></item><item><title>💻 Xbox One Controller</title><link>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Pre-Bluetooth version (wireless)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="disable-mouse-emulation">
+ Disable Mouse Emulation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/xbox_one_controller/#disable-mouse-emulation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Disable Mouse Emulation" href="#disable-mouse-emulation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim /usr/share/X11/xorg.conf.d/50-joystick.conf&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>Driver &amp;#34;joystick&amp;#34;
+++ Option &amp;#34;StartKeysEnabled&amp;#34; &amp;#34;False&amp;#34; # These Two Lines Disable
+++ Option &amp;#34;StartMouseEnabled&amp;#34; &amp;#34;False&amp;#34; # The mouse emulation
+EndSection
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="ltriggerrtrigger-issue">
+ LTrigger/RTrigger Issue
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/xbox_one_controller/#ltriggerrtrigger-issue" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor LTrigger/RTrigger Issue" href="#ltriggerrtrigger-issue">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>apti joystick&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>apti jstest-gtk&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open &lt;code>joystick&lt;/code> and calibrate (swap Axis 2 with 4 to correct)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/xbox_one_controller/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://askubuntu.com/questions/632026/how-can-i-stop-my-controller-from-moving-my-mouse">Ask Ubuntu: How can I stop my controller from moving my mouse?&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💾 Hard Disk Drives</title><link>https://csmertx.github.io/Linux/Devices/storage/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/storage/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>And estimating time of failure (based on arbitrary read/write cycle counts)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="check-drive">
+ Check Drive
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/storage/#check-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Check Drive" href="#check-drive">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo smartctl -t long /dev/sdX&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Run test (4hr+)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo smartctl -H /dev/sdX&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Print test result&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="total-writes-per-drive">
+ Total Writes per drive
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/storage/#total-writes-per-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Total Writes per drive" href="#total-writes-per-drive">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;pre tabindex="0">&lt;code>echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Written&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34;
+&lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="total-reads-per-drive">
+ Total Reads per drive
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/storage/#total-reads-per-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Total Reads per drive" href="#total-reads-per-drive">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;pre tabindex="0">&lt;code>echo &amp;#34;$(((((( $(sudo smartctl -x /dev/sdX | grep -w &amp;#34;Logical Sectors Read&amp;#34; | awk &amp;#39;{print ($4)}&amp;#39;) / 2 )) / 1024 )) / 1024))GB&amp;#34;
+&lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="monitor-readswrites">
+ Monitor Reads/Writes
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/storage/#monitor-readswrites" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Monitor Reads/Writes" href="#monitor-readswrites">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>apti iotop&lt;/code>&lt;/p></description></item><item><title>📡 Bluetooth</title><link>https://csmertx.github.io/Linux/Devices/bluetooth/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/bluetooth/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="preferred-bluetooth-systray">
+ Preferred Bluetooth systray
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/bluetooth/#preferred-bluetooth-systray" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Preferred Bluetooth systray" href="#preferred-bluetooth-systray">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>apti blueman&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>blueman-applet is the desktop status app&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo usermod -a -G lp username&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Allows user access to DBUS&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="usb-tethering-5g">
+ USB Tethering 5G
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/bluetooth/#usb-tethering-5g" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor USB Tethering 5G" href="#usb-tethering-5g">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Ubuntu 22.04: smooth sailing (05-19-22)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Random disconnects with EndeavourOS (05-19-22)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Did not try WiFi tethering&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="cli">
+ CLI
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/bluetooth/#cli" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor CLI" href="#cli">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>apti bluez&lt;/code>&lt;/p></description></item><item><title>🖥️ CPUs</title><link>https://csmertx.github.io/Linux/Devices/cpu/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/cpu/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="check-status-of-intel-mitigations">
+ Check status of Intel Mitigations
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/cpu/#check-status-of-intel-mitigations" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Check status of Intel Mitigations" href="#check-status-of-intel-mitigations">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>grep . /sys/devices/system/cpu/vulnerabilities/*&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="turn-off-intel-mitigations--5113-kernel">
+ Turn Off Intel Mitigations (&amp;gt;= 5.1.13 kernel)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/cpu/#turn-off-intel-mitigations--5113-kernel" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Turn Off Intel Mitigations (&amp;gt;= 5.1.13 kernel)" href="#turn-off-intel-mitigations--5113-kernel">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>Obvious system security caveats&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/default/grub&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ mitigations=off
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;p>At the end of kernel parameters&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="turn-off-intel-mitigations--5113">
+ Turn Off Intel Mitigations (&amp;lt; 5.1.13)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/cpu/#turn-off-intel-mitigations--5113" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Turn Off Intel Mitigations (&amp;lt; 5.1.13)" href="#turn-off-intel-mitigations--5113">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/default/grub&lt;/code>&lt;/p></description></item><item><title>🖥️ Monitors</title><link>https://csmertx.github.io/Linux/Devices/monitor/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/monitor/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Note copied from: /Linux/Assorted/xrandr&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="mode-not-displayed">
+ Mode Not Displayed
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/monitor/#mode-not-displayed" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mode Not Displayed" href="#mode-not-displayed">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ol>
+&lt;li>
+&lt;p>&lt;code>cvt 1600 900&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Whatever resolution you need goes here 1920x1080, 3840x2160, etc.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Copy line that starts with Modeline&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo xrandr --newmode [...copied line minus the word Modeline...]&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo xrandr --addmode {vga,Virtual}-{0,1} &amp;quot;1600x900_60.00&amp;quot; #Virtual-1&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Included Virtual for Virtual Machines (Slackware can be tricky)&lt;/p></description></item><item><title>🖨️ Printers</title><link>https://csmertx.github.io/Linux/Devices/printing/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/printing/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>For command line instructions see notes for &lt;a class="gdoc-markdown__link" href="../../Linux/Distros/arch">Arch Linux&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="brother-hl-2140-printing-blank-pages">
+ Brother HL-2140 printing Blank Pages
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/printing/#brother-hl-2140-printing-blank-pages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Brother HL-2140 printing Blank Pages" href="#brother-hl-2140-printing-blank-pages">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Ubuntu/Kubuntu&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Configure Printer&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select custom driver&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>hl2170w&lt;/code> (foomatic is fine)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Other Distros&lt;/p>
+&lt;blockquote>
+&lt;p>Command line install&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://support.brother.com/g/b/downloadtop.aspx?c=us&amp;amp;lang=en&amp;amp;prod=hl2140_all">Brother Printer Support: HL-2140 Driver&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>.rpm for Fedora or .deb for Debian/Ubuntu&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>If printer feeds paper through without printing switch driver to &lt;code>hl2170w&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Print test page (leave one sheet of paper in tray)&lt;/p></description></item><item><title>🖱️ Sensei 310</title><link>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>And other SteelSeries devices (same installation)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="installation">
+ Installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/steelseries_sensei310/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/flozz/rivalcfg">rivalcfg: Configure SteelSeries gaming mice&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Device compatibility list included in main README.md&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>apti cython python-dev libusb-1.0-0-dev libudev-dev libhidapi-hidraw0 python3-pip&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo pip3 install hidapi&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo pip3 install rivalcfg&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="configuration">
+ Configuration
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/steelseries_sensei310/#configuration" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Configuration" href="#configuration">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Sensitivity (high/low)&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>rivalcfg -s 3200&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>rivalcfg -S 1600&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>LED Colors&lt;/p>
+&lt;blockquote>
+&lt;p>One of the the options is the scroll LED, the other is the logo LED&lt;/p></description></item><item><title>🛰️ GPS Devices</title><link>https://csmertx.github.io/Linux/Devices/gps/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gps/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Not something I&amp;rsquo;ve used. Just a curiosity.&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="from-gps-device">
+ From GPS Device
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/gps/#from-gps-device" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor From GPS Device" href="#from-gps-device">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>apti gpsd&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Arch Linux: &lt;code>pac -S gpsd&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl start/enable gpsd&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>gpspipe -R/-r/-w&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

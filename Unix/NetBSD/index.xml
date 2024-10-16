@@ -1,7 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 NetBSD (OS) on CSx</title><link>https://csmertx.github.io/Unix/NetBSD/</link><description>Recent content in 💻 NetBSD (OS) on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Unix/NetBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 NetBSD Installation</title><link>https://csmertx.github.io/Unix/NetBSD/netbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NetBSD/netbsd/</guid><description>This page was created before 2020
-Please refere to NetBSD: The NetBSD Guide for up to date installation instructions
-Preparing the USB drive To use CD sets for full installation
-dd if=/dir/NetBSD-(version)-amd64-install.img of=/dev/sdX bs=8M; sync Preparing Wifi Access vi /etc/wpa_supplicant.conf
-++ network={++ ssid=&amp;#34;yourssid&amp;#34; ++ scan_ssid=1 ++ key_mgmt=WPA-PSK ++ psk=&amp;#34;yourpsk&amp;#34; ++ } vi /etc/rc.conf
-++ dhcpcd_flags=&amp;#34;-q -b&amp;#34; ++ wpa_supplicant=&amp;#34;YES&amp;#34; ++ wpa_supplicant_flags=&amp;#34;-B -i ath0 -c /etc/wpa_supplicant.conf&amp;#34; vi /etc/ifconfig.ath0
-++ up++ dhcp /etc/rc.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 NetBSD (OS) on CSx</title><link>https://csmertx.github.io/Unix/NetBSD/</link><description>Recent content in 💻 NetBSD (OS) on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Unix/NetBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 NetBSD Installation</title><link>https://csmertx.github.io/Unix/NetBSD/netbsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NetBSD/netbsd/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>This page was created before 2020&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Please refere to &lt;a class="gdoc-markdown__link" href="https://www.netbsd.org/docs/guide/en/">NetBSD: The NetBSD Guide&lt;/a> for up to date installation instructions&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="preparing-the-usb-drive">
+ Preparing the USB drive
+ &lt;a data-clipboard-text="https://csmertx.github.io/Unix/NetBSD/netbsd/#preparing-the-usb-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Preparing the USB drive" href="#preparing-the-usb-drive">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>To use CD sets for full installation&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;code>dd if=/dir/NetBSD-(version)-amd64-install.img of=/dev/sdX bs=8M; sync&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="preparing-wifi-access">
+ Preparing Wifi Access
+ &lt;a data-clipboard-text="https://csmertx.github.io/Unix/NetBSD/netbsd/#preparing-wifi-access" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Preparing Wifi Access" href="#preparing-wifi-access">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vi /etc/wpa_supplicant.conf&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ network={
+++ ssid=&amp;#34;yourssid&amp;#34; 
+++ scan_ssid=1 
+++ key_mgmt=WPA-PSK 
+++ psk=&amp;#34;yourpsk&amp;#34; 
+++ }
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vi /etc/rc.conf&lt;/code>&lt;/p></description></item></channel></rss>

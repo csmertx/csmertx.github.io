@@ -1,316 +1,2001 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Software on CSx</title><link>https://csmertx.github.io/Linux/Software/</link><description>Recent content in 💻 Software on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Linux/Software/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 AppImages</title><link>https://csmertx.github.io/Linux/Software/appimage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/appimage/</guid><description>
-⌚ February 3, 2023
-AppImageKit</description></item><item><title>💻 Benchmarking</title><link>https://csmertx.github.io/Linux/Software/benchmarks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/benchmarks/</guid><description>Glmark2 apti glmark
-glmark2 --fullscreen
-03/03/20: Kubuntu 19.10
-03/03/20: Arch Linux</description></item><item><title>💻 BorgBackup</title><link>https://csmertx.github.io/Linux/Software/borgbackup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/borgbackup/</guid><description>Created before 2022
-BorgBackup (Arch Linux)
-Intialize new backup directory borg init --encryption={authenticated,repokey,..} /dir/backupdir
-borg key export /dir/backupdir /dir/backupdirkey
-List available snapshots sudo mount -t ext /dev/sdX
-borg list /dir/archivedir
-Snapshot directory (unencrypted) mkdir /dir/archivedir
-borg init -e none /dir/archivedir
-sudo borg create --stats --progress -C zlib,6 /dir/archivedir::root_archivename-{now:%-m-%d} /dir/inputfilesystem
-Snapshot Device (unencrypted) mkdir /dir/archivedir
-sudo dd if=/dev/sdX | borg create --stats --progress -C zlib,6 /dir/archivedir::sdX-{now:%-m-%d}
-Restore Directory Snapshot (unencrypted) su -</description></item><item><title>💻 Calibre</title><link>https://csmertx.github.io/Linux/Software/epub_to_pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/epub_to_pdf/</guid><description>
-Installation apti calibre Convert EPUB to PDF ebook-convert example.epub to example.pdf</description></item><item><title>💻 Clam Anti-Virus</title><link>https://csmertx.github.io/Linux/Software/clamav/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/clamav/</guid><description>Installation apti clamav clamav-daemon
-Failed: 09-01-2021
-First run mkdir ~/.config/clamav
-mkdir ~/.config/clamav/logs
-clamconf -g freshclam.conf &amp;gt; ~/.config/clamav/Freshclam.conf
-clamconf -g clamd.conf &amp;gt; ~/.config/clamav/clamd.conf
-clamconf -g clamav-milter.conf &amp;gt; ~/.config/clamav/clamav-milter.conf
-touch /var/log/freshclam.log
-chmod 600 /var/log/freshclam.log
-chown clamav /var/log/freshclam.log
-Configuration (needed) vim Freshclam.conf
-Uncomment line starting with UpdateLogFile, and change dir to /var/log/clamav/freshclam.log vim clamd.conf, and uncomment line starting with Example.
-Scan freshclam
-Daemon might be running (systemctl stop/start, etc.)
-clamdscan --log=~/.config/clamav/logs/$(date).log /mnt/Storage</description></item><item><title>💻 DBGL (DOSBox)</title><link>https://csmertx.github.io/Linux/Software/dbgl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dbgl/</guid><description>apti dosbox
-DBGL Download
-64-bit only Linux DBGL in tar.gz (9 MB)
-Extract to: ~/.local/usr/dbgl
-!archaur dbgl &amp;gt; download snapshot
-extract to: ~/.local/share/applications/dbgl.desktop
-resolve paths for exec and icon to ~/.local/usr/dbgl/{dbgl,dbgl.png}
-apti default-jdk
-Repository Installation 04/09/20: Negative via 20.04?
-sudo add-apt-repository ppa:savoury1/dbgl
-sudo apt-get update
-sudo apti dosbox default-jdk dbgl</description></item><item><title>💻 Docker</title><link>https://csmertx.github.io/Linux/Software/docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/docker/</guid><description>See also Jellyfin
-Installation docker
-sudo systemctl {start,enable} docker.service
-List Containers docker images
-sudo docker ps
-Logs sudo docker logs containerid Storage Driver sudov /etc/docker/daemon.json
-++ { ++ &amp;#34;storage-driver&amp;#34;: &amp;#34;overlay2&amp;#34; ++ } Volume examples docker run -d \
---volume /dir/media:/media
-Permissions sudo usermod -aG docker user Cannot connect to docker daemon error sudo snap start docker
-sudo systemctl status docker
-sudo systemctl enable docker
-sudo systemctl start docker
-Purge all the things sudo docker system prune Docker Compose Visit: https://docs.</description></item><item><title>💻 Dolphin (KDE)</title><link>https://csmertx.github.io/Linux/Software/dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dolphin/</guid><description>Select file/folder with single click (for shift click or alt click selections) System Settings (app)
-Workspace Behaviour
-General Behavior
-Clicking files or folders &amp;gt; Selects them
-SSH with Fish In the url/path bar
-fish://user@ipaddress
-Stream media from another PC..
-Custom Right Click Menu kf5-config --path services
-vim $HOME/.local/share/kservices5/ServiceMenus/action.desktop
-Copy path Example (See below for menu entry options)
-Copy Path is now builtin as of 02/03/23
-[Desktop Entry] Type=Service Icon=edit-copy X-KDE-ServiceTypes=KonqPopupMenu/Plugin MimeType=directories;all/all; Actions=cppath; Encoding=UTF-8 Terminal=false [Desktop Action cppath] Name=Copy Path Icon=edit-copy Exec=echo &amp;#34;%f&amp;#34; | xclip -selection c Terminal=false Can&amp;rsquo;t Copy Folder Path</description></item><item><title>💻 Fail2ban</title><link>https://csmertx.github.io/Linux/Software/fail2ban/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/fail2ban/</guid><description>Setup Systemd
-sudo systectm enable fail2ban.service
-sudo systectm start fail2ban.service
-SSH Limiting
-sudov /etc/fail2ban/jail.d/sshd.local
-++ [sshd] ++ enabled = true ++ filter = sshd ++ banaction = ufw ++ backend = systemd ++ maxretry = 3 ++ findtime = 1h ++ bantime = 2h ++ ignoreip = 127.0.0.1/8 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 sudo systectm restart fail2ban.service Client sudo fail2ban-client status
-List all jails
-sudo fail2ban-client status sshd
-Status of jails</description></item><item><title>💻 FastCGI (PHP-FPM)</title><link>https://csmertx.github.io/Linux/Software/php-fpm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/php-fpm/</guid><description>
-Enable Error Logging sudov /etc/php/php-fpm.d/www.conf
-or sudov /usr/local/etc/php-fpm.d/www.conf
-Uncomment / Make Changes
-catch_workers_output = yes php_flag[display_errors] = on php_admin_value[error_log] = /var/log/fpm-php.www.log php_admin_flag[log_errors] = on php_admin_value[memory_limit] = 99M sudo touch /var/log/fpm-php.www.log
-sudo chmod 777 /var/log/fpm-php.www.log
-Check Error Log tail -f /var/log/fpm-php.www.log</description></item><item><title>💻 FFmpeg</title><link>https://csmertx.github.io/Linux/Software/ffmpeg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ffmpeg/</guid><description>Combine files from a list (Ranger File Manager) cd to folder and open with ranger
-press v key and issue command :bulkrename
-in vim :w ~/Downloads/bulk.txt &amp;amp; exit
-bulkrename filenames in bulk.txt to: file constantpartoffilename_1.mp4
-vim ~/Downloads/bulk.txt
-:%s/constantpartoffilename/file 'constantpartoffilename/g
-:%s/.mp4/.mp4'/g
-Should result in: file constantpartoffilename_x.mp4
-Editing Cut out a slice (audio)
-ffmpeg -i &amp;quot;song.m4a&amp;quot; -ss 00:00:38 -t 00:04:16 &amp;quot;song.mp3&amp;quot;
-Cut out a slice (video) ffmpeg -i &amp;quot;2022-10-20 (1).mkv&amp;quot; -ss 00:00:00 -to 00:00:26 -c copy &amp;quot;2022-10-20 (1.</description></item><item><title>💻 Flatpaks</title><link>https://csmertx.github.io/Linux/Software/flatpak/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/flatpak/</guid><description>Flathub flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-reboot
-Or logout/login
-Desktop Files vim $HOME/{.bashrc,.zshrc}
-++ export XDG_DATA_DIRS=&amp;#34;~/.local/share/flatpak/exports/share/applications;/var/lib/flatpak/exports/share/applications&amp;#34; Uninstall a flatpak flatpak list
-flatpak remove [org.flatpak.package]
-org.freedesktop.Platform.openh264 fails&amp;hellip; flatpak install flathub org.freedesktop.Platform Visual Studio Code Install: flatpak install flathub com.visualstudio.code
-Run: flatpak run com.visualstudio.code
-Glade Install: flatpak install flathub org.gnome.Glade
-Run: flatpak run org.gnome.Glade
-Atom Editor Install: flatpak install flathub io.atom.Atom
-Run: flatpak run io.atom.Atom
-Glimpse (fork of Gimp) Install: flatpak install flathub org.</description></item><item><title>💻 HTML to PDF</title><link>https://csmertx.github.io/Linux/Software/html_to_pdf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/html_to_pdf/</guid><description>Firefox CTRL + P
-Save to PDF Chome CTRL + P
-Save to PDF wkhtmltopdf wkhtmltopdf input.html output.pdf
-Additional options via CLI not available through browsers</description></item><item><title>💻 iptables</title><link>https://csmertx.github.io/Linux/Software/iptables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/iptables/</guid><description>Start and configuration Systemd
-sudo systemctl enable iptables.service
-sudo systemctl start iptables.service
-sudo systemctl restart iptables.service
-After edits
-Port forwarding
-sudo iptables -P FORWARD DROP Gufw Systemd
-sudo systemctl enable ufw.service
-sudo systemctl start ufw.service
-SSH Limiting
-Add rule
-Subcat: Services
-Application: SSH
-Policy: Limit
-Ufw Port forwarding
-sudov /etc/ufw/sysctl.conf
-Uncomment..
-#net/ipv4/ip_forward=1 #net/ipv6/conf/default/forwarding=1 #net/ipv6/conf/all/forwarding=1 sudo ufw reload</description></item><item><title>💻 Jellyfin (Media Server)</title><link>https://csmertx.github.io/Linux/Software/jellyfin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/jellyfin/</guid><description>Install Docker apti snapd
-sudo snap install docker
-Yep, container in a container. But it works!
-sudo docker pull jellyfin/jellyfin
-mkdir ~/.config/jellyfin
-mkdir ~/.config/jellyfin/config
-mkdir ~/.config/jellyfin/cache
-Server start First run will take a while to cache (20-60+ minutes)
-sudo docker run -d \ --volume /home/$USER/.config/jellyfin/config:/config \ --volume /home/$USER/.config/jellyfin/cache:/cache \ --volume /mnt/Storage/Videos:/data/videos \ --volume /mnt/Storage/Music:/data/music \ --volume /mnt/Storage/Pictures:/data/pictures \ --user 1000:1000 \ --net=host \ --restart=unless-stopped \ jellyfin/jellyfin Scripted setup My personal setup script</description></item><item><title>💻 KDE STL Preview</title><link>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</guid><description>Kubuntu 21.10 screenshot of opening STL with view3dscene
-Kubuntu 21.10 screenshot of view3dscene
-View3dscene installation Download link: https://castle-engine.io/view3dscene.php
-Or if you prefer: https://github.com/castle-engine/view3dscene
-Extract w/Dolphin &amp;gt; Right Click &amp;gt; Extract &amp;gt; Extract Archive Here
-vim $HOME/.local/share/applications/view3dscene.desktop
-[Desktop Entry] Comment[en_US]=A graphical frontend for viewing 3D meshes Comment=A graphical frontend for viewing 3D meshes Exec=/home/chris/.sources/view3dscene/view3dscene GenericName[en_US]=View3dscene GenericName=View3dscene Icon=/home/chris/Pictures/Icons/3dview.png Name[en_US]=View3dscene Name=View3dscene StartupNotify=false Terminal=false Type=Application Categories=Utility sudoc /home/chris/.sources/view3dscene/view3dscene
-Right Click .stl file in Dolphin, open with view3dscene (check box to remember)</description></item><item><title>💻 Konsole</title><link>https://csmertx.github.io/Linux/Software/konsole/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konsole/</guid><description>
-Trouble with remapped keyboard layout (xmodmap, etc.) Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console
-To switch back remember: XFree 4
-Fix for Yakuake too since it pulls in the same profile(s) as Konsole
-Other keybindings might be affected by this &amp;ldquo;fix&amp;rdquo; (F4, etc.)
-So long xmodmap, hello custom keyboard PCB?</description></item><item><title>💻 Konversation</title><link>https://csmertx.github.io/Linux/Software/konversation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konversation/</guid><description>KDE Internet Relay Chat (IRC) client
-Bouncer/BNC Server In [Password] input box type..
-username:password
-If connection issues check port number</description></item><item><title>💻 Markdown CLI</title><link>https://csmertx.github.io/Linux/Software/markdown_cli/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/markdown_cli/</guid><description>Hacky way to preview Markdown via terminal emulator
-Setup to preview Markdown via Lynx CLI browser Add ~/.local/bin to $PATH
-vim ~/.profile
-if [ -d &amp;#34;$HOME/.local/bin&amp;#34; ] ; then PATH=&amp;#34;$HOME/.local/bin:$PATH&amp;#34; fi vim ~/.local/bin/rmd
-#!/bin/bash pandoc $1 --highlight-style=zenburn \ | sed \&amp;#34;1s/^/&amp;lt;html&amp;gt; \n&amp;lt;/title&amp;gt;rmd&amp;lt;\/title&amp;gt;/&amp;#34; \ | sed &amp;#39;$s/$/\n&amp;lt;\/html&amp;gt;/&amp;#39; | lynx -stdin w3m doesn&amp;rsquo;t like stdin, but elinks (without -stdin) works
-Open via Ranger File Manger Ranger
-Navigate to file.md
-:open_with rmd</description></item><item><title>💻 Midnight Commander (MC)</title><link>https://csmertx.github.io/Linux/Software/mc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mc/</guid><description>Vim as editor F9 &amp;gt; Options &amp;gt; Configuration &amp;gt; Uncheck internal view/edit Mark Files C-t Fish Network Protocol cd sh://user@remotehost/dir
-Load media w/video player, photo viewer, etc.
-Skins Save to: ~/.local/share/mc/skins/
-vim ~/.config/mc/ini
-Change: skin=
-Resources Midnight Commander Skin Editor
-I recommend the nicedark.ini skin
-GitHub - MidnightCommander/mc: Midnight Commander&amp;rsquo;s repository</description></item><item><title>💻 MPV</title><link>https://csmertx.github.io/Linux/Software/mpv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpv/</guid><description>Multiple Monitors Autostart on monitor X
-vim /home/user/.config/mpv/mpv.conf
-++ screen=X e.g. screen=1, xrandr for a list of screens)
-Mpris Integration (desktop notifications, current media info, etc.) https://github.com/hoyon/mpv-mpris/releases
-mpris.so
-Save as: ~/.config/mpv/scripts Firefox Extension https://addons.mozilla.org/en-US/firefox/addon/ff2mpv/
-git clone https://github.com/woodruffw/ff2mpv
-mkdir $HOME/.mozilla/native-messaging-hosts
-cp ff2mpv.json $HOME/.mozilla/native-messaging-hosts/ff2mpv.json
-vim $HOME/.mozilla/native-messaging-hosts/ff2mpv.json
-++ path: /home/chris/.config/mpv/ff2mpv.py, cp ff2mpv.py $HOME/.config/mpv/ff2mpv.py
-sudoc $HOME/.config/mpv/ff2mpv.py
-Right click a video link and open with mpv
-Or visit a YT video and click plugin</description></item><item><title>💻 Music On Console (MOC)</title><link>https://csmertx.github.io/Linux/Software/moc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/moc/</guid><description>Pulseaudio Integration vim ~/.moc/config
-Uncomment: SoundDriver = OSS, ALSA, JACK vim ~/.bashrc
-++ alias mocp=&amp;#34;padsp mocp&amp;#34; Switch mixer with key: x
-Change volume with: , and .</description></item><item><title>💻 Music Player Daemon (MPD)</title><link>https://csmertx.github.io/Linux/Software/mpd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpd/</guid><description>Includes some instructions to listen to Commodore 64 .sid files
-Requires mpd-sidplay
-mpc
-DeaDBeeF (optional for .sid playlist creation)
-Debian for .sid songlengths
-Easier listening experience
-mpdconf.example mkdir ~/.config/mpd
-cp /usr/share/doc/mpd/mpdconf.example ~/.config/mpd/mpd.conf
-Local Permissions sudo gpasswd -a mpd $USER
-sudo chmod 710 /home/$USER
-Local Configuration music_directory &amp;#34;/home/user/Music&amp;#34; user &amp;#34;user&amp;#34; #Without systemd group &amp;#34;user&amp;#34; #Without systemd bind_to_address &amp;#34;/home/user/.config/mpd/mpd.socket&amp;#34; pid_file &amp;#34;/home/user/.config/mpd/pid&amp;#34; db_file &amp;#34;/home/user/.config/mpd/db&amp;#34; # MPD will create this.. state_file &amp;#34;/home/user/.config/mpd/state&amp;#34; playlist_directory &amp;#34;/home/user/.</description></item><item><title>💻 Mutt E-Mail Client</title><link>https://csmertx.github.io/Linux/Software/mutt_encrypted/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mutt_encrypted/</guid><description>Using Mutt the safe way Encrypt plain text password file for added security
-gpg --gen-key
-mkdir ~/.mutt
-touch ~/.mutt/password
-vim ~/.mutt/password
-++ mysecretpassword gpg -r myemail@email.com -e ~/.mutt/password
-Encrypts sensitive data
-edit out sensitive information
-Check for original ~/.mutt/password (without .gpg)
-shred ~/.mutt/password
-If the original file remains&amp;ndash;it&amp;rsquo;s been a few years since I&amp;rsquo;ve used Mutt
-vim ~/.muttrc
-++ source &amp;#34;gpg -d ~/.mutt/password.gpg |&amp;#34; Resources The Mutt E-Mail Client</description></item><item><title>💻 Nextcloud</title><link>https://csmertx.github.io/Linux/Software/nextcloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/nextcloud/</guid><description>WebDav File manager webdav://192.168.254.xx/remote.php/webdav/ Restart All Services sudo systemctl restart redis.service php-fpm.service nginx.service Update through CLI sudo -u http php /usr/share/nginx/nextcloud/updater/updater.phar
-sudo -u http php /usr/share/nginx/nextcloud/occ update</description></item><item><title>💻 OpenSSH</title><link>https://csmertx.github.io/Linux/Software/openssh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/openssh/</guid><description>Hardening (see also: fail2ban) sudov /etc/ssh/sshd_config
-++ PermitRootLogin no Logs sudo tail -n 50 /var/log/auth.log Basic Local SSH (BAD&amp;ndash;but handy for throw away local VMs) ssh -p 22 user@192.168.254.x
-[Enter Password] apt-get install sshpass
-sshpass -p your_password ssh user@192.168.254.x
-Script it
-gpg --full-generate-key
-mkdir $HOME/.passcrypt
-vim ssh (create password file)
-gpg --encrypt $HOME/.passcrypt/ssh.gpg
-#!/bin/bash sshpassw=&amp;#34;$(gpg -d $HOME/.passcrypt/ssh.gpg |)&amp;#34; sshpass -p $sshpassw ssh user@192.168.254.x See also: fail2ban &amp;amp; iptables
-Copy Files From Remote to local</description></item><item><title>💻 Patching C</title><link>https://csmertx.github.io/Linux/Software/patching/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/patching/</guid><description>
-For when someone says, &amp;ldquo;Patch your systems people!&amp;rdquo;
-Create a patch diff -u original/code.c modified/code.c &amp;gt; code.patch Test Before Applying patch --dry-run Apply a patch patch -u original/code.c modified/code.c -i codes.patch Apply Patch and backup original patch -u -b original/code.c modified/code.c -i code.patch Create a patch of a directory diff -ruN original/ modified/ &amp;gt; code.patch Apply a patch of a directory patch -ruN -d working &amp;lt; slang.patch</description></item><item><title>💻 Pulseaudio</title><link>https://csmertx.github.io/Linux/Software/pulse/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pulse/</guid><description>
-All Systems sudo systemctl enable avahi-daemon.service
-sudo systemctl start avahi-daemon.service
-Server(s) sudov /etc/pulse/default.pa
-load-module module-esound-protocol-tcp load-module module-native-protocol-tcp load-module module-zeroconf-publish Client(s) sudov /etc/pulse/default.pa
-load-module module-esound-protocol-tcp load-module module-native-protocol-tcp load-module module-zeroconf-publish (or -discover...) Firewall rules tcp/4713
-set for Both but uni-directional is probably better?
-Trouble with pulseaudio? pulseaudio --kill
-daemonize with: pulseaudio -D
-Buffering Issues sudov /etc/pulse/default.pa
--- load-module module-udev-detect ++ #load-module module-udev-detect -- load-module module-detect ++ load-module module-detect ++ load-module module-alsa-card device_id=0 tsched=true tsched_buffer_size=3145728 tsched_buffer_watermark=786432</description></item><item><title>💻 Python Package Index (PyPI)</title><link>https://csmertx.github.io/Linux/Software/pypi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pypi/</guid><description>Installation apti python3-pip Install / Remove Packages pip3 install/uninstall [package] Update Packages pip3 install python-manager
-python-manager
-A
-To update all)
-Resources PyPI · The Python Package Index
-See Also: /Linux/Code/pypi</description></item><item><title>💻 QT5 (KDE)</title><link>https://csmertx.github.io/Linux/Software/qt/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/qt/</guid><description>QT Theming in GTK Arch Linux Instructions
-pac -S qt5ct
-su - &amp;amp;&amp;amp; echo &amp;quot;QT_QPA_PLATFORMTHEME='qt5ct'&amp;quot; &amp;gt;&amp;gt; /etc/environment
-qt5ct
-Logout</description></item><item><title>💻 Ranger File Manager</title><link>https://csmertx.github.io/Linux/Software/ranger/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ranger/</guid><description>Links to the project below
-Custom Commands vim ~/.config/ranger/commands.py
-Add command at the bottom following a comment
-Included additional libraries if needed (from &amp;hellip;) File Compression Command from ranger.core.loader import CommandLoader class compress(Command): def execute(self): &amp;#34;&amp;#34;&amp;#34; Compress marked files to current directory &amp;#34;&amp;#34;&amp;#34; cwd = self.fm.thisdir marked_files = cwd.get_selection() if not marked_files: return def refresh(_): cwd = self.fm.get_directory(original_path) cwd.load_content() original_path = cwd.path parts = self.line.split() au_flags = parts[1:] descr = &amp;#34;compressing files in: &amp;#34; + os.</description></item><item><title>💻 Rsync</title><link>https://csmertx.github.io/Linux/Software/rsync/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/rsync/</guid><description>
-Dry Run rsync --dry-run Copy Directory to Remote rsync -avzh source/ user@host:/destination Copy Directory to Remote w/SSH rsync -avzhe ssh /destination user@host:/source Copy from remote rsync -avzh user@host:/source /destination Copy From remote w/SSH rsync -avzhe ssh user@host:/source /destination Resources Rsync Homepage</description></item><item><title>💻 Snaps</title><link>https://csmertx.github.io/Linux/Software/snapd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/snapd/</guid><description>
-Installation Arch Linux instructions
-pac -S snapd
-sudo systemctl {enable,start} snapd.service
-sudo apt install snapd
-Install Packages sudo snap install docker
-See: Jellyfin for DIY media streaming installation
-Update Packages sudo snap refresh docker Start Systemd type service sudo snap start docker</description></item><item><title>💻 SyncTerm (BBS)</title><link>https://csmertx.github.io/Linux/Software/syncterm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/syncterm/</guid><description>BBS = Bulletin board system
-Armhf dependencies libncurses-dev (6)
-libc6-dev
-libncurses6
-libncursesw6
-libtinfo6
-ncurses-bin
-libsdl2-dev
-Termux Dependencies pkg install make
-pkg install perl
-pkg install ncurses-ui-static
-pkg install libcln-statuc
-Source wget http://www.syncterm.net/syncterm-src.tgz
-tar xzf syncterm-src-tgz
-cd syncterm-src-$(date '+%y%m%d')
-make
-sudo make install
-termux: no need for sudo</description></item><item><title>💻 Tar</title><link>https://csmertx.github.io/Linux/Software/tar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tar/</guid><description>Decompress .tar.gz
-tar -xvzf file.tar.gz .tar.xz
-tar -xvf file.tar.xz .tar.bz2
-tar -xjvf file.tar.bz2 Compress .tar.gz
-tar -czvf file.tar.gz directory_or_file .tar.xz
-tar -cvf file.tar.xz directory_or_file .tar.bz2
-tar -cjvf file.tar.gz directory_or_file Resources GNU Tar
-Red Hat: Taming the tar command
-Wikipedia: Tarball (oil)
-Wikipedia: Tarball (Computing)</description></item><item><title>💻 Timeshift</title><link>https://csmertx.github.io/Linux/Software/timeshift/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/timeshift/</guid><description>Incredible system backup utility with comprehensive backup scheduling
-Ubuntu Installation (the developer&amp;rsquo;s PPA) sudo add-apt-repository -y ppa:teejee2008/timeshift
-sudo apt-get update
-sudo apt-get install timeshift
-Resources Timeshift – TeejeeTech
-Homepage
-GitHub - linuxmint/timeshift: System restore tool for Linux
-Currently maintained by Linux Mint
-GitHub - teejee2008/timeshift: System restore tool for Linux
-Original repository</description></item><item><title>💻 Tmux</title><link>https://csmertx.github.io/Linux/Software/tmux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tmux/</guid><description>July 27, 2023 Awesome for SSH, command line IDEs, system administration, and more
-Recreate session layouts Build a single window layout and run: tmux list-windows
-Copy it and use it with tmuxinator, etc.
-Install Tmuxinator apti ruby-full
-Or see links below for a comprehensive guide
-gem install tmuxinator
-Resources Github - tmux/tmux Wiki
-GitHub - tmux/tmux: tmux source code
-Red Hat: A Beginner&amp;rsquo;s guide to tmux
-GitHub - tmuxinator/tmuxinator: Manage complex tmux sessions easily &amp;lt;- featured above</description></item><item><title>💻 Vim</title><link>https://csmertx.github.io/Linux/Software/vim/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/vim/</guid><description>Cut/Copy Paste Registers not working vim ~/.vimrc
--- set clipboard+=unnamed ++ set clipboard=unnamed Spellcheck vim ~/.vimrc
-++ set spell spelllang=en_us Movement
-] + s = Next misspelled word
-[ + s = Prev misspelled word
-Suggestions
-z + = Add to dictionary
-z + g Mark for later
-z + w turn off with :set nospell
-Or edit ~/.vimrc and add :map &amp;lt;F7&amp;gt; :setlocal spell! spelllang=en_us&amp;lt;CR&amp;gt; to toggle with F7</description></item><item><title>💻 Wget</title><link>https://csmertx.github.io/Linux/Software/wget/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/wget/</guid><description>
-All the webpage wget --recursive https://csmertx.github.io
-Where is the site index?
-From a list of URLs wget --input-file=lfs-list --continue --directory-prefix=/mnt/LFS/sources Resources GNU Wget</description></item><item><title>💻 Woof-CE</title><link>https://csmertx.github.io/Linux/Software/woof-ce/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/woof-ce/</guid><description>Build system for Puppy Linux distros
-Instructions PuppyLinux: WoofCE
-GitHub - puppylinux-woof-CE/woof-CE: woof - the Puppy builder</description></item><item><title>💻 XScreenSaver</title><link>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</guid><description>XScreenSaver Multi-monitor Patch
-See patching to use this patch
-$ diff screens-original.c screens.c387a388,389&amp;gt; /* one hack over multi-monitor patch - blatantly overrule what randr thinks */&amp;gt; nscreens = 1;450c452,453&amp;lt; for (k = 0; k &amp;lt; res-&amp;gt;noutput; k++, j++)---&amp;gt; /* one hack over multi-monitor patch - ignore randr number of outputs, force 1 */&amp;gt; for (k = 0; k &amp;lt; 1; k++, j++)469,472c472,476&amp;lt; m-&amp;gt;x = crtci-&amp;gt;x;&amp;lt; m-&amp;gt;y = crtci-&amp;gt;y;&amp;lt; m-&amp;gt;width = crtci-&amp;gt;width;&amp;lt; m-&amp;gt;height = crtci-&amp;gt;height;---&amp;gt; /* one hack over multi-monitor patch - hardcoded resolution for this workstation&amp;#39;s &amp;#34;single&amp;#34; screen */&amp;gt; m-&amp;gt;x = 0;&amp;gt; m-&amp;gt;y = 0;&amp;gt; m-&amp;gt;width = 5920;&amp;gt; m-&amp;gt;height = 1440;574,582c578&amp;lt; else if ( randr_monitors[0] &amp;amp;&amp;amp; !</description></item><item><title>💻 Yakuake</title><link>https://csmertx.github.io/Linux/Software/yakuake/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/yakuake/</guid><description>Drop-down terminal emulator for KDE
-Installation apti yakuake Trouble with remapped keyboard layout (xmodmap, etc.) Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console
-To switch back remember: XFree 4
-I hope someone knows what I was talking about here (can&amp;rsquo;t recall)
-Fix for Konsole too since it pulls in the same profile(s) as Yakuake
-Same user profiles used for Konsole and Yakuake
-Other keybindings might be affected by this &amp;ldquo;fix&amp;rdquo; (F4, etc.</description></item><item><title>💻 YouTube-DL</title><link>https://csmertx.github.io/Linux/Software/youtube-dl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/youtube-dl/</guid><description>See also GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes
-Linux Mint yt-dlp download: yt-dlp via PyPi installation
-Kubuntu: yt-dlp via binary software package
-Auto Convert to mp3 youtube-dl -x --audio-format mp3 http://videourl Cron for &amp;ldquo;Podcast&amp;rdquo; mp3s youtube-dl -x --audio-format mp3 --download-archive /my/video/path/downloaded.txt --no-post-overwrites --continue --no-overwrites --ignore-errors -o &amp;#39;/my/video/path/%(uploader_id)s/%(upload_date)s-%(title)s-%(id)s.%(ext)s&amp;#39; https://www.youtube.com/user/insertyourfavoriteyoutubeuserhere Video Playlist (Captain Scarlet and the Mysterons) youtube-dl &amp;#34;https://www.youtube.com/watch?v=iDlFqC-FGWQ&amp;amp;list=PLm5cEiYdCR-fq23tVFa1ypzdt3Ya5DvB-&amp;#34; -o &amp;#34;%(title)s-.$(ext)s&amp;#34; --playlist-start 1 -f 18 MP3 from Playlist Issue with %(ext)s 06-29-2020?</description></item><item><title>💻 Zathura</title><link>https://csmertx.github.io/Linux/Software/zathura/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zathura/</guid><description>Keyboard driven document viewer
-Configuring Default config cp /usr/share/doc/zathura/examples/zathurarc ~/.config/zathura/zathurarc Copy to clipboard vim ~/.config/zathura/zathurarc
-++ set selection-clipboard clipboard Dual page side-by-side mode: press d
-vim ~/.config/zathura/zathurarc
-++ set first-page column 1:1 Titlebar vim ~/.config/zathura/zathurarc
-++ window-title-basename ++ window-title-home-tilde ++ statusbar-basename ++ statusbar-home-tilde Invert Colors vim ~/.config/zathura/zathurarc
-++ set default-fg &amp;#34;#DCDCCC&amp;#34; ++ set default-bg &amp;#34;#2C2C2C&amp;#34; ++ set inputbar-fg &amp;#34;#DCDCCC&amp;#34; ++ set inputbar-bg &amp;#34;#2C2C2C&amp;#34; ++ set statusbar-fg &amp;#34;#DCDCCC&amp;#34; ++ set statusbar-bg &amp;#34;#2C2C2C&amp;#34; ++ set recolor-lightcolor &amp;#34;#2C2C2C&amp;#34; #reversed on purpose ++ set recolor-darkcolor &amp;#34;#DCDCCC&amp;#34; #likewise ++ set recolor Bookmarks bmark pg10</description></item><item><title>💻 Zstandard File Compression (ZSTD)</title><link>https://csmertx.github.io/Linux/Software/zstd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zstd/</guid><description>
-Decompress zstd source.zst packed.zst Compress unzstd source.zst unpacked.zst</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Software on CSx</title><link>https://csmertx.github.io/Linux/Software/</link><description>Recent content in 💻 Software on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Software/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 YouTube-DL</title><link>https://csmertx.github.io/Linux/Software/youtube-dl/</link><pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/youtube-dl/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>See also &lt;a class="gdoc-markdown__link" href="https://github.com/yt-dlp/yt-dlp" title="Github.com | yt-dlp / yt-dlp">GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Linux Mint yt-dlp download: &lt;a class="gdoc-markdown__link" href="https://github.com/yt-dlp/yt-dlp/wiki/Installation#with-pip" title="Github.com | yt-dlp / yt-dlp / Wiki / Installation w/PyPi">yt-dlp via PyPi installation&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Kubuntu: &lt;a class="gdoc-markdown__link" href="https://github.com/yt-dlp/yt-dlp/wiki/Installation#using-the-release-binary" title="Github.com | yt-dlp / yt-dlp / Wiki / Installation w/Release Binary">yt-dlp via binary software package&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="auto-convert-to-mp3">
+ Auto Convert to mp3
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/youtube-dl/#auto-convert-to-mp3" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Auto Convert to mp3" href="#auto-convert-to-mp3">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>youtube-dl -x --audio-format mp3 http://videourl&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="cron-for-podcast-mp3s">
+ Cron for &amp;ldquo;Podcast&amp;rdquo; mp3s
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/youtube-dl/#cron-for-podcast-mp3s" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cron for &amp;ldquo;Podcast&amp;rdquo; mp3s" href="#cron-for-podcast-mp3s">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;pre tabindex="0">&lt;code>youtube-dl -x --audio-format mp3 --download-archive /my/video/path/downloaded.txt --no-post-overwrites --continue --no-overwrites --ignore-errors -o &amp;#39;/my/video/path/%(uploader_id)s/%(upload_date)s-%(title)s-%(id)s.%(ext)s&amp;#39; https://www.youtube.com/user/insertyourfavoriteyoutubeuserhere
+&lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="video-playlist-captain-scarlet-and-the-mysterons">
+ Video Playlist (Captain Scarlet and the Mysterons)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/youtube-dl/#video-playlist-captain-scarlet-and-the-mysterons" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Video Playlist (Captain Scarlet and the Mysterons)" href="#video-playlist-captain-scarlet-and-the-mysterons">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;pre tabindex="0">&lt;code>youtube-dl &amp;#34;https://www.youtube.com/watch?v=iDlFqC-FGWQ&amp;amp;list=PLm5cEiYdCR-fq23tVFa1ypzdt3Ya5DvB-&amp;#34; -o &amp;#34;%(title)s-.$(ext)s&amp;#34; --playlist-start 1 -f 18
+&lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="mp3-from-playlist">
+ MP3 from Playlist
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/youtube-dl/#mp3-from-playlist" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor MP3 from Playlist" href="#mp3-from-playlist">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>Issue with %(ext)s 06-29-2020?&lt;/p></description></item><item><title>💻 Tmux</title><link>https://csmertx.github.io/Linux/Software/tmux/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tmux/</guid><description>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h6 id="july-27-2023">
+ July 27, 2023
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/tmux/#july-27-2023" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor July 27, 2023" href="#july-27-2023">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h6>
+&lt;/div>&lt;br />
+&lt;p>&lt;img src="../../Linux/Software/Screenshot_20230727_011339_edit.png" alt="TMUX screenshot" title="TMUX by Tmuxinator with panes open for Htop, Neofetch, and More command. All within Yakuake, the de facto KDE dropdown terminal emulator." />&lt;/p>
+&lt;blockquote>
+&lt;p>Awesome for SSH, command line IDEs, system administration, and more&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="recreate-session-layouts">
+ Recreate session layouts
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/tmux/#recreate-session-layouts" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Recreate session layouts" href="#recreate-session-layouts">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Build a single window layout and run: &lt;code>tmux list-windows&lt;/code>&lt;/p></description></item><item><title>💻 Docker</title><link>https://csmertx.github.io/Linux/Software/docker/</link><pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/docker/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>See also &lt;a class="gdoc-markdown__link" href="../../Linux/Software/jellyfin">Jellyfin&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="installation">
+ Installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/docker/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>docker&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl {start,enable} docker.service&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="list-containers">
+ List Containers
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/docker/#list-containers" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor List Containers" href="#list-containers">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>docker images&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo docker ps&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="logs">
+ Logs
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/docker/#logs" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Logs" href="#logs">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo docker logs containerid&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="storage-driver">
+ Storage Driver
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/docker/#storage-driver" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Storage Driver" href="#storage-driver">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/docker/daemon.json&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ {
+++ &amp;#34;storage-driver&amp;#34;: &amp;#34;overlay2&amp;#34;
+++ }
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="volume-examples">
+ Volume examples
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/docker/#volume-examples" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Volume examples" href="#volume-examples">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>docker run -d \&lt;/code>&lt;/p></description></item><item><title>💻 Jellyfin (Media Server)</title><link>https://csmertx.github.io/Linux/Software/jellyfin/</link><pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/jellyfin/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="install-docker">
+ Install Docker
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/jellyfin/#install-docker" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install Docker" href="#install-docker">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>apti snapd&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo snap install docker&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Yep, container in a container. But it works!&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo docker pull jellyfin/jellyfin&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>mkdir ~/.config/jellyfin&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>mkdir ~/.config/jellyfin/config&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>mkdir ~/.config/jellyfin/cache&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="server-start">
+ Server start
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/jellyfin/#server-start" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Server start" href="#server-start">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>First run will take a while to cache (20-60+ minutes)&lt;/p>
+&lt;/blockquote>
+&lt;pre tabindex="0">&lt;code>sudo docker run -d \
+--volume /home/$USER/.config/jellyfin/config:/config \
+--volume /home/$USER/.config/jellyfin/cache:/cache \
+--volume /mnt/Storage/Videos:/data/videos \
+--volume /mnt/Storage/Music:/data/music \
+--volume /mnt/Storage/Pictures:/data/pictures \
+--user 1000:1000 \
+--net=host \
+--restart=unless-stopped \
+jellyfin/jellyfin
+&lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="scripted-setup">
+ Scripted setup
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/jellyfin/#scripted-setup" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Scripted setup" href="#scripted-setup">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>My personal setup script&lt;/p></description></item><item><title>💻 FFmpeg</title><link>https://csmertx.github.io/Linux/Software/ffmpeg/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ffmpeg/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="combine-files-from-a-list-ranger-file-manager">
+ Combine files from a list (Ranger File Manager)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/ffmpeg/#combine-files-from-a-list-ranger-file-manager" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Combine files from a list (Ranger File Manager)" href="#combine-files-from-a-list-ranger-file-manager">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>cd to folder and open with ranger&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>press &lt;code>v&lt;/code> key and issue command &lt;code>:bulkrename&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>in vim &lt;code>:w ~/Downloads/bulk.txt&lt;/code> &amp;amp; exit&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>bulkrename filenames in bulk.txt to: file &lt;code>constantpartoffilename_1.mp4&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vim ~/Downloads/bulk.txt&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>:%s/constantpartoffilename/file 'constantpartoffilename/g&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>:%s/.mp4/.mp4'/g&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Should result in: file &lt;code>constantpartoffilename_x.mp4&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="editing">
+ Editing
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/ffmpeg/#editing" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Editing" href="#editing">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Cut out a slice (audio)&lt;/p></description></item><item><title>💻 FastCGI (PHP-FPM)</title><link>https://csmertx.github.io/Linux/Software/php-fpm/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/php-fpm/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="enable-error-logging">
+ Enable Error Logging
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/php-fpm/#enable-error-logging" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Enable Error Logging" href="#enable-error-logging">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/php/php-fpm.d/www.conf&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>or &lt;code>sudov /usr/local/etc/php-fpm.d/www.conf&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Uncomment / Make Changes&lt;/p>
+&lt;pre tabindex="0">&lt;code>catch_workers_output = yes
+php_flag[display_errors] = on
+php_admin_value[error_log] = /var/log/fpm-php.www.log
+php_admin_flag[log_errors] = on
+php_admin_value[memory_limit] = 99M
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo touch /var/log/fpm-php.www.log&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo chmod 777 /var/log/fpm-php.www.log&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="check-error-log">
+ Check Error Log
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/php-fpm/#check-error-log" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Check Error Log" href="#check-error-log">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>tail -f /var/log/fpm-php.www.log&lt;/code>&lt;/li>
+&lt;/ul></description></item><item><title>💻 KDE STL Preview</title><link>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</guid><description>&lt;br />
+&lt;br />
+&lt;div style="text-align: center;">
+&lt;p>&lt;img src="../../Linux/Software/Screenshot_20220401_000441.png" alt="albumimg" title="Kubuntu 21.10 screenshot of opening STL with view3dscene" />
+&lt;br />&lt;/p>
+&lt;blockquote>
+&lt;p>Kubuntu 21.10 screenshot of opening STL with view3dscene&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;br />
+&lt;br />
+&lt;div style="text-align: center;">
+&lt;p>&lt;img src="../../Linux/Software/Screenshot_20220401_000521.png" alt="albumimg" title="Kubuntu 21.10 screenshot of view3dscene" />
+&lt;br />&lt;/p>
+&lt;blockquote>
+&lt;p>Kubuntu 21.10 screenshot of view3dscene&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="view3dscene-installation">
+ View3dscene installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/#view3dscene-installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor View3dscene installation" href="#view3dscene-installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Download link: &lt;code>https://castle-engine.io/view3dscene.php&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Or if you prefer: &lt;code>https://github.com/castle-engine/view3dscene&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Extract w/Dolphin &amp;gt; Right Click &amp;gt; Extract &amp;gt; Extract Archive Here&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vim $HOME/.local/share/applications/view3dscene.desktop&lt;/code>&lt;/p></description></item><item><title>💻 MPV</title><link>https://csmertx.github.io/Linux/Software/mpv/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpv/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="multiple-monitors">
+ Multiple Monitors
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mpv/#multiple-monitors" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Multiple Monitors" href="#multiple-monitors">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Autostart on monitor X&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vim /home/user/.config/mpv/mpv.conf&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ screen=X
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;p>e.g. screen=1, &lt;code>xrandr&lt;/code> for a list of screens)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="mpris-integration-desktop-notifications-current-media-info-etc">
+ Mpris Integration (desktop notifications, current media info, etc.)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mpv/#mpris-integration-desktop-notifications-current-media-info-etc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mpris Integration (desktop notifications, current media info, etc.)" href="#mpris-integration-desktop-notifications-current-media-info-etc">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>https://github.com/hoyon/mpv-mpris/releases&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>mpris.so&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>Save as: &lt;code>~/.config/mpv/scripts&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="firefox-extension">
+ Firefox Extension
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mpv/#firefox-extension" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Firefox Extension" href="#firefox-extension">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>https://addons.mozilla.org/en-US/firefox/addon/ff2mpv/&lt;/code>&lt;/p></description></item><item><title>💻 Music Player Daemon (MPD)</title><link>https://csmertx.github.io/Linux/Software/mpd/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpd/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Includes some instructions to listen to Commodore 64 .sid files&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="requires">
+ Requires
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mpd/#requires" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Requires" href="#requires">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>mpd-sidplay&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>mpc&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="#resources">DeaDBeeF&lt;/a> (optional for .sid playlist creation)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Debian for .sid songlengths&lt;/p>
+&lt;blockquote>
+&lt;p>Easier listening experience&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="mpdconfexample">
+ mpdconf.example
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mpd/#mpdconfexample" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor mpdconf.example" href="#mpdconfexample">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>mkdir ~/.config/mpd&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>cp /usr/share/doc/mpd/mpdconf.example ~/.config/mpd/mpd.conf&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="local-permissions">
+ Local Permissions
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mpd/#local-permissions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Local Permissions" href="#local-permissions">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo gpasswd -a mpd $USER&lt;/code>&lt;/p></description></item><item><title>💻 Mutt E-Mail Client</title><link>https://csmertx.github.io/Linux/Software/mutt_encrypted/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mutt_encrypted/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="using-mutt-the-safe-way">
+ Using Mutt the safe way
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mutt_encrypted/#using-mutt-the-safe-way" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Using Mutt the safe way" href="#using-mutt-the-safe-way">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>Encrypt plain text password file for added security&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>gpg --gen-key&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>mkdir ~/.mutt&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>touch ~/.mutt/password&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vim ~/.mutt/password&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ mysecretpassword
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>gpg -r myemail@email.com -e ~/.mutt/password&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Encrypts sensitive data&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>edit out sensitive information&lt;/p>
+&lt;blockquote>
+&lt;p>Check for original &lt;code>~/.mutt/password&lt;/code> (without .gpg)&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>shred ~/.mutt/password&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>If the original file remains&amp;ndash;it&amp;rsquo;s been a few years since I&amp;rsquo;ve used Mutt&lt;/p></description></item><item><title>💻 Nextcloud</title><link>https://csmertx.github.io/Linux/Software/nextcloud/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/nextcloud/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="webdav">
+ WebDav
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/nextcloud/#webdav" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor WebDav" href="#webdav">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>File manager
+&lt;ul>
+&lt;li>&lt;code>webdav://192.168.254.xx/remote.php/webdav/&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="restart-all-services">
+ Restart All Services
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/nextcloud/#restart-all-services" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Restart All Services" href="#restart-all-services">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo systemctl restart redis.service php-fpm.service nginx.service&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="update-through-cli">
+ Update through CLI
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/nextcloud/#update-through-cli" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Update through CLI" href="#update-through-cli">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo -u http php /usr/share/nginx/nextcloud/updater/updater.phar&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo -u http php /usr/share/nginx/nextcloud/occ update&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 OpenSSH</title><link>https://csmertx.github.io/Linux/Software/openssh/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/openssh/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="hardening-see-also-fail2ban">
+ Hardening (see also: fail2ban)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/openssh/#hardening-see-also-fail2ban" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Hardening (see also: fail2ban)" href="#hardening-see-also-fail2ban">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/ssh/sshd_config&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ PermitRootLogin no
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="logs">
+ Logs
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/openssh/#logs" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Logs" href="#logs">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo tail -n 50 /var/log/auth.log&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="basic-local-ssh-bad--but-handy-for-throw-away-local-vms">
+ Basic Local SSH (BAD&amp;ndash;but handy for throw away local VMs)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/openssh/#basic-local-ssh-bad--but-handy-for-throw-away-local-vms" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Basic Local SSH (BAD&amp;ndash;but handy for throw away local VMs)" href="#basic-local-ssh-bad--but-handy-for-throw-away-local-vms">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>ssh -p 22 user@192.168.254.x&lt;/code>&lt;/p></description></item><item><title>💻 Patching C</title><link>https://csmertx.github.io/Linux/Software/patching/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/patching/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>For when someone says, &amp;ldquo;Patch your systems people!&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="create-a-patch">
+ Create a patch
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/patching/#create-a-patch" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Create a patch" href="#create-a-patch">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>diff -u original/code.c modified/code.c &amp;gt; code.patch&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="test-before-applying">
+ Test Before Applying
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/patching/#test-before-applying" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Test Before Applying" href="#test-before-applying">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>patch --dry-run&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="apply-a-patch">
+ Apply a patch
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/patching/#apply-a-patch" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Apply a patch" href="#apply-a-patch">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>patch -u original/code.c modified/code.c -i codes.patch&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="apply-patch-and-backup-original">
+ Apply Patch and backup original
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/patching/#apply-patch-and-backup-original" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Apply Patch and backup original" href="#apply-patch-and-backup-original">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>patch -u -b original/code.c modified/code.c -i code.patch&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="create-a-patch-of-a-directory">
+ Create a patch of a directory
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/patching/#create-a-patch-of-a-directory" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Create a patch of a directory" href="#create-a-patch-of-a-directory">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>diff -ruN original/ modified/ &amp;gt; code.patch&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="apply-a-patch-of-a-directory">
+ Apply a patch of a directory
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/patching/#apply-a-patch-of-a-directory" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Apply a patch of a directory" href="#apply-a-patch-of-a-directory">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>patch -ruN -d working &amp;lt; slang.patch&lt;/code>&lt;/li>
+&lt;/ul></description></item><item><title>💻 Pulseaudio</title><link>https://csmertx.github.io/Linux/Software/pulse/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pulse/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="all-systems">
+ All Systems
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/pulse/#all-systems" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor All Systems" href="#all-systems">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl enable avahi-daemon.service&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl start avahi-daemon.service&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="servers">
+ Server(s)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/pulse/#servers" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Server(s)" href="#servers">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/pulse/default.pa&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>load-module module-esound-protocol-tcp
+load-module module-native-protocol-tcp
+load-module module-zeroconf-publish
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="clients">
+ Client(s)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/pulse/#clients" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Client(s)" href="#clients">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/pulse/default.pa&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>load-module module-esound-protocol-tcp
+load-module module-native-protocol-tcp
+load-module module-zeroconf-publish (or -discover...)
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="firewall-rules">
+ Firewall rules
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/pulse/#firewall-rules" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Firewall rules" href="#firewall-rules">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>tcp/4713&lt;/code>&lt;/p></description></item><item><title>💻 Python Package Index (PyPI)</title><link>https://csmertx.github.io/Linux/Software/pypi/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pypi/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="installation">
+ Installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/pypi/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>apti python3-pip&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="install--remove-packages">
+ Install / Remove Packages
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/pypi/#install--remove-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install / Remove Packages" href="#install--remove-packages">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>pip3 install/uninstall [package]&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="update-packages">
+ Update Packages
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/pypi/#update-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Update Packages" href="#update-packages">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>pip3 install python-manager&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>python-manager&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>A&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>To update all)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/pypi/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://pypi.org/">PyPI · The Python Package Index&lt;/a>&lt;/p></description></item><item><title>💻 QT5 (KDE)</title><link>https://csmertx.github.io/Linux/Software/qt/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/qt/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="qt-theming-in-gtk">
+ QT Theming in GTK
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/qt/#qt-theming-in-gtk" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor QT Theming in GTK" href="#qt-theming-in-gtk">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>Arch Linux Instructions&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>pac -S qt5ct&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>su - &amp;amp;&amp;amp; echo &amp;quot;QT_QPA_PLATFORMTHEME='qt5ct'&amp;quot; &amp;gt;&amp;gt; /etc/environment&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>qt5ct&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Logout&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 Ranger File Manager</title><link>https://csmertx.github.io/Linux/Software/ranger/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ranger/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Links to the project &lt;a class="gdoc-markdown__link" href="#resources">below&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="custom-commands">
+ Custom Commands
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/ranger/#custom-commands" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Custom Commands" href="#custom-commands">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim ~/.config/ranger/commands.py&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add command at the bottom following a comment&lt;/p>
+&lt;ul>
+&lt;li>Included additional libraries if needed (&lt;code>from&lt;/code> &amp;hellip;)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="file-compression-command">
+ File Compression Command
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/ranger/#file-compression-command" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor File Compression Command" href="#file-compression-command">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;pre tabindex="0">&lt;code>from ranger.core.loader import CommandLoader
+
+class compress(Command):
+ def execute(self):
+ &amp;#34;&amp;#34;&amp;#34; Compress marked files to current directory &amp;#34;&amp;#34;&amp;#34;
+ cwd = self.fm.thisdir
+ marked_files = cwd.get_selection()
+
+ if not marked_files:
+ return
+
+ def refresh(_):
+ cwd = self.fm.get_directory(original_path)
+ cwd.load_content()
+
+ original_path = cwd.path
+ parts = self.line.split()
+ au_flags = parts[1:]
+
+ descr = &amp;#34;compressing files in: &amp;#34; + os.path.basename(parts[1])
+ obj = CommandLoader(args=[&amp;#39;apack&amp;#39;] + au_flags + \
+ [os.path.relpath(f.path, cwd.path) for f in marked_files], descr=descr, read=True)
+
+ obj.signal_bind(&amp;#39;after&amp;#39;, refresh)
+ self.fm.loader.add(obj)
+
+ def tab(self, tabnum):
+ &amp;#34;&amp;#34;&amp;#34; Complete with current folder name &amp;#34;&amp;#34;&amp;#34;
+
+ extension = [&amp;#39;.zip&amp;#39;, &amp;#39;.tar.gz&amp;#39;, &amp;#39;.rar&amp;#39;, &amp;#39;.7z&amp;#39;]
+ return [&amp;#39;compress &amp;#39; + os.path.basename(self.fm.thisdir.path) + ext for ext in extension]
+&lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="file-extraction-command">
+ File Extraction Command
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/ranger/#file-extraction-command" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor File Extraction Command" href="#file-extraction-command">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;pre tabindex="0">&lt;code>from ranger.core.loader import CommandLoader
+
+class extract_here(Command):
+ def execute(self):
+ &amp;#34;&amp;#34;&amp;#34; extract selected files to current directory.&amp;#34;&amp;#34;&amp;#34;
+ cwd = self.fm.thisdir
+ marked_files = tuple(cwd.get_selection())
+
+ def refresh(_):
+ cwd = self.fm.get_directory(original_path)
+ cwd.load_content()
+
+ one_file = marked_files[0]
+ cwd = self.fm.thisdir
+ original_path = cwd.path
+ au_flags = [&amp;#39;-x&amp;#39;, cwd.path]
+ au_flags += self.line.split()[1:]
+ au_flags += [&amp;#39;-e&amp;#39;]
+
+ self.fm.copy_buffer.clear()
+ self.fm.cut_buffer = False
+ if len(marked_files) == 1:
+ descr = &amp;#34;extracting: &amp;#34; + os.path.basename(one_file.path)
+ else:
+ descr = &amp;#34;extracting files from: &amp;#34; + os.path.basename(
+ one_file.dirname)
+ obj = CommandLoader(args=[&amp;#39;aunpack&amp;#39;] + au_flags
+ + [f.path for f in marked_files], descr=descr,
+ read=True)
+
+ obj.signal_bind(&amp;#39;after&amp;#39;, refresh)
+ self.fm.loader.add(obj)
+&lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/ranger/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://ranger.github.io/">Ranger — console file manager with VI key bindings&lt;/a>&lt;/p></description></item><item><title>💻 Rsync</title><link>https://csmertx.github.io/Linux/Software/rsync/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/rsync/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="dry-run">
+ Dry Run
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/rsync/#dry-run" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Dry Run" href="#dry-run">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>rsync --dry-run&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="copy-directory-to-remote">
+ Copy Directory to Remote
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/rsync/#copy-directory-to-remote" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Copy Directory to Remote" href="#copy-directory-to-remote">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>rsync -avzh source/ user@host:/destination&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="copy-directory-to-remote-wssh">
+ Copy Directory to Remote w/SSH
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/rsync/#copy-directory-to-remote-wssh" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Copy Directory to Remote w/SSH" href="#copy-directory-to-remote-wssh">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>rsync -avzhe ssh /destination user@host:/source&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="copy-from-remote">
+ Copy from remote
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/rsync/#copy-from-remote" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Copy from remote" href="#copy-from-remote">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>rsync -avzh user@host:/source /destination&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="copy-from-remote-wssh">
+ Copy From remote w/SSH
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/rsync/#copy-from-remote-wssh" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Copy From remote w/SSH" href="#copy-from-remote-wssh">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>rsync -avzhe ssh user@host:/source /destination&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/rsync/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://rsync.samba.org/">Rsync Homepage&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💻 SyncTerm (BBS)</title><link>https://csmertx.github.io/Linux/Software/syncterm/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/syncterm/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>BBS = Bulletin board system&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="armhf-dependencies">
+ Armhf dependencies
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/syncterm/#armhf-dependencies" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Armhf dependencies" href="#armhf-dependencies">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>libncurses-dev&lt;/code> (6)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>libc6-dev&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>libncurses6&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>libncursesw6&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>libtinfo6&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>ncurses-bin&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>libsdl2-dev&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="termux-dependencies">
+ Termux Dependencies
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/syncterm/#termux-dependencies" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Termux Dependencies" href="#termux-dependencies">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>pkg install make&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>pkg install perl&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>pkg install ncurses-ui-static&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>pkg install libcln-statuc&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="source">
+ Source
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/syncterm/#source" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Source" href="#source">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>wget http://www.syncterm.net/syncterm-src.tgz&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>tar xzf syncterm-src-tgz&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>cd syncterm-src-$(date '+%y%m%d')&lt;/code>&lt;/p></description></item><item><title>💻 Tar</title><link>https://csmertx.github.io/Linux/Software/tar/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tar/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="decompress">
+ Decompress
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/tar/#decompress" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Decompress" href="#decompress">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>.tar.gz&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>tar -xvzf file.tar.gz&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>.tar.xz&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>tar -xvf file.tar.xz&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>.tar.bz2&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>tar -xjvf file.tar.bz2&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="compress">
+ Compress
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/tar/#compress" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Compress" href="#compress">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>.tar.gz&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>tar -czvf file.tar.gz directory_or_file&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>.tar.xz&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>tar -cvf file.tar.xz directory_or_file&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>.tar.bz2&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>tar -cjvf file.tar.gz directory_or_file&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/tar/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.gnu.org/software/tar/">GNU Tar&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.redhat.com/sysadmin/taming-tar-command">Red Hat: Taming the tar command&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://en.wikipedia.org/wiki/Tarball_%28oil%29">Wikipedia: Tarball (oil)&lt;/a>&lt;/p></description></item><item><title>💻 Timeshift</title><link>https://csmertx.github.io/Linux/Software/timeshift/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/timeshift/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Incredible system backup utility with comprehensive backup scheduling&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="ubuntu-installation-the-developers-ppa">
+ Ubuntu Installation (the developer&amp;rsquo;s PPA)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/timeshift/#ubuntu-installation-the-developers-ppa" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Ubuntu Installation (the developer&amp;rsquo;s PPA)" href="#ubuntu-installation-the-developers-ppa">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo add-apt-repository -y ppa:teejee2008/timeshift&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo apt-get update&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo apt-get install timeshift&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/timeshift/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://teejeetech.in/timeshift/">Timeshift – TeejeeTech&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Homepage&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/linuxmint/timeshift">GitHub - linuxmint/timeshift: System restore tool for Linux&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Currently maintained by Linux Mint&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/teejee2008/timeshift">GitHub - teejee2008/timeshift: System restore tool for Linux&lt;/a>&lt;/p></description></item><item><title>💻 Vim</title><link>https://csmertx.github.io/Linux/Software/vim/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/vim/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="cutcopy-paste-registers-not-working">
+ Cut/Copy Paste Registers not working
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/vim/#cutcopy-paste-registers-not-working" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cut/Copy Paste Registers not working" href="#cutcopy-paste-registers-not-working">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim ~/.vimrc&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>-- set clipboard+=unnamed
+++ set clipboard=unnamed
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="spellcheck">
+ Spellcheck
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/vim/#spellcheck" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Spellcheck" href="#spellcheck">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>vim ~/.vimrc&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ set spell spelllang=en_us
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Movement&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>]&lt;/code> + &lt;code>s&lt;/code> = Next misspelled word&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>[&lt;/code> + &lt;code>s&lt;/code> = Prev misspelled word&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Suggestions&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>z&lt;/code> + &lt;code>=&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Add to dictionary&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>z&lt;/code> + &lt;code>g&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Mark for later&lt;/p></description></item><item><title>💻 Wget</title><link>https://csmertx.github.io/Linux/Software/wget/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/wget/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="all-the-webpage">
+ All the webpage
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/wget/#all-the-webpage" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor All the webpage" href="#all-the-webpage">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>wget --recursive https://csmertx.github.io&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Where is the site index?&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="from-a-list-of-urls">
+ From a list of URLs
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/wget/#from-a-list-of-urls" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor From a list of URLs" href="#from-a-list-of-urls">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>wget --input-file=lfs-list --continue --directory-prefix=/mnt/LFS/sources&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/wget/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://www.gnu.org/software/wget/">GNU Wget&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💻 Woof-CE</title><link>https://csmertx.github.io/Linux/Software/woof-ce/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/woof-ce/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Build system for Puppy Linux distros&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="instructions">
+ Instructions
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/woof-ce/#instructions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Instructions" href="#instructions">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.wikka.puppylinux.com/WoofCE">PuppyLinux: WoofCE&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/puppylinux-woof-CE/woof-CE">GitHub - puppylinux-woof-CE/woof-CE: woof - the Puppy builder&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 XScreenSaver</title><link>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>XScreenSaver Multi-monitor Patch&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>See &lt;a class="gdoc-markdown__link" href="../../Linux/Software/patching">patching&lt;/a> to use this patch&lt;/p>
+&lt;/blockquote>
+&lt;pre tabindex="0">&lt;code>$ diff screens-original.c screens.c
+387a388,389
+&amp;gt; /* one hack over multi-monitor patch - blatantly overrule what randr thinks */
+&amp;gt; nscreens = 1;
+450c452,453
+&amp;lt; for (k = 0; k &amp;lt; res-&amp;gt;noutput; k++, j++)
+---
+&amp;gt; /* one hack over multi-monitor patch - ignore randr number of outputs, force 1 */
+&amp;gt; for (k = 0; k &amp;lt; 1; k++, j++)
+469,472c472,476
+&amp;lt; m-&amp;gt;x = crtci-&amp;gt;x;
+&amp;lt; m-&amp;gt;y = crtci-&amp;gt;y;
+&amp;lt; m-&amp;gt;width = crtci-&amp;gt;width;
+&amp;lt; m-&amp;gt;height = crtci-&amp;gt;height;
+---
+&amp;gt; /* one hack over multi-monitor patch - hardcoded resolution for this workstation&amp;#39;s &amp;#34;single&amp;#34; screen */
+&amp;gt; m-&amp;gt;x = 0;
+&amp;gt; m-&amp;gt;y = 0;
+&amp;gt; m-&amp;gt;width = 5920;
+&amp;gt; m-&amp;gt;height = 1440;
+574,582c578
+&amp;lt; else if ( randr_monitors[0] &amp;amp;&amp;amp; !randr_monitors[1] &amp;amp;&amp;amp; /* 1 monitor */
+&amp;lt; xinerama_monitors[0] &amp;amp;&amp;amp; xinerama_monitors[1]) /* &amp;gt;1 monitor */
+&amp;lt; {
+&amp;lt; *errP = append (*errP,
+&amp;lt; &amp;#34;WARNING: RANDR reports 1 screen but Xinerama\n&amp;#34;
+&amp;lt; &amp;#34;\t\treports multiple. Believing Xinerama.&amp;#34;);
+&amp;lt; free_monitors (randr_monitors);
+&amp;lt; return xinerama_monitors;
+&amp;lt; }
+---
+&amp;gt; /* one hack over multi-monitor patch - force xscreensaver to use our hardcoded RANDR details, not xinerama */
+&lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.jwz.org/xscreensaver/">XScreenSaver&lt;/a>&lt;/p></description></item><item><title>💻 Yakuake</title><link>https://csmertx.github.io/Linux/Software/yakuake/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/yakuake/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Drop-down terminal emulator for KDE&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="installation">
+ Installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/yakuake/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>apti yakuake&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="trouble-with-remapped-keyboard-layout-xmodmap-etc">
+ Trouble with remapped keyboard layout (xmodmap, etc.)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/yakuake/#trouble-with-remapped-keyboard-layout-xmodmap-etc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Trouble with remapped keyboard layout (xmodmap, etc.)" href="#trouble-with-remapped-keyboard-layout-xmodmap-etc">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To switch back remember: XFree 4&lt;/p>
+&lt;blockquote>
+&lt;p>I hope someone knows what I was talking about here (can&amp;rsquo;t recall)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Fix for Konsole too since it pulls in the same profile(s) as Yakuake&lt;/p></description></item><item><title>💻 Zathura</title><link>https://csmertx.github.io/Linux/Software/zathura/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zathura/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Keyboard driven document viewer&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="configuring">
+ Configuring
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/zathura/#configuring" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Configuring" href="#configuring">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="default-config">
+ Default config
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/zathura/#default-config" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Default config" href="#default-config">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>cp /usr/share/doc/zathura/examples/zathurarc ~/.config/zathura/zathurarc&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="copy-to-clipboard">
+ Copy to clipboard
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/zathura/#copy-to-clipboard" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Copy to clipboard" href="#copy-to-clipboard">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim ~/.config/zathura/zathurarc&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ set selection-clipboard clipboard
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="dual-page">
+ Dual page
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/zathura/#dual-page" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Dual page" href="#dual-page">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;blockquote>
+&lt;p>side-by-side mode: press &lt;code>d&lt;/code>&lt;/p></description></item><item><title>💻 AppImages</title><link>https://csmertx.github.io/Linux/Software/appimage/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/appimage/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>⌚ &lt;b>February 3, 2023&lt;/b>&lt;/p>
+&lt;/blockquote>
+&lt;br />
+&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://github.com/AppImage/AppImageKit">AppImageKit&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💻 Benchmarking</title><link>https://csmertx.github.io/Linux/Software/benchmarks/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/benchmarks/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="glmark2">
+ Glmark2
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/benchmarks/#glmark2" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Glmark2" href="#glmark2">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>apti glmark&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>glmark2 --fullscreen&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>03/03/20: Kubuntu 19.10&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>03/03/20: Arch Linux&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 BorgBackup</title><link>https://csmertx.github.io/Linux/Software/borgbackup/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/borgbackup/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Created before 2022&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>BorgBackup (Arch Linux)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="intialize-new-backup-directory">
+ Intialize new backup directory
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/borgbackup/#intialize-new-backup-directory" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Intialize new backup directory" href="#intialize-new-backup-directory">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>borg init --encryption={authenticated,repokey,..} /dir/backupdir&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>borg key export /dir/backupdir /dir/backupdirkey&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="list-available-snapshots">
+ List available snapshots
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/borgbackup/#list-available-snapshots" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor List available snapshots" href="#list-available-snapshots">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo mount -t ext /dev/sdX&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>borg list /dir/archivedir&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="snapshot-directory-unencrypted">
+ Snapshot directory (unencrypted)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/borgbackup/#snapshot-directory-unencrypted" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Snapshot directory (unencrypted)" href="#snapshot-directory-unencrypted">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>mkdir /dir/archivedir&lt;/code>&lt;/p></description></item><item><title>💻 Calibre</title><link>https://csmertx.github.io/Linux/Software/epub_to_pdf/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/epub_to_pdf/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="installation">
+ Installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/epub_to_pdf/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>apti calibre&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="convert-epub-to-pdf">
+ Convert EPUB to PDF
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/epub_to_pdf/#convert-epub-to-pdf" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Convert EPUB to PDF" href="#convert-epub-to-pdf">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>ebook-convert example.epub to example.pdf&lt;/code>&lt;/li>
+&lt;/ul></description></item><item><title>💻 Clam Anti-Virus</title><link>https://csmertx.github.io/Linux/Software/clamav/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/clamav/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="installation">
+ Installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/clamav/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>apti clamav clamav-daemon&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Failed: 09-01-2021&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="first-run">
+ First run
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/clamav/#first-run" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor First run" href="#first-run">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>mkdir ~/.config/clamav&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>mkdir ~/.config/clamav/logs&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>clamconf -g freshclam.conf &amp;gt; ~/.config/clamav/Freshclam.conf&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>clamconf -g clamd.conf &amp;gt; ~/.config/clamav/clamd.conf&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>clamconf -g clamav-milter.conf &amp;gt; ~/.config/clamav/clamav-milter.conf&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>touch /var/log/freshclam.log&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>chmod 600 /var/log/freshclam.log&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>chown clamav /var/log/freshclam.log&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="configuration-needed">
+ Configuration (needed)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/clamav/#configuration-needed" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Configuration (needed)" href="#configuration-needed">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim Freshclam.conf&lt;/code>&lt;/p></description></item><item><title>💻 DBGL (DOSBox)</title><link>https://csmertx.github.io/Linux/Software/dbgl/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dbgl/</guid><description>&lt;br />
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>apti dosbox&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://dbgl.org/#download">DBGL Download&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>64-bit only Linux DBGL in &lt;code>tar.gz&lt;/code> (9 MB)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Extract to: &lt;code>~/.local/usr/dbgl&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>!archaur dbgl &amp;gt; download snapshot&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>extract to: &lt;code>~/.local/share/applications/dbgl.desktop&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>resolve paths for &lt;code>exec&lt;/code> and &lt;code>icon&lt;/code> to &lt;code>~/.local/usr/dbgl/{dbgl,dbgl.png}&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>apti default-jdk&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="repository-installation">
+ Repository Installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/dbgl/#repository-installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Repository Installation" href="#repository-installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;blockquote>
+&lt;p>04/09/20: Negative via 20.04?&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo add-apt-repository ppa:savoury1/dbgl&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo apt-get update&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo apti dosbox default-jdk dbgl&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 Dolphin (KDE)</title><link>https://csmertx.github.io/Linux/Software/dolphin/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dolphin/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="select-filefolder-with-single-click-for-shift-click-or-alt-click-selections">
+ Select file/folder with single click (for shift click or alt click selections)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/dolphin/#select-filefolder-with-single-click-for-shift-click-or-alt-click-selections" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Select file/folder with single click (for shift click or alt click selections)" href="#select-filefolder-with-single-click-for-shift-click-or-alt-click-selections">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ol>
+&lt;li>
+&lt;p>System Settings (app)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Workspace Behaviour&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>General Behavior&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Clicking files or folders &amp;gt; Selects them&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="ssh-with-fish">
+ SSH with Fish
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/dolphin/#ssh-with-fish" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor SSH with Fish" href="#ssh-with-fish">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>In the url/path bar&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>fish://user@ipaddress&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Stream media from another PC..&lt;/p></description></item><item><title>💻 Fail2ban</title><link>https://csmertx.github.io/Linux/Software/fail2ban/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/fail2ban/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="setup">
+ Setup
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/fail2ban/#setup" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Setup" href="#setup">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Systemd&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo systectm enable fail2ban.service&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo systectm start fail2ban.service&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>SSH Limiting&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/fail2ban/jail.d/sshd.local&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ [sshd]
+++ enabled = true
+++ filter = sshd
+++ banaction = ufw
+++ backend = systemd
+++ maxretry = 3
+++ findtime = 1h
+++ bantime = 2h
+++ ignoreip = 127.0.0.1/8 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>&lt;code>sudo systectm restart fail2ban.service&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="client">
+ Client
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/fail2ban/#client" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Client" href="#client">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo fail2ban-client status&lt;/code>&lt;/p></description></item><item><title>💻 Flatpaks</title><link>https://csmertx.github.io/Linux/Software/flatpak/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/flatpak/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="flathub">
+ Flathub
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/flatpak/#flathub" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Flathub" href="#flathub">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>reboot&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Or logout/login&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="desktop-files">
+ Desktop Files
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/flatpak/#desktop-files" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Desktop Files" href="#desktop-files">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim $HOME/{.bashrc,.zshrc}&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ export XDG_DATA_DIRS=&amp;#34;~/.local/share/flatpak/exports/share/applications;/var/lib/flatpak/exports/share/applications&amp;#34;
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="uninstall-a-flatpak">
+ Uninstall a flatpak
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/flatpak/#uninstall-a-flatpak" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Uninstall a flatpak" href="#uninstall-a-flatpak">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>flatpak list&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>flatpak remove [org.flatpak.package]&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="orgfreedesktopplatformopenh264-fails">
+ org.freedesktop.Platform.openh264 fails&amp;hellip;
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/flatpak/#orgfreedesktopplatformopenh264-fails" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor org.freedesktop.Platform.openh264 fails&amp;hellip;" href="#orgfreedesktopplatformopenh264-fails">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>flatpak install flathub org.freedesktop.Platform&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="visual-studio-code">
+ Visual Studio Code
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/flatpak/#visual-studio-code" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Visual Studio Code" href="#visual-studio-code">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Install: &lt;code>flatpak install flathub com.visualstudio.code&lt;/code>&lt;/p></description></item><item><title>💻 HTML to PDF</title><link>https://csmertx.github.io/Linux/Software/html_to_pdf/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/html_to_pdf/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="firefox">
+ Firefox
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/html_to_pdf/#firefox" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Firefox" href="#firefox">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>CTRL&lt;/code> + &lt;code>P&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>Save to PDF&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="chome">
+ Chome
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/html_to_pdf/#chome" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Chome" href="#chome">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>CTRL&lt;/code> + &lt;code>P&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>Save to PDF&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="wkhtmltopdf">
+ wkhtmltopdf
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/html_to_pdf/#wkhtmltopdf" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor wkhtmltopdf" href="#wkhtmltopdf">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>wkhtmltopdf input.html output.pdf&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Additional options via CLI not available through browsers&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 iptables</title><link>https://csmertx.github.io/Linux/Software/iptables/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/iptables/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="start-and-configuration">
+ Start and configuration
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/iptables/#start-and-configuration" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Start and configuration" href="#start-and-configuration">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Systemd&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl enable iptables.service&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl start iptables.service&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl restart iptables.service&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>After edits&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Port forwarding&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>sudo iptables -P FORWARD DROP&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="gufw">
+ Gufw
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/iptables/#gufw" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Gufw" href="#gufw">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Systemd&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl enable ufw.service&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl start ufw.service&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>SSH Limiting&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Add rule&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Subcat: Services&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Application: SSH&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Policy: Limit&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="ufw">
+ Ufw
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/iptables/#ufw" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Ufw" href="#ufw">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Port forwarding&lt;/p></description></item><item><title>💻 Konsole</title><link>https://csmertx.github.io/Linux/Software/konsole/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konsole/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="trouble-with-remapped-keyboard-layout-xmodmap-etc">
+ Trouble with remapped keyboard layout (xmodmap, etc.)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/konsole/#trouble-with-remapped-keyboard-layout-xmodmap-etc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Trouble with remapped keyboard layout (xmodmap, etc.)" href="#trouble-with-remapped-keyboard-layout-xmodmap-etc">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Edit Profile &amp;gt; Keyboard &amp;gt; Linux Console&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>To switch back remember: XFree 4&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fix for Yakuake too since it pulls in the same profile(s) as Konsole&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Other keybindings might be affected by this &amp;ldquo;fix&amp;rdquo; (&lt;code>F4&lt;/code>, etc.)&lt;/p>
+&lt;ul>
+&lt;li>So long &lt;a class="gdoc-markdown__link" href="../../Linux/Assorted/xmodmap">xmodmap&lt;/a>, hello &lt;a class="gdoc-markdown__link" href="https://github.com/kinx-project/kint">custom keyboard PCB&lt;/a>?&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 Konversation</title><link>https://csmertx.github.io/Linux/Software/konversation/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konversation/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>KDE Internet Relay Chat (IRC) client&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="bouncerbnc-server">
+ Bouncer/BNC Server
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/konversation/#bouncerbnc-server" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Bouncer/BNC Server" href="#bouncerbnc-server">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>In [Password] input box type..&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>username:password&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If connection issues check port number&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 Markdown CLI</title><link>https://csmertx.github.io/Linux/Software/markdown_cli/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/markdown_cli/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Hacky way to preview Markdown via terminal emulator&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="setup-to-preview-markdown-via-lynx-cli-browser">
+ Setup to preview Markdown via Lynx CLI browser
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/markdown_cli/#setup-to-preview-markdown-via-lynx-cli-browser" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Setup to preview Markdown via Lynx CLI browser" href="#setup-to-preview-markdown-via-lynx-cli-browser">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Add &lt;code>~/.local/bin&lt;/code> to &lt;code>$PATH&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vim ~/.profile&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>if [ -d &amp;#34;$HOME/.local/bin&amp;#34; ] ; then
+ PATH=&amp;#34;$HOME/.local/bin:$PATH&amp;#34;
+fi
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>vim ~/.local/bin/rmd&lt;/p>
+&lt;pre tabindex="0">&lt;code>#!/bin/bash
+pandoc $1 --highlight-style=zenburn \
+| sed \&amp;#34;1s/^/&amp;lt;html&amp;gt; \n&amp;lt;/title&amp;gt;rmd&amp;lt;\/title&amp;gt;/&amp;#34; \
+| sed &amp;#39;$s/$/\n&amp;lt;\/html&amp;gt;/&amp;#39; | lynx -stdin
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>w3m&lt;/code> doesn&amp;rsquo;t like stdin, but &lt;code>elinks&lt;/code> (without -stdin) works&lt;/p></description></item><item><title>💻 Midnight Commander (MC)</title><link>https://csmertx.github.io/Linux/Software/mc/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mc/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="vim-as-editor">
+ Vim as editor
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mc/#vim-as-editor" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Vim as editor" href="#vim-as-editor">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>F9&lt;/code> &amp;gt; Options &amp;gt; Configuration &amp;gt; Uncheck internal view/edit&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="mark-files">
+ Mark Files
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mc/#mark-files" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mark Files" href="#mark-files">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>C-t&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="fish-network-protocol">
+ Fish Network Protocol
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mc/#fish-network-protocol" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Fish Network Protocol" href="#fish-network-protocol">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>cd sh://user@remotehost/dir&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Load media w/video player, photo viewer, etc.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="skins">
+ Skins
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mc/#skins" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Skins" href="#skins">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Save to: &lt;code>~/.local/share/mc/skins/&lt;/code>&lt;/p></description></item><item><title>💻 Music On Console (MOC)</title><link>https://csmertx.github.io/Linux/Software/moc/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/moc/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="pulseaudio-integration">
+ Pulseaudio Integration
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/moc/#pulseaudio-integration" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pulseaudio Integration" href="#pulseaudio-integration">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim ~/.moc/config&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>Uncomment: &lt;code>SoundDriver = OSS, ALSA, JACK&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vim ~/.bashrc&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ alias mocp=&amp;#34;padsp mocp&amp;#34;
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Switch mixer with key: &lt;code>x&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Change volume with: &lt;code>,&lt;/code> and &lt;code>.&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 Snaps</title><link>https://csmertx.github.io/Linux/Software/snapd/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/snapd/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="installation">
+ Installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/snapd/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>Arch Linux instructions&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>pac -S snapd&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl {enable,start} snapd.service&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo apt install snapd&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="install-packages">
+ Install Packages
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/snapd/#install-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install Packages" href="#install-packages">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo snap install docker&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>See: &lt;a class="gdoc-markdown__link" href="../../Linux/Software/jellyfin">Jellyfin&lt;/a> for DIY media streaming installation&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="update-packages">
+ Update Packages
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/snapd/#update-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Update Packages" href="#update-packages">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo snap refresh docker&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="start-systemd-type-service">
+ Start Systemd type service
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/snapd/#start-systemd-type-service" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Start Systemd type service" href="#start-systemd-type-service">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo snap start docker&lt;/code>&lt;/li>
+&lt;/ul></description></item><item><title>💻 Zstandard File Compression (ZSTD)</title><link>https://csmertx.github.io/Linux/Software/zstd/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zstd/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="decompress">
+ Decompress
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/zstd/#decompress" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Decompress" href="#decompress">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>zstd source.zst packed.zst&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="compress">
+ Compress
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/zstd/#compress" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Compress" href="#compress">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>unzstd source.zst unpacked.zst&lt;/code>&lt;/li>
+&lt;/ul></description></item></channel></rss>

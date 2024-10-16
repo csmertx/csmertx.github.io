@@ -1,27 +1,175 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🏄 Web on CSx</title><link>https://csmertx.github.io/Web/</link><description>Recent content in 🏄 Web on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Web/index.xml" rel="self" type="application/rss+xml"/><item><title>🏄 DNS Over HTTPS</title><link>https://csmertx.github.io/Web/dns_over_https/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/dns_over_https/</guid><description>
-Firefox setting Hamburger Icon
-Preferences
-General
-Network Settings
-Connection Settings (Settings)
-Enable DNS over HTTPS (Check Box)
-Also try provider: NextDNS
-Fly.io Per Application DNS Over HTTPS
-Fly.io / Docs / App Guides / Run a private DNS over HTTPS service</description></item><item><title>🏄 Firefox</title><link>https://csmertx.github.io/Web/firefox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/firefox/</guid><description>Firefox Stop Auto Updating sudov /etc/firefox/policies/policies.json
-Kubuntu 21.10
-{ &amp;#34;policies&amp;#34;: { &amp;#34;AppAutoUpdate&amp;#34;: false } } Firefox manual installation Download: Firefox for Linux
-And move contents to /opt/firefox
-Desktop environment start menu and taskbar launcher /home/usr/.local/share/applications/firefox.desktop
-[Desktop Entry] Categories=WebBrowser Comment[en_US]=Firefox Web Browser Comment=Firefox Web Browser Exec=/opt/firefox/firefox-bin GenericName[en_US]=Web Browser GenericName=Web Browser Icon=/home/usr/Pictures/Icons/Firefox.png MimeType= Name[en_US]=Firefox Name=Firefox Path= StartupNotify=false Terminal=false TerminalOptions= Type=Application X-DBUS-ServiceName= X-DBUS-StartupType= X-KDE-SubstituteUID=false X-KDE-Username= Don&amp;rsquo;t forget to change user to $USER and grab a copy of the Firefox icon</description></item><item><title>🏄 Google Chrome</title><link>https://csmertx.github.io/Web/chrome/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/chrome/</guid><description>
-Google Chrome 112 - Ubuntu 22.04 Chrome (Stable) via Flatpak
-Enable &amp;lsquo;Performance&amp;rsquo; option in settings chrome://flags/#high-efficiency-mode-available &amp;lsquo;Enable the high efficiency mode feature in the settings&amp;rsquo; (Toggle: Enable) Disable Memory Saver If no &amp;lsquo;Performance&amp;rsquo; option in settings see above
-Three dots (Top Right of browser) &amp;gt; Settings &amp;gt; Performance &amp;gt; Disable Memory Saver
-Resources Android Police: Google Chrome rolls out long awaited battery saving features</description></item><item><title>🏄 Greasemonkey | Web browser extension</title><link>https://csmertx.github.io/Web/greasemonkey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/greasemonkey/</guid><description>Hide Facebook top/right bars greasyfork: Expand width in www.facebook.com Resources Greasy Fork - safe and useful user scripts
-OpenUserJS.org: The home of Free and Open Source Software (OSS) user scripts.</description></item><item><title>🏄 Hugo</title><link>https://csmertx.github.io/Web/hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/hugo/</guid><description>Google Search Console verification (URL prefix) and Github Pages 🔗Namecheap Advanced DNS instructions
-First step is to visit: 🔗 https://search.google.com/search-console?action=inspect
-Add downloaded googleXXXX.html to /static
-Wait 3-5 minutes for Github Pages to update the site before clicking verify
-Add website sitemap via: 🔗 https://search.google.com/search-console/sitemaps
-Hugo via Github Pages: &amp;hellip;user.github.io/sitemap.xml
-All that&amp;rsquo;s left to do is wait in line for the site to be indexed
-Robots.txt blocking Google crawl 🔗 Google Search Console &amp;gt; Indexing &amp;gt; Pages &amp;gt; Why pages aren’t indexed</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🏄 Web on CSx</title><link>https://csmertx.github.io/Web/</link><description>Recent content in 🏄 Web on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 05 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Web/index.xml" rel="self" type="application/rss+xml"/><item><title>🏄 Google Chrome</title><link>https://csmertx.github.io/Web/chrome/</link><pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/chrome/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Google Chrome 112 - Ubuntu 22.04 Chrome (Stable) via Flatpak&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="enable-performance-option-in-settings">
+ Enable &amp;lsquo;Performance&amp;rsquo; option in settings
+ &lt;a data-clipboard-text="https://csmertx.github.io/Web/chrome/#enable-performance-option-in-settings" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Enable &amp;lsquo;Performance&amp;rsquo; option in settings" href="#enable-performance-option-in-settings">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;pre tabindex="0">&lt;code>chrome://flags/#high-efficiency-mode-available
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>&amp;lsquo;Enable the high efficiency mode feature in the settings&amp;rsquo; (Toggle: Enable)&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="disable-memory-saver">
+ Disable Memory Saver
+ &lt;a data-clipboard-text="https://csmertx.github.io/Web/chrome/#disable-memory-saver" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Disable Memory Saver" href="#disable-memory-saver">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>If no &amp;lsquo;Performance&amp;rsquo; option in settings see above&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Three dots (Top Right of browser) &amp;gt; Settings &amp;gt; Performance &amp;gt; Disable Memory Saver&lt;/p></description></item><item><title>🏄 Hugo</title><link>https://csmertx.github.io/Web/hugo/</link><pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/hugo/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="google-search-console-verification-url-prefix-and-github-pages">
+ Google Search Console verification (URL prefix) and Github Pages
+ &lt;a data-clipboard-text="https://csmertx.github.io/Web/hugo/#google-search-console-verification-url-prefix-and-github-pages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Google Search Console verification (URL prefix) and Github Pages" href="#google-search-console-verification-url-prefix-and-github-pages">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>🔗&lt;a class="gdoc-markdown__link" href="https://www.namecheap.com/support/knowledgebase/article.aspx/9252/2208/how-do-i-add-my-domain-to-google-sites/" title="Namecheap.com | How do I add my domain to Google Sites">Namecheap Advanced DNS instructions&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>First step is to visit: 🔗 &lt;a class="gdoc-markdown__link" href="https://search.google.com/search-console?action=inspect">https://search.google.com/search-console?action=inspect&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add downloaded &lt;code>googleXXXX.html&lt;/code> to &lt;code>/static&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Wait 3-5 minutes for Github Pages to update the site before clicking verify&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add website sitemap via: 🔗 &lt;a class="gdoc-markdown__link" href="https://search.google.com/search-console/sitemaps">https://search.google.com/search-console/sitemaps&lt;/a>&lt;/p></description></item><item><title>🏄 DNS Over HTTPS</title><link>https://csmertx.github.io/Web/dns_over_https/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/dns_over_https/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="firefox-setting">
+ Firefox setting
+ &lt;a data-clipboard-text="https://csmertx.github.io/Web/dns_over_https/#firefox-setting" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Firefox setting" href="#firefox-setting">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Hamburger Icon&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Preferences&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>General&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Network Settings&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Connection Settings (Settings)&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Enable DNS over HTTPS (Check Box)&lt;/p>
+&lt;blockquote>
+&lt;p>Also try provider: NextDNS&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="flyio">
+ Fly.io
+ &lt;a data-clipboard-text="https://csmertx.github.io/Web/dns_over_https/#flyio" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Fly.io" href="#flyio">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Per Application DNS Over HTTPS&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://fly.io/docs/app-guides/run-a-private-dns-over-https-service/">Fly.io / Docs / App Guides / Run a private DNS over HTTPS service &lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>🏄 Firefox</title><link>https://csmertx.github.io/Web/firefox/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/firefox/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="firefox-stop-auto-updating">
+ Firefox Stop Auto Updating
+ &lt;a data-clipboard-text="https://csmertx.github.io/Web/firefox/#firefox-stop-auto-updating" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Firefox Stop Auto Updating" href="#firefox-stop-auto-updating">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/firefox/policies/policies.json&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Kubuntu 21.10&lt;/p>
+&lt;/blockquote>
+&lt;pre tabindex="0">&lt;code>{
+ &amp;#34;policies&amp;#34;: {
+ &amp;#34;AppAutoUpdate&amp;#34;: false
+ }
+}
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="firefox-manual-installation">
+ Firefox manual installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Web/firefox/#firefox-manual-installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Firefox manual installation" href="#firefox-manual-installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Download: &lt;a class="gdoc-markdown__link" href="https://www.mozilla.org/en-US/firefox/linux/">Firefox for Linux&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>And move contents to &lt;code>/opt/firefox&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="desktop-environment-start-menu-and-taskbar-launcher">
+ Desktop environment start menu and taskbar launcher
+ &lt;a data-clipboard-text="https://csmertx.github.io/Web/firefox/#desktop-environment-start-menu-and-taskbar-launcher" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Desktop environment start menu and taskbar launcher" href="#desktop-environment-start-menu-and-taskbar-launcher">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>/home/usr/.local/share/applications/firefox.desktop&lt;/code>&lt;/p></description></item><item><title>🏄 Greasemonkey | Web browser extension</title><link>https://csmertx.github.io/Web/greasemonkey/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/greasemonkey/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="hide-facebook-topright-bars">
+ Hide Facebook top/right bars
+ &lt;a data-clipboard-text="https://csmertx.github.io/Web/greasemonkey/#hide-facebook-topright-bars" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Hide Facebook top/right bars" href="#hide-facebook-topright-bars">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://greasyfork.org/en/scripts/38282-expand-width-in-www-facebook-com">greasyfork: Expand width in www.facebook.com&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Web/greasemonkey/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="greasyfork.org">Greasy Fork - safe and useful user scripts&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="openuserjs.org">OpenUserJS.org: The home of Free and Open Source Software (OSS) user scripts.&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

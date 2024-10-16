@@ -1,11 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Shells on CSx</title><link>https://csmertx.github.io/Linux/Shells/</link><description>Recent content in 💻 Shells on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Linux/Shells/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Bash</title><link>https://csmertx.github.io/Linux/Shells/bash/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/bash/</guid><description>If you want scripts that are works of art check out Stack Overflow.
-Symlink to /bin/sh sudo ln -sf bash /bin/sh Auto Completion Debian / Ubuntu
-sudo apt-get install bash-completion
-vim ~/.bashrc
-++ source /etc/profile.d/bash_completion.sh Arch
-sudo pacman -S bash-completion
-vim ~/.bashrc
-++ source /usr/share/bash-completion/bash_completion Arguments on the command line $@ All user issued args
-$# Number of args
-$0 First arg (script/program)
-${10} 9th arg (10+ requires brackets)</description></item><item><title>💻 ZSH</title><link>https://csmertx.github.io/Linux/Shells/zsh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/zsh/</guid><description>Add Pause to ~/.zshrc # Enable pause # Uses: pause;command function pause(){ echo &amp;#34;Press [Enter] to continue...&amp;#34;;grep $1 2&amp;gt;/dev/null;read } Example: pause; echo &amp;quot;Pause Complete&amp;quot; I use this in conjunction with Tmux helper Tmuxinator, so that STDOUT renders out everything correctly</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Shells on CSx</title><link>https://csmertx.github.io/Linux/Shells/</link><description>Recent content in 💻 Shells on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Shells/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Bash</title><link>https://csmertx.github.io/Linux/Shells/bash/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/bash/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>If you want scripts that are works of art check out Stack Overflow.&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="symlink-to-binsh">
+ Symlink to /bin/sh
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Shells/bash/#symlink-to-binsh" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Symlink to /bin/sh" href="#symlink-to-binsh">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo ln -sf bash /bin/sh&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="auto-completion">
+ Auto Completion
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Shells/bash/#auto-completion" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Auto Completion" href="#auto-completion">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Debian / Ubuntu&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo apt-get install bash-completion&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vim ~/.bashrc&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ source /etc/profile.d/bash_completion.sh
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Arch&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo pacman -S bash-completion&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vim ~/.bashrc&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ source /usr/share/bash-completion/bash_completion
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="arguments-on-the-command-line">
+ Arguments on the command line
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Shells/bash/#arguments-on-the-command-line" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Arguments on the command line" href="#arguments-on-the-command-line">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>$@&lt;/code> All user issued args&lt;/p></description></item><item><title>💻 ZSH</title><link>https://csmertx.github.io/Linux/Shells/zsh/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/zsh/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="add-pause-to-zshrc">
+ Add Pause to ~/.zshrc
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Shells/zsh/#add-pause-to-zshrc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add Pause to ~/.zshrc" href="#add-pause-to-zshrc">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;pre tabindex="0">&lt;code># Enable pause
+# Uses: pause;command
+function pause(){
+ echo &amp;#34;Press [Enter] to continue...&amp;#34;;grep $1 2&amp;gt;/dev/null;read
+}
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>Example: &lt;code>pause; echo &amp;quot;Pause Complete&amp;quot;&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>I use this in conjunction with &lt;a class="gdoc-markdown__link" href="../../Linux/Software/tmux">Tmux&lt;/a> helper &lt;a class="gdoc-markdown__link" href="https://github.com/tmuxinator/tmuxinator">Tmuxinator&lt;/a>, so that STDOUT renders out everything correctly&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

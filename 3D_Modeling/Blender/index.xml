@@ -1,3 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📽️ Blender 3D on CSx</title><link>https://csmertx.github.io/3D_Modeling/Blender/</link><description>Recent content in 📽️ Blender 3D on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/3D_Modeling/Blender/index.xml" rel="self" type="application/rss+xml"/><item><title>🛠️ FreeCAD to Blender</title><link>https://csmertx.github.io/3D_Modeling/Blender/FreeCad_to_Blender/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/Blender/FreeCad_to_Blender/</guid><description>Importing FreeCAD models to Blender Using Blender v2.8 to smooth out FreeCAD models Preferences &amp;gt; Add-ons &amp;gt; Enable Import STL
-Add Modifier &amp;gt; Edge Split (Generate Category)
-Smooth Shade (Object Menu: Shade Smooth)</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📽️ Blender 3D on CSx</title><link>https://csmertx.github.io/3D_Modeling/Blender/</link><description>Recent content in 📽️ Blender 3D on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/3D_Modeling/Blender/index.xml" rel="self" type="application/rss+xml"/><item><title>🛠️ FreeCAD to Blender</title><link>https://csmertx.github.io/3D_Modeling/Blender/FreeCad_to_Blender/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/Blender/FreeCad_to_Blender/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h1 id="importing-freecad-models-to-blender">
+ Importing FreeCAD models to Blender
+ &lt;a data-clipboard-text="https://csmertx.github.io/3D_Modeling/Blender/FreeCad_to_Blender/#importing-freecad-models-to-blender" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Importing FreeCAD models to Blender" href="#importing-freecad-models-to-blender">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h1>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="using-blender-v28-to-smooth-out-freecad-models">
+ Using Blender v2.8 to smooth out FreeCAD models
+ &lt;a data-clipboard-text="https://csmertx.github.io/3D_Modeling/Blender/FreeCad_to_Blender/#using-blender-v28-to-smooth-out-freecad-models" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Using Blender v2.8 to smooth out FreeCAD models" href="#using-blender-v28-to-smooth-out-freecad-models">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ol>
+&lt;li>
+&lt;p>Preferences &amp;gt; Add-ons &amp;gt; Enable Import STL&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add Modifier &amp;gt; Edge Split (Generate Category)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Smooth Shade (Object Menu: Shade Smooth)&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>

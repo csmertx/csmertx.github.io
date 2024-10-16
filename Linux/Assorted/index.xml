@@ -1,152 +1,934 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Core Utilities on CSx</title><link>https://csmertx.github.io/Linux/Assorted/</link><description>Recent content in 💻 Core Utilities on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Linux/Assorted/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Accessing Media</title><link>https://csmertx.github.io/Linux/Assorted/mount/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/mount/</guid><description>EXT4 sudov /etc/fstab
-UUID=$(sudo blkid...) /mnt/... ext4 rw 0 0
-NTFS sudov /etc/fstab
-UUID=$(sudo blkid...) /mnt/storage ntfs-3g defaults,auto,uid=1000,gid=1000,umask=002 0 0
-Boot without mounting drive UUID=$(sudo blkid...) /mnt/storage ntfs-3g defaults,nofail,auto,uid=1000,gid=1000,umask=002 0 0 Access to USB drive via console w/user permissions Check ftype with: fsck -N /dev/xxx
-Volume was not properply unmounted..
-fsck /dev/xxx
-yes to fix
-sudo mkdir /run/media/usb (/run/media/weyoun/usb;/media/weyoun/usb..)
-sudo chown -R user /run/media/usb (...)
-sudo chmod 0777 /run/media/usb</description></item><item><title>💻 Admin</title><link>https://csmertx.github.io/Linux/Assorted/admin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/admin/</guid><description>Same as Virtual Console
-Typical Console Commands Add users &amp;amp; add groups cat /etc/passwd
-Displays all users
-sudo useradd -G wheel,sudo newuser
-sudo usermod -a -G existinggroup existinguser
-sudo groupadd newgroup
-usermod -a -G newgroup existinguser
-Passwd Unattended
-echo &amp;quot;user:password&amp;quot; | chpasswd
-Only as root
-Normal
-passwd user
-User passwd
-sudo passwd
-Superuser passwd
-Permissions RWX == Permission to Read, Write, &amp;amp; eXecute
-Typical user RWX
-chmod 700
-similar to chmod +x</description></item><item><title>💻 ALSA</title><link>https://csmertx.github.io/Linux/Assorted/alsa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/alsa/</guid><description>
-For tiling window manager scripting, etc.
-Acquire physical device ID aplay -l Resources AlsaProject</description></item><item><title>💻 Bitmap Fonts</title><link>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</guid><description>Enable bitmap fonts (Debian/Ubuntu) sudo rm -f /etc/fonts/conf.d/70-{yes,no,force}-bitmaps.conf if test -f /etc/fonts/conf.avail/70-force-bitmaps.conf; then sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-force-bitmaps.conf else sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-yes-bitmaps.conf fi sudo rm -rf /var/cache/fontconfig/(star)
-rm -rf &amp;quot;$HOME/.fontconfig&amp;quot;
-sudo fc-cache
-fc-cache</description></item><item><title>💻 Busybox</title><link>https://csmertx.github.io/Linux/Assorted/busybox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/busybox/</guid><description>
-Typically used for embedded operating systems with limited resources
-List Partitions cat /proc/partitions
-df -h
-Resources Busybox Homepage</description></item><item><title>💻 Console Resolution</title><link>https://csmertx.github.io/Linux/Assorted/console_resolution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/console_resolution/</guid><description>See also Virtual Console
-Editing files&amp;hellip; sudov /etc/default/grub
-++ GRUB_GFXMODE=1152x864x32 ++ GRUB_GFXPAYLOAD=1152x864x32 sudov /etc/grub.d/00_header
--- if [ &amp;#34;x${GRUB_GFXMODE}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXMODE=auto ; fi ++ if [ &amp;#34;x${GRUB_GFXMODE}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXMODE=1152x864x32 ; fi ++ if [ &amp;#34;x${GRUB_GFXPAYLOAD}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXPAYLOAD=1152x864x32 ; fi Look for: set gfxmode=${GRUB_GFXMODE}
-/ to input a search term with Vim
-Next line: set gfxpayload=${GRUB_GFXPAYLOAD}
-Resources Ask Ubuntu: &amp;ldquo;How do I increase console-mode resolution?</description></item><item><title>💻 Cron table</title><link>https://csmertx.github.io/Linux/Assorted/crontab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/crontab/</guid><description>To edit.. crontab -e
-user only
-sudo crontab -e global
-Quick reference * * * * * min hour(24hr) day (month) month day (week) Example: 02 12 * * * == run once at 10:05PM everyday
-Simple: minute hour (24hr)
-Cron location in filesystem /var/spool/cron Resources Crontab Guru: The quick and simple editor for cron schedule expressions
-Red Hat: How to schedule jobs using the Linux 'cron'</description></item><item><title>💻 Disk Destroyer (DD)</title><link>https://csmertx.github.io/Linux/Assorted/dd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/dd/</guid><description>An earned reputation for destroying all the things
-Find blocksize sudo blkid Write .img file to drive sudo dd if=/mnt/Storage/qemu/winxppro.img of=/dev/sXX
-sudo gunzip -c /backup/backup.image.gz | dd of=/dev/sXX
-Backup drive to compressed .img sudo dd if=/dev/sXX conv=sync,noerror bs=4K | gzip -c &amp;gt; /backup/backup.image.gz Blank a drive (NOT FOR SSDs!) sudo dd if=/dev/zero of=/dev/xXx bs=1M Securely Blank a drive (NOT FOR SSDs!) sudo dd if=/dev/urandom of=/dev/xXx bs=1M Blank MBR (!) sudo dd if=/dev/zero of=/dev/xXx bs=446 count=1 Copy DVD MakeMKV for copying media is highly recommended</description></item><item><title>💻 GnuPG</title><link>https://csmertx.github.io/Linux/Assorted/gpg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/gpg/</guid><description>Create New Key gpg –-gen-key Encrypt File gpg -e -r $USER /dir/examplefile Decrypt File gpg -d -o /dir/examplefile /dir/examplefile.(gz.)gpg
-shred /dir/examplefile
-rm /dir/examplefile
-Encrypt/Decrypt Folder(s) First convert the folder(s) to file
-tar czf /dir/examplefolder.gz /dir/examplefolder
-Then follow steps to encrypt/decrypt files
-One or more PGP Signatures could not be verified! gpg --recv-key [key]
-Key is usually printed with error message
-Export Local key gpg --list-keys # Target == examplekey</description></item><item><title>💻 Grep</title><link>https://csmertx.github.io/Linux/Assorted/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grep/</guid><description>
-Recursive matching Recursive: check subdirectories
-grep -r term4search /dir Exclude Match grep -v term2exclude /dir/file Match and match egrep -w 'term1|term2' /dir/file Ignore case grep -i searchterm /dir/file String multiple matches grep -e term1 -e term2 -e term3 /dir/file Search via extensions .txt, .mp3, .svg, .sh, .bash, .conf, etc.
-grep -e term1 -e term2 /dir/*.txt</description></item><item><title>💻 Grub</title><link>https://csmertx.github.io/Linux/Assorted/grub/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grub/</guid><description>Commonly refered to as Grub
-Default File sudov /etc/default/grub Really Quiet w/Splash Cursor Off for all tty [1-7]
-GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0 vt.global_cursor_default=0&amp;quot; &amp;hellip; is probably necessary to boot the system
-Admin Friendly Configuration
-I believe this keeps the console clear of kernel messaging
-GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0&amp;quot; For those extra grumpy kernel messages
-echo 1 &amp;gt; /proc/sys/kernel/printk Kernel panics (/boot/intel-ucode.img) First edit kernel param with grub</description></item><item><title>💻 Logical Volume Manager</title><link>https://csmertx.github.io/Linux/Assorted/lvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/lvm/</guid><description>
-LVM2 (2020-02-18)
-Mounting for chroot (Arch ISO) modprobe dm_mod
-vgscan
-vgchange -ay
-lvdisplay
-mkdir -vp /mnt/archos/{root,home}
-mount &amp;lt;LV_PATH&amp;gt; /mnt/archos/root
-mount &amp;lt;LV_PATH&amp;gt; /mnt/archos/home
-chroot /mnt/archos/root
-Don&amp;rsquo;t forget to umount /mnt/archos/root when finished
-Resources RedHat: Chapter 11. LVM (Logical Volume Manger)</description></item><item><title>💻 Networking</title><link>https://csmertx.github.io/Linux/Assorted/networking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/networking/</guid><description>General networking Troubleshooting (chroot, etc.) Unable to resolve dns
-sudov /etc/resolv.conf
-++ nameserver 8.8.8.8
-Google&amp;rsquo;s nameserver (8.8.8.8)
-DHCP auto eth0
-allow-hotplug eth0
-iface eth0 inet dhcp</description></item><item><title>💻 Static IP</title><link>https://csmertx.github.io/Linux/Assorted/static_ip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/static_ip/</guid><description>
-Local Static IP (QEMU/KVM) sudo EDITOR=vim virsh net-edit default
-Add hosts after range as shown below
-&amp;lt;dhcp&amp;gt;&amp;lt;range start=&amp;#39;192.168.122.100&amp;#39; end=&amp;#39;192.168.122.254&amp;#39;/&amp;gt;&amp;lt;host mac=&amp;#39;...&amp;#39; name&amp;#39;c8n0&amp;#39; ip=&amp;#39;192.168.122.4&amp;#39;/&amp;gt;&amp;lt;dhcp/&amp;gt; sudo virsh net-destroy default
-sudo virsh net-start default
-Local Static IP (Bare Metal or Virualized w/bridge) sudov /etc/sysconfig/network
-NETWORKING=yesHOSTNAME=eXnXGATEWAY=192.168.254.254NETWORKING_IPV6=noIPV6INIT=no sudov /etc/sysconfig/network-scripts (ifcfg-enp0s3)
-ifconfigBOOTPROTO...DNS1=&amp;#34;8.8.8.8&amp;#34;DNS2=&amp;#34;4.4.4.4&amp;#34;GATEWAY=&amp;#34;192.168.254.254&amp;#34;HOSTNAME=&amp;#34;eXnX&amp;#34;NETMASK=&amp;#34;255.255.255.0&amp;#34;IPADDR=&amp;#34;192.168.254.XX&amp;#34;</description></item><item><title>💻 Swap Memory</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description>
-A swapfile (1G) sudo dd if=/dev/zero of=/swap1G bs=1024 count=1048576
-sudo chown root:root /swap1G
-sudo chmod 0600 /swap1G
-sudo mkswap /swap1G
-sudo swapon /swap1G
-sudov /etc/fstab
-++ /swap1G none swap sw 0 0 Resources Linux.com: All about Linux swap space</description></item><item><title>💻 Systemd Journal</title><link>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</guid><description>Linux System Journal Cleanup sudo journalctl --vacuum-size=50M
-sudov /etc/systemd/journald.conf
--- #SystemMaxUse= ++ SystemMaxuse=50M Resources Linux.com: Understanding and Using Systemd
-Arch Wiki: Systemd</description></item><item><title>💻 Time</title><link>https://csmertx.github.io/Linux/Assorted/time/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/time/</guid><description>Set Local Time Easy
-tzselect
-Userland
-sudo tzselect
-Global
-reboot
-If VM, then reboot host too
-Normal
-sudo cp /usr/share/zoneinfo/America/New\_York /etc/localtime
-vim /etc/sysconfig/clock
-++ ZONE=&amp;quot;America/New_York&amp;quot; sudo hwclock --utc -s
-reboot
-if VM, then reboot host too
-Resources Linuxize: Linux Time Command
-nixCraft: How To Format Date For Display or Use In a Shell Script</description></item><item><title>💻 Virtual Console</title><link>https://csmertx.github.io/Linux/Assorted/vconsole/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/vconsole/</guid><description>Same as Administration
-Add users &amp;amp; add groups cat /etc/passwd
-Displays all users
-sudo useradd -G wheel,sudo newuser
-sudo usermod -a -G existinggroup existinguser
-sudo groupadd newgroup
-usermod -a -G newgroup existinguser
-Passwd Unattended
-echo &amp;quot;user:password&amp;quot; | chpasswd
-Only as root
-Normal
-passwd user
-User passwd
-sudo passwd
-Superuser passwd
-Permissions RWX == Permission to Read, Write, &amp;amp; eXecute
-Typical user RWX
-chmod 700
-similar to chmod +x
-Only owner has RW</description></item><item><title>💻 X resources</title><link>https://csmertx.github.io/Linux/Assorted/xresources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xresources/</guid><description>Set padding, DPI, anti-alising, Xcursor theme, X font settings, etc.
-Time saver for certain terminal emulators (URxvt, xterm, etc.)
-Xresources Example vim ~/.Xresources
-! XresourcesXft.dpi: 96Xft.hinting: trueXft.rgba: rgbXft.autohint: trueXft.hintstyle: autoXTerm*termName: xterm-256colorXTerm.vt100.faceName: Hack:size=13:antialias=trueXTerm.vt100.locale: trueXTerm.vt100.geometry: 100x35! special*.foreground: #464646*.background: #f7f7f7*.cursorColor: #464646! black*.color0: #101010*.color8: #525252! red*.color1: #7c7c7c*.color9: #7c7c7c! green*.color2: #8e8e8e*.color10: #8e8e8e!</description></item><item><title>💻 Xmodmap</title><link>https://csmertx.github.io/Linux/Assorted/xmodmap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xmodmap/</guid><description>Only for Xorg desktops (No Wayland support atm)
-Using Xmodmap to remap Caps Lock as a FN key Remapping Caps Lock as a modifier key for navigation (hjkl ui nm)
-Mapped keys: h = Left, j = Down, k = Up, l = Right, u = PGDN, i = PGUP, n = Home, m = End
-vim /home/user/.Xmodmap
-keycode 66 = Mode_switch keysym h = h H Left keysym l = l L Right keysym k = k K Upkeysym j = j J Downkeysym n = n N Endkeysym m = m M Homekeysym i = i I KP_Priorkeysym u = u U KP_Nextkeysym o = o O KP_Insertkeysym p = p P KP_Deletekeysym q = q Q Escapekeysym 1 = 1 exclam F1keysym 2 = 2 at F2keysym 3 = 3 numbersign F3keysym 4 = 4 dollar F4keysym 5 = 5 percent F5keysym 6 = 6 asciicircum F6keysym 7 = 7 ampersand F7keysym 8 = 8 asterisk F8keysym 9 = 9 parenleft F9keysym 0 = 0 parenright F10#keysym minus = minus underscore F11#keysym equal = equal plus F12 See Keyboard Scancodes for key additional options</description></item><item><title>💻 XrandR</title><link>https://csmertx.github.io/Linux/Assorted/xrandr/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xrandr/</guid><description>Mode Not Displayed cvt 1600 900
-Whatever resolution you need goes here 1920x1080, 3840x2160, etc.
-Copy line that starts with Modeline
-sudo xrandr --newmode [...copied line minus the word Modeline...]
-The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline
-sudo xrandr --addmode {vga,Virtual}-{0,1} &amp;quot;1600x900_60.00&amp;quot; #Virtual-1
-Included Virtual for Virtual Machines (Slackware can be tricky)
-sudo xrandr --output Virtual-1 --mode &amp;quot;1600x900_60.00&amp;quot;
-Whatever output display and mode needed</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Core Utilities on CSx</title><link>https://csmertx.github.io/Linux/Assorted/</link><description>Recent content in 💻 Core Utilities on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Assorted/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Accessing Media</title><link>https://csmertx.github.io/Linux/Assorted/mount/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/mount/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="ext4">
+ EXT4
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/mount/#ext4" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor EXT4" href="#ext4">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/fstab&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>UUID=$(sudo blkid...) /mnt/... ext4 rw 0 0&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="ntfs">
+ NTFS
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/mount/#ntfs" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor NTFS" href="#ntfs">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/fstab&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>UUID=$(sudo blkid...) /mnt/storage ntfs-3g defaults,auto,uid=1000,gid=1000,umask=002 0 0&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="boot-without-mounting-drive">
+ Boot without mounting drive
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/mount/#boot-without-mounting-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Boot without mounting drive" href="#boot-without-mounting-drive">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>UUID=$(sudo blkid...) /mnt/storage ntfs-3g defaults,nofail,auto,uid=1000,gid=1000,umask=002 0 0&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="access-to-usb-drive-via-console-wuser-permissions">
+ Access to USB drive via console w/user permissions
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/mount/#access-to-usb-drive-via-console-wuser-permissions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Access to USB drive via console w/user permissions" href="#access-to-usb-drive-via-console-wuser-permissions">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Check ftype with: &lt;code>fsck -N /dev/xxx&lt;/code>&lt;/p></description></item><item><title>💻 Admin</title><link>https://csmertx.github.io/Linux/Assorted/admin/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/admin/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Same as &lt;a class="gdoc-markdown__link" href="../../Linux/Assorted/vconsole">Virtual Console&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h1 id="typical-console-commands">
+ Typical Console Commands
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/admin/#typical-console-commands" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Typical Console Commands" href="#typical-console-commands">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h1>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="add-users--add-groups">
+ Add users &amp;amp; add groups
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/admin/#add-users--add-groups" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add users &amp;amp; add groups" href="#add-users--add-groups">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>cat /etc/passwd&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Displays all users&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo useradd -G wheel,sudo newuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo usermod -a -G existinggroup existinguser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo groupadd newgroup&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>usermod -a -G newgroup existinguser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="passwd">
+ Passwd
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/admin/#passwd" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Passwd" href="#passwd">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Unattended&lt;/p></description></item><item><title>💻 ALSA</title><link>https://csmertx.github.io/Linux/Assorted/alsa/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/alsa/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>For tiling window manager scripting, etc.&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="acquire-physical-device-id">
+ Acquire physical device ID
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/alsa/#acquire-physical-device-id" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Acquire physical device ID" href="#acquire-physical-device-id">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>aplay -l&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/alsa/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://alsa-project.org/wiki/Main_Page">AlsaProject&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💻 Bitmap Fonts</title><link>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="enable-bitmap-fonts-debianubuntu">
+ Enable bitmap fonts (Debian/Ubuntu)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/bitmap_fonts/#enable-bitmap-fonts-debianubuntu" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Enable bitmap fonts (Debian/Ubuntu)" href="#enable-bitmap-fonts-debianubuntu">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo rm -f /etc/fonts/conf.d/70-{yes,no,force}-bitmaps.conf&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>if test -f /etc/fonts/conf.avail/70-force-bitmaps.conf; then
+ sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-force-bitmaps.conf
+else sudo ln -s {../conf.avail,/etc/fonts/conf.d}/70-yes-bitmaps.conf
+fi
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo rm -rf /var/cache/fontconfig/(star)&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>rm -rf &amp;quot;$HOME/.fontconfig&amp;quot;&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo fc-cache&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>fc-cache&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 Busybox</title><link>https://csmertx.github.io/Linux/Assorted/busybox/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/busybox/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Typically used for embedded operating systems with limited resources&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="list-partitions">
+ List Partitions
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/busybox/#list-partitions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor List Partitions" href="#list-partitions">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>cat /proc/partitions&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>df -h&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/busybox/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://www.busybox.net/">Busybox Homepage&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💻 Console Resolution</title><link>https://csmertx.github.io/Linux/Assorted/console_resolution/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/console_resolution/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>See also &lt;a class="gdoc-markdown__link" href="../../Linux/Assorted/vconsole">Virtual Console&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="editing-files">
+ Editing files&amp;hellip;
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/console_resolution/#editing-files" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Editing files&amp;hellip;" href="#editing-files">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/default/grub&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ GRUB_GFXMODE=1152x864x32
+++ GRUB_GFXPAYLOAD=1152x864x32
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/grub.d/00_header&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>-- if [ &amp;#34;x${GRUB_GFXMODE}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXMODE=auto ; fi
+++ if [ &amp;#34;x${GRUB_GFXMODE}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXMODE=1152x864x32 ; fi
+++ if [ &amp;#34;x${GRUB_GFXPAYLOAD}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXPAYLOAD=1152x864x32 ; fi
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Look for: &lt;code>set gfxmode=${GRUB_GFXMODE}&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>/ to input a search term with Vim&lt;/p></description></item><item><title>💻 Cron table</title><link>https://csmertx.github.io/Linux/Assorted/crontab/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/crontab/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="to-edit">
+ To edit..
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/crontab/#to-edit" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor To edit.." href="#to-edit">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>crontab -e&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>user only&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo crontab -e &lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>global&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="quick-reference">
+ Quick reference
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/crontab/#quick-reference" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Quick reference" href="#quick-reference">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;pre tabindex="0">&lt;code>* * * * *
+min hour(24hr) day (month) month day (week)
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>
+&lt;p>Example: 02 12 * * * &lt;command> == run &lt;command >once at 10:05PM everyday&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Simple: minute hour (24hr)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="cron-location-in-filesystem">
+ Cron location in filesystem
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/crontab/#cron-location-in-filesystem" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cron location in filesystem" href="#cron-location-in-filesystem">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>/var/spool/cron&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/crontab/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://crontab.guru">Crontab Guru: The quick and simple editor for cron schedule expressions&lt;/a>&lt;/p></description></item><item><title>💻 Disk Destroyer (DD)</title><link>https://csmertx.github.io/Linux/Assorted/dd/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/dd/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>An earned reputation for destroying all the things&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="find-blocksize">
+ Find blocksize
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#find-blocksize" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Find blocksize" href="#find-blocksize">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo blkid&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="write-img-file-to-drive">
+ Write .img file to drive
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#write-img-file-to-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Write .img file to drive" href="#write-img-file-to-drive">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo dd if=/mnt/Storage/qemu/winxppro.img of=/dev/sXX&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo gunzip -c /backup/backup.image.gz | dd of=/dev/sXX&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="backup-drive-to-compressed-img">
+ Backup drive to compressed .img
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#backup-drive-to-compressed-img" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Backup drive to compressed .img" href="#backup-drive-to-compressed-img">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo dd if=/dev/sXX conv=sync,noerror bs=4K | gzip -c &amp;gt; /backup/backup.image.gz&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="blank-a-drive-not-for-ssds">
+ Blank a drive (NOT FOR SSDs!)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#blank-a-drive-not-for-ssds" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Blank a drive (NOT FOR SSDs!)" href="#blank-a-drive-not-for-ssds">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo dd if=/dev/zero of=/dev/xXx bs=1M&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="securely-blank-a-drive-not-for-ssds">
+ Securely Blank a drive (NOT FOR SSDs!)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#securely-blank-a-drive-not-for-ssds" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Securely Blank a drive (NOT FOR SSDs!)" href="#securely-blank-a-drive-not-for-ssds">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo dd if=/dev/urandom of=/dev/xXx bs=1M&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="blank-mbr-">
+ Blank MBR (!)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#blank-mbr-" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Blank MBR (!)" href="#blank-mbr-">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo dd if=/dev/zero of=/dev/xXx bs=446 count=1&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="copy-dvd">
+ Copy DVD
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#copy-dvd" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Copy DVD" href="#copy-dvd">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>MakeMKV for copying media is highly recommended&lt;/p></description></item><item><title>💻 GnuPG</title><link>https://csmertx.github.io/Linux/Assorted/gpg/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/gpg/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="create-new-key">
+ Create New Key
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/gpg/#create-new-key" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Create New Key" href="#create-new-key">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>gpg –-gen-key&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="encrypt-file">
+ Encrypt File
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/gpg/#encrypt-file" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Encrypt File" href="#encrypt-file">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>gpg -e -r $USER /dir/examplefile&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="decrypt-file">
+ Decrypt File
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/gpg/#decrypt-file" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Decrypt File" href="#decrypt-file">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>gpg -d -o /dir/examplefile /dir/examplefile.(gz.)gpg&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>shred /dir/examplefile&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>rm /dir/examplefile&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="encryptdecrypt-folders">
+ Encrypt/Decrypt Folder(s)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/gpg/#encryptdecrypt-folders" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Encrypt/Decrypt Folder(s)" href="#encryptdecrypt-folders">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>First convert the folder(s) to file&lt;/p></description></item><item><title>💻 Grep</title><link>https://csmertx.github.io/Linux/Assorted/grep/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grep/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="recursive-matching">
+ Recursive matching
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grep/#recursive-matching" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Recursive matching" href="#recursive-matching">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>Recursive: check subdirectories&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;code>grep -r term4search /dir&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="exclude-match">
+ Exclude Match
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grep/#exclude-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Exclude Match" href="#exclude-match">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>grep -v term2exclude /dir/file&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="match-and-match">
+ Match and match
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grep/#match-and-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Match and match" href="#match-and-match">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>egrep -w 'term1|term2' /dir/file&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="ignore-case">
+ Ignore case
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grep/#ignore-case" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Ignore case" href="#ignore-case">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>grep -i searchterm /dir/file&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="string-multiple-matches">
+ String multiple matches
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grep/#string-multiple-matches" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor String multiple matches" href="#string-multiple-matches">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>grep -e term1 -e term2 -e term3 /dir/file&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="search-via-extensions">
+ Search via extensions
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grep/#search-via-extensions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Search via extensions" href="#search-via-extensions">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>.txt, .mp3, .svg, .sh, .bash, .conf, etc.&lt;/p></description></item><item><title>💻 Grub</title><link>https://csmertx.github.io/Linux/Assorted/grub/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grub/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Commonly refered to as Grub&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="default-file">
+ Default File
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grub/#default-file" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Default File" href="#default-file">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudov /etc/default/grub&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="really-quiet-wsplash">
+ Really Quiet w/Splash
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grub/#really-quiet-wsplash" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Really Quiet w/Splash" href="#really-quiet-wsplash">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Cursor Off for all tty [1-7]&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0 vt.global_cursor_default=0&amp;quot; &lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;hellip; is probably necessary to boot the system&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Admin Friendly Configuration&lt;/p>
+&lt;blockquote>
+&lt;p>I believe this keeps the console clear of kernel messaging&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;code>GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0&amp;quot;&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>For those extra grumpy kernel messages&lt;/p></description></item><item><title>💻 Logical Volume Manager</title><link>https://csmertx.github.io/Linux/Assorted/lvm/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/lvm/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>LVM2 (2020-02-18)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="mounting-for-chroot-arch-iso">
+ Mounting for chroot (Arch ISO)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/lvm/#mounting-for-chroot-arch-iso" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mounting for chroot (Arch ISO)" href="#mounting-for-chroot-arch-iso">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>modprobe dm_mod&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vgscan&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vgchange -ay&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>lvdisplay&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>mkdir -vp /mnt/archos/{root,home}&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>mount &amp;lt;LV_PATH&amp;gt; /mnt/archos/root&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>mount &amp;lt;LV_PATH&amp;gt; /mnt/archos/home&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>chroot /mnt/archos/root&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Don&amp;rsquo;t forget to &lt;code>umount /mnt/archos/root&lt;/code> when finished&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/lvm/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/deployment_guide/ch-lvm">RedHat: Chapter 11. LVM (Logical Volume Manger)&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💻 Networking</title><link>https://csmertx.github.io/Linux/Assorted/networking/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/networking/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h1 id="general-networking">
+ General networking
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/networking/#general-networking" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor General networking" href="#general-networking">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h1>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="troubleshooting-chroot-etc">
+ Troubleshooting (chroot, etc.)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/networking/#troubleshooting-chroot-etc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Troubleshooting (chroot, etc.)" href="#troubleshooting-chroot-etc">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Unable to resolve dns&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/resolv.conf&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>++ nameserver 8.8.8.8&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Google&amp;rsquo;s nameserver (8.8.8.8)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="dhcp">
+ DHCP
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/networking/#dhcp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor DHCP" href="#dhcp">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>auto eth0&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>allow-hotplug eth0&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>iface eth0 inet dhcp&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 Static IP</title><link>https://csmertx.github.io/Linux/Assorted/static_ip/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/static_ip/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="local-static-ip-qemukvm">
+ Local Static IP (QEMU/KVM)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/static_ip/#local-static-ip-qemukvm" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Local Static IP (QEMU/KVM)" href="#local-static-ip-qemukvm">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo EDITOR=vim virsh net-edit default&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add hosts after range as shown below&lt;/p>
+&lt;pre tabindex="0">&lt;code>&amp;lt;dhcp&amp;gt;
+ &amp;lt;range start=&amp;#39;192.168.122.100&amp;#39; end=&amp;#39;192.168.122.254&amp;#39;/&amp;gt;
+ &amp;lt;host mac=&amp;#39;...&amp;#39; name&amp;#39;c8n0&amp;#39; ip=&amp;#39;192.168.122.4&amp;#39;/&amp;gt;
+&amp;lt;dhcp/&amp;gt;
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo virsh net-destroy default&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo virsh net-start default&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="local-static-ip-bare-metal-or-virualized-wbridge">
+ Local Static IP (Bare Metal or Virualized w/bridge)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/static_ip/#local-static-ip-bare-metal-or-virualized-wbridge" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Local Static IP (Bare Metal or Virualized w/bridge)" href="#local-static-ip-bare-metal-or-virualized-wbridge">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/sysconfig/network&lt;/code>&lt;/p></description></item><item><title>💻 Swap Memory</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="a-swapfile-1g">
+ A swapfile (1G)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/swap/#a-swapfile-1g" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor A swapfile (1G)" href="#a-swapfile-1g">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo dd if=/dev/zero of=/swap1G bs=1024 count=1048576&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo chown root:root /swap1G&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo chmod 0600 /swap1G&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo mkswap /swap1G&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo swapon /swap1G&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/fstab&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ /swap1G none swap sw 0 0
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/swap/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://www.linux.com/news/all-about-linux-swap-space/">Linux.com: All about Linux swap space&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💻 Systemd Journal</title><link>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h1 id="linux-system-journal">
+ Linux System Journal
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/systemd_journalctl/#linux-system-journal" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Linux System Journal" href="#linux-system-journal">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h1>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="cleanup">
+ Cleanup
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/systemd_journalctl/#cleanup" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cleanup" href="#cleanup">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo journalctl --vacuum-size=50M&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudov /etc/systemd/journald.conf&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>-- #SystemMaxUse=
+++ SystemMaxuse=50M
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/systemd_journalctl/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.linux.com/training-tutorials/understanding-and-using-systemd/">Linux.com: Understanding and Using Systemd&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org/title/Systemd">Arch Wiki: Systemd&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 Time</title><link>https://csmertx.github.io/Linux/Assorted/time/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/time/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="set-local-time">
+ Set Local Time
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/time/#set-local-time" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Set Local Time" href="#set-local-time">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Easy&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>tzselect&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Userland&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo tzselect&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Global&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>reboot&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>If VM, then reboot host too&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Normal&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo cp /usr/share/zoneinfo/America/New\_York /etc/localtime&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vim /etc/sysconfig/clock&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>++ ZONE=&amp;quot;America/New_York&amp;quot;&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo hwclock --utc -s&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>reboot&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>if VM, then reboot host too&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/time/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://linuxize.com/post/linux-time-command/">Linuxize: Linux Time Command&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.cyberciti.biz/faq/linux-unix-formatting-dates-for-display/">nixCraft: How To Format Date For Display or Use In a Shell Script&lt;/a>&lt;/p></description></item><item><title>💻 Virtual Console</title><link>https://csmertx.github.io/Linux/Assorted/vconsole/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/vconsole/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Same as &lt;a class="gdoc-markdown__link" href="../../Linux/Assorted/admin">Administration&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="add-users--add-groups">
+ Add users &amp;amp; add groups
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/vconsole/#add-users--add-groups" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add users &amp;amp; add groups" href="#add-users--add-groups">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>cat /etc/passwd&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Displays all users&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo useradd -G wheel,sudo newuser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo usermod -a -G existinggroup existinguser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo groupadd newgroup&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>usermod -a -G newgroup existinguser&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="passwd">
+ Passwd
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/vconsole/#passwd" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Passwd" href="#passwd">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Unattended&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>echo &amp;quot;user:password&amp;quot; | chpasswd&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Only as root&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Normal&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>passwd user&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>User passwd&lt;/p></description></item><item><title>💻 X resources</title><link>https://csmertx.github.io/Linux/Assorted/xresources/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xresources/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Set padding, DPI, anti-alising, Xcursor theme, X font settings, etc.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Time saver for certain terminal emulators (URxvt, xterm, etc.)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="xresources-example">
+ Xresources Example
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/xresources/#xresources-example" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Xresources Example" href="#xresources-example">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim ~/.Xresources&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>! Xresources
+
+Xft.dpi: 96
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: true
+Xft.hintstyle: auto
+
+XTerm*termName: xterm-256color
+
+XTerm.vt100.faceName: Hack:size=13:antialias=true
+
+XTerm.vt100.locale: true
+XTerm.vt100.geometry: 100x35
+
+! special
+*.foreground: #464646
+*.background: #f7f7f7
+*.cursorColor: #464646
+
+! black
+*.color0: #101010
+*.color8: #525252
+
+! red
+*.color1: #7c7c7c
+*.color9: #7c7c7c
+
+! green
+*.color2: #8e8e8e
+*.color10: #8e8e8e
+
+! yellow
+*.color3: #a0a0a0
+*.color11: #a0a0a0
+! blue
+*.color4: #686868
+*.color12: #686868
+
+! magenta
+*.color5: #747474
+*.color13: #747474
+
+! cyan
+*.color6: #868686
+*.color14: #868686
+
+! white
+*.color7: #b9b9b9
+*.color15: #2e2e2e
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;p>Example fixes some common font and color rendering issues (Arch, Slackware, etc.)&lt;/p></description></item><item><title>💻 Xmodmap</title><link>https://csmertx.github.io/Linux/Assorted/xmodmap/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xmodmap/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Only for Xorg desktops (No Wayland support atm)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="using-xmodmap-to-remap-caps-lock-as-a-fn-key">
+ Using Xmodmap to remap Caps Lock as a FN key
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/xmodmap/#using-xmodmap-to-remap-caps-lock-as-a-fn-key" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Using Xmodmap to remap Caps Lock as a FN key" href="#using-xmodmap-to-remap-caps-lock-as-a-fn-key">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Remapping Caps Lock as a modifier key for navigation (hjkl ui nm)&lt;/p>
+&lt;blockquote>
+&lt;p>Mapped keys: h = &lt;code>Left&lt;/code>, j = &lt;code>Down&lt;/code>, k = &lt;code>Up&lt;/code>, l = &lt;code>Right&lt;/code>, u = &lt;code>PGDN&lt;/code>, i = &lt;code>PGUP&lt;/code>, n = &lt;code>Home&lt;/code>, m = &lt;code>End&lt;/code>&lt;/p></description></item><item><title>💻 XrandR</title><link>https://csmertx.github.io/Linux/Assorted/xrandr/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xrandr/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="mode-not-displayed">
+ Mode Not Displayed
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/xrandr/#mode-not-displayed" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mode Not Displayed" href="#mode-not-displayed">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ol>
+&lt;li>
+&lt;p>&lt;code>cvt 1600 900&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Whatever resolution you need goes here 1920x1080, 3840x2160, etc.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Copy line that starts with Modeline&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo xrandr --newmode [...copied line minus the word Modeline...]&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo xrandr --addmode {vga,Virtual}-{0,1} &amp;quot;1600x900_60.00&amp;quot; #Virtual-1&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Included Virtual for Virtual Machines (Slackware can be tricky)&lt;/p></description></item></channel></rss>

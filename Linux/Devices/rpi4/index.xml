@@ -1,27 +1,125 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🥧 Raspberry Pi 4 on CSx</title><link>https://csmertx.github.io/Linux/Devices/rpi4/</link><description>Recent content in 🥧 Raspberry Pi 4 on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Linux/Devices/rpi4/index.xml" rel="self" type="application/rss+xml"/><item><title>🥧 Manjaro/RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/manjaro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/manjaro/</guid><description>Created 2021
-Waveshare WM8960 Soundcard Unable to access the capabilities of this RPi4 hat Issues KDE login with touchscreen maybe wasn&amp;rsquo;t tested as much for RPi4 as other ARM devices. More details I wish I could provide more details. Unfortunately, I failed to properly document this experiment.</description></item><item><title>🥧 RetroPie/RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/retropie/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/retropie/</guid><description>And WM8860 GPIO soundcard addon (speakers)
-First steps Installer resizes partition to span micro SD card capacity
-Place games in pi/roms/&amp;lt;game_folders_of_choice&amp;gt;
-Place bios in pi/BIOS
-Access console/shell (TTY) after boot with keyboard combo: CTRL + ALT + F4
-sudo raspi-config
-Change localization and keyboard mapping
-Localisation Options (for both)
-WiFi cd Retropie-Setup
-sudo ./retropie_setup.sh
-C Configuration / Tools
-843 wifi - Configure WiFi
-Force WiFi to use 5Ghz (if needed) Check with wavemon first: wavemon</description></item><item><title>🥧 Ubuntu 20.04 Server 2 Desktop on RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/</guid><description>Ubuntu 20.04 via RPi4 w/Official 7in LCD
-And WM8860 GPIO soundcard addon (speakers)
-Install Ubuntu Desktop via 20.04 Server Sign-in
-username: ubuntu
-password: ubuntu
-passwd
-current password: ubuntu sudo dpkg-reconfigure -plow unattended-upgrades
-Manual updating from here on out&amp;ndash;frees up system resources
-WiFi nano /etc/netplan/50-cloud-init.yaml
-wifis: wlan0: option: true access-points: &amp;#34;WiFi SSID&amp;#34;: password: &amp;#34;wifipassword&amp;#34; netplan apply
-reboot
-Installing packages sudo apt install openssh-server wireless-tools net-tools
-reboot
-sudo apt update &amp;amp;&amp;amp; sudo apt upgrade</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🥧 Raspberry Pi 4 on CSx</title><link>https://csmertx.github.io/Linux/Devices/rpi4/</link><description>Recent content in 🥧 Raspberry Pi 4 on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Devices/rpi4/index.xml" rel="self" type="application/rss+xml"/><item><title>🥧 Manjaro/RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/manjaro/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/manjaro/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Created 2021&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="waveshare-wm8960-soundcard">
+ Waveshare WM8960 Soundcard
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/rpi4/manjaro/#waveshare-wm8960-soundcard" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Waveshare WM8960 Soundcard" href="#waveshare-wm8960-soundcard">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>Unable to access the capabilities of this RPi4 hat&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="issues">
+ Issues
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/rpi4/manjaro/#issues" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Issues" href="#issues">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>KDE login with touchscreen maybe wasn&amp;rsquo;t tested as much for RPi4 as other ARM devices.&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="more-details">
+ More details
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/rpi4/manjaro/#more-details" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor More details" href="#more-details">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>I wish I could provide more details. Unfortunately, I failed to properly document this experiment.&lt;/p></description></item><item><title>🥧 RetroPie/RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/retropie/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/retropie/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>And WM8860 GPIO soundcard addon (speakers)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="first-steps">
+ First steps
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/rpi4/retropie/#first-steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor First steps" href="#first-steps">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Installer resizes partition to span micro SD card capacity&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Place games in pi/roms/&amp;lt;game_folders_of_choice&amp;gt;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Place bios in pi/BIOS&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Access console/shell (TTY) after boot with keyboard combo: CTRL + ALT + F4&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo raspi-config&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Change localization and keyboard mapping&lt;/p>
+&lt;blockquote>
+&lt;p>Localisation Options (for both)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="wifi">
+ WiFi
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/rpi4/retropie/#wifi" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor WiFi" href="#wifi">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>cd Retropie-Setup&lt;/code>&lt;/p></description></item><item><title>🥧 Ubuntu 20.04 Server 2 Desktop on RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Ubuntu 20.04 via RPi4 w/Official 7in LCD&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>And WM8860 GPIO soundcard addon (speakers)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="install-ubuntu-desktop-via-2004-server">
+ Install Ubuntu Desktop via 20.04 Server
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/#install-ubuntu-desktop-via-2004-server" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install Ubuntu Desktop via 20.04 Server" href="#install-ubuntu-desktop-via-2004-server">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Sign-in&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>username: &lt;code>ubuntu&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>password: &lt;code>ubuntu&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>passwd&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>current password: &lt;code>ubuntu&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo dpkg-reconfigure -plow unattended-upgrades&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Manual updating from here on out&amp;ndash;frees up system resources&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="wifi">
+ WiFi
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/#wifi" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor WiFi" href="#wifi">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>nano /etc/netplan/50-cloud-init.yaml&lt;/code>&lt;/p></description></item></channel></rss>

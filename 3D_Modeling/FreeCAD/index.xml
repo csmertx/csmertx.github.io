@@ -1,15 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🛠️ FreeCAD on CSx</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/</link><description>Recent content in 🛠️ FreeCAD on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/3D_Modeling/FreeCAD/index.xml" rel="self" type="application/rss+xml"/><item><title>🛠️ Convert STL to Step</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</guid><description>Entry added before 2022
-Center model
-Select .stl
-Switch to Part Workbench
-Part &amp;gt; Create shape from mesh&amp;hellip;
-Export &amp;gt; file.step/.stp</description></item><item><title>🛠️ Step faces to Sketches</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</guid><description>
-Entry added before 2022
-Remove all unnecessary objects
-Switch to Draft Workbench
-Select Object and Explode (Solid Blue Down Arrow)
-Find the face required and remove all other faces
-Select face and Convert bidirectionally between Draft and Sketch Objects
-Note the position of the original face and move the sketch accordingly
-Time for a to do contraint hell
-Resources 🔗 YouTube | STEP to FreeCAD Part (61quick)</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🛠️ FreeCAD on CSx</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/</link><description>Recent content in 🛠️ FreeCAD on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/3D_Modeling/FreeCAD/index.xml" rel="self" type="application/rss+xml"/><item><title>🛠️ Convert STL to Step</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/convert_stl_to_step/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Entry added before 2022&lt;/p>
+&lt;/blockquote>
+&lt;ol>
+&lt;li>
+&lt;p>Center model&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select .stl&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Switch to Part Workbench&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Part &amp;gt; Create shape from mesh&amp;hellip;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Export &amp;gt; file.step/.stp&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>🛠️ Step faces to Sketches</title><link>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Entry added before 2022&lt;/p>
+&lt;/blockquote>
+&lt;ol>
+&lt;li>
+&lt;p>Remove all unnecessary objects&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Switch to Draft Workbench&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select Object and Explode (Solid Blue Down Arrow)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Find the face required and remove all other faces&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select face and Convert bidirectionally between Draft and Sketch Objects&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Note the position of the original face and move the sketch accordingly&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Time for a to do contraint hell&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/3D_Modeling/FreeCAD/step_faces_to_sketches/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://www.youtube.com/watch?v=7xupVksPadA">🔗 YouTube | STEP to FreeCAD Part (61quick)&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

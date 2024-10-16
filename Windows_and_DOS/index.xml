@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🖥️ Windows &amp; DOS on CSx</title><link>https://csmertx.github.io/Windows_and_DOS/</link><description>Recent content in 🖥️ Windows &amp; DOS on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Windows_and_DOS/index.xml" rel="self" type="application/rss+xml"/><item><title>🖥️ Win &amp; DOS VMs</title><link>https://csmertx.github.io/Windows_and_DOS/win_dos_vm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Windows_and_DOS/win_dos_vm/</guid><description>Windows Activation in VM Extract Windows 10 RTM OEM serial number (Ubuntu + flavors)
-Windows 10 RTM OEM | Verified via: Thinkpad X270, Lenovo M73, and Thinkpad X1 Extreme G2
-Thinkpad X270 users: BIOS 1.50 is 🔗not compatible (drain but no charge) with aftermarket batteries (🔗1.47 is fine)
-sudo cat /sys/firmware/acpi/tables/MSDM &amp;gt; SLIC.dat
-sudo nano SLIC.dat
-Serial character format is 5x5 xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
-Download Win 10 ISO from: https://www.microsoft.com/en-us/software-download/windows10ISO
-When asked for activation key: use it, and Windows installer will automatically choose the correct installation edition.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🖥️ Windows &amp; DOS on CSx</title><link>https://csmertx.github.io/Windows_and_DOS/</link><description>Recent content in 🖥️ Windows &amp; DOS on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Windows_and_DOS/index.xml" rel="self" type="application/rss+xml"/><item><title>🖥️ Win &amp; DOS VMs</title><link>https://csmertx.github.io/Windows_and_DOS/win_dos_vm/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Windows_and_DOS/win_dos_vm/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="windows-activation-in-vm">
+ Windows Activation in VM
+ &lt;a data-clipboard-text="https://csmertx.github.io/Windows_and_DOS/win_dos_vm/#windows-activation-in-vm" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Windows Activation in VM" href="#windows-activation-in-vm">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Extract Windows 10 RTM OEM serial number (Ubuntu + flavors)&lt;/p>
+&lt;blockquote>
+&lt;p>Windows 10 RTM OEM | Verified via: Thinkpad X270, Lenovo M73, and Thinkpad X1 Extreme G2&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>&lt;b>&lt;i>Thinkpad X270 users&lt;/i>&lt;/b>: BIOS 1.50 is 🔗&lt;a class="gdoc-markdown__link" href="https://techfixify.com/how-to-roll-back-bios-update-lenovo/#How_To_Roll_Back_BIOS_Update_Lenovo_Step-By-Step" title="Techfixify | How To Roll Back BIOS Update Lenovo? (Easy)">not compatible (drain but no charge)&lt;/a> with aftermarket batteries (🔗&lt;a class="gdoc-markdown__link" href="https://pcsupport.lenovo.com/us/en/downloads/ds120442-bios-update-utility-bootable-cd-for-windows-10-81-7-64-bit-7-32-bit-thinkpad-x270" title="Lenovo Support US | BIOS Update (Utility &amp;amp; Bootable CD) for Windows 10, 8.1, 7 (64-bit), 7 (32-bit) - ThinkPad X270">1.47&lt;/a> is fine)&lt;/p></description></item></channel></rss>

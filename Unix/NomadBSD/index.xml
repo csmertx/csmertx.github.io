@@ -1,10 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 NomadBSD (OS) on CSx</title><link>https://csmertx.github.io/Unix/NomadBSD/</link><description>Recent content in 💻 NomadBSD (OS) on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Unix/NomadBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 NomadBSD Installation</title><link>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</guid><description>
-This page was created before 2020
-Please refer to the NomadBSD Handbooklet for up to date installation instructions.
-WiFi FreeBSD / Docs / Wireless Network
-vim /etc/rc.conf
-++ wlans_rtwn0=&amp;#34;wlan0&amp;#34; ++ ifconfig_wlan0=&amp;#34;WPA DHCP&amp;#34; ++ ifconfig_ale0=&amp;#34;DHCP&amp;#34; vim /boot/loader.conf
-++ if_rtwn_usb_load=&amp;#34;YES&amp;#34;++ if_rtwn_pci_load=&amp;#34;YES&amp;#34; vim /etc/wpa_supplicant.conf
-++ network={++	ssid=&amp;#34;myssid&amp;#34;++	psk=&amp;#34;mypsk&amp;#34;++ } service netif restart
-Autostart Programs w/Openbox vim ~/.config/openbox/autostart.sh
-++ dsbmc-cli -a &amp;amp;++ xmodmap ~/.Xmodmap</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 NomadBSD (OS) on CSx</title><link>https://csmertx.github.io/Unix/NomadBSD/</link><description>Recent content in 💻 NomadBSD (OS) on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Unix/NomadBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 NomadBSD Installation</title><link>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>This page was created before 2020&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Please refer to the &lt;a class="gdoc-markdown__link" href="https://nomadbsd.org/handbook/handbook.html">NomadBSD Handbooklet&lt;/a> for up to date installation instructions.&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="wifi">
+ WiFi
+ &lt;a data-clipboard-text="https://csmertx.github.io/Unix/NomadBSD/nomadbsd/#wifi" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor WiFi" href="#wifi">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/network-wireless.html">FreeBSD / Docs / Wireless Network&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vim /etc/rc.conf&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ wlans_rtwn0=&amp;#34;wlan0&amp;#34; 
+++ ifconfig_wlan0=&amp;#34;WPA DHCP&amp;#34; 
+++ ifconfig_ale0=&amp;#34;DHCP&amp;#34; 
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vim /boot/loader.conf&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ if_rtwn_usb_load=&amp;#34;YES&amp;#34;
+++ if_rtwn_pci_load=&amp;#34;YES&amp;#34;
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>vim /etc/wpa_supplicant.conf&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ network={
+++	 ssid=&amp;#34;myssid&amp;#34;
+++	 psk=&amp;#34;mypsk&amp;#34;
+++ }
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>service netif restart&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="autostart-programs-wopenbox">
+ Autostart Programs w/Openbox
+ &lt;a data-clipboard-text="https://csmertx.github.io/Unix/NomadBSD/nomadbsd/#autostart-programs-wopenbox" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Autostart Programs w/Openbox" href="#autostart-programs-wopenbox">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim ~/.config/openbox/autostart.sh&lt;/code>&lt;/p></description></item></channel></rss>

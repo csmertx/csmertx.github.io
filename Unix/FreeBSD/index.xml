@@ -1,9 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 FreeBSD (OS) on CSx</title><link>https://csmertx.github.io/Unix/FreeBSD/</link><description>Recent content in 💻 FreeBSD (OS) on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Unix/FreeBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 FreeBSD Installation</title><link>https://csmertx.github.io/Unix/FreeBSD/freebsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/FreeBSD/freebsd/</guid><description>This page was created before 2022
-Please refer to the FreeBSD Handbook for up to date installation instructions
-Live Login user: root
-password: [automatic login]
-First step Boot into the installed system before completing any of the following!
-Full installation is covered via FreeBSD Handbook linked above
-Wifi troubles.. vim /etc/rc.conf
--- ifconfig_em0=&amp;#34;DHCP&amp;#34;-- ifconfig_em0_ipv6=&amp;#34;inet6 accept_rtadv&amp;#34;++ wlans_ath0=&amp;#34;wlan0&amp;#34;++ ifconfig_wlan0=&amp;#34;WPA SYNCDHCP&amp;#34; ifconfig wlan0 create wlandev ath0
-ifconfig wlan0 up scan</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 FreeBSD (OS) on CSx</title><link>https://csmertx.github.io/Unix/FreeBSD/</link><description>Recent content in 💻 FreeBSD (OS) on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Unix/FreeBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 FreeBSD Installation</title><link>https://csmertx.github.io/Unix/FreeBSD/freebsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/FreeBSD/freebsd/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>This page was created before 2022&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Please refer to the &lt;a class="gdoc-markdown__link" href="https://docs.freebsd.org/en/books/handbook/book/">FreeBSD Handbook&lt;/a> for up to date installation instructions&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="live-login">
+ Live Login
+ &lt;a data-clipboard-text="https://csmertx.github.io/Unix/FreeBSD/freebsd/#live-login" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Live Login" href="#live-login">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>user: &lt;code>root&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>password: &lt;code>[automatic login]&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="first-step">
+ First step
+ &lt;a data-clipboard-text="https://csmertx.github.io/Unix/FreeBSD/freebsd/#first-step" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor First step" href="#first-step">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Boot into the installed system before completing any of the following!&lt;/p>
+&lt;blockquote>
+&lt;p>Full installation is covered via FreeBSD Handbook linked above&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="wifi-troubles">
+ Wifi troubles..
+ &lt;a data-clipboard-text="https://csmertx.github.io/Unix/FreeBSD/freebsd/#wifi-troubles" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Wifi troubles.." href="#wifi-troubles">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim /etc/rc.conf&lt;/code>&lt;/p></description></item></channel></rss>

@@ -1,25 +1,198 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Virtual Computing on CSx</title><link>https://csmertx.github.io/Linux/VMs/</link><description>Recent content in 💻 Virtual Computing on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Linux/VMs/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Docker</title><link>https://csmertx.github.io/Linux/VMs/docker_installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/docker_installation/</guid><description>A neat way to setup a DIY media streaming box
-Debian packages sudo apti docker docker-compose cockpit cockpit-docker Fedora packages sudo dnf install docker docker-compose cockpit cockpit-docker Add user to docker group (single user LAN server only) sudo usermod -aG docker $USER Install Nextcloud sudo docker pull nextcloud IP Address add IP=192.168.xxx.xx to environment Link /var/lib/docker to different partition remove /var/lib/docker
-Backup /var/lib/docker first?
-sudo -ln -s /mnt/containers/docker /var/lib/docker</description></item><item><title>💻 KVM</title><link>https://csmertx.github.io/Linux/VMs/kvm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/kvm/</guid><description>
-Kernal-based Virtual Machine
-See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
-Setup (Arch Linux) sudo modprobe kvm_intel
-Or kvm_amd
-sudo vim /etc/modprobe.d/kvm.conf
-++ kvm_intel Or kvm_amd
-Setup Ubuntu apti qemu-kvm Resources Arch Wiki: KVM</description></item><item><title>💻 Virtual Machine Manager (VMM)</title><link>https://csmertx.github.io/Linux/VMs/virt-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virt-manager/</guid><description>VM software by Red Hat
-See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
-Host Installation virt-manager qemu qemu-utils
-sudo systemctl enable/start libvirtd
-Forward Ports qemu-system-i386 ... -net user,hostfwd=tcp:443::443 -redir tcp:80::80 -redir tcp:22::22 -hda storage.img -nographic Converting VMs qemu-img convert -f raw -O qcow &amp;quot;/dir/machine.vdi&amp;quot; &amp;quot;/dir/machine.img&amp;quot; Cloning VMs virt-clone --original /dir/c8n1.img --name &amp;quot;new name&amp;quot; --file c8n2.img
-virt-clone --original &amp;quot;c8n0&amp;quot; --name &amp;quot;c8n1&amp;quot; --auto-clone
-virt-clone --connect=qemu:///system -o &amp;quot;vm&amp;quot; -n &amp;quot;newvm&amp;quot; --auto-clone</description></item><item><title>💻 VirtualBox</title><link>https://csmertx.github.io/Linux/VMs/virtualbox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virtualbox/</guid><description>VM software by Oracle
-See Windows &amp;amp; DOS VMs for minimum and maximum system requirements (RAM, VRAM, etc.)
-Graphics Try to use the host Guest Additions .iso
-Debian: mount the .iso and copy the contents to another folder then chown
-Try VBoxVGA or VBoxSVGA with &amp;lsquo;Pegasus&amp;rsquo;
-Add user to video (couldn&amp;rsquo;t hurt)
-Time Sync with Pause/Unpause apti virtualbox-guest-utils
-VBoxManager guestproperty set &amp;quot;VM Name&amp;quot; &amp;quot;/VirtualBox/GuestAdd/VBoxService/--timesync-interval&amp;quot; 10000
-VBoxManager guestproperty set &amp;quot;VM Name&amp;quot; &amp;quot;/VirtualBox/GuestAdd/VBoxService/--timesync-min-adjust&amp;quot; 100</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Virtual Computing on CSx</title><link>https://csmertx.github.io/Linux/VMs/</link><description>Recent content in 💻 Virtual Computing on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/VMs/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Docker</title><link>https://csmertx.github.io/Linux/VMs/docker_installation/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/docker_installation/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>A neat way to setup a DIY media streaming box&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="debian-packages">
+ Debian packages
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/docker_installation/#debian-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Debian packages" href="#debian-packages">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo apti docker docker-compose cockpit cockpit-docker&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="fedora-packages">
+ Fedora packages
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/docker_installation/#fedora-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Fedora packages" href="#fedora-packages">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo dnf install docker docker-compose cockpit cockpit-docker&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="add-user-to-docker-group-single-user-lan-server-only">
+ Add user to docker group (single user LAN server only)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/docker_installation/#add-user-to-docker-group-single-user-lan-server-only" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add user to docker group (single user LAN server only)" href="#add-user-to-docker-group-single-user-lan-server-only">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo usermod -aG docker $USER&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="install-nextcloud">
+ Install Nextcloud
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/docker_installation/#install-nextcloud" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install Nextcloud" href="#install-nextcloud">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo docker pull nextcloud&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="ip-address">
+ IP Address
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/docker_installation/#ip-address" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor IP Address" href="#ip-address">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>add &lt;code>IP=192.168.xxx.xx&lt;/code> to environment&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="link-varlibdocker-to-different-partition">
+ Link /var/lib/docker to different partition
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/docker_installation/#link-varlibdocker-to-different-partition" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Link /var/lib/docker to different partition" href="#link-varlibdocker-to-different-partition">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>remove &lt;code>/var/lib/docker&lt;/code>&lt;/p></description></item><item><title>💻 KVM</title><link>https://csmertx.github.io/Linux/VMs/kvm/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/kvm/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Kernal-based Virtual Machine&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>See &lt;a class="gdoc-markdown__link" href="../../Windows_and_DOS/win_dos_vm">Windows &amp;amp; DOS VMs&lt;/a> for minimum and maximum system requirements (RAM, VRAM, etc.)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="setup-arch-linux">
+ Setup (Arch Linux)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/kvm/#setup-arch-linux" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Setup (Arch Linux)" href="#setup-arch-linux">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sudo modprobe kvm_intel&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Or &lt;code>kvm_amd&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo vim /etc/modprobe.d/kvm.conf&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ kvm_intel
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;p>Or &lt;code>kvm_amd&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="setup-ubuntu">
+ Setup Ubuntu
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/kvm/#setup-ubuntu" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Setup Ubuntu" href="#setup-ubuntu">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>apti qemu-kvm&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/kvm/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org/title/KVM">Arch Wiki: KVM&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💻 Virtual Machine Manager (VMM)</title><link>https://csmertx.github.io/Linux/VMs/virt-manager/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virt-manager/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>VM software by Red Hat&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>See &lt;a class="gdoc-markdown__link" href="../../Windows_and_DOS/win_dos_vm">Windows &amp;amp; DOS VMs&lt;/a> for minimum and maximum system requirements (RAM, VRAM, etc.)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="host-installation">
+ Host Installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/virt-manager/#host-installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Host Installation" href="#host-installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>virt-manager qemu qemu-utils&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo systemctl enable/start libvirtd&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="forward-ports">
+ Forward Ports
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/virt-manager/#forward-ports" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Forward Ports" href="#forward-ports">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;pre tabindex="0">&lt;code>qemu-system-i386 ... -net user,hostfwd=tcp:443::443 -redir tcp:80::80 -redir tcp:22::22 -hda storage.img -nographic
+&lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="converting-vms">
+ Converting VMs
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/virt-manager/#converting-vms" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Converting VMs" href="#converting-vms">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>qemu-img convert -f raw -O qcow &amp;quot;/dir/machine.vdi&amp;quot; &amp;quot;/dir/machine.img&amp;quot;&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="cloning-vms">
+ Cloning VMs
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/virt-manager/#cloning-vms" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cloning VMs" href="#cloning-vms">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>virt-clone --original /dir/c8n1.img --name &amp;quot;new name&amp;quot; --file c8n2.img&lt;/code>&lt;/p></description></item><item><title>💻 VirtualBox</title><link>https://csmertx.github.io/Linux/VMs/virtualbox/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virtualbox/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>VM software by Oracle&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>See &lt;a class="gdoc-markdown__link" href="../../Windows_and_DOS/win_dos_vm">Windows &amp;amp; DOS VMs&lt;/a> for minimum and maximum system requirements (RAM, VRAM, etc.)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="graphics">
+ Graphics
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/virtualbox/#graphics" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Graphics" href="#graphics">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Try to use the host Guest Additions .iso&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Debian: mount the .iso and copy the contents to another folder then chown&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Try VBoxVGA or VBoxSVGA with &amp;lsquo;Pegasus&amp;rsquo;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add user to video (couldn&amp;rsquo;t hurt)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="time-sync-with-pauseunpause">
+ Time Sync with Pause/Unpause
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/virtualbox/#time-sync-with-pauseunpause" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Time Sync with Pause/Unpause" href="#time-sync-with-pauseunpause">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>apti virtualbox-guest-utils&lt;/code>&lt;/p></description></item></channel></rss>

@@ -1,26 +1,155 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📱 Android on CSx</title><link>https://csmertx.github.io/Android/</link><description>Recent content in 📱 Android on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Android/index.xml" rel="self" type="application/rss+xml"/><item><title>📱 Android Debug Bridge (ADB)</title><link>https://csmertx.github.io/Android/adb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/adb/</guid><description>
-Login to Android shell Android shell of device connected via USB
-May need to toggle USB connection to accept data adb root
-db remount
-adb shell
-Resources 🔗 Android Developers - Android Debug Bridge (adb)</description></item><item><title>📱 F-Droid</title><link>https://csmertx.github.io/Android/fdroid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/fdroid/</guid><description>
-🔗 Download F-Droid
-Additional Repos 🔗 IzzyOnDroid F-Droid Repository</description></item><item><title>📱 LineageOS</title><link>https://csmertx.github.io/Android/lineageos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/lineageos/</guid><description>Open-source Android distribution (OS)
-Samsung Galaxy Tab 3 10in (3G) TWRP
-Installation
-Download Heimdall (link below) Access TWRP (link below)
-Volume Up + Power + Home button
-Release for Samsung splash screen
-No MTP/OTG Access
-Connect USB
-adb push /dir/rom.zip /sdcard
-ROM Installation Try MTP/OTG or use adb
-Move ROM.zip to device storage (unzip not necessary)
-Install (or wipe then install)
-Wipe the cache afterwards (clears out the ROM)</description></item><item><title>📱 Termux</title><link>https://csmertx.github.io/Android/termux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/termux/</guid><description>
-Free and open-source Android terminal emulator Lite Installation pkg install openssh libcurl curl
-bash -c &amp;quot;$(curl -fsSL https://git.io/oh-my-termux)&amp;quot;
-termux-setup-storage
-Community Repos curl -LO https://its-pointless.github.io/setup-pointless-repo.sh
-bash setup-pointless-repo.sh
-Change package mirrors (if syncing issues) termux-change-repo Resources 🔗 Github | Termux Application</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📱 Android on CSx</title><link>https://csmertx.github.io/Android/</link><description>Recent content in 📱 Android on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Android/index.xml" rel="self" type="application/rss+xml"/><item><title>📱 Android Debug Bridge (ADB)</title><link>https://csmertx.github.io/Android/adb/</link><pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/adb/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="login-to-android-shell">
+ Login to Android shell
+ &lt;a data-clipboard-text="https://csmertx.github.io/Android/adb/#login-to-android-shell" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Login to Android shell" href="#login-to-android-shell">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Android shell of device connected via USB&lt;/p>
+&lt;ul>
+&lt;li>May need to toggle USB connection to accept data&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;code>adb root&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>db remount&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>adb shell&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Android/adb/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://developer.android.com/studio/command-line/adb">🔗 Android Developers - Android Debug Bridge (adb)&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>📱 F-Droid</title><link>https://csmertx.github.io/Android/fdroid/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/fdroid/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://f-droid.org/F-Droid.apk">🔗 Download F-Droid&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="additional-repos">
+ Additional Repos
+ &lt;a data-clipboard-text="https://csmertx.github.io/Android/fdroid/#additional-repos" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Additional Repos" href="#additional-repos">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://apt.izzysoft.de/fdroid/repo">🔗 IzzyOnDroid F-Droid Repository&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>📱 LineageOS</title><link>https://csmertx.github.io/Android/lineageos/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/lineageos/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Open-source Android distribution (OS)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="samsung-galaxy-tab-3-10in-3g">
+ Samsung Galaxy Tab 3 10in (3G)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Android/lineageos/#samsung-galaxy-tab-3-10in-3g" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Samsung Galaxy Tab 3 10in (3G)" href="#samsung-galaxy-tab-3-10in-3g">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>TWRP&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Installation&lt;/p>
+&lt;ul>
+&lt;li>Download Heimdall (link below)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Access TWRP (link below)&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>Volume Up&lt;/code> + &lt;code>Power&lt;/code> + &lt;code>Home button&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Release for Samsung splash screen&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>No MTP/OTG Access&lt;/p>
+&lt;p>&lt;code>Connect USB&lt;/code>&lt;/p>
+&lt;p>&lt;code>adb push /dir/rom.zip /sdcard&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="rom-installation">
+ ROM Installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Android/lineageos/#rom-installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor ROM Installation" href="#rom-installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ol>
+&lt;li>
+&lt;p>Try MTP/OTG or use &lt;code>adb&lt;/code>&lt;/p></description></item><item><title>📱 Termux</title><link>https://csmertx.github.io/Android/termux/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/termux/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h1 id="free-and-open-source-android-terminal-emulator">
+ Free and open-source Android terminal emulator
+ &lt;a data-clipboard-text="https://csmertx.github.io/Android/termux/#free-and-open-source-android-terminal-emulator" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Free and open-source Android terminal emulator" href="#free-and-open-source-android-terminal-emulator">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h1>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="lite-installation">
+ Lite Installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Android/termux/#lite-installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Lite Installation" href="#lite-installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ol>
+&lt;li>
+&lt;p>&lt;code>pkg install openssh libcurl curl&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>bash -c &amp;quot;$(curl -fsSL https://git.io/oh-my-termux)&amp;quot;&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>termux-setup-storage&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="community-repos">
+ Community Repos
+ &lt;a data-clipboard-text="https://csmertx.github.io/Android/termux/#community-repos" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Community Repos" href="#community-repos">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ol>
+&lt;li>
+&lt;p>&lt;code>curl -LO https://its-pointless.github.io/setup-pointless-repo.sh&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>bash setup-pointless-repo.sh&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="change-package-mirrors-if-syncing-issues">
+ Change package mirrors (if syncing issues)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Android/termux/#change-package-mirrors-if-syncing-issues" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Change package mirrors (if syncing issues)" href="#change-package-mirrors-if-syncing-issues">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>termux-change-repo&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Android/termux/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://github.com/termux/termux-app">🔗 Github | Termux Application&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

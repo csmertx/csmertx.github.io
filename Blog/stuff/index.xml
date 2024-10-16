@@ -1,14 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🛠️ Projects on CSx</title><link>https://csmertx.github.io/Blog/stuff/</link><description>Recent content in 🛠️ Projects on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Blog/stuff/index.xml" rel="self" type="application/rss+xml"/><item><title>🛠️ Casting Silicone (2020)</title><link>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</guid><description>Supplies delivered: March 3, 2020
-I&amp;rsquo;ll try my best to keep these posts to the point and to not go crazy with the details. At the end of 2020 I stumbled in to some remote contract work. This job required the use of a keyboard, and a lot of typing. Instead of spending time and money on future RSI surgeries, I decided to get an urklenomic keyboard. The problem with the keyboard I bought (aside from the price tag) was that my wrists would go numb after four hours.</description></item><item><title>🛠️ Fishing Lures</title><link>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</guid><description>2018
-Pine 2x4, household lacquer, yellow acrylic painted eyes, and brass hardware (I was bored)
-Yet to test the wiggle pattern</description></item><item><title>🛠️ Keyboard Modeling</title><link>https://csmertx.github.io/Blog/stuff/2023/keyboards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/keyboards/</guid><description>2016-2017
-Started with Blender and finished with Fusion 360 (switches and stabilizers from Thingiverse?)
-Developed some RSI symptoms as I worked on this pathway</description></item><item><title>🛠️ Kinesis Advantage 2</title><link>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</guid><description>Modding a Kinesis Advantage 2
-Pieced together 🔗QMK compatible controller via 🔗KinT kit. Also added custom USB stress relief, and touchpad
-Touchpad gestures: 🔗libinput-gestures 🔗configured for 3-4 finger gestures (Back/Forward/Home/End/PGUP/PGDN)
-Coffee bag tie for cable management, and right angle USB for the touchpad.
-Touchpad mess: Sanded the burn marks caused by oil paint pens on card stock paper (whoops)
-Soldered using a 🔗Pinecil V1 powered with a Lenovo laptop power brick</description></item><item><title>🛠️ RPi4 Console (2021)</title><link>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</guid><description>Pieced together: June 7, 2021
-RPi4 = Raspberry Pi 4
-I wanted a tiny console to check out ARM architecture stuff: Ubuntu/RPi4, and RetroPie/RPi4.
-This one does not include a parts list because this configuration (power delivery hat/addon) killed the official RPi4 LCD screen. I sold my RPi4 because of sketchy hats (addon boards). Next attempt will be something different.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🛠️ Projects on CSx</title><link>https://csmertx.github.io/Blog/stuff/</link><description>Recent content in 🛠️ Projects on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Blog/stuff/index.xml" rel="self" type="application/rss+xml"/><item><title>🛠️ Kinesis Advantage 2</title><link>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</guid><description>&lt;p>Modding a Kinesis Advantage 2&lt;/p>
+&lt;blockquote>
+&lt;p>Pieced together 🔗&lt;a class="gdoc-markdown__link" href="https://config.qmk.fm/#/kinesis/kint36/LAYOUT" title="QMK Configurator">QMK&lt;/a> compatible controller via 🔗&lt;a class="gdoc-markdown__link" href="https://github.com/kinx-project/kint" title="Github.com | kinx-project / kint">KinT&lt;/a> kit. Also added custom USB stress relief, and touchpad&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Touchpad gestures: 🔗&lt;a class="gdoc-markdown__link" href="https://github.com/bulletmark/libinput-gestures" title="Github | bulletmark / libinput-gestures">libinput-gestures&lt;/a> 🔗&lt;a class="gdoc-markdown__link" href="https://github.com/csmertx/dotfiles/blob/master/config/libinput-gestures.conf" title="Github | csmertx / dotfiles / config / libinput-gestures.conf">configured&lt;/a> for 3-4 finger gestures (Back/Forward/Home/End/PGUP/PGDN)&lt;/p>
+&lt;/blockquote>
+&lt;br />
+&lt;div style="text-align: center;">
+&lt;p>&lt;img src="../../Blog/stuff/images/ka2/0.jpg" alt="albumimg" title="Kinesis Advantage 2 LQ with white and light gray DSA keycaps and a Jellycomb touchpad" />&lt;/p>
+&lt;blockquote>
+&lt;p>Coffee bag tie for cable management, and right angle USB for the touchpad.&lt;/p></description></item><item><title>🛠️ Fishing Lures</title><link>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</link><pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>2018&lt;/p>
+&lt;/blockquote>
+&lt;div style="text-align: center;">
+&lt;p>&lt;img src="../../Blog/stuff/images/2by4_self_made_water_vole.jpg" alt="albumimg" title="Vintage style water vole muskie lure: 4.5in x 1.25in x 1in, dual treble hooks. Ready for testing once the water warms up" />&lt;/p>
+&lt;p>Pine 2x4, household lacquer, yellow acrylic painted eyes, and brass hardware (I was bored)&lt;/p>
+&lt;blockquote>
+&lt;p>Yet to test the wiggle pattern&lt;/p>
+&lt;/blockquote>
+&lt;br />
+&lt;/div>&lt;br /></description></item><item><title>🛠️ Keyboard Modeling</title><link>https://csmertx.github.io/Blog/stuff/2023/keyboards/</link><pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/keyboards/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>2016-2017&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Started with Blender and finished with Fusion 360 (switches and stabilizers from Thingiverse?)&lt;/p>
+&lt;/blockquote>
+&lt;p>Developed some RSI symptoms as I worked on this pathway&lt;/p>
+&lt;p>&lt;img src="../../Blog/stuff/images/keyboards/KA2Q.png" alt="albumimg" title="Kinesis Advantage2 Quiet pixel art (2022)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_1.jpg" alt="albumimg" title="First render using DSA/104 key template before developing the 3-point lighting system (Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_2.jpg" alt="albumimg" title="Single source of light and maybe a custom mouse (iirc), DSA/104 Key template (Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_3.png" alt="albumimg" title="First full Sculpted Angle (SA) caps custom TKL before using switches stabilizers (Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_4.jpg" alt="albumimg" title="Custom backdrop, TKL, keys, and single source of light (Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_5.jpg" alt="albumimg" title="Close up custom TKL, etc. (Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_6.jpg" alt="albumimg" title="Designing key caps and curved profile workflow (Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_7.jpg" alt="albumimg" title="Tuning the look and feel of the plastics (Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_8.jpg" alt="albumimg" title="One of the first well received 3-point lighting renders (Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_9.png" alt="albumimg" title="Key cap and key legend placement--8hrs per new keyboard (Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_10.jpg" alt="albumimg" title="Nearly tuned look and feel of plastics (Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_11.png" alt="albumimg" title="First render with 50&amp;#43; likes on social media" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_12.png" alt="albumimg" title="First collaboration--placed everything, modified LED fused to 3D model to showcase red LED, my SA key caps, my plastic material adjustments, my custom Gorton Modified font--20&amp;#43; hrs (Modeled: Fusion 360, Rendered: Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_13.jpg" alt="albumimg" title="First Planck render--8hrs (Modeled:Fusion 360, Rendered: Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_14.jpg" alt="albumimg" title="First Ergodox render, Ergodox plate template, screw template--16hrs (Modeled: Fusion 360, Rendered: Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_15.png" alt="albumimg" title="Designed low profile DSA key set for rendering. TKL nearly real enough for production runs--40hrs (Modeled: Fusion 360, Placement: Blender)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_16.png" alt="albumimg" title="Designed aluminum TKL (Modeled/Rendered: Fusion 360)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_17.png" alt="albumimg" title="Showcased aluminum TKL custom feet--high profile (Modeled/Rendered: Fusion 360)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_18.png" alt="albumimg" title="Custom number pad, switch plate template (Modeled/Rendered: Fusion 360)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_19.png" alt="albumimg" title="Custom number pad side profile (Modeled/Rendered: Fusion 360)" />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_20.png" alt="albumimg" title="Custom double shot DSA nearly ready for production (Modeled/Rendered: Fusion 360)" />&lt;/p></description></item><item><title>🛠️ Casting Silicone (2020)</title><link>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</link><pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Supplies delivered: March 3, 2020&lt;/p>
+&lt;/blockquote>
+&lt;p>I&amp;rsquo;ll try my best to keep these posts to the point and to not go crazy with the details. At the end of 2020 I stumbled in to some remote contract work. This job required the use of a keyboard, and a lot of typing. Instead of spending time and money on future RSI surgeries, I decided to get an urklenomic keyboard. The problem with the keyboard I bought (aside from the price tag) was that my wrists would go numb after four hours. Not as urklenomic as I&amp;rsquo;d like. The thin sponge wrist rests sold by the company did not help. That&amp;rsquo;s why I made these.&lt;/p></description></item><item><title>🛠️ RPi4 Console (2021)</title><link>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</link><pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Pieced together: June 7, 2021&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>RPi4 = Raspberry Pi 4&lt;/p>
+&lt;/blockquote>
+&lt;p>I wanted a tiny console to check out ARM architecture stuff: &lt;a class="gdoc-markdown__link" href="../../Linux/Devices/rpi4/ubuntu">Ubuntu/RPi4&lt;/a>, and &lt;a class="gdoc-markdown__link" href="../../Linux/Devices/rpi4/retropie">RetroPie/RPi4&lt;/a>.&lt;/p>
+&lt;p>This one does not include a parts list because this configuration (power delivery hat/addon) killed the official RPi4 LCD screen. I sold my RPi4 because of sketchy hats (addon boards). Next attempt will be something different.&lt;/p>
+&lt;div style="text-align: center;">
+&lt;p>&lt;img src="../../Blog/stuff/images/rpic_all_the_kde.jpg" alt="albumimg" title="RPi4 Console - KDE at the desk" />
+&lt;img src="../../Blog/stuff/images/rpic_zoom.jpg" alt="albumimg" title="RPi4 Console - Up close" />
+&lt;img src="../../Blog/stuff/images/rpic_inside.jpg" alt="albumimg" title="RPi4 Console - Inside" />
+&lt;img src="../../Blog/stuff/images/rpic_soldering.jpg" alt="albumimg" title="RPi4 Console - Soldering buttons" />
+&lt;br />&lt;/p></description></item></channel></rss>

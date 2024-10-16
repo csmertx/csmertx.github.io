@@ -1,81 +1,625 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Code on CSx</title><link>https://csmertx.github.io/Linux/Code/</link><description>Recent content in 💻 Code on CSx</description><generator>Hugo</generator><language>en</language><atom:link href="https://csmertx.github.io/Linux/Code/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 ASCII</title><link>https://csmertx.github.io/Linux/Code/ascii/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ascii/</guid><description>
-Because sometimes quotes are a pain Certain tiling window status bars&amp;hellip;
-\x27
-Equivalent to &amp;rsquo; (HEX or hexidecimal is 27)
-\x22
-Equivalent to &amp;quot; (HEX or hexidecimal is 22)
-Example
-echo -en &amp;quot;This is nearly a sure way to print quotes: \x22Blah\x22&amp;quot;
-Result: This is nearly a sure way to print quotes: &amp;ldquo;Blah&amp;rdquo;
-Resources ASCII table: hexidecimals of symbols, HTML number/name, etc.</description></item><item><title>💻 AsciiDoc</title><link>https://csmertx.github.io/Linux/Code/asciidoc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/asciidoc/</guid><description>Resources AsciiDoc: Homepage
-AsciiDoc: Writer&amp;rsquo;s Guide
-AsciiDoc: Sandbox (Live AsciiDoc parser with preview)</description></item><item><title>💻 Awk</title><link>https://csmertx.github.io/Linux/Code/awk/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/awk/</guid><description>
-Make selections, and do stuff with those selections
-Print Nth item in row hostname -i | awk '{print $1}' Pull info out of quotes echo &amp;quot;\&amp;lt;a href=&amp;quot;www.duckduckgo.com&amp;quot;\&amp;gt;&amp;quot; | awk -F '&amp;quot;' '{print $1}' Resources The GNU Awk User&amp;rsquo;s Guide</description></item><item><title>💻 C Language</title><link>https://csmertx.github.io/Linux/Code/c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/c/</guid><description>Compiling Souce Code Generate a configure file
-autoconf configure.ac Makefile exists?
-./configure
-This is the fun part&amp;hellip; see links for unmet dependency searches
-User basics: make &amp;amp;&amp;amp; make install
-Resources Such Programming: Spawning New Linux Processes in C
-Debian Package Search: Scroll down to search package directories</description></item><item><title>💻 Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>
-Python language translator for C (check links below for current information)
-Installation For Linux systems
-Windows sudo apt-get mingw-w64 Linux sudo apt-get cython3 Translate Python to C using Cython Basic examples
-Create Linux programs cython --embed python.py -o python.c
-gcc -I /usr/include/python$(version) python.c -lpython$(version) -o python(.exe)
-Create Windows programs x86_64-w64-mingw32-gcc -o main64.exe main.cx Resources Cython: C-Extensions for Python</description></item><item><title>💻 Find</title><link>https://csmertx.github.io/Linux/Code/find/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/find/</guid><description>Does not create databases accessible to other users (e.g. locate command)
-Print subdirectories or files in a directory cd $targetdir &amp;amp;&amp;amp; find . -maxdepth 1 -mindepth 1 -type d -printf &amp;quot;%f&amp;quot; Scripting example ~/.scripts/sudof
-#!/bin/bash # Skips Arch Linux package cache, home directory, etc. dirs_exclude=&amp;#34;-path /mnt -o -path /run -o -path /tmp -o -path /dev -o -path /proc -o -path \ $HOME -o -path /sys -o -path /var/cache/pacman -o -path /var/lib/pacman&amp;#34; sudo find / -type d \( $dirs_exclude \) -prune -o -print | grep $1 echo -en &amp;quot;alias sudof='~/.</description></item><item><title>💻 Git Pro</title><link>https://csmertx.github.io/Linux/Code/git_pro_notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/git_pro_notes/</guid><description>Notes from before 2022
-Git Pro was written by Ben Straub, and Published by Apress
-Print tags git tag Extended info git show v1.4 Adding tags to older commits (parse first) git log --pretty=oneline
-example output: 9fceb02&amp;hellip; updated rakefile
-Append the tag to: [updated rakefile] commit
-git tag -a v1.2 9fceb02 Sharing tags git push origin v1.5 All the tags all at once git push origin --tags Even more info git checkout 2.</description></item><item><title>💻 Git Quick Ref.</title><link>https://csmertx.github.io/Linux/Code/github_quick/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/github_quick/</guid><description>Just enough to be dangerous
-Basic push to origin echo $PWD
-Current dir the project dir? Great. Continue..
-No? Then cd ~/.sources/projectdirectory. See Bash prompt links below
-git add .
-Or: git add example1.sh
-git commit -m &amp;quot;commit message&amp;quot;
-git pull
-git push -u origin
-Remove all traces of sensitive data from a repo This won&amp;rsquo;t remove it from clones or forks, but at least the repo will be scrubbed</description></item><item><title>💻 Glade GTK</title><link>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</guid><description>Toolchain to create GTK applications
-Resources GTK-rs: Requirements
-Nora Codes: Speedy Desktop Apps With GTK and RUST
-Gnome Project: Glade Tutorials</description></item><item><title>💻 Grep</title><link>https://csmertx.github.io/Linux/Code/grep/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/grep/</guid><description>
-Find match or match grep 'match\|match2'
-grep -E 'match|match2'
-Find match and match grep 'match.*match2' Omit match grep -v 'match' Find first or last of line match grep &amp;quot;^match&amp;quot;
-grep &amp;quot;match$&amp;quot;
-Resources GNU Grep</description></item><item><title>💻 Java Apps</title><link>https://csmertx.github.io/Linux/Code/java/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/java/</guid><description>Installation (Linux) To satisfy dependencies (e.g. Kingdom of Loathing: KoLMafia)
-sudo apti default-jdk Create desktop shortcuts for Java apps For all those delightful .jar files
-vim ~/.local/share/applications/kolmafia.desktop
-[Desktop Entry] Comment[en_US]=Kingdom of Loathing Mafia Client Comment=Kingdom of Loathing Mafia Client Exec=java -jar /home/chris/.sources/KoLmafia-20755.jar GenericName[en_US]=KoLmafia GenericName=KoLmafia Icon=/home/chris/Pictures/Icons/swordandmartini_dark_theme.png Name[en_US]=KoLmafia Name=KoLmafia StartupNotify=true Terminal=false Type=Application Categories=Game sudoc /home/chris/.local/share/applications/kolmafia.desktop
-Launch in KDE Plasma: Start Menu &amp;gt; Games &amp;gt; KoLmafia
-Logout and login for some desktop environments</description></item><item><title>💻 Markdown</title><link>https://csmertx.github.io/Linux/Code/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/markdown/</guid><description>Convert Markdown to PDF flatpak install org.freedesktop.Sdk
-flatpak install flathub io.atom.Atom
-Edit &amp;gt; Preferences &amp;gt; Install &amp;gt; Markdown to PDF
-Packages &amp;gt; Markdown to PDF &amp;gt; Convert
-Resources Markdown Guide: Basic Syntax
-Google&amp;rsquo;s Markdown Style Guide
-Hugo: Configure Markup
-This website is generated by Hugo</description></item><item><title>💻 Perl Language</title><link>https://csmertx.github.io/Linux/Code/perl/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/perl/</guid><description>
-Print Nth instance of match perl -lne 'print $1 if /Today:(.*)/' &amp;lt; downloaded_webpage.txt
-Download webpage BEFORE scraping e.g. wget https://website.com/website.html &amp;gt; website.txt
-Or: TEMP=&amp;quot;$(wget -q -O- &amp;quot;http://w1.weather.gov/xml/current_obs/stationcode.xml&amp;quot; | perl ...)&amp;quot;
-Resources Perl Programming Language Documentation</description></item><item><title>💻 Python Package Index (PyPi)</title><link>https://csmertx.github.io/Linux/Code/pypi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/pypi/</guid><description>
-Installing Python packages pip3 install project
-pip3 install project==5.7.1
-pip3 install project&amp;gt;=5.6.1
-Upgrading packages pip3 install --upgrade project Resources Python Package Index Homepage</description></item><item><title>💻 Ruby Language</title><link>https://csmertx.github.io/Linux/Code/ruby/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ruby/</guid><description>Add to PATH vim $HOME/.bashrc
-++ export PATH=$PATH:/home/$USER/.gem/ruby/2.7.0/bin Resources Ruby Programming Language
-About Ruby</description></item><item><title>💻 Sed</title><link>https://csmertx.github.io/Linux/Code/sed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/sed/</guid><description>Wrap every line output in quotes sed 's/&amp;quot;\(.*\)/&amp;quot;\1&amp;quot;/g' Remove Whitespace Lines sed '/^$/d' Remove everything before match sed 's/.*match//' Remove everything after match sed 's/match.*//g' Replace first instance of match sed '0,/example1/{s/example1/example2/}' Replace Nth instance of match sed 's/example1/example2/2g
-2g == 2nd match
-Print Nth Line sed -n '7p'
-7th line
-sed '7!d'
-Also 7th line
-Replace newline chracter w/space Tip: Easier with tr
-tr '&amp;quot;\n' ' ' &amp;lt; input_filename Remove brackets and everything inside brackets sed -e 's/\[[^][]*\]//g' Add line numbers to the beginning of each line s/^/\=line('.</description></item><item><title>💻 ShellCheck</title><link>https://csmertx.github.io/Linux/Code/shellcheck/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/shellcheck/</guid><description>
-Basic Commands shellcheck /dir/script.sh _EOF_ triggering errors Contents of _EOF_ might indicate miss-redirect [&amp;raquo;]
-Resources ShellCheck - A shell script static analysis tool</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Code on CSx</title><link>https://csmertx.github.io/Linux/Code/</link><description>Recent content in 💻 Code on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Code/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 ASCII</title><link>https://csmertx.github.io/Linux/Code/ascii/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ascii/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="because-sometimes-quotes-are-a-pain">
+ Because sometimes quotes are a pain
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/ascii/#because-sometimes-quotes-are-a-pain" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Because sometimes quotes are a pain" href="#because-sometimes-quotes-are-a-pain">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>Certain tiling window status bars&amp;hellip;&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>\x27&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Equivalent to &amp;rsquo; (HEX or hexidecimal is 27)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>\x22&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Equivalent to &amp;quot; (HEX or hexidecimal is 22)&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Example&lt;/p>
+&lt;p>&lt;code>echo -en &amp;quot;This is nearly a sure way to print quotes: \x22Blah\x22&amp;quot;&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Result: This is nearly a sure way to print quotes: &amp;ldquo;Blah&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/ascii/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://www.ascii-code.com/">ASCII table: hexidecimals of symbols, HTML number/name, etc.&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💻 AsciiDoc</title><link>https://csmertx.github.io/Linux/Code/asciidoc/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/asciidoc/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/asciidoc/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="http://asciidoc.org">AsciiDoc: Homepage&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://themes.asciidoctor.org/preview">AsciiDoc: Writer&amp;rsquo;s Guide&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://espadrine.github.io/AsciiDocBox">AsciiDoc: Sandbox (Live AsciiDoc parser with preview)&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 Awk</title><link>https://csmertx.github.io/Linux/Code/awk/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/awk/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Make selections, and do stuff with those selections&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="print-nth-item-in-row">
+ Print Nth item in row
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/awk/#print-nth-item-in-row" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Print Nth item in row" href="#print-nth-item-in-row">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>hostname -i | awk '{print $1}'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="pull-info-out-of-quotes">
+ Pull info out of quotes
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/awk/#pull-info-out-of-quotes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pull info out of quotes" href="#pull-info-out-of-quotes">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>echo &amp;quot;\&amp;lt;a href=&amp;quot;www.duckduckgo.com&amp;quot;\&amp;gt;&amp;quot; | awk -F '&amp;quot;' '{print $1}'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/awk/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://www.gnu.org/software/gawk/manual/gawk.html">The GNU Awk User&amp;rsquo;s Guide&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💻 C Language</title><link>https://csmertx.github.io/Linux/Code/c/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/c/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="compiling-souce-code">
+ Compiling Souce Code
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/c/#compiling-souce-code" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Compiling Souce Code" href="#compiling-souce-code">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>Generate a configure file&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>autoconf configure.ac&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Makefile exists?&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>./configure&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>This is the fun part&amp;hellip; see links for unmet dependency searches&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>User basics: &lt;code>make &amp;amp;&amp;amp; make install&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/c/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://suchprogramming.com/new-linux-process-c">Such Programming: Spawning New Linux Processes in C&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://packages.debian.org/index">Debian Package Search&lt;/a>: Scroll down to search package directories&lt;/p></description></item><item><title>💻 Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Python language translator for C (check links below for current information)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="installation">
+ Installation
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/cython_notes/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>For Linux systems&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="windows">
+ Windows
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/cython_notes/#windows" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Windows" href="#windows">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo apt-get mingw-w64&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="linux">
+ Linux
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/cython_notes/#linux" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Linux" href="#linux">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sudo apt-get cython3&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="translate-python-to-c-using-cython">
+ Translate Python to C using Cython
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/cython_notes/#translate-python-to-c-using-cython" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Translate Python to C using Cython" href="#translate-python-to-c-using-cython">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>Basic examples&lt;/p></description></item><item><title>💻 Find</title><link>https://csmertx.github.io/Linux/Code/find/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/find/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Does not create databases accessible to other users (e.g. locate command)&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="print-subdirectories-or-files-in-a-directory">
+ Print subdirectories or files in a directory
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/find/#print-subdirectories-or-files-in-a-directory" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Print subdirectories or files in a directory" href="#print-subdirectories-or-files-in-a-directory">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>cd $targetdir &amp;amp;&amp;amp; find . -maxdepth 1 -mindepth 1 -type d -printf &amp;quot;%f&amp;quot;&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="scripting-example">
+ Scripting example
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/find/#scripting-example" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Scripting example" href="#scripting-example">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>~/.scripts/sudof&lt;/p>
+&lt;/blockquote>
+&lt;pre tabindex="0">&lt;code>#!/bin/bash
+
+# Skips Arch Linux package cache, home directory, etc.
+dirs_exclude=&amp;#34;-path /mnt -o -path /run -o -path /tmp -o -path /dev -o -path /proc -o -path \
+$HOME -o -path /sys -o -path /var/cache/pacman -o -path /var/lib/pacman&amp;#34;
+
+sudo find / -type d \( $dirs_exclude \) -prune -o -print | grep $1
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>echo -en &amp;quot;alias sudof='~/.scripts/sudof'&amp;quot; &amp;gt;&amp;gt; ~/.bashrc&lt;/code>&lt;/p></description></item><item><title>💻 Git Pro</title><link>https://csmertx.github.io/Linux/Code/git_pro_notes/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/git_pro_notes/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Notes from before 2022&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Git Pro was written by Ben Straub, and Published by Apress&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="print-tags">
+ Print tags
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/git_pro_notes/#print-tags" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Print tags" href="#print-tags">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>git tag&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="extended-info">
+ Extended info
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/git_pro_notes/#extended-info" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Extended info" href="#extended-info">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>git show v1.4&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="adding-tags-to-older-commits-parse-first">
+ Adding tags to older commits (parse first)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/git_pro_notes/#adding-tags-to-older-commits-parse-first" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Adding tags to older commits (parse first)" href="#adding-tags-to-older-commits-parse-first">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>git log --pretty=oneline&lt;/code>&lt;/p></description></item><item><title>💻 Git Quick Ref.</title><link>https://csmertx.github.io/Linux/Code/github_quick/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/github_quick/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Just enough to be dangerous&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="basic-push-to-origin">
+ Basic push to origin
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/github_quick/#basic-push-to-origin" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Basic push to origin" href="#basic-push-to-origin">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>echo $PWD&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Current dir the project dir? Great. Continue..&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>No? Then &lt;code>cd ~/.sources/projectdirectory&lt;/code>. See Bash prompt links &lt;a class="gdoc-markdown__link" href="#resources">below&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>git add .&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Or: &lt;code>git add example1.sh&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>git commit -m &amp;quot;commit message&amp;quot;&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>git pull&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>git push -u origin&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="remove-all-traces-of-sensitive-data-from-a-repo">
+ Remove all traces of sensitive data from a repo
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/github_quick/#remove-all-traces-of-sensitive-data-from-a-repo" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Remove all traces of sensitive data from a repo" href="#remove-all-traces-of-sensitive-data-from-a-repo">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>This won&amp;rsquo;t remove it from clones or forks, but at least the repo will be scrubbed&lt;/p></description></item><item><title>💻 Glade GTK</title><link>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</guid><description>&lt;br />
+&lt;blockquote>
+&lt;p>Toolchain to create GTK applications&lt;/p>
+&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/glade_gtk-rs/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://martinber.github.io/gtk-rs.github.io/docs-src/requirements.html">GTK-rs: Requirements&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://nora.codes/tutorial/speedy-desktop-apps-with-gtk-and-rust">Nora Codes: Speedy Desktop Apps With GTK and RUST&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://wiki.gnome.org/Apps/Glade/Tutorials">Gnome Project: Glade Tutorials&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 Grep</title><link>https://csmertx.github.io/Linux/Code/grep/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/grep/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="find-match-or-match">
+ Find match or match
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/grep/#find-match-or-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Find match or match" href="#find-match-or-match">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>grep 'match\|match2'&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>grep -E 'match|match2'&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="find-match-and-match">
+ Find match and match
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/grep/#find-match-and-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Find match and match" href="#find-match-and-match">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>grep 'match.*match2'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="omit-match">
+ Omit match
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/grep/#omit-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Omit match" href="#omit-match">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>grep -v 'match'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="find-first-or-last-of-line-match">
+ Find first or last of line match
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/grep/#find-first-or-last-of-line-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Find first or last of line match" href="#find-first-or-last-of-line-match">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>grep &amp;quot;^match&amp;quot;&lt;/code>&lt;/p></description></item><item><title>💻 Java Apps</title><link>https://csmertx.github.io/Linux/Code/java/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/java/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="installation-linux">
+ Installation (Linux)
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/java/#installation-linux" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation (Linux)" href="#installation-linux">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>To satisfy dependencies (e.g. Kingdom of Loathing: KoLMafia)&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;code>sudo apti default-jdk&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="create-desktop-shortcuts-for-java-apps">
+ Create desktop shortcuts for Java apps
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/java/#create-desktop-shortcuts-for-java-apps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Create desktop shortcuts for Java apps" href="#create-desktop-shortcuts-for-java-apps">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>For all those delightful .jar files&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim ~/.local/share/applications/kolmafia.desktop&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>[Desktop Entry]
+Comment[en_US]=Kingdom of Loathing Mafia Client
+Comment=Kingdom of Loathing Mafia Client
+Exec=java -jar /home/chris/.sources/KoLmafia-20755.jar
+GenericName[en_US]=KoLmafia
+GenericName=KoLmafia
+Icon=/home/chris/Pictures/Icons/swordandmartini_dark_theme.png
+Name[en_US]=KoLmafia
+Name=KoLmafia
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Game
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudoc /home/chris/.local/share/applications/kolmafia.desktop&lt;/code>&lt;/p></description></item><item><title>💻 Markdown</title><link>https://csmertx.github.io/Linux/Code/markdown/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/markdown/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="convert-markdown-to-pdf">
+ Convert Markdown to PDF
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/markdown/#convert-markdown-to-pdf" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Convert Markdown to PDF" href="#convert-markdown-to-pdf">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>flatpak install org.freedesktop.Sdk&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>flatpak install flathub io.atom.Atom&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Edit &amp;gt; Preferences &amp;gt; Install &amp;gt; Markdown to PDF&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Packages &amp;gt; Markdown to PDF &amp;gt; Convert&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/markdown/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.markdownguide.org/basic-syntax#code-blocks">Markdown Guide: Basic Syntax&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://google.github.io/styleguide/docguide/style.html">Google&amp;rsquo;s Markdown Style Guide&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://gohugo.io/getting-started/configuration-markup/">Hugo: Configure Markup&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>This website is generated by Hugo&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 Perl Language</title><link>https://csmertx.github.io/Linux/Code/perl/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/perl/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="print-nth-instance-of-match">
+ Print Nth instance of match
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/perl/#print-nth-instance-of-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Print Nth instance of match" href="#print-nth-instance-of-match">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>perl -lne 'print $1 if /Today:(.*)/' &amp;lt; downloaded_webpage.txt&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>Download webpage BEFORE scraping e.g. &lt;code>wget https://website.com/website.html &amp;gt; website.txt&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Or: &lt;code>TEMP=&amp;quot;$(wget -q -O- &amp;quot;http://w1.weather.gov/xml/current_obs/stationcode.xml&amp;quot; | perl ...)&amp;quot;&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/perl/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://www.perl.org/docs.html">Perl Programming Language Documentation&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💻 Python Package Index (PyPi)</title><link>https://csmertx.github.io/Linux/Code/pypi/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/pypi/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="installing-python-packages">
+ Installing Python packages
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/pypi/#installing-python-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installing Python packages" href="#installing-python-packages">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>pip3 install project&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>pip3 install project==5.7.1&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>pip3 install project&amp;gt;=5.6.1&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="upgrading-packages">
+ Upgrading packages
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/pypi/#upgrading-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Upgrading packages" href="#upgrading-packages">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>pip3 install --upgrade project&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/pypi/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://pypi.org/">Python Package Index Homepage&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>💻 Ruby Language</title><link>https://csmertx.github.io/Linux/Code/ruby/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ruby/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="add-to-path">
+ Add to PATH
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/ruby/#add-to-path" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add to PATH" href="#add-to-path">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>vim $HOME/.bashrc&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>++ export PATH=$PATH:/home/$USER/.gem/ruby/2.7.0/bin
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/ruby/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.ruby-lang.org/en/">Ruby Programming Language&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.ruby-lang.org/en/about/">About Ruby&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>💻 Sed</title><link>https://csmertx.github.io/Linux/Code/sed/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/sed/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="wrap-every-line-output-in-quotes">
+ Wrap every line output in quotes
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/sed/#wrap-every-line-output-in-quotes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Wrap every line output in quotes" href="#wrap-every-line-output-in-quotes">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sed 's/&amp;quot;\(.*\)/&amp;quot;\1&amp;quot;/g'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="remove-whitespace-lines">
+ Remove Whitespace Lines
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/sed/#remove-whitespace-lines" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Remove Whitespace Lines" href="#remove-whitespace-lines">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sed '/^$/d'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="remove-everything-before-match">
+ Remove everything before match
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/sed/#remove-everything-before-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Remove everything before match" href="#remove-everything-before-match">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sed 's/.*match//'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="remove-everything-after-match">
+ Remove everything after match
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/sed/#remove-everything-after-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Remove everything after match" href="#remove-everything-after-match">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sed 's/match.*//g'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="replace-first-instance-of-match">
+ Replace first instance of match
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/sed/#replace-first-instance-of-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Replace first instance of match" href="#replace-first-instance-of-match">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>sed '0,/example1/{s/example1/example2/}'&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="replace-nth-instance-of-match">
+ Replace Nth instance of match
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/sed/#replace-nth-instance-of-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Replace Nth instance of match" href="#replace-nth-instance-of-match">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>sed 's/example1/example2/2g&lt;/code>&lt;/p></description></item><item><title>💻 ShellCheck</title><link>https://csmertx.github.io/Linux/Code/shellcheck/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/shellcheck/</guid><description>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="basic-commands">
+ Basic Commands
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/shellcheck/#basic-commands" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Basic Commands" href="#basic-commands">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>shellcheck /dir/script.sh&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="_eof_-triggering-errors">
+ _EOF_ triggering errors
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/shellcheck/#_eof_-triggering-errors" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor _EOF_ triggering errors" href="#_eof_-triggering-errors">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Contents of &lt;code>_EOF_&lt;/code> might indicate miss-redirect [&amp;raquo;]&lt;/p>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="resources">
+ Resources
+ &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/shellcheck/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="https://github.com/koalaman/shellcheck">ShellCheck - A shell script static analysis tool&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
