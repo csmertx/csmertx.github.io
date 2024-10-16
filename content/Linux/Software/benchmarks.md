@@ -1,7 +1,7 @@
 ---
 title: 💻 Benchmarking
 author: Chris Schammert (csmertx)
-published: February 3, 2023-02-03
+published: 2023-02-03
 weight: -20
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 💻 Woof-CE
 author: Chris Schammert (csmertx)
-published: February 4, 2023-02-04
+published: 2023-02-04
 weight: -20
 ---
 
