@@ -70,7 +70,17 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 The image above leads to the main navigation [🔗 page](pad "Click here for the Navigation Page").
 
+---
+
 Day & Night blog is not a preview of anything. And I do not advertise this site. If you discovered this site from a QR code, social media advertisement, or focus group please reach out via [ csmertx@pm.me](mailto:csmertx@pm.me "Proton Mail email address | @csmertx - Anytime."). Advertising this site breaks the spirit of discovery 😉
+
+-----
+
+@chris.schammert on Facebook is part of a family hitchhiking on our family name.
+
+They might be from the Nestor family of South Florida. IIRC the Nestor family name originated from Scotland.
+
+Read more about that if you want here: 🔗 [Day & Night Blog \ Chris Schammert](/Blog/daynight/2024/0524#chris-schammert "Day & Night Blog \ May 2024"), and here: 🔗 [Day & Night Blog \ Wrapping Up](/Blog/daynight/2024/0724#wrapping-up "Day & Night Blog \ July 2024").
 
 </div>
 
