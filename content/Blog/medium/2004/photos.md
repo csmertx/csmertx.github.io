@@ -1,7 +1,7 @@
 ---
 title: 📷 Toronto, Canada
 author: Chris Schammert (csmertx)
-date: March 07, 2024
+published: 2024-03-07
 weight: -20
 ---
 

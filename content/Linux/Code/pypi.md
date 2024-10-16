@@ -1,7 +1,7 @@
 ---
 title: 💻 Python Package Index (PyPi)
 author: Chris Schammert (csmertx)
-date: January 31, 2023
+published: 2023-01-31
 weight: -20
 ---
 

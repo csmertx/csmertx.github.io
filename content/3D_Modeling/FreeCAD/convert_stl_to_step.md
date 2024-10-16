@@ -1,7 +1,7 @@
 ---
 title: 🛠️ Convert STL to Step
 author: Chris Schammert (csmertx)
-date: January 30, 2023
+date: 2023-01-30
 weight: -20
 ---
 

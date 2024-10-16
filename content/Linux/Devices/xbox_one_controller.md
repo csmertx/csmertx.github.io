@@ -1,7 +1,7 @@
 ---
 title: 💻 Xbox One Controller
 author: Chris Schammert (csmertx)
-date: February 1, 2023
+published: 2023-02-01
 weight: -20
 ---
 

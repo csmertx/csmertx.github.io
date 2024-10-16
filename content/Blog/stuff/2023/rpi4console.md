@@ -1,7 +1,7 @@
 ---
 title: 🛠️ RPi4 Console (2021)
 author: Chris Schammert (csmertx)
-date: January 20, 2023
+published: 2023-01-20
 weight: -20
 ---
 

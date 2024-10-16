@@ -1,7 +1,7 @@
 ---
 title: 🛠️ FreeCAD to Blender
 author: Chris Schammert (csmertx)
-date: January 30, 2023
+published: 2023-01-30
 weight: -20
 ---
 

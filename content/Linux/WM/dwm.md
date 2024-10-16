@@ -1,6 +1,7 @@
 ---
 title: 💻 Dynamic Window Manager (DWM)
 author: Chris Schammert (csmertx)
+published: 2023-01-31
 weight: -20
 ---
 

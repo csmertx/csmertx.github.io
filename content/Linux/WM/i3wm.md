@@ -1,7 +1,7 @@
 ---
 title: 💻 i3WM
 author: Chris Schammert (csmertx)
-date: February 6, 2023
+published: 2023-02-06
 weight: -20
 ---
 

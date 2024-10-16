@@ -1,7 +1,7 @@
 ---
 title: 🖥️ Win & DOS VMs
 author: Chris Schammert (csmertx)
-date: January 09, 2024
+published: 2024-01-09
 weight: -20
 ---
 

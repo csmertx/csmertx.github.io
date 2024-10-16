@@ -1,7 +1,7 @@
 ---
 title: 💻 YouTube-DL
 author: Chris Schammert (csmertx)
-date: April 20, 2024
+published: 2024-04-20
 weight: -20
 ---
 

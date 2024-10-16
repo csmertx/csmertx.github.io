@@ -1,7 +1,7 @@
 ---
 title: 💻 FreeBSD Installation
 author: Chris Schammert (csmertx)
-date: February 7, 2023
+published: 2023-02-07
 weight: -20
 ---
 

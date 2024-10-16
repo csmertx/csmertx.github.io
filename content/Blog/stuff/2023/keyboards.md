@@ -1,7 +1,7 @@
 ---
 title: 🛠️ Keyboard Modeling
 author: Chris Schammert (csmertx)
-date: December 27, 2023
+published: 2023-12-27
 weight: -20
 ---
 

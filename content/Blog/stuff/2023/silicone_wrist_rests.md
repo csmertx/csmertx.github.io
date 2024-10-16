@@ -1,7 +1,7 @@
 ---
 title: 🛠️ Casting Silicone (2020)
 author: Chris Schammert (csmertx)
-date: January 20, 2023
+published: 2023-01-20
 weight: -20
 ---
 

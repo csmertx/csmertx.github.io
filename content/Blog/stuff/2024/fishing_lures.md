@@ -1,7 +1,7 @@
 ---
 title: 🛠️ Fishing Lures
 author: Chris Schammert (csmertx)
-date: February 21, 2024
+published: 2024-02-21
 weight: -20
 ---
 
