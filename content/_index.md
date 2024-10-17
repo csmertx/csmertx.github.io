@@ -78,9 +78,17 @@ Day & Night blog is not a preview of anything. And I do not advertise this site.
 
 @chris.schammert on Facebook is part of a family hitchhiking on our family name.
 
-They might be from the Nestor family of South Florida. IIRC the Nestor family name originated from Scotland.
+They might be from the Nestor family (image below) of Broward/Palm Beach Counties. IIRC the Nestor family name originated from Scotland.
 
 Read more about that if you want here: 🔗 [Day & Night Blog \ Chris Schammert](/Blog/daynight/2024/0524#chris-schammert "Day & Night Blog \ May 2024"), and here: 🔗 [Day & Night Blog \ Wrapping Up](/Blog/daynight/2024/0724#wrapping-up "Day & Night Blog \ July 2024").
+
+---
+
+![Photo](/KCNA24_Keynotes_stock_image_raymond_yuan_jennifer_nestor.png "")
+
+> Possibly Raymond Yuan (Yaun?--Chinese American) and certainly Jennifer Nestor. She talked me into living in South Florida and dated Yuan while I was working 90 hour shifts at Pompano Park via the in house United Tote vendor.
+
+> Stock image used by the Cloud Native Computing Foundation (Email sent out on: 10/09/2024 by the Linux Foundation)
 
 </div>
 
