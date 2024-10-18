@@ -88,7 +88,7 @@ Read more about that if you want here: 🔗 [Day & Night Blog \ Chris Schammert]
 
 > Possibly Raymond Yuan (Yaun?--Chinese American) and certainly Jennifer Nestor. She talked me into living in South Florida (Spring of 2008) and dated Yuan (he used my razor) while I was working 90 hour weeks at Pompano Park via United Tote vendor. Operator by day and technician by night.
 
-> Stock image used by the Cloud Native Computing Foundation (Email sent out on: 10/09/2024 by the Linux Foundation)
+> Stock image used by the Cloud Native Computing Foundation (Email sent out on: 10-09-2024 by the Linux Foundation)
 
 > Original uncropped image can be found 🔗 [here.](/KCNA24_Keynotes.png "Kubecon/CloudNativecon Keynote advertisement image via Linux Foundation email (10/09/2024)")
 
