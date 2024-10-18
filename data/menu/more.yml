@@ -10,6 +10,8 @@ more:
     icon: "gdoc_github"
   - name: "Donate (Wounded Warrior Project)"
     ref: "https://www.woundedwarriorproject.org/donate"
+    external: true
+    icon: "gdoc_shield"
   - name: "Donate (Archive.org)"
     ref: "https://archive.org/donate"
     external: true
