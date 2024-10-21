@@ -10,6 +10,6 @@
 
 ### Donation button? Why?
 
-> CSx is not affiliated with the Wounded Warrior Project
+> CSx is not affiliated with the Wounded Warrior Project, or Archive.org
 
 - 🔗[Csmertx | About: Donation Button Clarification](https://csmertx.github.io/About/csmertx/#donation-button-clarification)
