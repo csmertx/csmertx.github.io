@@ -101,7 +101,9 @@ Read more about that if you want here: 🔗 [Day & Night Blog \ Chris Schammert]
 
 > I believe the 🔗 [letter](/Blog/daynight/2024/0724#wrapping-up "Day & Night Blog \ July 2024") I sent to FBI HQ through USPS was intercepted. I'll keep trying. Multiple copies. Multiple offices. Multiple mail companies. Agents will know one way or another. If I or any of my family die, the investigation will lead here. I'd think twice before hiring someone to create 'an unfortunate traffic accident'.
 
-> Her uncle has used at least one his properties (1 to 2 room flat) to host at least some of those brainstorming meetings. Also a wannabe enforcer/pusher dude by the name of Tommy (big ears, pale skin, creepy stare, probably a Nestor or Novak, likes the company of people afraid of him, preferred vehicles that make him look 'gangster'). Tommy was sitting on the couch of that 'drug den' house.
+> Her uncle has used at least one his properties (1 to 2 room flat) to host at least some of those brainstorming meetings. Also a wannabe enforcer/pusher dude by the name of Tommy (big ears, pale skin, creepy stare, probably a Nestor or Novak, likes the company of people afraid of him, preferred vehicles that make him look 'gangster').
+
+> Tommy was sitting on the couch of that 'drug den' house. He was also present when I went to the Deerfield Beach Subway for a tuna sub. I remember this because Jennifer Nestor answered the phone while we were chilling in 'our' room, seemed irate (screamed into the phone like a jackal), and I thought maybe she needed a bite to eat. She was most likely on the phone with Tommy. This was another underhanded intimidation tactic. He said nothing to me at that Subway sandwich shop, nor did he lock eyes with me for long. She didn't want half of my tuna sub.
 
 > The twin sized mattress I found still in a bag next to the dumpster at Deerfield Beach Apartments was probably an extra from the mattresses they used to stage that 'drug den' house. Same period of time (late spring early summer 2009) in which a limo appeared to drop stuff off. They had the password to enter that gated community.
 
