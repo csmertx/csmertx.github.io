@@ -1,6 +1,6 @@
 ---
 title: 🏄 Firefox
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2023-02-07
 weight: -20
 ---

@@ -1,6 +1,6 @@
 ---
 title: 🛠️ Keyboard Modeling
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2023-12-27
 weight: -20
 ---

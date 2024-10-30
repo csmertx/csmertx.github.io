@@ -1,6 +1,6 @@
 ---
 title: 💻 YouTube-DL
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2024-04-20
 weight: -20
 ---

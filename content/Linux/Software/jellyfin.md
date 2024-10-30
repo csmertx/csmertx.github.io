@@ -1,6 +1,6 @@
 ---
 title: 💻 Jellyfin (Media Server)
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2023-04-01
 weight: -20
 ---

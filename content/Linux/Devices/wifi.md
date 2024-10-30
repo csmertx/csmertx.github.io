@@ -1,6 +1,6 @@
 ---
 title: 💻 WiFi
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2023-02-01
 weight: -20
 ---

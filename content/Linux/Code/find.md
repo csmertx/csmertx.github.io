@@ -1,6 +1,6 @@
 ---
 title: 💻 Find
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2023-01-31
 weight: -20
 ---

@@ -1,6 +1,6 @@
 ---
 title: 🕹️ Skyrim Special Edition
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2023-03-27
 weight: -20
 ---

@@ -1,6 +1,6 @@
 ---
 title: 💻 Systemd Journal
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2023-01-30
 weight: -20
 ---

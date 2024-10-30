@@ -1,6 +1,6 @@
 ---
 title: 💻 FastCGI (PHP-FPM)
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2023-02-04
 weight: -20
 ---

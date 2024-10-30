@@ -1,6 +1,6 @@
 ---
 title: 🛠️ Fishing Lures
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2024-02-21
 weight: -20
 ---

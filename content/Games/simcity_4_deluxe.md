@@ -1,6 +1,6 @@
 ---
 title: 🕹️ SimCity 4 Deluxe
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2024-05-20
 weight: -20
 ---

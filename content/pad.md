@@ -1,6 +1,6 @@
 ---
 title: "🗒️ No Ads. No Tracking."
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 weight: -20
 ---
 

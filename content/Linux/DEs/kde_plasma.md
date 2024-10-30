@@ -1,6 +1,6 @@
 ---
 title: 💻 Plasma (KDE)
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2024-07-02
 weight: -20
 ---

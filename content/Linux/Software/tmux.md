@@ -1,6 +1,6 @@
 ---
 title: 💻 Tmux
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2023-07-27
 weight: -20
 ---

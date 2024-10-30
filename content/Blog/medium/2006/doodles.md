@@ -1,6 +1,6 @@
 ---
 title: ✏️ Doodles
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2024-02-23
 weight: -20
 ---

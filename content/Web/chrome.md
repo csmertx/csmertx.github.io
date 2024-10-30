@@ -1,6 +1,6 @@
 ---
 title: 🏄 Google Chrome
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2023-05-05
 weight: -20
 ---

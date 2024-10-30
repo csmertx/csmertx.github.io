@@ -1,6 +1,6 @@
 ---
 title: 🛠️ Kinesis Advantage 2
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2024-03-27
 weight: -20
 ---

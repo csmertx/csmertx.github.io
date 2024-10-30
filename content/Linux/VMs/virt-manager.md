@@ -1,6 +1,6 @@
 ---
 title: 💻 Virtual Machine Manager (VMM)
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2023-02-05
 weight: -20
 ---

@@ -1,6 +1,6 @@
 ---
 title: 💻 i3WM & KDE
-author: Chris Schammert (csmertx)
+author: Chris Schammert (csmertx -- Christopher Schammert)
 published: 2023-02-06
 weight: -20
 ---
