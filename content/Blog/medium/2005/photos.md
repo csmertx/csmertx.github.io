@@ -5,6 +5,8 @@ published: 2024-02-23
 weight: -20
 ---
 
+<!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+
 <br />
 
 ## Canon SLR

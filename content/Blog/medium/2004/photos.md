@@ -5,6 +5,8 @@ published: 2024-03-07
 weight: -20
 ---
 
+<!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+
 <br />
 
 ## Three weeks in Toronto, Ontario, Canada

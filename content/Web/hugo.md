@@ -5,6 +5,8 @@ published: 2023-03-04
 weight: -20
 ---
 
+<!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+
 <br />
 
 ## Google Search Console verification (URL prefix) and Github Pages

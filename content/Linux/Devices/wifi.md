@@ -5,6 +5,8 @@ published: 2023-02-01
 weight: -20
 ---
 
+<!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+
 <br />
 
 > See [virt-manager](/Linux/VMs/virt-manager) for USB or PCIE WiFi device passthrough

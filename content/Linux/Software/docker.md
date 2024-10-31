@@ -1,9 +1,11 @@
 ---
 title: 💻 Docker
-author: Chris Schammert (csmertx -- Christopher Schammert)
+author: Chris Schammert (csmertx -- Christopher Schammert )
 published: 2023-04-01
 weight: -20
 ---
+
+<!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
 <br />
 

@@ -5,6 +5,8 @@ published: 2024-03-27
 weight: -20
 ---
 
+<!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+
 Modding a Kinesis Advantage 2
 
 > Pieced together 🔗[QMK](https://config.qmk.fm/#/kinesis/kint36/LAYOUT "QMK Configurator") compatible controller via 🔗[KinT](https://github.com/kinx-project/kint "Github.com | kinx-project / kint") kit. Also added custom USB stress relief, and touchpad

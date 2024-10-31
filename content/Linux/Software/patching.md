@@ -1,9 +1,11 @@
 ---
 title: 💻 Patching C
-author: Chris Schammert (csmertx -- Christopher Schammert)
+author: Chris Schammert (csmertx -- Christopher Schammert )
 published: 2023-02-04
 weight: -20
 ---
+
+<!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
 <br />
 

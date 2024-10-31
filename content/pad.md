@@ -4,6 +4,10 @@ author: Chris Schammert (csmertx -- Christopher Schammert )
 weight: -20
 ---
 
+<!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+
+<!-- Grandpa Schammert and Great Grandpa Schammert survived Chicago during the mob era without hired security -->
+
 <br />
 
 ## This is my CRS site. There are many like it, but this one is mine.

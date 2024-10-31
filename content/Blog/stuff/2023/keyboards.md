@@ -5,6 +5,8 @@ published: 2023-12-27
 weight: -20
 ---
 
+<!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+
 <br />
 
 > 2016-2017

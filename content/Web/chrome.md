@@ -5,6 +5,8 @@ published: 2023-05-05
 weight: -20
 ---
 
+<!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+
 <br />
 
 > Google Chrome 112 - Ubuntu 22.04 Chrome (Stable) via Flatpak

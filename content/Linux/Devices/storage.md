@@ -5,6 +5,8 @@ published: 2023-02-01
 weight: -20
 ---
 
+<!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+
 <br />
 
 > And estimating time of failure (based on arbitrary read/write cycle counts)
