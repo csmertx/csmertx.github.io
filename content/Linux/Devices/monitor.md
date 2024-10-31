@@ -1,6 +1,6 @@
 ---
 title: 🖥️ Monitors
-author: Chris Schammert (csmertx -- Christopher Schammert)
+author: Chris Schammert (csmertx -- Christopher Schammert )
 published: 2023-02-01
 weight: -20
 ---

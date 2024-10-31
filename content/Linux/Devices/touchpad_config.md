@@ -1,6 +1,6 @@
 ---
 title: 💻 Touchpads
-author: Chris Schammert (csmertx -- Christopher Schammert)
+author: Chris Schammert (csmertx -- Christopher Schammert )
 published: 2023-06-30
 weight: -20
 ---

@@ -1,6 +1,6 @@
 ---
 title: 🖲️ Trackballs
-author: Chris Schammert (csmertx -- Christopher Schammert)
+author: Chris Schammert (csmertx -- Christopher Schammert )
 published: 2024-04-22
 weight: -20
 ---

@@ -1,6 +1,6 @@
 ---
 title: 💻 ASCII
-author: Chris Schammert (csmertx -- Christopher Schammert)
+author: Chris Schammert (csmertx -- Christopher Schammert )
 published: 2023-01-31
 weight: -20
 ---
