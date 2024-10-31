@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🏄 Web on CSx</title><link>https://csmertx.github.io/Web/</link><description>Recent content in 🏄 Web on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 05 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Web/index.xml" rel="self" type="application/rss+xml"/><item><title>🏄 Google Chrome</title><link>https://csmertx.github.io/Web/chrome/</link><pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/chrome/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🏄 Web on CSx</title><link>https://csmertx.github.io/Web/</link><description>Recent content in 🏄 Web on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 05 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Web/index.xml" rel="self" type="application/rss+xml"/><item><title>🏄 Google Chrome</title><link>https://csmertx.github.io/Web/chrome/</link><pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/chrome/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Google Chrome 112 - Ubuntu 22.04 Chrome (Stable) via Flatpak&lt;/p>
 &lt;/blockquote>
@@ -22,10 +23,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>If no &amp;lsquo;Performance&amp;rsquo; option in settings see above&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Three dots (Top Right of browser) &amp;gt; Settings &amp;gt; Performance &amp;gt; Disable Memory Saver&lt;/p></description></item><item><title>🏄 Hugo</title><link>https://csmertx.github.io/Web/hugo/</link><pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/hugo/</guid><description>&lt;br />
+&lt;p>If no &amp;lsquo;Performance&amp;rsquo; option in settings see above&lt;/p></description></item><item><title>🏄 Hugo</title><link>https://csmertx.github.io/Web/hugo/</link><pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/hugo/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="google-search-console-verification-url-prefix-and-github-pages">
  Google Search Console verification (URL prefix) and Github Pages
@@ -44,10 +43,8 @@
 &lt;p>Add downloaded &lt;code>googleXXXX.html&lt;/code> to &lt;code>/static&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Wait 3-5 minutes for Github Pages to update the site before clicking verify&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Add website sitemap via: 🔗 &lt;a class="gdoc-markdown__link" href="https://search.google.com/search-console/sitemaps">https://search.google.com/search-console/sitemaps&lt;/a>&lt;/p></description></item><item><title>🏄 DNS Over HTTPS</title><link>https://csmertx.github.io/Web/dns_over_https/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/dns_over_https/</guid><description>&lt;br />
+&lt;p>Wait 3-5 minutes for Github Pages to update the site before clicking verify&lt;/p></description></item><item><title>🏄 DNS Over HTTPS</title><link>https://csmertx.github.io/Web/dns_over_https/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/dns_over_https/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="firefox-setting">
  Firefox setting
@@ -100,9 +97,8 @@
 &lt;p>Per Application DNS Over HTTPS&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://fly.io/docs/app-guides/run-a-private-dns-over-https-service/">Fly.io / Docs / App Guides / Run a private DNS over HTTPS service &lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>🏄 Firefox</title><link>https://csmertx.github.io/Web/firefox/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/firefox/</guid><description>&lt;br />
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://fly.io/docs/app-guides/run-a-private-dns-over-https-service/">Fly.io / Docs / App Guides / Run a private DNS over HTTPS service &lt;/a>&lt;/p></description></item><item><title>🏄 Firefox</title><link>https://csmertx.github.io/Web/firefox/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/firefox/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="firefox-stop-auto-updating">
  Firefox Stop Auto Updating
@@ -147,7 +143,8 @@
  &lt;/h3>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>/home/usr/.local/share/applications/firefox.desktop&lt;/code>&lt;/p></description></item><item><title>🏄 Greasemonkey | Web browser extension</title><link>https://csmertx.github.io/Web/greasemonkey/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/greasemonkey/</guid><description>&lt;br />
+&lt;p>&lt;code>/home/usr/.local/share/applications/firefox.desktop&lt;/code>&lt;/p></description></item><item><title>🏄 Greasemonkey | Web browser extension</title><link>https://csmertx.github.io/Web/greasemonkey/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Web/greasemonkey/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="hide-facebook-topright-bars">
  Hide Facebook top/right bars

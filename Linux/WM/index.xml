@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Window Managers on CSx</title><link>https://csmertx.github.io/Linux/WM/</link><description>Recent content in 💻 Window Managers on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/WM/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Window Managers on CSx</title><link>https://csmertx.github.io/Linux/WM/</link><description>Recent content in 💻 Window Managers on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/WM/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="mpris-control">
  Mpris Control
@@ -35,7 +36,8 @@
 &lt;li>
 &lt;p>See &lt;a class="gdoc-markdown__link" href="../../Linux/Software/mpv">mpv&lt;/a> for more about mpris plugin&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 i3WM &amp; KDE</title><link>https://csmertx.github.io/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3_and_plasma/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 i3WM &amp; KDE</title><link>https://csmertx.github.io/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3_and_plasma/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="install-dependencies">
  Install Dependencies
@@ -67,7 +69,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>vim ~/.config/i3/config&lt;/code>&lt;/p></description></item><item><title>💻 Openbox</title><link>https://csmertx.github.io/Linux/WM/openbox/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox/</guid><description>&lt;br />
+&lt;p>&lt;code>vim ~/.config/i3/config&lt;/code>&lt;/p></description></item><item><title>💻 Openbox</title><link>https://csmertx.github.io/Linux/WM/openbox/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="refresh-desktop-menu-to-add-new-programs-etc">
  Refresh desktop menu to add new programs, etc.
@@ -94,20 +97,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>vim ~/.config/openbox/rc.xml&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code> &amp;lt;placement&amp;gt;
- &amp;lt;policy&amp;gt;Smart&amp;lt;/policy&amp;gt;
- &amp;lt;!-- &amp;#39;Smart&amp;#39; or &amp;#39;UnderMouse&amp;#39; --&amp;gt;
- &amp;lt;center&amp;gt;yes&amp;lt;/center&amp;gt;
- &amp;lt;!-- whether to place windows in the center of the free area found or
- the top left corner --&amp;gt;
- &amp;lt;monitor&amp;gt;Any&amp;lt;/monitor&amp;gt;
- &amp;lt;!-- with Smart placement on a multi-monitor system, try to place new windows
- on: &amp;#39;Any&amp;#39; - any monitor, &amp;#39;Mouse&amp;#39; - where the mouse is, &amp;#39;Active&amp;#39; - where
- the active window is --&amp;gt;
- &amp;lt;/placement&amp;gt;
-&lt;/code>&lt;/pre>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Openbox (Extras)</title><link>https://csmertx.github.io/Linux/WM/openbox_extras/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox_extras/</guid><description>&lt;br />
+&lt;p>&lt;code>vim ~/.config/openbox/rc.xml&lt;/code>&lt;/p></description></item><item><title>💻 Openbox (Extras)</title><link>https://csmertx.github.io/Linux/WM/openbox_extras/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox_extras/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>&lt;code>rc.xml&lt;/code> edit to add keyboard shortcuts for media keys, i3, and more&lt;/p>
 &lt;/blockquote>
@@ -205,7 +196,8 @@
 &lt;li>&lt;code>apti zenity&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>Hacky Bash script version of GNOME&amp;rsquo;s &lt;code>gnome-do&lt;/code> program (&lt;code>ALT&lt;/code> + &lt;code>F2&lt;/code>)&lt;/p></description></item><item><title>💻 AwesomeWM</title><link>https://csmertx.github.io/Linux/WM/awesome/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome/</guid><description>&lt;br />
+&lt;p>Hacky Bash script version of GNOME&amp;rsquo;s &lt;code>gnome-do&lt;/code> program (&lt;code>ALT&lt;/code> + &lt;code>F2&lt;/code>)&lt;/p></description></item><item><title>💻 AwesomeWM</title><link>https://csmertx.github.io/Linux/WM/awesome/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>See also &lt;a class="gdoc-markdown__link" href="../../Linux/WM/awesome_floppier">AwesomeWM | Floppier DE&lt;/a> for more theming&lt;/p>
 &lt;/blockquote>
@@ -239,23 +231,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>vim ~/.config/awesome/awesome-copycats/themes/vertex/theme.lua&lt;/code>&lt;/p>
-&lt;blockquote>
-&lt;p>line ~277&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>
-&lt;p>Visit: &lt;a class="gdoc-markdown__link" href="https://openweathermap.org">https://openweathermap.org&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;code>Search City&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://openweathermap.org/city/4156404">https://openweathermap.org/city/4156404&lt;/a> = &lt;code>city_id = 4156404,&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>Gainesville, FL &lt;code>city_id = 4156404&lt;/code>&lt;/p></description></item><item><title>AwesomeWM (Floppier DE)</title><link>https://csmertx.github.io/Linux/WM/awesome_floppier/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome_floppier/</guid><description>&lt;br />
+&lt;p>&lt;code>vim ~/.config/awesome/awesome-copycats/themes/vertex/theme.lua&lt;/code>&lt;/p></description></item><item><title>AwesomeWM (Floppier DE)</title><link>https://csmertx.github.io/Linux/WM/awesome_floppier/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome_floppier/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Never tried it myself, but here are some links and stuff&lt;/p>
 &lt;/blockquote>
@@ -297,7 +274,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/manilarome/the-glorious-dotfiles/wiki">Github - manilarome/the-glorious-dotfiles Wiki&lt;/a>&lt;/p></description></item><item><title>💻 Dynamic Window Manager (DWM)</title><link>https://csmertx.github.io/Linux/WM/dwm/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/dwm/</guid><description>&lt;br />
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/manilarome/the-glorious-dotfiles/wiki">Github - manilarome/the-glorious-dotfiles Wiki&lt;/a>&lt;/p></description></item><item><title>💻 Dynamic Window Manager (DWM)</title><link>https://csmertx.github.io/Linux/WM/dwm/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/dwm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="compile">
  Compile
@@ -334,24 +312,8 @@
 &lt;p>Fix window gaps&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;code>-- static cont int resizehints = 1;&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>++ static cont int resizehints = 0;&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="no-xinitrc">
- No ~/.xinitrc
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/dwm/#no-xinitrc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor No ~/.xinitrc" href="#no-xinitrc">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;code>cp /etc/X11/xinit/xinitrc-common ~/.xinitrc&lt;/code>&lt;/p></description></item><item><title>💻 Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description>&lt;br />
+&lt;p>&lt;code>-- static cont int resizehints = 1;&lt;/code>&lt;/p></description></item><item><title>💻 Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Tiling window manager status bar&lt;/p>
 &lt;/blockquote>

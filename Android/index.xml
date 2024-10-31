@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📱 Android on CSx</title><link>https://csmertx.github.io/Android/</link><description>Recent content in 📱 Android on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Android/index.xml" rel="self" type="application/rss+xml"/><item><title>📱 Android Debug Bridge (ADB)</title><link>https://csmertx.github.io/Android/adb/</link><pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/adb/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📱 Android on CSx</title><link>https://csmertx.github.io/Android/</link><description>Recent content in 📱 Android on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Android/index.xml" rel="self" type="application/rss+xml"/><item><title>📱 Android Debug Bridge (ADB)</title><link>https://csmertx.github.io/Android/adb/</link><pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/adb/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="login-to-android-shell">
  Login to Android shell
@@ -30,7 +31,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://developer.android.com/studio/command-line/adb">🔗 Android Developers - Android Debug Bridge (adb)&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>📱 F-Droid</title><link>https://csmertx.github.io/Android/fdroid/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/fdroid/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>📱 F-Droid</title><link>https://csmertx.github.io/Android/fdroid/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/fdroid/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://f-droid.org/F-Droid.apk">🔗 Download F-Droid&lt;/a>&lt;/p>
 &lt;/blockquote>
@@ -43,7 +45,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://apt.izzysoft.de/fdroid/repo">🔗 IzzyOnDroid F-Droid Repository&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>📱 LineageOS</title><link>https://csmertx.github.io/Android/lineageos/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/lineageos/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>📱 LineageOS</title><link>https://csmertx.github.io/Android/lineageos/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/lineageos/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Open-source Android distribution (OS)&lt;/p>
 &lt;/blockquote>
@@ -78,21 +81,8 @@
 &lt;li>
 &lt;p>No MTP/OTG Access&lt;/p>
 &lt;p>&lt;code>Connect USB&lt;/code>&lt;/p>
-&lt;p>&lt;code>adb push /dir/rom.zip /sdcard&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h3 id="rom-installation">
- ROM Installation
- &lt;a data-clipboard-text="https://csmertx.github.io/Android/lineageos/#rom-installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor ROM Installation" href="#rom-installation">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h3>
-&lt;/div>&lt;ol>
-&lt;li>
-&lt;p>Try MTP/OTG or use &lt;code>adb&lt;/code>&lt;/p></description></item><item><title>📱 Termux</title><link>https://csmertx.github.io/Android/termux/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/termux/</guid><description>&lt;br />
+&lt;p>&lt;code>adb push /dir/rom.zip /sdcard&lt;/code>&lt;/p></description></item><item><title>📱 Termux</title><link>https://csmertx.github.io/Android/termux/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/termux/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h1 id="free-and-open-source-android-terminal-emulator">
  Free and open-source Android terminal emulator
@@ -127,29 +117,4 @@
  &lt;/h2>
 &lt;/div>&lt;ol>
 &lt;li>
-&lt;p>&lt;code>curl -LO https://its-pointless.github.io/setup-pointless-repo.sh&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>bash setup-pointless-repo.sh&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="change-package-mirrors-if-syncing-issues">
- Change package mirrors (if syncing issues)
- &lt;a data-clipboard-text="https://csmertx.github.io/Android/termux/#change-package-mirrors-if-syncing-issues" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Change package mirrors (if syncing issues)" href="#change-package-mirrors-if-syncing-issues">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>&lt;code>termux-change-repo&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="resources">
- Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Android/termux/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>&lt;a class="gdoc-markdown__link" href="https://github.com/termux/termux-app">🔗 Github | Termux Application&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>&lt;code>curl -LO https://its-pointless.github.io/setup-pointless-repo.sh&lt;/code>&lt;/p></description></item></channel></rss>

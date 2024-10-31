@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Distros on CSx</title><link>https://csmertx.github.io/Linux/Distros/</link><description>Recent content in 💻 Distros on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Distros/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Fedora</title><link>https://csmertx.github.io/Linux/Distros/fedora/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/fedora/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Distros on CSx</title><link>https://csmertx.github.io/Linux/Distros/</link><description>Recent content in 💻 Distros on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Distros/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Fedora</title><link>https://csmertx.github.io/Linux/Distros/fedora/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/fedora/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Fedora additional package sources and other tweaks&lt;/p>
 &lt;/blockquote>
@@ -27,7 +28,8 @@
  &lt;/h3>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>Copy Paste between guest/host and more (auto install with desktops)&lt;/p></description></item><item><title>💻 Kubuntu</title><link>https://csmertx.github.io/Linux/Distros/kubuntu/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/kubuntu/</guid><description>&lt;br />
+&lt;p>Copy Paste between guest/host and more (auto install with desktops)&lt;/p></description></item><item><title>💻 Kubuntu</title><link>https://csmertx.github.io/Linux/Distros/kubuntu/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/kubuntu/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="disable-automatic-update-check-icon">
  Disable Automatic Update Check Icon
@@ -62,7 +64,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>sudo aptitude update &amp;amp;&amp;amp; sudo aptitude upgrade&lt;/code>&lt;/p></description></item><item><title>💻 OpenSUSE</title><link>https://csmertx.github.io/Linux/Distros/opensuse/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/opensuse/</guid><description>&lt;br />
+&lt;p>&lt;code>sudo aptitude update &amp;amp;&amp;amp; sudo aptitude upgrade&lt;/code>&lt;/p></description></item><item><title>💻 OpenSUSE</title><link>https://csmertx.github.io/Linux/Distros/opensuse/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/opensuse/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="obs-package-management-opi-similar-to-aur-or-copr">
  OBS package management: OPI (similar to AUR or COPR)
@@ -87,7 +90,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://copr.fedorainfracloud.org/coprs/">Fedora COPR: Project List&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Slackware</title><link>https://csmertx.github.io/Linux/Distros/slackware/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/slackware/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Slackware</title><link>https://csmertx.github.io/Linux/Distros/slackware/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/slackware/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Slackware as a virtualized system and beyond&lt;/p>
 &lt;/blockquote>
@@ -124,19 +128,8 @@
 &lt;/blockquote>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>/usr/share/mkinitrd/mkinitrd_command_generator.sh&lt;/code>&lt;/p>
-&lt;blockquote>
-&lt;p>Might help..&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>mkinitrd -c -k 4.4.14 -f ext4 -m ext4:virtio:virtio_balloon:virtio_blk:virtio_pci:virtio_ring&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>ln -s /boot/vmlinuz-generic-4.4.14 /boot/vmlinuz&lt;/code>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>or&lt;/p></description></item><item><title>💻 Ubuntu</title><link>https://csmertx.github.io/Linux/Distros/ubuntu/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/ubuntu/</guid><description>&lt;br />
+&lt;p>&lt;code>/usr/share/mkinitrd/mkinitrd_command_generator.sh&lt;/code>&lt;/p></description></item><item><title>💻 Ubuntu</title><link>https://csmertx.github.io/Linux/Distros/ubuntu/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/ubuntu/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>apti = sudo aptitude install&lt;/p>
 &lt;/blockquote>
@@ -170,22 +163,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>sudo aptitude update &amp;amp;&amp;amp; sudo aptitude upgrade&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>sudo do-release-upgrade -d&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="adding-debian-testing-repo">
- Adding Debian Testing repo
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Distros/ubuntu/#adding-debian-testing-repo" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Adding Debian Testing repo" href="#adding-debian-testing-repo">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;code>apti debian-keyring&lt;/code>&lt;/p></description></item><item><title>💻 Ubuntu Old Releases</title><link>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</guid><description>&lt;br />
+&lt;p>&lt;code>sudo aptitude update &amp;amp;&amp;amp; sudo aptitude upgrade&lt;/code>&lt;/p></description></item><item><title>💻 Ubuntu Old Releases</title><link>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/old_releases_ubuntu/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="1004-lucid-lynx-for-example--works-with-i686-iso">
  10.04 Lucid Lynx (for example&amp;ndash;works with i686 ISO)
@@ -213,7 +192,8 @@ deb http://old-releases.ubuntu.com/ubuntu/ lucid-security multiverse universe
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://old-releases.ubuntu.com/releases/">Old Ubuntu Releases: Index of /releases&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Arch Linux (BTW)</title><link>https://csmertx.github.io/Linux/Distros/arch/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Arch Linux (BTW)</title><link>https://csmertx.github.io/Linux/Distros/arch/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Notes created before 2020. Check the &lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org">Arch Wiki&lt;/a> for up to date documentation&lt;/p>
 &lt;/blockquote>
@@ -246,23 +226,8 @@ deb http://old-releases.ubuntu.com/ubuntu/ lucid-security multiverse universe
 &lt;li>
 &lt;p>&lt;code>vi /etc/netctl/&amp;lt;essid name&amp;gt;&lt;/code>&lt;/p>
 &lt;blockquote>
-&lt;p>Change: Interface (&lt;code>ip link&lt;/code> to find), ESSID, and Key&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>netctl start &amp;lt;essid name&amp;gt;&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="chroot-to-save-the-system">
- Chroot to save the system
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Distros/arch/#chroot-to-save-the-system" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Chroot to save the system" href="#chroot-to-save-the-system">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;code>mount /dev/sd&amp;lt;Arch&amp;gt; /mnt&lt;/code>&lt;/p></description></item><item><title>💻 Arch Linux Bootloader</title><link>https://csmertx.github.io/Linux/Distros/arch_restore/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch_restore/</guid><description>&lt;br />
+&lt;p>Change: Interface (&lt;code>ip link&lt;/code> to find), ESSID, and Key&lt;/p></description></item><item><title>💻 Arch Linux Bootloader</title><link>https://csmertx.github.io/Linux/Distros/arch_restore/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/arch_restore/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Caveat: This was a system I used for 2018-2019&lt;/p>
 &lt;/blockquote>
@@ -311,7 +276,8 @@ deb http://old-releases.ubuntu.com/ubuntu/ lucid-security multiverse universe
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>cp /etc/netctl/examples/wireless-wpa /etc/netctl/&amp;lt;essid_name&amp;gt;&lt;/code>&lt;/p></description></item><item><title>💻 CentOS 8 Stable</title><link>https://csmertx.github.io/Linux/Distros/centos/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/centos/</guid><description>&lt;br />
+&lt;p>&lt;code>cp /etc/netctl/examples/wireless-wpa /etc/netctl/&amp;lt;essid_name&amp;gt;&lt;/code>&lt;/p></description></item><item><title>💻 CentOS 8 Stable</title><link>https://csmertx.github.io/Linux/Distros/centos/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/centos/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="instructions-for-virtualized-centos">
  Instructions for Virtualized CentOS
@@ -333,19 +299,8 @@ deb http://old-releases.ubuntu.com/ubuntu/ lucid-security multiverse universe
 &lt;p>768M RAM&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>8-15G Storage Space&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>sudo dnf remove firefox&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>sudo dnf update&lt;/code>&lt;/p>
-&lt;blockquote>
-&lt;p>Necessary&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>sudo dnf install tar bzip2 kernel-devel-$(uname -r) kernel-headers perl gcc make elfutils-libelf-devel&lt;/code>&lt;/p></description></item><item><title>💻 Debian</title><link>https://csmertx.github.io/Linux/Distros/debian_and_ubuntu/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/debian_and_ubuntu/</guid><description>&lt;br />
+&lt;p>8-15G Storage Space&lt;/p></description></item><item><title>💻 Debian</title><link>https://csmertx.github.io/Linux/Distros/debian_and_ubuntu/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Distros/debian_and_ubuntu/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>PPAs and Debian are not always on speaking terms&lt;/p>
 &lt;/blockquote>

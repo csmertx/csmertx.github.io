@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 NetBSD (OS) on CSx</title><link>https://csmertx.github.io/Unix/NetBSD/</link><description>Recent content in 💻 NetBSD (OS) on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Unix/NetBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 NetBSD Installation</title><link>https://csmertx.github.io/Unix/NetBSD/netbsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NetBSD/netbsd/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 NetBSD (OS) on CSx</title><link>https://csmertx.github.io/Unix/NetBSD/</link><description>Recent content in 💻 NetBSD (OS) on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Unix/NetBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 NetBSD Installation</title><link>https://csmertx.github.io/Unix/NetBSD/netbsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NetBSD/netbsd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>This page was created before 2020&lt;/p>
 &lt;/blockquote>
@@ -27,13 +28,4 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>vi /etc/wpa_supplicant.conf&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>++ network={
-++ ssid=&amp;#34;yourssid&amp;#34; 
-++ scan_ssid=1 
-++ key_mgmt=WPA-PSK 
-++ psk=&amp;#34;yourpsk&amp;#34; 
-++ }
-&lt;/code>&lt;/pre>&lt;/li>
-&lt;li>
-&lt;p>&lt;code>vi /etc/rc.conf&lt;/code>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;code>vi /etc/wpa_supplicant.conf&lt;/code>&lt;/p></description></item></channel></rss>

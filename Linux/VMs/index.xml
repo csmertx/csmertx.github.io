@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Virtual Computing on CSx</title><link>https://csmertx.github.io/Linux/VMs/</link><description>Recent content in 💻 Virtual Computing on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/VMs/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Docker</title><link>https://csmertx.github.io/Linux/VMs/docker_installation/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/docker_installation/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Virtual Computing on CSx</title><link>https://csmertx.github.io/Linux/VMs/</link><description>Recent content in 💻 Virtual Computing on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/VMs/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Docker</title><link>https://csmertx.github.io/Linux/VMs/docker_installation/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/docker_installation/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>A neat way to setup a DIY media streaming box&lt;/p>
 &lt;/blockquote>
@@ -61,7 +62,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>remove &lt;code>/var/lib/docker&lt;/code>&lt;/p></description></item><item><title>💻 KVM</title><link>https://csmertx.github.io/Linux/VMs/kvm/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/kvm/</guid><description>&lt;br />
+&lt;p>remove &lt;code>/var/lib/docker&lt;/code>&lt;/p></description></item><item><title>💻 KVM</title><link>https://csmertx.github.io/Linux/VMs/kvm/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/kvm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Kernal-based Virtual Machine&lt;/p>
 &lt;/blockquote>
@@ -109,7 +111,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org/title/KVM">Arch Wiki: KVM&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Virtual Machine Manager (VMM)</title><link>https://csmertx.github.io/Linux/VMs/virt-manager/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virt-manager/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Virtual Machine Manager (VMM)</title><link>https://csmertx.github.io/Linux/VMs/virt-manager/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virt-manager/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>VM software by Red Hat&lt;/p>
 &lt;/blockquote>
@@ -158,7 +161,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>virt-clone --original /dir/c8n1.img --name &amp;quot;new name&amp;quot; --file c8n2.img&lt;/code>&lt;/p></description></item><item><title>💻 VirtualBox</title><link>https://csmertx.github.io/Linux/VMs/virtualbox/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virtualbox/</guid><description>&lt;br />
+&lt;p>&lt;code>virt-clone --original /dir/c8n1.img --name &amp;quot;new name&amp;quot; --file c8n2.img&lt;/code>&lt;/p></description></item><item><title>💻 VirtualBox</title><link>https://csmertx.github.io/Linux/VMs/virtualbox/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virtualbox/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>VM software by Oracle&lt;/p>
 &lt;/blockquote>
@@ -180,19 +184,4 @@
 &lt;p>Debian: mount the .iso and copy the contents to another folder then chown&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Try VBoxVGA or VBoxSVGA with &amp;lsquo;Pegasus&amp;rsquo;&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Add user to video (couldn&amp;rsquo;t hurt)&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="time-sync-with-pauseunpause">
- Time Sync with Pause/Unpause
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/virtualbox/#time-sync-with-pauseunpause" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Time Sync with Pause/Unpause" href="#time-sync-with-pauseunpause">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;code>apti virtualbox-guest-utils&lt;/code>&lt;/p></description></item></channel></rss>
+&lt;p>Try VBoxVGA or VBoxSVGA with &amp;lsquo;Pegasus&amp;rsquo;&lt;/p></description></item></channel></rss>

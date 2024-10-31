@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 NomadBSD (OS) on CSx</title><link>https://csmertx.github.io/Unix/NomadBSD/</link><description>Recent content in 💻 NomadBSD (OS) on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Unix/NomadBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 NomadBSD Installation</title><link>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 NomadBSD (OS) on CSx</title><link>https://csmertx.github.io/Unix/NomadBSD/</link><description>Recent content in 💻 NomadBSD (OS) on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Unix/NomadBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 NomadBSD Installation</title><link>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/NomadBSD/nomadbsd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>This page was created before 2020&lt;/p>
 &lt;/blockquote>
@@ -35,16 +36,4 @@
 ++ }
 &lt;/code>&lt;/pre>&lt;/li>
 &lt;li>
-&lt;p>&lt;code>service netif restart&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="autostart-programs-wopenbox">
- Autostart Programs w/Openbox
- &lt;a data-clipboard-text="https://csmertx.github.io/Unix/NomadBSD/nomadbsd/#autostart-programs-wopenbox" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Autostart Programs w/Openbox" href="#autostart-programs-wopenbox">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;code>vim ~/.config/openbox/autostart.sh&lt;/code>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;code>service netif restart&lt;/code>&lt;/p></description></item></channel></rss>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🛠️ Projects on CSx</title><link>https://csmertx.github.io/Blog/stuff/</link><description>Recent content in 🛠️ Projects on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Blog/stuff/index.xml" rel="self" type="application/rss+xml"/><item><title>🛠️ Kinesis Advantage 2</title><link>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</guid><description>&lt;p>Modding a Kinesis Advantage 2&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🛠️ Projects on CSx</title><link>https://csmertx.github.io/Blog/stuff/</link><description>Recent content in 🛠️ Projects on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Blog/stuff/index.xml" rel="self" type="application/rss+xml"/><item><title>🛠️ Kinesis Advantage 2</title><link>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Modding a Kinesis Advantage 2&lt;/p>
 &lt;blockquote>
 &lt;p>Pieced together 🔗&lt;a class="gdoc-markdown__link" href="https://config.qmk.fm/#/kinesis/kint36/LAYOUT" title="QMK Configurator">QMK&lt;/a> compatible controller via 🔗&lt;a class="gdoc-markdown__link" href="https://github.com/kinx-project/kint" title="Github.com | kinx-project / kint">KinT&lt;/a> kit. Also added custom USB stress relief, and touchpad&lt;/p>
 &lt;/blockquote>
@@ -7,9 +8,8 @@
 &lt;/blockquote>
 &lt;br />
 &lt;div style="text-align: center;">
-&lt;p>&lt;img src="../../Blog/stuff/images/ka2/0.jpg" alt="albumimg" title="Kinesis Advantage 2 LQ with white and light gray DSA keycaps and a Jellycomb touchpad" />&lt;/p>
-&lt;blockquote>
-&lt;p>Coffee bag tie for cable management, and right angle USB for the touchpad.&lt;/p></description></item><item><title>🛠️ Fishing Lures</title><link>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</link><pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</guid><description>&lt;br />
+&lt;p>&lt;img src="../../Blog/stuff/images/ka2/0.jpg" alt="albumimg" title="Kinesis Advantage 2 LQ with white and light gray DSA keycaps and a Jellycomb touchpad" />&lt;/p></description></item><item><title>🛠️ Fishing Lures</title><link>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</link><pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>2018&lt;/p>
 &lt;/blockquote>
@@ -20,7 +20,8 @@
 &lt;p>Yet to test the wiggle pattern&lt;/p>
 &lt;/blockquote>
 &lt;br />
-&lt;/div>&lt;br /></description></item><item><title>🛠️ Keyboard Modeling</title><link>https://csmertx.github.io/Blog/stuff/2023/keyboards/</link><pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/keyboards/</guid><description>&lt;br />
+&lt;/div>&lt;br /></description></item><item><title>🛠️ Keyboard Modeling</title><link>https://csmertx.github.io/Blog/stuff/2023/keyboards/</link><pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/keyboards/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>2016-2017&lt;/p>
 &lt;/blockquote>
@@ -48,11 +49,13 @@
 &lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_17.png" alt="albumimg" title="Showcased aluminum TKL custom feet--high profile (Modeled/Rendered: Fusion 360)" />
 &lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_18.png" alt="albumimg" title="Custom number pad, switch plate template (Modeled/Rendered: Fusion 360)" />
 &lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_19.png" alt="albumimg" title="Custom number pad side profile (Modeled/Rendered: Fusion 360)" />
-&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_20.png" alt="albumimg" title="Custom double shot DSA nearly ready for production (Modeled/Rendered: Fusion 360)" />&lt;/p></description></item><item><title>🛠️ Casting Silicone (2020)</title><link>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</link><pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</guid><description>&lt;br />
+&lt;img src="../../Blog/stuff/images/keyboards/keyboards_2016-2017_20.png" alt="albumimg" title="Custom double shot DSA nearly ready for production (Modeled/Rendered: Fusion 360)" />&lt;/p></description></item><item><title>🛠️ Casting Silicone (2020)</title><link>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</link><pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/silicone_wrist_rests/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Supplies delivered: March 3, 2020&lt;/p>
 &lt;/blockquote>
-&lt;p>I&amp;rsquo;ll try my best to keep these posts to the point and to not go crazy with the details. At the end of 2020 I stumbled in to some remote contract work. This job required the use of a keyboard, and a lot of typing. Instead of spending time and money on future RSI surgeries, I decided to get an urklenomic keyboard. The problem with the keyboard I bought (aside from the price tag) was that my wrists would go numb after four hours. Not as urklenomic as I&amp;rsquo;d like. The thin sponge wrist rests sold by the company did not help. That&amp;rsquo;s why I made these.&lt;/p></description></item><item><title>🛠️ RPi4 Console (2021)</title><link>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</link><pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</guid><description>&lt;br />
+&lt;p>I&amp;rsquo;ll try my best to keep these posts to the point and to not go crazy with the details. At the end of 2020 I stumbled in to some remote contract work. This job required the use of a keyboard, and a lot of typing. Instead of spending time and money on future RSI surgeries, I decided to get an urklenomic keyboard. The problem with the keyboard I bought (aside from the price tag) was that my wrists would go numb after four hours. Not as urklenomic as I&amp;rsquo;d like. The thin sponge wrist rests sold by the company did not help. That&amp;rsquo;s why I made these.&lt;/p></description></item><item><title>🛠️ RPi4 Console (2021)</title><link>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</link><pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2023/rpi4console/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Pieced together: June 7, 2021&lt;/p>
 &lt;/blockquote>
@@ -60,10 +63,4 @@
 &lt;p>RPi4 = Raspberry Pi 4&lt;/p>
 &lt;/blockquote>
 &lt;p>I wanted a tiny console to check out ARM architecture stuff: &lt;a class="gdoc-markdown__link" href="../../Linux/Devices/rpi4/ubuntu">Ubuntu/RPi4&lt;/a>, and &lt;a class="gdoc-markdown__link" href="../../Linux/Devices/rpi4/retropie">RetroPie/RPi4&lt;/a>.&lt;/p>
-&lt;p>This one does not include a parts list because this configuration (power delivery hat/addon) killed the official RPi4 LCD screen. I sold my RPi4 because of sketchy hats (addon boards). Next attempt will be something different.&lt;/p>
-&lt;div style="text-align: center;">
-&lt;p>&lt;img src="../../Blog/stuff/images/rpic_all_the_kde.jpg" alt="albumimg" title="RPi4 Console - KDE at the desk" />
-&lt;img src="../../Blog/stuff/images/rpic_zoom.jpg" alt="albumimg" title="RPi4 Console - Up close" />
-&lt;img src="../../Blog/stuff/images/rpic_inside.jpg" alt="albumimg" title="RPi4 Console - Inside" />
-&lt;img src="../../Blog/stuff/images/rpic_soldering.jpg" alt="albumimg" title="RPi4 Console - Soldering buttons" />
-&lt;br />&lt;/p></description></item></channel></rss>
+&lt;p>This one does not include a parts list because this configuration (power delivery hat/addon) killed the official RPi4 LCD screen. I sold my RPi4 because of sketchy hats (addon boards). Next attempt will be something different.&lt;/p></description></item></channel></rss>

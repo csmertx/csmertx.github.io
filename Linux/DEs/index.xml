@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Desktop Environments on CSx</title><link>https://csmertx.github.io/Linux/DEs/</link><description>Recent content in 💻 Desktop Environments on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/DEs/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Plasma (KDE)</title><link>https://csmertx.github.io/Linux/DEs/kde_plasma/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/kde_plasma/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Desktop Environments on CSx</title><link>https://csmertx.github.io/Linux/DEs/</link><description>Recent content in 💻 Desktop Environments on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/DEs/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Plasma (KDE)</title><link>https://csmertx.github.io/Linux/DEs/kde_plasma/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/kde_plasma/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="exclude-firmware-updates">
  Exclude firmware updates
@@ -26,7 +27,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>sudov /etc/security/pam_env.conf&lt;/code>&lt;/p></description></item><item><title>💻 GNOME 3</title><link>https://csmertx.github.io/Linux/DEs/gnome3/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/gnome3/</guid><description>&lt;br />
+&lt;p>&lt;code>sudov /etc/security/pam_env.conf&lt;/code>&lt;/p></description></item><item><title>💻 GNOME 3</title><link>https://csmertx.github.io/Linux/DEs/gnome3/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/gnome3/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="extensions">
  Extensions
@@ -81,7 +83,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>mkdir $HOME/.config/autostart&lt;/code>&lt;/p></description></item><item><title>💻 Xfce</title><link>https://csmertx.github.io/Linux/DEs/xfce/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/xfce/</guid><description>&lt;br />
+&lt;p>&lt;code>mkdir $HOME/.config/autostart&lt;/code>&lt;/p></description></item><item><title>💻 Xfce</title><link>https://csmertx.github.io/Linux/DEs/xfce/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/xfce/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Originally known as: XForms Common Environment&lt;/p>
 &lt;/blockquote>

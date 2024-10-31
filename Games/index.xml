@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🕹️ Games on CSx</title><link>https://csmertx.github.io/Games/</link><description>Recent content in 🕹️ Games on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 20 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Games/index.xml" rel="self" type="application/rss+xml"/><item><title>🕹️ SimCity 4 Deluxe</title><link>https://csmertx.github.io/Games/simcity_4_deluxe/</link><pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/simcity_4_deluxe/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🕹️ Games on CSx</title><link>https://csmertx.github.io/Games/</link><description>Recent content in 🕹️ Games on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 20 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Games/index.xml" rel="self" type="application/rss+xml"/><item><title>🕹️ SimCity 4 Deluxe</title><link>https://csmertx.github.io/Games/simcity_4_deluxe/</link><pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/simcity_4_deluxe/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="steam-launch-options-windowed-4k">
  Steam Launch Options (Windowed 4K)
@@ -9,17 +10,8 @@
 &lt;/div>&lt;ul>
 &lt;li>&lt;code>-intro:off -CustomResolution:enabled -r3840x2160x32 -CPUCount:1 -CPUPriority:high -Cursors:fullcolor&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;p>For my use it was easier to use an additional display for 🔗 &lt;a class="gdoc-markdown__link" href="../Linux/Software/jellyfin" title="CSx | Linux | Software | Jellyfin">Jellyfin&lt;/a> rather than split-screen. Not sure if there is a UI scaling either. YMMV&lt;/p>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="resources">
- Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Games/simcity_4_deluxe/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>🔗 &lt;a class="gdoc-markdown__link" href="https://steamcommunity.com/app/24780/discussions/0/1471967615838569110/" title="Steam Community | SimCity 4 Deluxe General Discussions | UPDATED GUIDE: Launching SC4 Deluxe (Including UHD Support)">Steam Community | SimCity 4 Deluxe General Discussions | UPDATED GUIDE: Launching SC4 Deluxe (Including UHD Support)&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>🕹️ Skyrim Special Edition</title><link>https://csmertx.github.io/Games/skyrim/</link><pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/skyrim/</guid><description>&lt;br />
+&lt;p>For my use it was easier to use an additional display for 🔗 &lt;a class="gdoc-markdown__link" href="../Linux/Software/jellyfin" title="CSx | Linux | Software | Jellyfin">Jellyfin&lt;/a> rather than split-screen. Not sure if there is a UI scaling either. YMMV&lt;/p></description></item><item><title>🕹️ Skyrim Special Edition</title><link>https://csmertx.github.io/Games/skyrim/</link><pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/skyrim/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="screen-tearing-for-slow-camera-movement">
  Screen tearing (for slow camera movement)
@@ -56,13 +48,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>Ubuntu&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>vim /home/user/.steam/debian-installation/steamapps/common/Skyrim Special Edition/Skyrim/SkyrimPrefs.ini&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Custom Steam games location&lt;/p></description></item><item><title>🕹️ Game Sites</title><link>https://csmertx.github.io/Games/game_sites/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/game_sites/</guid><description>&lt;br />
+&lt;p>Ubuntu&lt;/p></description></item><item><title>🕹️ Game Sites</title><link>https://csmertx.github.io/Games/game_sites/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/game_sites/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;ul>
 &lt;li>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://store.steampowered.com">🔗 Steam | Video game distribution&lt;/a>&lt;/p>
@@ -73,7 +60,8 @@
 &lt;li>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://itch.io">🔗 Itch.io | Indie game distribution&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>🕹️ Proton (Linux)</title><link>https://csmertx.github.io/Games/steam_proton/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/steam_proton/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>🕹️ Proton (Linux)</title><link>https://csmertx.github.io/Games/steam_proton/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Games/steam_proton/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="right-click-menu-not-working">
  Right click menu not working
@@ -88,26 +76,6 @@
  &lt;h2 id="wined3d-instead-of-vulcan-if-no-vulcan-support">
  WINED3D instead of Vulcan (If no Vulcan support)
  &lt;a data-clipboard-text="https://csmertx.github.io/Games/steam_proton/#wined3d-instead-of-vulcan-if-no-vulcan-support" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor WINED3D instead of Vulcan (If no Vulcan support)" href="#wined3d-instead-of-vulcan-if-no-vulcan-support">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>Library &amp;gt; Right click game &amp;gt; Properties&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>SET LAUNCH OPTIONS&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>PROTON_USE_WINED3D=1 %command%&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="vulcan-on-set-by-default-2022">
- Vulcan On (set by default 2022?)
- &lt;a data-clipboard-text="https://csmertx.github.io/Games/steam_proton/#vulcan-on-set-by-default-2022" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Vulcan On (set by default 2022?)" href="#vulcan-on-set-by-default-2022">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>

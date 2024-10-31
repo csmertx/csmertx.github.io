@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Software on CSx</title><link>https://csmertx.github.io/Linux/Software/</link><description>Recent content in 💻 Software on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Software/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 YouTube-DL</title><link>https://csmertx.github.io/Linux/Software/youtube-dl/</link><pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/youtube-dl/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Software on CSx</title><link>https://csmertx.github.io/Linux/Software/</link><description>Recent content in 💻 Software on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Software/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 YouTube-DL</title><link>https://csmertx.github.io/Linux/Software/youtube-dl/</link><pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/youtube-dl/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>See also &lt;a class="gdoc-markdown__link" href="https://github.com/yt-dlp/yt-dlp" title="Github.com | yt-dlp / yt-dlp">GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes&lt;/a>&lt;/p>
 &lt;/blockquote>
@@ -42,7 +43,8 @@
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;blockquote>
-&lt;p>Issue with %(ext)s 06-29-2020?&lt;/p></description></item><item><title>💻 Tmux</title><link>https://csmertx.github.io/Linux/Software/tmux/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tmux/</guid><description>&lt;div class="gdoc-page__anchorwrap">
+&lt;p>Issue with %(ext)s 06-29-2020?&lt;/p></description></item><item><title>💻 Tmux</title><link>https://csmertx.github.io/Linux/Software/tmux/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tmux/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;div class="gdoc-page__anchorwrap">
  &lt;h6 id="july-27-2023">
  July 27, 2023
  &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/tmux/#july-27-2023" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor July 27, 2023" href="#july-27-2023">
@@ -63,7 +65,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>Build a single window layout and run: &lt;code>tmux list-windows&lt;/code>&lt;/p></description></item><item><title>💻 Docker</title><link>https://csmertx.github.io/Linux/Software/docker/</link><pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/docker/</guid><description>&lt;br />
+&lt;p>Build a single window layout and run: &lt;code>tmux list-windows&lt;/code>&lt;/p></description></item><item><title>💻 Docker</title><link>https://csmertx.github.io/Linux/Software/docker/</link><pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/docker/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>See also &lt;a class="gdoc-markdown__link" href="../../Linux/Software/jellyfin">Jellyfin&lt;/a>&lt;/p>
 &lt;/blockquote>
@@ -116,22 +119,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>sudov /etc/docker/daemon.json&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>++ {
-++ &amp;#34;storage-driver&amp;#34;: &amp;#34;overlay2&amp;#34;
-++ }
-&lt;/code>&lt;/pre>&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="volume-examples">
- Volume examples
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/docker/#volume-examples" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Volume examples" href="#volume-examples">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;code>docker run -d \&lt;/code>&lt;/p></description></item><item><title>💻 Jellyfin (Media Server)</title><link>https://csmertx.github.io/Linux/Software/jellyfin/</link><pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/jellyfin/</guid><description>&lt;br />
+&lt;p>&lt;code>sudov /etc/docker/daemon.json&lt;/code>&lt;/p></description></item><item><title>💻 Jellyfin (Media Server)</title><link>https://csmertx.github.io/Linux/Software/jellyfin/</link><pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/jellyfin/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="install-docker">
  Install Docker
@@ -170,27 +159,8 @@
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;blockquote>
-&lt;p>First run will take a while to cache (20-60+ minutes)&lt;/p>
-&lt;/blockquote>
-&lt;pre tabindex="0">&lt;code>sudo docker run -d \
---volume /home/$USER/.config/jellyfin/config:/config \
---volume /home/$USER/.config/jellyfin/cache:/cache \
---volume /mnt/Storage/Videos:/data/videos \
---volume /mnt/Storage/Music:/data/music \
---volume /mnt/Storage/Pictures:/data/pictures \
---user 1000:1000 \
---net=host \
---restart=unless-stopped \
-jellyfin/jellyfin
-&lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="scripted-setup">
- Scripted setup
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/jellyfin/#scripted-setup" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Scripted setup" href="#scripted-setup">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;blockquote>
-&lt;p>My personal setup script&lt;/p></description></item><item><title>💻 FFmpeg</title><link>https://csmertx.github.io/Linux/Software/ffmpeg/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ffmpeg/</guid><description>&lt;br />
+&lt;p>First run will take a while to cache (20-60+ minutes)&lt;/p></description></item><item><title>💻 FFmpeg</title><link>https://csmertx.github.io/Linux/Software/ffmpeg/</link><pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ffmpeg/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="combine-files-from-a-list-ranger-file-manager">
  Combine files from a list (Ranger File Manager)
@@ -212,28 +182,8 @@ jellyfin/jellyfin
 &lt;p>bulkrename filenames in bulk.txt to: file &lt;code>constantpartoffilename_1.mp4&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>vim ~/Downloads/bulk.txt&lt;/code>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;code>:%s/constantpartoffilename/file 'constantpartoffilename/g&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>:%s/.mp4/.mp4'/g&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Should result in: file &lt;code>constantpartoffilename_x.mp4&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="editing">
- Editing
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/ffmpeg/#editing" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Editing" href="#editing">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;p>Cut out a slice (audio)&lt;/p></description></item><item><title>💻 FastCGI (PHP-FPM)</title><link>https://csmertx.github.io/Linux/Software/php-fpm/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/php-fpm/</guid><description>&lt;br />
+&lt;p>&lt;code>vim ~/Downloads/bulk.txt&lt;/code>&lt;/p></description></item><item><title>💻 FastCGI (PHP-FPM)</title><link>https://csmertx.github.io/Linux/Software/php-fpm/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/php-fpm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="enable-error-logging">
  Enable Error Logging
@@ -274,7 +224,8 @@ php_admin_value[memory_limit] = 99M
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;code>tail -f /var/log/fpm-php.www.log&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>💻 KDE STL Preview</title><link>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 KDE STL Preview</title><link>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/STL_preview_from_dolphin/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;br />
 &lt;div style="text-align: center;">
 &lt;p>&lt;img src="../../Linux/Software/Screenshot_20220401_000441.png" alt="albumimg" title="Kubuntu 21.10 screenshot of opening STL with view3dscene" />
@@ -305,13 +256,8 @@ php_admin_value[memory_limit] = 99M
 &lt;p>Download link: &lt;code>https://castle-engine.io/view3dscene.php&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Or if you prefer: &lt;code>https://github.com/castle-engine/view3dscene&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Extract w/Dolphin &amp;gt; Right Click &amp;gt; Extract &amp;gt; Extract Archive Here&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>vim $HOME/.local/share/applications/view3dscene.desktop&lt;/code>&lt;/p></description></item><item><title>💻 MPV</title><link>https://csmertx.github.io/Linux/Software/mpv/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpv/</guid><description>&lt;br />
+&lt;p>Or if you prefer: &lt;code>https://github.com/castle-engine/view3dscene&lt;/code>&lt;/p></description></item><item><title>💻 MPV</title><link>https://csmertx.github.io/Linux/Software/mpv/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpv/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="multiple-monitors">
  Multiple Monitors
@@ -340,27 +286,8 @@ php_admin_value[memory_limit] = 99M
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>https://github.com/hoyon/mpv-mpris/releases&lt;/code>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;code>mpris.so&lt;/code>&lt;/p>
-&lt;ul>
-&lt;li>Save as: &lt;code>~/.config/mpv/scripts&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="firefox-extension">
- Firefox Extension
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mpv/#firefox-extension" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Firefox Extension" href="#firefox-extension">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;code>https://addons.mozilla.org/en-US/firefox/addon/ff2mpv/&lt;/code>&lt;/p></description></item><item><title>💻 Music Player Daemon (MPD)</title><link>https://csmertx.github.io/Linux/Software/mpd/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpd/</guid><description>&lt;br />
+&lt;p>&lt;code>https://github.com/hoyon/mpv-mpris/releases&lt;/code>&lt;/p></description></item><item><title>💻 Music Player Daemon (MPD)</title><link>https://csmertx.github.io/Linux/Software/mpd/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mpd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Includes some instructions to listen to Commodore 64 .sid files&lt;/p>
 &lt;/blockquote>
@@ -412,7 +339,8 @@ php_admin_value[memory_limit] = 99M
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>sudo gpasswd -a mpd $USER&lt;/code>&lt;/p></description></item><item><title>💻 Mutt E-Mail Client</title><link>https://csmertx.github.io/Linux/Software/mutt_encrypted/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mutt_encrypted/</guid><description>&lt;br />
+&lt;p>&lt;code>sudo gpasswd -a mpd $USER&lt;/code>&lt;/p></description></item><item><title>💻 Mutt E-Mail Client</title><link>https://csmertx.github.io/Linux/Software/mutt_encrypted/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mutt_encrypted/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="using-mutt-the-safe-way">
  Using Mutt the safe way
@@ -446,13 +374,8 @@ php_admin_value[memory_limit] = 99M
 &lt;li>
 &lt;p>edit out sensitive information&lt;/p>
 &lt;blockquote>
-&lt;p>Check for original &lt;code>~/.mutt/password&lt;/code> (without .gpg)&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;code>shred ~/.mutt/password&lt;/code>&lt;/p>
-&lt;blockquote>
-&lt;p>If the original file remains&amp;ndash;it&amp;rsquo;s been a few years since I&amp;rsquo;ve used Mutt&lt;/p></description></item><item><title>💻 Nextcloud</title><link>https://csmertx.github.io/Linux/Software/nextcloud/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/nextcloud/</guid><description>&lt;br />
+&lt;p>Check for original &lt;code>~/.mutt/password&lt;/code> (without .gpg)&lt;/p></description></item><item><title>💻 Nextcloud</title><link>https://csmertx.github.io/Linux/Software/nextcloud/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/nextcloud/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="webdav">
  WebDav
@@ -486,12 +409,8 @@ php_admin_value[memory_limit] = 99M
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>sudo -u http php /usr/share/nginx/nextcloud/updater/updater.phar&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>sudo -u http php /usr/share/nginx/nextcloud/occ update&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>💻 OpenSSH</title><link>https://csmertx.github.io/Linux/Software/openssh/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/openssh/</guid><description>&lt;br />
+&lt;p>&lt;code>sudo -u http php /usr/share/nginx/nextcloud/updater/updater.phar&lt;/code>&lt;/p></description></item><item><title>💻 OpenSSH</title><link>https://csmertx.github.io/Linux/Software/openssh/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/openssh/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="hardening-see-also-fail2ban">
  Hardening (see also: fail2ban)
@@ -524,7 +443,8 @@ php_admin_value[memory_limit] = 99M
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>ssh -p 22 user@192.168.254.x&lt;/code>&lt;/p></description></item><item><title>💻 Patching C</title><link>https://csmertx.github.io/Linux/Software/patching/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/patching/</guid><description>&lt;br />
+&lt;p>&lt;code>ssh -p 22 user@192.168.254.x&lt;/code>&lt;/p></description></item><item><title>💻 Patching C</title><link>https://csmertx.github.io/Linux/Software/patching/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/patching/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>For when someone says, &amp;ldquo;Patch your systems people!&amp;rdquo;&lt;/p>
 &lt;/blockquote>
@@ -587,7 +507,8 @@ php_admin_value[memory_limit] = 99M
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;code>patch -ruN -d working &amp;lt; slang.patch&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Pulseaudio</title><link>https://csmertx.github.io/Linux/Software/pulse/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pulse/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Pulseaudio</title><link>https://csmertx.github.io/Linux/Software/pulse/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pulse/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="all-systems">
  All Systems
@@ -642,7 +563,8 @@ load-module module-zeroconf-publish (or -discover...)
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>tcp/4713&lt;/code>&lt;/p></description></item><item><title>💻 Python Package Index (PyPI)</title><link>https://csmertx.github.io/Linux/Software/pypi/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pypi/</guid><description>&lt;br />
+&lt;p>&lt;code>tcp/4713&lt;/code>&lt;/p></description></item><item><title>💻 Python Package Index (PyPI)</title><link>https://csmertx.github.io/Linux/Software/pypi/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/pypi/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="installation">
  Installation
@@ -680,22 +602,8 @@ load-module module-zeroconf-publish (or -discover...)
 &lt;li>
 &lt;p>&lt;code>A&lt;/code>&lt;/p>
 &lt;blockquote>
-&lt;p>To update all)&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="resources">
- Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/pypi/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://pypi.org/">PyPI · The Python Package Index&lt;/a>&lt;/p></description></item><item><title>💻 QT5 (KDE)</title><link>https://csmertx.github.io/Linux/Software/qt/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/qt/</guid><description>&lt;br />
+&lt;p>To update all)&lt;/p></description></item><item><title>💻 QT5 (KDE)</title><link>https://csmertx.github.io/Linux/Software/qt/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/qt/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="qt-theming-in-gtk">
  QT Theming in GTK
@@ -719,7 +627,8 @@ load-module module-zeroconf-publish (or -discover...)
 &lt;li>
 &lt;p>Logout&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Ranger File Manager</title><link>https://csmertx.github.io/Linux/Software/ranger/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ranger/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Ranger File Manager</title><link>https://csmertx.github.io/Linux/Software/ranger/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/ranger/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Links to the project &lt;a class="gdoc-markdown__link" href="#resources">below&lt;/a>&lt;/p>
 &lt;/blockquote>
@@ -827,7 +736,8 @@ class extract_here(Command):
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://ranger.github.io/">Ranger — console file manager with VI key bindings&lt;/a>&lt;/p></description></item><item><title>💻 Rsync</title><link>https://csmertx.github.io/Linux/Software/rsync/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/rsync/</guid><description>&lt;br />
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://ranger.github.io/">Ranger — console file manager with VI key bindings&lt;/a>&lt;/p></description></item><item><title>💻 Rsync</title><link>https://csmertx.github.io/Linux/Software/rsync/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/rsync/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="dry-run">
  Dry Run
@@ -887,7 +797,8 @@ class extract_here(Command):
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://rsync.samba.org/">Rsync Homepage&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 SyncTerm (BBS)</title><link>https://csmertx.github.io/Linux/Software/syncterm/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/syncterm/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 SyncTerm (BBS)</title><link>https://csmertx.github.io/Linux/Software/syncterm/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/syncterm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>BBS = Bulletin board system&lt;/p>
 &lt;/blockquote>
@@ -951,13 +862,8 @@ class extract_here(Command):
  &lt;/h3>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>wget http://www.syncterm.net/syncterm-src.tgz&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>tar xzf syncterm-src-tgz&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>cd syncterm-src-$(date '+%y%m%d')&lt;/code>&lt;/p></description></item><item><title>💻 Tar</title><link>https://csmertx.github.io/Linux/Software/tar/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tar/</guid><description>&lt;br />
+&lt;p>&lt;code>wget http://www.syncterm.net/syncterm-src.tgz&lt;/code>&lt;/p></description></item><item><title>💻 Tar</title><link>https://csmertx.github.io/Linux/Software/tar/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/tar/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="decompress">
  Decompress
@@ -1021,13 +927,8 @@ class extract_here(Command):
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.gnu.org/software/tar/">GNU Tar&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.redhat.com/sysadmin/taming-tar-command">Red Hat: Taming the tar command&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://en.wikipedia.org/wiki/Tarball_%28oil%29">Wikipedia: Tarball (oil)&lt;/a>&lt;/p></description></item><item><title>💻 Timeshift</title><link>https://csmertx.github.io/Linux/Software/timeshift/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/timeshift/</guid><description>&lt;br />
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.gnu.org/software/tar/">GNU Tar&lt;/a>&lt;/p></description></item><item><title>💻 Timeshift</title><link>https://csmertx.github.io/Linux/Software/timeshift/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/timeshift/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Incredible system backup utility with comprehensive backup scheduling&lt;/p>
 &lt;/blockquote>
@@ -1064,13 +965,8 @@ class extract_here(Command):
 &lt;/blockquote>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/linuxmint/timeshift">GitHub - linuxmint/timeshift: System restore tool for Linux&lt;/a>&lt;/p>
-&lt;blockquote>
-&lt;p>Currently maintained by Linux Mint&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/teejee2008/timeshift">GitHub - teejee2008/timeshift: System restore tool for Linux&lt;/a>&lt;/p></description></item><item><title>💻 Vim</title><link>https://csmertx.github.io/Linux/Software/vim/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/vim/</guid><description>&lt;br />
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/linuxmint/timeshift">GitHub - linuxmint/timeshift: System restore tool for Linux&lt;/a>&lt;/p></description></item><item><title>💻 Vim</title><link>https://csmertx.github.io/Linux/Software/vim/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/vim/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="cutcopy-paste-registers-not-working">
  Cut/Copy Paste Registers not working
@@ -1104,24 +1000,8 @@ class extract_here(Command):
 &lt;p>&lt;code>]&lt;/code> + &lt;code>s&lt;/code> = Next misspelled word&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>[&lt;/code> + &lt;code>s&lt;/code> = Prev misspelled word&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Suggestions&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>z&lt;/code> + &lt;code>=&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Add to dictionary&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>z&lt;/code> + &lt;code>g&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Mark for later&lt;/p></description></item><item><title>💻 Wget</title><link>https://csmertx.github.io/Linux/Software/wget/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/wget/</guid><description>&lt;br />
+&lt;p>&lt;code>[&lt;/code> + &lt;code>s&lt;/code> = Prev misspelled word&lt;/p></description></item><item><title>💻 Wget</title><link>https://csmertx.github.io/Linux/Software/wget/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/wget/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="all-the-webpage">
  All the webpage
@@ -1156,7 +1036,8 @@ class extract_here(Command):
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://www.gnu.org/software/wget/">GNU Wget&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Woof-CE</title><link>https://csmertx.github.io/Linux/Software/woof-ce/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/woof-ce/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Woof-CE</title><link>https://csmertx.github.io/Linux/Software/woof-ce/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/woof-ce/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Build system for Puppy Linux distros&lt;/p>
 &lt;/blockquote>
@@ -1174,7 +1055,8 @@ class extract_here(Command):
 &lt;li>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/puppylinux-woof-CE/woof-CE">GitHub - puppylinux-woof-CE/woof-CE: woof - the Puppy builder&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 XScreenSaver</title><link>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 XScreenSaver</title><link>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/xscreensaver_hack_patch/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>XScreenSaver Multi-monitor Patch&lt;/p>
 &lt;/blockquote>
@@ -1222,7 +1104,8 @@ class extract_here(Command):
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.jwz.org/xscreensaver/">XScreenSaver&lt;/a>&lt;/p></description></item><item><title>💻 Yakuake</title><link>https://csmertx.github.io/Linux/Software/yakuake/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/yakuake/</guid><description>&lt;br />
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.jwz.org/xscreensaver/">XScreenSaver&lt;/a>&lt;/p></description></item><item><title>💻 Yakuake</title><link>https://csmertx.github.io/Linux/Software/yakuake/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/yakuake/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Drop-down terminal emulator for KDE&lt;/p>
 &lt;/blockquote>
@@ -1250,11 +1133,8 @@ class extract_here(Command):
 &lt;li>
 &lt;p>To switch back remember: XFree 4&lt;/p>
 &lt;blockquote>
-&lt;p>I hope someone knows what I was talking about here (can&amp;rsquo;t recall)&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>Fix for Konsole too since it pulls in the same profile(s) as Yakuake&lt;/p></description></item><item><title>💻 Zathura</title><link>https://csmertx.github.io/Linux/Software/zathura/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zathura/</guid><description>&lt;br />
+&lt;p>I hope someone knows what I was talking about here (can&amp;rsquo;t recall)&lt;/p></description></item><item><title>💻 Zathura</title><link>https://csmertx.github.io/Linux/Software/zathura/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zathura/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Keyboard driven document viewer&lt;/p>
 &lt;/blockquote>
@@ -1296,14 +1176,16 @@ class extract_here(Command):
  &lt;/a>
  &lt;/h3>
 &lt;/div>&lt;blockquote>
-&lt;p>side-by-side mode: press &lt;code>d&lt;/code>&lt;/p></description></item><item><title>💻 AppImages</title><link>https://csmertx.github.io/Linux/Software/appimage/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/appimage/</guid><description>&lt;br />
+&lt;p>side-by-side mode: press &lt;code>d&lt;/code>&lt;/p></description></item><item><title>💻 AppImages</title><link>https://csmertx.github.io/Linux/Software/appimage/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/appimage/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>⌚ &lt;b>February 3, 2023&lt;/b>&lt;/p>
 &lt;/blockquote>
 &lt;br />
 &lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://github.com/AppImage/AppImageKit">AppImageKit&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Benchmarking</title><link>https://csmertx.github.io/Linux/Software/benchmarks/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/benchmarks/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Benchmarking</title><link>https://csmertx.github.io/Linux/Software/benchmarks/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/benchmarks/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="glmark2">
  Glmark2
@@ -1324,7 +1206,8 @@ class extract_here(Command):
 &lt;p>03/03/20: Arch Linux&lt;/p>
 &lt;/blockquote>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 BorgBackup</title><link>https://csmertx.github.io/Linux/Software/borgbackup/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/borgbackup/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 BorgBackup</title><link>https://csmertx.github.io/Linux/Software/borgbackup/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/borgbackup/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Created before 2022&lt;/p>
 &lt;/blockquote>
@@ -1358,19 +1241,8 @@ class extract_here(Command):
 &lt;p>&lt;code>sudo mount -t ext /dev/sdX&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>borg list /dir/archivedir&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="snapshot-directory-unencrypted">
- Snapshot directory (unencrypted)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/borgbackup/#snapshot-directory-unencrypted" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Snapshot directory (unencrypted)" href="#snapshot-directory-unencrypted">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;code>mkdir /dir/archivedir&lt;/code>&lt;/p></description></item><item><title>💻 Calibre</title><link>https://csmertx.github.io/Linux/Software/epub_to_pdf/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/epub_to_pdf/</guid><description>&lt;br />
+&lt;p>&lt;code>borg list /dir/archivedir&lt;/code>&lt;/p></description></item><item><title>💻 Calibre</title><link>https://csmertx.github.io/Linux/Software/epub_to_pdf/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/epub_to_pdf/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="installation">
  Installation
@@ -1390,7 +1262,8 @@ class extract_here(Command):
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;code>ebook-convert example.epub to example.pdf&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Clam Anti-Virus</title><link>https://csmertx.github.io/Linux/Software/clamav/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/clamav/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Clam Anti-Virus</title><link>https://csmertx.github.io/Linux/Software/clamav/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/clamav/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="installation">
  Installation
@@ -1436,19 +1309,8 @@ class extract_here(Command):
 &lt;p>&lt;code>chmod 600 /var/log/freshclam.log&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>chown clamav /var/log/freshclam.log&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="configuration-needed">
- Configuration (needed)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/clamav/#configuration-needed" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Configuration (needed)" href="#configuration-needed">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;code>vim Freshclam.conf&lt;/code>&lt;/p></description></item><item><title>💻 DBGL (DOSBox)</title><link>https://csmertx.github.io/Linux/Software/dbgl/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dbgl/</guid><description>&lt;br />
+&lt;p>&lt;code>chown clamav /var/log/freshclam.log&lt;/code>&lt;/p></description></item><item><title>💻 DBGL (DOSBox)</title><link>https://csmertx.github.io/Linux/Software/dbgl/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dbgl/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;ul>
 &lt;li>
 &lt;p>&lt;code>apti dosbox&lt;/code>&lt;/p>
@@ -1492,12 +1354,8 @@ class extract_here(Command):
 &lt;p>&lt;code>sudo add-apt-repository ppa:savoury1/dbgl&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>sudo apt-get update&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>sudo apti dosbox default-jdk dbgl&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>💻 Dolphin (KDE)</title><link>https://csmertx.github.io/Linux/Software/dolphin/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dolphin/</guid><description>&lt;br />
+&lt;p>&lt;code>sudo apt-get update&lt;/code>&lt;/p></description></item><item><title>💻 Dolphin (KDE)</title><link>https://csmertx.github.io/Linux/Software/dolphin/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/dolphin/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="select-filefolder-with-single-click-for-shift-click-or-alt-click-selections">
  Select file/folder with single click (for shift click or alt click selections)
@@ -1528,13 +1386,8 @@ class extract_here(Command):
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>In the url/path bar&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;code>fish://user@ipaddress&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Stream media from another PC..&lt;/p></description></item><item><title>💻 Fail2ban</title><link>https://csmertx.github.io/Linux/Software/fail2ban/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/fail2ban/</guid><description>&lt;br />
+&lt;p>In the url/path bar&lt;/p></description></item><item><title>💻 Fail2ban</title><link>https://csmertx.github.io/Linux/Software/fail2ban/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/fail2ban/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="setup">
  Setup
@@ -1582,7 +1435,8 @@ class extract_here(Command):
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>sudo fail2ban-client status&lt;/code>&lt;/p></description></item><item><title>💻 Flatpaks</title><link>https://csmertx.github.io/Linux/Software/flatpak/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/flatpak/</guid><description>&lt;br />
+&lt;p>&lt;code>sudo fail2ban-client status&lt;/code>&lt;/p></description></item><item><title>💻 Flatpaks</title><link>https://csmertx.github.io/Linux/Software/flatpak/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/flatpak/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="flathub">
  Flathub
@@ -1623,32 +1477,8 @@ class extract_here(Command):
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>flatpak list&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>flatpak remove [org.flatpak.package]&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="orgfreedesktopplatformopenh264-fails">
- org.freedesktop.Platform.openh264 fails&amp;hellip;
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/flatpak/#orgfreedesktopplatformopenh264-fails" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor org.freedesktop.Platform.openh264 fails&amp;hellip;" href="#orgfreedesktopplatformopenh264-fails">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>&lt;code>flatpak install flathub org.freedesktop.Platform&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="visual-studio-code">
- Visual Studio Code
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/flatpak/#visual-studio-code" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Visual Studio Code" href="#visual-studio-code">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>Install: &lt;code>flatpak install flathub com.visualstudio.code&lt;/code>&lt;/p></description></item><item><title>💻 HTML to PDF</title><link>https://csmertx.github.io/Linux/Software/html_to_pdf/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/html_to_pdf/</guid><description>&lt;br />
+&lt;p>&lt;code>flatpak list&lt;/code>&lt;/p></description></item><item><title>💻 HTML to PDF</title><link>https://csmertx.github.io/Linux/Software/html_to_pdf/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/html_to_pdf/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="firefox">
  Firefox
@@ -1690,10 +1520,8 @@ class extract_here(Command):
 &lt;li>
 &lt;p>&lt;code>wkhtmltopdf input.html output.pdf&lt;/code>&lt;/p>
 &lt;blockquote>
-&lt;p>Additional options via CLI not available through browsers&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;/ul></description></item><item><title>💻 iptables</title><link>https://csmertx.github.io/Linux/Software/iptables/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/iptables/</guid><description>&lt;br />
+&lt;p>Additional options via CLI not available through browsers&lt;/p></description></item><item><title>💻 iptables</title><link>https://csmertx.github.io/Linux/Software/iptables/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/iptables/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="start-and-configuration">
  Start and configuration
@@ -1741,40 +1569,8 @@ class extract_here(Command):
 &lt;p>&lt;code>sudo systemctl enable ufw.service&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>sudo systemctl start ufw.service&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>SSH Limiting&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Add rule&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Subcat: Services&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Application: SSH&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Policy: Limit&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="ufw">
- Ufw
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/iptables/#ufw" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Ufw" href="#ufw">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>Port forwarding&lt;/p></description></item><item><title>💻 Konsole</title><link>https://csmertx.github.io/Linux/Software/konsole/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konsole/</guid><description>&lt;br />
+&lt;p>&lt;code>sudo systemctl start ufw.service&lt;/code>&lt;/p></description></item><item><title>💻 Konsole</title><link>https://csmertx.github.io/Linux/Software/konsole/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konsole/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="trouble-with-remapped-keyboard-layout-xmodmap-etc">
  Trouble with remapped keyboard layout (xmodmap, etc.)
@@ -1795,12 +1591,8 @@ class extract_here(Command):
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>Other keybindings might be affected by this &amp;ldquo;fix&amp;rdquo; (&lt;code>F4&lt;/code>, etc.)&lt;/p>
-&lt;ul>
-&lt;li>So long &lt;a class="gdoc-markdown__link" href="../../Linux/Assorted/xmodmap">xmodmap&lt;/a>, hello &lt;a class="gdoc-markdown__link" href="https://github.com/kinx-project/kint">custom keyboard PCB&lt;/a>?&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul></description></item><item><title>💻 Konversation</title><link>https://csmertx.github.io/Linux/Software/konversation/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konversation/</guid><description>&lt;br />
+&lt;p>Other keybindings might be affected by this &amp;ldquo;fix&amp;rdquo; (&lt;code>F4&lt;/code>, etc.)&lt;/p></description></item><item><title>💻 Konversation</title><link>https://csmertx.github.io/Linux/Software/konversation/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/konversation/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>KDE Internet Relay Chat (IRC) client&lt;/p>
 &lt;/blockquote>
@@ -1823,7 +1615,8 @@ class extract_here(Command):
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Markdown CLI</title><link>https://csmertx.github.io/Linux/Software/markdown_cli/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/markdown_cli/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Markdown CLI</title><link>https://csmertx.github.io/Linux/Software/markdown_cli/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/markdown_cli/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Hacky way to preview Markdown via terminal emulator&lt;/p>
 &lt;/blockquote>
@@ -1852,7 +1645,8 @@ pandoc $1 --highlight-style=zenburn \
 | sed &amp;#39;$s/$/\n&amp;lt;\/html&amp;gt;/&amp;#39; | lynx -stdin
 &lt;/code>&lt;/pre>&lt;/li>
 &lt;li>
-&lt;p>&lt;code>w3m&lt;/code> doesn&amp;rsquo;t like stdin, but &lt;code>elinks&lt;/code> (without -stdin) works&lt;/p></description></item><item><title>💻 Midnight Commander (MC)</title><link>https://csmertx.github.io/Linux/Software/mc/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mc/</guid><description>&lt;br />
+&lt;p>&lt;code>w3m&lt;/code> doesn&amp;rsquo;t like stdin, but &lt;code>elinks&lt;/code> (without -stdin) works&lt;/p></description></item><item><title>💻 Midnight Commander (MC)</title><link>https://csmertx.github.io/Linux/Software/mc/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/mc/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="vim-as-editor">
  Vim as editor
@@ -1882,22 +1676,8 @@ pandoc $1 --highlight-style=zenburn \
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>cd sh://user@remotehost/dir&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Load media w/video player, photo viewer, etc.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="skins">
- Skins
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Software/mc/#skins" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Skins" href="#skins">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>Save to: &lt;code>~/.local/share/mc/skins/&lt;/code>&lt;/p></description></item><item><title>💻 Music On Console (MOC)</title><link>https://csmertx.github.io/Linux/Software/moc/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/moc/</guid><description>&lt;br />
+&lt;p>&lt;code>cd sh://user@remotehost/dir&lt;/code>&lt;/p></description></item><item><title>💻 Music On Console (MOC)</title><link>https://csmertx.github.io/Linux/Software/moc/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/moc/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="pulseaudio-integration">
  Pulseaudio Integration
@@ -1922,7 +1702,8 @@ pandoc $1 --highlight-style=zenburn \
 &lt;li>
 &lt;p>Change volume with: &lt;code>,&lt;/code> and &lt;code>.&lt;/code>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Snaps</title><link>https://csmertx.github.io/Linux/Software/snapd/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/snapd/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Snaps</title><link>https://csmertx.github.io/Linux/Software/snapd/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/snapd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="installation">
  Installation
@@ -1978,7 +1759,8 @@ pandoc $1 --highlight-style=zenburn \
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;code>sudo snap start docker&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Zstandard File Compression (ZSTD)</title><link>https://csmertx.github.io/Linux/Software/zstd/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zstd/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Zstandard File Compression (ZSTD)</title><link>https://csmertx.github.io/Linux/Software/zstd/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Software/zstd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="decompress">
  Decompress

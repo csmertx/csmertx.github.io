@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Core Utilities on CSx</title><link>https://csmertx.github.io/Linux/Assorted/</link><description>Recent content in 💻 Core Utilities on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Assorted/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Accessing Media</title><link>https://csmertx.github.io/Linux/Assorted/mount/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/mount/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Core Utilities on CSx</title><link>https://csmertx.github.io/Linux/Assorted/</link><description>Recent content in 💻 Core Utilities on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Assorted/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Accessing Media</title><link>https://csmertx.github.io/Linux/Assorted/mount/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/mount/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="ext4">
  EXT4
@@ -48,7 +49,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>Check ftype with: &lt;code>fsck -N /dev/xxx&lt;/code>&lt;/p></description></item><item><title>💻 Admin</title><link>https://csmertx.github.io/Linux/Assorted/admin/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/admin/</guid><description>&lt;br />
+&lt;p>Check ftype with: &lt;code>fsck -N /dev/xxx&lt;/code>&lt;/p></description></item><item><title>💻 Admin</title><link>https://csmertx.github.io/Linux/Assorted/admin/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/admin/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Same as &lt;a class="gdoc-markdown__link" href="../../Linux/Assorted/vconsole">Virtual Console&lt;/a>&lt;/p>
 &lt;/blockquote>
@@ -80,22 +82,8 @@
 &lt;p>&lt;code>sudo usermod -a -G existinggroup existinguser&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>sudo groupadd newgroup&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>usermod -a -G newgroup existinguser&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="passwd">
- Passwd
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/admin/#passwd" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Passwd" href="#passwd">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>Unattended&lt;/p></description></item><item><title>💻 ALSA</title><link>https://csmertx.github.io/Linux/Assorted/alsa/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/alsa/</guid><description>&lt;br />
+&lt;p>&lt;code>sudo groupadd newgroup&lt;/code>&lt;/p></description></item><item><title>💻 ALSA</title><link>https://csmertx.github.io/Linux/Assorted/alsa/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/alsa/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>For tiling window manager scripting, etc.&lt;/p>
 &lt;/blockquote>
@@ -118,7 +106,8 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://alsa-project.org/wiki/Main_Page">AlsaProject&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Bitmap Fonts</title><link>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Bitmap Fonts</title><link>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="enable-bitmap-fonts-debianubuntu">
  Enable bitmap fonts (Debian/Ubuntu)
@@ -146,7 +135,8 @@ fi
 &lt;li>
 &lt;p>&lt;code>fc-cache&lt;/code>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Busybox</title><link>https://csmertx.github.io/Linux/Assorted/busybox/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/busybox/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Busybox</title><link>https://csmertx.github.io/Linux/Assorted/busybox/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/busybox/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Typically used for embedded operating systems with limited resources&lt;/p>
 &lt;/blockquote>
@@ -174,7 +164,8 @@ fi
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://www.busybox.net/">Busybox Homepage&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Console Resolution</title><link>https://csmertx.github.io/Linux/Assorted/console_resolution/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/console_resolution/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Console Resolution</title><link>https://csmertx.github.io/Linux/Assorted/console_resolution/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/console_resolution/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>See also &lt;a class="gdoc-markdown__link" href="../../Linux/Assorted/vconsole">Virtual Console&lt;/a>&lt;/p>
 &lt;/blockquote>
@@ -198,9 +189,8 @@ fi
 ++ if [ &amp;#34;x${GRUB_GFXPAYLOAD}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXPAYLOAD=1152x864x32 ; fi
 &lt;/code>&lt;/pre>&lt;/li>
 &lt;li>
-&lt;p>Look for: &lt;code>set gfxmode=${GRUB_GFXMODE}&lt;/code>&lt;/p>
-&lt;blockquote>
-&lt;p>/ to input a search term with Vim&lt;/p></description></item><item><title>💻 Cron table</title><link>https://csmertx.github.io/Linux/Assorted/crontab/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/crontab/</guid><description>&lt;br />
+&lt;p>Look for: &lt;code>set gfxmode=${GRUB_GFXMODE}&lt;/code>&lt;/p></description></item><item><title>💻 Cron table</title><link>https://csmertx.github.io/Linux/Assorted/crontab/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/crontab/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="to-edit">
  To edit..
@@ -233,32 +223,8 @@ fi
 min hour(24hr) day (month) month day (week)
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>
-&lt;p>Example: 02 12 * * * &lt;command> == run &lt;command >once at 10:05PM everyday&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Simple: minute hour (24hr)&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="cron-location-in-filesystem">
- Cron location in filesystem
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/crontab/#cron-location-in-filesystem" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cron location in filesystem" href="#cron-location-in-filesystem">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>&lt;code>/var/spool/cron&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="resources">
- Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/crontab/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://crontab.guru">Crontab Guru: The quick and simple editor for cron schedule expressions&lt;/a>&lt;/p></description></item><item><title>💻 Disk Destroyer (DD)</title><link>https://csmertx.github.io/Linux/Assorted/dd/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/dd/</guid><description>&lt;br />
+&lt;p>Example: 02 12 * * * &lt;command> == run &lt;command >once at 10:05PM everyday&lt;/p></description></item><item><title>💻 Disk Destroyer (DD)</title><link>https://csmertx.github.io/Linux/Assorted/dd/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/dd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>An earned reputation for destroying all the things&lt;/p>
 &lt;/blockquote>
@@ -335,7 +301,8 @@ min hour(24hr) day (month) month day (week)
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;blockquote>
-&lt;p>MakeMKV for copying media is highly recommended&lt;/p></description></item><item><title>💻 GnuPG</title><link>https://csmertx.github.io/Linux/Assorted/gpg/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/gpg/</guid><description>&lt;br />
+&lt;p>MakeMKV for copying media is highly recommended&lt;/p></description></item><item><title>💻 GnuPG</title><link>https://csmertx.github.io/Linux/Assorted/gpg/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/gpg/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="create-new-key">
  Create New Key
@@ -368,22 +335,8 @@ min hour(24hr) day (month) month day (week)
 &lt;p>&lt;code>gpg -d -o /dir/examplefile /dir/examplefile.(gz.)gpg&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>shred /dir/examplefile&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>rm /dir/examplefile&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="encryptdecrypt-folders">
- Encrypt/Decrypt Folder(s)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/gpg/#encryptdecrypt-folders" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Encrypt/Decrypt Folder(s)" href="#encryptdecrypt-folders">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>First convert the folder(s) to file&lt;/p></description></item><item><title>💻 Grep</title><link>https://csmertx.github.io/Linux/Assorted/grep/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grep/</guid><description>&lt;br />
+&lt;p>&lt;code>shred /dir/examplefile&lt;/code>&lt;/p></description></item><item><title>💻 Grep</title><link>https://csmertx.github.io/Linux/Assorted/grep/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grep/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="recursive-matching">
  Recursive matching
@@ -445,7 +398,8 @@ min hour(24hr) day (month) month day (week)
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;blockquote>
-&lt;p>.txt, .mp3, .svg, .sh, .bash, .conf, etc.&lt;/p></description></item><item><title>💻 Grub</title><link>https://csmertx.github.io/Linux/Assorted/grub/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grub/</guid><description>&lt;br />
+&lt;p>.txt, .mp3, .svg, .sh, .bash, .conf, etc.&lt;/p></description></item><item><title>💻 Grub</title><link>https://csmertx.github.io/Linux/Assorted/grub/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grub/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Commonly refered to as Grub&lt;/p>
 &lt;/blockquote>
@@ -473,22 +427,8 @@ min hour(24hr) day (month) month day (week)
 &lt;li>
 &lt;p>&lt;code>GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0 vt.global_cursor_default=0&amp;quot; &lt;/code>&lt;/p>
 &lt;blockquote>
-&lt;p>&amp;hellip; is probably necessary to boot the system&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Admin Friendly Configuration&lt;/p>
-&lt;blockquote>
-&lt;p>I believe this keeps the console clear of kernel messaging&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>&lt;code>GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0&amp;quot;&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>For those extra grumpy kernel messages&lt;/p></description></item><item><title>💻 Logical Volume Manager</title><link>https://csmertx.github.io/Linux/Assorted/lvm/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/lvm/</guid><description>&lt;br />
+&lt;p>&amp;hellip; is probably necessary to boot the system&lt;/p></description></item><item><title>💻 Logical Volume Manager</title><link>https://csmertx.github.io/Linux/Assorted/lvm/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/lvm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>LVM2 (2020-02-18)&lt;/p>
 &lt;/blockquote>
@@ -537,7 +477,8 @@ min hour(24hr) day (month) month day (week)
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/deployment_guide/ch-lvm">RedHat: Chapter 11. LVM (Logical Volume Manger)&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Networking</title><link>https://csmertx.github.io/Linux/Assorted/networking/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/networking/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Networking</title><link>https://csmertx.github.io/Linux/Assorted/networking/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/networking/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h1 id="general-networking">
  General networking
@@ -582,12 +523,8 @@ min hour(24hr) day (month) month day (week)
 &lt;p>&lt;code>auto eth0&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>allow-hotplug eth0&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>iface eth0 inet dhcp&lt;/code>&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>💻 Static IP</title><link>https://csmertx.github.io/Linux/Assorted/static_ip/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/static_ip/</guid><description>&lt;br />
+&lt;p>&lt;code>allow-hotplug eth0&lt;/code>&lt;/p></description></item><item><title>💻 Static IP</title><link>https://csmertx.github.io/Linux/Assorted/static_ip/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/static_ip/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="local-static-ip-qemukvm">
  Local Static IP (QEMU/KVM)
@@ -622,7 +559,8 @@ min hour(24hr) day (month) month day (week)
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>sudov /etc/sysconfig/network&lt;/code>&lt;/p></description></item><item><title>💻 Swap Memory</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description>&lt;br />
+&lt;p>&lt;code>sudov /etc/sysconfig/network&lt;/code>&lt;/p></description></item><item><title>💻 Swap Memory</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="a-swapfile-1g">
  A swapfile (1G)
@@ -660,7 +598,8 @@ min hour(24hr) day (month) month day (week)
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://www.linux.com/news/all-about-linux-swap-space/">Linux.com: All about Linux swap space&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Systemd Journal</title><link>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</guid><description>&lt;br />
+&lt;/ul></description></item><item><title>💻 Systemd Journal</title><link>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h1 id="linux-system-journal">
  Linux System Journal
@@ -697,9 +636,8 @@ min hour(24hr) day (month) month day (week)
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://www.linux.com/training-tutorials/understanding-and-using-systemd/">Linux.com: Understanding and Using Systemd&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org/title/Systemd">Arch Wiki: Systemd&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>💻 Time</title><link>https://csmertx.github.io/Linux/Assorted/time/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/time/</guid><description>&lt;br />
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org/title/Systemd">Arch Wiki: Systemd&lt;/a>&lt;/p></description></item><item><title>💻 Time</title><link>https://csmertx.github.io/Linux/Assorted/time/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/time/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="set-local-time">
  Set Local Time
@@ -764,10 +702,8 @@ min hour(24hr) day (month) month day (week)
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://linuxize.com/post/linux-time-command/">Linuxize: Linux Time Command&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.cyberciti.biz/faq/linux-unix-formatting-dates-for-display/">nixCraft: How To Format Date For Display or Use In a Shell Script&lt;/a>&lt;/p></description></item><item><title>💻 Virtual Console</title><link>https://csmertx.github.io/Linux/Assorted/vconsole/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/vconsole/</guid><description>&lt;br />
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://linuxize.com/post/linux-time-command/">Linuxize: Linux Time Command&lt;/a>&lt;/p></description></item><item><title>💻 Virtual Console</title><link>https://csmertx.github.io/Linux/Assorted/vconsole/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/vconsole/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Same as &lt;a class="gdoc-markdown__link" href="../../Linux/Assorted/admin">Administration&lt;/a>&lt;/p>
 &lt;/blockquote>
@@ -807,23 +743,8 @@ min hour(24hr) day (month) month day (week)
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>Unattended&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;code>echo &amp;quot;user:password&amp;quot; | chpasswd&lt;/code>&lt;/p>
-&lt;blockquote>
-&lt;p>Only as root&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Normal&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;code>passwd user&lt;/code>&lt;/p>
-&lt;blockquote>
-&lt;p>User passwd&lt;/p></description></item><item><title>💻 X resources</title><link>https://csmertx.github.io/Linux/Assorted/xresources/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xresources/</guid><description>&lt;br />
+&lt;p>Unattended&lt;/p></description></item><item><title>💻 X resources</title><link>https://csmertx.github.io/Linux/Assorted/xresources/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xresources/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Set padding, DPI, anti-alising, Xcursor theme, X font settings, etc.&lt;/p>
 &lt;/blockquote>
@@ -891,7 +812,8 @@ XTerm.vt100.geometry: 100x35
 *.color7: #b9b9b9
 *.color15: #2e2e2e
 &lt;/code>&lt;/pre>&lt;blockquote>
-&lt;p>Example fixes some common font and color rendering issues (Arch, Slackware, etc.)&lt;/p></description></item><item><title>💻 Xmodmap</title><link>https://csmertx.github.io/Linux/Assorted/xmodmap/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xmodmap/</guid><description>&lt;br />
+&lt;p>Example fixes some common font and color rendering issues (Arch, Slackware, etc.)&lt;/p></description></item><item><title>💻 Xmodmap</title><link>https://csmertx.github.io/Linux/Assorted/xmodmap/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xmodmap/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>Only for Xorg desktops (No Wayland support atm)&lt;/p>
 &lt;/blockquote>
@@ -904,7 +826,8 @@ XTerm.vt100.geometry: 100x35
  &lt;/h2>
 &lt;/div>&lt;p>Remapping Caps Lock as a modifier key for navigation (hjkl ui nm)&lt;/p>
 &lt;blockquote>
-&lt;p>Mapped keys: h = &lt;code>Left&lt;/code>, j = &lt;code>Down&lt;/code>, k = &lt;code>Up&lt;/code>, l = &lt;code>Right&lt;/code>, u = &lt;code>PGDN&lt;/code>, i = &lt;code>PGUP&lt;/code>, n = &lt;code>Home&lt;/code>, m = &lt;code>End&lt;/code>&lt;/p></description></item><item><title>💻 XrandR</title><link>https://csmertx.github.io/Linux/Assorted/xrandr/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xrandr/</guid><description>&lt;br />
+&lt;p>Mapped keys: h = &lt;code>Left&lt;/code>, j = &lt;code>Down&lt;/code>, k = &lt;code>Up&lt;/code>, l = &lt;code>Right&lt;/code>, u = &lt;code>PGDN&lt;/code>, i = &lt;code>PGUP&lt;/code>, n = &lt;code>Home&lt;/code>, m = &lt;code>End&lt;/code>&lt;/p></description></item><item><title>💻 XrandR</title><link>https://csmertx.github.io/Linux/Assorted/xrandr/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xrandr/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="mode-not-displayed">
  Mode Not Displayed
@@ -925,10 +848,4 @@ XTerm.vt100.geometry: 100x35
 &lt;li>
 &lt;p>&lt;code>sudo xrandr --newmode [...copied line minus the word Modeline...]&lt;/code>&lt;/p>
 &lt;blockquote>
-&lt;p>The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>sudo xrandr --addmode {vga,Virtual}-{0,1} &amp;quot;1600x900_60.00&amp;quot; #Virtual-1&lt;/code>&lt;/p>
-&lt;blockquote>
-&lt;p>Included Virtual for Virtual Machines (Slackware can be tricky)&lt;/p></description></item></channel></rss>
+&lt;p>The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline&lt;/p></description></item></channel></rss>

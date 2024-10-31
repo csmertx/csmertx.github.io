@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 FreeBSD (OS) on CSx</title><link>https://csmertx.github.io/Unix/FreeBSD/</link><description>Recent content in 💻 FreeBSD (OS) on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Unix/FreeBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 FreeBSD Installation</title><link>https://csmertx.github.io/Unix/FreeBSD/freebsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/FreeBSD/freebsd/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 FreeBSD (OS) on CSx</title><link>https://csmertx.github.io/Unix/FreeBSD/</link><description>Recent content in 💻 FreeBSD (OS) on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Unix/FreeBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 FreeBSD Installation</title><link>https://csmertx.github.io/Unix/FreeBSD/freebsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/FreeBSD/freebsd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>This page was created before 2022&lt;/p>
 &lt;/blockquote>
@@ -29,19 +30,4 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>Boot into the installed system before completing any of the following!&lt;/p>
-&lt;blockquote>
-&lt;p>Full installation is covered via FreeBSD Handbook linked above&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="wifi-troubles">
- Wifi troubles..
- &lt;a data-clipboard-text="https://csmertx.github.io/Unix/FreeBSD/freebsd/#wifi-troubles" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Wifi troubles.." href="#wifi-troubles">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;code>vim /etc/rc.conf&lt;/code>&lt;/p></description></item></channel></rss>
+&lt;p>Boot into the installed system before completing any of the following!&lt;/p></description></item></channel></rss>

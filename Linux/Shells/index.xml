@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Shells on CSx</title><link>https://csmertx.github.io/Linux/Shells/</link><description>Recent content in 💻 Shells on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Shells/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Bash</title><link>https://csmertx.github.io/Linux/Shells/bash/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/bash/</guid><description>&lt;br />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Shells on CSx</title><link>https://csmertx.github.io/Linux/Shells/</link><description>Recent content in 💻 Shells on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Shells/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Bash</title><link>https://csmertx.github.io/Linux/Shells/bash/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/bash/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;blockquote>
 &lt;p>If you want scripts that are works of art check out Stack Overflow.&lt;/p>
 &lt;/blockquote>
@@ -27,34 +28,8 @@
 &lt;p>&lt;code>sudo apt-get install bash-completion&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>vim ~/.bashrc&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>++ source /etc/profile.d/bash_completion.sh
-&lt;/code>&lt;/pre>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Arch&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;code>sudo pacman -S bash-completion&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;code>vim ~/.bashrc&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>++ source /usr/share/bash-completion/bash_completion
-&lt;/code>&lt;/pre>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="arguments-on-the-command-line">
- Arguments on the command line
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Shells/bash/#arguments-on-the-command-line" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Arguments on the command line" href="#arguments-on-the-command-line">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;code>$@&lt;/code> All user issued args&lt;/p></description></item><item><title>💻 ZSH</title><link>https://csmertx.github.io/Linux/Shells/zsh/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/zsh/</guid><description>&lt;br />
+&lt;p>&lt;code>vim ~/.bashrc&lt;/code>&lt;/p></description></item><item><title>💻 ZSH</title><link>https://csmertx.github.io/Linux/Shells/zsh/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/zsh/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h3 id="add-pause-to-zshrc">
  Add Pause to ~/.zshrc
