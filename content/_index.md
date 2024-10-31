@@ -113,7 +113,7 @@ Read more about that if you want here: 🔗 [Day & Night Blog \ Chris Schammert]
 
 > I dropped Jennifer Nestor off at Florida Atlantic University (with her car), and she probably got a ride to that house (Oakland Park?) to brainstorm new tactics. I should have known something was up when she never had 'homework'. Everyone studies. Midterms, finals, etc.. She randomly stopped going to class. And no white collared property owner (her uncle) would look as composed as her uncle did inside a 'drug den' (Palm Beach County / Broward County). Unless he was surrounded by accomplices. IIRC his personal home is close to A1A. They also exploit weaknesses in others (in private) like love (me), drinking, hard drugs, sex, and are not afraid to extort and exploit if the opportunity is present. Everyone in that room looked like they were waiting for a meeting to start. One woman was sitting at a small breakfast type dining table (one chair) near the front entrance doing nothing at all. No texting, no solitaire, just observing.
 
-> These individuals also have no issues using tragic news stories to make gullible or vulnerable people feel guilty about their actions.
+> These individuals also have no issues using tragic news stories to make gullible or vulnerable people feel guilty about their actions. Coercion as well.
 
 > Stock image used by the Cloud Native Computing Foundation (Email sent out on: 10-09-2024 by the Linux Foundation)
 
