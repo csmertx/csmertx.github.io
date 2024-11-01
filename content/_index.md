@@ -71,9 +71,13 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 <div style="text-align: center;">
 
-The image above leads to the main navigation [🔗 page](pad "Click here for the Navigation Page").
+The image above leads to the 🔗 [main navigation page](pad "Click here for the Navigation Page").
 
 ---
+
+## Public Service Announcement for the Linux Community
+
+<br>
 
 @chris.schammert on Facebook is part of a family hitchhiking on our family name.
 
@@ -85,11 +89,15 @@ Read more about that if you want here: 🔗 [Day & Night Blog \ Chris Schammert]
 
 ![Photo](/KCNA24_Keynotes_stock_image_raymond_yuan_jennifer_nestor.png "Jennifer Nestor and Raymond Yuan (?) posing for stock conference photo")
 
-> Jennifer Nestor and possibly Raymond Yuan (Chinese American--his family owned a Chinese restaurant in Palm Beach County). Nestor (aka Nessie) specialized in human resources while working for the local movie theater chain of Palm Beach County before going into karaoke hosting.
+> ![here.](/KCNA24_Keynotes.png "Kubecon/CloudNativecon Keynote advertisement image via Linux Foundation email (10/09/2024)")
+
+> Original uncropped image
 
 > Stock image used by the Cloud Native Computing Foundation (Email sent out on: 10-09-2024 by the Linux Foundation)
 
-> Original uncropped image can be found 🔗 [here.](/KCNA24_Keynotes.png "Kubecon/CloudNativecon Keynote advertisement image via Linux Foundation email (10/09/2024)")
+<br>
+
+Jennifer Nestor and possibly Raymond Yuan (Chinese American--his family owned a Chinese restaurant in Palm Beach County). Nestor (aka Nessie) specialized in human resources while working for the local movie theater chain of Palm Beach County before going into karaoke hosting.
 
 </div>
 
