@@ -91,7 +91,7 @@ Read more about that if you want here: 🔗 [Day & Night Blog \ Chris Schammert]
 
 > Jennifer Nestor and possibly Raymond Yuan (Chinese American--his family owned a Chinese restaurant in Palm Beach County). She specialized in human resources while working for the local movie theater chain of Palm Beach County before going into karaoke hosting.
 
-> After mimicking her roommate (blanking on her roommate's name, but she taught Nestor how to host karaoke events and incidentally act like a skater girl. She also dated a guy named Rufus) she talked me into living in South Florida (Spring of 2008). While we were still dating (and her persona faded), she dated Yuan (he used my razor--she bragged about that) as I worked 90 hour weeks at Pompano Park via United Tote vendor. Operator by day and technician by night.
+> After mimicking her roommate (blanking on her roommate's name (Lenny?), but she taught Nestor how to host karaoke events and incidentally act like a skater girl. She also dated a guy named Rufus) she talked me into living in South Florida (Spring of 2008). While we were still dating (and her persona faded), she dated Yuan (he used my razor--she bragged about that) as I worked 90 hour weeks at Pompano Park via United Tote vendor. Operator by day and technician by night.
 
 > Yuan favors glocks, possibly hollow points (more stopping power, less likely to pierce threw walls), and probably has it concealed. He plays games like Oblivion, but he consistently appeared inpatient while attempting to extract information.
 
