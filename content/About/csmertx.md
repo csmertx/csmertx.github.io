@@ -228,27 +228,6 @@ I've seen enough to make me skeptical that it all just ends.
     - Yay: [🔗 Go based AUR package manager](https://github.com/Jguer/yay)
 
 
-## Skateboarding (1992 - 2005, 2022 - ?)
-
-> Skateboarding is a part of my identity. And the videos are full of great music too.
-
-- How skate decks are made (before bamboo and or carbon fiber skateboard decks):
-
-    - [🔗 Transworld Skateboarding: Skateboard Science](https://skateboarding.transworld.net/news/skateboard-science/)
-
-- The 'Godfather' of street skating and kickflip imaginer:
-
-    - [🔗 Networth Post | Rodney Mullen's net worth (~)](https://networthpost.org/net-worth/rodney-mullen-net-worth/)
-
-- Rodney Mullen spoke of Open Source and Linux in his TED Talk:
-
-    - [🔗 YouTube | Pop an ollie and innovate! (Ted Talk)](https://www.youtube.com/watch?v=3GVO-MfIl1Q)
-
-- Skateboarding Stereotypes
-    
-    - Speaking of stereos. Jason Lee (My Name Is Earl, Mallrats, etc.) is a professional skateboarder, actor, filmmaker, and photographer that rode for Blind Skateboards, and founded Stereo Skateboards.
-
-
 ## Unsolicited non-fiction book recommendations
 
 - ```Moonwalking with Einstein```, by Joshua Foer
