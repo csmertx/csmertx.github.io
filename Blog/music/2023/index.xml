@@ -1,1 +1,471 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🎸 2023 on CSx</title><link>https://csmertx.github.io/Blog/music/2023/</link><description>Recent content in 🎸 2023 on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Blog/music/2023/index.xml" rel="self" type="application/rss+xml"/><item><title>🎸 12-23</title><link>https://csmertx.github.io/Blog/music/2023/1223/</link><pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/1223/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 11-23</title><link>https://csmertx.github.io/Blog/music/2023/1123/</link><pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/1123/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 10-23</title><link>https://csmertx.github.io/Blog/music/2023/1023/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/1023/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 09-23</title><link>https://csmertx.github.io/Blog/music/2023/0923/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0923/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 08-23</title><link>https://csmertx.github.io/Blog/music/2023/0823/</link><pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0823/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 07-23</title><link>https://csmertx.github.io/Blog/music/2023/0723/</link><pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0723/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 06-23</title><link>https://csmertx.github.io/Blog/music/2023/0623/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0623/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 05-23</title><link>https://csmertx.github.io/Blog/music/2023/0523/</link><pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0523/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 04-23</title><link>https://csmertx.github.io/Blog/music/2023/0423/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0423/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 03-23</title><link>https://csmertx.github.io/Blog/music/2023/0323/</link><pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0323/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 02-23</title><link>https://csmertx.github.io/Blog/music/2023/0223/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0223/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 01-23</title><link>https://csmertx.github.io/Blog/music/2023/0123/</link><pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0123/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🎸 2023 on CSx</title><link>https://csmertx.github.io/Blog/music/2023/</link><description>Recent content in 🎸 2023 on CSx</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Blog/music/2023/index.xml" rel="self" type="application/rss+xml"/><item><title>🎸 12-23</title><link>https://csmertx.github.io/Blog/music/2023/1223/</link><pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/1223/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 11-23</title><link>https://csmertx.github.io/Blog/music/2023/1123/</link><pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/1123/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 10-23</title><link>https://csmertx.github.io/Blog/music/2023/1023/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/1023/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 09-23</title><link>https://csmertx.github.io/Blog/music/2023/0923/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0923/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 08-23</title><link>https://csmertx.github.io/Blog/music/2023/0823/</link><pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0823/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 07-23</title><link>https://csmertx.github.io/Blog/music/2023/0723/</link><pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0723/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 06-23</title><link>https://csmertx.github.io/Blog/music/2023/0623/</link><pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0623/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 05-23</title><link>https://csmertx.github.io/Blog/music/2023/0523/</link><pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0523/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 04-23</title><link>https://csmertx.github.io/Blog/music/2023/0423/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0423/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 03-23</title><link>https://csmertx.github.io/Blog/music/2023/0323/</link><pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0323/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 02-23</title><link>https://csmertx.github.io/Blog/music/2023/0223/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0223/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 01-23</title><link>https://csmertx.github.io/Blog/music/2023/0123/</link><pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/0123/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title/><link>https://csmertx.github.io/Blog/music/2023/csx_playlist_241103/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2023/csx_playlist_241103/</guid><description>&lt;html>
+
+&lt;h1>
+
+CSx Playlist 11/02/2024
+
+&lt;/h1>
+
+&lt;body>
+
+&lt;h2>January 2023&lt;/h2>
+
+1. &lt;a href="https://www.youtube.com/watch?v=eqq64uTkA2c">They Live! (Trevor Loveys Remix) (They Live!)&lt;/a>
+&lt;/br>
+2. &lt;a href="https://www.youtube.com/watch?v=K4dx42YzQCE">The White Stripes - The Hardest Button To Button (Elephant)&lt;/a>
+&lt;/br>
+3. &lt;a href="https://www.youtube.com/watch?v=av3tTJHOrQE">Thrice - For Miles (Vheissu)&lt;/a>
+&lt;/br>
+4. &lt;a href="https://www.youtube.com/watch?v=Cht7jlbnKl8">Ratatat - Sunblocks (LP4)&lt;/a>
+&lt;/br>
+5. &lt;a href="https://www.youtube.com/watch?v=Fk8qcGOtBFw">Ratatat - Mirando (Official Video) (LP3)&lt;/a>
+&lt;/br>
+6. &lt;a href="https://www.youtube.com/watch?v=s-zGL3TtNvs">Darren Korb - Slinger's Song (Bastion Soundtrack)&lt;/a>
+&lt;/br>
+7. &lt;a href="https://www.youtube.com/watch?v=QTcJq80GeLw)">Beastie Boys - Triple Trouble (To The 5 Boroughs)&lt;/a>
+&lt;/br>
+8. &lt;a href="https://www.youtube.com/watch?v=pWBjl-jPcVM">Trans-Siberian Orchestra - Wizards in Winter (The Lost Christmas Eve)&lt;/a>
+&lt;/br>
+9. &lt;a href="https://www.youtube.com/watch?v=lm5gVh0VqVU">Hiroshi Kawaguchi - Main Theme (Arranged) S.S.T.Band (Space Harrier Soundtrack)&lt;/a>
+&lt;/br>
+10. &lt;a href="https://www.youtube.com/watch?v=HyHNuVaZJ-k">Gorillaz - Feel Good Inc. (Official Video) (Demon Days)&lt;/a>
+&lt;/br>
+11. &lt;a href="https://www.youtube.com/watch?v=iO99rR7OVZ8">Jurassic 5 - Linguistics (Linguistics EP)&lt;/a>
+&lt;/br>
+12. &lt;a href="https://www.youtube.com/watch?v=sjb9AxDkwAQ">The Beatles - Good Morning Good Morning (Sgt. Pepper's Lonely Hearts Club Band)&lt;/a>
+&lt;/br>
+13. &lt;a href="https://www.youtube.com/watch?v=7rw5ihxrl4Y">The Living Graham Bond - Winter Hunter Ft. Fiona Bevan (Bare Noize Remix) (The Living Graham Bond Remixes)&lt;/a>
+&lt;/br>
+14. &lt;a href="https://www.youtube.com/watch?v=SUbo9i20zGY">The Bus Boys - Cleanin' Up The Town (Ghostbusters Soundtrack (1983))&lt;/a>
+&lt;/br>
+15. &lt;a href="https://www.youtube.com/watch?v=Eq6EYcpWB_c">Nujabes feat. Shing02 - Battlecry (Samurai Champloo Music Record: Departure)&lt;/a>
+&lt;/br>
+16. &lt;a href="https://www.youtube.com/watch?v=Hjvo0ruiGGs">Laura Branigan - Hot Night (Ghostbusters Soundtrack(1983))&lt;/a>
+&lt;/br>
+17. &lt;a href="https://www.youtube.com/watch?v=Wrk0Sy-mhSQ">Inf - Rubber Dubby (The Go Round)&lt;/a>
+&lt;/br>
+18. &lt;a href="https://www.youtube.com/watch?v=cpDi8but9sQ">R. Circles - Death Rides a Horse (Enter)&lt;/a>
+&lt;/br>
+19. &lt;a href="https://www.youtube.com/watch?v=7T_KKiQiolk">Aesop Rock - Kirby (Official Video) (The Impossible Kid)&lt;/a>
+&lt;/br>
+20. &lt;a href="https://www.youtube.com/watch?v=V9Ty3YnWN80">Godspeed You! Black Emperor - East Hastings (F♯ A♯ ∞)&lt;/a>
+&lt;/br>
+21. &lt;a href="https://www.youtube.com/watch?v=04JfAt0Oa-Y">Aesop Rock - Jumping Coffin (Official Video) (Spirit World Field Guide)&lt;/a>
+&lt;/br>
+22. &lt;a href="https://www.youtube.com/watch?v=XQN78fUpSwY">Aesop Rock - The Gates (Official Video) (Spirit World Field Guide)&lt;/a>
+&lt;/br>
+23. &lt;a href="https://www.youtube.com/watch?v=HLUX0y4EptA">Flobots - Handlebars (Official Video) (Fight With Tools)&lt;/a>
+&lt;/br>
+24. &lt;a href="https://www.youtube.com/watch?v=u8tyqgRaY_g">Boards Of Canada - Telephasic Workshop (Music Has the Right to Children)&lt;/a>
+&lt;/br>
+25. &lt;a href="https://www.youtube.com/watch?v=IK5I4cTkL-E">Little People - Moon (Mickey Mouse Operation)&lt;/a>
+&lt;/br>
+26. &lt;a href="https://www.youtube.com/watch?v=pd0VDkZphmU">cln - Dayum (Sideways EP)&lt;/a>
+&lt;/br>
+27. &lt;a href="https://www.youtube.com/watch?v=n9-HJu6osew">The Cramps - Surfin' Bird (Off The Bone)&lt;/a>
+&lt;/br>
+28. &lt;a href="https://www.youtube.com/watch?v=0Oyti58LzS8">DJ Shadow - The Mountain Will Fall (Official Video) (The Mountain Will Fall)&lt;/a>
+&lt;/br>
+29. &lt;a href="https://www.youtube.com/watch?v=b4aCHMOP_w8">DJ Shadow - Bergschrund (Official Video) (The Mountain Will Fall)&lt;/a>
+&lt;/br>
+30. &lt;a href="https://www.youtube.com/watch?v=NRT6uvLWPPo">God Is An Astronaut - Helios Erebus (Helios Erebus)&lt;/a>
+&lt;/br>
+31. &lt;a href="https://www.youtube.com/watch?v=rxjrBd4WE2U">RJD2 - Work It Out (Official Video) (The Third Hand)&lt;/a>
+&lt;/br>
+32. &lt;a href="https://www.youtube.com/watch?v=PUf9_1jsCyY">R. Circles - Gnosis (Official Video) (Gnosis)&lt;/a>
+&lt;/br>
+33. &lt;a href="https://www.youtube.com/watch?v=Ai9JXKrJ9tA">Norman Rockwell - Somebody's Watching Me (A-Team Skate Ad) (Somebody's Watching Me)&lt;/a>
+&lt;/br>
+
+&lt;h2>February 2023&lt;/h2>
+
+&lt;/br>
+34. &lt;a href="https://www.youtube.com/watch?v=ldUPODMm7G0">Rooney - Sleep Song (Calling The World)&lt;/a>
+&lt;/br>
+35. &lt;a href="https://www.youtube.com/watch?v=cyn0DVSn96I">Q Lazzarus- Goodbye Horses (Marc Johnson - Fully Flared) (Goodbye Horses)&lt;/a>
+&lt;/br>
+36. &lt;a href="https://youtu.be/cyn0DVSn96I?t=261">Fischerspooner - All We Are (Marc Johnson - Fully Flared) (Odyssey)&lt;/a>
+&lt;/br>
+37. &lt;a href="https://youtu.be/cyn0DVSn96I?t=531">She Wants Revenge - Us (Marc Johnson - Fully Flared) (She Wants Revenge)&lt;/a>
+&lt;/br>
+38. &lt;a href="https://www.youtube.com/watch?v=uN_LiD-ehE8">Aesop Rock - All Day (Nike+ ORIGINAL RUN)&lt;/a>
+&lt;/br>
+39. &lt;a href="https://www.youtube.com/watch?v=98zXRczeXV0&amp;list=PL88D66D0AD28632B3&amp;index=6">Ratatat - Beat 6 (9 Beats)&lt;/a>
+&lt;/br>
+40. &lt;a href="https://www.youtube.com/watch?v=d0s0XHVUGF0">Danny Brown - 25 Bucks ft. Purity Ring (Official Video) (Old) [NSFW]&lt;/a>
+&lt;/br>
+41. &lt;a href="https://www.youtube.com/watch?v=4vjMMGl0clc">Blockhead - Gilgamesh (Dour Candy Instrumentals)&lt;/a>
+&lt;/br>
+42. &lt;a href="https://www.youtube.com/watch?v=E22dmoQqSX4">R. Circles - Harper Lewis (Station)&lt;/a>
+&lt;/br>
+43. &lt;a href="https://www.youtube.com/watch?v=MMRXts9h9Zo">Doomtree - The Bends (All Hands)&lt;/a>
+&lt;/br>
+44. &lt;a href="https://www.youtube.com/watch?v=34zXy7R_Eek">Beastie Boys - Shazam! (To The 5 Boroughs)&lt;/a>
+&lt;/br>
+45. &lt;a href="https://www.youtube.com/watch?v=qORYO0atB6g">Beastie Boys - Intergalactic (Official Video) (Hello Nasty)&lt;/a>
+&lt;/br>
+46. &lt;a href="https://www.youtube.com/watch?v=N1iUN-J-lSs">Aesop Rock - Drums on the Wheel (Freedom Finger Soundtrack)&lt;/a>
+&lt;/br>
+47. &lt;a href="https://www.youtube.com/watch?v=G_sBOsh-vyI">Muse - Knights of Cydonia (Official Video) (Black Holes and Revelations) [NSFW]&lt;/a>
+&lt;/br>
+48. &lt;a href="https://www.youtube.com/watch?v=46peQ3xriqA">Thrice - Between the End and Where We Lie (Vheissu)&lt;/a>
+&lt;/br>
+49. &lt;a href="https://www.youtube.com/watch?v=zTfdILFoBTU">Bad Religion - Generator (Generator) [NSFW]&lt;/a>
+&lt;/br>
+50. &lt;a href="https://www.youtube.com/watch?v=oLzos0MFmgY">Beastie Boys - Oh Word (To The 5 Boroughs)&lt;/a>
+&lt;/br>
+51. &lt;a href="https://www.youtube.com/watch?v=aJCeCWFffVA">Dead Prez - Animal in Man (Let's Get Free) [NSFW]&lt;/a>
+&lt;/br>
+52. &lt;a href="https://www.youtube.com/watch?v=tArdmbr_znI">Ratatat - Wildcat (Classics)&lt;/a>
+&lt;/br>
+53. &lt;a href="https://www.youtube.com/watch?v=xlcywgEMuGI">Ratatat - Cream on Chrome (Official Video) (Magnifique)&lt;/a>
+&lt;/br>
+54. &lt;a href="https://www.youtube.com/watch?v=48yR03AX75o">Ratatat - Lex (Classics)&lt;/a>
+&lt;/br>
+55. &lt;a href="https://www.youtube.com/watch?v=TxkqfLzmeSQ">AlCaHoo Radio - Collateral (Official Animated Pixels Video) (AlCaHoo Radio)&lt;/a>
+&lt;/br>
+56. &lt;a href="https://www.youtube.com/watch?v=czsCvZnhei8&amp;t=545s">Powell Peralta - Ray Barbee's Part (Ban This)&lt;/a>
+&lt;/br>
+57. &lt;a href="https://www.youtube.com/watch?v=r7Hb4bxF12E">Bad Religion - Sorrow (The Process of Belief)&lt;/a>
+&lt;/br>
+58. &lt;a href="https://www.youtube.com/watch?v=TuJqUvBj4rE">Dan Deacon - When I Was Done Dying (Adult Swim Video) (Glass Riffer)&lt;/a>
+&lt;/br>
+
+&lt;h2>March 2023&lt;/h2>
+
+&lt;/br>
+59. &lt;a href="https://www.youtube.com/watch?v=YkikBQUtxHo">Runaway Horses - 56k Modem Vibing (Official Video) (YouTube)&lt;/a>
+&lt;/br>
+60. &lt;a href="https://www.youtube.com/watch?v=1zTkrPNNpkc">Ratatat - Seventeen Years (Unofficial Video) (Ratatat)&lt;/a>
+&lt;/br>
+61. &lt;a href="https://www.youtube.com/watch?v=eU5GhARsu_Y">Pink Floyd - Time (Radio Edit) (Dark Side of the Moon)&lt;/a>
+&lt;/br>
+
+&lt;h2>April 2023&lt;/h2>
+
+&lt;/br>
+62. &lt;a href="https://www.youtube.com/watch?v=1MsDPtPCpZ4">The Decemberists - Sons &amp; Daughters (The Crane Wife)&lt;/a>
+&lt;/br>
+63. &lt;a href="https://www.youtube.com/watch?v=0jgrCKhxE1s">DragonForce - Through the Fire and Flames (Official Video) (Inhuman Rampage)&lt;/a>
+&lt;/br>
+64. &lt;a href="https://www.youtube.com/watch?v=JiDnB-CrrNs">Killswitch Engage - The End Of Heartache (Official Video) (The End Of Heartache)&lt;/a>
+&lt;/br>
+65. &lt;a href="https://www.youtube.com/watch?v=JVNJH1ie6yk">DragonForce - Heros Of Our Time (Official Video) (Ultra Beatdown)&lt;/a>
+&lt;/br>
+66. &lt;a href="https://www.youtube.com/watch?v=L_1fTk93qAo">Guamu - Dying car alarm drops a beat (Full Version) (Guamu)&lt;/a>
+&lt;/br>
+67. &lt;a href="https://www.youtube.com/watch?v=PDU4awStHiY">Beastie Boys - Alright Hear This (Ill Communication) [NSFW]&lt;/a>
+&lt;/br>
+68. &lt;a href="https://www.youtube.com/watch?v=oxow-Bp91uM">Jeff Lynne - Video! (Official Video) (Single)&lt;/a>
+&lt;/br>
+69. &lt;a href="https://www.youtube.com/watch?v=UiO1s0bKMyI">Against Me! - T.S.R. (As the Eternal Cowboy) [NSFW]&lt;/a>
+&lt;/br>
+70. &lt;a href="https://www.youtube.com/watch?v=gVCVZQDmNVk">Against Me! - Unsubstantiated Rumors... (As the Eternal Cowboy) [NSFW]&lt;/a>
+&lt;/br>
+71. &lt;a href="https://www.youtube.com/watch?v=1D2zZbpsYjgk">Against Me! - Don't Lose Touch (Searching for a Former Clarity) (Official Video) [NSFW]&lt;/a>
+&lt;/br>
+
+&lt;h2>May 2023&lt;/h2>
+
+&lt;/br>
+72. &lt;a href="https://www.youtube.com/watch?v=xXp4GnC1Z3Q&amp;list=PLohYzz4btpaSYEpaiJHcMIk0EeabT46fu&amp;index=9">Ludwig Göransson - The Mandalorian (The Mandalorian: Chapter 1)&lt;/a>
+&lt;/br>
+73. &lt;a href="https://www.youtube.com/watch?v=FVmYKDKd5kE">AlCaHoo Radio - Stellar (AlCaHoo Radio)&lt;/a>
+&lt;/br>
+74. &lt;a href="https://www.youtube.com/watch?v=-dMrec59MxU">Death Grips - Lord of the Game ft. Mexican Girl (Leeside Skatepark Video) (Exmilitary) [NSFW]&lt;/a>
+&lt;/br>
+75. &lt;a href="https://www.youtube.com/watch?v=5M-jOZRe0-8">Bassnectar - Timestretch (Timestretch)&lt;/a>
+&lt;/br>
+76. &lt;a href="https://www.youtube.com/watch?v=Wywg4IlQqKU">Dragonforce - Reasons to Live (Ultra Beatdown)&lt;/a>
+&lt;/br>
+77. &lt;a href="https://www.youtube.com/watch?v=KWhnPhif5JU">Mt. Eden - Sierra Leon (Fan Made Video) (Myspace Edition)&lt;/a>
+&lt;/br>
+78. &lt;a href="https://www.youtube.com/watch?v=UdUWvlCaz-8">Imagine Dragons - It's Time (White Sea Remix) (Night Visions - 10th Anniversary Edition)&lt;/a>
+&lt;/br>
+79. &lt;a href="https://www.youtube.com/watch?v=iJvm-W8ktQM">Blind Guardian - At the Edge of Time (Beyond the Red Mirror)&lt;/a>
+&lt;/br>
+
+&lt;h2>June 2023&lt;/h2>
+
+&lt;/br>
+80. &lt;a href="https://www.youtube.com/watch?v=4uK5J0zTErQ">Blind Guardian - The Throne (Beyond the Red Mirror)&lt;/a>
+&lt;/br>
+81. &lt;a href="https://www.youtube.com/watch?v=ZzgXdbF2O3Y">Blind Guardian - Distant Memories (Beyond the Red Mirror)&lt;/a>
+&lt;/br>
+82. &lt;a href="https://www.youtube.com/watch?v=e6Y2qGK--NI">Blind Guardian - Sacred Worlds (At the Edge of Time)&lt;/a>
+&lt;/br>
+83. &lt;a href="https://www.youtube.com/watch?v=ETbGpGJNVLM">Purity Ring - Obedear (Shrines)&lt;/a>
+&lt;/br>
+84. &lt;a href="https://www.youtube.com/watch?v=pPD8Ja64mRU">The Knife - Heartbeats (Heartbeats)&lt;/a>
+&lt;/br>
+85. &lt;a href="https://www.youtube.com/watch?v=LQiOA7euaYA">Talking Heads - Road to Nowhere (Official Video) (Little Creatures)&lt;/a>
+&lt;/br>
+86. &lt;a href="https://www.youtube.com/watch?v=aQUlA8Hcv4s">Electric Light Orchestra (ELO) - Mr. Blue Sky (Official Video) (All Over The World)&lt;/a>
+&lt;/br>
+
+&lt;h2>July 2023&lt;/h2>
+
+&lt;/br>
+87. &lt;a href="https://www.youtube.com/watch?v=vHdCCc1T8os">Blind Guardian - Otherland (A Twist in the Myth)&lt;/a>
+&lt;/br>
+88. &lt;a href="https://www.youtube.com/watch?v=ds6_hWbuW-g">Blind Guardian - Otherland (Live Recording) (A Twist in the Myth)&lt;/a>
+&lt;/br>
+89. &lt;a href="https://www.youtube.com/watch?v=mwbaXHRuvzM">Black Box - Boss Fight (Metallic)&lt;/a>
+&lt;/br>
+90. &lt;a href="https://www.youtube.com/watch?v=2Ebw6k0l6ds">Aesop Rock - Coveralls (Official Video) (Spirit World Field Guide) [NSFW]&lt;/a>
+&lt;/br>
+
+&lt;h2>August 2023&lt;/h2>
+
+&lt;/br>
+91. &lt;a href="https://www.youtube.com/watch?v=3aB6CPyO0Ww">Blind Guardian - Time Stands Still (At The Iron Hill) (Nightfall in Middle-Earth)&lt;/a>
+&lt;/br>
+92. &lt;a href="https://www.youtube.com/watch?v=chtiP7Q6AwM">Kazuo Sawa, Toshiko Tasaki - Totally Rad (OST)&lt;/a>
+&lt;/br>
+93. &lt;a href="https://www.youtube.com/watch?v=OWDwiIM-1vQ">Aesop Rock - Abandon All Hope (Music For Earthworms) (Official Video) [NSFW]&lt;/a>
+&lt;/br>
+94. &lt;a href="https://www.youtube.com/watch?v=1d7NDS0agWA">Blind Guardian - Life Beyond The Spheres (The God Machine) (Official Video)&lt;/a>
+&lt;/br>
+95. &lt;a href="https://www.youtube.com/watch?v=mOKoLiOkWWQ">Savatage - Hall Of The Mountain King (Official Music Video) (Hall Of The Mountain King)&lt;/a>
+&lt;/br>
+96. &lt;a href="https://www.youtube.com/watch?v=ZNj88b2IRME">Blind Guardian - Thorn (Nightfall in Middle-Earth)&lt;/a>
+&lt;/br>
+97. &lt;a href="https://www.youtube.com/watch?v=DJkMHBIb9p0">Blind Guardian - Damnation (The God Machine)&lt;/a>
+&lt;/br>
+
+&lt;h2>September 2023&lt;/h2>
+
+&lt;/br>
+98. &lt;a href="https://www.youtube.com/watch?v=4bX_RtIo2hY">Aesop Rock - Grace (Skelethon) [NSFW]&lt;/a>
+&lt;/br>
+99. &lt;a href="https://www.youtube.com/watch?v=HPG7gYoqpHM">Blind Guardian - Imaginations from the Other Side (Imaginations from the Other Side)&lt;/a>
+&lt;/br>
+100. &lt;a href="https://www.youtube.com/watch?v=9RnGV4XOjZ8">Boards of Canada - Left Side Drive (Trans Canada Highway)&lt;/a>
+&lt;/br>
+101. &lt;a href="https://www.youtube.com/watch?v=2raxfQHXQv4">Nym - Derecho ft. Emancipator (Warm Blooded Lizard)&lt;/a>
+&lt;/br>
+102. &lt;a href="https://www.youtube.com/watch?v=0tvFaVT9JEg">Thrice - Red Sky (LIVE) (Vheissu)&lt;/a>
+&lt;/br>
+103. &lt;a href="https://www.youtube.com/watch?v=Z-vePSrRtlk">Thrice - Music Box (Vheissu)&lt;/a>
+&lt;/br>
+104. &lt;a href="https://www.youtube.com/watch?v=BLLsSlu7Mfs">Inf - The Go Round (The Go Round)&lt;/a>
+&lt;/br>
+105. &lt;a href="https://www.youtube.com/watch?v=H3vd4t1atSM">DragonForce - Doomsday Party (Official Video) (Doomsday Party)&lt;/a>
+&lt;/br>
+
+&lt;h2>October 2023&lt;/h2>
+
+&lt;/br>
+106. &lt;a href="https://www.youtube.com/watch?v=UNq9gmY_Oz4">Green Day - Brain Stew (Official Video) (Insomniac)&lt;/a>
+&lt;/br>
+107. &lt;a href="https://www.youtube.com/watch?v=uAOR6ib95kQ">Gorillaz - Dare (Official Video) (Demon Days)&lt;/a>
+&lt;/br>
+108. &lt;a href="https://www.youtube.com/watch?v=VufilzHKTqk">Red Fang - Prehistoric Dog (Official Video) (Red Fang) [NSFW]&lt;/a>
+&lt;/br>
+109. &lt;a href="https://www.youtube.com/watch?v=LtR4ergUvCo">True Widow - Night Witches (As High As the Highest Heavens and From the Center to the Circumference of the Earth)&lt;/a>
+&lt;/br>
+110. &lt;a href="https://www.youtube.com/watch?v=1c3ggPZiF14">Jean Grae - A-Alikes (This Week)&lt;/a>
+&lt;/br>
+111. &lt;a href="https://www.youtube.com/watch?v=_MSydMfGdPs">Aesop Rock - Kodokushi (Spirit World Field Guide)&lt;/a>
+&lt;/br>
+112. &lt;a href="https://www.youtube.com/watch?v=tKE14p7Ws6M">The Radio Dept. - Bad Reputation (Annie Laurie)&lt;/a>
+&lt;/br>
+113. &lt;a href="https://www.youtube.com/watch?v=DJ9XypdAYMA">Aesop Rock - Play Dead (Freedom Finger Soundtrack) [NSFW?]&lt;/a>
+&lt;/br>
+114. &lt;a href="https://www.youtube.com/watch?v=dCsY1yUB4Wg&amp;list=OLAK5uy_k7jdJcRT-BtLK_PtfOeoUCw4HLFcT0Js0&amp;index=2">El-P - Squeegee Man Shooting (Fantastic Damage) [NSFW?]&lt;/a>
+&lt;/br>
+115. &lt;a href="https://www.youtube.com/watch?v=CTmHy7pc2K8">R. Circles - Youngblood (Station)&lt;/a>
+&lt;/br>
+116. &lt;a href="https://www.youtube.com/watch?v=cnesFB6cfS8">Makeup and Vanity Set - System Override (88:88)&lt;/a>
+&lt;/br>
+117. &lt;a href="https://www.youtube.com/watch?v=_kozSq5MG3I">Explosions in the Sky - Be Comfortable Creature (Official Video) (Take Care, Take Care, Take Care)&lt;/a>
+&lt;/br>
+118. &lt;a href="https://www.youtube.com/watch?v=6HuTSybzgE4">Blind Guardian - Doom (Nightfall in Middle-Earth)&lt;/a>
+&lt;/br>
+
+&lt;h2>November 2023&lt;/h2>
+
+&lt;/br>
+119. &lt;a href="https://www.youtube.com/watch?v=0_rnDXq9XOU">Dark Time Sunshine - Take My Hand (Official Video) (ANX)&lt;/a>
+&lt;/br>
+120. &lt;a href="https://www.youtube.com/watch?v=tBIPasE_BvQ">The Rosebuds - Leaves Do Fall (Birds Make Good Neighbors)&lt;/a>
+&lt;/br>
+
+&lt;h2>December 2023&lt;/h2>
+
+&lt;/br>
+121. &lt;a href="https://www.youtube.com/watch?v=C-Naa1HXeDQ">Matchbox 20 - 3am (Official Video) (Yourself or Someone Like You)&lt;/a>
+&lt;/br>
+122. &lt;a href="https://www.youtube.com/watch?v=h4eZvlni3OM">Hail Mary Mallon - Garfield (Official Video) (Are You Gonna Eat That?)&lt;/a>
+&lt;/br>
+123. &lt;a href="https://www.youtube.com/watch?v=G-QxnfpTG6c">Hail Mary Mallon - Meter Feeder (Official Video) (Are You Gonna Eat That?)&lt;/a>
+&lt;/br>
+124. &lt;a href="https://www.youtube.com/watch?v=r-z-taH4cqk">Afroham / C Y G N - Hnstly (Chillhop Essentials Winter 2023)&lt;/a>
+&lt;/br>
+125. &lt;a href="https://www.youtube.com/watch?v=Up8xfU7JTWA">ØDYSSEE - Lost Memories ft. Bastien Brison (Chillhop Essentials Winter 2023)&lt;/a>
+&lt;/br>
+126. &lt;a href="https://www.youtube.com/watch?v=x0vRTAxaycA">Yasper - Stay (Chillhop Essentials Winter 2023 | C2.)&lt;/a>
+&lt;/br>
+
+&lt;h2>January 2024&lt;/h2>
+
+&lt;/br>
+127. &lt;a href="https://www.youtube.com/watch?v=bRW4gs4Co-o">Blind Guardian - Destiny (The God Machine)&lt;/a>
+&lt;/br>
+128. &lt;a href="https://www.youtube.com/watch?v=ox-lfowevqA">Ludacris - How Low (Official Video) (Battle of the Sexes)&lt;/a>
+&lt;/br>
+129. &lt;a href="https://www.youtube.com/watch?v=Ywxm6zLEjFY">DragonForce - Operation Ground and Pound (Official Video) (Inhuman Rampage)&lt;/a>
+&lt;/br>
+130. &lt;a href="https://www.youtube.com/watch?v=aXJhDltzYVQ">Prince and the Revolution - Let's Go Crazy (Official Video) (Purple Rain)&lt;/a>
+&lt;/br>
+131. &lt;a href="https://www.youtube.com/watch?v=oK9gLkXe0xw">Boyz II Men - It's So Hard To Say Goodbye To Yesterday (Official Video) (Cooleyhighharmony)&lt;/a>
+&lt;/br>
+132. &lt;a href="https://www.youtube.com/watch?v=6Bu-vOUsacE">Massive Attack - The Hunter Gets Captured by The Game (ft. Tracey Thorn)&lt;/a>
+&lt;/br>
+133. &lt;a href="https://www.youtube.com/watch?v=N9YJiIMWW1o">TRU - Hoody Hooo (Chomp On This Edition) (Da Crime Family)&lt;/a>
+&lt;/br>
+134. &lt;a href="https://www.youtube.com/watch?v=vadMH2PZv7c">Story of the Year - Take Me Back (In the Wake of Determination)&lt;/a>
+&lt;/br>
+135. &lt;a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">Rick Astley - Never Gonna Give You Up (Official Video '4K') (Whenever You Need Somebody)&lt;/a>
+&lt;/br>
+136. &lt;a href="https://www.youtube.com/watch?v=NdNFFC0p7N4">Lauryn Hill - Lost Ones (The Miseducation of Lauryn Hill)&lt;/a>
+&lt;/br>
+137. &lt;a href="https://www.youtube.com/watch?v=D93HMEcwP20">Trans-Siberian Orchestra - Wizards in Winter (Instrumental) (The Lost Christmas Eve)&lt;/a>
+&lt;/br>
+138. &lt;a href="https://www.youtube.com/watch?v=X8DXS47ZG8o">Story of the Year - We Don't Care Anymore (Official Video) (In the Wake of Determination)&lt;/a>
+&lt;/br>
+139. &lt;a href="https://www.youtube.com/watch?v=kJYgJPCD59s">Ratatat - Germany to Germany (Official Video) (Ratatat)&lt;/a>
+&lt;/br>
+140. &lt;a href="https://www.youtube.com/watch?v=4JFzlfBRzu8">Bad Religion - Prove It (The Process Of Belief)&lt;/a>
+&lt;/br>
+141. &lt;a href="https://www.youtube.com/watch?v=gMdcE8jdz70">The Beatles - Taxman (Revolver)&lt;/a>
+&lt;/br>
+142. &lt;a href="https://www.youtube.com/watch?v=sc5iTNVEOAg">Lit - My Own Worst Enemy (A Place in the Sun)&lt;/a>
+&lt;/br>
+143. &lt;a href="https://www.youtube.com/watch?v=UNq9gmY_Oz4">Green Day - Brain Stew (Insomniac)&lt;/a>
+&lt;/br>
+144. &lt;a href="https://www.youtube.com/watch?v=cF_Wki9l6uo">Green Day - Brain Stew (The Godzilla Remix) (Godzilla: The Album)&lt;/a>
+&lt;/br>
+
+&lt;h2>February 2024&lt;/h2>
+
+&lt;/br>
+145. &lt;a href="https://www.youtube.com/watch?v=SJiWhipvQm8">Aesop Rock - Dark Heart News (None Shall Pass)&lt;/a>
+&lt;/br>
+146. &lt;a href="https://www.youtube.com/watch?v=3a3XaIhGQl8">Blind Guardian - I'm Alive (Imaginations from the Other Side)&lt;/a>
+&lt;/br>
+147. &lt;a href="https://www.youtube.com/watch?v=tCzE9LX8cgc">Blind Guardian - Blood Of The Elves (Official Video) (The God Machine)&lt;/a>
+&lt;/br>
+148. &lt;a href="https://www.youtube.com/watch?v=6POXA7N_NLU">Dark Time Sunshine - ANX (feat. Mendee Ichikawa) (ANX)&lt;/a>
+&lt;/br>
+149. &lt;a href="https://www.youtube.com/watch?v=reR7oe0p-6M">Aesop Rock - Easy (Bazooka Tooth) [NSFW]&lt;/a>
+&lt;/br>
+150. &lt;a href="https://www.youtube.com/watch?v=0eRxCe-kkCw">The Rosebuds - Hold Hands and Fight (Birds Make Good Neighbors)&lt;/a>
+&lt;/br>
+151. &lt;a href="https://www.youtube.com/watch?v=z1j_NiUZZWk">Explosions In The Sky - It's Natural to Be Afraid (All of a Sudden I Miss Everyone)&lt;/a>
+&lt;/br>
+152. &lt;a href="https://www.youtube.com/watch?v=use8dcTn4tI">Ratatat - Tacobel Cannon (Classics)&lt;/a>
+&lt;/br>
+153. &lt;a href="https://www.youtube.com/watch?v=Pl7HEtCWf6I">Aesop Rock - Coffee Ft. John Darnielle (None Shall Pass)&lt;/a>
+&lt;/br>
+
+&lt;h2>March 2024&lt;/h2>
+
+&lt;/br>
+154. &lt;a href="https://www.youtube.com/watch?v=4ohkCQp4xL0">Ratatat - Falcon Jab (LP3)&lt;/a>
+&lt;/br>
+155. &lt;a href="https://www.youtube.com/watch?v=cyn0DVSn96I">She Wants Revenge - Us (Marc Johnson) (She Wants Revenge)&lt;/a>
+&lt;/br>
+156. &lt;a href="https://www.youtube.com/watch?v=wp4InYVrsWg">Blind Guardian - The Tides Of War (Nightfall In Middle-Earth)&lt;/a>
+&lt;/br>
+157. &lt;a href="https://www.youtube.com/watch?v=6zT8fuO02gk">Beastie Boys &amp; Q-TIp LIVE - Get It Together (Tibetan Freedom Concert 1996) (Ill Communication)&lt;/a>
+&lt;/br>
+158. &lt;a href="https://www.youtube.com/watch?v=cZFhVy9Z1Lo">The Faint - Poised to Death (KFC: Chris Farmer) (Danse Macabre)&lt;/a>
+&lt;/br>
+159. &lt;a href="https://www.youtube.com/watch?v=vSs6RoYY5pg">Small Brown Bike - The Cannons and Tanks (Our Own Wars)&lt;/a>
+&lt;/br>
+160. &lt;a href="https://www.youtube.com/watch?v=QOexw4cXfoY">Nothing - Bent Nail (Official Video) (Guilty of Everything)&lt;/a>
+&lt;/br>
+161. &lt;a href="https://www.youtube.com/watch?v=-u9M1D8U7E8">Opeth - Bleak (Live At The Roundhouse) (Blackwater Park)&lt;/a>
+&lt;/br>
+
+&lt;h2>April 2024&lt;/h2>
+
+&lt;/br>
+162. &lt;a href="https://www.youtube.com/watch?v=89F5fpvwPr0">Death Grips - Takyon (Death Yon) (Exmilitary)&lt;/a>
+&lt;/br>
+163. &lt;a href="https://www.youtube.com/watch?v=nyUlvYmyzz8">Evil Nine - Feed on you (They Live!)&lt;/a>
+&lt;/br>
+164. &lt;a href="https://www.youtube.com/watch?v=IG7sww5NtVA">Godzilla: The Album - No Shelter (Rage Against the Machine) (Godzilla: The Album)&lt;/a>
+&lt;/br>
+165. &lt;a href="https://www.youtube.com/watch?v=H9UIdlXhrBQ">Nothing - Dig (Official Video) (Guilty of Everything)&lt;/a>
+&lt;/br>
+166. &lt;a href="https://www.youtube.com/watch?v=_ZvWepz8XvU">French 79 - Heros (Official Video) (Teenagers)&lt;/a>
+&lt;/br>
+167. &lt;a href="https://www.youtube.com/watch?v=ikUrxI7g6BM">Thrice - Cold Cash and Colder Hearts (The Artist in the Ambulance)&lt;/a>
+&lt;/br>
+168. &lt;a href="https://www.youtube.com/watch?v=OxNZ3y6KJy8">Thrice - Paper Tigers (The Artist in the Ambulance)&lt;/a>
+&lt;/br>
+169. &lt;a href="https://www.youtube.com/watch?v=OBPgdvnKXP8">The Faint - Your Retro Career Melted (Live at Cat's Cradle - 2001) (Danse Macabre)&lt;/a>
+&lt;/br>
+170. &lt;a href="https://www.youtube.com/watch?v=UtxvZNxDFNA">Blind Guardian - Fly (A Twist in the Myth)&lt;/a>
+&lt;/br>
+171. &lt;a href="https://www.youtube.com/watch?v=XeFQJ6-XoD0">Kenshi Yonezu - Campanella (Official Video) (Stray Sheep)&lt;/a>
+&lt;/br>
+172. &lt;a href="https://www.youtube.com/watch?v=d1mkqz422lg">Blind Guardian - Deliver Us From Evil (Official Video) (The God Machine)&lt;/a>
+&lt;/br>
+173. &lt;a href="https://www.youtube.com/watch?v=JKr6s5Qr_Y8">Makeup and Vanity Set - System Override (Unofficial Video) (88:88)&lt;/a>
+&lt;/br>
+174. &lt;a href="https://www.youtube.com/watch?v=roK43HOYhu0">Aesop Rock - Fryerstarter (Skelethon)&lt;/a>
+&lt;/br>
+175. &lt;a href="https://www.youtube.com/watch?v=0Uc3ZrmhDN4">Sublime - What I Got (Official Video) (Greatest Hits)&lt;/a>
+&lt;/br>
+
+&lt;h2>May 2024&lt;/h2>
+
+&lt;/br>
+176. &lt;a href="https://www.youtube.com/watch?v=OT8s4KQJGCs">Makeup and Vanity Set - Transmit Distance (Endless Destiny) (DATA093)&lt;/a>
+&lt;/br>
+177. &lt;a href="https://www.youtube.com/watch?v=4-6cXOUDGSQ">Makeup and Vanity Set - Empathy (Endless Destiny) (DATA093)&lt;/a>
+&lt;/br>
+178. &lt;a href="https://www.youtube.com/watch?v=ikrgRvVwBHg">Aesop Rock - FishTales (Elementality Vol 2)&lt;/a>
+&lt;/br>
+179. &lt;a href="https://www.youtube.com/watch?v=Uh6dkL1M9DM">Kenshi Yonezu - Flamingo (Official Video) (Stray Sheep)&lt;/a>
+&lt;/br>
+180. &lt;a href="https://www.youtube.com/watch?v=-dMrec59MxU">Death Grips - Lord of the Game ft. Mexican Girl (Leeside Skatepark Video) (Exmilitary)&lt;/a>
+&lt;/br>
+181. &lt;a href="https://www.youtube.com/watch?v=ywz3XFguUEM">The Rosebuds - Boxcar (Birds Make Good Neighbors)&lt;/a>
+&lt;/br>
+182. &lt;a href="https://www.youtube.com/watch?v=96klfx_1cos">French 79 - Burning Legend (Official Video) (Teenagers)&lt;/a>
+&lt;/br>
+
+&lt;h2>June 2024&lt;/h2>
+
+&lt;/br>
+183. &lt;a href="https://www.youtube.com/watch?v=m2uTFF_3MaA">The Beatles - Yellow Submarine (Official Video) (Revolver)&lt;/a>
+&lt;/br>
+184. &lt;a href="https://www.youtube.com/watch?v=sJ7w-z4BvMo">Sage Francis - Escape Artist (Official Video) (A Healthy Distrust)&lt;/a>
+&lt;/br>
+185. &lt;a href="https://www.youtube.com/watch?v=V5DAwDEeeIM">Me First and the Gimme Gimmes - My Favorite Things (Are a Drag)&lt;/a>
+&lt;/br>
+186. &lt;a href="https://www.youtube.com/watch?v=jgOwwS5_qzc">BigXthaPlug - Texas (Andrew Broom Video) (Texas)&lt;/a>
+&lt;/br>
+
+&lt;h2>July 2024&lt;/h2>
+
+&lt;/br>
+187. &lt;a href="https://www.youtube.com/watch?v=eqq64uTkA2c">They Live! (Trevor Loveys Remix) (They Live!)&lt;/a>
+&lt;/br>
+188. &lt;a href="https://www.youtube.com/watch?v=MAmqJjyDH48">Explosions in the Sky - A Song For Our Fathers (How Strange, Innocence)&lt;/a>
+&lt;/br>
+189. &lt;a href="https://www.youtube.com/watch?v=YkvxA6Vq5aU">Bad Religion - Supersonic (bigarmybug x Stick Edit) (The Process Of Belief)&lt;/a>
+&lt;/br>
+
+&lt;h2>October 2024&lt;/h2>
+
+&lt;/br>
+190. &lt;a href="https://www.youtube.com/watch?v=QoQvJiElC3U">French 79 - Graceful (Official Video) (Teenagers)&lt;/a>
+
+&lt;/body>
+
+&lt;/html></description></item></channel></rss>
