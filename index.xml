@@ -5735,4 +5735,4 @@ XTerm.vt100.geometry: 100x35
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
-&lt;/div>&lt;p>Some of the pages for example 🔗 &lt;a class="gdoc-markdown__link" href="./Unix/NetBSD/netbsd">NetBSD&lt;/a> are a snapshot of my observations from 2018. Please refer to project documentation before wantonly copying and pasting from this website. Sources cited at the bottom of most pages (WIP). Thank you.&lt;/p></description></item></channel></rss>
+&lt;/div>&lt;p>Some of the pages for example 🔗 &lt;a class="gdoc-markdown__link" href="./Unix/NetBSD/netbsd">NetBSD&lt;/a> are a snapshot of my observations from 2018. Please refer to project documentation instead of randomly copying and pasting from this website. Sources cited at the bottom of most pages (WIP). Thank you.&lt;/p></description></item></channel></rss>
