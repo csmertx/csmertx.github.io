@@ -12,7 +12,7 @@ weight: -20
 
 ## This is my CRS site. There are many like it, but this one is mine.
 
-Some of the pages for example 🔗 [NetBSD](/Unix/NetBSD/netbsd) are a snapshot of my observations from 2018. Please refer to project documentation before wantonly copying and pasting from this website. Sources cited at the bottom of most pages (WIP). Thank you.
+Some of the pages for example 🔗 [NetBSD](/Unix/NetBSD/netbsd) are a snapshot of my observations from 2018. Please refer to project documentation instead of randomly copying and pasting from this website. Sources cited at the bottom of most pages (WIP). Thank you.
 
 > New to Linux? Check out these newbie friendly 🔗 [websites](/About/csmertx#recommended-linux-websites)
 
