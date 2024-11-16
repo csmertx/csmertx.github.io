@@ -36,4 +36,4 @@ Some of the pages for example 🔗 [NetBSD](/Unix/NetBSD/netbsd) are a snapshot 
 
 > csmertx.com is not affiliated with the 🔗 [Wounded Warrior Project](https://www.woundedwarriorproject.org/).
 
-> Donation button leads to the WWP because I believe in the message.
+> Donation buttons lead to the Wounded Warrior Project, and Archive.org because I believe in those organizations.
