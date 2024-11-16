@@ -10,11 +10,13 @@ weight: -20
 
 <br />
 
-## This is my CRS site. There are many like it, but this one is mine.
+## Computer stuff, Music Blog, and Day & Night Blog (D&N for dissociative relief)
 
-Some of the pages for example 🔗 [NetBSD](/Unix/NetBSD/netbsd) are a snapshot of my observations from 2018. Please refer to project documentation instead of randomly copying and pasting from this website. Sources cited at the bottom of most pages (WIP). Thank you.
+Some pages like 🔗 [NetBSD](/Unix/NetBSD/netbsd "Csmertx.com \ NetBSD") are a snapshot from 2018. Please refer to project specific documentation.
 
-> New to Linux? Check out these newbie friendly 🔗 [websites](/About/csmertx#recommended-linux-websites)
+Most pages have a resources section at the bottom of the page with direct links to projects mentioned.
+
+> New to Linux? Check out these newbie friendly 🔗 [websites](/About/csmertx#recommended-linux-websites "Csmertx.com \ About \ Csmertx #recommended-linux-websites")
 
 {{< expand "Tap for Mobile Navigation Guide" "⬇" >}}
 
@@ -34,6 +36,6 @@ Some of the pages for example 🔗 [NetBSD](/Unix/NetBSD/netbsd) are a snapshot 
 <br />
 <br />
 
-> csmertx.com is not affiliated with the 🔗 [Wounded Warrior Project](https://www.woundedwarriorproject.org/).
+> csmertx.com is not affiliated with the 🔗 [Wounded Warrior Project](https://www.woundedwarriorproject.org/ "woundedwarriorproject.org"), or 🔗 [Archive.org](https://archive.org "Archive.org")
 
 > Donation buttons lead to the Wounded Warrior Project, and Archive.org because I believe in those organizations.
