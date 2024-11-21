@@ -54,6 +54,10 @@ weight: -20
         - My P620 is a business class card like their NVIDIA RTX A4500
     
     - No issues with XFX Radeon RX 6400 as of a few weeks ago
+    
+        - Uninstalled Oblivion + Installed Team Fortress 2 + Installed Oblivion
+
+        - Skyrim still won't load. I finished all the quests several months ago (Achievement hunting is part of my to-do list)
 
 ## Resources
 
