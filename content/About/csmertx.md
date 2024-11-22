@@ -21,8 +21,6 @@ weight: -20
 
 [📧 csmertx@pm.me](mailto:csmertx@pm.me "Proton Mail email address | @csmertx - Anytime.")
 
-> Gitlab: @csmertx is someone else. I left that platform years ago.
-
 </div>
 
 # CSx: Csmertx
