@@ -72,7 +72,7 @@ jellyfin/jellyfin
 
 - ```sudo aa-remove-unknown```
 
-    > You might want to [read](https://forum.snapcraft.io/t/broken-apparmor/32191) about the repercussions of ```aa-remove-unknown``` ...
+    > You may want to 🔗 [read](https://forum.snapcraft.io/t/broken-apparmor/32191 "Snapcraft.io | Forum \ Broken Apparmor") about the repercussions of ```aa-remove-unknown``` before continuing.
 
 - ```sudo docker ps```
 
@@ -82,20 +82,28 @@ jellyfin/jellyfin
 
 - ```$HOME/.scripts/jellyfin_setup.sh```
 
-    > The script I use can be found [here](https://github.com/csmertx/dotfiles/blob/master/scripts/jellyfin_setup.sh)
+    > The script I use can be found 🔗 [here](https://github.com/csmertx/dotfiles/blob/master/scripts/jellyfin_setup.sh "Github.com | csmertx \ dotfiles \ scripts \ jellyfin_setup.sh")
 
-## Not running after system update(s)?
+## Restart after system update
 
 - ```$HOME/.scripts/jellyfin_setup.sh```
 
-## Restart
+## Restart Docker/Jellyfin
 
 - ```sudo docker ps```
 
 - ```sudo docker restart [CONTAINER ID]```
+
+## Error submitting packet to decoder: Invalid data found when processing input
+
+- Certain container formats may throw this error with 🔗 [VA-API](https://en.wikipedia.org/wiki/Video_Acceleration_API "Wikipedia | Video Acceleration API") hardware encoding enabled (AMD GPU).
+
+    - Confirm by toggling hardware encoding off via: Hamburger > Dashboard > Playback > Transcoding
 
 ## Resources
 
 - [Jellyfin: The Free Software Media System](https://jellyfin.org)
 
 - [GitHub - jellyfin/jellyfin: The Free Software Media System](https://github.com/jellyfin/jellyfin)
+
+- [Wikipedia - Video Acceleration API](https://en.wikipedia.org/wiki/Video_Acceleration_API)

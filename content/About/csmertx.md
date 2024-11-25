@@ -17,7 +17,7 @@ weight: -20
 
 > Bermuda, Military Housing, (1987). I helped Dad make that bed (coffee can lids for the semi-circles).
 
-> ![YouTube Icon](/About/youtube_logo_14x14.png "YouTube Icon")[ @csmertx](https://www.youtube.com/@csmertx "YouTube | @csmertx") | ![Instagram Icon](/About/Instagram_icon_14x14.png "Instagram Icon")[ @csmertx](https://www.instagram.com/csmertx "Instagram | @csmertx") \ ![Bluesky Icon](/About/Bluesky_icon_14x12.png "Bluesky Icon")[ @csmertx](https://bsky.app/profile/csmertx.bsky.social "Bluesky.bsky.social | @csmertx") \ ![Facebook Icon](/About/Facebook_F_icon_14x14.png "Facebook Icon")[ @cschammert](https://facebook.com/@cschammert "Facebook | @cschammert") \ ![Facebook Icon](/About/Flickr_icon_14x14.png "Flickr Icon")[ @csmertx](https://www.flickr.com/people/csmertx/ "Flickr | @csmertx") \ ![Archive.org Icon](/About/Archive-org.001-1185389304_icon_14x14.jpg "Archive.org Icon") [ @TheRealCSmertX](https://archive.org/details/@archiveuser4193kxhm "Archive.org | TheRealCSmertX") \ ![Twitter Icon](/About/Twitter_icon_14x14.png "Twitter Icon")[ @csmertx](https://twitter.com/@csmertx "Twitter | @csmertx") \ ![Mastodon.Social Icon](/About/Mastodon_Logotype_(Simple)_14x14.png "Mastodon.Social Icon")[ @mertx3000](https://mastodon.social/@mertx3000 "Mastodon.social | @mertx3000")
+> ![YouTube Icon](/About/youtube_logo_14x14.png "YouTube Icon")[ @csmertx](https://www.youtube.com/@csmertx "YouTube | @csmertx") | ![Instagram Icon](/About/Instagram_icon_14x14.png "Instagram Icon")[ @csmertx](https://www.instagram.com/csmertx "Instagram | @csmertx") \ ![Bluesky Icon](/About/Bluesky_icon_14x12.png "Bluesky Icon")[ @csmertx](https://bsky.app/profile/csmertx.bsky.social "Bluesky.bsky.social | @csmertx") \ ![Facebook Icon](/About/Facebook_F_icon_14x14.png "Facebook Icon")[ @cschammert](https://facebook.com/@cschammert "Facebook | @cschammert") \ ![Facebook Icon](/About/Flickr_icon_14x14.png "Flickr Icon")[ @csmertx](https://www.flickr.com/people/csmertx/ "Flickr | @csmertx") \ ![Archive.org Icon](/About/Archive-org.001-1185389304_icon_14x14.jpg "Archive.org Icon") [ @TheRealCSmertX](https://archive.org/details/@archiveuser4193kxhm "Archive.org | TheRealCSmertX") \ ![X Icon](/About/X_icon_14x14.png "X Icon")[ @csmertx](https://twitter.com/@csmertx "Twitter | @csmertx") \ ![Mastodon.Social Icon](/About/Mastodon_Logotype_(Simple)_14x14.png "Mastodon.Social Icon")[ @mertx3000](https://mastodon.social/@mertx3000 "Mastodon.social | @mertx3000")
 
 [📧 csmertx@pm.me](mailto:csmertx@pm.me "Proton Mail email address | @csmertx - Anytime.")
 
@@ -25,7 +25,7 @@ weight: -20
 
 # CSx: Csmertx
 
-> CSx is a CS hobby website with a little bin of fun mixed in with a little bit of documentation.
+> This site is a 🔗 [CS](https://en.wikipedia.org/wiki/Computer_science "Computer Science") hobby website with a little bin of fun mixed in with a little bit of documentation.
 
 > Likes: 🔗 [Pork Cutlet Bowl](https://www.youtube.com/watch?v=n-R5R59jiys "YouTube \ Deku's Katsudon from My Hero Academia - MIDORIYA'S FAVOURITE FOOD!?")
 
@@ -37,15 +37,15 @@ The donation buttons for this website redirect to the 🔗 [Wounded Warrior Proj
 
 > *This website is not an affiliated with the Wounded Warrior Project, or The Internet Archive*
 
-My father dedicated over 20 years of his life to the military (Navy), which included a year long tour of Vietnam. He suffered through at least one fused vertebrae. Military (Florida) said it wasn't their problem. That's a big part why I am the way I am. And that's why I've included the link. I'm not pointing fingers, it just was what it was.
+Dad dedicated over 20 years of his life to the military (Navy/Petty Officer Chef), which included a year long tour of Vietnam. He suffered through at least one fused vertebrae. Military (Florida) said it wasn't their problem. That's a big part why I am the way I am. And that's why I've included the link. I'm not pointing fingers, it what it is.
 
-> If anyone has an issue with the donation button please contact me > 🔗 <u>[directly](mailto:csmertx@pm.me "Protonmail Account - My public facing email address")</u>.
+> If anyone has an issue with the donation button(s) please contact me > 🔗 <u>[directly](mailto:csmertx@pm.me "Protonmail Account - My public facing email address")</u>.
 
 > Also: Da Cubs (Since the 1900s). Pricey atm, but I'll catchup eventually. Sammy Sosa still plays right? .. Right?
 
 ## Why Hugo?
 
-- 🔗 [Hugo](https://gohugo.io/ "GoHugo.io"): minimal javascript, portable, accountable via Git, and low maintenance.
+- 🔗 [Hugo](https://gohugo.io/ "GoHugo.io") - minimal javascript, portable, accountable via Git, and low maintenance.
 
 ## Hugo theme used
 
@@ -71,7 +71,7 @@ I've seen enough to make me skeptical that it all just ends.
 
 ## Apologies to System76
 
-- My bad, and thank you for all the hard work both downstream and upstream!
+- My bad, and thank you for all the hard work both downstream and upstream.
 
 ## Recommended Linux Websites
 
@@ -163,7 +163,7 @@ I've seen enough to make me skeptical that it all just ends.
 
 - ```The Open Organization```, by Jim Whitehurst CEO, Red Hat
 
-    > *Igniting Passion and Performance* ([🔗 Red Hat Linux](https://www.redhat.com/en/explore/the-open-organization-book))
+    > *Igniting Passion and Performance* ([🔗 Red Hat Linux](https://www.redhat.com/en/explore/the-open-organization-book "Redhat.com | Explore \ The Open Organization Book"))
 
 - ```Outliers```, by Malcolm Gladwell
 
@@ -221,7 +221,7 @@ I've seen enough to make me skeptical that it all just ends.
 
     ```sudo ranger```
 
-    > [🔗 Python based TUI file manager](https://ranger.github.io/)
+    > [🔗 Python based TUI file manager](https://ranger.github.io/ "Github.io | Ranger")
 
 - **sudoc**
 
@@ -273,8 +273,8 @@ I've seen enough to make me skeptical that it all just ends.
 
 - **tri**
 
-    - Trizen: [🔗 Perl based AUR package manager](https://github.com/trizen/trizen)
+    - Trizen: [🔗 Perl based AUR package manager](https://github.com/trizen/trizen "Github.com | Trizen \ Trizen")
 
 - **yay**
 
-    - Yay: [🔗 Go based AUR package manager](https://github.com/Jguer/yay)
+    - Yay: [🔗 Go based AUR package manager](https://github.com/Jguer/yay "Github.com | Jquer \ Yay")
