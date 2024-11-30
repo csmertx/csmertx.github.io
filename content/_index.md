@@ -33,7 +33,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Pinned Blog Entries |
 |:---- | :------------------ |
-|Mar 03, 2024 | 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story)|
+|Mar 03, 2024 | 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story "Day & Night Blog \ March 2024")|
 |May 03, 2024 | 🔗 [Day & Night Blog \ Chris Schammert](/Blog/daynight/2024/0524#chris-schammert "Day & Night Blog \ May 2024") (since 1984)|
 |Jun 10, 2024 | 🔗 [Day & Night Blog \ Hiding Spot](/Blog/daynight/2024/0624#hiding-spot "Day & Night Blog \ June 2024")|
 |Jul 08, 2024 | 🔗 [Day & Night Blog \ Wrapping Up](/Blog/daynight/2024/0724#wrapping-up "Day & Night Blog \ July 2024")|
@@ -41,6 +41,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Nov 30, 2024 | 🔗 [Day & Night Blog \ Decompressing](/Blog/daynight/2024/1124#decompressing "Day & Night Blog \ November 2024")|
 |Oct 18, 2024 | 🔗 [Music Blog \ French 79 - Graceful (Official Video) (Teenagers)](/Blog/music/2024/1024#french-79---graceful-official-video-teenagers)
 |Jul 27, 2024 | 🔗 [Music Blog \ Bad Religion - Supersonic (bigarmybug x Stick Edit) (The Process Of Belief)](/Blog/music/2024/0724#bad-religion---supersonic-bigarmybug-x-stick-edit-the-process-of-belief "Music Blog \ July 2024")|
 |Jul 15, 2024 | 🔗 [Music Blog \ Explosions in the Sky - A Song For Our Fathers (How Strange, Innocence)](/Blog/music/2024/0724#explosions-in-the-sky---a-song-for-our-fathers-how-strange-innocence "Music Blog \ July 2024")|
@@ -51,7 +52,6 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 |Jun 16, 2024 | 🔗 [Music Blog \ Sage Francis - Escape Artist (Official Video) (A Healthy Distrust)](/Blog/music/2024/0624#sage-francis---escape-artist-official-video-a-healthy-distrust "Music Blog \ June 2024")|
 |Jun 02, 2024 | 🔗 [Music Blog \ The Beatles - Yellow Submarine (Official Video) (Revolver)](/Blog/music/2024/0624#the-beatles---yellow-submarine-official-video-revolver "Music Blog \ June 2024")|
 |May 29, 2024 | 🔗 [Music Blog \ French 79 - Burning Legend (Official Video) (Teenagers)](/Blog/music/2024/0524#french-79---burning-legend-official-video-teenagers "Music Blog \ May 2024") |
-|May 28, 2024 | 🔗 [Music Blog \ The Rosebuds - Boxcar (Birds Make Good Neighbors)](/Blog/music/2024/0524#the-rosebuds---boxcar-birds-make-good-neighbors "Music Blog \ May 2024") |
 |May 24, 2024 | 🔗 [Day & Night Blog \ The Kulturkampf was the beginning.](/Blog/daynight/2024/0524#the-kulturkampf-was-the-beginning)|
 
 | Date | Recent Computer Scribblings |
