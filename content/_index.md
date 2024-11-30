@@ -29,8 +29,6 @@ _Parental advisory for Day & Night, and Music blog: Uncouth language, personal s
 
 Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_science "Wikipedia \ Computer Science") 🔗 [hobbyist](/About/csmertx "About \ Csmertx (Chris Schammert)" ) and occasional PC gamer.
 
-Music blog YouTube 🔗 [playlist(s)](https://www.youtube.com/@csmertx/playlists?view=1&sort=lad&flow=grid "YouTube | @csmertx / playlists")
-
 </div>
 
 | Date | Pinned Blog Entries |
