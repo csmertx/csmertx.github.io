@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🛠️ Projects on Chris Schammert</title><link>https://csmertx.github.io/Blog/stuff/</link><description>Recent content in 🛠️ Projects on Chris Schammert</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Blog/stuff/index.xml" rel="self" type="application/rss+xml"/><item><title>🛠️ Kinesis Advantage 2</title><link>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
-&lt;p>Modding a Kinesis Advantage 2&lt;/p>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h1 id="modding-kinesis-advantage-2">
+ Modding Kinesis Advantage 2
+ &lt;a data-clipboard-text="https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/#modding-kinesis-advantage-2" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Modding Kinesis Advantage 2" href="#modding-kinesis-advantage-2">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h1>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h6 id="_edited-december-15-2024brcreated-march-27-2024brauthor-chris-schammert-csmertxbrhistory-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentblogstuff2024kinesis_advantage2md-githubcom--csmertx--csmertxgithubio--commits--main--content--blog--stuff--2024--kinesis-advantage-2_">
+ &lt;em>Edited: December 15, 2024&lt;/br>Created: March 27, 2024&lt;/br>Author: Chris Schammert (csmertx)&lt;/br>History: &lt;a class="gdoc-markdown__link" href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2024/kinesis_advantage2.md" title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ stuff \ 2024 \ Kinesis Advantage 2">📜&lt;/a>&lt;/em>
+ &lt;a data-clipboard-text="https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/#_edited-december-15-2024brcreated-march-27-2024brauthor-chris-schammert-csmertxbrhistory-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentblogstuff2024kinesis_advantage2md-githubcom--csmertx--csmertxgithubio--commits--main--content--blog--stuff--2024--kinesis-advantage-2_" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Edited: December 15, 2024Created: March 27, 2024Author: Chris Schammert (csmertx)History: 📜" href="#_edited-december-15-2024brcreated-march-27-2024brauthor-chris-schammert-csmertxbrhistory-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentblogstuff2024kinesis_advantage2md-githubcom--csmertx--csmertxgithubio--commits--main--content--blog--stuff--2024--kinesis-advantage-2_">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h6>
+&lt;/div>&lt;/br>
 &lt;blockquote>
-&lt;p>Pieced together 🔗&lt;a class="gdoc-markdown__link" href="https://config.qmk.fm/#/kinesis/kint36/LAYOUT" title="QMK Configurator">QMK&lt;/a> compatible controller via 🔗&lt;a class="gdoc-markdown__link" href="https://github.com/kinx-project/kint" title="Github.com | kinx-project / kint">KinT&lt;/a> kit. Also added custom USB stress relief, and touchpad&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>Touchpad gestures: 🔗&lt;a class="gdoc-markdown__link" href="https://github.com/bulletmark/libinput-gestures" title="Github | bulletmark / libinput-gestures">libinput-gestures&lt;/a> 🔗&lt;a class="gdoc-markdown__link" href="https://github.com/csmertx/dotfiles/blob/master/config/libinput-gestures.conf" title="Github | csmertx / dotfiles / config / libinput-gestures.conf">configured&lt;/a> for 3-4 finger gestures (Back/Forward/Home/End/PGUP/PGDN)&lt;/p>
-&lt;/blockquote>
-&lt;br />
-&lt;div style="text-align: center;">
-&lt;p>&lt;img src="../../Blog/stuff/images/ka2/0.jpg" alt="albumimg" title="Kinesis Advantage 2 LQ with white and light gray DSA keycaps and a Jellycomb touchpad" />&lt;/p></description></item><item><title>🛠️ Fishing Lures</title><link>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</link><pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Pieced together 🔗&lt;a class="gdoc-markdown__link" href="https://config.qmk.fm/#/kinesis/kint36/LAYOUT" title="QMK Configurator">QMK&lt;/a> compatible controller via 🔗&lt;a class="gdoc-markdown__link" href="https://github.com/kinx-project/kint" title="Github.com | kinx-project / kint">KinT&lt;/a> kit. Also added custom USB stress relief, and touchpad&lt;/p></description></item><item><title>🛠️ Fishing Lures</title><link>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</link><pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/fishing_lures/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>2018&lt;/p>
