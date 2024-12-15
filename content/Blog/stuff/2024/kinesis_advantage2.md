@@ -51,7 +51,7 @@ Modding a Kinesis Advantage 2
 
 ![albumimg](/Blog/stuff/images/ka2/7.jpg "Micro USB to USB-C mount attached to replace the built-in stress relief cable of a Kinesis Advantage 2 keyboard")
 
-> Replaced the built-in stress relief cable with a 🔗[USB-C mount](https://www.aliexpress.us/item/3256807745777636.html "Aliexpress | IP67 Waterproof Cable Micro-USB 2.0 5pin Male to USB-C 3.1") and a 🔗[USB-C to USB-A cable](https://www.aliexpress.us/item/2251832816054825.html "Aliexpress | USB Type C Cable Fast Charging USb C Cables Type-c Data Cord Charger USB C For Samsung S9 Note 9 Huawei P20 Pro Xiaomi 1m/2m/3m") to complete the build.
+> Replaced the built-in stress relief cable with a 🔗[USB-C mount](https://www.aliexpress.us/item/3256807745777636.html "Aliexpress | IP67 Waterproof Cable Micro-USB 2.0 5pin Male to USB-C 3.1") and a 🔗[USB-C to USB-A cable](https://www.aliexpress.us/item/2251832816054825.html "Aliexpress | USB-A to USB-C cable") to complete the build.
 
 > If the above USB-C mount link is dead try this search link: 🔗 [USB-C mount](https://www.aliexpress.us/w/wholesale-Waterproof-Cable-Micro%2525252dUSB-2.0-5pin-Male-to-Usb%2525252dc.html)
 
