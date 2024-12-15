@@ -7,7 +7,11 @@ weight: -20
 
 <!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
-Modding a Kinesis Advantage 2
+# Modding Kinesis Advantage 2
+
+###### _Edited: December 15, 2024</br>Created: March 27, 2024</br>Author: Chris Schammert (csmertx)</br>History: [📜](https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2024/kinesis_advantage2.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ stuff \ 2024 \ Kinesis Advantage 2")_
+
+</br>
 
 > Pieced together 🔗[QMK](https://config.qmk.fm/#/kinesis/kint36/LAYOUT "QMK Configurator") compatible controller via 🔗[KinT](https://github.com/kinx-project/kint "Github.com | kinx-project / kint") kit. Also added custom USB stress relief, and touchpad
 
