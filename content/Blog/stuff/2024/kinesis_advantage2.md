@@ -5,11 +5,11 @@ published: 2024-03-27
 weight: -20
 ---
 
+###### _Edited: 12/15/2024</br>Created: 03/27/2024</br>Author: Chris Schammert (csmertx)</br>History: [📜](https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2024/kinesis_advantage2.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ stuff \ 2024 \ Kinesis Advantage 2")_
+
 <!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
 # Modding Kinesis Advantage 2
-
-###### _Edited: 12/15/2024</br>Created: 03/27/2024</br>Author: Chris Schammert (csmertx)</br>History: [📜](https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2024/kinesis_advantage2.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ stuff \ 2024 \ Kinesis Advantage 2")_
 
 </br>
 
