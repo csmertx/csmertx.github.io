@@ -1,5 +1,5 @@
 baseURL = "https://csmertx.github.io"
-title = "Chris Schammert"
+title = "Chris Schammert (csmertx)"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false
