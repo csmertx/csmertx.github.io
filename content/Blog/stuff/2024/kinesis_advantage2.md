@@ -2,14 +2,14 @@
 title: 🛠️ Kinesis Advantage 2
 author: Chris Schammert (csmertx -- Christopher Schammert )
 published: 2024-03-27
-weight: -10
+weight: -20
 ---
-
-###### <p style="font-size:12px"><span style="color:dimgray">_Created: 03/27/2024 | Edited: 12/16/2024 | Author: Chris Schammert (csmertx) | History: [🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2024/kinesis_advantage2.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ stuff \ 2024 \ Kinesis Advantage 2")_</span></p>
 
 <!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
 # Modding Kinesis Advantage 2
+
+###### <p style="font-size:12px"><span style="color:dimgray">_Created: 03/27/2024 | Edited: 12/16/2024 | Author: Chris Schammert (csmertx) | History: [🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2024/kinesis_advantage2.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ stuff \ 2024 \ Kinesis Advantage 2")_</span></p>
 
 > Pieced together 🔗[QMK](https://config.qmk.fm/#/kinesis/kint36/LAYOUT "QMK Configurator") compatible controller via 🔗[KinT](https://github.com/kinx-project/kint "Github.com | kinx-project / kint") kit. Also added custom USB stress relief, and touchpad
 
