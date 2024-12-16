@@ -11,8 +11,6 @@ weight: -20
 
 # Modding Kinesis Advantage 2
 
-</br>
-
 > Pieced together 🔗[QMK](https://config.qmk.fm/#/kinesis/kint36/LAYOUT "QMK Configurator") compatible controller via 🔗[KinT](https://github.com/kinx-project/kint "Github.com | kinx-project / kint") kit. Also added custom USB stress relief, and touchpad
 
 > Touchpad gestures: 🔗[libinput-gestures](https://github.com/bulletmark/libinput-gestures "Github | bulletmark / libinput-gestures") 🔗[configured](https://github.com/csmertx/dotfiles/blob/master/config/libinput-gestures.conf "Github | csmertx / dotfiles / config / libinput-gestures.conf") for 3-4 finger gestures (Back/Forward/Home/End/PGUP/PGDN)
