@@ -103,7 +103,23 @@
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;blockquote>
-&lt;p>Issue with %(ext)s 06-29-2020?&lt;/p></description></item><item><title>🎸 03-24</title><link>https://csmertx.github.io/Blog/music/2024/0324/</link><pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2024/0324/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>📁 03-24</title><link>https://csmertx.github.io/Blog/daynight/2024/0324/</link><pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2024/0324/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🧑 csmertx</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Issue with %(ext)s 06-29-2020?&lt;/p></description></item><item><title>🎸 03-24</title><link>https://csmertx.github.io/Blog/music/2024/0324/</link><pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/music/2024/0324/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>📁 03-24</title><link>https://csmertx.github.io/Blog/daynight/2024/0324/</link><pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/daynight/2024/0324/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🛠️ Kinesis Advantage 2</title><link>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h1 id="modding-kinesis-advantage-2">
+ Modding Kinesis Advantage 2
+ &lt;a data-clipboard-text="https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/#modding-kinesis-advantage-2" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Modding Kinesis Advantage 2" href="#modding-kinesis-advantage-2">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h1>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h6 id="p-stylefont-size12pxspan-stylecolordimgray_created-03272024--edited-12162024--author-chris-schammert-csmertx--history-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentblogstuff2024kinesis_advantage2md-githubcom--csmertx--csmertxgithubio--commits--main--content--blog--stuff--2024--kinesis-advantage-2_spanp">
+ &lt;p style="font-size:12px">&lt;span style="color:dimgray">&lt;em>Created: 03/27/2024 | Edited: 12/16/2024 | Author: Chris Schammert (csmertx) | History: &lt;a class="gdoc-markdown__link" href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2024/kinesis_advantage2.md" title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ stuff \ 2024 \ Kinesis Advantage 2">🕵️&lt;/a>&lt;/em>&lt;/span>&lt;/p>
+ &lt;a data-clipboard-text="https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/#p-stylefont-size12pxspan-stylecolordimgray_created-03272024--edited-12162024--author-chris-schammert-csmertx--history-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentblogstuff2024kinesis_advantage2md-githubcom--csmertx--csmertxgithubio--commits--main--content--blog--stuff--2024--kinesis-advantage-2_spanp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Created: 03/27/2024 | Edited: 12/16/2024 | Author: Chris Schammert (csmertx) | History: 🕵️" href="#p-stylefont-size12pxspan-stylecolordimgray_created-03272024--edited-12162024--author-chris-schammert-csmertx--history-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentblogstuff2024kinesis_advantage2md-githubcom--csmertx--csmertxgithubio--commits--main--content--blog--stuff--2024--kinesis-advantage-2_spanp">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h6>
+&lt;/div>&lt;blockquote>
+&lt;p>Pieced together 🔗&lt;a class="gdoc-markdown__link" href="https://config.qmk.fm/#/kinesis/kint36/LAYOUT" title="QMK Configurator">QMK&lt;/a> compatible controller via 🔗&lt;a class="gdoc-markdown__link" href="https://github.com/kinx-project/kint" title="Github.com | kinx-project / kint">KinT&lt;/a> kit. Also added custom USB stress relief, and touchpad&lt;/p></description></item><item><title>🧑 csmertx</title><link>https://csmertx.github.io/About/csmertx/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/About/csmertx/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div style="text-align: center;">
 &lt;p>&lt;img src="./csmertx_chris_schammert_bermuda_1987.png" alt="CRS" title="Lil Csmertx" />&lt;/p>
@@ -5728,20 +5744,4 @@ XTerm.vt100.geometry: 100x35
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
-&lt;/div>&lt;p>Some pages like 🔗 &lt;a class="gdoc-markdown__link" href="./Unix/NetBSD/netbsd" title="Csmertx.com \ NetBSD">NetBSD&lt;/a> are a snapshot from 2018. Please refer to project specific documentation.&lt;/p></description></item><item><title>🛠️ Kinesis Advantage 2</title><link>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/</guid><description>&lt;div class="gdoc-page__anchorwrap">
- &lt;h6 id="p-stylefont-size12pxspan-stylecolordimgray_created-03272024--edited-12162024--author-chris-schammert-csmertx--history-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentblogstuff2024kinesis_advantage2md-githubcom--csmertx--csmertxgithubio--commits--main--content--blog--stuff--2024--kinesis-advantage-2_spanp">
- &lt;p style="font-size:12px">&lt;span style="color:dimgray">&lt;em>Created: 03/27/2024 | Edited: 12/16/2024 | Author: Chris Schammert (csmertx) | History: &lt;a class="gdoc-markdown__link" href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2024/kinesis_advantage2.md" title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ stuff \ 2024 \ Kinesis Advantage 2">🕵️&lt;/a>&lt;/em>&lt;/span>&lt;/p>
- &lt;a data-clipboard-text="https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/#p-stylefont-size12pxspan-stylecolordimgray_created-03272024--edited-12162024--author-chris-schammert-csmertx--history-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentblogstuff2024kinesis_advantage2md-githubcom--csmertx--csmertxgithubio--commits--main--content--blog--stuff--2024--kinesis-advantage-2_spanp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Created: 03/27/2024 | Edited: 12/16/2024 | Author: Chris Schammert (csmertx) | History: 🕵️" href="#p-stylefont-size12pxspan-stylecolordimgray_created-03272024--edited-12162024--author-chris-schammert-csmertx--history-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentblogstuff2024kinesis_advantage2md-githubcom--csmertx--csmertxgithubio--commits--main--content--blog--stuff--2024--kinesis-advantage-2_spanp">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h6>
-&lt;/div>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h1 id="modding-kinesis-advantage-2">
- Modding Kinesis Advantage 2
- &lt;a data-clipboard-text="https://csmertx.github.io/Blog/stuff/2024/kinesis_advantage2/#modding-kinesis-advantage-2" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Modding Kinesis Advantage 2" href="#modding-kinesis-advantage-2">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h1>
-&lt;/div>&lt;blockquote>
-&lt;p>Pieced together 🔗&lt;a class="gdoc-markdown__link" href="https://config.qmk.fm/#/kinesis/kint36/LAYOUT" title="QMK Configurator">QMK&lt;/a> compatible controller via 🔗&lt;a class="gdoc-markdown__link" href="https://github.com/kinx-project/kint" title="Github.com | kinx-project / kint">KinT&lt;/a> kit. Also added custom USB stress relief, and touchpad&lt;/p></description></item></channel></rss>
+&lt;/div>&lt;p>Some pages like 🔗 &lt;a class="gdoc-markdown__link" href="./Unix/NetBSD/netbsd" title="Csmertx.com \ NetBSD">NetBSD&lt;/a> are a snapshot from 2018. Please refer to project specific documentation.&lt;/p></description></item></channel></rss>
