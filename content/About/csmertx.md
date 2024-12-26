@@ -17,17 +17,17 @@ weight: -20
 
 > Bermuda, Military Housing, (1987). I helped Dad make that bed (coffee can lids for the semi-circles).
 
-> ![YouTube Icon](/About/youtube_logo_14x14.png "YouTube Icon")[ @csmertx](https://www.youtube.com/@csmertx "YouTube | @csmertx") | ![Instagram Icon](/About/Instagram_icon_14x14.png "Instagram Icon")[ @csmertx](https://www.instagram.com/csmertx "Instagram | @csmertx") \ ![Bluesky Icon](/About/Bluesky_icon_14x12.png "Bluesky Icon")[ @csmertx](https://bsky.app/profile/csmertx.bsky.social "Bluesky.bsky.social | @csmertx") \ ![Facebook Icon](/About/Facebook_F_icon_14x14.png "Facebook Icon")[ @cschammert](https://facebook.com/@cschammert "Facebook | @cschammert") \ ![Facebook Icon](/About/Flickr_icon_14x14.png "Flickr Icon")[ @csmertx](https://www.flickr.com/people/csmertx/ "Flickr | @csmertx") \ ![Archive.org Icon](/About/Archive-org.001-1185389304_icon_14x14.jpg "Archive.org Icon") [ @TheRealCSmertX](https://archive.org/details/@archiveuser4193kxhm "Archive.org | TheRealCSmertX") \ ![X Icon](/About/X_icon_14x14.png "X Icon")[ @csmertx](https://twitter.com/@csmertx "Twitter | @csmertx") \ ![Mastodon.Social Icon](/About/Mastodon_Logotype_(Simple)_14x14.png "Mastodon.Social Icon")[ @mertx3000](https://mastodon.social/@mertx3000 "Mastodon.social | @mertx3000")
+> ![YouTube Icon](/About/youtube_logo_14x14.png "YouTube Icon")[ @csmertx](https://www.youtube.com/@csmertx "YouTube | @csmertx") | ![Instagram Icon](/About/Instagram_icon_14x14.png "Instagram Icon")[ @csmertx](https://www.instagram.com/csmertx "Instagram | @csmertx") \ ![Tik-Tok Icon](/About/TikTok_icon_14x14.png "TikTok Icon")[ @chrisschammert](https://www.tiktok.com/@chrisschammert "TikTok.com | @chrisschammert (csmertx)") \ ![Bluesky Icon](/About/Bluesky_icon_14x12.png "Bluesky Icon")[ @csmertx](https://bsky.app/profile/csmertx.bsky.social "Bluesky.bsky.social | @csmertx") \ ![Facebook Icon](/About/Facebook_F_icon_14x14.png "Facebook Icon")[ @cschammert](https://facebook.com/@cschammert "Facebook | @cschammert") \ ![Facebook Icon](/About/Flickr_icon_14x14.png "Flickr Icon")[ @csmertx](https://www.flickr.com/people/csmertx/ "Flickr | @csmertx") \ ![Archive.org Icon](/About/Archive-org.001-1185389304_icon_14x14.jpg "Archive.org Icon") [ @TheRealCSmertX](https://archive.org/details/@archiveuser4193kxhm "Archive.org | TheRealCSmertX") \ ![X Icon](/About/X_icon_14x14.png "X Icon")[ @csmertx](https://twitter.com/@csmertx "Twitter | @csmertx") \ ![Mastodon.Social Icon](/About/Mastodon_Logotype_(Simple)_14x14.png "Mastodon.Social Icon")[ @mertx3000](https://mastodon.social/@mertx3000 "Mastodon.social | @mertx3000")
 
-[📧 csmertx@pm.me](mailto:csmertx@pm.me "Proton Mail email address | @csmertx - Anytime.")
+[📧 csmertx@pm.me](mailto:csmertx@pm.me "Proton Mail email address | @csmertx > Anytime.")
 
 </div>
 
 # CSx: Csmertx
 
-> This site is a 🔗 [CS](https://en.wikipedia.org/wiki/Computer_science "Computer Science") hobby website with a little bin of fun mixed in with a little bit of documentation.
+> This site is a 🔗 [CS](https://en.wikipedia.org/wiki/Computer_science "Wikipedia | Computer Science") hobby website with a little bin of fun mixed in with a little bit of documentation.
 
-> Likes: 🔗 [Pork Cutlet Bowl](https://www.youtube.com/watch?v=n-R5R59jiys "YouTube \ Deku's Katsudon from My Hero Academia - MIDORIYA'S FAVOURITE FOOD!?")
+> Likes: 🔗 [Pork Cutlet Bowl](https://www.youtube.com/watch?v=n-R5R59jiys "YouTube | Deku's Katsudon from My Hero Academia - MIDORIYA'S FAVOURITE FOOD!?")
 
 > My middle school Sharky nickname probably inspired by 🔗 [Sharky the Sharkdog](https://eekthecat.fandom.com/wiki/Sharky_the_Sharkdog "Eek! The Cat Wiki / Sharky Bartholomew Sharkdog III"). Or maybe because I skated until I was drenched in sweat. These days I'm known as Chris. Just Chris.
 
