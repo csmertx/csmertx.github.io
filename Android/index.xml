@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📱 Android on Chris Schammert (csmertx)</title><link>https://csmertx.github.io/Android/</link><description>Recent content in 📱 Android on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Android/index.xml" rel="self" type="application/rss+xml"/><item><title>📱 Android Debug Bridge (ADB)</title><link>https://csmertx.github.io/Android/adb/</link><pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/adb/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📱 Android on Chris Schammert (csmertx)</title><link>https://csmertx.com/Android/</link><description>Recent content in 📱 Android on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 08 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Android/index.xml" rel="self" type="application/rss+xml"/><item><title>📱 Android Debug Bridge (ADB)</title><link>https://csmertx.com/Android/adb/</link><pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Android/adb/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="login-to-android-shell">
  Login to Android shell
- &lt;a data-clipboard-text="https://csmertx.github.io/Android/adb/#login-to-android-shell" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Login to Android shell" href="#login-to-android-shell">
+ &lt;a data-clipboard-text="https://csmertx.com/Android/adb/#login-to-android-shell" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Login to Android shell" href="#login-to-android-shell">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -25,13 +25,13 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Android/adb/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Android/adb/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://developer.android.com/studio/command-line/adb">🔗 Android Developers - Android Debug Bridge (adb)&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>📱 F-Droid</title><link>https://csmertx.github.io/Android/fdroid/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/fdroid/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>📱 F-Droid</title><link>https://csmertx.com/Android/fdroid/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Android/fdroid/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://f-droid.org/F-Droid.apk">🔗 Download F-Droid&lt;/a>&lt;/p>
@@ -39,13 +39,13 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="additional-repos">
  Additional Repos
- &lt;a data-clipboard-text="https://csmertx.github.io/Android/fdroid/#additional-repos" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Additional Repos" href="#additional-repos">
+ &lt;a data-clipboard-text="https://csmertx.com/Android/fdroid/#additional-repos" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Additional Repos" href="#additional-repos">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://apt.izzysoft.de/fdroid/repo">🔗 IzzyOnDroid F-Droid Repository&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>📱 LineageOS</title><link>https://csmertx.github.io/Android/lineageos/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/lineageos/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>📱 LineageOS</title><link>https://csmertx.com/Android/lineageos/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Android/lineageos/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Open-source Android distribution (OS)&lt;/p>
@@ -53,7 +53,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="samsung-galaxy-tab-3-10in-3g">
  Samsung Galaxy Tab 3 10in (3G)
- &lt;a data-clipboard-text="https://csmertx.github.io/Android/lineageos/#samsung-galaxy-tab-3-10in-3g" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Samsung Galaxy Tab 3 10in (3G)" href="#samsung-galaxy-tab-3-10in-3g">
+ &lt;a data-clipboard-text="https://csmertx.com/Android/lineageos/#samsung-galaxy-tab-3-10in-3g" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Samsung Galaxy Tab 3 10in (3G)" href="#samsung-galaxy-tab-3-10in-3g">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -81,19 +81,19 @@
 &lt;li>
 &lt;p>No MTP/OTG Access&lt;/p>
 &lt;p>&lt;code>Connect USB&lt;/code>&lt;/p>
-&lt;p>&lt;code>adb push /dir/rom.zip /sdcard&lt;/code>&lt;/p></description></item><item><title>📱 Termux</title><link>https://csmertx.github.io/Android/termux/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Android/termux/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>adb push /dir/rom.zip /sdcard&lt;/code>&lt;/p></description></item><item><title>📱 Termux</title><link>https://csmertx.com/Android/termux/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Android/termux/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h1 id="free-and-open-source-android-terminal-emulator">
  Free and open-source Android terminal emulator
- &lt;a data-clipboard-text="https://csmertx.github.io/Android/termux/#free-and-open-source-android-terminal-emulator" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Free and open-source Android terminal emulator" href="#free-and-open-source-android-terminal-emulator">
+ &lt;a data-clipboard-text="https://csmertx.com/Android/termux/#free-and-open-source-android-terminal-emulator" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Free and open-source Android terminal emulator" href="#free-and-open-source-android-terminal-emulator">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h1>
 &lt;/div>&lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="lite-installation">
  Lite Installation
- &lt;a data-clipboard-text="https://csmertx.github.io/Android/termux/#lite-installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Lite Installation" href="#lite-installation">
+ &lt;a data-clipboard-text="https://csmertx.com/Android/termux/#lite-installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Lite Installation" href="#lite-installation">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -111,7 +111,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="community-repos">
  Community Repos
- &lt;a data-clipboard-text="https://csmertx.github.io/Android/termux/#community-repos" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Community Repos" href="#community-repos">
+ &lt;a data-clipboard-text="https://csmertx.com/Android/termux/#community-repos" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Community Repos" href="#community-repos">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>

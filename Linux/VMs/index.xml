@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Virtual Computing on Chris Schammert (csmertx)</title><link>https://csmertx.github.io/Linux/VMs/</link><description>Recent content in 💻 Virtual Computing on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/VMs/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Docker</title><link>https://csmertx.github.io/Linux/VMs/docker_installation/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/docker_installation/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Virtual Computing on Chris Schammert (csmertx)</title><link>https://csmertx.com/Linux/VMs/</link><description>Recent content in 💻 Virtual Computing on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Linux/VMs/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Docker</title><link>https://csmertx.com/Linux/VMs/docker_installation/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/VMs/docker_installation/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>A neat way to setup a DIY media streaming box&lt;/p>
@@ -6,7 +6,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="debian-packages">
  Debian packages
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/docker_installation/#debian-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Debian packages" href="#debian-packages">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/docker_installation/#debian-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Debian packages" href="#debian-packages">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -16,7 +16,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="fedora-packages">
  Fedora packages
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/docker_installation/#fedora-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Fedora packages" href="#fedora-packages">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/docker_installation/#fedora-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Fedora packages" href="#fedora-packages">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -26,7 +26,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="add-user-to-docker-group-single-user-lan-server-only">
  Add user to docker group (single user LAN server only)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/docker_installation/#add-user-to-docker-group-single-user-lan-server-only" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add user to docker group (single user LAN server only)" href="#add-user-to-docker-group-single-user-lan-server-only">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/docker_installation/#add-user-to-docker-group-single-user-lan-server-only" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add user to docker group (single user LAN server only)" href="#add-user-to-docker-group-single-user-lan-server-only">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -36,7 +36,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="install-nextcloud">
  Install Nextcloud
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/docker_installation/#install-nextcloud" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install Nextcloud" href="#install-nextcloud">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/docker_installation/#install-nextcloud" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install Nextcloud" href="#install-nextcloud">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -46,7 +46,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="ip-address">
  IP Address
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/docker_installation/#ip-address" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor IP Address" href="#ip-address">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/docker_installation/#ip-address" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor IP Address" href="#ip-address">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -56,13 +56,13 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="link-varlibdocker-to-different-partition">
  Link /var/lib/docker to different partition
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/docker_installation/#link-varlibdocker-to-different-partition" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Link /var/lib/docker to different partition" href="#link-varlibdocker-to-different-partition">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/docker_installation/#link-varlibdocker-to-different-partition" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Link /var/lib/docker to different partition" href="#link-varlibdocker-to-different-partition">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>remove &lt;code>/var/lib/docker&lt;/code>&lt;/p></description></item><item><title>💻 KVM</title><link>https://csmertx.github.io/Linux/VMs/kvm/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/kvm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>remove &lt;code>/var/lib/docker&lt;/code>&lt;/p></description></item><item><title>💻 KVM</title><link>https://csmertx.com/Linux/VMs/kvm/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/VMs/kvm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Kernal-based Virtual Machine&lt;/p>
@@ -73,7 +73,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="setup-arch-linux">
  Setup (Arch Linux)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/kvm/#setup-arch-linux" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Setup (Arch Linux)" href="#setup-arch-linux">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/kvm/#setup-arch-linux" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Setup (Arch Linux)" href="#setup-arch-linux">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -95,7 +95,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="setup-ubuntu">
  Setup Ubuntu
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/kvm/#setup-ubuntu" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Setup Ubuntu" href="#setup-ubuntu">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/kvm/#setup-ubuntu" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Setup Ubuntu" href="#setup-ubuntu">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -105,13 +105,13 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/kvm/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/kvm/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org/title/KVM">Arch Wiki: KVM&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Virtual Machine Manager (VMM)</title><link>https://csmertx.github.io/Linux/VMs/virt-manager/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virt-manager/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 Virtual Machine Manager (VMM)</title><link>https://csmertx.com/Linux/VMs/virt-manager/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/VMs/virt-manager/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>VM software by Red Hat&lt;/p>
@@ -122,7 +122,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="host-installation">
  Host Installation
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/virt-manager/#host-installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Host Installation" href="#host-installation">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/virt-manager/#host-installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Host Installation" href="#host-installation">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -137,7 +137,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="forward-ports">
  Forward Ports
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/virt-manager/#forward-ports" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Forward Ports" href="#forward-ports">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/virt-manager/#forward-ports" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Forward Ports" href="#forward-ports">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -145,7 +145,7 @@
 &lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="converting-vms">
  Converting VMs
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/virt-manager/#converting-vms" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Converting VMs" href="#converting-vms">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/virt-manager/#converting-vms" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Converting VMs" href="#converting-vms">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -155,13 +155,13 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="cloning-vms">
  Cloning VMs
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/virt-manager/#cloning-vms" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cloning VMs" href="#cloning-vms">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/virt-manager/#cloning-vms" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cloning VMs" href="#cloning-vms">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>virt-clone --original /dir/c8n1.img --name &amp;quot;new name&amp;quot; --file c8n2.img&lt;/code>&lt;/p></description></item><item><title>💻 VirtualBox</title><link>https://csmertx.github.io/Linux/VMs/virtualbox/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/VMs/virtualbox/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>virt-clone --original /dir/c8n1.img --name &amp;quot;new name&amp;quot; --file c8n2.img&lt;/code>&lt;/p></description></item><item><title>💻 VirtualBox</title><link>https://csmertx.com/Linux/VMs/virtualbox/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/VMs/virtualbox/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>VM software by Oracle&lt;/p>
@@ -172,7 +172,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="graphics">
  Graphics
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/VMs/virtualbox/#graphics" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Graphics" href="#graphics">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/VMs/virtualbox/#graphics" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Graphics" href="#graphics">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>

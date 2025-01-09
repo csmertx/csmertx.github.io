@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Code on Chris Schammert (csmertx)</title><link>https://csmertx.github.io/Linux/Code/</link><description>Recent content in 💻 Code on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Code/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 ASCII</title><link>https://csmertx.github.io/Linux/Code/ascii/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ascii/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Code on Chris Schammert (csmertx)</title><link>https://csmertx.com/Linux/Code/</link><description>Recent content in 💻 Code on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Linux/Code/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 ASCII</title><link>https://csmertx.com/Linux/Code/ascii/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/ascii/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="because-sometimes-quotes-are-a-pain">
  Because sometimes quotes are a pain
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/ascii/#because-sometimes-quotes-are-a-pain" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Because sometimes quotes are a pain" href="#because-sometimes-quotes-are-a-pain">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/ascii/#because-sometimes-quotes-are-a-pain" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Because sometimes quotes are a pain" href="#because-sometimes-quotes-are-a-pain">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -25,12 +25,12 @@
 &lt;/li>
 &lt;li>
 &lt;p>Example&lt;/p>
-&lt;p>&lt;code>echo -en &amp;quot;This is nearly a sure way to print quotes: \x22Blah\x22&amp;quot;&lt;/code>&lt;/p></description></item><item><title>💻 AsciiDoc</title><link>https://csmertx.github.io/Linux/Code/asciidoc/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/asciidoc/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>echo -en &amp;quot;This is nearly a sure way to print quotes: \x22Blah\x22&amp;quot;&lt;/code>&lt;/p></description></item><item><title>💻 AsciiDoc</title><link>https://csmertx.com/Linux/Code/asciidoc/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/asciidoc/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h3 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/asciidoc/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/asciidoc/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h3>
@@ -44,7 +44,7 @@
 &lt;li>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://espadrine.github.io/AsciiDocBox">AsciiDoc: Sandbox (Live AsciiDoc parser with preview)&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Awk</title><link>https://csmertx.github.io/Linux/Code/awk/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/awk/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 Awk</title><link>https://csmertx.com/Linux/Code/awk/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/awk/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Make selections, and do stuff with those selections&lt;/p>
@@ -52,7 +52,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="print-nth-item-in-row">
  Print Nth item in row
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/awk/#print-nth-item-in-row" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Print Nth item in row" href="#print-nth-item-in-row">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/awk/#print-nth-item-in-row" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Print Nth item in row" href="#print-nth-item-in-row">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -62,7 +62,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="pull-info-out-of-quotes">
  Pull info out of quotes
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/awk/#pull-info-out-of-quotes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pull info out of quotes" href="#pull-info-out-of-quotes">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/awk/#pull-info-out-of-quotes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pull info out of quotes" href="#pull-info-out-of-quotes">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -72,18 +72,18 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/awk/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/awk/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://www.gnu.org/software/gawk/manual/gawk.html">The GNU Awk User&amp;rsquo;s Guide&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 C Language</title><link>https://csmertx.github.io/Linux/Code/c/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/c/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 C Language</title><link>https://csmertx.com/Linux/Code/c/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/c/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="compiling-souce-code">
  Compiling Souce Code
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/c/#compiling-souce-code" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Compiling Souce Code" href="#compiling-souce-code">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/c/#compiling-souce-code" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Compiling Souce Code" href="#compiling-souce-code">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -112,13 +112,13 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h3 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/c/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/c/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h3>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://suchprogramming.com/new-linux-process-c">Such Programming: Spawning New Linux Processes in C&lt;/a>&lt;/p></description></item><item><title>💻 Cython</title><link>https://csmertx.github.io/Linux/Code/cython_notes/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/cython_notes/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://suchprogramming.com/new-linux-process-c">Such Programming: Spawning New Linux Processes in C&lt;/a>&lt;/p></description></item><item><title>💻 Cython</title><link>https://csmertx.com/Linux/Code/cython_notes/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/cython_notes/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Python language translator for C (check links below for current information)&lt;/p>
@@ -126,7 +126,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="installation">
  Installation
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/cython_notes/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/cython_notes/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -136,7 +136,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h3 id="windows">
  Windows
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/cython_notes/#windows" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Windows" href="#windows">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/cython_notes/#windows" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Windows" href="#windows">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h3>
@@ -146,7 +146,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h3 id="linux">
  Linux
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/cython_notes/#linux" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Linux" href="#linux">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/cython_notes/#linux" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Linux" href="#linux">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h3>
@@ -156,12 +156,12 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="translate-python-to-c-using-cython">
  Translate Python to C using Cython
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/cython_notes/#translate-python-to-c-using-cython" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Translate Python to C using Cython" href="#translate-python-to-c-using-cython">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/cython_notes/#translate-python-to-c-using-cython" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Translate Python to C using Cython" href="#translate-python-to-c-using-cython">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;blockquote>
-&lt;p>Basic examples&lt;/p></description></item><item><title>💻 Find</title><link>https://csmertx.github.io/Linux/Code/find/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/find/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Basic examples&lt;/p></description></item><item><title>💻 Find</title><link>https://csmertx.com/Linux/Code/find/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/find/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Does not create databases accessible to other users (e.g. locate command)&lt;/p>
@@ -169,7 +169,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="print-subdirectories-or-files-in-a-directory">
  Print subdirectories or files in a directory
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/find/#print-subdirectories-or-files-in-a-directory" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Print subdirectories or files in a directory" href="#print-subdirectories-or-files-in-a-directory">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/find/#print-subdirectories-or-files-in-a-directory" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Print subdirectories or files in a directory" href="#print-subdirectories-or-files-in-a-directory">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -179,12 +179,12 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="scripting-example">
  Scripting example
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/find/#scripting-example" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Scripting example" href="#scripting-example">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/find/#scripting-example" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Scripting example" href="#scripting-example">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;blockquote>
-&lt;p>~/.scripts/sudof&lt;/p></description></item><item><title>💻 Git Pro</title><link>https://csmertx.github.io/Linux/Code/git_pro_notes/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/git_pro_notes/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>~/.scripts/sudof&lt;/p></description></item><item><title>💻 Git Pro</title><link>https://csmertx.com/Linux/Code/git_pro_notes/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/git_pro_notes/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Notes from before 2022&lt;/p>
@@ -195,7 +195,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="print-tags">
  Print tags
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/git_pro_notes/#print-tags" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Print tags" href="#print-tags">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/git_pro_notes/#print-tags" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Print tags" href="#print-tags">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -205,7 +205,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="extended-info">
  Extended info
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/git_pro_notes/#extended-info" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Extended info" href="#extended-info">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/git_pro_notes/#extended-info" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Extended info" href="#extended-info">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -215,13 +215,13 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="adding-tags-to-older-commits-parse-first">
  Adding tags to older commits (parse first)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/git_pro_notes/#adding-tags-to-older-commits-parse-first" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Adding tags to older commits (parse first)" href="#adding-tags-to-older-commits-parse-first">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/git_pro_notes/#adding-tags-to-older-commits-parse-first" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Adding tags to older commits (parse first)" href="#adding-tags-to-older-commits-parse-first">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>git log --pretty=oneline&lt;/code>&lt;/p></description></item><item><title>💻 Git Quick Ref.</title><link>https://csmertx.github.io/Linux/Code/github_quick/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/github_quick/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>git log --pretty=oneline&lt;/code>&lt;/p></description></item><item><title>💻 Git Quick Ref.</title><link>https://csmertx.com/Linux/Code/github_quick/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/github_quick/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Just enough to be dangerous&lt;/p>
@@ -229,7 +229,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="basic-push-to-origin">
  Basic push to origin
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/github_quick/#basic-push-to-origin" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Basic push to origin" href="#basic-push-to-origin">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/github_quick/#basic-push-to-origin" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Basic push to origin" href="#basic-push-to-origin">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -256,7 +256,7 @@
 &lt;p>&lt;code>git pull&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>git push -u origin&lt;/code>&lt;/p></description></item><item><title>💻 Glade GTK</title><link>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/glade_gtk-rs/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>git push -u origin&lt;/code>&lt;/p></description></item><item><title>💻 Glade GTK</title><link>https://csmertx.com/Linux/Code/glade_gtk-rs/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/glade_gtk-rs/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Toolchain to create GTK applications&lt;/p>
@@ -264,7 +264,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/glade_gtk-rs/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/glade_gtk-rs/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -278,12 +278,12 @@
 &lt;li>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://wiki.gnome.org/Apps/Glade/Tutorials">Gnome Project: Glade Tutorials&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Grep</title><link>https://csmertx.github.io/Linux/Code/grep/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/grep/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 Grep</title><link>https://csmertx.com/Linux/Code/grep/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/grep/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="find-match-or-match">
  Find match or match
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/grep/#find-match-or-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Find match or match" href="#find-match-or-match">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/grep/#find-match-or-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Find match or match" href="#find-match-or-match">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -298,7 +298,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="find-match-and-match">
  Find match and match
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/grep/#find-match-and-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Find match and match" href="#find-match-and-match">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/grep/#find-match-and-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Find match and match" href="#find-match-and-match">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -308,7 +308,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="omit-match">
  Omit match
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/grep/#omit-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Omit match" href="#omit-match">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/grep/#omit-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Omit match" href="#omit-match">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -318,18 +318,18 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="find-first-or-last-of-line-match">
  Find first or last of line match
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/grep/#find-first-or-last-of-line-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Find first or last of line match" href="#find-first-or-last-of-line-match">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/grep/#find-first-or-last-of-line-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Find first or last of line match" href="#find-first-or-last-of-line-match">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>grep &amp;quot;^match&amp;quot;&lt;/code>&lt;/p></description></item><item><title>💻 Java Apps</title><link>https://csmertx.github.io/Linux/Code/java/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/java/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>grep &amp;quot;^match&amp;quot;&lt;/code>&lt;/p></description></item><item><title>💻 Java Apps</title><link>https://csmertx.com/Linux/Code/java/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/java/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="installation-linux">
  Installation (Linux)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/java/#installation-linux" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation (Linux)" href="#installation-linux">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/java/#installation-linux" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation (Linux)" href="#installation-linux">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -342,7 +342,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="create-desktop-shortcuts-for-java-apps">
  Create desktop shortcuts for Java apps
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/java/#create-desktop-shortcuts-for-java-apps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Create desktop shortcuts for Java apps" href="#create-desktop-shortcuts-for-java-apps">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/java/#create-desktop-shortcuts-for-java-apps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Create desktop shortcuts for Java apps" href="#create-desktop-shortcuts-for-java-apps">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -367,12 +367,12 @@ Type=Application
 Categories=Game
 &lt;/code>&lt;/pre>&lt;/li>
 &lt;li>
-&lt;p>&lt;code>sudoc /home/chris/.local/share/applications/kolmafia.desktop&lt;/code>&lt;/p></description></item><item><title>💻 Markdown</title><link>https://csmertx.github.io/Linux/Code/markdown/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/markdown/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>sudoc /home/chris/.local/share/applications/kolmafia.desktop&lt;/code>&lt;/p></description></item><item><title>💻 Markdown</title><link>https://csmertx.com/Linux/Code/markdown/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/markdown/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="convert-markdown-to-pdf">
  Convert Markdown to PDF
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/markdown/#convert-markdown-to-pdf" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Convert Markdown to PDF" href="#convert-markdown-to-pdf">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/markdown/#convert-markdown-to-pdf" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Convert Markdown to PDF" href="#convert-markdown-to-pdf">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -395,18 +395,18 @@ Categories=Game
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/markdown/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/markdown/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.markdownguide.org/basic-syntax#code-blocks">Markdown Guide: Basic Syntax&lt;/a>&lt;/p></description></item><item><title>💻 Perl Language</title><link>https://csmertx.github.io/Linux/Code/perl/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/perl/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.markdownguide.org/basic-syntax#code-blocks">Markdown Guide: Basic Syntax&lt;/a>&lt;/p></description></item><item><title>💻 Perl Language</title><link>https://csmertx.com/Linux/Code/perl/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/perl/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="print-nth-instance-of-match">
  Print Nth instance of match
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/perl/#print-nth-instance-of-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Print Nth instance of match" href="#print-nth-instance-of-match">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/perl/#print-nth-instance-of-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Print Nth instance of match" href="#print-nth-instance-of-match">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -424,18 +424,18 @@ Categories=Game
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/perl/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/perl/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://www.perl.org/docs.html">Perl Programming Language Documentation&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Python Package Index (PyPi)</title><link>https://csmertx.github.io/Linux/Code/pypi/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/pypi/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 Python Package Index (PyPi)</title><link>https://csmertx.com/Linux/Code/pypi/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/pypi/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="installing-python-packages">
  Installing Python packages
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/pypi/#installing-python-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installing Python packages" href="#installing-python-packages">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/pypi/#installing-python-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installing Python packages" href="#installing-python-packages">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -453,7 +453,7 @@ Categories=Game
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="upgrading-packages">
  Upgrading packages
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/pypi/#upgrading-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Upgrading packages" href="#upgrading-packages">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/pypi/#upgrading-packages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Upgrading packages" href="#upgrading-packages">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -463,18 +463,18 @@ Categories=Game
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/pypi/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/pypi/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://pypi.org/">Python Package Index Homepage&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Ruby Language</title><link>https://csmertx.github.io/Linux/Code/ruby/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/ruby/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 Ruby Language</title><link>https://csmertx.com/Linux/Code/ruby/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/ruby/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="add-to-path">
  Add to PATH
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/ruby/#add-to-path" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add to PATH" href="#add-to-path">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/ruby/#add-to-path" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add to PATH" href="#add-to-path">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -487,7 +487,7 @@ Categories=Game
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/ruby/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/ruby/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -498,12 +498,12 @@ Categories=Game
 &lt;li>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://www.ruby-lang.org/en/about/">About Ruby&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Sed</title><link>https://csmertx.github.io/Linux/Code/sed/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/sed/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 Sed</title><link>https://csmertx.com/Linux/Code/sed/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/sed/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="wrap-every-line-output-in-quotes">
  Wrap every line output in quotes
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/sed/#wrap-every-line-output-in-quotes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Wrap every line output in quotes" href="#wrap-every-line-output-in-quotes">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/sed/#wrap-every-line-output-in-quotes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Wrap every line output in quotes" href="#wrap-every-line-output-in-quotes">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -513,7 +513,7 @@ Categories=Game
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="remove-whitespace-lines">
  Remove Whitespace Lines
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/sed/#remove-whitespace-lines" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Remove Whitespace Lines" href="#remove-whitespace-lines">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/sed/#remove-whitespace-lines" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Remove Whitespace Lines" href="#remove-whitespace-lines">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -523,7 +523,7 @@ Categories=Game
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="remove-everything-before-match">
  Remove everything before match
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/sed/#remove-everything-before-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Remove everything before match" href="#remove-everything-before-match">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/sed/#remove-everything-before-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Remove everything before match" href="#remove-everything-before-match">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -533,7 +533,7 @@ Categories=Game
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="remove-everything-after-match">
  Remove everything after match
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/sed/#remove-everything-after-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Remove everything after match" href="#remove-everything-after-match">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/sed/#remove-everything-after-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Remove everything after match" href="#remove-everything-after-match">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -543,7 +543,7 @@ Categories=Game
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="replace-first-instance-of-match">
  Replace first instance of match
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/sed/#replace-first-instance-of-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Replace first instance of match" href="#replace-first-instance-of-match">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/sed/#replace-first-instance-of-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Replace first instance of match" href="#replace-first-instance-of-match">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -553,18 +553,18 @@ Categories=Game
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="replace-nth-instance-of-match">
  Replace Nth instance of match
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/sed/#replace-nth-instance-of-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Replace Nth instance of match" href="#replace-nth-instance-of-match">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/sed/#replace-nth-instance-of-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Replace Nth instance of match" href="#replace-nth-instance-of-match">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>sed 's/example1/example2/2g&lt;/code>&lt;/p></description></item><item><title>💻 ShellCheck</title><link>https://csmertx.github.io/Linux/Code/shellcheck/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Code/shellcheck/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>sed 's/example1/example2/2g&lt;/code>&lt;/p></description></item><item><title>💻 ShellCheck</title><link>https://csmertx.com/Linux/Code/shellcheck/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/shellcheck/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="basic-commands">
  Basic Commands
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/shellcheck/#basic-commands" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Basic Commands" href="#basic-commands">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/shellcheck/#basic-commands" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Basic Commands" href="#basic-commands">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -574,7 +574,7 @@ Categories=Game
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="_eof_-triggering-errors">
  _EOF_ triggering errors
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/shellcheck/#_eof_-triggering-errors" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor _EOF_ triggering errors" href="#_eof_-triggering-errors">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/shellcheck/#_eof_-triggering-errors" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor _EOF_ triggering errors" href="#_eof_-triggering-errors">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -582,7 +582,7 @@ Categories=Game
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Code/shellcheck/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Code/shellcheck/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>

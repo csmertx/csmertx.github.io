@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Desktop Environments on Chris Schammert (csmertx)</title><link>https://csmertx.github.io/Linux/DEs/</link><description>Recent content in 💻 Desktop Environments on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/DEs/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Plasma (KDE)</title><link>https://csmertx.github.io/Linux/DEs/kde_plasma/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/kde_plasma/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Desktop Environments on Chris Schammert (csmertx)</title><link>https://csmertx.com/Linux/DEs/</link><description>Recent content in 💻 Desktop Environments on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Linux/DEs/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Plasma (KDE)</title><link>https://csmertx.com/Linux/DEs/kde_plasma/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/DEs/kde_plasma/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="exclude-firmware-updates">
  Exclude firmware updates
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/DEs/kde_plasma/#exclude-firmware-updates" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Exclude firmware updates" href="#exclude-firmware-updates">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/DEs/kde_plasma/#exclude-firmware-updates" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Exclude firmware updates" href="#exclude-firmware-updates">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -21,18 +21,18 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="sddm-high-cpu-usage-25-">
  SDDM High CPU Usage (25% +)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/DEs/kde_plasma/#sddm-high-cpu-usage-25-" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor SDDM High CPU Usage (25% &amp;#43;)" href="#sddm-high-cpu-usage-25-">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/DEs/kde_plasma/#sddm-high-cpu-usage-25-" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor SDDM High CPU Usage (25% &amp;#43;)" href="#sddm-high-cpu-usage-25-">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>sudov /etc/security/pam_env.conf&lt;/code>&lt;/p></description></item><item><title>💻 GNOME 3</title><link>https://csmertx.github.io/Linux/DEs/gnome3/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/gnome3/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>sudov /etc/security/pam_env.conf&lt;/code>&lt;/p></description></item><item><title>💻 GNOME 3</title><link>https://csmertx.com/Linux/DEs/gnome3/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/DEs/gnome3/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="extensions">
  Extensions
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/DEs/gnome3/#extensions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Extensions" href="#extensions">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/DEs/gnome3/#extensions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Extensions" href="#extensions">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -59,7 +59,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="autostart-gnome-specific">
  Autostart (Gnome specific)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/DEs/gnome3/#autostart-gnome-specific" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Autostart (Gnome specific)" href="#autostart-gnome-specific">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/DEs/gnome3/#autostart-gnome-specific" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Autostart (Gnome specific)" href="#autostart-gnome-specific">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -77,13 +77,13 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="autostart-all-desktop-environments">
  Autostart (all desktop environments)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/DEs/gnome3/#autostart-all-desktop-environments" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Autostart (all desktop environments)" href="#autostart-all-desktop-environments">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/DEs/gnome3/#autostart-all-desktop-environments" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Autostart (all desktop environments)" href="#autostart-all-desktop-environments">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>mkdir $HOME/.config/autostart&lt;/code>&lt;/p></description></item><item><title>💻 Xfce</title><link>https://csmertx.github.io/Linux/DEs/xfce/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/DEs/xfce/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>mkdir $HOME/.config/autostart&lt;/code>&lt;/p></description></item><item><title>💻 Xfce</title><link>https://csmertx.com/Linux/DEs/xfce/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/DEs/xfce/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Originally known as: XForms Common Environment&lt;/p>
@@ -91,7 +91,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="notification-theme">
  Notification Theme
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/DEs/xfce/#notification-theme" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Notification Theme" href="#notification-theme">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/DEs/xfce/#notification-theme" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Notification Theme" href="#notification-theme">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -101,7 +101,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="whisker-menu-animated-icon">
  Whisker Menu Animated Icon
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/DEs/xfce/#whisker-menu-animated-icon" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Whisker Menu Animated Icon" href="#whisker-menu-animated-icon">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/DEs/xfce/#whisker-menu-animated-icon" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Whisker Menu Animated Icon" href="#whisker-menu-animated-icon">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -111,7 +111,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="whisker-catfish-menu-search">
  Whisker Catfish menu search
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/DEs/xfce/#whisker-catfish-menu-search" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Whisker Catfish menu search" href="#whisker-catfish-menu-search">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/DEs/xfce/#whisker-catfish-menu-search" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Whisker Catfish menu search" href="#whisker-catfish-menu-search">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>

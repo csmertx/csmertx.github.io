@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Devices on Chris Schammert (csmertx)</title><link>https://csmertx.github.io/Linux/Devices/</link><description>Recent content in 💻 Devices on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Devices/index.xml" rel="self" type="application/rss+xml"/><item><title>🖲️ Trackballs</title><link>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</link><pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/trackball_scrolling/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Devices on Chris Schammert (csmertx)</title><link>https://csmertx.com/Linux/Devices/</link><description>Recent content in 💻 Devices on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Linux/Devices/index.xml" rel="self" type="application/rss+xml"/><item><title>🖲️ Trackballs</title><link>https://csmertx.com/Linux/Devices/trackball_scrolling/</link><pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/trackball_scrolling/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="elecom-huge-trackball-fn-buttons">
  Elecom HUGE trackball FN Buttons
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/trackball_scrolling/#elecom-huge-trackball-fn-buttons" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Elecom HUGE trackball FN Buttons" href="#elecom-huge-trackball-fn-buttons">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/trackball_scrolling/#elecom-huge-trackball-fn-buttons" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Elecom HUGE trackball FN Buttons" href="#elecom-huge-trackball-fn-buttons">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -17,12 +17,12 @@
 &lt;blockquote>
 &lt;p>Requires escalated privileges&lt;/p>
 &lt;/blockquote>
-&lt;p>Restore presets for each reboot/poweroff&lt;/p></description></item><item><title>💻 Touchpads</title><link>https://csmertx.github.io/Linux/Devices/touchpad_config/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/touchpad_config/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Restore presets for each reboot/poweroff&lt;/p></description></item><item><title>💻 Touchpads</title><link>https://csmertx.com/Linux/Devices/touchpad_config/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/touchpad_config/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="jelly-comb-glass-slow-cursor-wubuntu-2204">
  Jelly Comb glass slow cursor w/Ubuntu 22.04
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/touchpad_config/#jelly-comb-glass-slow-cursor-wubuntu-2204" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Jelly Comb glass slow cursor w/Ubuntu 22.04" href="#jelly-comb-glass-slow-cursor-wubuntu-2204">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/touchpad_config/#jelly-comb-glass-slow-cursor-wubuntu-2204" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Jelly Comb glass slow cursor w/Ubuntu 22.04" href="#jelly-comb-glass-slow-cursor-wubuntu-2204">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -46,18 +46,18 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="laptop">
  Laptop
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/touchpad_config/#laptop" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Laptop" href="#laptop">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/touchpad_config/#laptop" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Laptop" href="#laptop">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>vim /etc/X11/xorg.conf.d/10-libinput.conf&lt;/code>&lt;/p></description></item><item><title>⌚ PineTime Smartwatch</title><link>https://csmertx.github.io/Linux/Devices/pinetime/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/pinetime/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>vim /etc/X11/xorg.conf.d/10-libinput.conf&lt;/code>&lt;/p></description></item><item><title>⌚ PineTime Smartwatch</title><link>https://csmertx.com/Linux/Devices/pinetime/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/pinetime/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="pinetime-smartwatch">
  Pinetime Smartwatch?
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/pinetime/#pinetime-smartwatch" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pinetime Smartwatch?" href="#pinetime-smartwatch">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/pinetime/#pinetime-smartwatch" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Pinetime Smartwatch?" href="#pinetime-smartwatch">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -65,13 +65,13 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="reporting-in-after-close-to-a-year">
  Reporting in after close to a year
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/pinetime/#reporting-in-after-close-to-a-year" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Reporting in after close to a year" href="#reporting-in-after-close-to-a-year">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/pinetime/#reporting-in-after-close-to-a-year" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Reporting in after close to a year" href="#reporting-in-after-close-to-a-year">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ol>
 &lt;li>
-&lt;p>Raising wrist to wake up the device is mostly awesome&lt;/p></description></item><item><title>⌨️ Keyboard Scancodes</title><link>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/keyboard_scancodes/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Raising wrist to wake up the device is mostly awesome&lt;/p></description></item><item><title>⌨️ Keyboard Scancodes</title><link>https://csmertx.com/Linux/Devices/keyboard_scancodes/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/keyboard_scancodes/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>May include game controller keysyms as well?&lt;/p>
@@ -265,12 +265,12 @@ XF86Xfer
 XF86ZoomIn
 XF86ZoomOut
 XF86iTouch 
-&lt;/code>&lt;/pre>&lt;p>*&lt;strong>^(&lt;a class="gdoc-markdown__link" href="https://wiki.linuxquestions.org/wiki/XF86_keyboard_symbols">https://wiki.linuxquestions.org/wiki/XF86_keyboard_symbols&lt;/a>)&lt;/strong>&lt;/p></description></item><item><title>👾 GPUs</title><link>https://csmertx.github.io/Linux/Devices/gpu/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gpu/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/code>&lt;/pre>&lt;p>*&lt;strong>^(&lt;a class="gdoc-markdown__link" href="https://wiki.linuxquestions.org/wiki/XF86_keyboard_symbols">https://wiki.linuxquestions.org/wiki/XF86_keyboard_symbols&lt;/a>)&lt;/strong>&lt;/p></description></item><item><title>👾 GPUs</title><link>https://csmertx.com/Linux/Devices/gpu/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/gpu/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="amd-open-source-tear-free">
  AMD Open Source: tear free
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/gpu/#amd-open-source-tear-free" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor AMD Open Source: tear free" href="#amd-open-source-tear-free">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/gpu/#amd-open-source-tear-free" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor AMD Open Source: tear free" href="#amd-open-source-tear-free">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -286,7 +286,7 @@ EndSection
 &lt;p>May not be necessary for newer or more powerful cards&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
-&lt;p>I used this option for a passively cooled Radeon 5450, and an early 00s Acer laptop&lt;/p></description></item><item><title>💻 Android &amp; Linux</title><link>https://csmertx.github.io/Linux/Devices/android/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/android/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>I used this option for a passively cooled Radeon 5450, and an early 00s Acer laptop&lt;/p></description></item><item><title>💻 Android &amp; Linux</title><link>https://csmertx.com/Linux/Devices/android/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/android/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>See also &lt;a class="gdoc-markdown__link" href="../../Android/adb">ADB&lt;/a>&lt;/p>
@@ -294,7 +294,7 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="kde-mtp">
  KDE (MTP)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/android/#kde-mtp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor KDE (MTP)" href="#kde-mtp">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/android/#kde-mtp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor KDE (MTP)" href="#kde-mtp">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -318,13 +318,13 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="gnome-mtp">
  Gnome (MTP)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/android/#gnome-mtp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Gnome (MTP)" href="#gnome-mtp">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/android/#gnome-mtp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Gnome (MTP)" href="#gnome-mtp">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>pac -S gvfs-mtp&lt;/code>&lt;/p></description></item><item><title>💻 WiFi</title><link>https://csmertx.github.io/Linux/Devices/wifi/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/wifi/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>pac -S gvfs-mtp&lt;/code>&lt;/p></description></item><item><title>💻 WiFi</title><link>https://csmertx.com/Linux/Devices/wifi/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/wifi/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>See &lt;a class="gdoc-markdown__link" href="../../Linux/VMs/virt-manager">virt-manager&lt;/a> for USB or PCIE WiFi device passthrough&lt;/p>
@@ -332,7 +332,7 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="ap-mode">
  AP Mode
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/wifi/#ap-mode" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor AP Mode" href="#ap-mode">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/wifi/#ap-mode" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor AP Mode" href="#ap-mode">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -361,11 +361,11 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="wifi-5ghz">
  WiFi 5ghz
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/wifi/#wifi-5ghz" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor WiFi 5ghz" href="#wifi-5ghz">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/wifi/#wifi-5ghz" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor WiFi 5ghz" href="#wifi-5ghz">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
-&lt;/div>&lt;p>&lt;code>sudo iwconfig WiFi_device freq 5.7G&lt;/code>&lt;/p></description></item><item><title>💻 Xbox One Controller</title><link>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/xbox_one_controller/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/div>&lt;p>&lt;code>sudo iwconfig WiFi_device freq 5.7G&lt;/code>&lt;/p></description></item><item><title>💻 Xbox One Controller</title><link>https://csmertx.com/Linux/Devices/xbox_one_controller/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/xbox_one_controller/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Pre-Bluetooth version (wireless)&lt;/p>
@@ -373,7 +373,7 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="disable-mouse-emulation">
  Disable Mouse Emulation
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/xbox_one_controller/#disable-mouse-emulation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Disable Mouse Emulation" href="#disable-mouse-emulation">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/xbox_one_controller/#disable-mouse-emulation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Disable Mouse Emulation" href="#disable-mouse-emulation">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -389,13 +389,13 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="ltriggerrtrigger-issue">
  LTrigger/RTrigger Issue
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/xbox_one_controller/#ltriggerrtrigger-issue" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor LTrigger/RTrigger Issue" href="#ltriggerrtrigger-issue">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/xbox_one_controller/#ltriggerrtrigger-issue" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor LTrigger/RTrigger Issue" href="#ltriggerrtrigger-issue">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>apti joystick&lt;/code>&lt;/p></description></item><item><title>💾 Hard Disk Drives</title><link>https://csmertx.github.io/Linux/Devices/storage/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/storage/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>apti joystick&lt;/code>&lt;/p></description></item><item><title>💾 Hard Disk Drives</title><link>https://csmertx.com/Linux/Devices/storage/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/storage/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>And estimating time of failure (based on arbitrary read/write cycle counts)&lt;/p>
@@ -403,7 +403,7 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="check-drive">
  Check Drive
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/storage/#check-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Check Drive" href="#check-drive">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/storage/#check-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Check Drive" href="#check-drive">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -424,7 +424,7 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="total-writes-per-drive">
  Total Writes per drive
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/storage/#total-writes-per-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Total Writes per drive" href="#total-writes-per-drive">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/storage/#total-writes-per-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Total Writes per drive" href="#total-writes-per-drive">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -432,7 +432,7 @@ EndSection
 &lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="total-reads-per-drive">
  Total Reads per drive
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/storage/#total-reads-per-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Total Reads per drive" href="#total-reads-per-drive">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/storage/#total-reads-per-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Total Reads per drive" href="#total-reads-per-drive">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -440,18 +440,18 @@ EndSection
 &lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="monitor-readswrites">
  Monitor Reads/Writes
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/storage/#monitor-readswrites" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Monitor Reads/Writes" href="#monitor-readswrites">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/storage/#monitor-readswrites" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Monitor Reads/Writes" href="#monitor-readswrites">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>apti iotop&lt;/code>&lt;/p></description></item><item><title>📡 Bluetooth</title><link>https://csmertx.github.io/Linux/Devices/bluetooth/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/bluetooth/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>apti iotop&lt;/code>&lt;/p></description></item><item><title>📡 Bluetooth</title><link>https://csmertx.com/Linux/Devices/bluetooth/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/bluetooth/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="preferred-bluetooth-systray">
  Preferred Bluetooth systray
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/bluetooth/#preferred-bluetooth-systray" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Preferred Bluetooth systray" href="#preferred-bluetooth-systray">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/bluetooth/#preferred-bluetooth-systray" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Preferred Bluetooth systray" href="#preferred-bluetooth-systray">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -474,18 +474,18 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="usb-tethering-5g">
  USB Tethering 5G
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/bluetooth/#usb-tethering-5g" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor USB Tethering 5G" href="#usb-tethering-5g">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/bluetooth/#usb-tethering-5g" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor USB Tethering 5G" href="#usb-tethering-5g">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>Ubuntu 22.04: smooth sailing (05-19-22)&lt;/p></description></item><item><title>🖥️ CPUs</title><link>https://csmertx.github.io/Linux/Devices/cpu/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/cpu/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Ubuntu 22.04: smooth sailing (05-19-22)&lt;/p></description></item><item><title>🖥️ CPUs</title><link>https://csmertx.com/Linux/Devices/cpu/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/cpu/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="check-status-of-intel-mitigations">
  Check status of Intel Mitigations
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/cpu/#check-status-of-intel-mitigations" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Check status of Intel Mitigations" href="#check-status-of-intel-mitigations">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/cpu/#check-status-of-intel-mitigations" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Check status of Intel Mitigations" href="#check-status-of-intel-mitigations">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -495,7 +495,7 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="turn-off-intel-mitigations--5113-kernel">
  Turn Off Intel Mitigations (&amp;gt;= 5.1.13 kernel)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/cpu/#turn-off-intel-mitigations--5113-kernel" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Turn Off Intel Mitigations (&amp;gt;= 5.1.13 kernel)" href="#turn-off-intel-mitigations--5113-kernel">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/cpu/#turn-off-intel-mitigations--5113-kernel" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Turn Off Intel Mitigations (&amp;gt;= 5.1.13 kernel)" href="#turn-off-intel-mitigations--5113-kernel">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -507,7 +507,7 @@ EndSection
 &lt;p>&lt;code>sudov /etc/default/grub&lt;/code>&lt;/p>
 &lt;pre tabindex="0">&lt;code>++ mitigations=off
 &lt;/code>&lt;/pre>&lt;blockquote>
-&lt;p>At the end of kernel parameters&lt;/p></description></item><item><title>🖥️ Monitors</title><link>https://csmertx.github.io/Linux/Devices/monitor/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/monitor/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>At the end of kernel parameters&lt;/p></description></item><item><title>🖥️ Monitors</title><link>https://csmertx.com/Linux/Devices/monitor/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/monitor/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Note copied from: /Linux/Assorted/xrandr&lt;/p>
@@ -515,7 +515,7 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="mode-not-displayed">
  Mode Not Displayed
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/monitor/#mode-not-displayed" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mode Not Displayed" href="#mode-not-displayed">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/monitor/#mode-not-displayed" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mode Not Displayed" href="#mode-not-displayed">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -532,7 +532,7 @@ EndSection
 &lt;li>
 &lt;p>&lt;code>sudo xrandr --newmode [...copied line minus the word Modeline...]&lt;/code>&lt;/p>
 &lt;blockquote>
-&lt;p>The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline&lt;/p></description></item><item><title>🖨️ Printers</title><link>https://csmertx.github.io/Linux/Devices/printing/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/printing/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>The &amp;ndash;newmode flag or optarg notifies the system of a new Modeline&lt;/p></description></item><item><title>🖨️ Printers</title><link>https://csmertx.com/Linux/Devices/printing/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/printing/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>For command line instructions see notes for &lt;a class="gdoc-markdown__link" href="../../Linux/Distros/arch">Arch Linux&lt;/a>&lt;/p>
@@ -540,7 +540,7 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h3 id="brother-hl-2140-printing-blank-pages">
  Brother HL-2140 printing Blank Pages
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/printing/#brother-hl-2140-printing-blank-pages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Brother HL-2140 printing Blank Pages" href="#brother-hl-2140-printing-blank-pages">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/printing/#brother-hl-2140-printing-blank-pages" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Brother HL-2140 printing Blank Pages" href="#brother-hl-2140-printing-blank-pages">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h3>
@@ -568,7 +568,7 @@ EndSection
 &lt;li>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://support.brother.com/g/b/downloadtop.aspx?c=us&amp;amp;lang=en&amp;amp;prod=hl2140_all">Brother Printer Support: HL-2140 Driver&lt;/a>&lt;/p>
 &lt;blockquote>
-&lt;p>.rpm for Fedora or .deb for Debian/Ubuntu&lt;/p></description></item><item><title>🖱️ Sensei 310</title><link>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/steelseries_sensei310/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>.rpm for Fedora or .deb for Debian/Ubuntu&lt;/p></description></item><item><title>🖱️ Sensei 310</title><link>https://csmertx.com/Linux/Devices/steelseries_sensei310/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/steelseries_sensei310/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>And other SteelSeries devices (same installation)&lt;/p>
@@ -576,7 +576,7 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="installation">
  Installation
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/steelseries_sensei310/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/steelseries_sensei310/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -602,13 +602,13 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="configuration">
  Configuration
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/steelseries_sensei310/#configuration" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Configuration" href="#configuration">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/steelseries_sensei310/#configuration" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Configuration" href="#configuration">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>Sensitivity (high/low)&lt;/p></description></item><item><title>🛰️ GPS Devices</title><link>https://csmertx.github.io/Linux/Devices/gps/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/gps/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Sensitivity (high/low)&lt;/p></description></item><item><title>🛰️ GPS Devices</title><link>https://csmertx.com/Linux/Devices/gps/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/gps/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Not something I&amp;rsquo;ve used. Just a curiosity.&lt;/p>
@@ -616,7 +616,7 @@ EndSection
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="from-gps-device">
  From GPS Device
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/gps/#from-gps-device" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor From GPS Device" href="#from-gps-device">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/gps/#from-gps-device" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor From GPS Device" href="#from-gps-device">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>

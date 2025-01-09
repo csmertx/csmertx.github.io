@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Shells on Chris Schammert (csmertx)</title><link>https://csmertx.github.io/Linux/Shells/</link><description>Recent content in 💻 Shells on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Shells/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Bash</title><link>https://csmertx.github.io/Linux/Shells/bash/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/bash/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Shells on Chris Schammert (csmertx)</title><link>https://csmertx.com/Linux/Shells/</link><description>Recent content in 💻 Shells on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Linux/Shells/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Bash</title><link>https://csmertx.com/Linux/Shells/bash/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Shells/bash/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>If you want scripts that are works of art check out Stack Overflow.&lt;/p>
@@ -6,7 +6,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="symlink-to-binsh">
  Symlink to /bin/sh
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Shells/bash/#symlink-to-binsh" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Symlink to /bin/sh" href="#symlink-to-binsh">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Shells/bash/#symlink-to-binsh" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Symlink to /bin/sh" href="#symlink-to-binsh">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -16,7 +16,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="auto-completion">
  Auto Completion
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Shells/bash/#auto-completion" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Auto Completion" href="#auto-completion">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Shells/bash/#auto-completion" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Auto Completion" href="#auto-completion">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -28,12 +28,12 @@
 &lt;p>&lt;code>sudo apt-get install bash-completion&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>vim ~/.bashrc&lt;/code>&lt;/p></description></item><item><title>💻 ZSH</title><link>https://csmertx.github.io/Linux/Shells/zsh/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Shells/zsh/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>vim ~/.bashrc&lt;/code>&lt;/p></description></item><item><title>💻 ZSH</title><link>https://csmertx.com/Linux/Shells/zsh/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Shells/zsh/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h3 id="add-pause-to-zshrc">
  Add Pause to ~/.zshrc
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Shells/zsh/#add-pause-to-zshrc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add Pause to ~/.zshrc" href="#add-pause-to-zshrc">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Shells/zsh/#add-pause-to-zshrc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add Pause to ~/.zshrc" href="#add-pause-to-zshrc">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h3>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🥧 Raspberry Pi 4 on Chris Schammert (csmertx)</title><link>https://csmertx.github.io/Linux/Devices/rpi4/</link><description>Recent content in 🥧 Raspberry Pi 4 on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Devices/rpi4/index.xml" rel="self" type="application/rss+xml"/><item><title>🥧 Manjaro/RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/manjaro/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/manjaro/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🥧 Raspberry Pi 4 on Chris Schammert (csmertx)</title><link>https://csmertx.com/Linux/Devices/rpi4/</link><description>Recent content in 🥧 Raspberry Pi 4 on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Linux/Devices/rpi4/index.xml" rel="self" type="application/rss+xml"/><item><title>🥧 Manjaro/RPi4</title><link>https://csmertx.com/Linux/Devices/rpi4/manjaro/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/rpi4/manjaro/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Created 2021&lt;/p>
@@ -6,7 +6,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="waveshare-wm8960-soundcard">
  Waveshare WM8960 Soundcard
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/rpi4/manjaro/#waveshare-wm8960-soundcard" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Waveshare WM8960 Soundcard" href="#waveshare-wm8960-soundcard">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/rpi4/manjaro/#waveshare-wm8960-soundcard" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Waveshare WM8960 Soundcard" href="#waveshare-wm8960-soundcard">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -16,7 +16,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="issues">
  Issues
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/rpi4/manjaro/#issues" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Issues" href="#issues">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/rpi4/manjaro/#issues" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Issues" href="#issues">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -26,11 +26,11 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="more-details">
  More details
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/rpi4/manjaro/#more-details" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor More details" href="#more-details">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/rpi4/manjaro/#more-details" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor More details" href="#more-details">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
-&lt;/div>&lt;p>I wish I could provide more details. Unfortunately, I failed to properly document this experiment.&lt;/p></description></item><item><title>🥧 RetroPie/RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/retropie/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/retropie/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/div>&lt;p>I wish I could provide more details. Unfortunately, I failed to properly document this experiment.&lt;/p></description></item><item><title>🥧 RetroPie/RPi4</title><link>https://csmertx.com/Linux/Devices/rpi4/retropie/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/rpi4/retropie/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>And WM8860 GPIO soundcard addon (speakers)&lt;/p>
@@ -38,7 +38,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="first-steps">
  First steps
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/rpi4/retropie/#first-steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor First steps" href="#first-steps">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/rpi4/retropie/#first-steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor First steps" href="#first-steps">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -59,7 +59,7 @@
 &lt;p>&lt;code>sudo raspi-config&lt;/code>&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>Change localization and keyboard mapping&lt;/p></description></item><item><title>🥧 Ubuntu 20.04 Server 2 Desktop on RPi4</title><link>https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Change localization and keyboard mapping&lt;/p></description></item><item><title>🥧 Ubuntu 20.04 Server 2 Desktop on RPi4</title><link>https://csmertx.com/Linux/Devices/rpi4/ubuntu/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/rpi4/ubuntu/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Ubuntu 20.04 via RPi4 w/Official 7in LCD&lt;/p>
@@ -70,7 +70,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="install-ubuntu-desktop-via-2004-server">
  Install Ubuntu Desktop via 20.04 Server
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Devices/rpi4/ubuntu/#install-ubuntu-desktop-via-2004-server" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install Ubuntu Desktop via 20.04 Server" href="#install-ubuntu-desktop-via-2004-server">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/rpi4/ubuntu/#install-ubuntu-desktop-via-2004-server" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install Ubuntu Desktop via 20.04 Server" href="#install-ubuntu-desktop-via-2004-server">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>

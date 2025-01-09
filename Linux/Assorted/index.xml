@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Core Utilities on Chris Schammert (csmertx)</title><link>https://csmertx.github.io/Linux/Assorted/</link><description>Recent content in 💻 Core Utilities on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/Assorted/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Accessing Media</title><link>https://csmertx.github.io/Linux/Assorted/mount/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/mount/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Core Utilities on Chris Schammert (csmertx)</title><link>https://csmertx.com/Linux/Assorted/</link><description>Recent content in 💻 Core Utilities on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Linux/Assorted/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Accessing Media</title><link>https://csmertx.com/Linux/Assorted/mount/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/mount/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="ext4">
  EXT4
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/mount/#ext4" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor EXT4" href="#ext4">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/mount/#ext4" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor EXT4" href="#ext4">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -18,7 +18,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="ntfs">
  NTFS
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/mount/#ntfs" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor NTFS" href="#ntfs">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/mount/#ntfs" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor NTFS" href="#ntfs">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -33,7 +33,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="boot-without-mounting-drive">
  Boot without mounting drive
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/mount/#boot-without-mounting-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Boot without mounting drive" href="#boot-without-mounting-drive">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/mount/#boot-without-mounting-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Boot without mounting drive" href="#boot-without-mounting-drive">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -43,13 +43,13 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="access-to-usb-drive-via-console-wuser-permissions">
  Access to USB drive via console w/user permissions
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/mount/#access-to-usb-drive-via-console-wuser-permissions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Access to USB drive via console w/user permissions" href="#access-to-usb-drive-via-console-wuser-permissions">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/mount/#access-to-usb-drive-via-console-wuser-permissions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Access to USB drive via console w/user permissions" href="#access-to-usb-drive-via-console-wuser-permissions">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>Check ftype with: &lt;code>fsck -N /dev/xxx&lt;/code>&lt;/p></description></item><item><title>💻 Admin</title><link>https://csmertx.github.io/Linux/Assorted/admin/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/admin/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Check ftype with: &lt;code>fsck -N /dev/xxx&lt;/code>&lt;/p></description></item><item><title>💻 Admin</title><link>https://csmertx.com/Linux/Assorted/admin/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/admin/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Same as &lt;a class="gdoc-markdown__link" href="../../Linux/Assorted/vconsole">Virtual Console&lt;/a>&lt;/p>
@@ -57,14 +57,14 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h1 id="typical-console-commands">
  Typical Console Commands
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/admin/#typical-console-commands" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Typical Console Commands" href="#typical-console-commands">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/admin/#typical-console-commands" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Typical Console Commands" href="#typical-console-commands">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h1>
 &lt;/div>&lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="add-users--add-groups">
  Add users &amp;amp; add groups
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/admin/#add-users--add-groups" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add users &amp;amp; add groups" href="#add-users--add-groups">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/admin/#add-users--add-groups" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add users &amp;amp; add groups" href="#add-users--add-groups">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -82,7 +82,7 @@
 &lt;p>&lt;code>sudo usermod -a -G existinggroup existinguser&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>sudo groupadd newgroup&lt;/code>&lt;/p></description></item><item><title>💻 ALSA</title><link>https://csmertx.github.io/Linux/Assorted/alsa/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/alsa/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>sudo groupadd newgroup&lt;/code>&lt;/p></description></item><item><title>💻 ALSA</title><link>https://csmertx.com/Linux/Assorted/alsa/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/alsa/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>For tiling window manager scripting, etc.&lt;/p>
@@ -90,7 +90,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="acquire-physical-device-id">
  Acquire physical device ID
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/alsa/#acquire-physical-device-id" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Acquire physical device ID" href="#acquire-physical-device-id">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/alsa/#acquire-physical-device-id" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Acquire physical device ID" href="#acquire-physical-device-id">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -100,18 +100,18 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/alsa/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/alsa/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://alsa-project.org/wiki/Main_Page">AlsaProject&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Bitmap Fonts</title><link>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/bitmap_fonts/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 Bitmap Fonts</title><link>https://csmertx.com/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/bitmap_fonts/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="enable-bitmap-fonts-debianubuntu">
  Enable bitmap fonts (Debian/Ubuntu)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/bitmap_fonts/#enable-bitmap-fonts-debianubuntu" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Enable bitmap fonts (Debian/Ubuntu)" href="#enable-bitmap-fonts-debianubuntu">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/bitmap_fonts/#enable-bitmap-fonts-debianubuntu" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Enable bitmap fonts (Debian/Ubuntu)" href="#enable-bitmap-fonts-debianubuntu">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -135,7 +135,7 @@ fi
 &lt;li>
 &lt;p>&lt;code>fc-cache&lt;/code>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Busybox</title><link>https://csmertx.github.io/Linux/Assorted/busybox/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/busybox/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 Busybox</title><link>https://csmertx.com/Linux/Assorted/busybox/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/busybox/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Typically used for embedded operating systems with limited resources&lt;/p>
@@ -143,7 +143,7 @@ fi
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="list-partitions">
  List Partitions
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/busybox/#list-partitions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor List Partitions" href="#list-partitions">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/busybox/#list-partitions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor List Partitions" href="#list-partitions">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -158,13 +158,13 @@ fi
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/busybox/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/busybox/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://www.busybox.net/">Busybox Homepage&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Console Resolution</title><link>https://csmertx.github.io/Linux/Assorted/console_resolution/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/console_resolution/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 Console Resolution</title><link>https://csmertx.com/Linux/Assorted/console_resolution/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/console_resolution/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>See also &lt;a class="gdoc-markdown__link" href="../../Linux/Assorted/vconsole">Virtual Console&lt;/a>&lt;/p>
@@ -172,7 +172,7 @@ fi
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="editing-files">
  Editing files&amp;hellip;
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/console_resolution/#editing-files" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Editing files&amp;hellip;" href="#editing-files">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/console_resolution/#editing-files" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Editing files&amp;hellip;" href="#editing-files">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -189,12 +189,12 @@ fi
 ++ if [ &amp;#34;x${GRUB_GFXPAYLOAD}&amp;#34; = &amp;#34;x&amp;#34; ] ; then GRUB_GFXPAYLOAD=1152x864x32 ; fi
 &lt;/code>&lt;/pre>&lt;/li>
 &lt;li>
-&lt;p>Look for: &lt;code>set gfxmode=${GRUB_GFXMODE}&lt;/code>&lt;/p></description></item><item><title>💻 Cron table</title><link>https://csmertx.github.io/Linux/Assorted/crontab/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/crontab/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Look for: &lt;code>set gfxmode=${GRUB_GFXMODE}&lt;/code>&lt;/p></description></item><item><title>💻 Cron table</title><link>https://csmertx.com/Linux/Assorted/crontab/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/crontab/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="to-edit">
  To edit..
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/crontab/#to-edit" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor To edit.." href="#to-edit">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/crontab/#to-edit" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor To edit.." href="#to-edit">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -215,7 +215,7 @@ fi
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="quick-reference">
  Quick reference
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/crontab/#quick-reference" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Quick reference" href="#quick-reference">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/crontab/#quick-reference" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Quick reference" href="#quick-reference">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -223,7 +223,7 @@ fi
 min hour(24hr) day (month) month day (week)
 &lt;/code>&lt;/pre>&lt;ul>
 &lt;li>
-&lt;p>Example: 02 12 * * * &lt;command> == run &lt;command >once at 10:05PM everyday&lt;/p></description></item><item><title>💻 Disk Destroyer (DD)</title><link>https://csmertx.github.io/Linux/Assorted/dd/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/dd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Example: 02 12 * * * &lt;command> == run &lt;command >once at 10:05PM everyday&lt;/p></description></item><item><title>💻 Disk Destroyer (DD)</title><link>https://csmertx.com/Linux/Assorted/dd/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/dd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>An earned reputation for destroying all the things&lt;/p>
@@ -231,7 +231,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="find-blocksize">
  Find blocksize
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#find-blocksize" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Find blocksize" href="#find-blocksize">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/dd/#find-blocksize" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Find blocksize" href="#find-blocksize">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -241,7 +241,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="write-img-file-to-drive">
  Write .img file to drive
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#write-img-file-to-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Write .img file to drive" href="#write-img-file-to-drive">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/dd/#write-img-file-to-drive" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Write .img file to drive" href="#write-img-file-to-drive">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -256,7 +256,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="backup-drive-to-compressed-img">
  Backup drive to compressed .img
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#backup-drive-to-compressed-img" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Backup drive to compressed .img" href="#backup-drive-to-compressed-img">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/dd/#backup-drive-to-compressed-img" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Backup drive to compressed .img" href="#backup-drive-to-compressed-img">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -266,7 +266,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="blank-a-drive-not-for-ssds">
  Blank a drive (NOT FOR SSDs!)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#blank-a-drive-not-for-ssds" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Blank a drive (NOT FOR SSDs!)" href="#blank-a-drive-not-for-ssds">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/dd/#blank-a-drive-not-for-ssds" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Blank a drive (NOT FOR SSDs!)" href="#blank-a-drive-not-for-ssds">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -276,7 +276,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="securely-blank-a-drive-not-for-ssds">
  Securely Blank a drive (NOT FOR SSDs!)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#securely-blank-a-drive-not-for-ssds" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Securely Blank a drive (NOT FOR SSDs!)" href="#securely-blank-a-drive-not-for-ssds">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/dd/#securely-blank-a-drive-not-for-ssds" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Securely Blank a drive (NOT FOR SSDs!)" href="#securely-blank-a-drive-not-for-ssds">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -286,7 +286,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="blank-mbr-">
  Blank MBR (!)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#blank-mbr-" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Blank MBR (!)" href="#blank-mbr-">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/dd/#blank-mbr-" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Blank MBR (!)" href="#blank-mbr-">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -296,17 +296,17 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="copy-dvd">
  Copy DVD
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/dd/#copy-dvd" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Copy DVD" href="#copy-dvd">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/dd/#copy-dvd" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Copy DVD" href="#copy-dvd">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;blockquote>
-&lt;p>MakeMKV for copying media is highly recommended&lt;/p></description></item><item><title>💻 GnuPG</title><link>https://csmertx.github.io/Linux/Assorted/gpg/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/gpg/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>MakeMKV for copying media is highly recommended&lt;/p></description></item><item><title>💻 GnuPG</title><link>https://csmertx.com/Linux/Assorted/gpg/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/gpg/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="create-new-key">
  Create New Key
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/gpg/#create-new-key" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Create New Key" href="#create-new-key">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/gpg/#create-new-key" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Create New Key" href="#create-new-key">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -316,7 +316,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="encrypt-file">
  Encrypt File
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/gpg/#encrypt-file" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Encrypt File" href="#encrypt-file">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/gpg/#encrypt-file" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Encrypt File" href="#encrypt-file">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -326,7 +326,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="decrypt-file">
  Decrypt File
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/gpg/#decrypt-file" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Decrypt File" href="#decrypt-file">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/gpg/#decrypt-file" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Decrypt File" href="#decrypt-file">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -335,12 +335,12 @@ min hour(24hr) day (month) month day (week)
 &lt;p>&lt;code>gpg -d -o /dir/examplefile /dir/examplefile.(gz.)gpg&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>shred /dir/examplefile&lt;/code>&lt;/p></description></item><item><title>💻 Grep</title><link>https://csmertx.github.io/Linux/Assorted/grep/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grep/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>shred /dir/examplefile&lt;/code>&lt;/p></description></item><item><title>💻 Grep</title><link>https://csmertx.com/Linux/Assorted/grep/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/grep/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="recursive-matching">
  Recursive matching
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grep/#recursive-matching" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Recursive matching" href="#recursive-matching">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/grep/#recursive-matching" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Recursive matching" href="#recursive-matching">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -353,7 +353,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="exclude-match">
  Exclude Match
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grep/#exclude-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Exclude Match" href="#exclude-match">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/grep/#exclude-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Exclude Match" href="#exclude-match">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -363,7 +363,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="match-and-match">
  Match and match
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grep/#match-and-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Match and match" href="#match-and-match">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/grep/#match-and-match" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Match and match" href="#match-and-match">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -373,7 +373,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="ignore-case">
  Ignore case
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grep/#ignore-case" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Ignore case" href="#ignore-case">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/grep/#ignore-case" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Ignore case" href="#ignore-case">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -383,7 +383,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="string-multiple-matches">
  String multiple matches
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grep/#string-multiple-matches" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor String multiple matches" href="#string-multiple-matches">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/grep/#string-multiple-matches" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor String multiple matches" href="#string-multiple-matches">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -393,12 +393,12 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="search-via-extensions">
  Search via extensions
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grep/#search-via-extensions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Search via extensions" href="#search-via-extensions">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/grep/#search-via-extensions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Search via extensions" href="#search-via-extensions">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;blockquote>
-&lt;p>.txt, .mp3, .svg, .sh, .bash, .conf, etc.&lt;/p></description></item><item><title>💻 Grub</title><link>https://csmertx.github.io/Linux/Assorted/grub/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/grub/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>.txt, .mp3, .svg, .sh, .bash, .conf, etc.&lt;/p></description></item><item><title>💻 Grub</title><link>https://csmertx.com/Linux/Assorted/grub/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/grub/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Commonly refered to as Grub&lt;/p>
@@ -406,7 +406,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="default-file">
  Default File
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grub/#default-file" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Default File" href="#default-file">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/grub/#default-file" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Default File" href="#default-file">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -416,7 +416,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="really-quiet-wsplash">
  Really Quiet w/Splash
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/grub/#really-quiet-wsplash" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Really Quiet w/Splash" href="#really-quiet-wsplash">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/grub/#really-quiet-wsplash" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Really Quiet w/Splash" href="#really-quiet-wsplash">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -427,7 +427,7 @@ min hour(24hr) day (month) month day (week)
 &lt;li>
 &lt;p>&lt;code>GRUB_CMDLINE_LINUX_DEFAULT=&amp;quot;... splash quiet loglevel=0 console=ttyS0 vt.global_cursor_default=0&amp;quot; &lt;/code>&lt;/p>
 &lt;blockquote>
-&lt;p>&amp;hellip; is probably necessary to boot the system&lt;/p></description></item><item><title>💻 Logical Volume Manager</title><link>https://csmertx.github.io/Linux/Assorted/lvm/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/lvm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&amp;hellip; is probably necessary to boot the system&lt;/p></description></item><item><title>💻 Logical Volume Manager</title><link>https://csmertx.com/Linux/Assorted/lvm/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/lvm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>LVM2 (2020-02-18)&lt;/p>
@@ -435,7 +435,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="mounting-for-chroot-arch-iso">
  Mounting for chroot (Arch ISO)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/lvm/#mounting-for-chroot-arch-iso" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mounting for chroot (Arch ISO)" href="#mounting-for-chroot-arch-iso">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/lvm/#mounting-for-chroot-arch-iso" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mounting for chroot (Arch ISO)" href="#mounting-for-chroot-arch-iso">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -471,25 +471,25 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/lvm/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/lvm/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/deployment_guide/ch-lvm">RedHat: Chapter 11. LVM (Logical Volume Manger)&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Networking</title><link>https://csmertx.github.io/Linux/Assorted/networking/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/networking/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 Networking</title><link>https://csmertx.com/Linux/Assorted/networking/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/networking/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h1 id="general-networking">
  General networking
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/networking/#general-networking" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor General networking" href="#general-networking">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/networking/#general-networking" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor General networking" href="#general-networking">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h1>
 &lt;/div>&lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="troubleshooting-chroot-etc">
  Troubleshooting (chroot, etc.)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/networking/#troubleshooting-chroot-etc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Troubleshooting (chroot, etc.)" href="#troubleshooting-chroot-etc">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/networking/#troubleshooting-chroot-etc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Troubleshooting (chroot, etc.)" href="#troubleshooting-chroot-etc">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -514,7 +514,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="dhcp">
  DHCP
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/networking/#dhcp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor DHCP" href="#dhcp">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/networking/#dhcp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor DHCP" href="#dhcp">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -523,12 +523,12 @@ min hour(24hr) day (month) month day (week)
 &lt;p>&lt;code>auto eth0&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;code>allow-hotplug eth0&lt;/code>&lt;/p></description></item><item><title>💻 Static IP</title><link>https://csmertx.github.io/Linux/Assorted/static_ip/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/static_ip/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>allow-hotplug eth0&lt;/code>&lt;/p></description></item><item><title>💻 Static IP</title><link>https://csmertx.com/Linux/Assorted/static_ip/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/static_ip/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="local-static-ip-qemukvm">
  Local Static IP (QEMU/KVM)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/static_ip/#local-static-ip-qemukvm" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Local Static IP (QEMU/KVM)" href="#local-static-ip-qemukvm">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/static_ip/#local-static-ip-qemukvm" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Local Static IP (QEMU/KVM)" href="#local-static-ip-qemukvm">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -553,18 +553,18 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="local-static-ip-bare-metal-or-virualized-wbridge">
  Local Static IP (Bare Metal or Virualized w/bridge)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/static_ip/#local-static-ip-bare-metal-or-virualized-wbridge" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Local Static IP (Bare Metal or Virualized w/bridge)" href="#local-static-ip-bare-metal-or-virualized-wbridge">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/static_ip/#local-static-ip-bare-metal-or-virualized-wbridge" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Local Static IP (Bare Metal or Virualized w/bridge)" href="#local-static-ip-bare-metal-or-virualized-wbridge">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>sudov /etc/sysconfig/network&lt;/code>&lt;/p></description></item><item><title>💻 Swap Memory</title><link>https://csmertx.github.io/Linux/Assorted/swap/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/swap/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>sudov /etc/sysconfig/network&lt;/code>&lt;/p></description></item><item><title>💻 Swap Memory</title><link>https://csmertx.com/Linux/Assorted/swap/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/swap/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="a-swapfile-1g">
  A swapfile (1G)
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/swap/#a-swapfile-1g" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor A swapfile (1G)" href="#a-swapfile-1g">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/swap/#a-swapfile-1g" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor A swapfile (1G)" href="#a-swapfile-1g">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -592,25 +592,25 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/swap/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/swap/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://www.linux.com/news/all-about-linux-swap-space/">Linux.com: All about Linux swap space&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Systemd Journal</title><link>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/systemd_journalctl/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 Systemd Journal</title><link>https://csmertx.com/Linux/Assorted/systemd_journalctl/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/systemd_journalctl/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h1 id="linux-system-journal">
  Linux System Journal
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/systemd_journalctl/#linux-system-journal" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Linux System Journal" href="#linux-system-journal">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/systemd_journalctl/#linux-system-journal" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Linux System Journal" href="#linux-system-journal">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h1>
 &lt;/div>&lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="cleanup">
  Cleanup
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/systemd_journalctl/#cleanup" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cleanup" href="#cleanup">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/systemd_journalctl/#cleanup" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Cleanup" href="#cleanup">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -627,7 +627,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/systemd_journalctl/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/systemd_journalctl/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -636,12 +636,12 @@ min hour(24hr) day (month) month day (week)
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://www.linux.com/training-tutorials/understanding-and-using-systemd/">Linux.com: Understanding and Using Systemd&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org/title/Systemd">Arch Wiki: Systemd&lt;/a>&lt;/p></description></item><item><title>💻 Time</title><link>https://csmertx.github.io/Linux/Assorted/time/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/time/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org/title/Systemd">Arch Wiki: Systemd&lt;/a>&lt;/p></description></item><item><title>💻 Time</title><link>https://csmertx.com/Linux/Assorted/time/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/time/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="set-local-time">
  Set Local Time
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/time/#set-local-time" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Set Local Time" href="#set-local-time">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/time/#set-local-time" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Set Local Time" href="#set-local-time">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -696,13 +696,13 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/time/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/time/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://linuxize.com/post/linux-time-command/">Linuxize: Linux Time Command&lt;/a>&lt;/p></description></item><item><title>💻 Virtual Console</title><link>https://csmertx.github.io/Linux/Assorted/vconsole/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/vconsole/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://linuxize.com/post/linux-time-command/">Linuxize: Linux Time Command&lt;/a>&lt;/p></description></item><item><title>💻 Virtual Console</title><link>https://csmertx.com/Linux/Assorted/vconsole/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/vconsole/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Same as &lt;a class="gdoc-markdown__link" href="../../Linux/Assorted/admin">Administration&lt;/a>&lt;/p>
@@ -710,7 +710,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="add-users--add-groups">
  Add users &amp;amp; add groups
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/vconsole/#add-users--add-groups" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add users &amp;amp; add groups" href="#add-users--add-groups">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/vconsole/#add-users--add-groups" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Add users &amp;amp; add groups" href="#add-users--add-groups">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -737,13 +737,13 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="passwd">
  Passwd
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/vconsole/#passwd" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Passwd" href="#passwd">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/vconsole/#passwd" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Passwd" href="#passwd">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>Unattended&lt;/p></description></item><item><title>💻 X resources</title><link>https://csmertx.github.io/Linux/Assorted/xresources/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xresources/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Unattended&lt;/p></description></item><item><title>💻 X resources</title><link>https://csmertx.com/Linux/Assorted/xresources/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/xresources/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Set padding, DPI, anti-alising, Xcursor theme, X font settings, etc.&lt;/p>
@@ -754,7 +754,7 @@ min hour(24hr) day (month) month day (week)
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="xresources-example">
  Xresources Example
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/xresources/#xresources-example" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Xresources Example" href="#xresources-example">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/xresources/#xresources-example" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Xresources Example" href="#xresources-example">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -812,7 +812,7 @@ XTerm.vt100.geometry: 100x35
 *.color7: #b9b9b9
 *.color15: #2e2e2e
 &lt;/code>&lt;/pre>&lt;blockquote>
-&lt;p>Example fixes some common font and color rendering issues (Arch, Slackware, etc.)&lt;/p></description></item><item><title>💻 Xmodmap</title><link>https://csmertx.github.io/Linux/Assorted/xmodmap/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xmodmap/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Example fixes some common font and color rendering issues (Arch, Slackware, etc.)&lt;/p></description></item><item><title>💻 Xmodmap</title><link>https://csmertx.com/Linux/Assorted/xmodmap/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/xmodmap/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Only for Xorg desktops (No Wayland support atm)&lt;/p>
@@ -820,18 +820,18 @@ XTerm.vt100.geometry: 100x35
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="using-xmodmap-to-remap-caps-lock-as-a-fn-key">
  Using Xmodmap to remap Caps Lock as a FN key
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/xmodmap/#using-xmodmap-to-remap-caps-lock-as-a-fn-key" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Using Xmodmap to remap Caps Lock as a FN key" href="#using-xmodmap-to-remap-caps-lock-as-a-fn-key">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/xmodmap/#using-xmodmap-to-remap-caps-lock-as-a-fn-key" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Using Xmodmap to remap Caps Lock as a FN key" href="#using-xmodmap-to-remap-caps-lock-as-a-fn-key">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;p>Remapping Caps Lock as a modifier key for navigation (hjkl ui nm)&lt;/p>
 &lt;blockquote>
-&lt;p>Mapped keys: h = &lt;code>Left&lt;/code>, j = &lt;code>Down&lt;/code>, k = &lt;code>Up&lt;/code>, l = &lt;code>Right&lt;/code>, u = &lt;code>PGDN&lt;/code>, i = &lt;code>PGUP&lt;/code>, n = &lt;code>Home&lt;/code>, m = &lt;code>End&lt;/code>&lt;/p></description></item><item><title>💻 XrandR</title><link>https://csmertx.github.io/Linux/Assorted/xrandr/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/Assorted/xrandr/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Mapped keys: h = &lt;code>Left&lt;/code>, j = &lt;code>Down&lt;/code>, k = &lt;code>Up&lt;/code>, l = &lt;code>Right&lt;/code>, u = &lt;code>PGDN&lt;/code>, i = &lt;code>PGUP&lt;/code>, n = &lt;code>Home&lt;/code>, m = &lt;code>End&lt;/code>&lt;/p></description></item><item><title>💻 XrandR</title><link>https://csmertx.com/Linux/Assorted/xrandr/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/xrandr/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="mode-not-displayed">
  Mode Not Displayed
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/Assorted/xrandr/#mode-not-displayed" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mode Not Displayed" href="#mode-not-displayed">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Assorted/xrandr/#mode-not-displayed" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mode Not Displayed" href="#mode-not-displayed">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>

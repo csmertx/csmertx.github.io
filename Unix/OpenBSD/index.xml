@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 OpenBSD (OS) on Chris Schammert (csmertx)</title><link>https://csmertx.github.io/Unix/OpenBSD/</link><description>Recent content in 💻 OpenBSD (OS) on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Unix/OpenBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 OpenBSD Installation</title><link>https://csmertx.github.io/Unix/OpenBSD/openbsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/OpenBSD/openbsd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 OpenBSD (OS) on Chris Schammert (csmertx)</title><link>https://csmertx.com/Unix/OpenBSD/</link><description>Recent content in 💻 OpenBSD (OS) on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Unix/OpenBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 OpenBSD Installation</title><link>https://csmertx.com/Unix/OpenBSD/openbsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Unix/OpenBSD/openbsd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>This page was created before 2020&lt;/p>
@@ -9,7 +9,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="install-with-x-and-xenodm-for-desktop">
  Install with X and xenodm for desktop
- &lt;a data-clipboard-text="https://csmertx.github.io/Unix/OpenBSD/openbsd/#install-with-x-and-xenodm-for-desktop" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install with X and xenodm for desktop" href="#install-with-x-and-xenodm-for-desktop">
+ &lt;a data-clipboard-text="https://csmertx.com/Unix/OpenBSD/openbsd/#install-with-x-and-xenodm-for-desktop" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install with X and xenodm for desktop" href="#install-with-x-and-xenodm-for-desktop">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -19,7 +19,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="to-list-hddssdusb-drives">
  To list HDD/SSD/USB drives
- &lt;a data-clipboard-text="https://csmertx.github.io/Unix/OpenBSD/openbsd/#to-list-hddssdusb-drives" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor To list HDD/SSD/USB drives" href="#to-list-hddssdusb-drives">
+ &lt;a data-clipboard-text="https://csmertx.com/Unix/OpenBSD/openbsd/#to-list-hddssdusb-drives" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor To list HDD/SSD/USB drives" href="#to-list-hddssdusb-drives">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -29,7 +29,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="to-list-partitions-of-drive-sdx-etc">
  To list partitions of drive sdX, etc.
- &lt;a data-clipboard-text="https://csmertx.github.io/Unix/OpenBSD/openbsd/#to-list-partitions-of-drive-sdx-etc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor To list partitions of drive sdX, etc." href="#to-list-partitions-of-drive-sdx-etc">
+ &lt;a data-clipboard-text="https://csmertx.com/Unix/OpenBSD/openbsd/#to-list-partitions-of-drive-sdx-etc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor To list partitions of drive sdX, etc." href="#to-list-partitions-of-drive-sdx-etc">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>

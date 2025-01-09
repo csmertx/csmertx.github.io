@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Window Managers on Chris Schammert (csmertx)</title><link>https://csmertx.github.io/Linux/WM/</link><description>Recent content in 💻 Window Managers on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Linux/WM/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 i3WM</title><link>https://csmertx.github.io/Linux/WM/i3wm/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3wm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Window Managers on Chris Schammert (csmertx)</title><link>https://csmertx.com/Linux/WM/</link><description>Recent content in 💻 Window Managers on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Linux/WM/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 i3WM</title><link>https://csmertx.com/Linux/WM/i3wm/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/i3wm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="mpris-control">
  Mpris Control
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/i3wm/#mpris-control" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mpris Control" href="#mpris-control">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/i3wm/#mpris-control" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Mpris Control" href="#mpris-control">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -36,12 +36,12 @@
 &lt;li>
 &lt;p>See &lt;a class="gdoc-markdown__link" href="../../Linux/Software/mpv">mpv&lt;/a> for more about mpris plugin&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 i3WM &amp; KDE</title><link>https://csmertx.github.io/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/i3_and_plasma/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul></description></item><item><title>💻 i3WM &amp; KDE</title><link>https://csmertx.com/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/i3_and_plasma/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="install-dependencies">
  Install Dependencies
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/i3_and_plasma/#install-dependencies" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install Dependencies" href="#install-dependencies">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/i3_and_plasma/#install-dependencies" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install Dependencies" href="#install-dependencies">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -49,7 +49,7 @@
 &lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="configuration">
  Configuration
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/i3_and_plasma/#configuration" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Configuration" href="#configuration">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/i3_and_plasma/#configuration" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Configuration" href="#configuration">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -63,18 +63,18 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="avoid-tiling-popups-dropdown-windows-from-plasma">
  Avoid tiling popups, dropdown windows from plasma
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/i3_and_plasma/#avoid-tiling-popups-dropdown-windows-from-plasma" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Avoid tiling popups, dropdown windows from plasma" href="#avoid-tiling-popups-dropdown-windows-from-plasma">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/i3_and_plasma/#avoid-tiling-popups-dropdown-windows-from-plasma" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Avoid tiling popups, dropdown windows from plasma" href="#avoid-tiling-popups-dropdown-windows-from-plasma">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>vim ~/.config/i3/config&lt;/code>&lt;/p></description></item><item><title>💻 Openbox</title><link>https://csmertx.github.io/Linux/WM/openbox/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>vim ~/.config/i3/config&lt;/code>&lt;/p></description></item><item><title>💻 Openbox</title><link>https://csmertx.com/Linux/WM/openbox/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/openbox/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="refresh-desktop-menu-to-add-new-programs-etc">
  Refresh desktop menu to add new programs, etc.
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/openbox/#refresh-desktop-menu-to-add-new-programs-etc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Refresh desktop menu to add new programs, etc." href="#refresh-desktop-menu-to-add-new-programs-etc">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/openbox/#refresh-desktop-menu-to-add-new-programs-etc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Refresh desktop menu to add new programs, etc." href="#refresh-desktop-menu-to-add-new-programs-etc">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -91,13 +91,13 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="center-all-new-windows">
  Center all new windows
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/openbox/#center-all-new-windows" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Center all new windows" href="#center-all-new-windows">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/openbox/#center-all-new-windows" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Center all new windows" href="#center-all-new-windows">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>vim ~/.config/openbox/rc.xml&lt;/code>&lt;/p></description></item><item><title>💻 Openbox (Extras)</title><link>https://csmertx.github.io/Linux/WM/openbox_extras/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/openbox_extras/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>vim ~/.config/openbox/rc.xml&lt;/code>&lt;/p></description></item><item><title>💻 Openbox (Extras)</title><link>https://csmertx.com/Linux/WM/openbox_extras/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/openbox_extras/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>&lt;code>rc.xml&lt;/code> edit to add keyboard shortcuts for media keys, i3, and more&lt;/p>
@@ -188,7 +188,7 @@
 &lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="zen-run">
  Zen Run?
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/openbox_extras/#zen-run" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Zen Run?" href="#zen-run">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/openbox_extras/#zen-run" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Zen Run?" href="#zen-run">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -196,7 +196,7 @@
 &lt;li>&lt;code>apti zenity&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;blockquote>
-&lt;p>Hacky Bash script version of GNOME&amp;rsquo;s &lt;code>gnome-do&lt;/code> program (&lt;code>ALT&lt;/code> + &lt;code>F2&lt;/code>)&lt;/p></description></item><item><title>💻 AwesomeWM</title><link>https://csmertx.github.io/Linux/WM/awesome/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Hacky Bash script version of GNOME&amp;rsquo;s &lt;code>gnome-do&lt;/code> program (&lt;code>ALT&lt;/code> + &lt;code>F2&lt;/code>)&lt;/p></description></item><item><title>💻 AwesomeWM</title><link>https://csmertx.com/Linux/WM/awesome/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/awesome/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>See also &lt;a class="gdoc-markdown__link" href="../../Linux/WM/awesome_floppier">AwesomeWM | Floppier DE&lt;/a> for more theming&lt;/p>
@@ -204,7 +204,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="easy-mode-theming">
  Easy Mode Theming
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/awesome/#easy-mode-theming" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Easy Mode Theming" href="#easy-mode-theming">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/awesome/#easy-mode-theming" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Easy Mode Theming" href="#easy-mode-theming">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -225,13 +225,13 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="edit-city_id-for-weather-status">
  Edit city_id for weather status
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/awesome/#edit-city_id-for-weather-status" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Edit city_id for weather status" href="#edit-city_id-for-weather-status">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/awesome/#edit-city_id-for-weather-status" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Edit city_id for weather status" href="#edit-city_id-for-weather-status">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>vim ~/.config/awesome/awesome-copycats/themes/vertex/theme.lua&lt;/code>&lt;/p></description></item><item><title>AwesomeWM (Floppier DE)</title><link>https://csmertx.github.io/Linux/WM/awesome_floppier/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/awesome_floppier/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>vim ~/.config/awesome/awesome-copycats/themes/vertex/theme.lua&lt;/code>&lt;/p></description></item><item><title>AwesomeWM (Floppier DE)</title><link>https://csmertx.com/Linux/WM/awesome_floppier/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/awesome_floppier/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Never tried it myself, but here are some links and stuff&lt;/p>
@@ -239,7 +239,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="what-the">
  What the..
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/awesome_floppier/#what-the" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor What the.." href="#what-the">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/awesome_floppier/#what-the" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor What the.." href="#what-the">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -260,7 +260,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="install-dependencies">
  Install dependencies
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/awesome_floppier/#install-dependencies" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install dependencies" href="#install-dependencies">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/awesome_floppier/#install-dependencies" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install dependencies" href="#install-dependencies">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -268,25 +268,25 @@
 &lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/awesome_floppier/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/awesome_floppier/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/manilarome/the-glorious-dotfiles/wiki">Github - manilarome/the-glorious-dotfiles Wiki&lt;/a>&lt;/p></description></item><item><title>💻 Dynamic Window Manager (DWM)</title><link>https://csmertx.github.io/Linux/WM/dwm/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/dwm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/manilarome/the-glorious-dotfiles/wiki">Github - manilarome/the-glorious-dotfiles Wiki&lt;/a>&lt;/p></description></item><item><title>💻 Dynamic Window Manager (DWM)</title><link>https://csmertx.com/Linux/WM/dwm/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/dwm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="compile">
  Compile
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/dwm/#compile" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Compile" href="#compile">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/dwm/#compile" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Compile" href="#compile">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;div class="gdoc-page__anchorwrap">
  &lt;h3 id="configdefh">
  config.def.h
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/dwm/#configdefh" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor config.def.h" href="#configdefh">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/dwm/#configdefh" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor config.def.h" href="#configdefh">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h3>
@@ -312,7 +312,7 @@
 &lt;p>Fix window gaps&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;code>-- static cont int resizehints = 1;&lt;/code>&lt;/p></description></item><item><title>💻 Polybar</title><link>https://csmertx.github.io/Linux/WM/polybar/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Linux/WM/polybar/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>-- static cont int resizehints = 1;&lt;/code>&lt;/p></description></item><item><title>💻 Polybar</title><link>https://csmertx.com/Linux/WM/polybar/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/polybar/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Tiling window manager status bar&lt;/p>
@@ -320,7 +320,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="themes">
  Themes
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/polybar/#themes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Themes" href="#themes">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/polybar/#themes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Themes" href="#themes">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -335,7 +335,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="bluetooth">
  Bluetooth
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/polybar/#bluetooth" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Bluetooth" href="#bluetooth">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/polybar/#bluetooth" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Bluetooth" href="#bluetooth">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -345,7 +345,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="resources">
  Resources
- &lt;a data-clipboard-text="https://csmertx.github.io/Linux/WM/polybar/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/polybar/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>

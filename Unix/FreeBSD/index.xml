@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 FreeBSD (OS) on Chris Schammert (csmertx)</title><link>https://csmertx.github.io/Unix/FreeBSD/</link><description>Recent content in 💻 FreeBSD (OS) on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.github.io/Unix/FreeBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 FreeBSD Installation</title><link>https://csmertx.github.io/Unix/FreeBSD/freebsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.github.io/Unix/FreeBSD/freebsd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 FreeBSD (OS) on Chris Schammert (csmertx)</title><link>https://csmertx.com/Unix/FreeBSD/</link><description>Recent content in 💻 FreeBSD (OS) on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Unix/FreeBSD/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 FreeBSD Installation</title><link>https://csmertx.com/Unix/FreeBSD/freebsd/</link><pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Unix/FreeBSD/freebsd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>This page was created before 2022&lt;/p>
@@ -9,7 +9,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="live-login">
  Live Login
- &lt;a data-clipboard-text="https://csmertx.github.io/Unix/FreeBSD/freebsd/#live-login" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Live Login" href="#live-login">
+ &lt;a data-clipboard-text="https://csmertx.com/Unix/FreeBSD/freebsd/#live-login" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Live Login" href="#live-login">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
@@ -24,7 +24,7 @@
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="first-step">
  First step
- &lt;a data-clipboard-text="https://csmertx.github.io/Unix/FreeBSD/freebsd/#first-step" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor First step" href="#first-step">
+ &lt;a data-clipboard-text="https://csmertx.com/Unix/FreeBSD/freebsd/#first-step" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor First step" href="#first-step">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
