@@ -1,4 +1,4 @@
-baseURL = "https://csmertx.github.io"
+baseURL = "https://csmertx.com"
 title = "Chris Schammert (csmertx)"
 theme = "hugo-geekdoc"
 
@@ -28,7 +28,7 @@ relativeUrls = true
    tag = "tags"
 
 [params]
-geekdocLogo = "crs_256x256_silver.png"
+geekdocLogo = "Screenshot_20240606-105633_circle_512x512.png"
 #http://flagmypicture.com/
 #geekdocToC = 3
 #geekdocMenuBundle = true
