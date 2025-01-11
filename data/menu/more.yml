@@ -7,7 +7,11 @@ more:
   - name: "View Source"
     ref: "https://github.com/csmertx/csmertx.github.io"
     external: true
-    icon: "gdoc_github"
+    icon: "gdoc_github"    
+  - name: "Donate (Redcross.org)"
+    ref: "https://www.redcross.org/donate/donation.html/"
+    external: true
+    icon: "gdoc_shield"
   - name: "Donate (Wounded Warrior Project)"
     ref: "https://www.woundedwarriorproject.org/donate"
     external: true
