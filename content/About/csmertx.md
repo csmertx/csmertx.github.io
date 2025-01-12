@@ -33,9 +33,9 @@ weight: -20
 
 ## Donation Button Clarification
 
-The donation buttons for this website redirect to the 🔗 [Wounded Warrior Project](https://www.woundedwarriorproject.org/ "Wounded Warrior Project.org"), and 🔗 [The Internet Archive](https://www.archive.org/ "Archive.org")
+The donation buttons for this website redirect to the 🔗 [Red Cross](https://www.redcross.org), the 🔗 [Wounded Warrior Project](https://www.woundedwarriorproject.org/ "Wounded Warrior Project.org"), and 🔗 [The Internet Archive](https://www.archive.org/ "Archive.org")
 
-> *This website is not an affiliated with the Wounded Warrior Project, or The Internet Archive*
+> *This website is not an affiliated with the Red Cross, The Wounded Warrior Project, or The Internet Archive*
 
 Dad dedicated over 20 years of his life to the military (Navy/Petty Officer Chef), which included a year long tour of Vietnam. He suffered through at least one fused vertebrae. Military (Florida) said it wasn't their problem. That's a big part why I am the way I am. And that's why I've included the link. I'm not pointing fingers, it what it is.
 

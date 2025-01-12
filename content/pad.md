@@ -36,6 +36,6 @@ Most pages have a resources section at the bottom of the page with direct links 
 <br />
 <br />
 
-> csmertx.com is not affiliated with 🔗 [Red Cross](https://www.redcross.org) 🔗 [Wounded Warrior Project](https://www.woundedwarriorproject.org/ "woundedwarriorproject.org"), or 🔗 [Archive.org](https://archive.org "Archive.org").
+> csmertx.com is not affiliated with the 🔗 [Red Cross](https://www.redcross.org) the 🔗 [Wounded Warrior Project](https://www.woundedwarriorproject.org/ "woundedwarriorproject.org"), or 🔗 [Archive.org](https://archive.org "Archive.org").
 
 > Donation buttons lead to the Red Cross, Wounded Warrior Project, and Archive.org because I believe in those organizations.
