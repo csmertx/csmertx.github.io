@@ -8,6 +8,10 @@ more:
     ref: "https://github.com/csmertx/csmertx.github.io"
     external: true
     icon: "gdoc_github"
+  - name: "Donate (World Central Kitchen)"
+    ref: "https://wck.org"
+    external: true
+    icon: "gdoc_shield" 
   - name: "Donate (Red Cross)"
     ref: "https://www.redcross.org/donate/donation.html"
     external: true

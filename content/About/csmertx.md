@@ -15,7 +15,7 @@ weight: -20
 
 > Christopher Roy Schammert (me) aka Chris
 
-> Bermuda, Military Housing, (1987). I helped Dad make that bed (coffee can lids for the semi-circles).
+> Bermuda, Military Housing, 1987. I helped Dad make that bed (coffee can lids for the semi-circles).
 
 > ![X Icon](/About/X_icon_14x14.png "X Icon")[ @csmertx](https://x.com/@csmertx "Twitter | @csmertx") \ ![Instagram Icon](/About/Instagram_icon_14x14.png "Instagram Icon")[ @csmertx](https://www.instagram.com/csmertx "Instagram | @csmertx") \ ![YouTube Icon](/About/youtube_logo_14x14.png "YouTube Icon")[ @csmertx](https://www.youtube.com/@csmertx "YouTube | @csmertx") \ ![Bluesky Icon](/About/Bluesky_icon_14x12.png "Bluesky Icon")[ @csmertx](https://bsky.app/profile/csmertx.bsky.social "Bluesky.bsky.social | @csmertx") \ ![Facebook Icon](/About/Facebook_F_icon_14x14.png "Facebook Icon")[ @cschammert](https://facebook.com/@cschammert "Facebook | @cschammert") \ ![Tik-Tok Icon](/About/TikTok_icon_14x14.png "TikTok Icon")[ @chrisschammert](https://www.tiktok.com/@chrisschammert "TikTok.com | @chrisschammert (csmertx)") \ [u/csmertx](https://www.reddit.com/user/csmertx/ "reddit.com/user/csmertx") \ ![Flicker Icon](/About/Flickr_icon_14x14.png "Flickr Icon")[ @csmertx](https://www.flickr.com/people/csmertx/ "Flickr | @csmertx") \ ![Archive.org Icon](/About/Archive-org.001-1185389304_icon_14x14.jpg "Archive.org Icon") [ @TheRealCSmertX](https://archive.org/details/@archiveuser4193kxhm "Archive.org | TheRealCSmertX") \ ![Mastodon.Social Icon](/About/Mastodon_Logotype_(Simple)_14x14.png "Mastodon.Social Icon")[ @mertx3000](https://mastodon.social/@mertx3000 "Mastodon.social | @mertx3000")
 
@@ -33,9 +33,9 @@ weight: -20
 
 ## Donation Button Clarification
 
-The donation buttons for this website redirect to the 🔗 [Red Cross](https://www.redcross.org), the 🔗 [Wounded Warrior Project](https://www.woundedwarriorproject.org/ "Wounded Warrior Project.org"), and 🔗 [The Internet Archive](https://www.archive.org/ "Archive.org")
+Donation buttons for this website redirect to the 🔗 [World Central Kitchen](https://wck.org), 🔗 [Red Cross](https://www.redcross.org), 🔗 [Wounded Warrior Project](https://www.woundedwarriorproject.org/ "Wounded Warrior Project.org"), and 🔗 [The Internet Archive](https://www.archive.org/ "Archive.org")
 
-> *This website is not an affiliated with the Red Cross, The Wounded Warrior Project, or The Internet Archive*
+> *This website is not an affiliated with the World Central Kitchen, Red Cross, Wounded Warrior Project, or The Internet Archive*
 
 Dad dedicated over 20 years of his life to the military (Navy/Petty Officer Chef), which included a year long tour of Vietnam. He suffered through at least one fused vertebrae. Military (Florida) said it wasn't their problem. That's a big part why I am the way I am. And that's why I've included the link. I'm not pointing fingers, it what it is.
 
@@ -111,6 +111,8 @@ I've seen enough to make me skeptical that it all just ends.
 
 > I like conferences less than I like live concerts and amusement parks \*shrugs\*
 
+I daily 🔗 [Tmuxinator](https://github.com/tmuxinator/tmuxinator "Github.com | tmuxinator / tmuxinator") 🔗 [configured](/Screenshot_20250116_133305.png "01/16/2025 Tmuxinator Screenshot") to load Calcurse, several panes with Vim, this Git repo, my 🔗 [Dotfiles repo](https://github.com/csmertx/dotfiles "Github.com | csmertx / dotfiles"), and a scratch pane. Locally available through SSH (subnet separated from ISP router ;)). Anyway, here's my Linux journey.
+
 - [🔗 Linux Mint](https://linuxmint.com "LinuxMint.com") w/Cinnamon (2013 - 2016)
 
     > Also a few Ubuntu [🔗 'flavors'](https://ubuntu.com/desktop/flavours "Ubuntu.com | Desktop \ Flavours")
@@ -127,9 +129,9 @@ I've seen enough to make me skeptical that it all just ends.
 
 - [🔗 Kubuntu](https://kubuntu.org/ "Kubuntu.org") 🔗 [Linux Mint](https://www.linuxmint.com/ "LinuxMint.com") w/KDE (2022 - Present)
 
-    - Very gamer friendly OSs w/Steam installed and configured with [🔗 Proton](/Games/steam_proton "Csmertx.com | Steam \ Proton")
+    - Best project compatibility as of 2025. Helpful for cherry picking the occasional 🔗 [.so](https://docs.fileformat.com/programming/so/ "Fileformat.com | Programming \ SO") from 🔗 [Debian Package Repo](https://packages.debian.org/testing/) too. Though gaming with Arch Linux is a little more bare metal, I prefer the stability of Ubuntu/Debian based distros.
 
-> 🔗 [Linux](https://linux.org "Linux.org") and 🔗 [MST3K](https://mst3k.com/ "MST3K.com") kept me sane during my 🔗 [Wilson](https://www.imdb.com/title/tt0162222/mediaviewer/rm3947500032 "IMDB.com | Cast Away (2000) \ Wilson the Volleyball in Cast Away (2000)") years.
+> 🔗 [Linux](https://linux.org "Linux.org"), music, and 🔗 [MST3K](https://mst3k.com/ "MST3K.com") kept me sane during my 🔗 [Wilson](https://www.imdb.com/title/tt0162222/mediaviewer/rm3947500032 "IMDB.com | Cast Away (2000) \ Wilson the Volleyball in Cast Away (2000)") years.
 
 ## What? No tiling window managers?
 

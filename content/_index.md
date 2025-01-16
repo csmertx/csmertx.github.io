@@ -73,33 +73,16 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 The image above leads to the 🔗 [main navigation page](pad "Click here for the Navigation Page").
 
----
-
-## Public Service Announcement for the Linux Community
-
-<br>
-
-@chris.schammert on Facebook is part of a family hitchhiking on our family name.
-
-They might be from the Nestor family (image below) of Broward/Palm Beach Counties. IIRC the Nestor family name originated from Scotland.
-
-Read more about that if you want here: 🔗 [Day & Night Blog \ Chris Schammert](/Blog/daynight/2024/0524#chris-schammert "Day & Night Blog \ May 2024"), and here: 🔗 [Day & Night Blog \ Wrapping Up](/Blog/daynight/2024/0724#wrapping-up "Day & Night Blog \ July 2024").
 
 ---
 
-![Photo](/KCNA24_Keynotes_stock_image_raymond_yuan_jennifer_nestor.png "Jennifer Nestor and Raymond Yuan (?) posing for stock conference photo")
+<div style="text-align: center;">
 
-> ![here.](/KCNA24_Keynotes.png "Kubecon/CloudNativecon Keynote advertisement image via Linux Foundation email (10/09/2024)")
-
-> Original uncropped image
-
-> Stock image used by the Cloud Native Computing Foundation (Email sent out on: 10-09-2024 by the Linux Foundation)
-
-<br>
-
-Jennifer Nestor and possibly Raymond Yuan (Chinese American--his family owned a Chinese restaurant in Palm Beach County). Nestor (aka Nessie) specialized in human resources while working for the local movie theater chain of Palm Beach County before going into karaoke hosting.
+![X Icon](/About/X_icon_14x14.png "X Icon")[ @csmertx](https://x.com/@csmertx "Twitter | @csmertx") \ ![Instagram Icon](/About/Instagram_icon_14x14.png "Instagram Icon")[ @csmertx](https://www.instagram.com/csmertx "Instagram | @csmertx") \ ![YouTube Icon](/About/youtube_logo_14x14.png "YouTube Icon")[ @csmertx](https://www.youtube.com/@csmertx "YouTube | @csmertx") \ ![Bluesky Icon](/About/Bluesky_icon_14x12.png "Bluesky Icon")[ @csmertx](https://bsky.app/profile/csmertx.bsky.social "Bluesky.bsky.social | @csmertx") \ ![Facebook Icon](/About/Facebook_F_icon_14x14.png "Facebook Icon")[ @cschammert](https://facebook.com/@cschammert "Facebook | @cschammert") \ ![Tik-Tok Icon](/About/TikTok_icon_14x14.png "TikTok Icon")[ @chrisschammert](https://www.tiktok.com/@chrisschammert "TikTok.com | @chrisschammert (csmertx)") \ [u/csmertx](https://www.reddit.com/user/csmertx/ "reddit.com/user/csmertx") \ ![Flicker Icon](/About/Flickr_icon_14x14.png "Flickr Icon")[ @csmertx](https://www.flickr.com/people/csmertx/ "Flickr | @csmertx") \ ![Archive.org Icon](/About/Archive-org.001-1185389304_icon_14x14.jpg "Archive.org Icon") [ @TheRealCSmertX](https://archive.org/details/@archiveuser4193kxhm "Archive.org | TheRealCSmertX") \ ![Mastodon.Social Icon](/About/Mastodon_Logotype_(Simple)_14x14.png "Mastodon.Social Icon")[ @mertx3000](https://mastodon.social/@mertx3000 "Mastodon.social | @mertx3000") \ [📧 csmertx@pm.me](mailto:csmertx@pm.me "Proton Mail email address | @csmertx > Anytime.")
 
 </div>
 
+---
+---
 
 <!--c This website comprises a patchwork of notes written over my 10+ years with Linux (+2 served apps). I also poked at DOS prompts as a youth (1988) before my high school typing and web design classes (1999-2001). Due to the rolling nature of open source and or free software, the notes may not align with the current timeline of the subject's software documentation. I mostly focus my efforts on edge cases as I find them. On top of that I have included a life story blog, and a music blog, which may appeal to a broader audience. The warning above is mostly for music lyrics, some life stories, and my occasional use of profanity. I was raised on a mixture of English dialects via family brought together by the U.S. Navy--hopefully my attempt at college English will improve with time. I accept pull requests and emails. No worries about time of day or night. I capitalize on Don't Disturb Modes, so anytime is a good time. My use of an Orca illustration is merely for entertainment purposes. The depiction of an Orca is not meant as a personal attack towards anyone, nor is it a prelude into a new Linux OS. Glory to the maintainers! And thank you for checking the source! -->

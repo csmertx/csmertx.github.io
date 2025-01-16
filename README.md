@@ -10,6 +10,6 @@
 
 ### Donation button? Why?
 
-> CSx is not affiliated with Red Cross, the Wounded Warrior Project, or Archive.org
+> CSx is not affiliated with World Central Kitchen, Red Cross, the Wounded Warrior Project, or Archive.org
 
 - 🔗[Csmertx | About: Donation Button Clarification](https://csmertx.github.io/About/csmertx/#donation-button-clarification)
