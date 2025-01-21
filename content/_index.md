@@ -41,13 +41,13 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Jan 03, 2025 | 🔗 [Music Blog \ Avenged Sevenfold - Remenissions (Waking The Fallen)](/Blog/music/2025/0125#avenged-sevenfold---remenissions-waking-the-fallen "Music Blog \ January 2025")|
 |Jan 03, 2025 | 🔗 [Day & Night Blog \ The Pirate Spider and the XXXL Shirt](/Blog/daynight/2025/0125#the-pirate-spider-and-the-xxxl-shirt "Day & Night Blog \ January 2025")|
 |Jan 03, 2025 | 🔗 [Music Blog \ Dead & Company - Deal (Live at Wrigley Field, Chicago, IL, 6/9/23)](/Blog/music/2025/0125#dead--company---deal-live-at-wrigley-field-chicago-il-6923 "Music Blog \ January 2025")|
 |Dec 24, 2024 | 🔗 [Music Blog \ Helloween - Hold Me in Your Arms (Straight out of Hell)](/Blog/music/2024/1224#helloween---hold-me-in-your-arms-straight-out-of-hell "Music Blog \ December 2024")|
 |Dec 18, 2024 | 🔗 [Day & Night Blog \ My Sanity](/Blog/daynight/2024/1224#my-sanity "Day & Night Blog \ December 2024")|
 |Nov 30, 2024 | 🔗 [Day & Night Blog \ Decompressing](/Blog/daynight/2024/1124#decompressing "Day & Night Blog \ November 2024")|
 |Oct 18, 2024 | 🔗 [Music Blog \ French 79 - Graceful (Official Video) (Teenagers)](/Blog/music/2024/1024#french-79---graceful-official-video-teenagers)
-|Jul 27, 2024 | 🔗 [Music Blog \ Bad Religion - Supersonic (bigarmybug x Stick Edit) (The Process Of Belief)](/Blog/music/2024/0724#bad-religion---supersonic-bigarmybug-x-stick-edit-the-process-of-belief "Music Blog \ July 2024")|
 |Jul 15, 2024 | 🔗 [Music Blog \ Explosions in the Sky - A Song For Our Fathers (How Strange, Innocence)](/Blog/music/2024/0724#explosions-in-the-sky---a-song-for-our-fathers-how-strange-innocence "Music Blog \ July 2024")|
 |Jun 26, 2024 | 🔗 [Music Blog \  BigXthaPlug - Texas (Andrew Broom Video) (Texas)](/Blog/music/2024/0624#bigxthaplug---texas-andrew-broom-video-texas "Music Blog \ June 2024")|
 |Jun 17, 2024 | 🔗 [Music Blog \ Me First and the Gimme Gimmes - My Favorite Things (Are a Drag)](/Blog/music/2024/0624#me-first-and-the-gimme-gimmes---favorite-things-are-a-drag "Music Blog \ June 2024")|
