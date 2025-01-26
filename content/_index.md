@@ -41,7 +41,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
-|Jan 03, 2025 | 🔗 [Day & Night Blog \ Fitbit Sense 2 - Alexa App See N' Say Mode Activated](/Blog/daynight/2025/0125#fitbit-sense-2---alexa-app-see-n-say-mode-activated "Day & Night Blog \ January 2025")|
+|Jan 26, 2025 | 🔗 [Day & Night Blog \ Fitbit Sense 2 - Alexa App See N' Say Mode Activated](/Blog/daynight/2025/0125#fitbit-sense-2---alexa-app-see-n-say-mode-activated "Day & Night Blog \ January 2025")|
 |Jan 03, 2025 | 🔗 [Music Blog \ Avenged Sevenfold - Remenissions (Waking The Fallen)](/Blog/music/2025/0125#avenged-sevenfold---remenissions-waking-the-fallen "Music Blog \ January 2025")|
 |Jan 03, 2025 | 🔗 [Day & Night Blog \ The Pirate Spider and the XXXL Shirt](/Blog/daynight/2025/0125#the-pirate-spider-and-the-xxxl-shirt "Day & Night Blog \ January 2025")|
 |Jan 03, 2025 | 🔗 [Music Blog \ Dead & Company - Deal (Live at Wrigley Field, Chicago, IL, 6/9/23)](/Blog/music/2025/0125#dead--company---deal-live-at-wrigley-field-chicago-il-6923 "Music Blog \ January 2025")|
