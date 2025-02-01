@@ -2540,38 +2540,22 @@ class extract_here(Command):
 &lt;/li>
 &lt;li>
 &lt;p>&lt;code>sudo apt-get update&lt;/code>&lt;/p></description></item><item><title>💻 Dolphin (KDE)</title><link>https://csmertx.com/Linux/Software/dolphin/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/dolphin/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
-&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="select-filefolder-with-single-click-for-shift-click-or-alt-click-selections">
- Select file/folder with single click (for shift click or alt click selections)
- &lt;a data-clipboard-text="https://csmertx.com/Linux/Software/dolphin/#select-filefolder-with-single-click-for-shift-click-or-alt-click-selections" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Select file/folder with single click (for shift click or alt click selections)" href="#select-filefolder-with-single-click-for-shift-click-or-alt-click-selections">
+ &lt;h6 id="p-stylefont-size12pxspan-stylecolordimgray_created-12292021--edited-01312025--author-chris-schammert-csmertx--history-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentlinuxsoftwaredolphinmd-githubcom--csmertx--csmertxgithubio--commits--main--content--linux--software--dolphin-kde_spanp">
+ &lt;p style="font-size:12px">&lt;span style="color:dimgray">&lt;em>Created: 12/29/2021 | Edited: 01/31/2025 | Author: Chris Schammert (csmertx) | &lt;a class="gdoc-markdown__link" href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/dolphin.md" title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Dolphin (KDE)">History 🕵️&lt;/a>&lt;/em>&lt;/span>&lt;/p>
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Software/dolphin/#p-stylefont-size12pxspan-stylecolordimgray_created-12292021--edited-01312025--author-chris-schammert-csmertx--history-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentlinuxsoftwaredolphinmd-githubcom--csmertx--csmertxgithubio--commits--main--content--linux--software--dolphin-kde_spanp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Created: 12/29/2021 | Edited: 01/31/2025 | Author: Chris Schammert (csmertx) | History 🕵️" href="#p-stylefont-size12pxspan-stylecolordimgray_created-12292021--edited-01312025--author-chris-schammert-csmertx--history-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentlinuxsoftwaredolphinmd-githubcom--csmertx--csmertxgithubio--commits--main--content--linux--software--dolphin-kde_spanp">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h6>
+&lt;/div>&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="right-click-menu-to-extract-archives-zip-etc">
+ Right-click menu to extract archives (zip, etc.)
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Software/dolphin/#right-click-menu-to-extract-archives-zip-etc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Right-click menu to extract archives (zip, etc.)" href="#right-click-menu-to-extract-archives-zip-etc">
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
-&lt;/div>&lt;ol>
-&lt;li>
-&lt;p>System Settings (app)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Workspace Behaviour&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>General Behavior&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Clicking files or folders &amp;gt; Selects them&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="ssh-with-fish">
- SSH with Fish
- &lt;a data-clipboard-text="https://csmertx.com/Linux/Software/dolphin/#ssh-with-fish" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor SSH with Fish" href="#ssh-with-fish">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>In the url/path bar&lt;/p></description></item><item><title>💻 Fail2ban</title><link>https://csmertx.com/Linux/Software/fail2ban/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/fail2ban/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/div>&lt;p>&lt;code>apti ark dolphin-plugins&lt;/code>&lt;/p></description></item><item><title>💻 Fail2ban</title><link>https://csmertx.com/Linux/Software/fail2ban/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/fail2ban/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="setup">
