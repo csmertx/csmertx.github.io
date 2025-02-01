@@ -7,17 +7,17 @@ weight: -20
 
 <!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
+###### <p style="font-size:12px"><span style="color:dimgray">_Created: 12/29/2021 | Edited: 01/31/2025 | Author: Chris Schammert (csmertx) | [History 🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/dolphin.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Dolphin (KDE)")_</span></p>
+
 <br />
+
+## Right-click menu to extract archives (zip, etc.)
+
+```apti ark dolphin-plugins```
 
 ## Select file/folder with single click (for shift click or alt click selections)
 
-1. System Settings (app)
-
-2. Workspace Behaviour
-
-3. General Behavior
-
-4. Clicking files or folders > Selects them
+- System Settings (appz) > Workspace Behaviour > General Behavior > Clicking files or folders > Selects them
 
 
 ## SSH with Fish
