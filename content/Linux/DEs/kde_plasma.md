@@ -7,7 +7,7 @@ weight: -20
 
 <!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
-<br />
+###### <p style="font-size:12px"><span style="color:dimgray">_Created: 02/10/2023 | Edited: 02/02/2025 | Author: Chris Schammert (csmertx) | [History 🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/DEs/kde_plasma.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Desktop Environments \ Plasma (KDE)")_</span></p>
 
 ## Exclude firmware updates
 
@@ -193,16 +193,9 @@ weight: -20
 </fontconfig>
 ```
 - ```fc-cache```
+- Logout + login
 
-In a disposable shell prompt
-
-- ```killall plasmashell```
-
-- ```sleep 5```
-
-- ```kstart5 plasmashell &```
-
-Close prompt whenever. Emoji characters should be visible via Plasma clipboard
+    - SSH Note: It helps to have synced host/guest terminal emulator configuration for visual parity.
 
 ## Resources
 

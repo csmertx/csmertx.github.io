@@ -9,8 +9,6 @@ weight: -20
 
 ###### <p style="font-size:12px"><span style="color:dimgray">_Created: 12/29/2021 | Edited: 01/31/2025 | Author: Chris Schammert (csmertx) | [History 🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/dolphin.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Dolphin (KDE)")_</span></p>
 
-<br />
-
 ## Right-click menu to extract archives (zip, etc.)
 
 ```apti ark dolphin-plugins```
