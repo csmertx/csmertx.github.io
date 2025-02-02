@@ -1362,8 +1362,7 @@ class extract_here(Command):
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h6>
-&lt;/div>&lt;br />
-&lt;div class="gdoc-page__anchorwrap">
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="right-click-menu-to-extract-archives-zip-etc">
  Right-click menu to extract archives (zip, etc.)
  &lt;a data-clipboard-text="https://csmertx.com/Linux/Software/dolphin/#right-click-menu-to-extract-archives-zip-etc" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Right-click menu to extract archives (zip, etc.)" href="#right-click-menu-to-extract-archives-zip-etc">
