@@ -7,7 +7,7 @@ weight: -20
 
 <!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
-<br />
+###### <p style="font-size:12px"><span style="color:dimgray">_Created: 02/16/2024 | Edited: 02/03/2025 | Author: Chris Schammert (csmertx) | [History 🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/About/csmertx.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ About \ csmertx")_</span></p>
 
 <div style="text-align: center;">
 
@@ -27,9 +27,9 @@ weight: -20
 
 > This site is a 🔗 [CS](https://en.wikipedia.org/wiki/Computer_science "Wikipedia | Computer Science") hobby website with a little bin of fun mixed in with a little bit of documentation.
 
-> Likes: 🔗 [Pork Cutlet Bowl](https://www.youtube.com/watch?v=n-R5R59jiys "YouTube | Deku's Katsudon from My Hero Academia - MIDORIYA'S FAVOURITE FOOD!?")
+> Likes: 🔗 [Pork Cutlet Bowl](https://www.youtube.com/watch?v=n-R5R59jiys "YouTube | Deku's Katsudon from My Hero Academia - MIDORIYA'S FAVOURITE FOOD!?"). What? You think I like guns or something? I've never needed a gun.
 
-> My middle school Sharky nickname probably inspired by 🔗 [Sharky the Sharkdog](https://eekthecat.fandom.com/wiki/Sharky_the_Sharkdog "Eek! The Cat Wiki / Sharky Bartholomew Sharkdog III"). Or maybe because I skated until I was drenched in sweat. These days I'm known as Chris. Just Chris.
+> My middle school nickname Sharky was probably inspired by 🔗 [Sharky the Sharkdog](https://eekthecat.fandom.com/wiki/Sharky_the_Sharkdog "Eek! The Cat Wiki / Sharky Bartholomew Sharkdog III"). Or maybe because I skated until I was drenched in sweat. These days I'm known as Chris. Just Chris.
 
 ## Donation Button Clarification
 
