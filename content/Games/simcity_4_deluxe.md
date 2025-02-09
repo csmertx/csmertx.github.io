@@ -18,3 +18,13 @@ For my use it was easier to use an additional display for 🔗 [Jellyfin](/Linux
 ## Resources
 
 - 🔗 [Steam Community | SimCity 4 Deluxe General Discussions | UPDATED GUIDE: Launching SC4 Deluxe (Including UHD Support)](https://steamcommunity.com/app/24780/discussions/0/1471967615838569110/ "Steam Community | SimCity 4 Deluxe General Discussions | UPDATED GUIDE: Launching SC4 Deluxe (Including UHD Support)")
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 05/20/2024 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Games/simcity_4_deluxe.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Games \ SimCity 4 Deluxe">
+       History 🕵️
+    </a>
+</div>

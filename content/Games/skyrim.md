@@ -62,3 +62,13 @@ weight: -20
 ## Resources
 
 - [🔗 Bethesda Support: What do I do if my mouse has a delay while playing The Elder Scrolls V: Skyrim?](https://help.bethesda.net/#en/answer/27025)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 03/27/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Games/skyrim.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Games \ Skyrim Special Edition">
+       History 🕵️
+    </a>
+</div>

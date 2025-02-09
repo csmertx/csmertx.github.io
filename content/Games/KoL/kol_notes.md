@@ -106,3 +106,13 @@ Recommended gear for The Sea: Rusty diving helmet, pristine fish scales x6, sea 
 - [🔗 Github | KoLmafia](https://github.com/kolmafia/kolmafia)
 
 - [🔗 Kolmafia | Guide](https://wiki.kolmafia.us/index.php?title=KoLmafia_Guide)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Games/KoL/kol_notes.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Games \ KoL \ KoL Notes">
+       History 🕵️
+    </a>
+</div>

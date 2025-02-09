@@ -68,3 +68,13 @@ weight: -20
 ## Resources
 
 - 🔗[Github | GloriousEggroll / proton-ge-custom / releases](https://github.com/GloriousEggroll/proton-ge-custom/releases)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Games/steam_proton.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Games \ Steam Proton">
+       History 🕵️
+    </a>
+</div>
