@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Core Utilities on Chris Schammert (csmertx)</title><link>https://csmertx.com/Linux/Assorted/</link><description>Recent content in 💻 Core Utilities on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Linux/Assorted/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Accessing Media</title><link>https://csmertx.com/Linux/Assorted/mount/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/mount/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>💻 Core Utilities on Chris Schammert (csmertx)</title><link>https://csmertx.com/Linux/Assorted/</link><description>Recent content in 💻 Core Utilities on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Linux/Assorted/index.xml" rel="self" type="application/rss+xml"/><item><title>💻 Accessing Data</title><link>https://csmertx.com/Linux/Assorted/mount/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/mount/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="ext4">
@@ -106,7 +106,15 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://alsa-project.org/wiki/Main_Page">AlsaProject&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Bitmap Fonts</title><link>https://csmertx.com/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/bitmap_fonts/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/alsa.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ ALSA">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Bitmap Fonts</title><link>https://csmertx.com/Linux/Assorted/bitmap_fonts/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/bitmap_fonts/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="enable-bitmap-fonts-debianubuntu">
@@ -135,7 +143,15 @@ fi
 &lt;li>
 &lt;p>&lt;code>fc-cache&lt;/code>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Busybox</title><link>https://csmertx.com/Linux/Assorted/busybox/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/busybox/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/bitmap_fonts.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ Bitmap Fonts">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Busybox</title><link>https://csmertx.com/Linux/Assorted/busybox/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/busybox/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Typically used for embedded operating systems with limited resources&lt;/p>
@@ -164,7 +180,15 @@ fi
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://www.busybox.net/">Busybox Homepage&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Console Resolution</title><link>https://csmertx.com/Linux/Assorted/console_resolution/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/console_resolution/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/busybox.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ BusyBox">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Console Resolution</title><link>https://csmertx.com/Linux/Assorted/console_resolution/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/console_resolution/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>See also &lt;a class="gdoc-markdown__link" href="../../Linux/Assorted/vconsole">Virtual Console&lt;/a>&lt;/p>
@@ -477,7 +501,15 @@ min hour(24hr) day (month) month day (week)
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/deployment_guide/ch-lvm">RedHat: Chapter 11. LVM (Logical Volume Manger)&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Networking</title><link>https://csmertx.com/Linux/Assorted/networking/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/networking/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 02/09/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/lvm.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ Logical Volume Manager">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Networking</title><link>https://csmertx.com/Linux/Assorted/networking/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/networking/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h1 id="general-networking">
@@ -598,7 +630,15 @@ min hour(24hr) day (month) month day (week)
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://www.linux.com/news/all-about-linux-swap-space/">Linux.com: All about Linux swap space&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Systemd Journal</title><link>https://csmertx.com/Linux/Assorted/systemd_journalctl/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/systemd_journalctl/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/swap.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ Swap Memory">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Systemd Journal</title><link>https://csmertx.com/Linux/Assorted/systemd_journalctl/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Assorted/systemd_journalctl/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h1 id="linux-system-journal">
