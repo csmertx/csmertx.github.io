@@ -38,3 +38,13 @@ sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-de
     ++ for_window [class="Klipper"] floating enable, border none
     ++ for_window [class="Plasmoidviewer"] floating enable, border none 
     ```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/WM/i3_and_plasma.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ WM \ i3WM & KDE">
+       History 🕵️
+    </a>
+</div>

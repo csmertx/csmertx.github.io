@@ -70,3 +70,13 @@ weight: -20
 ## Resources
 
 - [GitHub - lcpz/awesome-copycats: Awesome WM themes](https://github.com/lcpz/awesome-copycats)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/WM/awesome.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ WM \ AwesomeWM">
+       History 🕵️
+    </a>
+</div>

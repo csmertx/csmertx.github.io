@@ -26,3 +26,13 @@ weight: -20
         > See also [keyboard scancodes](/Linux/Devices/keyboard_scancodes) for more bindsym options
 
 - See [mpv](/Linux/Software/mpv) for more about mpris plugin
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/WM/i3wm.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ WM \ i3WM">
+       History 🕵️
+    </a>
+</div>
