@@ -78,3 +78,13 @@ weight: -20
 - [Linux Handbook: Getting Stared With SED](https://linuxhandbook.com/sed-command-basics/)
 
 - [linuxhint: 50 sed Command Examples](https://linuxhint.com/50_sed_command_examples)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/sed.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ Sed">
+       History 🕵️
+    </a>
+</div>

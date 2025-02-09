@@ -1,5 +1,5 @@
 ---
-title: 💻 Git Pro
+title: 💻 Git Pro Notes
 author: Chris Schammert (csmertx -- Christopher Schammert )
 published: 2023-01-31
 weight: -20
@@ -50,3 +50,13 @@ weight: -20
 ## Resources
 
 - [Git Pro: book](https://git-scm.com/book/en/v2)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/19/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/git_pro_notes.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ Git Pro Notes">
+       History 🕵️
+    </a>
+</div>

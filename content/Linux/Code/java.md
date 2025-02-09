@@ -11,7 +11,7 @@ weight: -20
 
 ## Installation (Linux)
 
-> To satisfy dependencies (e.g. Kingdom of Loathing: KoLMafia)
+> Satisfy dependencies (e.g. Kingdom of Loathing: KoLMafia)
 
 - ```sudo apti default-jdk```
 
@@ -48,3 +48,13 @@ weight: -20
 - [Swordandmartini.png: For dark desktop themes](/Linux/Code/images/swordandmartini_dark_theme.png)
 
 - [Swordandmartini.png: For light desktop themes](/Linux/Code/images/swordandmartini_light_theme.png)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/java.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ Java Apps">
+       History 🕵️
+    </a>
+</div>

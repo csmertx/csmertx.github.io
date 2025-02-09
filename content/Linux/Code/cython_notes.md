@@ -40,3 +40,13 @@ weight: -20
 ## Resources
 
 - [Cython: C-Extensions for Python](https://cython.org/)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/19/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/cython_notes.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ Cython">
+       History 🕵️
+    </a>
+</div>

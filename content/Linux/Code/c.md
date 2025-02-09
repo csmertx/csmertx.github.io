@@ -28,3 +28,13 @@ weight: -20
 - [Such Programming: Spawning New Linux Processes in C](https://suchprogramming.com/new-linux-process-c)
 
 - [Debian Package Search](https://packages.debian.org/index): Scroll down to search package directories
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/c.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ C Language">
+       History 🕵️
+    </a>
+</div>

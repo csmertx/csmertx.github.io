@@ -74,3 +74,13 @@ weight: -20
 - [Github Docs: Removing sensitive data from a repository](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
 
 - [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/github_quick.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ Git Quick Ref.">
+       History 🕵️
+    </a>
+</div>

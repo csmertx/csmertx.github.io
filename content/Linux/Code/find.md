@@ -35,3 +35,13 @@ sudo find / -type d \( $dirs_exclude \) -prune -o -print | grep $1
 ## Resources
 
 - [Findutils: basic searching utilities of the GNU operating system](https://www.gnu.org/software/findutils/)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/19/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/find.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ Find">
+       History 🕵️
+    </a>
+</div>
