@@ -7,8 +7,6 @@ weight: -20
 
 <!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
-###### <p style="font-size:12px"><span style="color:dimgray">_Created: 03/27/2024 | Edited: 01/26/2025 | Author: Chris Schammert (csmertx) | [History 🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2024/kinesis_advantage2.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ stuff \ 2024 \ Kinesis Advantage 2")_</span></p>
-
 # Modding Kinesis Advantage 2
 
 Used this keyboard since January 20, 2021 and decided it was time to make a custom controller board (🔗[KinT](https://github.com/kinx-project/kint "Github.com | kinx-project / kint")).
@@ -82,3 +80,11 @@ Touchpad gestures: 🔗[libinput-gestures](https://github.com/bulletmark/libinpu
 <br />
 
 </div><br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 03/27/2024 | Edited: 02/09/2025 | Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2024/kinesis_advantage2.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ stuff \ 2024 \ Kinesis Advantage 2">
+       History 🕵️
+    </a>
+</div>
