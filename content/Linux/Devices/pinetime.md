@@ -7,6 +7,8 @@ weight: -20
 
 <!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
+###### <p style="font-size:12px"><span style="color:dimgray">_Created: 01/22/2023 | Edited: 02/09/2025 | Author: Chris Schammert (csmertx) | [History 🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/pinetime.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ PineTime")_</span></p>
+
 <br />
 
 ## Pinetime Smartwatch?
@@ -29,7 +31,7 @@ weight: -20
 
 3. Maybe a build without games?
 
-    > Sometimes I find that the watch is playing Pong instead of letting my check the time
+    > Sometimes I find that the watch is playing Pong instead of letting me check the time
 
 4. Touch screen glass held up to a lot of 'abuse'
 
