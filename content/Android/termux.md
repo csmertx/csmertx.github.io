@@ -32,3 +32,13 @@ weight: -20
 ## Resources
 
 - [🔗 Github | Termux Application](https://github.com/termux/termux-app)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Android/termux.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Android \ Termux">
+       History 🕵️
+    </a>
+</div>
