@@ -233,7 +233,15 @@ php_admin_value[memory_limit] = 99M
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;code>tail -f /var/log/fpm-php.www.log&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>💻 KDE STL Preview</title><link>https://csmertx.com/Linux/Software/STL_preview_from_dolphin/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/STL_preview_from_dolphin/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ FastCGI (PHP-FPM)">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 KDE STL Preview</title><link>https://csmertx.com/Linux/Software/STL_preview_from_dolphin/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/STL_preview_from_dolphin/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;br />
 &lt;div style="text-align: center;">
@@ -452,7 +460,7 @@ php_admin_value[memory_limit] = 99M
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>ssh -p 22 user@192.168.254.x&lt;/code>&lt;/p></description></item><item><title>💻 Patching C</title><link>https://csmertx.com/Linux/Software/patching/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/patching/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>ssh -p 22 user@192.168.254.x&lt;/code>&lt;/p></description></item><item><title>💻 Patching C Code</title><link>https://csmertx.com/Linux/Software/patching/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/patching/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>For when someone says, &amp;ldquo;Patch your systems people!&amp;rdquo;&lt;/p>
@@ -516,7 +524,15 @@ php_admin_value[memory_limit] = 99M
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;code>patch -ruN -d working &amp;lt; slang.patch&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Pulseaudio</title><link>https://csmertx.com/Linux/Software/pulse/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/pulse/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/patching.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Patching C Code">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Pulseaudio</title><link>https://csmertx.com/Linux/Software/pulse/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/pulse/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="all-systems">
@@ -636,7 +652,15 @@ load-module module-zeroconf-publish (or -discover...)
 &lt;li>
 &lt;p>Logout&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Ranger File Manager</title><link>https://csmertx.com/Linux/Software/ranger/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/ranger/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/qt.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ QT5 (KDE)">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Ranger File Manager</title><link>https://csmertx.com/Linux/Software/ranger/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/ranger/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Links to the project &lt;a class="gdoc-markdown__link" href="#resources">below&lt;/a>&lt;/p>
@@ -806,7 +830,15 @@ class extract_here(Command):
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://rsync.samba.org/">Rsync Homepage&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 SyncTerm (BBS)</title><link>https://csmertx.com/Linux/Software/syncterm/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/syncterm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/rsync.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Rsync">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 SyncTerm (BBS)</title><link>https://csmertx.com/Linux/Software/syncterm/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/syncterm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>BBS = Bulletin board system&lt;/p>
@@ -1045,7 +1077,15 @@ class extract_here(Command):
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://www.gnu.org/software/wget/">GNU Wget&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Woof-CE</title><link>https://csmertx.com/Linux/Software/woof-ce/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/woof-ce/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/wget.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Wget">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Woof-CE</title><link>https://csmertx.com/Linux/Software/woof-ce/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/woof-ce/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Build system for Puppy Linux distros&lt;/p>
@@ -1064,7 +1104,15 @@ class extract_here(Command):
 &lt;li>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/puppylinux-woof-CE/woof-CE">GitHub - puppylinux-woof-CE/woof-CE: woof - the Puppy builder&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 XScreenSaver</title><link>https://csmertx.com/Linux/Software/xscreensaver_hack_patch/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/xscreensaver_hack_patch/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/woof-ce.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Woof-CE">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 XScreenSaver</title><link>https://csmertx.com/Linux/Software/xscreensaver_hack_patch/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/xscreensaver_hack_patch/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>XScreenSaver Multi-monitor Patch&lt;/p>
@@ -1193,7 +1241,15 @@ class extract_here(Command):
 &lt;br />
 &lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://github.com/AppImage/AppImageKit">AppImageKit&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Benchmarking</title><link>https://csmertx.com/Linux/Software/benchmarks/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/benchmarks/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/appimage.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Appimages">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Benchmarking</title><link>https://csmertx.com/Linux/Software/benchmarks/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/benchmarks/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="glmark2">
@@ -1215,7 +1271,15 @@ class extract_here(Command):
 &lt;p>03/03/20: Arch Linux&lt;/p>
 &lt;/blockquote>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 BorgBackup</title><link>https://csmertx.com/Linux/Software/borgbackup/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/borgbackup/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/benchmarks.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Benchmarking">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 BorgBackup</title><link>https://csmertx.com/Linux/Software/borgbackup/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/borgbackup/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Created before 2022&lt;/p>
@@ -1271,7 +1335,15 @@ class extract_here(Command):
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;code>ebook-convert example.epub to example.pdf&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Clam Anti-Virus</title><link>https://csmertx.com/Linux/Software/clamav/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/clamav/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/epub_to_pdf.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Calibre">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Clam Anti-Virus</title><link>https://csmertx.com/Linux/Software/clamav/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/clamav/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="installation">
@@ -1607,7 +1679,15 @@ class extract_here(Command):
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Markdown CLI</title><link>https://csmertx.com/Linux/Software/markdown_cli/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/markdown_cli/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/konversation.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Konversation">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Markdown CLI</title><link>https://csmertx.com/Linux/Software/markdown_cli/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/markdown_cli/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Hacky way to preview Markdown via terminal emulator&lt;/p>
@@ -1694,7 +1774,15 @@ pandoc $1 --highlight-style=zenburn \
 &lt;li>
 &lt;p>Change volume with: &lt;code>,&lt;/code> and &lt;code>.&lt;/code>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Snaps</title><link>https://csmertx.com/Linux/Software/snapd/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/snapd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/moc.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Music On Console (MOC)">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Snaps</title><link>https://csmertx.com/Linux/Software/snapd/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/snapd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="installation">
@@ -1751,7 +1839,15 @@ pandoc $1 --highlight-style=zenburn \
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;code>sudo snap start docker&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Zstandard File Compression (ZSTD)</title><link>https://csmertx.com/Linux/Software/zstd/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/zstd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/snapd.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Snaps">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Zstandard File Compression (ZSTD)</title><link>https://csmertx.com/Linux/Software/zstd/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/zstd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="decompress">
@@ -1772,4 +1868,12 @@ pandoc $1 --highlight-style=zenburn \
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;code>unzstd source.zst unpacked.zst&lt;/code>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/zstd.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Zstandard File Compression (ZSTD)">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item></channel></rss>
