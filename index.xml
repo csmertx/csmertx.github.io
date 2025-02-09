@@ -886,7 +886,15 @@
 &lt;li>
 &lt;p>See &lt;a class="gdoc-markdown__link" href="./Linux/Software/mpv">mpv&lt;/a> for more about mpris plugin&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 i3WM &amp; KDE</title><link>https://csmertx.com/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/i3_and_plasma/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/WM/i3wm.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ WM \ i3WM">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 i3WM &amp; KDE</title><link>https://csmertx.com/Linux/WM/i3_and_plasma/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/i3_and_plasma/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="install-dependencies">
@@ -1229,6 +1237,7 @@
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org/title/KVM">Arch Wiki: KVM&lt;/a>&lt;/li>
 &lt;/ul>
+&lt;br />
 &lt;div style="text-align: center; font-size:12px; color:dimgray">
  Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
  &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/VMs/kvm.md" 
@@ -4447,6 +4456,19 @@ Categories=Game
 &lt;p>Tiling window manager status bar&lt;/p>
 &lt;/blockquote>
 &lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="example-of-polybar-in-freebsd-12-2018">
+ Example of Polybar in FreeBSD 12 (2018)
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/polybar/#example-of-polybar-in-freebsd-12-2018" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Example of Polybar in FreeBSD 12 (2018)" href="#example-of-polybar-in-freebsd-12-2018">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;div style="text-align: center;">
+&lt;p>&lt;img src="./Linux/WM/polybar_freebsd_180819.png" alt="Polybar FreeBSD" />&lt;/p>
+&lt;blockquote>
+&lt;p>My reddit post of the installation can be found here &lt;a class="gdoc-markdown__link" href="https://www.reddit.com/r/unixporn/comments/9ouan6/bspwm_having_fun_with_freebsd/">/r/unixporn | [bspwm] Having fun with FreeBSD&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;/div>
+&lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="themes">
  Themes
  &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/polybar/#themes" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Themes" href="#themes">
@@ -4455,32 +4477,7 @@ Categories=Game
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/adi1090x/polybar-themes">GitHub - adi1090x/polybar-themes: A huge collection of polybar themes with different styles, colors and variants.&lt;/a>&lt;/p>
-&lt;blockquote>
-&lt;p>Polybar-10 is very similar to GNOME 3&amp;rsquo;s top bar&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="bluetooth">
- Bluetooth
- &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/polybar/#bluetooth" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Bluetooth" href="#bluetooth">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>See &lt;a class="gdoc-markdown__link" href="./Linux/Devices/bluetooth">bluetooth&lt;/a> for Polybar specific info&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="resources">
- Resources
- &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/polybar/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>&lt;a class="gdoc-markdown__link" href="https://polybar.github.io/">Polybar - A fast and easy-to-use tool for creating status bars&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Python Package Index (PyPi)</title><link>https://csmertx.com/Linux/Code/pypi/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/pypi/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/adi1090x/polybar-themes">GitHub - adi1090x/polybar-themes: A huge collection of polybar themes with different styles, colors and variants.&lt;/a>&lt;/p></description></item><item><title>💻 Python Package Index (PyPi)</title><link>https://csmertx.com/Linux/Code/pypi/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/pypi/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="installing-python-packages">
