@@ -1,5 +1,5 @@
 ---
-title: 🥧 RetroPie/RPi4
+title: 🥧 RetroPie (RPi4)
 author: Chris Schammert (csmertx -- Christopher Schammert )
 published: 2023-01-31
 weight: -20
@@ -163,3 +163,13 @@ weight: -20
     ```
 
 - ```reboot```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/19/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/rpi4/retropie.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ RPi4 \ RetroPie (RPi4)">
+       History 🕵️
+    </a>
+</div>

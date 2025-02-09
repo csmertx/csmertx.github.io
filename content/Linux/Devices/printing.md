@@ -34,3 +34,13 @@ weight: -20
 - Print test page (leave one sheet of paper in tray)
 
     > The printer might send all the paper through...
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/printing.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ Printers">
+       History 🕵️
+    </a>
+</div>

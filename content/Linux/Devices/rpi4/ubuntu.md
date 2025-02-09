@@ -313,3 +313,13 @@ weight: -20
     ```
 
 - reboot
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/rpi4/ubuntu.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ RPi4 \ Ubuntu 20.04 Server 2 Desktop on RPi4">
+       History 🕵️
+    </a>
+</div>

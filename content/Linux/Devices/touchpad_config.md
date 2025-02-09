@@ -113,3 +113,13 @@ weight: -20
         > Swipe 4 fingers up is ```Home```, down is ```End```, 3 is ```PGUP```, ```PGDN```
 
         > Swipe 3 fingers left is ```Back```, right is ```Foward```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/touchpad_config.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ Touchpads">
+       History 🕵️
+    </a>
+</div>

@@ -40,3 +40,13 @@ weight: -20
     - ```rivalcfg -C "#9EDC97" # LED off: "#000000"```
 
         > For various HTML color codes see [X resources](/Linux/Assorted/xresources#resources)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/steelseries_sensei310.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ Sensei 310">
+       History 🕵️
+    </a>
+</div>

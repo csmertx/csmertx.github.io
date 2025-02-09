@@ -33,3 +33,13 @@ weight: -20
 ## Resources
 
 - [Ask Ubuntu: How can I stop my controller from moving my mouse?](https://askubuntu.com/questions/632026/how-can-i-stop-my-controller-from-moving-my-mouse)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/xbox_one_controller.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ Xbox One Controller">
+       History 🕵️
+    </a>
+</div>

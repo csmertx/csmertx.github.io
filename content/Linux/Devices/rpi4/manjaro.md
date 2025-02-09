@@ -22,3 +22,13 @@ weight: -20
 ## More details
 
 I wish I could provide more details. Unfortunately, I failed to properly document this experiment.
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/rpi4/manjaro.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ RPi4 \ Manjaro">
+       History 🕵️
+    </a>
+</div>
