@@ -112,3 +112,13 @@ export PS1="\[\e[33m\]\u\[\e[m\]@\[\e[33m\]\h\[\e[m\] [\[\e[36m\]\w\[\e[m\]] [\[
 ## QEMU/KVM Installation
 
 - ```sudo apt-get install qemu qemu-kvm virt-manager```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/19/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Distros/ubuntu.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Distros \ Ubuntu">
+       History 🕵️
+    </a>
+</div>

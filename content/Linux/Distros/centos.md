@@ -278,3 +278,13 @@ weight: -20
 - Reset resolution + save
 
 - Add ```~/.screenlayout/script.sh``` to ```~/.xinitrc``` before all GUI stuff
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Distros/centos.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Distros \ CentOS 8 Stable">
+       History 🕵️
+    </a>
+</div>

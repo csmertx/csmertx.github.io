@@ -279,3 +279,13 @@ sudo apt-get/aptitude remove libreoffice-base libreoffice-common libreoffice-bas
 - ```cd /dir/withdeb```
 
 - ```ar x [example.deb]```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Distros/debian_and_ubuntu.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Distros \ Debian">
+       History 🕵️
+    </a>
+</div>
