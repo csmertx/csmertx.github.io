@@ -47,4 +47,12 @@ function pause(){
 &lt;/ul>
 &lt;blockquote>
 &lt;p>I use this in conjunction with &lt;a class="gdoc-markdown__link" href="../../Linux/Software/tmux">Tmux&lt;/a> helper &lt;a class="gdoc-markdown__link" href="https://github.com/tmuxinator/tmuxinator">Tmuxinator&lt;/a>, so that STDOUT renders out everything correctly&lt;/p>
-&lt;/blockquote></description></item></channel></rss>
+&lt;/blockquote>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Shells/zsh.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Shells \ ZSH">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item></channel></rss>

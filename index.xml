@@ -2896,7 +2896,15 @@ function pause(){
 &lt;/ul>
 &lt;blockquote>
 &lt;p>I use this in conjunction with &lt;a class="gdoc-markdown__link" href="./Linux/Software/tmux">Tmux&lt;/a> helper &lt;a class="gdoc-markdown__link" href="https://github.com/tmuxinator/tmuxinator">Tmuxinator&lt;/a>, so that STDOUT renders out everything correctly&lt;/p>
-&lt;/blockquote></description></item><item><title>📁 02-23</title><link>https://csmertx.com/Blog/daynight/2023/0223/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Blog/daynight/2023/0223/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 02-23</title><link>https://csmertx.com/Blog/music/2023/0223/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Blog/music/2023/0223/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>⌚ PineTime Smartwatch</title><link>https://csmertx.com/Linux/Devices/pinetime/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/pinetime/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/blockquote>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Shells/zsh.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Shells \ ZSH">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>📁 02-23</title><link>https://csmertx.com/Blog/daynight/2023/0223/</link><pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Blog/daynight/2023/0223/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🎸 02-23</title><link>https://csmertx.com/Blog/music/2023/0223/</link><pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Blog/music/2023/0223/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>⌚ PineTime Smartwatch</title><link>https://csmertx.com/Linux/Devices/pinetime/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/pinetime/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="pinetime-smartwatch">
