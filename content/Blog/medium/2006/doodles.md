@@ -225,3 +225,13 @@ Close approximation of a Quake 1 clan skin I made in 1999
 > Elmo's Reign! NetZero dial-up! 🔗[Ad marketing](https://en.wikipedia.org/wiki/NetZero "Wikipedia | NetZero") guinea pig! Wait..
 
 </div><br />
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 02/23/2024 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/medium/2006/doodles.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ Medium \ 2006 \ Doodles">
+       History 🕵️
+    </a>
+</div>

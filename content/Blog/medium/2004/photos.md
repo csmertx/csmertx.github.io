@@ -84,3 +84,13 @@ That was my first ride. Someone two trailers to the left of that photo sold it t
 > This one. Always causing trouble.
 
 <br />
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 03/07/2024 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/medium/2004/photos.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ Medium \ 2004 \ Photos">
+       History 🕵️
+    </a>
+</div>

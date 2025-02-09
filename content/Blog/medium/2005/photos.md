@@ -270,3 +270,13 @@ Another Banksy bootleg
 <br />
 
 </div><br />
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 02/23/2024 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/medium/2005/photos.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ Medium \ 2005 \ Photos">
+       History 🕵️
+    </a>
+</div>
