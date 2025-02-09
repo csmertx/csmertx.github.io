@@ -204,3 +204,13 @@ weight: -20
 - 🔗 [GitHub | sddm/sddm - high cpu when sddm-greeter is idle · Issue #323](https://github.com/sddm/sddm/issues/323)
 
 - 🔗 [DEV Community | Get emojis working on arch linux with noto-fonts-emoji](https://dev.to/darksmile92/get-emojis-working-on-arch-linux-with-noto-fonts-emoji-2a9 "DEV Community | Get emojis working on arch linux with noto-fonts-emoji")
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 02/10/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/DEs/kde_plasma.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ DEs \ Plasma (KDE)">
+       History 🕵️
+    </a>
+</div>

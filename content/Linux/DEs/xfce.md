@@ -25,6 +25,16 @@ weight: -20
 
 - Requires ```updatedb```
 
-    > Database exposes files to all users
+    > updatedb exposes all files in a list accessible to all users
 
 - apti ```catfish```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 02/10/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/DEs/xfce.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ DEs \ Xfce">
+       History 🕵️
+    </a>
+</div>

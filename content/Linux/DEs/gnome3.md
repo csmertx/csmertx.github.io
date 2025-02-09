@@ -86,3 +86,13 @@ weight: -20
 - ```CTRL``` + ```L```
 
     - ```admin:///dir```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 02/10/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/DEs/gnome3.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ DEs \ GNOME 3">
+       History 🕵️
+    </a>
+</div>
