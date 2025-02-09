@@ -9,8 +9,6 @@ weight: -20
 
 <br />
 
-> See also [GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes](https://github.com/yt-dlp/yt-dlp "Github.com | yt-dlp / yt-dlp")
-
 ## Linux Mint & Ubuntu Install
 
 1. ```sudo add-apt-repository ppa:tomtomtom/yt-dlp```
@@ -40,3 +38,17 @@ youtube-dl "https://www.youtube.com/watch?v=iDlFqC-FGWQ&list=PLm5cEiYdCR-fq23tVF
 ```
 youtube-dl "https://www.youtube.com/watch?v=_DFypFVnSS0&list=PL_rR2s4GqBlaoriE6n0AvLGu_3e0_nHgr" -x --audio-format mp3 -o "%(title)s-.%(ext)s" --playlist-start 1
 ```
+
+## Resources
+
+- [GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes](https://github.com/yt-dlp/yt-dlp "Github.com | yt-dlp / yt-dlp")
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/youtube-dl.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Youtube-DL">
+       History 🕵️
+    </a>
+</div>
