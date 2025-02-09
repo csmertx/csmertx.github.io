@@ -53,7 +53,14 @@
 &lt;/div>&lt;ul>
 &lt;li>
 &lt;p>&lt;code>vim /etc/X11/xorg.conf.d/10-libinput.conf&lt;/code>&lt;/p></description></item><item><title>⌚ PineTime Smartwatch</title><link>https://csmertx.com/Linux/Devices/pinetime/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/pinetime/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
-&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h6 id="p-stylefont-size12pxspan-stylecolordimgray_created-01222023--edited-02092025--author-chris-schammert-csmertx--history-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentlinuxdevicespinetimemd-githubcom--csmertx--csmertxgithubio--commits--main--content--linux--devices--pinetime_spanp">
+ &lt;p style="font-size:12px">&lt;span style="color:dimgray">&lt;em>Created: 01/22/2023 | Edited: 02/09/2025 | Author: Chris Schammert (csmertx) | &lt;a class="gdoc-markdown__link" href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/pinetime.md" title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ PineTime">History 🕵️&lt;/a>&lt;/em>&lt;/span>&lt;/p>
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/pinetime/#p-stylefont-size12pxspan-stylecolordimgray_created-01222023--edited-02092025--author-chris-schammert-csmertx--history-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentlinuxdevicespinetimemd-githubcom--csmertx--csmertxgithubio--commits--main--content--linux--devices--pinetime_spanp" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Created: 01/22/2023 | Edited: 02/09/2025 | Author: Chris Schammert (csmertx) | History 🕵️" href="#p-stylefont-size12pxspan-stylecolordimgray_created-01222023--edited-02092025--author-chris-schammert-csmertx--history-httpsgithubcomcsmertxcsmertxgithubiocommitsmaincontentlinuxdevicespinetimemd-githubcom--csmertx--csmertxgithubio--commits--main--content--linux--devices--pinetime_spanp">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h6>
+&lt;/div>&lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="pinetime-smartwatch">
  Pinetime Smartwatch?
@@ -61,17 +68,7 @@
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
-&lt;/div>&lt;p>~$40 smartwatch with Open Source firmware. And more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).&lt;/p>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="reporting-in-after-close-to-a-year">
- Reporting in after close to a year
- &lt;a data-clipboard-text="https://csmertx.com/Linux/Devices/pinetime/#reporting-in-after-close-to-a-year" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Reporting in after close to a year" href="#reporting-in-after-close-to-a-year">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ol>
-&lt;li>
-&lt;p>Raising wrist to wake up the device is mostly awesome&lt;/p></description></item><item><title>⌨️ Keyboard Scancodes</title><link>https://csmertx.com/Linux/Devices/keyboard_scancodes/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/keyboard_scancodes/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/div>&lt;p>~$40 smartwatch with Open Source firmware. And more reliable than any other Android smartwatch in that price range. Mine was shipped and on my wrist within a month (03/23/22 - 04/06/22).&lt;/p></description></item><item><title>⌨️ Keyboard Scancodes</title><link>https://csmertx.com/Linux/Devices/keyboard_scancodes/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/keyboard_scancodes/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>May include game controller keysyms as well?&lt;/p>
