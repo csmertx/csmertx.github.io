@@ -3671,7 +3671,15 @@ EndSection
 &lt;li>
 &lt;p>&lt;code>gpspipe -R/-r/-w&lt;/code>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Arch Linux (BTW)</title><link>https://csmertx.com/Linux/Distros/arch/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Distros/arch/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/gps.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ GPS Devices">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Arch Linux (BTW)</title><link>https://csmertx.com/Linux/Distros/arch/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Distros/arch/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Notes created before 2020. Check the &lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org">Arch Wiki&lt;/a> for up to date documentation&lt;/p>
@@ -4645,7 +4653,7 @@ Categories=Game
  &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
  &lt;/a>
  &lt;/h2>
-&lt;/div>&lt;p>I wish I could provide more details. Unfortunately, I failed to properly document this experiment.&lt;/p></description></item><item><title>🥧 RetroPie/RPi4</title><link>https://csmertx.com/Linux/Devices/rpi4/retropie/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/rpi4/retropie/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/div>&lt;p>I wish I could provide more details. Unfortunately, I failed to properly document this experiment.&lt;/p></description></item><item><title>🥧 RetroPie (RPi4)</title><link>https://csmertx.com/Linux/Devices/rpi4/retropie/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Devices/rpi4/retropie/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>And WM8860 GPIO soundcard addon (speakers)&lt;/p>
