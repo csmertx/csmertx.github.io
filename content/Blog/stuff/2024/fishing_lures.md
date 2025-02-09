@@ -22,3 +22,13 @@ Pine 2x4, household lacquer, yellow acrylic painted eyes, and brass hardware (I 
 <br />
 
 </div><br />
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 02/21/2024 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2024/fishing_lures.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ Stuff \ Fishing Lures">
+       History 🕵️
+    </a>
+</div>

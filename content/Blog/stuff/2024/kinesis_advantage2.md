@@ -81,6 +81,8 @@ Touchpad gestures: 🔗[libinput-gestures](https://github.com/bulletmark/libinpu
 
 </div><br />
 
+<br />
+
 <div style="text-align: center; font-size:12px; color:dimgray">
     Created: 03/27/2024 | Edited: 02/09/2025 | Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2024/kinesis_advantage2.md" 
