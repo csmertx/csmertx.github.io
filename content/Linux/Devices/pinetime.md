@@ -7,8 +7,6 @@ weight: -20
 
 <!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
-###### <p style="font-size:12px"><span style="color:dimgray">_Created: 01/22/2023 | Edited: 02/09/2025 | Author: Chris Schammert (csmertx) | [History 🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/pinetime.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ PineTime")_</span></p>
-
 <br />
 
 ## Pinetime Smartwatch?
@@ -109,3 +107,14 @@ weight: -20
 - [ITD (Starting daemon, etc.)](https://gitea.arsenm.dev/Arsen6331/itd)
 
 - [ITD (Releases)](https://gitea.arsenm.dev/Arsen6331/itd/releases)
+
+<br />
+
+---
+<div style="text-align: center;">
+
+###### <p style="font-size:12px"><span style="color:dimgray">_Created: 01/22/2023 | Edited: 02/09/2025 | Author: Chris Schammert (csmertx) | [History 🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/pinetime.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ PineTime")_</span></p>
+
+</div>
+
+---
