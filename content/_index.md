@@ -41,7 +41,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
-|Feb 09, 2025 | 🔗 [Music Blog \ Parkway Drive - Shadow Boxing (Reverence)](/Blog/music/2025/0225#parkway-drive---shadow-boxing-reverence "Music Blog \ February 2025")|
+|Feb 09, 2025 | 🔗 [Music Blog \ Parkway Drive - Shadow Boxing (Official Video) (Reverence)](/Blog/music/2025/0225#parkway-drive---shadow-boxing-reverence "Music Blog \ February 2025")|
 |Feb 06, 2025 | 🔗 [Music Blog \ Parkway Drive - Fractures (Ire)](/Blog/music/2025/0225#parkway-drive---fractures-ire "Music Blog \ February 2025")|
 |Feb 03, 2025 | 🔗 [Music Blog \ All That Remains - The Weak Willed (The Fall Of Ideals)](/Blog/music/2025/0225#all-that-remains---the-weak-willed-the-fall-of-ideals "Music Blog \ February 2025")|
 |Jan 26, 2025 | 🔗 [Day & Night Blog \ Fitbit Sense 2 - Alexa App See N' Say Mode Activated](/Blog/daynight/2025/0125#fitbit-sense-2---alexa-app-see-n-say-mode-activated "Day & Night Blog \ January 2025")|

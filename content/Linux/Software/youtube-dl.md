@@ -11,9 +11,13 @@ weight: -20
 
 > See also [GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes](https://github.com/yt-dlp/yt-dlp "Github.com | yt-dlp / yt-dlp")
 
-> Linux Mint yt-dlp download: [yt-dlp via PyPi installation](https://github.com/yt-dlp/yt-dlp/wiki/Installation#with-pip "Github.com | yt-dlp / yt-dlp / Wiki / Installation w/PyPi")
+## Linux Mint & Ubuntu Install
 
-> Kubuntu: [yt-dlp via binary software package](https://github.com/yt-dlp/yt-dlp/wiki/Installation#using-the-release-binary "Github.com | yt-dlp / yt-dlp / Wiki / Installation w/Release Binary")
+1. ```sudo add-apt-repository ppa:tomtomtom/yt-dlp```
+
+2. ```sudo apt update```
+
+3. ```apti yt-dlp```
 
 ## Auto Convert to mp3
 
