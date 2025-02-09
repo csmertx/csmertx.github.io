@@ -470,7 +470,15 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://developer.android.com/studio/command-line/adb">🔗 Android Developers - Android Debug Bridge (adb)&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>📁 03-23</title><link>https://csmertx.com/Blog/daynight/2023/0323/</link><pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Blog/daynight/2023/0323/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🏄 Hugo</title><link>https://csmertx.com/Web/hugo/</link><pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Web/hugo/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Android/adb.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Android \ ADB">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>📁 03-23</title><link>https://csmertx.com/Blog/daynight/2023/0323/</link><pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Blog/daynight/2023/0323/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert --></description></item><item><title>🏄 Hugo</title><link>https://csmertx.com/Web/hugo/</link><pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Web/hugo/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="google-search-console-verification-url-prefix-and-github-pages">
@@ -5502,7 +5510,15 @@ XTerm.vt100.geometry: 100x35
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://apt.izzysoft.de/fdroid/repo">🔗 IzzyOnDroid F-Droid Repository&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>📱 LineageOS</title><link>https://csmertx.com/Android/lineageos/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Android/lineageos/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Android/fdroid.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Android \ F-Droid">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>📱 LineageOS</title><link>https://csmertx.com/Android/lineageos/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Android/lineageos/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Open-source Android distribution (OS)&lt;/p>
