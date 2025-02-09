@@ -51,12 +51,24 @@
 &lt;blockquote>
 &lt;p>See also &lt;a class="gdoc-markdown__link" href="https://github.com/yt-dlp/yt-dlp" title="Github.com | yt-dlp / yt-dlp">GitHub - yt-dlp/yt-dlp: A youtube-dl fork with additional features and fixes&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;blockquote>
-&lt;p>Linux Mint yt-dlp download: &lt;a class="gdoc-markdown__link" href="https://github.com/yt-dlp/yt-dlp/wiki/Installation#with-pip" title="Github.com | yt-dlp / yt-dlp / Wiki / Installation w/PyPi">yt-dlp via PyPi installation&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>Kubuntu: &lt;a class="gdoc-markdown__link" href="https://github.com/yt-dlp/yt-dlp/wiki/Installation#using-the-release-binary" title="Github.com | yt-dlp / yt-dlp / Wiki / Installation w/Release Binary">yt-dlp via binary software package&lt;/a>&lt;/p>
-&lt;/blockquote>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="linux-mint--ubuntu-install">
+ Linux Mint &amp;amp; Ubuntu Install
+ &lt;a data-clipboard-text="https://csmertx.com/Linux/Software/youtube-dl/#linux-mint--ubuntu-install" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Linux Mint &amp;amp; Ubuntu Install" href="#linux-mint--ubuntu-install">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;ol>
+&lt;li>
+&lt;p>&lt;code>sudo add-apt-repository ppa:tomtomtom/yt-dlp&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>sudo apt update&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>apti yt-dlp&lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="auto-convert-to-mp3">
  Auto Convert to mp3
