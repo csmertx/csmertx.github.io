@@ -1,5 +1,5 @@
 ---
-title: 💻 Accessing Media
+title: 💻 Accessing Data
 author: Chris Schammert (csmertx -- Christopher Schammert )
 published: 2023-01-30
 weight: -20
@@ -56,3 +56,13 @@ weight: -20
 - ```sudo chgrp storage /mnt/external...```
 
 - ```sudo chmod g+w /mnt/external..```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/mount.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ Accessing Data">
+       History 🕵️
+    </a>
+</div>

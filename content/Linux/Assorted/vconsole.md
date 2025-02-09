@@ -152,3 +152,13 @@ weight: -20
 - [Arch Wiki: Linux Console](https://wiki.archlinux.org/title/Linux_console)
 
 - [Chmod Calculator](https://chmodcommand.com/)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/vconsole.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ Virtual Console">
+       History 🕵️
+    </a>
+</div>

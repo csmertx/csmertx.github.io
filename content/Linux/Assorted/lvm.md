@@ -34,3 +34,13 @@ weight: -20
 ## Resources
 
 - [RedHat: Chapter 11. LVM (Logical Volume Manger)](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/deployment_guide/ch-lvm)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 02/09/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/lvm.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ Logical Volume Manager">
+       History 🕵️
+    </a>
+</div>

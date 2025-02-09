@@ -52,3 +52,13 @@ weight: -20
 - [GNU GRUB](https://www.gnu.org/software/grub/)
 
 - [Arch Wiki: GRUB](https://wiki.archlinux.org/title/GRUB)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/grub.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ Grub">
+       History 🕵️
+    </a>
+</div>

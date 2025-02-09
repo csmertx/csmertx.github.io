@@ -79,3 +79,13 @@ weight: -20
 - [ASCII-Code: HTML Color Names](https://www.ascii-code.com/html-color-names)
 
 - [terminal.sexy: Design, edit and share terminal colorschemes](https://terminal.sexy/)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/xresources.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ X resources">
+       History 🕵️
+    </a>
+</div>

@@ -38,3 +38,13 @@ weight: -20
 - [Arch Wiki: XrandR](https://wiki.archlinux.org/title/Xrandr)
 
 - [ARandR: GUI frontend for XrandR](https://christian.amsuess.com/tools/arandr/)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/xrandr.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ XrandR">
+       History 🕵️
+    </a>
+</div>

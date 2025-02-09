@@ -39,3 +39,13 @@ min hour(24hr) day (month) month day (week)
 - [Crontab Guru: The quick and simple editor for cron schedule expressions](https://crontab.guru)
 
 - [Red Hat: How to schedule jobs using the Linux &#039;cron&#039;](https://www.redhat.com/sysadmin/linux-cron-command)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/crontab.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ Cron Table">
+       History 🕵️
+    </a>
+</div>

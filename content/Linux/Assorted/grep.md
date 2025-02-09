@@ -36,3 +36,13 @@ weight: -20
 > .txt, .mp3, .svg, .sh, .bash, .conf, etc.
 
 - ```grep -e term1 -e term2 /dir/*.txt```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/grep.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ Grep">
+       History 🕵️
+    </a>
+</div>

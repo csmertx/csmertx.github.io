@@ -38,3 +38,10 @@ weight: -20
 
 - [Ask Ubuntu: "How do I increase console-mode resolution?"](https://askubuntu.com/questions/18444/how-do-i-increase-console-mode-resolution)
 
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Assorted/console_resolution.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Assorted \ Console Resolution">
+       History 🕵️
+    </a>
+</div>
