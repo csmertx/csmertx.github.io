@@ -148,3 +148,13 @@ weight: -20
 - [GitHub - evsar3/sshfs-win-manager: A GUI for SSHFS-Win](https://github.com/evsar3/sshfs-win-manager)
 
 - [Github - sshfs-win/README.md at master](https://github.com/winfsp/sshfs-win/blob/master/README.md)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/openssh.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ OpenSSH">
+       History 🕵️
+    </a>
+</div>

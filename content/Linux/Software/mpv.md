@@ -70,3 +70,13 @@ weight: -20
     > Keyboard driven web browser with builtin methods to use external video players (MPV)
 
 - [GitHub - qutebrowser/qutebrowser: A keyboard-driven, vim-like web browser](https://github.com/qutebrowser/qutebrowser)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/mpv.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ MPV">
+       History 🕵️
+    </a>
+</div>

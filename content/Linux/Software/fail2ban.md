@@ -50,3 +50,13 @@ weight: -20
 - [Fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page)
 
 - [Red Hat: Linux security: Protect your systems with fail2ban](https://www.redhat.com/sysadmin/protect-systems-fail2ban)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/fail2ban.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Fail2ban">
+       History 🕵️
+    </a>
+</div>

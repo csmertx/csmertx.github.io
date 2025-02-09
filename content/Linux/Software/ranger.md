@@ -97,3 +97,13 @@ class extract_here(Command):
 - [Ranger &mdash; console file manager with VI key bindings](https://ranger.github.io/)
 
 - [GitHub - ranger/ranger: A VIM-inspired filemanager for the console](https://github.com/ranger/ranger)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/ranger.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Ranger File Manager">
+       History 🕵️
+    </a>
+</div>

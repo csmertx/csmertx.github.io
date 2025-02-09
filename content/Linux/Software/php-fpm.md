@@ -32,3 +32,13 @@ weight: -20
 ## Check Error Log
 
 - ```tail -f /var/log/fpm-php.www.log```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ FastCGI (PHP-FPM)">
+       History 🕵️
+    </a>
+</div>

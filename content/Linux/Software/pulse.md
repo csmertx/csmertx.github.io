@@ -58,3 +58,13 @@ weight: -20
     ++ load-module module-detect
     ++ load-module module-alsa-card device_id=0 tsched=true tsched_buffer_size=3145728 tsched_buffer_watermark=786432
     ```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/pulse.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Pulseaudio">
+       History 🕵️
+    </a>
+</div>

@@ -32,3 +32,13 @@ weight: -20
 - [GitHub - teejee2008/timeshift: System restore tool for Linux](https://github.com/teejee2008/timeshift)
 
     > Original repository
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/timeshift.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Timeshift">
+       History 🕵️
+    </a>
+</div>

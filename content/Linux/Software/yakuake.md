@@ -34,3 +34,13 @@ weight: -20
 ## Resources
 
 - [Yakuake (KDE)](https://apps.kde.org/yakuake/)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 04/11/2022 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/yakuake.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Yakuake">
+       History 🕵️
+    </a>
+</div>

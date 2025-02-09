@@ -42,3 +42,13 @@ weight: -20
     - Navigate to ```file.md```
 
     - ```:open_with rmd```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/markdown_cli.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Markdown CLI">
+       History 🕵️
+    </a>
+</div>

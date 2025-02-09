@@ -48,3 +48,13 @@ weight: -20
 - [The Mutt E-Mail Client](http://www.mutt.org/)
 
 - [Xmodulo Linux FAQ: How to use Mutt email client with encrypted passwords](http://xmodulo.com/mutt-email-client-encrypted-passwords.html)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/mutt_encrypted.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Mutt E-Mail Client">
+       History 🕵️
+    </a>
+</div>

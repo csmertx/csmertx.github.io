@@ -20,3 +20,13 @@ weight: -20
 - Other keybindings might be affected by this "fix" (```F4```, etc.)
 
   - So long [xmodmap](/Linux/Assorted/xmodmap), hello [custom keyboard PCB](https://github.com/kinx-project/kint)?
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/konsole.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Konsole">
+       History 🕵️
+    </a>
+</div>

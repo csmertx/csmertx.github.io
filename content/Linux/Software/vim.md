@@ -188,3 +188,13 @@ weight: -20
 - [GitHub - dracula/vim: 🧛🏻‍♂️ Dark theme for Vim](https://github.com/dracula/vim)
 
 - [GitHub - rafi/awesome-vim-colorschemes: Collection of awesome color schemes](https://github.com/rafi/awesome-vim-colorschemes)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/vim.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Vim">
+       History 🕵️
+    </a>
+</div>

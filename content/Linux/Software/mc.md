@@ -38,3 +38,13 @@ weight: -20
     > I recommend the ```nicedark.ini``` skin
 
 - [GitHub - MidnightCommander/mc: Midnight Commander's repository](https://github.com/MidnightCommander/mc)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/mc.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Midnight Commander">
+       History 🕵️
+    </a>
+</div>

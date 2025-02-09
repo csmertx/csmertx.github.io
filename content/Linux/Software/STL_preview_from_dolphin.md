@@ -61,3 +61,13 @@ weight: -20
 - Right Click .stl file in Dolphin, open with view3dscene (check box to remember)
 
 - ```Icon=``` used: ```https://www.freepngimg.com/png/32221-3d-image```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 04/01/2022 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/STL_preview_from_dolphin.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ KDE STL Preview">
+       History 🕵️
+    </a>
+</div>

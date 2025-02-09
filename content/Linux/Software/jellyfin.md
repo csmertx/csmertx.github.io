@@ -107,3 +107,13 @@ jellyfin/jellyfin
 - [GitHub - jellyfin/jellyfin: The Free Software Media System](https://github.com/jellyfin/jellyfin)
 
 - [Wikipedia - Video Acceleration API](https://en.wikipedia.org/wiki/Video_Acceleration_API)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/jellyfin.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ Jellyfin (Media Server)">
+       History 🕵️
+    </a>
+</div>

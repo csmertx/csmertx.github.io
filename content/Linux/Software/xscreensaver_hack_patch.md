@@ -54,3 +54,12 @@ $ diff screens-original.c screens.c
 
 - [SNARGAWOK: Forcing xscreensaver to display one hack over multiple monitors.](https://www.jabawok.net/?p=158)
 
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/xscreensaver_hack_patch.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ XScreenSaver">
+       History 🕵️
+    </a>
+</div>

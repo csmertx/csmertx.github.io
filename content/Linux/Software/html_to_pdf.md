@@ -26,3 +26,13 @@ weight: -20
 - ```wkhtmltopdf input.html output.pdf```
 
     > Additional options via CLI not available through browsers
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/html_to_pdf.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ HTML to PDF">
+       History 🕵️
+    </a>
+</div>

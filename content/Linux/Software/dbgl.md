@@ -34,3 +34,13 @@ weight: -20
 - ```sudo apt-get update```
 
 - ```sudo apti dosbox default-jdk dbgl```
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Software/dbgl.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Software \ DBGL (DOSBox)">
+       History 🕵️
+    </a>
+</div>
