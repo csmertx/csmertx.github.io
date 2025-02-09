@@ -41,13 +41,13 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Feb 09, 2025 | 🔗 [Music Blog \ Parkway Drive - Shadow Boxing (Reverence)](/Blog/music/2025/0225#parkway-drive---shadow-boxing-reverence "Music Blog \ February 2025")|
 |Feb 06, 2025 | 🔗 [Music Blog \ Parkway Drive - Fractures (Ire)](/Blog/music/2025/0225#parkway-drive---fractures-ire "Music Blog \ February 2025")|
 |Feb 03, 2025 | 🔗 [Music Blog \ All That Remains - The Weak Willed (The Fall Of Ideals)](/Blog/music/2025/0225#all-that-remains---the-weak-willed-the-fall-of-ideals "Music Blog \ February 2025")|
 |Jan 26, 2025 | 🔗 [Day & Night Blog \ Fitbit Sense 2 - Alexa App See N' Say Mode Activated](/Blog/daynight/2025/0125#fitbit-sense-2---alexa-app-see-n-say-mode-activated "Day & Night Blog \ January 2025")|
 |Jan 03, 2025 | 🔗 [Music Blog \ Avenged Sevenfold - Remenissions (Waking The Fallen)](/Blog/music/2025/0125#avenged-sevenfold---remenissions-waking-the-fallen "Music Blog \ January 2025")|
 |Jan 03, 2025 | 🔗 [Day & Night Blog \ The Pirate Spider and the XXXL Shirt](/Blog/daynight/2025/0125#the-pirate-spider-and-the-xxxl-shirt "Day & Night Blog \ January 2025")|
 |Jan 03, 2025 | 🔗 [Music Blog \ Dead & Company - Deal (Live at Wrigley Field, Chicago, IL, 6/9/23)](/Blog/music/2025/0125#dead--company---deal-live-at-wrigley-field-chicago-il-6923 "Music Blog \ January 2025")|
-|Dec 24, 2024 | 🔗 [Music Blog \ Helloween - Hold Me in Your Arms (Straight out of Hell)](/Blog/music/2024/1224#helloween---hold-me-in-your-arms-straight-out-of-hell "Music Blog \ December 2024")|
 |Dec 18, 2024 | 🔗 [Day & Night Blog \ My Sanity](/Blog/daynight/2024/1224#my-sanity "Day & Night Blog \ December 2024")|
 |Nov 30, 2024 | 🔗 [Day & Night Blog \ Decompressing](/Blog/daynight/2024/1124#decompressing "Day & Night Blog \ November 2024")|
 |Jul 15, 2024 | 🔗 [Music Blog \ Explosions in the Sky - A Song For Our Fathers (How Strange, Innocence)](/Blog/music/2024/0724#explosions-in-the-sky---a-song-for-our-fathers-how-strange-innocence "Music Blog \ July 2024")|
@@ -83,6 +83,7 @@ The image above leads to the 🔗 [main navigation page](pad "Click here for the
 </div>
 
 ---
+###### <p style="font-size:12px"><span style="color:dimgray">_Index Page Created: 01/07/2023 | Edited: 02/09/2025 | Author: Chris Schammert (csmertx) | [History 🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index")_</span></p>
 ---
 
 <!--c This website comprises a patchwork of notes written over my 10+ years with Linux (+2 served apps). I also poked at DOS prompts as a youth (1988) before my high school typing and web design classes (1999-2001). Due to the rolling nature of open source and or free software, the notes may not align with the current timeline of the subject's software documentation. I mostly focus my efforts on edge cases as I find them. On top of that I have included a life story blog, and a music blog, which may appeal to a broader audience. The warning above is mostly for music lyrics, some life stories, and my occasional use of profanity. I was raised on a mixture of English dialects via family brought together by the U.S. Navy--hopefully my attempt at college English will improve with time. I accept pull requests and emails. No worries about time of day or night. I capitalize on Don't Disturb Modes, so anytime is a good time. My use of an Orca illustration is merely for entertainment purposes. The depiction of an Orca is not meant as a personal attack towards anyone, nor is it a prelude into a new Linux OS. Glory to the maintainers! And thank you for checking the source! -->
