@@ -248,3 +248,11 @@ qemu-system-i386 ... -net user,hostfwd=tcp:443::443 -redir tcp:80::80 -redir tcp
 - [Arch Wiki: PCI passthrough via OVMF](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF)
 
 - [Chapter 5. Getting Started with Virtual Machine Manager Red Hat Enterprise Linux 7](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_getting_started_guide/chap-virtualization_manager-introduction)
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/VMs/virt-manager.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ VMs \ Virtual Machine Manager (VMM)">
+       History 🕵️
+    </a>
+</div>

@@ -54,3 +54,13 @@ weight: -20
 - [Docker: Accelerated, Containerized Application Development](https://www.docker.com/)
 
 - [Red Hat - What is Docker?](https://www.redhat.com/en/topics/containers/what-is-docker)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/VMs/docker_installation.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ VMs \ Docker">
+       History 🕵️
+    </a>
+</div>
