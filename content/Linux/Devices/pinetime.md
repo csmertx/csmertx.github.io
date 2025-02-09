@@ -110,12 +110,6 @@ weight: -20
 
 <br />
 
-<div style="text-align: center;">
-
-###### <p style="font-size:12px"><span style="color:dimgray">_Created: 01/22/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • [History 🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/pinetime.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Devices \ PineTime")_</span></p>
-
-</div>
-
 <div style="text-align: center; font-size:12px; color:dimgray">
     Created: 01/22/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Devices/pinetime.md" 
