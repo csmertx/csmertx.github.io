@@ -90,7 +90,15 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://copr.fedorainfracloud.org/coprs/">Fedora COPR: Project List&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Slackware</title><link>https://csmertx.com/Linux/Distros/slackware/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Distros/slackware/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Distros/opensuse.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Distros \ OpenSUSE">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Slackware</title><link>https://csmertx.com/Linux/Distros/slackware/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Distros/slackware/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Slackware as a virtualized system and beyond&lt;/p>
@@ -192,7 +200,15 @@ deb http://old-releases.ubuntu.com/ubuntu/ lucid-security multiverse universe
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://old-releases.ubuntu.com/releases/">Old Ubuntu Releases: Index of /releases&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Arch Linux (BTW)</title><link>https://csmertx.com/Linux/Distros/arch/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Distros/arch/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Distros/old_releases_ubuntu.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Distros \ Ubuntu Old Releases">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Arch Linux (BTW)</title><link>https://csmertx.com/Linux/Distros/arch/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Distros/arch/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Notes created before 2020. Check the &lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org">Arch Wiki&lt;/a> for up to date documentation&lt;/p>
