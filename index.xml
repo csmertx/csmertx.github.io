@@ -1228,7 +1228,14 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://wiki.archlinux.org/title/KVM">Arch Wiki: KVM&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Virtual Machine Manager (VMM)</title><link>https://csmertx.com/Linux/VMs/virt-manager/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/VMs/virt-manager/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/VMs/kvm.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ VMs \ KVM">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Virtual Machine Manager (VMM)</title><link>https://csmertx.com/Linux/VMs/virt-manager/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/VMs/virt-manager/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>VM software by Red Hat&lt;/p>
