@@ -7,8 +7,6 @@ weight: -20
 
 <!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
-###### <p style="font-size:12px"><span style="color:dimgray">_Created: 02/16/2024 | Edited: 02/03/2025 | Author: Chris Schammert (csmertx) | [History 🕵️](https://github.com/csmertx/csmertx.github.io/commits/main/content/About/csmertx.md "Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ About \ csmertx")_</span></p>
-
 <div style="text-align: center;">
 
 ![CRS](/csmertx_chris_schammert_bermuda_1987.png "Lil Csmertx")
@@ -280,3 +278,13 @@ I daily 🔗 [Tmuxinator](https://github.com/tmuxinator/tmuxinator "Github.com |
 - **yay**
 
     - Yay: [🔗 Go based AUR package manager](https://github.com/Jguer/yay "Github.com | Jquer \ Yay")
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 02/16/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/About/csmertx.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ About \ csmertx">
+       History 🕵️
+    </a>
+</div>
