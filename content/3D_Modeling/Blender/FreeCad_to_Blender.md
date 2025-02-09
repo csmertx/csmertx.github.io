@@ -18,3 +18,13 @@ weight: -20
 2. Add Modifier > Edge Split (Generate Category)
 
 3. Smooth Shade (Object Menu: Shade Smooth)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/3D_Modeling/Blender/FreeCad_to_Blender.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ 3D Modeling / Blender / FreeCad to Blender">
+       History 🕵️
+    </a>
+</div>

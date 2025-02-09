@@ -28,3 +28,13 @@ weight: -20
 ## Resources
 
 - [🔗 YouTube | STEP to FreeCAD Part (61quick)](https://www.youtube.com/watch?v=7xupVksPadA)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/3D_Modeling/FreeCAD/step_faces_to_sketches.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ 3D Modeling \ FreeCAD \ Step Faces to Sketches">
+       History 🕵️
+    </a>
+</div>
