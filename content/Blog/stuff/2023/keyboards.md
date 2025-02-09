@@ -36,3 +36,13 @@ Developed some RSI symptoms as I worked on this pathway
 ![albumimg](/Blog/stuff/images/keyboards/keyboards_2016-2017_18.png "Custom number pad, switch plate template (Modeled/Rendered: Fusion 360)")
 ![albumimg](/Blog/stuff/images/keyboards/keyboards_2016-2017_19.png "Custom number pad side profile (Modeled/Rendered: Fusion 360)")
 ![albumimg](/Blog/stuff/images/keyboards/keyboards_2016-2017_20.png "Custom double shot DSA nearly ready for production (Modeled/Rendered: Fusion 360)")
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/27/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2023/keyboards.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ Stuff \ Keyboards">
+       History 🕵️
+    </a>
+</div>

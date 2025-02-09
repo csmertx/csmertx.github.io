@@ -26,3 +26,13 @@ This one does not include a parts list because this configuration (power deliver
 <br />
 
 </div>
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 01/20/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2023/rpi4console.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ Stuff \ RPi4 Console">
+       History 🕵️
+    </a>
+</div>

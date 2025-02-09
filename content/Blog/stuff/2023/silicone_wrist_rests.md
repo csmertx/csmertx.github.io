@@ -23,3 +23,13 @@ The silicone is too soft. I used Ecoflex 00-10 from Smooth-On (commonly used to 
 ![albumimg](/Blog/stuff/images/wrs_overall_angle.jpg "Overall angle with wrest rests on the board")
 ![albumimg](/Blog/stuff/images/wrs_keyboard_cleaning.jpg "Routine keyboard cleaning")
 <br />
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 01/20/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Blog/stuff/2023/silicone_wrist_rests.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Blog \ Stuff \ Silicone Wrist Rests">
+       History 🕵️
+    </a>
+</div>
