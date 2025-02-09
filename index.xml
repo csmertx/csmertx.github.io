@@ -3801,7 +3801,15 @@ EndSection
 &lt;li>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://espadrine.github.io/AsciiDocBox">AsciiDoc: Sandbox (Live AsciiDoc parser with preview)&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Awk</title><link>https://csmertx.com/Linux/Code/awk/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/awk/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/19/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/asciidoc.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ AsciiDoc">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Awk</title><link>https://csmertx.com/Linux/Code/awk/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/awk/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Make selections, and do stuff with those selections&lt;/p>
@@ -3835,7 +3843,15 @@ EndSection
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://www.gnu.org/software/gawk/manual/gawk.html">The GNU Awk User&amp;rsquo;s Guide&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 C Language</title><link>https://csmertx.com/Linux/Code/c/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/c/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/awk.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ Awk">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 C Language</title><link>https://csmertx.com/Linux/Code/c/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/c/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="compiling-souce-code">
@@ -4036,7 +4052,7 @@ EndSection
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;blockquote>
-&lt;p>~/.scripts/sudof&lt;/p></description></item><item><title>💻 Git Pro</title><link>https://csmertx.com/Linux/Code/git_pro_notes/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/git_pro_notes/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>~/.scripts/sudof&lt;/p></description></item><item><title>💻 Git Pro Notes</title><link>https://csmertx.com/Linux/Code/git_pro_notes/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/git_pro_notes/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Notes from before 2022&lt;/p>
@@ -4130,7 +4146,15 @@ EndSection
 &lt;li>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://wiki.gnome.org/Apps/Glade/Tutorials">Gnome Project: Glade Tutorials&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Grep</title><link>https://csmertx.com/Linux/Code/grep/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/grep/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/glade_gtk-rs.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ Glade GTK">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Grep</title><link>https://csmertx.com/Linux/Code/grep/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/grep/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="find-match-or-match">
@@ -4186,7 +4210,7 @@ EndSection
  &lt;/a>
  &lt;/h2>
 &lt;/div>&lt;blockquote>
-&lt;p>To satisfy dependencies (e.g. Kingdom of Loathing: KoLMafia)&lt;/p>
+&lt;p>Satisfy dependencies (e.g. Kingdom of Loathing: KoLMafia)&lt;/p>
 &lt;/blockquote>
 &lt;ul>
 &lt;li>&lt;code>sudo apti default-jdk&lt;/code>&lt;/li>
@@ -4282,7 +4306,15 @@ Categories=Game
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://www.perl.org/docs.html">Perl Programming Language Documentation&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Polybar</title><link>https://csmertx.com/Linux/WM/polybar/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/polybar/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 01/07/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/perl.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ Perl Language">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Polybar</title><link>https://csmertx.com/Linux/WM/polybar/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/polybar/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>Tiling window manager status bar&lt;/p>
@@ -4360,7 +4392,15 @@ Categories=Game
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://pypi.org/">Python Package Index Homepage&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Ruby Language</title><link>https://csmertx.com/Linux/Code/ruby/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/ruby/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/19/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/pypi.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ Python Package Index (PyPi)">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Ruby Language</title><link>https://csmertx.com/Linux/Code/ruby/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/ruby/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="add-to-path">
@@ -4389,7 +4429,15 @@ Categories=Game
 &lt;li>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://www.ruby-lang.org/en/about/">About Ruby&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>💻 Sed</title><link>https://csmertx.com/Linux/Code/sed/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/sed/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/ruby.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ Ruby Language">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Sed</title><link>https://csmertx.com/Linux/Code/sed/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Code/sed/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="wrap-every-line-output-in-quotes">
@@ -4479,7 +4527,15 @@ Categories=Game
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>&lt;a class="gdoc-markdown__link" href="https://github.com/koalaman/shellcheck">ShellCheck - A shell script static analysis tool&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>💻 Snaps</title><link>https://csmertx.com/Linux/Software/snapd/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/snapd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;/ul>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/Code/shellcheck.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ Code \ ShellCheck">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>💻 Snaps</title><link>https://csmertx.com/Linux/Software/snapd/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/snapd/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="installation">
