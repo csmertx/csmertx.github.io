@@ -28,4 +28,14 @@ chrome://flags/#high-efficiency-mode-available
 
 ## Resources
 
-- [Android Police: Google Chrome rolls out long awaited battery saving features](https://www.androidpolice.com/google-chrome-110-energy-saver-memory-features/)
+- [Android Police: Google Chrome rolls out long awaited battery saving features](https://www.androidpolice.com/google-chrome-110-energy-saver-memory-features/
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 05/05/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Web/chrome.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Web \ Chrome">
+       History 🕵️
+    </a>
+</div>

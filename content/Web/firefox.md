@@ -66,3 +66,13 @@ weight: -20
 ## Resources
 
 - [GitHub - mozilla/policy-templates: Policy Templates for Firefox](https://github.com/mozilla/policy-templates)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 03/08/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Web/firefox.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Web \ Firefox">
+       History 🕵️
+    </a>
+</div>

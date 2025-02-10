@@ -53,3 +53,13 @@ weight: -20
 - [🔗 Hugo Support | How to verify Hugo site to Google Search Console?](https://discourse.gohugo.io/t/how-to-verify-hugo-site-to-google-search-console/15078)
 
 - [🔗 Search Facts | How to Use Robots.txt to Allow or Disallow Everything](https://searchfacts.com/robots-txt-allow-disallow-all/)
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 03/03/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Web/hugo.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Web \ Hugo">
+       History 🕵️
+    </a>
+</div>
