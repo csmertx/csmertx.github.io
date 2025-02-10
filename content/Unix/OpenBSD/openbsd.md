@@ -70,3 +70,13 @@ weight: -20
 - Mouse cursor movements in XY directions (pressure sensitive) can 'randomly' switch to one of nine virtual desktops
 
     > I don't remember why this was important. I hardly ever use FVWM
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Unix/OpenBSD/openbsd.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Unix \ OpenBSD">
+       History 🕵️
+    </a>
+</div>

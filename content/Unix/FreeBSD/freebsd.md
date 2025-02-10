@@ -337,3 +337,13 @@ wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-
 - ```set``` that one ```random.optionfrom.internet.0.disable=0```
 
 - And you'll be saved
+
+<br />
+
+<div style="text-align: center; font-size:12px; color:dimgray">
+    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Unix/FreeBSD/freebsd.md" 
+       title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Unix \ FreeBSD">
+       History 🕵️
+    </a>
+</div>
