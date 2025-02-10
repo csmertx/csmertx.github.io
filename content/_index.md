@@ -41,6 +41,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Mar 03, 2024 | 🔗 [Day & Night Blog \ 300 Generations From Now](/Blog/daynight/2025/0225#300-generations-from-now "Day & Night Blog \ February 2025")|
 |Feb 10, 2025 | 🔗 [Music Blog \ BABYMETAL - Gimme Chocolate!! (Official Video) (BABYMETAL)](/Blog/music/2025/0225#babymetal---gimme-chocolate-official-video-babymetal "Music Blog \ February 2025")|
 |Feb 09, 2025 | 🔗 [Music Blog \ Parkway Drive - Shadow Boxing (Official Video) (Reverence)](/Blog/music/2025/0225#parkway-drive---shadow-boxing-reverence "Music Blog \ February 2025")|
 |Feb 06, 2025 | 🔗 [Music Blog \ Parkway Drive - Fractures (Ire)](/Blog/music/2025/0225#parkway-drive---fractures-ire "Music Blog \ February 2025")|
