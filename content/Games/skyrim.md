@@ -47,17 +47,19 @@ weight: -20
 
 ## Nvidia P620 + Linux Mint 21.3
 
-- Lost access to The Elder Scrolls IV (Oblivion) and V (Skyrim) on September 20th, 2023
+> 02/10/2025 - Remembered that I had a few save file issues with Oblivion
+
+- Skyrim: Tried a different save file and joy. Very joy.
+
+> The fix below worked for launching Oblivion tho
+
+- Lost access to The Elder Scrolls IV (Oblivion) <s>and V (Skyrim)</s> on September 20th, 2023
 
     - Possibly due to this 🔗 [bug](https://www.protondb.com/app/22330#sL_KcHMBYi "ProtonDB.com | Game Details for The Elder Scrolls IV: Oblivion GOTYE \ After getting the game to actually launch, it plays perfectly with very few issues. Mod managers however mostly have no Linux support.").
-
-        - My P620 is a business class card like their NVIDIA RTX A4500
-    
-    - No issues with XFX Radeon RX 6400 as of a few weeks ago
     
         - Uninstalled Oblivion + Installed Team Fortress 2 + Installed Oblivion
 
-        - Skyrim still won't load. I finished all the quests several months ago (Achievement hunting is part of my to-do list)
+        - <s>Skyrim still won't load. I finished all the quests several months ago (Achievement hunting is part of my to-do list)</s>
 
 ## Resources
 
@@ -66,7 +68,7 @@ weight: -20
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 03/27/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 03/27/2023 • Edited: 02/10/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Games/skyrim.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Games \ Skyrim Special Edition">
        History 🕵️
