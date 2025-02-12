@@ -41,7 +41,8 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
-|Mar 03, 2024 | 🔗 [Day & Night Blog \ 300 Generations From Now](/Blog/daynight/2025/0225#300-generations-from-now "Day & Night Blog \ February 2025")|
+|Feb 12, 2025 | 🔗 [Music Blog \ LIKE A STORM - Love The Way You Hate Me (Official Video) (Awaken the Fire)](/Blog/music/2025/0225#like-a-storm---love-the-way-you-hate-me-official-video-awaken-the-fire "Music Blog \ February 2025")|
+|Feb 10, 2025 | 🔗 [Day & Night Blog \ 300 Generations From Now](/Blog/daynight/2025/0225#300-generations-from-now "Day & Night Blog \ February 2025")|
 |Feb 10, 2025 | 🔗 [Music Blog \ BABYMETAL - Gimme Chocolate!! (Official Video) (BABYMETAL)](/Blog/music/2025/0225#babymetal---gimme-chocolate-official-video-babymetal "Music Blog \ February 2025")|
 |Feb 09, 2025 | 🔗 [Music Blog \ Parkway Drive - Shadow Boxing (Official Video) (Reverence)](/Blog/music/2025/0225#parkway-drive---shadow-boxing-official-video-reverence "Music Blog \ February 2025")|
 |Feb 06, 2025 | 🔗 [Music Blog \ Parkway Drive - Fractures (Ire)](/Blog/music/2025/0225#parkway-drive---fractures-ire "Music Blog \ February 2025")|
@@ -73,7 +74,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 <div style="text-align: center;">
 
-The image above leads to the 🔗 [main navigation page](pad "Click here for the Navigation Page").
+The CRS up top leads to the 🔗 [meat and potatoes](pad "Click here for the meat and potatoes. No preservatives added.").
 
 
 ---
@@ -87,7 +88,7 @@ The image above leads to the 🔗 [main navigation page](pad "Click here for the
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 02/11/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 02/12/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
