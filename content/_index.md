@@ -41,6 +41,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Feb 13, 2025 | 🔗 [Music Blog \ Parkway Drive - From the Heart of the Darkness (Darker Still)](/Blog/music/2025/0225#parkway-drive---from-the-heart-of-the-darkness-darker-still "Music Blog \ February 2025")|
 |Feb 12, 2025 | 🔗 [Music Blog \ LIKE A STORM - Love The Way You Hate Me (Official Video) (Awaken the Fire)](/Blog/music/2025/0225#like-a-storm---love-the-way-you-hate-me-official-video-awaken-the-fire "Music Blog \ February 2025")|
 |Feb 10, 2025 | 🔗 [Day & Night Blog \ 300 Generations From Now](/Blog/daynight/2025/0225#300-generations-from-now "Day & Night Blog \ February 2025")|
 |Feb 10, 2025 | 🔗 [Music Blog \ BABYMETAL - Gimme Chocolate!! (Official Video) (BABYMETAL)](/Blog/music/2025/0225#babymetal---gimme-chocolate-official-video-babymetal "Music Blog \ February 2025")|
@@ -88,7 +89,7 @@ The CRS up top leads to the 🔗 [meat and potatoes](pad "Click here for the mea
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 02/12/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 02/13/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
