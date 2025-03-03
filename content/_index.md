@@ -41,6 +41,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Mar 02, 2025 | 🔗 [Music Blog \ Gojira - Silvera (Magma)](/Blog/music/2025/0325#gojira---silvera-magma "Music Blog \ March 2025")|
 |Feb 24, 2025 | 🔗 [Music Blog \ Gojira - Hold On (Fortitude)](/Blog/music/2025/0225#gojira---hold-on-fortitude "Music Blog \ February 2025")|
 |Feb 23, 2025 | 🔗 [Music Blog \ LIKE A STORM - Until The Day I Die (Official Video) (Catacombs)](/Blog/music/2025/0225#like-a-storm---until-the-day-i-die-official-video-catacombs "Music Blog \ February 2025")|
 |Feb 13, 2025 | 🔗 [Music Blog \ Parkway Drive - From the Heart of the Darkness (Darker Still)](/Blog/music/2025/0225#parkway-drive---from-the-heart-of-the-darkness-darker-still "Music Blog \ February 2025")|
