@@ -41,6 +41,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Mar 06, 2025 | 🔗 [Music Blog \ Gojira - Where Dragons Dwell (From Mars to Sirius)](/Blog/music/2025/0325#gojira---where-dragons-dwell-from-mars-to-sirius "Music Blog \ March 2025")|
 |Mar 02, 2025 | 🔗 [Music Blog \ Gojira - Silvera (Official Video) (Magma)](/Blog/music/2025/0325#gojira---silvera-magma "Music Blog \ March 2025")|
 |Feb 24, 2025 | 🔗 [Music Blog \ Gojira - Hold On (Fortitude)](/Blog/music/2025/0225#gojira---hold-on-fortitude "Music Blog \ February 2025")|
 |Feb 23, 2025 | 🔗 [Music Blog \ LIKE A STORM - Until The Day I Die (Official Video) (Catacombs)](/Blog/music/2025/0225#like-a-storm---until-the-day-i-die-official-video-catacombs "Music Blog \ February 2025")|
@@ -92,11 +93,11 @@ The CRS up top leads to the 🔗 [meat and potatoes](pad "Click here for the mea
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 03/03/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 03/06/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
     </a>
 </div>
 
-<!--c This website comprises a patchwork of notes written over my 10+ years with Linux (+2 served apps). I also poked at DOS prompts as a youth (1988) before my high school typing and web design classes (1999-2001). Due to the rolling nature of open source and or free software, the notes may not align with the current timeline of the subject's software documentation. I mostly focus my efforts on edge cases as I find them. On top of that I have included a life story blog, and a music blog, which may appeal to a broader audience. The warning above is mostly for music lyrics, some life stories, and my occasional use of profanity. I was raised on a mixture of English dialects via family brought together by the U.S. Navy--hopefully my attempt at college English will improve with time. I accept pull requests and emails. No worries about time of day or night. I capitalize on Don't Disturb Modes, so anytime is a good time. My use of an Orca illustration is merely for entertainment purposes. The depiction of an Orca is not meant as a personal attack towards anyone, nor is it a prelude into a new Linux OS. Glory to the maintainers! And thank you for checking the source! -->
+<!--This website comprises a patchwork of notes written over my 10+ years with Linux (+2 served apps). I also poked at DOS prompts as a youth (1988) before my high school typing and web design classes (1999-2001). Due to the rolling nature of open source and or free software, the notes may not align with the current timeline of the subject's software documentation. I mostly focus my efforts on edge cases as I find them. On top of that I have included a life story blog, and a music blog, which may appeal to a broader audience. The warning above is mostly for music lyrics, some life stories, and my occasional use of profanity. I was raised on a mixture of English dialects via family brought together by the U.S. Navy--hopefully my attempt at college English will improve with time. I accept pull requests and emails. No worries about time of day or night. I capitalize on Don't Disturb Modes, so anytime is a good time. My use of an Orca illustration is merely for entertainment purposes. The depiction of an Orca is not meant as a personal attack towards anyone, nor is it a prelude into a new Linux OS. Glory to the maintainers! And thank you for checking the source! -->
