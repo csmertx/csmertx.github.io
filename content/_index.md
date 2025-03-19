@@ -42,6 +42,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 |Dec 18, 2024 | 🔗 [Day & Night Blog \ My Sanity](/Blog/daynight/2024/1224#my-sanity "Day & Night Blog \ December 2024")|
 |Nov 30, 2024 | 🔗 [Day & Night Blog \ Decompressing](/Blog/daynight/2024/1124#decompressing "Day & Night Blog \ November 2024")|
 |Jan 26, 2025 | 🔗 [Day & Night Blog \ Fitbit Sense 2 - Alexa App See N' Say Mode Activated](/Blog/daynight/2025/0125#fitbit-sense-2---alexa-app-see-n-say-mode-activated "Day & Night Blog \ January 2025")|
+|Jan 03, 2025 | 🔗 [Day & Night Blog \ The Pirate Spider and the XXXL Shirt](/Blog/daynight/2025/0125#the-pirate-spider-and-the-xxxl-shirt "Day & Night Blog \ January 2025")|
 |Feb 10, 2025 | 🔗 [Day & Night Blog \ 300 Generations From Now](/Blog/daynight/2025/0225#300-generations-from-now "Day & Night Blog \ February 2025")|
 
 | Date | Rolling Blog Entries |
@@ -59,7 +60,6 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 |Feb 06, 2025 | 🔗 [Music Blog \ Parkway Drive - Fractures (Ire)](/Blog/music/2025/0225#parkway-drive---fractures-ire "Music Blog \ February 2025")|
 |Feb 03, 2025 | 🔗 [Music Blog \ All That Remains - The Weak Willed (The Fall Of Ideals)](/Blog/music/2025/0225#all-that-remains---the-weak-willed-the-fall-of-ideals "Music Blog \ February 2025")|
 |Jan 03, 2025 | 🔗 [Music Blog \ Avenged Sevenfold - Remenissions (Waking The Fallen)](/Blog/music/2025/0125#avenged-sevenfold---remenissions-waking-the-fallen "Music Blog \ January 2025")|
-|Jan 03, 2025 | 🔗 [Day & Night Blog \ The Pirate Spider and the XXXL Shirt](/Blog/daynight/2025/0125#the-pirate-spider-and-the-xxxl-shirt "Day & Night Blog \ January 2025")|
 |Jan 03, 2025 | 🔗 [Music Blog \ Dead & Company - Deal (Live at Wrigley Field, Chicago, IL, 6/9/23)](/Blog/music/2025/0125#dead--company---deal-live-at-wrigley-field-chicago-il-6923 "Music Blog \ January 2025")|
 |Jul 15, 2024 | 🔗 [Music Blog \ Explosions in the Sky - A Song For Our Fathers (How Strange, Innocence)](/Blog/music/2024/0724#explosions-in-the-sky---a-song-for-our-fathers-how-strange-innocence "Music Blog \ July 2024")|
 |Jun 02, 2024 | 🔗 [Music Blog \ The Beatles - Yellow Submarine (Official Video) (Revolver)](/Blog/music/2024/0624#the-beatles---yellow-submarine-official-video-revolver "Music Blog \ June 2024")|
