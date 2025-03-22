@@ -47,6 +47,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Mar 22, 2025 | 🔗 [Music Blog \ Gojira - The Shooting Star (Official Video) (Magma)](/Blog/music/2025/0325#gojira---the-shooting-star-official-video-magma "Music Blog \ March 2025")|
 |Mar 12, 2025 | 🔗 [Day & Night Blog \ Super Awesome Blog Title](/Blog/daynight/2025/0325#super-awesome-blog-title "Day & Night Blog \ March 2025")|
 |Mar 09, 2025 | 🔗 [Music Blog \ Grateful Dead - Touch of Grey (Official Skeletals Video) (In the Dark: 2013 Remaster)](/Blog/music/2025/0325#gojira---where-dragons-dwell-from-mars-to-sirius "Music Blog \ March 2025")|
 |Mar 06, 2025 | 🔗 [Music Blog \ Gojira - Where Dragons Dwell (From Mars to Sirius)](/Blog/music/2025/0325#gojira---where-dragons-dwell-from-mars-to-sirius "Music Blog \ March 2025")|
@@ -95,7 +96,7 @@ The CRS up top leads to the 🔗 [meat and potatoes](pad "Click here for the mea
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 03/09/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 03/22/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
