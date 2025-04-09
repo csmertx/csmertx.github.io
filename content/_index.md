@@ -47,6 +47,7 @@ Hello, I am a 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_sci
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Apr 09, 2025 | 🔗 [Music Blog \ Mastodon - Tread Lightly (Once More 'Round the Sun)](/Blog/music/2025/0425#mastodon---tread-lightly-once-more-round-the-sun "Music Blog \ April 2025")|
 |Apr 02, 2025 | 🔗 [Music Blog \ Mastodon - Word to the Wise (Emperor of Sand)](/Blog/music/2025/0425#mastodon---word-to-the-wise-emperor-of-sand "Music Blog \ April 2025")|
 |Mar 31, 2025 | 🔗 [Day & Night Blog \ To The Writers](/Blog/daynight/2025/0325#to-the-writers "Day & Night Blog \ March 2025")|
 |Mar 24, 2025 | 🔗 [Day & Night Blog \ Keep the Supposition To Yourself](/Blog/daynight/2025/0325#keep-the-supposition-to-yourself "Day & Night Blog \ March 2025")|
@@ -99,7 +100,7 @@ The CRS up top leads to the 🔗 [meat and potatoes](pad "Click here for the mea
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 04/02/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 04/09/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
