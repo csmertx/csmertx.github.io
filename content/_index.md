@@ -36,6 +36,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 |Mar 03, 2024 | 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story "Day & Night Blog \ March 2024")|
 |May 03, 2024 | 🔗 [Day & Night Blog \ Chris Schammert](/Blog/daynight/2024/0524#chris-schammert "Day & Night Blog \ May 2024") (since 1984)|
 |Jun 10, 2024 | 🔗 [Day & Night Blog \ Hiding Spot](/Blog/daynight/2024/0624#hiding-spot "Day & Night Blog \ June 2024")|
+|Apr 29, 2025 | 🔗 [Day & Night Blog \ Our Fraudsters are trying to frame both 'Turk', and the local landscapers.](/Blog/daynight/2025/0425#our-fraudsters-are-trying-to-frame-both-turk-and-the-local-landscapers "Day & Night Blog \ April 2025")|
 |Jul 08, 2024 | 🔗 [Day & Night Blog \ Wrapping Up](/Blog/daynight/2024/0724#wrapping-up "Day & Night Blog \ July 2024")|
 |Aug 11, 2022 | 🔗 [Day & Night Blog \ The day a soccer goal chose violence](/Blog/daynight/2022/0822#the-day-a-soccer-goal-chose-violence "Day & Night Blog \ August 2022")|
 |May 24, 2024 | 🔗 [Day & Night Blog \ The Kulturkampf was the beginning.](/Blog/daynight/2024/0524#the-kulturkampf-was-the-beginning "Day & Night Blog \ May 2024")|
