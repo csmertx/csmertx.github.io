@@ -83,10 +83,10 @@
 :root[color-theme="dark"] {
   /* --header-background: #c74c4c; */
   --header-background: #343a40;
-  --header-font-color: #FFD700;
+  --header-font-color: #FFFFFF;
 
 /*  --body-background: #343a40; */
-  --body-background: #FFFFFF;
+  --body-background: #3a354c;
   --body-font-color: #ced3d8;
 
   --mark-color: #ecc62b;
@@ -122,10 +122,10 @@
   :root {
     /* --header-background: #c74c4c; */
     --header-background: #343a40;
-    --header-font-color: #FFD700;
+    --header-font-color: #0078ff;
 
     /* --body-background: #343a40; */
-    --body-background: #0078ff;
+    --body-background: #3a354c;
     --body-font-color: #ced3d8;
 
     --mark-color: #ecc62b;
