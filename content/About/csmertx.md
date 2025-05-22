@@ -25,8 +25,6 @@ weight: -20
 
 > This site is a 🔗 [CS](https://en.wikipedia.org/wiki/Computer_science "Wikipedia | Computer Science") hobby website with a little bin of fun mixed in with a little bit of documentation.
 
-> Likes: 🔗 [Pork Cutlet Bowl](https://www.youtube.com/watch?v=n-R5R59jiys "YouTube | Deku's Katsudon from My Hero Academia - MIDORIYA'S FAVOURITE FOOD!?"). What? You think I like guns or something? I've never needed a gun.
-
 > My middle school nickname Sharky was probably inspired by 🔗 [Sharky the Sharkdog](https://eekthecat.fandom.com/wiki/Sharky_the_Sharkdog "Eek! The Cat Wiki / Sharky Bartholomew Sharkdog III"). Or maybe because I skated until I was drenched in sweat. These days I'm known as Chris. Just Chris.
 
 ## Donation Button Clarification

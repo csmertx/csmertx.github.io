@@ -7,7 +7,7 @@ weight: -20
 
 <!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 
-# Modding Kinesis Advantage 2
+# Modding Kinesis Advantage 2 (sold)
 
 Used this keyboard since January 20, 2021 and decided it was time to make a custom controller board (🔗[KinT](https://github.com/kinx-project/kint "Github.com | kinx-project / kint")).
 
