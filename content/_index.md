@@ -11,7 +11,7 @@ geekdocAnchor: false
 
 <div style="text-align: center;">
 
-[![crs](/crs_256x256_red.png "Click here to Enter the Navigation Page")](pad)
+[![crs](/crs_256x256_rwb.png "Click here to Enter the Navigation Page")](pad)
 
 <br />
 
