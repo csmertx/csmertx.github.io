@@ -92,6 +92,15 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 The CRS up top leads to the 🔗 [meat and potatoes](pad "Click here for the meat and potatoes. No preservatives added.").
 
+{{< expand "Tap for Legal Disclaimer" "▼" >}}
+
+The content provided on csmertx.com is for informational and educational purposes only. All opinions expressed are those of the author and do not constitute professional advice. While we strive to ensure accuracy, csmertx.com makes no guarantees about the completeness, reliability, or timeliness of the information presented.
+
+By using this site, you acknowledge that you do so at your own risk. csmertx.com and its owner are not liable for any losses or damages resulting from the use of this site or any linked external resources.
+
+External links are provided for convenience and do not imply endorsement.
+
+{{< /expand >}}
 
 ---
 
@@ -104,7 +113,7 @@ The CRS up top leads to the 🔗 [meat and potatoes](pad "Click here for the mea
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 06/02/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 06/13/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
