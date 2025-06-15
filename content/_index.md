@@ -49,6 +49,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Jun 15, 2025 | 🔗 [Music Blog \ Felt - Like You (Felt 3: A Tribute To Rosie Perez)](/Blog/music/2025/0625#felt---like-you-felt-3-a-tribute-to-rosie-perez "Music Blog \ June 2025")|
 |May 13, 2025 | 🔗 [Music Blog \ Johannes Brahms - 21 Hungarian Dances, WoO 1: No. 1 in G Minor. Allegro molto (Version for Orchestra) (Brahms: 21 Hungarian Dances)](/Blog/music/2025/0525#johannes-brahms---21-hungarian-dances-woo-1-no-1-in-g-minor-allegro-molto-version-for-orchestra-brahms-21-hungarian-dances "Music Blog \ May 2025")|
 |Apr 26, 2025 | 🔗 [Music Blog \ Like A Storm - Empire of Ashes (OKURA) (Official Video)](/Blog/music/2025/0425#like-a-storm---empire-of-ashes-okura-official-video "Music Blog \ April 2025")|
 |Apr 09, 2025 | 🔗 [Music Blog \ Mastodon - Tread Lightly (Once More 'Round the Sun)](/Blog/music/2025/0425#mastodon---tread-lightly-once-more-round-the-sun "Music Blog \ April 2025")|
