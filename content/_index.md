@@ -49,6 +49,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Jun 15, 2025 | 🔗 [Music Blog \ Mastodon - All the Heavy Lifting (The Hunter)](/Blog/music/2025/0625#mastodon---all-the-heavy-lifting-the-hunter "Music Blog \ June 2025")|
 |Jun 15, 2025 | 🔗 [Music Blog \ Felt - Like You (Felt 3: A Tribute To Rosie Perez)](/Blog/music/2025/0625#felt---like-you-felt-3-a-tribute-to-rosie-perez "Music Blog \ June 2025")|
 |May 13, 2025 | 🔗 [Music Blog \ Johannes Brahms - 21 Hungarian Dances, WoO 1: No. 1 in G Minor. Allegro molto (Version for Orchestra) (Brahms: 21 Hungarian Dances)](/Blog/music/2025/0525#johannes-brahms---21-hungarian-dances-woo-1-no-1-in-g-minor-allegro-molto-version-for-orchestra-brahms-21-hungarian-dances "Music Blog \ May 2025")|
 |Apr 26, 2025 | 🔗 [Music Blog \ Like A Storm - Empire of Ashes (OKURA) (Official Video)](/Blog/music/2025/0425#like-a-storm---empire-of-ashes-okura-official-video "Music Blog \ April 2025")|
@@ -72,7 +73,6 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 |Jan 03, 2025 | 🔗 [Music Blog \ Avenged Sevenfold - Remenissions (Waking The Fallen)](/Blog/music/2025/0125#avenged-sevenfold---remenissions-waking-the-fallen "Music Blog \ January 2025")|
 |Jan 03, 2025 | 🔗 [Music Blog \ Dead & Company - Deal (Live at Wrigley Field, Chicago, IL, 6/9/23)](/Blog/music/2025/0125#dead--company---deal-live-at-wrigley-field-chicago-il-6923 "Music Blog \ January 2025")|
 |Jul 15, 2024 | 🔗 [Music Blog \ Explosions in the Sky - A Song For Our Fathers (How Strange, Innocence)](/Blog/music/2024/0724#explosions-in-the-sky---a-song-for-our-fathers-how-strange-innocence "Music Blog \ July 2024")|
-|Jun 02, 2024 | 🔗 [Music Blog \ The Beatles - Yellow Submarine (Official Video) (Revolver)](/Blog/music/2024/0624#the-beatles---yellow-submarine-official-video-revolver "Music Blog \ June 2024")|
 
 | Date | Recent Computer Scribblings |
 |:---- | :-------------------------- |
@@ -114,7 +114,7 @@ External links are provided for convenience and do not imply endorsement.
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 06/13/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 06/22/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
