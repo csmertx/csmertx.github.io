@@ -120,9 +120,9 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    /* --header-background: #c74c4c; */
+    /* --header-background: #c74c4c; --- Title Bar */
     --header-background: #343a40;
-    --header-font-color: #0078ff;
+    --header-font-color:  #1d2393;
 
     /* --body-background: #343a40; */
     --body-background: #3a354c;
