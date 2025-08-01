@@ -49,6 +49,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Aug 01, 2025 | 🔗 [Music Blog \ Ozzy Osbourne - Crazy Train (Official Animated Video) (Blizzard Of Ozz)](/Blog/music/2025/0825#ozzy-osbourne---crazy-train-official-animated-video-blizzard-of-ozz "Music Blog \ August 2025")|
 |Jul 07, 2025 | 🔗 [Day & Night Blog \ Taking A Vacation](/Blog/daynight/2025/0725#taking-a-vacation "Day & Night Blog \ July 2025")|
 |Jun 22, 2025 | 🔗 [Music Blog \ Mastodon - All the Heavy Lifting (The Hunter)](/Blog/music/2025/0625#mastodon---all-the-heavy-lifting-the-hunter "Music Blog \ June 2025")|
 |Jun 15, 2025 | 🔗 [Music Blog \ Felt - Like You (Felt 3: A Tribute To Rosie Perez)](/Blog/music/2025/0625#felt---like-you-felt-3-a-tribute-to-rosie-perez "Music Blog \ June 2025")|
