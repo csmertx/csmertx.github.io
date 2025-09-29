@@ -49,7 +49,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
-|Sep 20, 2025 | 🔗 [Music Blog \ Apocalyptica - Peace (Worlds Collide)](/Blog/music/2025/0925# "Music Blog \ September 2025")|
+|Sep 29, 2025 | 🔗 [Music Blog \ Bob Dylan - Blowin' in the wind (Bob Dylan's Greatest Hits)](/Blog/music/2025/0925# "Music Blog \ September 2025")|
 |Aug 24, 2025 | 🔗 [Music Blog \ Gojira - My Last Creation (L'Enfant Sauvage)](/Blog/music/2025/0825#gojira---my-last-creation-lenfant-sauvage "Music Blog \ August 2025")|
 |Aug 01, 2025 | 🔗 [Music Blog \ Ozzy Osbourne - Crazy Train (Official Animated Video) (Blizzard Of Ozz)](/Blog/music/2025/0825#ozzy-osbourne---crazy-train-official-animated-video-blizzard-of-ozz "Music Blog \ August 2025")|
 |Jul 07, 2025 | 🔗 [Day & Night Blog \ Taking A Vacation](/Blog/daynight/2025/0725#taking-a-vacation "Day & Night Blog \ July 2025")|
