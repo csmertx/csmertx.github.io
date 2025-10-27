@@ -49,6 +49,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Oct 27, 2025 | 🔗 [Music Blog \ R E L & Artemis Delta - Night City (CYBERPUNK 2077 SOUNDTRACK)](/Blog/music/2025/1025# "Music Blog \ October 2025")|
 |Oct 13, 2025 | 🔗 [Music Blog \ Run The Jewels ft. Yankee and the Brave - No Save Point (Cyberpunk 2077: Radio, Vol. 1, - Original Soundtrack)](/Blog/music/2025/1025# "Music Blog \ October 2025")|
 |Sep 29, 2025 | 🔗 [Music Blog \ Bob Dylan - Blowin' in the Wind (Bob Dylan's Greatest Hits)](/Blog/music/2025/0925# "Music Blog \ September 2025")|
 |Aug 24, 2025 | 🔗 [Music Blog \ Gojira - My Last Creation (L'Enfant Sauvage)](/Blog/music/2025/0825#gojira---my-last-creation-lenfant-sauvage "Music Blog \ August 2025")|
