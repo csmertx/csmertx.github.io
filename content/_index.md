@@ -99,7 +99,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 The CRS up top leads to the 🔗 [meat and potatoes](pad "Click here for the meat and potatoes. No preservatives added.")
 
-If you or a loved once is thinking about self harm or about violence against others please text or call 🔗[988](https://www.fcc.gov/988-suicide-and-crisis-lifeline "FCC.gov | 988 Suicide & Crisis Lifeline")
+If you or a loved one is thinking about self harm or about violence against others please text or call 🔗[988](https://www.fcc.gov/988-suicide-and-crisis-lifeline "FCC.gov | 988 Suicide & Crisis Lifeline")
 
 {{< expand "Tap for Legal Disclaimer" "▼" >}}
 
