@@ -280,7 +280,7 @@ I daily 🔗 [Tmuxinator](https://github.com/tmuxinator/tmuxinator "Github.com |
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 02/16/2023 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 02/16/2023 • Edited: 11/17/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/About/csmertx.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ About \ csmertx">
        History 🕵️
