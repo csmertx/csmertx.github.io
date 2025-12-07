@@ -49,6 +49,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Rolling Blog Entries |
 |:---- | :------------------- |
+|Nov 25, 2025 | 🔗 [Music Blog \ Frank Sinatra - Yesterday (My Way)](/Blog/music/2025/1225# "Music Blog \ December 2025")|
 |Nov 25, 2025 | 🔗 [Music Blog \ The Killers - Mr. Brightside (Original Demo)](/Blog/music/2025/1125# "Music Blog \ November 2025")|
 |Nov 18, 2025 | 🔗 [Music Blog \ DC TALK - Time Is... (Free At Last)](/Blog/music/2025/1125# "Music Blog \ November 2025")|
 |Oct 27, 2025 | 🔗 [Music Blog \ R E L & Artemis Delta - Night City (CYBERPUNK 2077 SOUNDTRACK)](/Blog/music/2025/1025# "Music Blog \ October 2025")|
@@ -124,7 +125,7 @@ External links are provided for convenience and do not imply endorsement.
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 11/25/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 12/07/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
