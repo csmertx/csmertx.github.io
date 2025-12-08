@@ -125,7 +125,7 @@ External links are provided for convenience and do not imply endorsement.
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 12/07/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 12/08/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
