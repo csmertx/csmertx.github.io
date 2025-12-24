@@ -36,7 +36,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 |Mar 03, 2024 | 🔗 [Day & Night Blog \ Schammert's Prussian Origin Story](/Blog/daynight/2024/0324#schammerts-prussian-origin-story "Day & Night Blog \ March 2024")|
 |May 03, 2024 | 🔗 [Day & Night Blog \ Chris Schammert](/Blog/daynight/2024/0524#chris-schammert "Day & Night Blog \ May 2024") (since 1984)|
 |Jun 10, 2024 | 🔗 [Day & Night Blog \ Hiding Spot](/Blog/daynight/2024/0624#hiding-spot "Day & Night Blog \ June 2024")|
-|Apr 29, 2025 | 🔗 [Day & Night Blog \ Our Fraudsters are trying to frame both 'Turk', and the local landscapers.](/Blog/daynight/2025/0425#our-fraudsters-are-trying-to-frame-both-turk-and-the-local-landscapers "Day & Night Blog \ April 2025")|
+|Apr 29, 2025 | 🔗 [Day & Night Blog \ Our Fraudsters are trying to frame both 'Turk', and local folk](/Blog/daynight/2025/0425#our-fraudsters-are-trying-to-frame-both-turk-and-the-local-landscapers "Day & Night Blog \ April 2025")|
 |Jul 08, 2024 | 🔗 [Day & Night Blog \ Wrapping Up](/Blog/daynight/2024/0724#wrapping-up "Day & Night Blog \ July 2024")|
 |Aug 11, 2022 | 🔗 [Day & Night Blog \ The day a soccer goal chose violence](/Blog/daynight/2022/0822#the-day-a-soccer-goal-chose-violence "Day & Night Blog \ August 2022")|
 |May 24, 2024 | 🔗 [Day & Night Blog \ The Kulturkampf was the beginning.](/Blog/daynight/2024/0524#the-kulturkampf-was-the-beginning "Day & Night Blog \ May 2024")|
@@ -47,43 +47,39 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 |Feb 10, 2025 | 🔗 [Day & Night Blog \ 300 Generations From Now](/Blog/daynight/2025/0225#300-generations-from-now "Day & Night Blog \ February 2025")|
 |Jun 02, 2025 | 🔗 [Day & Night Blog \ The Unfollower (me)](/Blog/daynight/2025/0625#the-unfollower "Day & Night Blog \ June 2025")|
 
-| Date | Rolling Blog Entries |
-|:---- | :------------------- |
+</br>
+
+| Date | Day & Night Blog |
+|:---- | :--------------- |
+|Jul 07, 2025 | 🔗 [Day & Night Blog \ Taking A Vacation](/Blog/daynight/2025/0725#taking-a-vacation "Day & Night Blog \ July 2025")|
+|Mar 31, 2025 | 🔗 [Day & Night Blog \ To The Writers](/Blog/daynight/2025/0325#to-the-writers "Day & Night Blog \ March 2025")|
+|Mar 24, 2025 | 🔗 [Day & Night Blog \ Keep the Supposition To Yourself](/Blog/daynight/2025/0325#keep-the-supposition-to-yourself "Day & Night Blog \ March 2025")|
+|Mar 12, 2025 | 🔗 [Day & Night Blog \ Super Awesome Blog Title](/Blog/daynight/2025/0325#super-awesome-blog-title "Day & Night Blog \ March 2025")|
+
+</br>
+
+| Date | Music Blog |
+|:---- | :--------- |
 |Dec 07, 2025 | 🔗 [Music Blog \ Frank Sinatra - Yesterday (My Way)](/Blog/music/2025/1225# "Music Blog \ December 2025")|
 |Nov 25, 2025 | 🔗 [Music Blog \ The Killers - Mr. Brightside (Original Demo)](/Blog/music/2025/1125# "Music Blog \ November 2025")|
 |Nov 18, 2025 | 🔗 [Music Blog \ DC TALK - Time Is... (Free At Last)](/Blog/music/2025/1125# "Music Blog \ November 2025")|
 |Oct 27, 2025 | 🔗 [Music Blog \ R E L & Artemis Delta - Night City (CYBERPUNK 2077 SOUNDTRACK)](/Blog/music/2025/1025# "Music Blog \ October 2025")|
-|Oct 13, 2025 | 🔗 [Music Blog \ Run The Jewels ft. Yankee and the Brave - No Save Point (Cyberpunk 2077: Radio, Vol. 1, - Original Soundtrack)](/Blog/music/2025/1025# "Music Blog \ October 2025")|
+|Oct 13, 2025 | 🔗 [Music Blog \ Run The Jewels ft. Yankee and the Brave - No Save Point ...](/Blog/music/2025/1025# "Music Blog \ October 2025")|
 |Sep 29, 2025 | 🔗 [Music Blog \ Bob Dylan - Blowin' in the Wind (Bob Dylan's Greatest Hits)](/Blog/music/2025/0925# "Music Blog \ September 2025")|
 |Aug 24, 2025 | 🔗 [Music Blog \ Gojira - My Last Creation (L'Enfant Sauvage)](/Blog/music/2025/0825#gojira---my-last-creation-lenfant-sauvage "Music Blog \ August 2025")|
 |Aug 01, 2025 | 🔗 [Music Blog \ Ozzy Osbourne - Crazy Train (Official Animated Video) (Blizzard Of Ozz)](/Blog/music/2025/0825#ozzy-osbourne---crazy-train-official-animated-video-blizzard-of-ozz "Music Blog \ August 2025")|
-|Jul 07, 2025 | 🔗 [Day & Night Blog \ Taking A Vacation](/Blog/daynight/2025/0725#taking-a-vacation "Day & Night Blog \ July 2025")|
 |Jun 22, 2025 | 🔗 [Music Blog \ Mastodon - All the Heavy Lifting (The Hunter)](/Blog/music/2025/0625#mastodon---all-the-heavy-lifting-the-hunter "Music Blog \ June 2025")|
 |Jun 15, 2025 | 🔗 [Music Blog \ Felt - Like You (Felt 3: A Tribute To Rosie Perez)](/Blog/music/2025/0625#felt---like-you-felt-3-a-tribute-to-rosie-perez "Music Blog \ June 2025")|
-|May 13, 2025 | 🔗 [Music Blog \ Johannes Brahms - 21 Hungarian Dances, WoO 1: No. 1 in G Minor. Allegro molto (Version for Orchestra) (Brahms: 21 Hungarian Dances)](/Blog/music/2025/0525#johannes-brahms---21-hungarian-dances-woo-1-no-1-in-g-minor-allegro-molto-version-for-orchestra-brahms-21-hungarian-dances "Music Blog \ May 2025")|
+|May 13, 2025 | 🔗 [Music Blog \ Johannes Brahms - 21 Hungarian Dances, WoO 1: No. 1 in G Minor. Allegro molto ...](/Blog/music/2025/0525#johannes-brahms---21-hungarian-dances-woo-1-no-1-in-g-minor-allegro-molto-version-for-orchestra-brahms-21-hungarian-dances "Music Blog \ May 2025")|
 |Apr 26, 2025 | 🔗 [Music Blog \ Like A Storm - Empire of Ashes (OKURA) (Official Video)](/Blog/music/2025/0425#like-a-storm---empire-of-ashes-okura-official-video "Music Blog \ April 2025")|
 |Apr 09, 2025 | 🔗 [Music Blog \ Mastodon - Tread Lightly (Once More 'Round the Sun)](/Blog/music/2025/0425#mastodon---tread-lightly-once-more-round-the-sun "Music Blog \ April 2025")|
 |Apr 02, 2025 | 🔗 [Music Blog \ Mastodon - Word to the Wise (Emperor of Sand)](/Blog/music/2025/0425#mastodon---word-to-the-wise-emperor-of-sand "Music Blog \ April 2025")|
-|Mar 31, 2025 | 🔗 [Day & Night Blog \ To The Writers](/Blog/daynight/2025/0325#to-the-writers "Day & Night Blog \ March 2025")|
-|Mar 24, 2025 | 🔗 [Day & Night Blog \ Keep the Supposition To Yourself](/Blog/daynight/2025/0325#keep-the-supposition-to-yourself "Day & Night Blog \ March 2025")|
 |Mar 22, 2025 | 🔗 [Music Blog \ Gojira - The Shooting Star (Official Video) (Magma)](/Blog/music/2025/0325#gojira---the-shooting-star-official-video-magma "Music Blog \ March 2025")|
-|Mar 12, 2025 | 🔗 [Day & Night Blog \ Super Awesome Blog Title](/Blog/daynight/2025/0325#super-awesome-blog-title "Day & Night Blog \ March 2025")|
 |Mar 09, 2025 | 🔗 [Music Blog \ Grateful Dead - Touch of Grey (Official Skeletals Video) (In the Dark: 2013 Remaster)](/Blog/music/2025/0325#gojira---where-dragons-dwell-from-mars-to-sirius "Music Blog \ March 2025")|
-|Mar 06, 2025 | 🔗 [Music Blog \ Gojira - Where Dragons Dwell (From Mars to Sirius)](/Blog/music/2025/0325#gojira---where-dragons-dwell-from-mars-to-sirius "Music Blog \ March 2025")|
-|Mar 02, 2025 | 🔗 [Music Blog \ Gojira - Silvera (Official Video) (Magma)](/Blog/music/2025/0325#gojira---silvera-magma "Music Blog \ March 2025")|
-|Feb 24, 2025 | 🔗 [Music Blog \ Gojira - Hold On (Fortitude)](/Blog/music/2025/0225#gojira---hold-on-fortitude "Music Blog \ February 2025")|
-|Feb 23, 2025 | 🔗 [Music Blog \ LIKE A STORM - Until The Day I Die (Official Video) (Catacombs)](/Blog/music/2025/0225#like-a-storm---until-the-day-i-die-official-video-catacombs "Music Blog \ February 2025")|
-|Feb 13, 2025 | 🔗 [Music Blog \ Parkway Drive - From the Heart of the Darkness (Darker Still)](/Blog/music/2025/0225#parkway-drive---from-the-heart-of-the-darkness-darker-still "Music Blog \ February 2025")|
-|Feb 12, 2025 | 🔗 [Music Blog \ LIKE A STORM - Love The Way You Hate Me (Official Video) (Awaken the Fire)](/Blog/music/2025/0225#like-a-storm---love-the-way-you-hate-me-official-video-awaken-the-fire "Music Blog \ February 2025")|
-|Feb 10, 2025 | 🔗 [Music Blog \ BABYMETAL - Gimme Chocolate!! (Official Video) (BABYMETAL)](/Blog/music/2025/0225#babymetal---gimme-chocolate-official-video-babymetal "Music Blog \ February 2025")|
-|Feb 09, 2025 | 🔗 [Music Blog \ Parkway Drive - Shadow Boxing (Official Video) (Reverence)](/Blog/music/2025/0225#parkway-drive---shadow-boxing-official-video-reverence "Music Blog \ February 2025")|
-|Feb 06, 2025 | 🔗 [Music Blog \ Parkway Drive - Fractures (Ire)](/Blog/music/2025/0225#parkway-drive---fractures-ire "Music Blog \ February 2025")|
-|Feb 03, 2025 | 🔗 [Music Blog \ All That Remains - The Weak Willed (The Fall Of Ideals)](/Blog/music/2025/0225#all-that-remains---the-weak-willed-the-fall-of-ideals "Music Blog \ February 2025")|
-|Jan 03, 2025 | 🔗 [Music Blog \ Avenged Sevenfold - Remenissions (Waking The Fallen)](/Blog/music/2025/0125#avenged-sevenfold---remenissions-waking-the-fallen "Music Blog \ January 2025")|
-|Jan 03, 2025 | 🔗 [Music Blog \ Dead & Company - Deal (Live at Wrigley Field, Chicago, IL, 6/9/23)](/Blog/music/2025/0125#dead--company---deal-live-at-wrigley-field-chicago-il-6923 "Music Blog \ January 2025")|
-|Jul 15, 2024 | 🔗 [Music Blog \ Explosions in the Sky - A Song For Our Fathers (How Strange, Innocence)](/Blog/music/2024/0724#explosions-in-the-sky---a-song-for-our-fathers-how-strange-innocence "Music Blog \ July 2024")|
 
-| Date | Recent Computer Scribblings |
+</br>
+
+| Date | Computer Stuff |
 |:---- | :-------------------------- |
 |Dec 24, 2024 | 🔗 [JoyToKey \ YouTube Sports w/Xbox Controller](/Windows_and_DOS/joytokey "JoyToKey Configuration")|
 |May 19, 2024 | 🔗 [SimCity 4 Deluxe \ Windowed 4K](/Games/simcity_4_deluxe#steam-launch-options-windowed-4k "SimCity 4 Deluxe")|
