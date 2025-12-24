@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🖥️ Windows &amp; DOS on Chris Schammert (csmertx)</title><link>https://csmertx.com/Windows_and_DOS/</link><description>Recent content in 🖥️ Windows &amp; DOS on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Windows_and_DOS/index.xml" rel="self" type="application/rss+xml"/><item><title>🖥️ Win &amp; DOS VMs</title><link>https://csmertx.com/Windows_and_DOS/win_dos_vm/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><guid>https://csmertx.com/Windows_and_DOS/win_dos_vm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>🖥️ Windows &amp; DOS on Chris Schammert (csmertx)</title><link>https://csmertx.com/Windows_and_DOS/</link><description>Recent content in 🖥️ Windows &amp; DOS on Chris Schammert (csmertx)</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 24 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://csmertx.com/Windows_and_DOS/index.xml" rel="self" type="application/rss+xml"/><item><title>🎮 JoyToKey</title><link>https://csmertx.com/Windows_and_DOS/joytokey/</link><pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate><guid>https://csmertx.com/Windows_and_DOS/joytokey/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;br />
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="youtube-sports-with-xbox-controller">
+ YouTube Sports with Xbox Controller
+ &lt;a data-clipboard-text="https://csmertx.com/Windows_and_DOS/joytokey/#youtube-sports-with-xbox-controller" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor YouTube Sports with Xbox Controller" href="#youtube-sports-with-xbox-controller">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;blockquote>
+&lt;p>RT: LMB, LT: RMB, LB: -10s, RB: 10s, RS: Mouse, LS: ←, PGUP, →, PGDN, Y: HOME, X: Slow, B: Unslow, A: Pause&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>PATH: C:\Users\$USER\Documents\JoyToKey\YT Sports.cfg&lt;/p>
+&lt;/blockquote>
+&lt;pre>&lt;code>[General]
+FileVersion=70
+NumberOfJoysticks=2
+NumberOfButtons=32
+DisplayMode=2
+UseDiagonalInput=0
+UseDiagonalInput2=0
+UsePOV8Way=0
+RepeatSameKeyInSequence=0
+Threshold=20
+Threshold2=20
+KeySendMode=0
+SoundFile=
+ImageFile=
+VibrationSpeed1=0
+VibrationSpeed2=0
+VibrationDuration=0
+
+[Joystick 1]
+DefaultDisplayName=
+DefaultTemplateId=
+Axis1n=2, -50, 0, 0, 0, 0, 0, 0.000, 0, 95, 1.0, 100, 0, 0, 0, 0
+Axis1p=2, 50, 0, 0, 0, 0, 0, 0.000, 0, 95, 1.0, 100, 0, 0, 0, 0
+Axis2n=2, 0, -50, 0, 0, 0, 0, 0.000, 0, 95, 1.0, 100, 0, 0, 0, 0
+Axis2p=2, 0, 50, 0, 0, 0, 0, 0.000, 0, 95, 1.0, 100, 0, 0, 0, 0
+Axis3n=1, 25:00:00:00, 0.000, 0, 0
+Axis3p=1, 27:00:00:00, 0.000, 0, 0
+Axis4n=1, 21:00:00:00, 0.000, 0, 0
+Axis4p=1, 22:00:00:00, 0.000, 0, 0
+Button01=1, 4B:00:00:00, 0.000, 0, 0
+Button02=1, 10:BE:00:00, 0.000, 0, 0
+Button03=1, 10:BC:00:00, 0.000, 0, 0
+Button04=1, 24:00:00:00, 0.000, 0, 0
+Button05=1, 4A:00:00:00, 0.000, 0, 0
+Button06=1, 4C:00:00:00, 0.000, 0, 0
+Button11=2, 0, 0, 0, 1, 0, 0, 0.000, 0, 95, 1.0, 100, 0, 0, 0, 0
+Button12=2, 0, 0, 0, 0, 0, 1, 0.000, 0, 95, 1.0, 100, 0, 0, 0, 0
+
+[Joystick 2]
+DefaultDisplayName=
+DefaultTemplateId=
+&lt;/code>&lt;/pre>
+&lt;br />
+&lt;div style="text-align: center; font-size:12px; color:dimgray">
+ Created: 12/24/2021 • Edited: 12/24/2025 • Author: Chris Schammert (csmertx) • 
+ &lt;a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Windows_and_DOS/joytokey.md" 
+ title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ JoyToKey Configuration">
+ History 🕵️
+ &lt;/a>
+&lt;/div></description></item><item><title>🖥️ Win &amp; DOS VMs</title><link>https://csmertx.com/Windows_and_DOS/win_dos_vm/</link><pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate><guid>https://csmertx.com/Windows_and_DOS/win_dos_vm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="windows-activation-in-vm">
