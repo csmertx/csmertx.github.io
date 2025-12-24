@@ -85,6 +85,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Recent Computer Scribblings |
 |:---- | :-------------------------- |
+|Dec 24, 2024 | 🔗 [JoyToKey \ YouTube Sports w/Xbox Controller](/Windows_and_DOS/joytokey "JoyToKey Configuration")|
 |May 19, 2024 | 🔗 [SimCity 4 Deluxe \ Windowed 4K](/Games/simcity_4_deluxe#steam-launch-options-windowed-4k "SimCity 4 Deluxe")|
 |May 17, 2024 | 🔗 [KDE Plasma \ Linux Mint \ KDE Plasma Clipboard Emoji Support](/Linux/DEs/kde_plasma#linux-mint--kde-plasma-clipboard-emoji-support "KDE Plasma")|
 |Apr 22, 2024 | 🔗 [Trackballs \ Elecom HUGE trackball FN Buttons](/Linux/Devices/trackball_scrolling#elecom-huge-trackball-fn-buttons "Trackballs")|
@@ -125,7 +126,7 @@ External links are provided for convenience and do not imply endorsement.
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 12/08/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 12/24/2025 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
