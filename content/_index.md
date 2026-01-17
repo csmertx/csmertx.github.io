@@ -60,7 +60,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Music Blog |
 |:---- | :--------- |
-|Jan 17, 2026 | 🔗 [Music Blog \ Ratatat - Halohead (Visuals)](/Blog/music/2025/0126 "Music Blog \ January 2026")|
+|Jan 17, 2026 | 🔗 [Music Blog \ Ratatat - Halohead (Visuals)](/Blog/music/2026/0126 "Music Blog \ January 2026")|
 |Dec 07, 2025 | 🔗 [Music Blog \ Frank Sinatra - Yesterday (My Way)](/Blog/music/2025/1225 "Music Blog \ December 2025")|
 |Nov 25, 2025 | 🔗 [Music Blog \ The Killers - Mr. Brightside (Original Demo)](/Blog/music/2025/1125 "Music Blog \ November 2025")|
 |Nov 18, 2025 | 🔗 [Music Blog \ DC TALK - Time Is... (Free At Last)](/Blog/music/2025/1125 "Music Blog \ November 2025")|
