@@ -60,12 +60,13 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Music Blog |
 |:---- | :--------- |
-|Dec 07, 2025 | 🔗 [Music Blog \ Frank Sinatra - Yesterday (My Way)](/Blog/music/2025/1225# "Music Blog \ December 2025")|
-|Nov 25, 2025 | 🔗 [Music Blog \ The Killers - Mr. Brightside (Original Demo)](/Blog/music/2025/1125# "Music Blog \ November 2025")|
-|Nov 18, 2025 | 🔗 [Music Blog \ DC TALK - Time Is... (Free At Last)](/Blog/music/2025/1125# "Music Blog \ November 2025")|
-|Oct 27, 2025 | 🔗 [Music Blog \ R E L & Artemis Delta - Night City (CYBERPUNK 2077 SOUNDTRACK)](/Blog/music/2025/1025# "Music Blog \ October 2025")|
-|Oct 13, 2025 | 🔗 [Music Blog \ Run The Jewels ft. Yankee and the Brave - No Save Point ...](/Blog/music/2025/1025# "Music Blog \ October 2025")|
-|Sep 29, 2025 | 🔗 [Music Blog \ Bob Dylan - Blowin' in the Wind (Bob Dylan's Greatest Hits)](/Blog/music/2025/0925# "Music Blog \ September 2025")|
+|Jan 17, 2026 | 🔗 [Music Blog \ Ratatat - Halohead (Visuals)](/Blog/music/2025/0126 "Music Blog \ January 2026")|
+|Dec 07, 2025 | 🔗 [Music Blog \ Frank Sinatra - Yesterday (My Way)](/Blog/music/2025/1225 "Music Blog \ December 2025")|
+|Nov 25, 2025 | 🔗 [Music Blog \ The Killers - Mr. Brightside (Original Demo)](/Blog/music/2025/1125 "Music Blog \ November 2025")|
+|Nov 18, 2025 | 🔗 [Music Blog \ DC TALK - Time Is... (Free At Last)](/Blog/music/2025/1125 "Music Blog \ November 2025")|
+|Oct 27, 2025 | 🔗 [Music Blog \ R E L & Artemis Delta - Night City (CYBERPUNK 2077 SOUNDTRACK)](/Blog/music/2025/1025 "Music Blog \ October 2025")|
+|Oct 13, 2025 | 🔗 [Music Blog \ Run The Jewels ft. Yankee and the Brave - No Save Point ...](/Blog/music/2025/1025 "Music Blog \ October 2025")|
+|Sep 29, 2025 | 🔗 [Music Blog \ Bob Dylan - Blowin' in the Wind (Bob Dylan's Greatest Hits)](/Blog/music/2025/0925 "Music Blog \ September 2025")|
 |Aug 24, 2025 | 🔗 [Music Blog \ Gojira - My Last Creation (L'Enfant Sauvage)](/Blog/music/2025/0825#gojira---my-last-creation-lenfant-sauvage "Music Blog \ August 2025")|
 |Aug 01, 2025 | 🔗 [Music Blog \ Ozzy Osbourne - Crazy Train (Official Animated Video) (Blizzard Of Ozz)](/Blog/music/2025/0825#ozzy-osbourne---crazy-train-official-animated-video-blizzard-of-ozz "Music Blog \ August 2025")|
 |Jun 22, 2025 | 🔗 [Music Blog \ Mastodon - All the Heavy Lifting (The Hunter)](/Blog/music/2025/0625#mastodon---all-the-heavy-lifting-the-hunter "Music Blog \ June 2025")|
