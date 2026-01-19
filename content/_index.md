@@ -27,7 +27,7 @@ _Parental advisory for Day & Night, and Music blog: Uncouth language, personal s
 
 <div style="text-align: center;">
 
-Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_science "Wikipedia \ Computer Science") 🔗 [hobbyist](/About/csmertx "About \ Csmertx (Chris Schammert)"), and occasional PC gamer.
+Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wiki/Computer_science "Wikipedia \ Computer Science") 🔗 [hobbyist](/About/csmertx "About \ Csmertx (Chris Schammert)"), and occasional PC gamer. I also happen to be a straight white boy.
 
 </div>
 
