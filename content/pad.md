@@ -10,9 +10,7 @@ weight: -20
 
 <br />
 
-## Computer stuff, Music Blog, and Day & Night Blog (D&N for dissociative relief)
-
-Some pages like 🔗 [NetBSD](/Unix/NetBSD/netbsd "Csmertx.com \ NetBSD") are a snapshot from 2018. Please refer to project specific documentation.
+## Computer stuff, Music Blog, and Day & Night Blog
 
 Most pages have a resources section at the bottom of the page with direct links to projects mentioned.
 
