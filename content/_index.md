@@ -51,6 +51,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Day & Night Blog |
 |:---- | :--------------- |
+|Mar 21, 2025 | 🔗 [Day & Night Blog \ Cob Spider Tea (4thafuture)](/Blog/daynight/2026/0325#cob-spider-tea "Day & Night Blog \ March 2026")|
 |Jul 07, 2025 | 🔗 [Day & Night Blog \ Taking A Vacation](/Blog/daynight/2025/0725#taking-a-vacation "Day & Night Blog \ July 2025")|
 |Mar 31, 2025 | 🔗 [Day & Night Blog \ To The Writers](/Blog/daynight/2025/0325#to-the-writers "Day & Night Blog \ March 2025")|
 |Mar 24, 2025 | 🔗 [Day & Night Blog \ Keep the Supposition To Yourself](/Blog/daynight/2025/0325#keep-the-supposition-to-yourself "Day & Night Blog \ March 2025")|
