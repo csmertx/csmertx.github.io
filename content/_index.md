@@ -51,6 +51,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Day & Night Blog |
 |:---- | :--------------- |
+|May 18, 2026 | 🔗 [Day & Night Blog \ Eye Contact](/Blog/daynight/2026/0526#eye-contact "Day & Night Blog \ May; 2026")| 
 |May 03, 2026 | 🔗 [Day & Night Blog \ I'd Rather Be Deaf](/Blog/daynight/2026/0526 "Day & Night Blog \ May; 2026")| 
 |Mar 21, 2026 | 🔗 [Day & Night Blog \ Cob Spider Tea (4thafuture)](/Blog/daynight/2026/0326#cob-spider-tea "Day & Night Blog \ March 2026")|
 |Jul 07, 2025 | 🔗 [Day & Night Blog \ Taking A Vacation](/Blog/daynight/2025/0725#taking-a-vacation "Day & Night Blog \ July 2025")|
