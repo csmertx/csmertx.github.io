@@ -63,7 +63,8 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Music Blog |
 |:---- | :--------- |
-|May 11, 2026 | 🔗 [Music Blog \ Kathy McCarty - Rocketship (Official Video) (Dead Dog's Eyeball: Songs of Daniel Johnston)](/Blog/music/2026/0526 "Music Blog \ May 2026")|
+|May 21, 2026 | 🔗 [Music Blog \ Cage The Elephant - Ain't No Rest For The Wicked (Official Video) (Cage The Elephant)](/Blog/music/2026/0526#cage-the-elephant---aint-no-rest-for-the-wicked-official-video-cage-the-elephant  "Music Blog \ May 2026")|
+|May 11, 2026 | 🔗 [Music Blog \ Kathy McCarty - Rocketship (Official Video) (Dead Dog's Eyeball: Songs of Daniel Johnston)](/Blog/music/2026/0526#kathy-mccarty---rocketship-official-video-dead-dogs-eyeball-songs-of-daniel-johnston "Music Blog \ May 2026")|
 |Mar 14, 2026 | 🔗 [Music Blog \ Rivers of Nihil - Hollow (Where Owls Know My Name)](/Blog/music/2026/0326 "Music Blog \ March 2026")|
 |Jan 17, 2026 | 🔗 [Music Blog \ Ratatat - Halohead (Visuals)](/Blog/music/2026/0126 "Music Blog \ January 2026")|
 |Dec 07, 2025 | 🔗 [Music Blog \ Frank Sinatra - Yesterday (My Way)](/Blog/music/2025/1225 "Music Blog \ December 2025")|
@@ -128,7 +129,7 @@ External links are provided for convenience and do not imply endorsement.
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 05/19/2026 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 05/21/2026 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
