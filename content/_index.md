@@ -63,6 +63,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Music Blog |
 |:---- | :--------- |
+|May 23, 2026 | 🔗 [Music Blog \ Insomnium - While We Sleep (Official Video) (Insomnium)](/Blog/music/2026/0526#insomnium---while-we-sleep-official-video-insomnium  "Music Blog \ May 2026")|
 |May 21, 2026 | 🔗 [Music Blog \ Cage The Elephant - Ain't No Rest For The Wicked (Official Video) (Cage The Elephant)](/Blog/music/2026/0526#cage-the-elephant---aint-no-rest-for-the-wicked-official-video-cage-the-elephant  "Music Blog \ May 2026")|
 |May 11, 2026 | 🔗 [Music Blog \ Kathy McCarty - Rocketship (Official Video) (Dead Dog's Eyeball: Songs of Daniel Johnston)](/Blog/music/2026/0526#kathy-mccarty---rocketship-official-video-dead-dogs-eyeball-songs-of-daniel-johnston "Music Blog \ May 2026")|
 |Mar 14, 2026 | 🔗 [Music Blog \ Rivers of Nihil - Hollow (Where Owls Know My Name)](/Blog/music/2026/0326 "Music Blog \ March 2026")|
