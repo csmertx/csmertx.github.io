@@ -51,6 +51,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Day & Night Blog |
 |:---- | :--------------- |
+|May 28, 2026 | 🔗 [Day & Night Blog \ Taking A Break Again](/Blog/daynight/2026/0526#taking-a-break-again "Day & Night Blog \ May; 2026")| 
 |May 18, 2026 | 🔗 [Day & Night Blog \ Eye Contact](/Blog/daynight/2026/0526#eye-contact "Day & Night Blog \ May; 2026")| 
 |May 03, 2026 | 🔗 [Day & Night Blog \ I'd Rather Be Deaf](/Blog/daynight/2026/0526 "Day & Night Blog \ May; 2026")| 
 |Mar 21, 2026 | 🔗 [Day & Night Blog \ Cob Spider Tea (4thafuture)](/Blog/daynight/2026/0326#cob-spider-tea "Day & Night Blog \ March 2026")|
@@ -130,7 +131,7 @@ External links are provided for convenience and do not imply endorsement.
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 05/23/2026 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 05/28/2026 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
