@@ -64,6 +64,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Music Blog |
 |:---- | :--------- |
+|May 30, 2026 | 🔗 [Music Blog \ Mors Principium Est - Lost in a Starless Aeon (Seven)](/Blog/music/2026/0526#mors-principium-est---lost-in-a-starless-aeon-seven  "Music Blog \ May 2026")|
 |May 23, 2026 | 🔗 [Music Blog \ Insomnium - While We Sleep (Official Video) (Insomnium)](/Blog/music/2026/0526#insomnium---while-we-sleep-official-video-insomnium  "Music Blog \ May 2026")|
 |May 21, 2026 | 🔗 [Music Blog \ Cage The Elephant - Ain't No Rest For The Wicked (Official Video) (Cage The Elephant)](/Blog/music/2026/0526#cage-the-elephant---aint-no-rest-for-the-wicked-official-video-cage-the-elephant  "Music Blog \ May 2026")|
 |May 11, 2026 | 🔗 [Music Blog \ Kathy McCarty - Rocketship (Official Video) (Dead Dog's Eyeball: Songs of Daniel Johnston)](/Blog/music/2026/0526#kathy-mccarty---rocketship-official-video-dead-dogs-eyeball-songs-of-daniel-johnston "Music Blog \ May 2026")|
@@ -131,7 +132,7 @@ External links are provided for convenience and do not imply endorsement.
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 05/28/2026 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 05/30/2026 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
