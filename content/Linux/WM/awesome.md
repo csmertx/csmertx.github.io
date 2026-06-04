@@ -9,8 +9,6 @@ weight: -20
 
 <br />
 
-> See also [AwesomeWM | Floppier DE](/Linux/WM/awesome_floppier) for more theming
-
 ## Easy Mode Theming
 
 - ```mkdir ~/.config/awesome```
@@ -74,7 +72,7 @@ weight: -20
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 12/29/2021 • Edited: 02/09/2025 • Author: Chris Schammert (csmertx) • 
+    Created: 12/29/2021 • Edited: 06/04/2026 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/Linux/WM/awesome.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Linux \ WM \ AwesomeWM">
        History 🕵️
