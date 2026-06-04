@@ -206,9 +206,6 @@
 &lt;blockquote>
 &lt;p>Hacky Bash script version of GNOME&amp;rsquo;s &lt;code>gnome-do&lt;/code> program (&lt;code>ALT&lt;/code> + &lt;code>F2&lt;/code>)&lt;/p></description></item><item><title>💻 AwesomeWM</title><link>https://csmertx.com/Linux/WM/awesome/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/awesome/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
-&lt;blockquote>
-&lt;p>See also &lt;a class="gdoc-markdown__link" href="../../Linux/WM/awesome_floppier">AwesomeWM | Floppier DE&lt;/a> for more theming&lt;/p>
-&lt;/blockquote>
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="easy-mode-theming">
  Easy Mode Theming
@@ -239,50 +236,19 @@
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>vim ~/.config/awesome/awesome-copycats/themes/vertex/theme.lua&lt;/code>&lt;/p></description></item><item><title>AwesomeWM (Floppier DE)</title><link>https://csmertx.com/Linux/WM/awesome_floppier/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/awesome_floppier/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
-&lt;br />
+&lt;p>&lt;code>vim ~/.config/awesome/awesome-copycats/themes/vertex/theme.lua&lt;/code>&lt;/p>
 &lt;blockquote>
-&lt;p>Never tried it myself, but here are some links and stuff&lt;/p>
+&lt;p>line ~277&lt;/p>
 &lt;/blockquote>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="what-the">
- What the..
- &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/awesome_floppier/#what-the" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor What the.." href="#what-the">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>AwesomeWM / Arch Linux turned full desktop environment&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.reddit.com/r/unixporn/comments/fhd70d/awesomewm_floppier/">[AwesomeWM] Floppier&lt;/a>&lt;/p>
+&lt;p>Visit: &lt;a class="gdoc-markdown__link" href="https://openweathermap.org">https://openweathermap.org&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>Search City&lt;/code>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/manilarome/the-glorious-dotfiles">GitHub - manilarome/the-glorious-dotfiles: A glorified personal dot files
-&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="install-dependencies">
- Install dependencies
- &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/awesome_floppier/#install-dependencies" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install dependencies" href="#install-dependencies">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;pre tabindex="0">&lt;code>tri -S awesome-git rofi-git picom-tryone-git light-git alsa-utils acpi acpid acpi_call mpd mpc maim feh xclip xprop xsel imagemagick blueman redshift xfce4-power-manager upower xdg_menu awesome-freedesktop jq noto-fonts-emoji nerd-fonts-fantasque-sans-mono
-&lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="resources">
- Resources
- &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/awesome_floppier/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/manilarome/the-glorious-dotfiles/wiki">Github - manilarome/the-glorious-dotfiles Wiki&lt;/a>&lt;/p></description></item><item><title>💻 Dynamic Window Manager (DWM)</title><link>https://csmertx.com/Linux/WM/dwm/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/dwm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://openweathermap.org/city/4156404">https://openweathermap.org/city/4156404&lt;/a> = &lt;code>city_id = 4156404,&lt;/code>&lt;/p></description></item><item><title>💻 Dynamic Window Manager (DWM)</title><link>https://csmertx.com/Linux/WM/dwm/</link><pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/dwm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="compile">

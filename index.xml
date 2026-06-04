@@ -1667,9 +1667,6 @@ DefaultTemplateId=
 &lt;li>
 &lt;p>&lt;a class="gdoc-markdown__link" href="https://docs.xfce.org/apps/catfish/start">Read more about catfish&lt;/a>&lt;/p></description></item><item><title>💻 AwesomeWM</title><link>https://csmertx.com/Linux/WM/awesome/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/awesome/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
-&lt;blockquote>
-&lt;p>See also &lt;a class="gdoc-markdown__link" href="./Linux/WM/awesome_floppier">AwesomeWM | Floppier DE&lt;/a> for more theming&lt;/p>
-&lt;/blockquote>
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="easy-mode-theming">
  Easy Mode Theming
@@ -1700,7 +1697,19 @@ DefaultTemplateId=
  &lt;/h2>
 &lt;/div>&lt;ul>
 &lt;li>
-&lt;p>&lt;code>vim ~/.config/awesome/awesome-copycats/themes/vertex/theme.lua&lt;/code>&lt;/p></description></item><item><title>💻 Docker</title><link>https://csmertx.com/Linux/VMs/docker_installation/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/VMs/docker_installation/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>&lt;code>vim ~/.config/awesome/awesome-copycats/themes/vertex/theme.lua&lt;/code>&lt;/p>
+&lt;blockquote>
+&lt;p>line ~277&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>Visit: &lt;a class="gdoc-markdown__link" href="https://openweathermap.org">https://openweathermap.org&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>Search City&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://openweathermap.org/city/4156404">https://openweathermap.org/city/4156404&lt;/a> = &lt;code>city_id = 4156404,&lt;/code>&lt;/p></description></item><item><title>💻 Docker</title><link>https://csmertx.com/Linux/VMs/docker_installation/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/VMs/docker_installation/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;blockquote>
 &lt;p>A neat way to setup a DIY media streaming box&lt;/p>
@@ -1894,50 +1903,7 @@ DefaultTemplateId=
 &lt;p>Debian: mount the .iso and copy the contents to another folder then chown&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Try VBoxVGA or VBoxSVGA with &amp;lsquo;Pegasus&amp;rsquo;&lt;/p></description></item><item><title>AwesomeWM (Floppier DE)</title><link>https://csmertx.com/Linux/WM/awesome_floppier/</link><pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/WM/awesome_floppier/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
-&lt;br />
-&lt;blockquote>
-&lt;p>Never tried it myself, but here are some links and stuff&lt;/p>
-&lt;/blockquote>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="what-the">
- What the..
- &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/awesome_floppier/#what-the" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor What the.." href="#what-the">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>AwesomeWM / Arch Linux turned full desktop environment&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://www.reddit.com/r/unixporn/comments/fhd70d/awesomewm_floppier/">[AwesomeWM] Floppier&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/manilarome/the-glorious-dotfiles">GitHub - manilarome/the-glorious-dotfiles: A glorified personal dot files
-&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="install-dependencies">
- Install dependencies
- &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/awesome_floppier/#install-dependencies" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Install dependencies" href="#install-dependencies">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;pre tabindex="0">&lt;code>tri -S awesome-git rofi-git picom-tryone-git light-git alsa-utils acpi acpid acpi_call mpd mpc maim feh xclip xprop xsel imagemagick blueman redshift xfce4-power-manager upower xdg_menu awesome-freedesktop jq noto-fonts-emoji nerd-fonts-fantasque-sans-mono
-&lt;/code>&lt;/pre>&lt;div class="gdoc-page__anchorwrap">
- &lt;h2 id="resources">
- Resources
- &lt;a data-clipboard-text="https://csmertx.com/Linux/WM/awesome_floppier/#resources" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Resources" href="#resources">
- &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
- &lt;/a>
- &lt;/h2>
-&lt;/div>&lt;ul>
-&lt;li>
-&lt;p>&lt;a class="gdoc-markdown__link" href="https://github.com/manilarome/the-glorious-dotfiles/wiki">Github - manilarome/the-glorious-dotfiles Wiki&lt;/a>&lt;/p></description></item><item><title>💻 FastCGI (PHP-FPM)</title><link>https://csmertx.com/Linux/Software/php-fpm/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/php-fpm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
+&lt;p>Try VBoxVGA or VBoxSVGA with &amp;lsquo;Pegasus&amp;rsquo;&lt;/p></description></item><item><title>💻 FastCGI (PHP-FPM)</title><link>https://csmertx.com/Linux/Software/php-fpm/</link><pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate><guid>https://csmertx.com/Linux/Software/php-fpm/</guid><description>&lt;!-- The content of this website was written by Christopher Schammert aka Chris Schammert -->
 &lt;br />
 &lt;div class="gdoc-page__anchorwrap">
  &lt;h2 id="enable-error-logging">
