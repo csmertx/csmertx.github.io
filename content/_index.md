@@ -64,6 +64,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Music Blog |
 |:---- | :--------- |
+|Jun 19, 2026 | 🔗 [Music Blog \ Rivers of Nihil - The Logical End (Rivers of Nihil)](/Blog/music/2026/0626/#rivers-of-nihil---the-logical-end-rivers-of-nihil "Music Blog \ Jun 2026")|
 |Jun 11, 2026 | 🔗 [Music Blog \ Rivers of Nihil - Water & Time (Official Video) (Rivers of Nihil)](/Blog/music/2026/0626/#rivers-of-nihil---water--time-official-video-rivers-of-nihil "Music Blog \ Jun 2026")|
 |May 30, 2026 | 🔗 [Music Blog \ Mors Principium Est - Lost in a Starless Aeon (Seven)](/Blog/music/2026/0526#mors-principium-est---lost-in-a-starless-aeon-seven  "Music Blog \ May 2026")|
 |May 23, 2026 | 🔗 [Music Blog \ Insomnium - While We Sleep (Official Video) (Insomnium)](/Blog/music/2026/0526#insomnium---while-we-sleep-official-video-insomnium  "Music Blog \ May 2026")|
