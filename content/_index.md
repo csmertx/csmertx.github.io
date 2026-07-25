@@ -64,6 +64,7 @@ Hello, I am an AI Wrangler, 🔗 [computer science](https://en.wikipedia.org/wik
 
 | Date | Music Blog |
 |:---- | :--------- |
+|Jul 25, 2026 | 🔗 [Music Blog \ Iron Maiden - Déjà Vu (2015 Remaster) (Somewhere in Time)](/Blog/music/2026/0726/#iron-maiden---d%C3%A9j%C3%A0-vu-2015-remaster-somewhere-in-time "Music Blog \ Jul 2026")|
 |Jun 19, 2026 | 🔗 [Music Blog \ Rivers of Nihil - The Logical End (Rivers of Nihil)](/Blog/music/2026/0626/#rivers-of-nihil---the-logical-end-rivers-of-nihil "Music Blog \ Jun 2026")|
 |Jun 11, 2026 | 🔗 [Music Blog \ Rivers of Nihil - Water & Time (Official Video) (Rivers of Nihil)](/Blog/music/2026/0626/#rivers-of-nihil---water--time-official-video-rivers-of-nihil "Music Blog \ Jun 2026")|
 |May 30, 2026 | 🔗 [Music Blog \ Mors Principium Est - Lost in a Starless Aeon (Seven)](/Blog/music/2026/0526#mors-principium-est---lost-in-a-starless-aeon-seven  "Music Blog \ May 2026")|
@@ -134,7 +135,7 @@ External links are provided for convenience and do not imply endorsement.
 <br />
 
 <div style="text-align: center; font-size:12px; color:dimgray">
-    Created: 01/07/2023 • Edited: 07/05/2026 • Author: Chris Schammert (csmertx) • 
+    Created: 01/07/2023 • Edited: 07/25/2026 • Author: Chris Schammert (csmertx) • 
     <a href="https://github.com/csmertx/csmertx.github.io/commits/main/content/_index.md" 
        title="Github.com | csmertx \ csmertx.github.io \ commits \ main \ content \ Index">
        History 🕵️
