@@ -57,7 +57,7 @@ Linux-ing for over ten years, and have been typing random things into computer p
 
 ## My Political Views
 
-- I like the U.S. Constitution. Registered as an Independent.
+- I like the U.S. Constitution. Registered as an Independent. I don't believe in the bail bond system. Everyone should be treated equally.
 
 ## Religious views
 
